@@ -1,0 +1,13 @@
+{from "pattern proj_impactor"
+	{entity "lancet3m_cm_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag "no_ricochet" "big" "size2" "88to105" "pierce" "rpg_shell" "fx_90_110" "fx_cm"} 
+	;¡◊  «-6 (3Í„ 1,8Í„ “√-50 ËÎË “√-40 (“› 1,3-1,35) ¡¡ 215ÏÏ)
+{damage blastwave {energy 1.4} {area 2.9 3.4}}
+{damage add blastwave {energy 2.7} {area 1.2 1.4}}
+{damage cumulative {damage 270} {distance 3}}
+ 
+}

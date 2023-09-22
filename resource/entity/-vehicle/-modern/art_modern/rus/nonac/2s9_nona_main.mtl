@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/Nona/nona_s"}
+	{bump "$/model/Nona/nona_s_bp"}
+	{specular "$/model/Nona/nona_s_sp"}
+	{color "229 229 229 127"}
+	{emitsheat}
+{blend none}
+}

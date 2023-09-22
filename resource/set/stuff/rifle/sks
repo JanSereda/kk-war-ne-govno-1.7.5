@@ -1,0 +1,22 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	
+	{filling "ammo 762" 10}
+	{curve "762x39_70"}
+	{entity "sks_45"}
+	{fireSound "rifle/mosin_03"}
+	{reloadSound "enfield"}
+	{preloaded}
+	{curve "762x39_70"}
+	{inventory
+		{size 5 2}
+	}
+	{Automatic}
+	{healthDamage 120}
+	{reloadSound "enfield"}
+	{recoveryTime 0.25}
+	("accuracy_rifle")
+	("speed" s(840))
+	{cursor "mgun_on_0"}
+	{cursorReloading "cannon_reload_all"}
+}

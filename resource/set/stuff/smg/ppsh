@@ -1,0 +1,22 @@
+{from "pattern smg"
+	{filling "ammo standart" 71}
+	{entity "ppsh"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "tt"}
+	
+	
+		("smg_range")
+	
+	{burst
+		{short 1 1}
+		{long 0.5 1}
+		{rangeKoef 0.669}
+	}
+	{healthDamage 92}
+	
+	{spreading 0.2}
+	{rechargeTime 3.5}
+	("recoveryTime" r(900))
+	
+ 	("speed" s(490))
+}

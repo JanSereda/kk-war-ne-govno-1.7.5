@@ -1,0 +1,63 @@
+{breed
+	{skin "cw_oksva_vertpilot"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality cz}
+	{armors
+		{head "sh-68_flora"}
+	}
+	{perks
+		{"vision" mp_sniper
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_4
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1
+		}
+		{"telescope"}
+		{"aimedshot"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "sandbag_kit"}
+		{item "smoke grenade rdg2b" 2}
+		{item "plant" 2}
+		{item "akval_1" filling "vin_ammo ammo" 20}
+		{item "vin_ammo ammo" 100}
+		{item "bjo02_sniper_a"}
+		{item "gm94_grl" filling "gm94ammo ammo fg" 3}
+		{item "gm94ammo ammo gas_short" 6}
+		{in_hands 4}
+	}
+}

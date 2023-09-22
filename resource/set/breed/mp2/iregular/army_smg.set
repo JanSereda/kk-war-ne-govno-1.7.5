@@ -1,0 +1,58 @@
+{breed
+	{skin "cw_arb_boevik2"}
+	{portrait "_new/arb/inf"}
+	{icon smgs}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "400%"
+		}
+		{"stamina" "400%"
+		}
+		{"stamina_regeneration" "400%"
+		}
+		{"speed" 0.8
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "tat_ba_7_assault"}
+		{item "bandage" 10}
+		{item "ammo 762" 240}
+		{item "rgd grenade" 3}
+		{item "akms" filling "762 ammo" 30}
+		{item "rkg3" 3}
+		{item "sandbag_kit"}
+		{in_hands 4}
+	}
+}

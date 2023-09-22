@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ags30"}
+	{bump "ags30_bp"}
+	{specular "ags30_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

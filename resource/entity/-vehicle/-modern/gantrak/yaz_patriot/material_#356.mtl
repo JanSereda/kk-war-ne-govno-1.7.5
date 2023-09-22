@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sdfaf"}
+	{blend none}
+}

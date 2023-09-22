@@ -1,0 +1,61 @@
+{breed
+	{skin "cw_oksva_klmk_hood"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality bel}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_elite_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "200%"
+		}
+		{"health_regeneration" "75%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.1
+		}
+		{"field_glass"}
+		{"skill_tankgun" lev_4
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_4
+		}
+		{"skill_airgm_launcher" lev_4
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "usa_las_designator" filling "usa_laser ammo" 2000}
+		{item "binocular"}
+		{item "m16a4full" filling "556natos ammo" 30}
+		{item "556nato ammo" 200}
+		{item "c4_bomb"}
+		{item "f1_script grenade" 4}
+		{item "tarzan"}
+		{item "rpg27 weapon" filling "rpg27 ammo" 1}
+		{in_hands 3}
+	}
+}

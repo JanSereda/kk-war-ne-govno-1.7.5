@@ -1,0 +1,62 @@
+{breed
+	{skin "cw_cu_inf"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head "sh-68_flora"}
+	}
+	{perks
+		{"vision" mp_sniper
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_3
+		}
+		{"gra_launch" lvl_2
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_2
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"telescope"}
+		{"aimedshot"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "sandbag_kit"}
+		{item "mosin_s" filling "svd_ammo ammo" 5}
+		{item "svd_ammo ammo" 100}
+		{item "smoke grenade rdg2b" 2}
+		{item "antitank_tm62m mine"}
+		{item "smersh"}
+		{item "plant"}
+		{in_hands 2}
+	}
+}

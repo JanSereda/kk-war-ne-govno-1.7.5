@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "kornet_d"}
+	{emitsheat}
+{blend none}
+}

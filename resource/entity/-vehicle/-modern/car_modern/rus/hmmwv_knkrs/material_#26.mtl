@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "fagot_co"}
+	{emitsheat}
+{blend none}
+}

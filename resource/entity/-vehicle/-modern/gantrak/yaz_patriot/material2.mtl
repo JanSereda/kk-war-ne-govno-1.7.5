@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/urals/c4142c18"}
+	{bump "$/model/urals/c4142c18_bp"}
+	{specular "$/model/urals/c4142c18_sp"}
+	{color "255 255 255 25"}
+	{emitsheat}
+{blend none}
+}

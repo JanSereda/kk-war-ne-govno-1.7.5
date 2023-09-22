@@ -1,0 +1,60 @@
+{breed
+	{skin "cw_arb_boevik2"}
+	{portrait "_new/arb/inf"}
+	{icon smgs}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "400%"
+		}
+		{"stamina" "400%"
+		}
+		{"stamina_regeneration" "400%"
+		}
+		{"speed" 0.8
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher"}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "tarzan"}
+		{item "bandage" 10}
+		{item "head_rad"}
+		{item "rus_radio_station"}
+		{item "radio_station_sumka"}
+		{item "rgd grenade" 3}
+		{item "rkg3" 3}
+		{item "sandbag_kit"}
+		{item "ak74" filling "545 ammo" 30}
+		{item "545 ammo" 200}
+		{in_hands 8}
+	}
+}

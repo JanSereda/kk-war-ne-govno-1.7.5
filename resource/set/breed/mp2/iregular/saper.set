@@ -1,0 +1,58 @@
+{breed
+	{skin "cw_che_boevik4"}
+	{portrait "_new/chn/inf"}
+	{icon elite}
+	{icon_priority 2}
+	{tags "stealth"}
+	{nationality arb}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_specnaz}
+		{"smg" lvl_4}
+		{"mgun" lvl_4}
+		{"rifle" lvl_4}
+		{"rocketlauncher" lvl_4}
+		{"pistol" lvl_4}
+		{"gra_launch" lvl_4}
+		{"melee" lvl_5}
+		{"avoidance" lvl_5}
+		{"health" "180%"}
+		{"health_regeneration" "100%"}
+		{"stamina" "300%"}
+		{"stamina_regeneration" "200%"}
+		{"speed" 1.1}
+		{"telescope"}
+		{"aimedshot"}
+		{"stealth"}
+		{"field_glass"}
+;		{"medic" 10.0}
+		
+		{"skill_tankgun" lev_1}
+		{"skill_atgm_launcher" lev_1}
+		{"skill_airgun" lev_1}
+		{"skill_airgm_launcher" lev_1}
+	}
+	{veterancy
+		{"specnaz_lvl_1" 2
+		}
+		{"specnaz_lvl_2" 3
+		}
+		{"specnaz_lvl_3" 5
+		}
+		{"specnaz_lvl_4" 7
+		}
+		{"specnaz_lvl_5" 9
+		}
+	}
+	{inventory
+		{item "6b5-16"}
+		{item "bandage" 4}
+		{item "antitank_tm62m mine" 5}
+		{item "c4_bomb"}
+		{item "g36c" filling "556nato ammo" 30}
+		{item "556nato ammo" 300}
+		{in_hands 4}
+	}
+}

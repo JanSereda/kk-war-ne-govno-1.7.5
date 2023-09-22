@@ -1,0 +1,59 @@
+{breed
+	{skin "cw_oksva_vertpilot"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality pol}
+	{armors
+		{head cap_panama_cz}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_4
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "sandbag_kit"}
+		{item "smoke grenade rdg2b" 2}
+		{item "uk-59" filling "pkm_ammo ammo" 50}
+		{item "pkm_ammo ammo" 150}
+		{item "rubin_mg_a"}
+		{item "rgd grenade" 2}
+		{item "ballistic_knife"}
+		{in_hands 3}
+	}
+}

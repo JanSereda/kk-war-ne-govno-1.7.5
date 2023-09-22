@@ -1,0 +1,133 @@
+{entity
+	(include "/properties/car.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.9))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+    {props "vehicle" "wheeled" "4_wheels" "car" "hmmwv"}
+	("armor_car_truck")
+	
+	{extender "enumerator"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	(include "/set/resupply_generic.inc")
+	("mp_cwr_irg_osnv_boep")
+
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_Kubel_driver"} {end "seat_driver_car"} {base "driver"}}
+			{reverse 	{end	"board_Kubel_driver" -1} {base "driver" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_Kubel_commander"} {end "seat_passenger"} {base "commander"}}
+			{reverse 	{end	"board_Kubel_commander" -1} {base "commander" -1}}
+		}
+		{anm "passenger1"
+			{forward	{begin	"board_Kubel_leftpassenger"} {end "seat_passenger"} {base "doorl2"}}
+			{reverse 	{end	"board_Kubel_leftpassenger" -1} {base "doorl2" -1}}
+		}
+		{anm "passenger2"
+			{forward	{begin	"board_Kubel_rightpassenger"} {end "seat_passenger"} {base "doorr2"}}
+			{reverse 	{end	"board_Kubel_rightpassenger" -1} {base "doorr2" -1}}
+		}
+		{anm "passenger3"
+			{forward	{begin	"board_Kubel_rightpassenger"} {end "seat_passenger"} {base "doorb"}}
+			{reverse 	{end	"board_Kubel_rightpassenger" -1} {base "doorb" -1}}
+		}
+		{anm "passenger4"
+			{forward	{begin	"board_Kubel_rightpassenger"} {end "seat_passenger"} {base "doorb"}}
+			{reverse 	{end	"board_Kubel_rightpassenger" -1} {base "doorb" -1}}
+		}
+		{anm "passenger5"
+			{forward	{begin	"board_Kubel_rightpassenger"} {end "seat_passenger"} {base "doorb"}}
+			{reverse 	{end	"board_Kubel_rightpassenger" -1} {base "doorb" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_Kubel_leftpassenger"} {end "seat_m7_mgunner"} {base "doorl2"}}
+			{reverse 	{end	"board_Kubel_leftpassenger" -1} {base "doorl2" -1}}
+		}
+
+	}
+	
+{Placer
+	{place "driver"		{LinkBone "driver"} {group "crew"} {visor "driver"}}
+	{place "commander"	{LinkBone "commander"} {group "crew"} {visor "driver"}}
+	{place "seat01"	{LinkBone "seat01"} {group "crew"} {visor "driver"}}
+	{place "seat02"	{LinkBone "seat02"} {group "crew"} {visor "driver"}}
+	{place "seat02"	{LinkBone "seat02"} {group "crew"} {visor "driver"}}
+	{place "seat03"	{LinkBone "seat03"} {group "crew"} {visor "driver"}}
+	{place "seat04"	{LinkBone "seat04"} {group "crew"} {visor "driver"}}
+	{place "seat05"	{LinkBone "seat05"} {group "crew"} {visor "driver"}}
+	{place "gunner"	{LinkBone "gunner"} {group "crew"} {visor "mgun"}}
+	
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+("crew_human" place(driver)		animation(driver)	door(emit1))
+("crew_human" place(commander)	animation(commander)	door(emit2))
+("crew_human" place(gunner)		animation(gunner)	door(emit3))
+("crew_human" place(seat01)		animation(passenger1)	door(emit3))
+("crew_human" place(seat02)		animation(passenger2)	door(emit4))
+("crew_human" place(seat03)		animation(passenger3)	door(emit5))
+("crew_human" place(seat04)		animation(passenger4)	door(emit5))
+("crew_human" place(seat05)		animation(passenger5)	door(emit5))
+	
+	{sensor
+		{visor "driver"
+			{bone "visor1"}
+			{vision "moto_crew"}
+		}			
+	}
+
+	{extender "inventory"
+		{Box
+			{Size 6 10}
+			{weight 1500}
+			
+		}
+	}
+	{Weaponry
+		
+	}
+	
+	("wheel" args "WheelLeft1")
+	("wheel" args "WheelRight1")
+	("wheel" args "WheelLeft2")
+	("wheel" args "WheelRight2")
+	
+	{mass 2100}
+	
+	{Chassis
+		("CW_wheels"
+			Mass(2.1)
+			Turnradius(7.8)
+			Power(195)
+			Realspeed(113)
+			Gamespeed(60) 
+			Range(413)
+			Fuelvolume(95)
+		)
+		("car_trace" fx("tracewheel04") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel04") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+	}
+	{props "cwfs_fuel_80"}
+	
+	("two_headlights")
+	{Extension "uaz_pickup.mdl"}
+	("missile_aimpoint_tanksize")
+	
+}

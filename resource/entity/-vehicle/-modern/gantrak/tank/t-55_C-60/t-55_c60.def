@@ -1,0 +1,144 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium_M" "turret_rotator" "vision_lev05"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+
+("armor_heavy" turret(5 5 5 5) body(102 80 45 25))
+
+	;("armor_engine"  t(40 60 60 40))
+
+	("shield_M1A2TUSK")  
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}} 
+ 	{component "shieldr1" {tags "shield"}} 
+	{component "shieldl6" {tags "shield"}}
+	{component "shieldr6" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	{component "shieldl5" {tags "shield"}}
+	{component "shieldr5" {tags "shield"}}
+	{component "shieldr7" {tags "shield"}}
+	{component "shieldl7" {tags "shield"}}
+	{component "shieldr8" {tags "shield"}}
+	{component "shieldl8" {tags "shield"}}
+	{component "shieldr9" {tags "shield"}}
+
+	{volume "ring_armor"	{Thickness 100}}
+	{extender "enumerator"}
+	{boarder
+		{anm "gunner"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"}  {base"open_gunner2"}}
+			{reverse 	{end	"board_pz4_driver" -1}  {base"open_gunner2" -1}}
+		}
+		{anm "driver"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}  {base"open_driver"}}
+			{reverse 	{end	"emit_tank_2_hold"}  {base"open_driver" -1}}
+		}
+		{anm "back"
+			{forward	{begin	"board_tank_right"} {end "pose_thor_charger2"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+
+	{Placer
+		{place "gunner"	{LinkBone "gunner"} {group "crew"} {visor "gun"}}
+		{place "charger"	{LinkBone "charger"} {group "crew"} {visor "gun"}}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "%group"} {visor "%visor"}}
+		}
+		{boarder
+			{door "%door"}
+			{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		}
+	)
+	("crew_human" place(driver) door1(emit1) anm(driver) visor(main))
+	("crew_human" place(gunner1) door1(emit0) anm(gunner) visor(mgun))
+	("crew_human" place(gunner) door1(emit2) anm(back) visor(gun))
+	("crew_human" place(charger) door1(emit2) anm(back) visor(gun))
+	
+	("crew_human" place(driver)		animation(driver)	door(emit1))
+	("crew_human" place(gunner1)		animation(gunner)	door(emit0))
+	("crew_human" place(gunner)		animation(back)	door(emit2))
+	("crew_human" place(charger)		animation(back)	door(emit2))
+
+
+
+	{sensor		
+		{visor "driver"
+		    {vision "moto"}
+			{bone "Visor1"}
+		}
+		{visor "main"
+			{vision "tank_gunner_optic_IR_1g"}
+			{bone "Visor2"}
+		}
+	}
+
+	{extender "inventory"
+;		{weapon "mgun"
+;			{mask "weapon mgun"}
+;		}
+		{box	
+			{size 8 10}
+			{item "ammo pkm_ammo" 1750}
+			{item "ammo bullet57_RUS au220m ap" 73}
+			{item "ammo bullet57_RUS au220m fg" 74}    
+
+            
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "57mm_C60" filling "ammo bullet57_RUS au220m ap"}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "charger"}
+			{barrels 1}
+			{basic}
+			("CW_stab_no_stabiliser")
+		}
+		
+	}
+
+	{mass 36000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.3) len(0.85))
+		("CW_tracks"
+			Mass(36)
+			Width(3.27)
+			Power(580)
+			Realspeed(50)
+			Gamespeed(34) 
+			Range(500)
+			Fuelvolume(965)
+		)
+	}
+	{props "cwfs_fuel_500" "cwfs_extfuel_800"}
+
+	{Extension "t-55_c60.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(15)) ; СТП-2 Циклон 15гр/сек. в.1 г.3.
+
+}

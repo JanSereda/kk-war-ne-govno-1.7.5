@@ -1,0 +1,58 @@
+{breed
+	{skin "cw_rus_ruhih_atacs"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality cz}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_5
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "125%"
+		}
+		{"stamina" "225%"
+		}
+		{"stamina_regeneration" "75%"
+		}
+		{"speed" 1
+		}
+		{"skill_tankgun" lev_4
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_4
+		}
+		{"skill_airgm_launcher" lev_4
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "f1 grenade" 6}
+		{item "sandbag_kit"}
+		{item "6b45-1_strelok"}
+		{item "aks74u_4" filling "545 ammo" 30}
+		{item "545 ammo" 100}
+		{item "antitank_tm62m mine" 6}
+		{in_hands 4}
+	}
+}

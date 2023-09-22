@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "bullet30_USA fg ammo"}
+	}
+	{Volume "body"
+		{thickness 2}
+	}
+	{Extension "30x113aden_hei.mdl"}
+}

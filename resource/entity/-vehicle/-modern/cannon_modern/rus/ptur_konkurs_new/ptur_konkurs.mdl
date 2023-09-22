@@ -1,0 +1,212 @@
+;Exported by: Timosh
+;Date:        Mon Aug 03 18:31:45 2015
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Прислано Maksilin\Пак ПТРК второй\Конкурс новый\3d\Фагот-Конкурс\Фагот-Конкурс 1.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.3}}
+	}
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0.909587	-0.88851	2.22845}
+			{VolumeView "body.ply"}
+			{bone "part3"
+				{Matrix34
+					0.79283	-0.609443	0
+					0.608855	0.792065	-0.0439145
+					0.0267634	0.0348167	0.999035
+					-6.93537	3.34802	1.26282
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part2"
+				{Matrix34
+					0.780366	0.625323	0
+					-0.625323	0.780366	0
+					0	0	1
+					-6.95575	-3.45748	1.24324
+				}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part1"
+				{Position 5.71442	0	1.23179}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part5"
+				{Position -2.52512	-0.573718	2.39998}
+				{bone revolute "turret"
+					{parameters "ID=turret;"}
+					{limits -20 20}
+					{speed 0.01}
+					{Position 0.137399	0.482747	-0.0540876}
+					{VolumeView "turret.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Position 0.913484	0.179844	6.50272}
+						{VolumeView "gun.ply"}
+						{bone "rocket"
+							{Position 0.441797	-0.0241123	-0.0415297}
+							{VolumeView "rocket.ply"}
+						}
+						{bone revolute "foresight1"
+							{limits -7 7}
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								12.8611	-0.137072	-0.242908
+							}
+							{bone "foresight2"
+								{Matrix34
+									0.996195	0.0871557	0
+									0	0	-1
+									-0.0871557	0.996195	0
+									0.167801	0.111708	-0.866692
+								}
+							}
+						}
+						{bone "tail"
+							{Matrix34
+								-1	0	0
+								0	-1	0
+								0	0	1
+								-12.4124	-0.137072	0.00790977
+							}
+						}
+					}
+					{bone "visor1"
+						{Position 5.06078	-0.347736	9.60004}
+					}
+				}
+			}
+			{bone revolute "handle"
+				{Matrix34
+					0	1	0
+					0.999803	0	0.0198322
+					0.0198322	0	-0.999803
+					-0.733042	0.0340657	2.9459
+				}
+			}
+		}
+		{bone "support1"
+			{Position 10.7183	-0.919167	0}
+		}
+		{bone "support2"
+			{Position -9.0117	-6.585	0}
+		}
+		{bone "support3"
+			{Position -9.25093	4.98056	0}
+		}
+		{bone "gunner"
+			{Matrix34
+				0.939693	-0.34202	0
+				0.34202	0.939693	0
+				0	0	1
+				-12.2715	7.11223	0
+			}
+		}
+		{bone "commander"
+			{Position -18.106	-10.7747	0}
+		}
+		{bone "driver1"
+			{Position -0.559958	4.29034	0}
+		}
+		{bone "driver2"
+			{Position -0.930352	-4.6078	0}
+		}
+		{bone "emit1"
+			{Position -22.4298	6.97138	0}
+		}
+		{bone "emit2"
+			{Position -23.1252	-6.27608	0}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position -0.545417	0.0666972	0.947453}
+}
+{Volume "gun"
+	{Cylinder 1.75018 24.3372}
+	{Bone "gun"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		0.106743	-0.153087	-0.180381
+	}
+}
+{Volume "part1"
+	{Polyhedron "part1.vol"}
+	{Bone "part1"}
+	{Position 2.30606	1.2002	-3.46023}
+}
+{Volume "part2"
+	{Box 4.81278 0.492481 0.52305}
+	{Bone "part2"}
+	{Matrix34
+		0.763953	-0.0277365	0.644676
+		0.0554718	0.9982	-0.0227887
+		-0.642883	0.0531708	0.764117
+		-1.97006	0.0565444	-1.68283
+	}
+}
+{Volume "part3"
+	{Box 4.81278 0.492481 0.52305}
+	{Bone "part3"}
+	{Matrix34
+		0.764452	-0.0256718	0.64417
+		0.0157643	0.999652	0.0211309
+		-0.644489	-0.00599881	0.764591
+		-2.02473	0.0801602	-1.70053
+	}
+}
+{Volume "select"
+	{Box 41.1283 34.2736 5.25741}
+	{Bone "body"}
+	{Position -0.973297	-0.26703	0.400257}
+}
+{Volume "turret1"
+	{Box 7.83309 2.03686 4.76883}
+	{Bone "turret"}
+	{Position 2.54062	-0.0472674	2.39841}
+}
+{Volume "turret2"
+	{Polyhedron "turret2.vol"}
+	{Bone "turret"}
+	{Position -0.477047	2.37685	1.70556}
+}
+{Volume "turret3"
+	{Box 4.54946 2.70902 3.19511}
+	{Bone "turret"}
+	{Position 2.30823	-0.523323	9.83732}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 16.4117	-49.8124	21.6911}
+			{lookat 2.47529	-12.9185	6.70945}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.274012	-13.3545	9.17327}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	0.263804	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position 1.39379	-14.7577	9.10099}
+			}
+		}
+	}
+}

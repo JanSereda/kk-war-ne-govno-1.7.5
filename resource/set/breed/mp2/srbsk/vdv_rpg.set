@@ -1,0 +1,58 @@
+{breed
+	{skin "cw_rus_gorka_e_anorak"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality bel}
+	{armors
+		{head beret_vdv_bel}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1.0
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 5}
+		{item "sandbag_kit"}
+		{item "6b45-1_rpg7"}
+		{item "rpg16 weapon" filling "rpg16 ammo" 1}
+		{item "rpg16 ammo" 3}
+		{item "wz96_beryl" filling "556nato ammo" 30}
+		{item "556natos ammo" 100}
+		{in_hands 5}
+	}
+}

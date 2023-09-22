@@ -1,0 +1,60 @@
+{breed
+	{skin "cw_rus_vkpo_let_6b51"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality bel}
+	{armors
+		{head "1m_helmet_ua"}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_4
+		}
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1
+		}
+		{"field_glass"}
+		{"skill_tankgun" lev_3
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "rgo grenade" 2}
+		{item "6b23-1_6sh92"}
+		{item "binocular"}
+		{item "pp_vityaz_pbs" filling "9mm ammo" 30}
+		{item "gm94_grl" filling "gm94ammo ammo tb" 1}
+		{item "gm94ammo ammo tb" 10}
+		{item "9mm ammo" 150}
+		{in_hands 4}
+	}
+}

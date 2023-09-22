@@ -1,0 +1,57 @@
+{breed
+	{skin "cw_arb_boevik2"}
+	{portrait "_new/arb/inf"}
+	{icon soldier}
+	{icon_priority 0}
+	{nationality arb}
+	{armors
+		{head "sh-68"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"pistol" lvl_1
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"stealth"}
+		{"field_glass"}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "tarzan"}
+		{item "repair_kit"}
+		{item "netting_kit"}
+		{item "spade_inv"}
+		{item "ppsh" filling "standart ammo" 71}
+		{item "standart ammo" 333}
+		{in_hands 4}
+	}
+}

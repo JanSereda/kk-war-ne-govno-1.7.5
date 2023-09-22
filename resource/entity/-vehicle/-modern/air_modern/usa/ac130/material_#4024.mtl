@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ac130/vinty"}
+	{blend blend}
+}

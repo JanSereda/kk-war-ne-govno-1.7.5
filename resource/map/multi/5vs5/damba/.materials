@@ -1,0 +1,71 @@
+{materials
+	{"mtl0"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_102"}
+			{bump "/texture/land/grass/gramma_102_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road"}
+			{bump "/texture/land/town/asfalt_road_nm"}
+		}
+	}
+	{"mtl1"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_102"}
+			{bump "/texture/land/grass/gramma_102_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/soil_q31"}
+			{bump "/texture/land/dirt/soil_q31_nm"}
+		}
+	}
+	{"mtl2"
+		{layer bump
+			{diffuse "/texture/land/town/asfalt_road"}
+			{bump "/texture/land/town/asfalt_road_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/dirt/soil_q31"}
+			{bump "/texture/land/dirt/soil_q31_nm"}
+		}
+	}
+	{"mtl3"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_102"}
+			{bump "/texture/land/grass/gramma_102_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/rock/rock"}
+		}
+	}
+	{"mtl4"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_102"}
+			{bump "/texture/land/grass/gramma_102_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/fields/fieldgrass1"}
+			{bump "/texture/land/fields/fieldgrass1_nm"}
+		}
+	}
+	{"mtl5"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_102"}
+			{bump "/texture/land/grass/gramma_102_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_02a"}
+			{bump "/texture/land/grass/gramma_02a_nm"}
+		}
+	}
+	{"mtl6"
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_102"}
+			{bump "/texture/land/grass/gramma_102_nm"}
+		}
+		{layer bump
+			{diffuse "/texture/land/grass/gramma_103"}
+			{bump "/texture/land/grass/gramma_103_nm"}
+		}
+	}
+}

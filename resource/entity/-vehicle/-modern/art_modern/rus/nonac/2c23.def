@@ -1,0 +1,114 @@
+;Created by Pheonix
+;Patch - 1.0
+{game_entity
+	(include "/properties/armoredcar_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "light_M" "turret_rotator" "vision_lev04_spa" "can_paradrop_il-76td" "can_paradrop_an-12" "has_autoloader" "cw_artillery"}
+	{targetClass "light_tank"}
+	{PatherID "amphibia"}
+
+
+	{extender "enumerator"}
+	{extension "crew.ext"}
+
+("armor_light_btr" turret(7 7 7 7) body(10 8 6 6))	
+
+	{extender "inventory"
+		{box
+			{Size 8 8}
+			{weight 1500}
+			{item "ammo bullet120_RUS fg" 15}
+			{item "ammo bullet120_RUS rok" 5}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "120mm_2A51" filling "ammo bullet120_RUS fg" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("CW_stab_artillery_rt" rechargetime(6))
+			{Rotate}
+		}
+	}	
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_1g"}
+		}
+	}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+	("wheel" args "wheelright4")
+	("wheel" args "wheelleft4")
+
+	{mass 13600}
+	{Chassis
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("CW_wheels"
+			Mass(13.6)
+			Turnradius(13.5)
+			Power(260)
+			Realspeed(80)
+			Gamespeed(47) 
+			Range(600)
+			Fuelvolume(420)
+		)
+	}
+	{props "cwfs_fuel_400"}
+
+	("CW_amphibia" Waterline(1.3) )
+	("two_headlights")
+	{Extension "2c23.mdl"}
+	("missile_aimpoint_trucksize")
+
+	("cwts_buksir")
+	{bone "turret"
+		{limits -45 45}
+	}
+	{bone "gun_rot"
+		{speed 0.01}
+		{limits 0 45}
+	}
+	("CW_turr_speed" deg_per_s(30))
+	{bone "suspension_l1"
+		{limits -0.15 0.08}
+		{speed2 0.5}		
+	}
+	{bone "suspension_l2"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+	{bone "suspension_l3"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+	{bone "suspension_l4"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+
+	{bone "suspension_r1"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+	{bone "suspension_r2"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+	{bone "suspension_r3"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+	{bone "suspension_r4"
+		{limits -0.15 0.08}
+		{speed2 0.5}
+	}
+
+}
+

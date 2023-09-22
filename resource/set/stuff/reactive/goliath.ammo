@@ -1,0 +1,22 @@
+{bullet
+	{tag "big shell fg bomb fx_upto1000kg fragmentary no_ricochet shell size5"}
+	{inventory
+		{size 0 0}
+		{weight 100}
+	}
+	{entity "goliath_ammo"}
+	{mass 100}
+	{damage add blastwave	 ; HE, FG anti-IFV
+		{energy 16}
+		{area 24 28}
+	}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 50}
+		{area 8 9}
+	}
+	{damage add fire
+			{radius 10}
+			{heating 3.2}
+			{time 3}
+	}
+}

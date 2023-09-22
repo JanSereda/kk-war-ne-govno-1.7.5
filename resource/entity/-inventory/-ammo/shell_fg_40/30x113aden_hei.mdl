@@ -1,0 +1,58 @@
+;Exported by: maksilin
+;Date:        Wed Oct 10 19:28:47 2018
+;File:        C:\Users\maksilin\Documents\3dsMax\scenes\CW\30 ?? ??? ????? ?????\30x113mm.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+	}
+}
+{Volume "body"
+	{Box 4.13799 0.590551 0.590551}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0249883	0.010362	0.0154164
+	}
+}
+{Volume "select"
+	{Box 4.13799 0.590551 0.590551}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0249883	0.010362	0.0154164
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.0214447	-9.63074	-0.000889296}
+			{lookat -0.0331236	0.253983	-0.0283428}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 9.69523	-2.39785	-2.32169}
+			}
+			{"1"
+				{type point}
+				{position -9.51336	6.01261	3.2798}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0609492	0.418174	-0.267238}
+				{ambient 0x2c2c2c}
+			}
+		}
+	}
+}

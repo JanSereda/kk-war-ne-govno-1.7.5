@@ -1,0 +1,1 @@
+Адаптированый мод Bot Revised от Nishtyak RUS https://steamcommunity.com/id/nishtyakrus/myworkshopfiles/

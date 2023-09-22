@@ -1,0 +1,57 @@
+{breed
+	{skin "cw_rus_gorka_e_anorak"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality bel}
+	{armors
+		{head "beret_vdv_bel"}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"pistol" lvl_2
+		}
+		{"gra_launch" lvl_3
+		}
+		{"melee" lvl_2
+		}
+		{"avoidance" lvl_3
+		}
+		{"health" "180%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.8
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_1
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "sandbag_kit"}
+		{item "rpk-74" filling "rpk_ammo ammo" 45}
+		{item "545 ammo" 270}
+		{item "tat_ba_7_ua_assault"}
+		{item "rgd grenade"}
+		{in_hands 2}
+	}
+}

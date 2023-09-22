@@ -1,0 +1,60 @@
+{breed
+	{skin "cw_oksva_vdv_officer"}
+	{portrait "_new/rus/inf"}
+	{icon pilot}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{head "beret_vp"}
+	}
+	{perks
+		{"vision" mp_officer
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_4
+		}
+		{"avoidance" lvl_4
+		}
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 1
+		}
+		{"field_glass"}
+		{"skill_tankgun" lev_3
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+	{inventory
+		{item "bandage" 15}
+		{item "rgo grenade" 2}
+		{item "binocular"}
+		{item "rubin_gp"}
+		{item "gp25_ak74m_1p78" filling "mortar pd a ammo" 1}
+		{item "ak74m_gp25_1p78" filling "545 ammo" 30}
+		{item "545 ammo" 150}
+		{item "mortar pd a ammo" 10}
+		{in_hands 5}
+	}
+}
