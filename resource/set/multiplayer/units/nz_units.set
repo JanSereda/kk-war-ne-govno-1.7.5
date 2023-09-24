@@ -54,7 +54,7 @@
               	   
 
 {"t62_cw"	("v" c(69) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(85) b(supl) i(14) cw(0) cp(2))  {fore 1}} 
-{"t62m_v2"	("v" c(69) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(85) b(supl) i(13) cw(0) cp(2))  {fore 1}} 
+;{"t62m_v2"	("v" c(69) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(85) b(supl) i(13) cw(0) cp(2))  {fore 1}} 
 {"t72a"		("v" c(150) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(90) b(supl) i(15) cw(0) cp(2))  {fore 1}}
 {"t80b"		("v" c(150) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(96) b(supl) i(16) cw(0) cp(2))  {fore 1}}
 
@@ -106,7 +106,7 @@
  {"tos-1a_solntsepek" {fore 0} ("v" c(900) sc(450) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(11) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) }
  {"iskander" {fore 0} ("vs" c(1330) sc(350) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(12) cw(0) cp(65) t(all_nz art support_frontline  ) n(3)               ) }
                                   
- {"tor_m2" {fore 0.0} ("v" c(269) sc(169) g(pvo) b(artbr_hqcar) brig(artbr) s(rus)  i(13) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
+ {"tor_m2" {fore 0.0} ("v" c(269) sc(190) g(pvo) b(artbr_hqcar) brig(artbr) s(rus)  i(13) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
  {"pantsir_s1" {fore 0.1} ("v" c(500) sc(270) g(pvo1) b(artbr_hqcar) brig(artbr) s(rus)  i(14) cw(0) cp(40) t(all_nz art aat support_frontline  ) n(3)               ) }
  {"buk_m2" {fore 0.0} ("v" c(600) sc(300) g(pvo1) b(artbr_hqcar) brig(artbr) s(rus)  i(15) cw(0) cp(40) t(all_nz art aat support_frontline  ) n(4)               ) }
  {"9s18_kupol" {fore 0.45} ("v" c(470) sc(110) g(pvor) b(artbr_hqcar) brig(artbr) s(rus)  i(16) cw(0) cp(10) t(all_nz art support_frontline  ) n(4)               ) }
@@ -160,8 +160,7 @@
  {"kurganec_b-11" {fore 1} ("v3" c(300) sc(260) g(advinf2) b(mot_hqcar) brig(mot) s(rus)  i(29) cw(0) cp(10) t(all_nz inf_rus  ) c1(kurganec_b-11) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) n9(spec_sniper:1)     ) }
 		  
  
- {"t72b3_2017_2" {fore 1} ("v" c(360) sc(185) g(obt_mot) b(mot_hqcar) brig(mot) s(rus)  i(12) cw(0) cp(30) t(all_nz tank_rus   ) n(3)               ) }
-                            
+                   
  {"9p149_shturm-s" {fore 0.8} ("v" c(400) sc(100) g(brdtptur) b(mot_hqcar) brig(mot) s(rus)  i(14) cw(0) cp(15) t(all_nz att   ) n(2)               ) }
                                    
  {"vasilek" {fore -0.3} ("vart" c(500) sc(100) g(stan1) b(mot_hqcar) brig(mot) s(rus)  i(15) cw(5) cp(15) t(all_nz art   ) n(2) c1(mtlb_new) c2(vasilek) n1(vehicle_supporter:2)            ) }
@@ -170,7 +169,7 @@
  
  {"t62md" {fore 0} ("v_v" c(360) sc(125) g(obt4) b(armbr_hqcar) brig(armbr) s(rus)  i(3) cw(0) cp(30) t(all_nz tank_rus no_frontline ) n(4)               ) }
  {"t72b3" {fore 1} ("v" c(360) sc(145) g(obt5) b(armbr_hqcar) brig(armbr) s(rus)  i(5) cw(0) cp(30) t(all_nz tank_rus   ) n(3)               ) } 
- {"t72b3_2017" {fore 1} ("v" c(360) sc(190) g(obt1) b(armbr_hqcar) brig(armbr) s(rus)  i(1) cw(0) cp(30) t(all_nz tank_rus   ) n(3)               ) }
+ {"t72b3_2017_2" {fore 1} ("v" c(360) sc(190) g(obt1) b(armbr_hqcar) brig(armbr) s(rus)  i(1) cw(0) cp(30) t(all_nz tank_rus   ) n(3)               ) }
  
  {"t80yk"		("v_v" c(1350) t(all_nz tank_rus) brig(armbr) s(rus) n(3) g(armbr2)  sc(220) b(armbr_hqcar) i(8) cw(0) cp(55))  {fore 0.8}}
 
