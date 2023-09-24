@@ -16,7 +16,7 @@
  
  
  ;{"Hagi_wagner_grup" {fore 1} ("v3" c(220) sc(110) g(pmc) b(common) brig(common) s(rus)  i(20) cw(0) cp(5) t(all_nz inf_rus   ) c1(mtlb_vmk) n(1) n1(vehicle_supporter:2) n2(pmc_com:1) n3(pmc_mgun:2) n4(pmc_rpg:2) n5(pmc_zek:5) n6(pmc_zek2:3)n7(pmc_zek3:2)    ) }
- 
+
  
  
 ("squad_with2types" name(bazookers2) f(1)  c(120) cost(25) g(rpg) b(common) brig(common) side(rus)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
