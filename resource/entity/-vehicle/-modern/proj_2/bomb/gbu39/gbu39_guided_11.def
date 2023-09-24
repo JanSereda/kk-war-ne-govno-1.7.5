@@ -1,0 +1,4 @@
+{actor
+	(include "gbu39_guided.inc")
+    {targetselector "gbu_11"}
+}

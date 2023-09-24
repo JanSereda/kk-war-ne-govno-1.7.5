@@ -1,0 +1,4 @@
+{actor
+(include "/entity/-vehicle/-modern/proj_2/proj_point/bomb_proj_point/proj_point_gps_ground.inc")
+{targetClass 	"proj_usa_gps_01"}
+}

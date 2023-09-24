@@ -1,0 +1,17 @@
+{from "pattern proj_impactor"
+	{entity "agm-130_impactor"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size4" "88to105" "fx_upto250kg"} 
+	;Это Mk84, та же бомба, что и GBU-31, просто копируем оттуда
+	{tag "he_over30"}
+{damage blastwave {energy 0.7} {area 36.5 37.1}}
+{damage add blastwave {energy 1.2} {area 29.4 33.8}}
+{damage add blastwave {energy 2.5} {area 23.4 27}}
+{damage add blastwave {energy 6.5} {area 17.4 20.1}}
+{damage add blastwave {energy 11} {area 10.1 11.6}}
+{damage add blastwave {energy 22} {area 8 12}}
+{damage add blastwave {energy 50} {area 3 4}}
+}

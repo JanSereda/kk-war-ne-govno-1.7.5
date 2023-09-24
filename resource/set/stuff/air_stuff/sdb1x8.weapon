@@ -1,0 +1,27 @@
+{weapon_bullet
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo sdb1" 8}
+	{fillingVisible "sdb1_"}
+	{fireSound "reactive/bomb"}
+	{recoveryTime 0.5}
+	{rechargeTime 300}
+	{range 482 482}
+	;{cursor "glonass"}
+             ;{cursorReloading "glonass_reload"}
+	{cursor "bomb_on"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}
+	{automatic}
+	{gravity 300}
+	{speed 3000}
+	{aimtype adaptive}
+	;("accuracy_kab" kvo_meters(8))
+	("accuracy_kab" kvo_meters(5.0))
+	{Spreading 
+		{SpreadXYRatio	2}
+	}
+}

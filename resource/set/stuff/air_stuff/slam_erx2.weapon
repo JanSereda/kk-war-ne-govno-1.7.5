@@ -1,0 +1,18 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{filling "ammo slam_er" 2}
+	{fillingVisible "slam_er_"}	
+	{foresight "Foresight7"}
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{recoveryTime 2}
+	{rechargeTime 220}
+	{inventory {noView}}
+	{maxRange 545}
+	{aimRange 545}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "cannon_on_fg_8"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+}

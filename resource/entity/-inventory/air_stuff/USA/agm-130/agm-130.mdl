@@ -1,0 +1,75 @@
+;Exported by: Timosh
+;Date:        Thu Sep 21 07:44:29 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\???\agm_130\agm_130 1.max
+{Skeleton
+	{bone "agm130"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "agm130.ply"}
+		{bone "starter"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-5.34692	5.26495	0
+			}
+			{VolumeView "starter.ply"}
+			{bone "tail"
+				{parameters "Voxels=0;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-31.6531	1.69646e-05	-1.17669
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 75.3596 7.87402 7.87402}
+	{Bone "agm130"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-0.566619	-0.691434	0.0949562
+	}
+}
+{Volume "select"
+	{Box 116.575 15.0394 17.3228}
+	{Bone "agm130"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		1.40654	-0.20191	-1.04274
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -53.6164	14.6423	-227.164}
+			{lookat -3.4236	-0.888382	-2.08819}
+			{fov 31.7555}
+			{horizon 74.1808}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.04762	1.6283	-12.2074}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0688826	-0.382896	0.314079}
+			}
+			{"2"
+				{type point}
+				{position -7.0095	0.527452	-8.97804}
+			}
+		}
+	}
+}

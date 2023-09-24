@@ -4,6 +4,10 @@
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
 
+
+
+
+{"su-34_umpk"						"<c(FFFFFF)e(shadow)>СУ-34 УМПК</c>"}
 {"mi17_unarmed_supl"						"<c(FFFFFF)e(shadow)>МИ-17 снабжения</c>"}
 {"kornet_base_stan_isis"						"<c(FFFFFF)e(shadow)>9П163М-1 Корнет-П</c>"}
 {"ptur_tow_isis"						"<c(FFFFFF)e(shadow)>BMG-71 TOW</c>"}

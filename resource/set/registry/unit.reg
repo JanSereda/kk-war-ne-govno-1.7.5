@@ -1,5 +1,7 @@
 ;SDL
 {units
+
+{"su-34_umpk"		{structure "cwds_plane_attack"}}
 {"mi17_unarmed_supl"		{structure "cwds_heli_common"}}
 {"ags17"		{structure "cwds_ags"}}
 {"ptur_tow_isis"			{structure "cwds_atgm"}}

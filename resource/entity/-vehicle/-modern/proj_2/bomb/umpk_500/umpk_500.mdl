@@ -1,0 +1,104 @@
+;Exported by: Cagya
+;Date:        Fri Sep 22 22:13:51 2023
+;File:        G:\?????? ???\DCS\Russian-Bombs\???? ???500.max
+{Skeleton
+	{animation
+		{sequence "open_wing" {speed 0.5}}
+		{sequence "flip_bomb" {speed 0.5}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	0	-1
+			0	-1	0
+		}
+		{bone revolute "gun_rot"
+		    {limits}
+			;{speed 0.003}
+		    {Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				0	0	0
+			}
+			{bone revolute "gun"
+			    {limits}
+			    {Matrix34
+		       		1	0	0
+		       		0	0	1
+		       		0	-1	0
+		       		0	0	0
+		       	}
+		        {bone "missle_foresight"
+		            {Position 15	0	0}
+					{bone "ympk_body"
+						
+						{VolumeView "ympk_body.ply"}
+						{bone "fab500_m62"
+							{Position 0.201553	0.00253994	7.39839}
+							{VolumeView "fab500_m62.ply"}
+							{bone "tail"
+								{Matrix34
+									-1	0	0
+									0	0	1
+									0	1	0
+									-24.8074	-0.00253725	0.176408
+								}
+							}
+						}
+						{bone "wing_l"
+							{Position 11.955	0.00676916	0.889011}
+							{VolumeView "wing_l.ply"}
+						}
+						{bone "wing_r"
+							{Matrix34
+								1	0	0
+								0	-1	0
+								0	0	1
+								11.955	0.00677837	0.241075
+							}
+							{VolumeView "wing_r.ply"}
+						}
+					}
+				}
+				{bone "cont_vol"
+		            {Position -20	0	0}
+		        }
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 48.4928 7.86369 10.7261}
+	{Bone "ympk_body"}
+	{Position -0.258079	-0.318877	6.19496}
+}
+{Volume "select"
+	{Box 50.4325 10.9305 13.1931}
+	{Bone "ympk_body"}
+	{Position -0.258079	-0.318877	7.42846}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.277283	-64.5644	26.5405}
+			{lookat -1.00809	-0.626286	4.70028}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 26.7875	-20.7469	7.30114}
+			}
+			{"1"
+				{type directional}
+				{direction 0.212801	0.452079	-0.0184508}
+				{ambient 0x818181}
+			}
+			{"2"
+				{type point}
+				{position -23.2198	-21.3088	7.37342}
+			}
+		}
+	}
+}

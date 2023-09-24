@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	
+	{entity "slam_er"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "fg" "big" "size5" "88to105" "antiship" "semiactive"} 
+	{tag "heavy_agm"} ; только для ammo.set
+	        {mass 750}
+
+}

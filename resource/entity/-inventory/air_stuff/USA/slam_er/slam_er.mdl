@@ -1,0 +1,87 @@
+;Exported by: Timosh
+;Date:        Thu Sep 21 07:43:16 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\???\AGM 84 SLAM-ER\AGM 84 SLAM-ER 1.max
+{Skeleton
+	{animation
+		{sequence "on_start"}
+	}
+	{bone "slam_er"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "slam_er.ply"}
+		{bone "wingl"
+			{Matrix34
+				-0.038453	-0.99926	0
+				-0.341764	0.0131512	-0.939694
+				0.938999	-0.0361342	-0.342017
+				10.4983	5.48553	5.25953
+			}
+			{VolumeView "wingl.ply"}
+		}
+		{bone "wingr"
+			{Matrix34
+				-0.0455957	-0.99896	0
+				-0.341665	0.0155947	0.939692
+				-0.938715	0.042846	-0.342021
+				10.4983	5.47018	-5.45551
+			}
+			{VolumeView "wingr.ply"}
+		}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-42.7042	-0.0705285	0.0910914
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 82.6772 7.87402 7.87402}
+	{Bone "slam_er"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-1.40653	-0.201907	-0.0949574
+	}
+}
+{Volume "select"
+	{Box 116.575 15.0394 17.3228}
+	{Bone "slam_er"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-1.40653	-0.201906	1.04274
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 53.2646	45.4497	225.65}
+			{lookat 3.34899	3.4152	2.0255}
+			{fov 31.7555}
+			{horizon -127.839}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.04763	5.52026	12.2074}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0725234	-0.378966	-0.318001}
+			}
+			{"2"
+				{type point}
+				{position 7.00949	4.41942	8.97802}
+			}
+		}
+	}
+}

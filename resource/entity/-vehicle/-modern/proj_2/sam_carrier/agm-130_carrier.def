@@ -1,0 +1,23 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward.mdl"}
+	("missile_placer" missile("agm-130_impactor_link") country(usa) type(other) calibre(457) 
+	speed(slow) guidance())
+	("maneuvrability_cwps3" deg_per_s(23))
+	("antiship_missile" country(usa) type(other))
+	("targetable_missile")
+;	("cwps_rangefinder")
+	{sensor
+		{Visor "main"
+			{vision "LRmissile"}
+			{bone "missile_point"}
+		}
+		{Visor "add"
+			{vision "tank_gunner_optic_IR_1g"}
+			{bone "missle_foresight"}
+		}
+	}
+	("LR_missile"  country(usa) type(other))	
+	("allow_manual_control")
+
+}

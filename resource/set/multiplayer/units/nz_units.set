@@ -68,19 +68,21 @@
  {"ka52" {fore 0.3} ("h" c(1000) sc(325) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(3) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
  {"ka52_germes" {fore 0.3} ("h" c(1911) sc(500) g(helik) b(vvs_hqcar) brig(vvs) s(rus)  i(4) cw(0) cp(30) t(all_nz aircraft strike ) n(2)               ) }
                                    
- {"su-25sm_support" {fore 0.3} ("p" c(2200) sc(300) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(5) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
+ 
  {"su-25sm_strike" {fore 0.3} ("p" c(2200) sc(400) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(6) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
- {"su-25sm_accurate" {fore 0.3} ("p" c(2200) sc(390) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(7) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
  {"su-25sm_support_light" {fore 0.3} ("p" c(2200) sc(220) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(8) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
                            
  {"su-34_medbomber" {fore 0.3} ("p" c(2200) sc(420) g(air_tac) b(vvs_hqcar) brig(vvs) s(rus)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
- {"su-34_bomber" {fore 0.3} ("p" c(2200) sc(420) g(air_tac) b(vvs_hqcar) brig(vvs) s(rus)  i(11) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ {"su-34_umpk" {fore 0.3} ("p" c(2200) sc(390) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(7) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  {"su-34_antirad" {fore 0.3} ("p" c(969) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ 
+ 
  {"su-35_strike" {fore 0.3} ("p" c(2200) sc(450) g(air_strike) b(vvs_hqcar) brig(vvs) s(rus)  i(13) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ 
+ 
  {"shahed136_base" {fore 0.3} ("p" c(2200) sc(40) g(uav) b(vvs_hqcar) brig(vvs) s(rus)  i(14) cw(0) cp(2) t(all_nz aircraft aat  ) n(0)               ) }
                                    
  {"mig-29s_aa_vks" {fore 0.3} ("p" c(2200) sc(280) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(15) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
- {"su-35_aa" {fore 0.3} ("p" c(2200) sc(300) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(16) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
  {"su-50_aa" {fore 0.3} ("p" c(2200) sc(340) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(17) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
 
 

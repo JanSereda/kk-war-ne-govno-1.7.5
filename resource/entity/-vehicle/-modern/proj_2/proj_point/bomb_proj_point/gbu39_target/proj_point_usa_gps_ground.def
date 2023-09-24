@@ -1,0 +1,10 @@
+{actor
+(include "/entity/-vehicle/-modern/proj_2/proj_point/bomb_proj_point/proj_point_gps_ground.inc")
+{targetClass 	"proj_usa_gps"}
+{Volume "target_gbu"
+	{Box 25 25 25}
+	{Bone "basis"}
+	{Position 0	0	700}
+}
+{Volume "target_gbu" {able clear {visible} {bullet 1} {select 0}} {Thickness 0.1} {component "body"}}
+}
