@@ -1,0 +1,83 @@
+;Exported by: ??????
+;Date:        Fri Jul 28 17:24:09 2023
+;File:        C:\Users\??????\Desktop\???????\p_800_ammo.max
+{Skeleton
+	{animation
+		{sequence "on_start" {speed 0.8}}
+	}
+	{bone "p800_missile"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "p800_missile.ply"}
+		{bone "wings03"
+			{Position -21.4039	6.00815e-05	2.51005}
+			{VolumeView "wings03.ply"}
+		}
+		{bone "wings02"
+			{Position -21.3837	2.80483	0}
+			{VolumeView "wings02.ply"}
+		}
+		{bone "wings01"
+			{Position -21.3837	-2.33282	0}
+			{VolumeView "wings01.ply"}
+		}
+		{bone "wings00"
+			{Position -21.3837	6.00815e-05	-3.09648}
+			{VolumeView "wings00.ply"}
+		}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-84.1505	0.101941	0.160363
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.670039 0.115217 0.0869882}
+	{Bone "p800_missile"}
+	{Matrix34
+		255.029	3.04018e-05	0
+		0	-1.71694e-05	-105.385
+		-1.74127e-05	146.068	-2.37975e-05
+		-1.10478	0.136018	0.164596
+	}
+}
+{Volume "select"
+	{Box 0.670039 0.115217 0.0869882}
+	{Bone "p800_missile"}
+	{Matrix34
+		255.029	3.04018e-05	0
+		0	-1.71694e-05	-105.385
+		-1.74127e-05	146.068	-2.37975e-05
+		-1.10478	0.136018	0.164596
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 84.4774	-111.748	35.2121}
+			{lookat 61.1619	-57.8521	21.0051}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 59.8283	-58.7353	20.4127}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	0.263805	-0.197721}
+			}
+			{"2"
+				{type point}
+				{position 61.4961	-60.1385	20.3404}
+			}
+		}
+	}
+}

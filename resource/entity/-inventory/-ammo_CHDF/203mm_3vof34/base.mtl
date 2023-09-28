@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "203mm_3vof34"}
+	{specular "203mm_3vof34_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

@@ -25,7 +25,7 @@
  {"metis_m" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(rus)  i(8) cw(1) cp(5) t(all_nz    ) n(1)               ) }
  {"ptur_konkurs" {fore 1} ("vs" c(250) sc(45) g(stan) b(common) brig(common) s(rus)  i(9) cw(1) cp(5) t(all_nz    ) n(2)               ) }
  {"kornet_base_stan" {fore 0.0} ("vs" c(560) sc(80) g(stan3) b(common) brig(common) s(rus)  i(10) cw(1) cp(15) t(all_nz    ) n(2)               ) }
-                            
+   {"mt12_rapira" {fore 1} ("vart" c(300) sc(45) g(stan1)  b(common) brig(common) s(rus)  i(111) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) n1(vehicle_supporter:2) c1(mtlb_new) c2(mt12_rapira)            ) }                          
 
     								   
 ("squad_with2types" name(pzrk) f(1)  c(250) cost(40) g(pzrk) b(common) brig(common) side(rus)     t(all_nz antiair   ) info(pzrk) c1(pzrk:1) c2(pzrkhelp:1)             ) 
@@ -65,7 +65,7 @@
  {"sso_2" {fore 0} ("v3" c(600) sc(175) g(sso) b(vvs_hqcar) brig(vvs) s(rus)  i(21) cw(0) cp(2) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_b8)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
  
  {"mi28n" {fore 0.45} ("h" c(911) sc(280) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(2) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
- {"ka52" {fore 0.3} ("h" c(1000) sc(325) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(3) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
+ ;{"ka52" {fore 0.3} ("h" c(1000) sc(325) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(3) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
  {"ka52_germes" {fore 0.3} ("h" c(1911) sc(500) g(helik) b(vvs_hqcar) brig(vvs) s(rus)  i(4) cw(0) cp(30) t(all_nz aircraft strike ) n(2)               ) }
                                    
  
@@ -93,14 +93,14 @@
 ;===============================Артиллеристы===========================================                                   
 ("squad_with9types" name(spotters) f(1)  c(300) cost(40) g(spot) b(artbr_hqcar) brig(artbr) side(rus)     t(all_nz infantry support_frontline  ) info(elite) c1(gru_com_art:3)              ) 
                                    
- {"mt12_rapira" {fore 1} ("vart" c(300) sc(45) g(stan1) b(artbr_hqcar) brig(artbr) s(rus)  i(3) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) n1(vehicle_supporter:2) c1(mtlb_new) c2(mt12_rapira)            ) }
+
  {"d30" {fore 0.75} ("vart" c(600) sc(130) g(art) b(artbr_hqcar) brig(artbr) s(rus)  i(4) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(d30) n1(vehicle_supporter:2)            ) }
  {"2a65_msta_b" {fore 0.5} ("vart" c(600) sc(160) g(art) b(artbr_hqcar) brig(artbr) s(rus)  i(5) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(2a65_msta_b) n1(vehicle_supporter:2)            ) }
                   )                 
  ;{"2c3_akaciyarus" {fore 0.4} ("v" c(900) sc(200) g(art1)  b(artbr_hqcar) brig(artbr) s(rus)   i(200) cw(0) cp(50) t(all_nz art support_frontline ) c1(2c3_akaciya) n(1) n1(tankman:4)   ) }
  
  {"mstasm2" {fore 0.4} ("v" c(600) sc(400) g(art1) b(artbr_hqcar) brig(artbr) s(rus)  i(6) cw(0) cp(35) t(all_nz art support_frontline  ) n(4)               ) }
- ;{"koalition" {fore 0.13} ("v" c(1900) sc(650) g(art2) b(artbr_hqcar) brig(artbr) s(rus)  i(7) cw(0) cp(105) t(all_nz art no_frontline support_frontline  strike ) n(3)               ) }
+ {"2s7_pion" {fore 0.13} ("v" c(1900) sc(500) g(art2) b(artbr_hqcar) brig(artbr) s(rus)  i(7) cw(0) cp(105) t(all_nz art no_frontline support_frontline  strike ) n(3)               ) }
  {"ural-4320_tornado_g" {fore 0} ("vs" c(600) sc(400) g(rszo) b(artbr_hqcar) brig(artbr) s(rus)  i(8) cw(0) cp(35) t(all_nz art support_frontline  ) n(2)               ) }
  
  {"bm-30_smerch" {fore 0} ("vs" c(900) sc(420) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(9) cw(0) cp(45) t(all_nz art support_frontline  ) n(4)               ) }

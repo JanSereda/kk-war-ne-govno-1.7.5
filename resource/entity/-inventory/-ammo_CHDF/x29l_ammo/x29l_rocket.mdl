@@ -1,0 +1,95 @@
+;Exported by: Rybn1kov
+;Date:        Sun Jul 15 05:32:38 2012
+;File:        M:\hellfire\Снаряды\9m111\9m111_rocket.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	1	0
+			0	0	1
+		}
+		{bone "rocket_x29"
+			{Matrix34
+			1	0	0
+			0	-1	0
+			0	0	1
+			-0.281551	8.66468e-005	-3.17727e-005
+			}
+			{VolumeView "rocket_x29.ply"}
+		}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-6.90936	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "basis"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-12.4378	0.00932199	-0.00527869
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "basis"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-12.4378	0.00932199	-0.00527869
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.702757	-5.03109	30.9788}
+			{lookat -0.566432	-2.24165	14.4494}
+			{fov 90}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.48007	0.776388	0.267818}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0189778	0.226143	-0.445532}
+			}
+			{"2"
+				{type point}
+				{position -9.80397	6.55275	-1.30152}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -0.702757	-5.03109	30.9788}
+			{lookat -0.566432	-2.24165	14.4494}
+			{fov 90}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.48007	0.776388	0.267818}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0189778	0.226143	-0.445532}
+			}
+			{"2"
+				{type point}
+				{position -9.80397	6.55275	-1.30152}
+			}
+		}
+	}
+}

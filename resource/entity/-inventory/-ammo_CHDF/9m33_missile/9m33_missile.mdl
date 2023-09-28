@@ -1,0 +1,65 @@
+;Exported by: Timosh
+;Date:        Mon Jun 29 20:32:45 2015
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Флот\МРК Овод\Вооружение\osa_missile.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-33.8721	-0.0549373	-0.0495031
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 57.0426 4.2598 4.45152}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		0.92286	0.0731721	0
+	}
+}
+{Volume "select"
+	{Box 59.3674 10.4897 9.85118}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-2.82477	0.127276	-0.555149
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 25.4063	162.548	-6.15901}
+			{lookat 2.15021	29.0171	0.77786}
+			{fov 31.7555}
+			{horizon 3.60473}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -14.4615	36.4511	12.0074}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0725236	-0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -4.40435	35.3502	8.77804}
+			}
+		}
+	}
+}

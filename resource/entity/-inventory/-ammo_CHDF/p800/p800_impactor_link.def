@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/projectile_impactor.ext")
+	{Extension "p800.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "p800_impactor"}
+	}
+	;following record interrupts detonation, it must not be in _impactor, only in _impactor_link
+	("targetable_impactor")
+}

@@ -1,0 +1,24 @@
+{from "pattern fg"
+	
+	{tag "big" "size4" "155ammo" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"}
+	
+	{detonationThickness 40}
+	
+	{mass 100}
+	
+	{inventory
+		{size 6 1}
+	}	
+	
+	{entity "203mm_3vof34"} 
+	
+	{tag "he_8to30"}
+{damage blastwave {energy 2.7} {area 19.3 20.3}}
+{damage add blastwave {energy 3.2} {area 16.4 19.1}}
+{damage add blastwave {energy 3.5} {area 12.7 14.9}}
+{damage add blastwave {energy 8.5} {area 8.4 9.2}}
+{damage add blastwave {energy 14} {area 5.8 6.3}}
+{damage add blastwave {energy 29} {area 0.5 0.5}
+	}
+}

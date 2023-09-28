@@ -1,0 +1,12 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "x29l_rocket.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "x29l_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	{targetClass 	"laser_using_missile"}
+}

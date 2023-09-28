@@ -42,6 +42,7 @@
 {"2c1"					{structure "cwds_tank2"}}
 {"2c1_rus"					{structure "cwds_tank2"}}
 {"2c1_isis"					{structure "cwds_tank2"}}
+{"2s7_pion"					{structure "cwds_tank2"}}
 
 
 {"tos-1a_solntsepek_odkb"	{structure "cwds_mlrs_tr"}}

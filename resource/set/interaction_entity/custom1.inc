@@ -2,6 +2,21 @@
 
 
 
+{"2s7_pion"	  
+	("Shilka_sound")	
+
+	{on fire "gun" 
+	     		{spawn "dust_shot_big_2" "basis"}
+			{ani_play "fire"}
+			{view start "flashbarrel_gun"}
+			{view start "spawn_shell"}
+	{delay 1
+			{ani_play "reload"}}
+
+	}	
+}
+
+
 
 {"saab_j39"
 ("air_multibarrel_launcher" weapon(ptur2) shooter(shooter)missile(aim-120c7) flashbarrel(shooter))				}

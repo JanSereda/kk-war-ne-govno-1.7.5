@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "missile_body"}
+	{blend none}
+}

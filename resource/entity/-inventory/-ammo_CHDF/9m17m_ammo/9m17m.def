@@ -1,0 +1,11 @@
+;By Pheonix
+{game_entity
+	(include "/properties/Projectile_ammo.ext")
+                           (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "9m17m_rocket ammo"}
+	}
+	{extension "9m17m_ammo.mdl"}
+	
+}

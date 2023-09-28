@@ -503,7 +503,9 @@
 ;	{item "bullet152_RUS sm ammo" 1 {max 2}{value 15}}				
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}				
 	{item "bullet152_RUS_korr2 fg bullet152_RUS ammo" 1 {max 30}{value 15}}				
-	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
+	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}	
+	{item "3vof34 ammo" 1 {max 20}{value 35}}	
+	
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
 (define "155mm_USA"

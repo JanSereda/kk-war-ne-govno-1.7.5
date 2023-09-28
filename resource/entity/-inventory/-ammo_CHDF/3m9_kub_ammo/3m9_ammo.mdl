@@ -1,0 +1,67 @@
+;Exported by: Администратор
+;Date:        Tue Feb 24 22:52:25 2015
+;File:        C:\Documents and Settings\Администратор\Мои документы\3dsMax\scenes\the threat of terrorism\ter\sa6_ammo.max
+{Skeleton
+	{bone "rocket00"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rocket00.ply"}
+		{bone "tail"
+			{Position -51.9505	0.0215292	-0.25257}
+		}
+	}
+}
+{Volume "body"
+	{Box 60.7705 4.01639 4.17705}
+	{Bone "rocket00"}
+	{Matrix34
+		1.73492	0.0066031	-0.0112558
+		0.0112482	0.00200775	1.73493
+		0.00661598	-1.73496	0.00196484
+		0.503437	-0.352586	0.23781
+	}
+}
+{Volume "select"
+	{Box 60.7705 4.01639 4.17705}
+	{Bone "rocket00"}
+	{Matrix34
+		1.73492	0.0066031	-0.0112558
+		0.0112482	0.00200775	1.73493
+		0.00661598	-1.73496	0.00196484
+		0.503437	-0.352586	0.23781
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.601443	-198.967	-0.0419879}
+			{lookat -0.613116	-164.203	-0.0694366}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457976	0.45561	-0.200804}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 14.7148	-142.354	-0.546133}
+			{lookat 14.7032	-101.522	-0.528879}
+			{fov 31.7555}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457977	0.45561	-0.200805}
+			}
+		}
+	}
+}
+

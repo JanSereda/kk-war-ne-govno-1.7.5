@@ -1,0 +1,80 @@
+;Exported by: Maksilin
+;Date:        Mon Oct 26 21:34:45 2015
+;File:        F:\Настройки\Снаряды\РФ\122 мм реактивные снаряды для ГРАДа\ОФ 9M22 fg\9М22.max
+{Skeleton
+	{bone "body"
+		{Matrix34
+			1.83	0	0
+			0	-1.84	0
+			0	0	1.84
+			0	0	0
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-33	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 54.1509 2.67204 2.75453}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.01334	-0.0206993	-0.0111587
+	}
+}
+{Volume "select"
+	{Box 58.9155 5.50439 5.45397}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.363739	-0.0206958	-0.0896456
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 	0	-120	0}
+			{lookat 	-0.17742		10.7143		0}
+			{fov 48}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457974	0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position -32.5051	11.6636	10.5412}
+			}
+			{"2"
+				{type point}
+				{position 41.7177	-0.630509	-4.64469}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 	25	-35		0}
+			{lookat 	35	0		0}
+			{fov 45}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457977	0.45561	-0.200804}
+			}
+		}
+	}
+}

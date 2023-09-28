@@ -1,0 +1,71 @@
+
+;Model create by: cAwX
+
+{Skeleton
+    {Bone "rocket"
+        {Orientation
+            0.973379	0	-0.2292
+            0	-1	0
+            0.2292	0	0.973379
+        }
+        {VolumeView "rocket.ply"}
+        {Bone "tail"
+            {Matrix34
+                -0.973972	0	-0.22665
+                0	-1	0
+                -0.22665	0	0.973972
+                -37.9062	-0.0426898	-7.87571
+            }
+        }
+    }
+}
+{Volume "body"
+    {Box 23.1538 3.36158 1.17113}
+    {Bone "rocket"}
+    {Matrix34
+        3.49689	0	0.868941
+        0	1.71926	0
+        -1.29026	0	5.81446
+        0.367988	0.253646	0.133056
+    }
+}
+{Volume "select"
+    {Box 20 7 3}
+    {Bone "rocket"}
+    {Matrix34
+        1.30339	0	0.312168
+        0	1	0
+        -0.254544	0	1.15218
+        8.22321	0.01193	2.05683
+    }
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.601443	-198.967	-0.0419879}
+			{lookat -0.613116	-164.203	-0.0694366}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457976	0.45561	-0.200804}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 14.7148	-142.354	-0.546133}
+			{lookat 14.7032	-101.522	-0.528879}
+			{fov 31.7555}
+			{horizon -0.17132}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457977	0.45561	-0.200805}
+			}
+		}
+	}
+}

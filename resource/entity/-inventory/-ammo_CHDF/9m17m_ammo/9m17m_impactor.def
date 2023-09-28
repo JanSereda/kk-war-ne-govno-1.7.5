@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "9m17m_ammo.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "9m17m_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+}

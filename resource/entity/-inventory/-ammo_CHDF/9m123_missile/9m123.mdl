@@ -1,0 +1,65 @@
+;Exported by: ??????
+;Date:        Fri Jul 14 22:22:03 2023
+;File:        C:\Users\??????\Desktop\9m123\9m123_remake.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-22.4631	-0.108385	-0.0308294
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 0.670039 0.115217 0.0869882}
+	{Bone "body"}
+	{Matrix34
+		65.5385	0	0
+		0	41.3785	0
+		0	0	41.3785
+		-0.00012207	0	0
+	}
+}
+{Volume "select"
+	{Box 0.670039 0.115217 0.0869882}
+	{Bone "body"}
+	{Matrix34
+		65.5385	0	0
+		0	41.3785	0
+		0	0	41.3785
+		-0.00012207	0	0
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 26.5453	14.4757	53.6756}
+			{lookat 3.22972	0.268672	-0.219941}
+			{fov 45}
+			{horizon -118.527}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.89619	-0.323675	0.663234}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	-0.197721	-0.263805}
+			}
+			{"2"
+				{type point}
+				{position 3.56399	-0.395954	2.06643}
+			}
+		}
+	}
+}
