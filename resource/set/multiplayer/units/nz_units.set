@@ -888,7 +888,7 @@
  {"brdm2sr" {fore 1} ("vs" c(420) sc(45) g(reco) b(common) brig(common) s(srbsk)  i(12) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }
        
  {"t-55_c60" {fore 1} ("v3" c(220) sc(130) g(s60tonk) b(common) brig(common) s(srbsk)   i(1) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(t-55_c60) n(1) n1(tankman:4)   ) }
- {"mtlb_c60" {fore 1} ("v" c(220) sc(100) g(mtlbvasilek2) b(common) brig(common) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(4)               ) }
+ ;{"mtlb_c60" {fore 1} ("v" c(220) sc(100) g(mtlbvasilek2) b(common) brig(common) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(4)               ) }
  {"mtlb_6ma" {fore 1} ("v3" c(400) sc(100) g(inf_mech) b(common) brig(common) s(srbsk)  i(3) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mtlb_6ma) n(1) n1(tankman:3) n2(1st_mg:1) n3(1st_rpg2:1) n4(1st_rpg:1) n5(1st_smg:1) n6(1st_smg2:2) n7(1st_smg4:2) n8(1st_com:1) n9(1st_snuper:1)     ) }	
  {"btr70i" {fore 1} ("v3" c(400) sc(155) g(inf_mech_cpec) b(common) brig(common) s(srbsk)  i(9) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr70) n(1) n1(tankman:2) n2(dezertir_com:1) n3(dezertir_mg:1) n4(dezertir_rpg:1) n5(dezertir_snip:1) n6(dezert_shotgun:2) n7(1st_smg4:2) ) }	
  {"btr80_2_newii" {fore 1} ("v3" c(600) sc(170) g(inf_mech_cpec) b(common) brig(common) s(srbsk)  i(10) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr80_2_new) n(1) n1(tankman:2) n2(dezertir_com:1) n3(dezertir_mg:1) n4(dezertir_rpg:1) n5(dezertir_snip:1) n6(dezert_shotgun:2) n7(1st_smg4:2) ) }	
