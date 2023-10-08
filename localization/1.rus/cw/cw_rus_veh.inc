@@ -5,7 +5,7 @@
 ;rev 04.07.2022
 
 
-
+{"9k33_osa_akm"						"<c(FFFFFF)e(shadow)>Оса</c>"}
 {"2s7_pion"						"<c(FFFFFF)e(shadow)>2C7 Пион</c>"}
 
 {"su-34_umpk"						"<c(FFFFFF)e(shadow)>СУ-34 УМПК</c>"}

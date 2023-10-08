@@ -101,7 +101,7 @@
 
 	{mass 45500}
 	{Chassis
-		("tank_trace" fx("tracks_big") step(0.5) len(2.3))
+		("tank_trace" fx("tracks_big") step(0.69) len(2.3))
 		{Locomotion ("CW_track_moveparam" 
 			Mass(45.5)
 			Width(10.3)

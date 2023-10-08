@@ -32,23 +32,11 @@
 		}
 		{box
 			{size 8 10}
-			{item "ammo Hcb_ammo" 150}
-			{item "ammo osv_fg" 150}
-			{item "ammo osv_fl" 50}
 			{item "140mm_a22 fg ammo" 22}
 		}
 	}
 	{Weaponry
-		{place "mgun"
-			("abm_zenite")
-			{type "mgun_aa"}
-			{weapon "Kord" filled}
-			{foresight "foresight4"}
-			{Barrels 1}
-			{charger "gunner"}
-			{basic}
-			("CW_stab_no_stabiliser")
-		}
+
 		{place "gun2"
 			{RestoreIKAfterAim}
 			{weapon "140mm_a22_pu" filled}
@@ -58,6 +46,10 @@
 			{basic}
 			{Shooter "Shooter"}
 			{Barrels 22}
+			
+			{StationaryFiring}
+			{RestoreIKAfterAim}
+			
 		}
 		
 	}	
