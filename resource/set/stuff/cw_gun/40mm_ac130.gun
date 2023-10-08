@@ -17,7 +17,7 @@
 	{cursor "cannon_on_fg_2"}
 	{cursorReloading "cannon_reload_fg"}
 	{Automatic}
-	{range 190 190}			;дальность стрельбы 4 км только по воздуху, БПС 3500 по наземным целям вообще 2500 рекомендуют
+	{range 220 220}			;дальность стрельбы 4 км только по воздуху, БПС 3500 по наземным целям вообще 2500 рекомендуют
 							;https://www.thalesgroup.com/sites/default/files/asset/document/rapidfire_05_13pr.pdf
 	("speed" s(1100))
 	{calibre 40}

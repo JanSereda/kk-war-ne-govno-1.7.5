@@ -21,19 +21,19 @@
 	{cursorReloading "cannon_reload_HESH"}
 
 	{parameters "bullet105how_uk fg"	
-		{range 190 190}	
+		{range 250 250}	
 	}
     {parameters "bullet105how_uk sm"	
-		{range 190 190}	
+		{range 250 250}	
 		;{cursor "cannon_on_dm_0"}
 		{cursor "cannon_on_sm"}
 		{cursorReloading "cannon_reload_sm"}
 	}            
     {parameters "bullet105how_usa fg"	
-		{range 190 190}	
+		{range 250 250}	
 	}
     {parameters "bullet105how_usa sm"	
-		{range 190 190}	
+		{range 250 250}	
 		;{cursor "cannon_on_dm_0"}
 		{cursor "cannon_on_sm"}
 		{cursorReloading "cannon_reload_sm"}

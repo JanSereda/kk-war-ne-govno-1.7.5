@@ -38,8 +38,8 @@
 		("CW_small_APCR_damage_DU" penetr_1000m(10))
 		("CW_acc_common" mils(1.5))
 		("CW_acc_common_90" mils(1.5))
-		{maxRange 190}
-		{aimRange 190}	;дальность предварительного наведения
+		{maxRange 200}
+		{aimRange 220}	;дальность предварительного наведения
 	    ;{cursor "Cobra"}
 	    ;{cursorReloading "zenite_reload"}
 		;{cursor "cannon_on_ap"}
@@ -50,8 +50,8 @@
 		("CW_small_APCR_damage_WC" penetr_1000m(22))
 		("CW_acc_common" mils(1.5))
 		("CW_acc_common_90" mils(1.5))
-		{maxRange 190}
-		{aimRange 190}	;дальность предварительного наведения
+		{maxRange 200}
+		{aimRange 220}	;дальность предварительного наведения
 	    ;{cursor "Cobra"}
 	    ;{cursorReloading "zenite_reload"}
 		;{cursor "cannon_on_ap"}

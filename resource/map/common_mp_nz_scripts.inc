@@ -10,11 +10,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 240}
-						{title " "}
+						{time 210}
+						{title "ЧЁ НАХУЙ"}
 					}
 					{"delay"
-						{time 240}
+						{time 210}
 					}
 					{"timer"
 						{hide}

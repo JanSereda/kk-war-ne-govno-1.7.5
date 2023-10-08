@@ -61,29 +61,29 @@
 {"ural-4320_long_zu23-2"		("v" c(30) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv_aa)  sc(25) b(supl) i(18) cw(0) cp(2))  {fore 1}}
 
 ;===============================ÂÂÑ===========================================                                   
- {"sso" {fore 0.8} ("v3" c(600) sc(100) g(sso) b(vvs_hqcar) brig(vvs) s(rus)  i(1) cw(0) cp(2) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_unarmed)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
+ {"sso" {fore 0} ("v3" c(420) sc(100) g(sso) b(vvs_hqcar) brig(vvs) s(rus)  i(1) cw(0) cp(2) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_unarmed)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
  ;{"sso_2" {fore 0} ("v3" c(600) sc(175) g(sso) b(vvs_hqcar) brig(vvs) s(rus)  i(21) cw(0) cp(2) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_b8)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
  
- {"mi28n" {fore 0.45} ("h" c(911) sc(280) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(2) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
+ {"mi28n" {fore 0} ("h" c(420) sc(280) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(2) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
  ;{"ka52" {fore 0.3} ("h" c(1000) sc(325) g(heli) b(vvs_hqcar) brig(vvs) s(rus)  i(3) cw(0) cp(30) t(all_nz aircraft   ) n(2)               ) }
- {"ka52_germes" {fore 0.3} ("h" c(1911) sc(500) g(helik) b(vvs_hqcar) brig(vvs) s(rus)  i(4) cw(0) cp(30) t(all_nz aircraft strike ) n(2)               ) }
+ {"ka52_germes" {fore 0} ("h" c(660) sc(500) g(helik) b(vvs_hqcar) brig(vvs) s(rus)  i(4) cw(0) cp(30) t(all_nz aircraft strike ) n(2)               ) }
                                    
  
- {"su-25sm_strike" {fore 0.3} ("p" c(2200) sc(400) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(6) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
- {"su-25sm_support_light" {fore 0.3} ("p" c(2200) sc(220) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(8) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"su-25sm_strike" {fore 0} ("p" c(840) sc(400) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(6) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
+ {"su-25sm_support_light" {fore 0} ("p" c(720) sc(220) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(8) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
                            
- {"su-34_medbomber" {fore 0.3} ("p" c(2200) sc(420) g(air_tac) b(vvs_hqcar) brig(vvs) s(rus)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
- {"su-34_umpk" {fore 0.3} ("p" c(2200) sc(390) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(7) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
- {"su-34_antirad" {fore 0.3} ("p" c(969) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ {"su-34_medbomber" {fore 0} ("p" c(900) sc(420) g(air_tac) b(vvs_hqcar) brig(vvs) s(rus)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ {"su-34_umpk" {fore 0} ("p" c(960) sc(390) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(7) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+ {"su-34_antirad" {fore 0} ("p" c(600) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
  
- {"su-35_strike" {fore 0.3} ("p" c(2200) sc(450) g(air_strike) b(vvs_hqcar) brig(vvs) s(rus)  i(13) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"su-35_strike" {fore 0} ("p" c(1500) sc(450) g(air_strike) b(vvs_hqcar) brig(vvs) s(rus)  i(13) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
  
  
- {"shahed136_base" {fore 0.3} ("p" c(2200) sc(40) g(uav) b(vvs_hqcar) brig(vvs) s(rus)  i(14) cw(0) cp(2) t(all_nz aircraft aat  ) n(0)               ) }
+ {"shahed136_base" {fore 0} ("p" c(1200) sc(40) g(uav) b(vvs_hqcar) brig(vvs) s(rus)  i(14) cw(0) cp(2) t(all_nz aircraft aat  ) n(0)               ) }
                                    
- {"mig-29s_aa_vks" {fore 0.3} ("p" c(2200) sc(280) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(15) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
- {"su-50_aa" {fore 0.3} ("p" c(2200) sc(340) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(17) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-29s_aa_vks" {fore 0} ("p" c(600) sc(280) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(15) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
+ {"su-50_aa" {fore 0} ("p" c(1200) sc(340) g(antiair) b(vvs_hqcar) brig(vvs) s(rus)  i(17) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
 
 
  
@@ -449,31 +449,28 @@
 							   
 ;===============================USAF===========================================                                   
  ;{"SSO_usa" {fore 0.8} ("v3" c(600) sc(90) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(2) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(mh-6) n1(vertpilot:2) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:1) n7(delta_bazooker_sso:1)       ) }
- {"uh60" {fore 0.8} ("v3" c(600) sc(150) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(20) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(uh60) n1(vertpilot:4) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:2) n7(delta_bazooker_sso:2) n8(delta_mgun:1)  n9(delta_smg_sso:2)    ) }                                 
- {"ac130" {fore 0.3} ("v_cust" c(700) sc(222) g(ac130) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(20) cw(0) cp(50) t(all_nz aircraft support_frontline  nobot) n(2)               ) }
+ {"uh60" {fore 0} ("v3" c(420) sc(150) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(20) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(uh60) n1(vertpilot:4) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:2) n7(delta_bazooker_sso:2) n8(delta_mgun:1)  n9(delta_smg_sso:2)    ) }                                 
+ ;{"ac130" {fore 0.3} ("v_cust" c(700) sc(222) g(ac130) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(20) cw(0) cp(50) t(all_nz aircraft support_frontline  nobot) n(2)               ) }
 
  
- {"mq9" {fore 0.45} ("h" c(911) sc(100) g(heli) b(usaf_hqcar) brig(usaf) s(usa)  i(3) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
- {"Apache" {fore 0.3} ("v_cust" c(1000) sc(155) g(heli) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
- {"Apache_spike" {fore 0.3} ("v_cust" c(2000) sc(260) g(heli_spike) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(5) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"mq9" {fore 0} ("h" c(480) sc(100) g(heli) b(usaf_hqcar) brig(usaf) s(usa)  i(3) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
+ {"Apache" {fore 0} ("v_cust" c(420) sc(155) g(heli) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"Apache_spike" {fore 0} ("v_cust" c(660) sc(260) g(heli_spike) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(5) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
                                    
- {"a-10c_support_light" {fore 0.3} ("p" c(2200)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(6) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"a-10c_bomber" {fore 0.3} ("p" c(2200)  sc(340) g(air_tac) b(usaf_hqcar) brig(usaf) s(usa)  i(7) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"a-10c_AT" {fore 0.3} ("p" c(2200)  sc(340) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(8) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
- ;{"a-10c_support" {fore 0.3} ("p" c(2200)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(9) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"f-16c_support" {fore 0.3} ("p" c(2200)  sc(360) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(10) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"a-10c_support_light" {fore 0} ("p" c(660)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(6) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"a-10c_bomber" {fore 0} ("p" c(900)  sc(340) g(air_tac) b(usaf_hqcar) brig(usaf) s(usa)  i(7) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"a-10c_AT" {fore 0} ("p" c(840)  sc(340) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(8) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ ;{"a-10c_support" {fore 0} ("p" c(960)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(9) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"f-16c_support" {fore 0} ("p" c(960)  sc(360) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(10) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
                                    
- ;{"f-22_fighter-bomber" {fore 0.3} ("p" c(2200)  sc(360) g(air_tac) b(usaf_hqcar) brig(usaf) s(usa)  i(11) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
- ;{"f-35c_stealthab" {fore 0.3} ("p" c(2200)  sc(290) g(air_tac) b(usaf_hqcar) brig(usaf) s(usa)  i(12) cw(0) cp(45) t(all_nz aircraft support_frontline  ) n(1)               ) }
- ;{"f-35c_support" {fore 0.3} ("p" c(2200)  sc(410) g(air_tac) b(usaf_hqcar) brig(usaf) s(usa)  i(13) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
+                        
+ {"f-16c_antirad" {fore 0} ("p" c(600)  sc(250) g(air_sead) b(usaf_hqcar) brig(usaf) s(usa)  i(14) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"f-35c_strike" {fore 0} ("p" c(1500)  sc(450) g(air_strike) b(usaf_hqcar) brig(usaf) s(usa)  i(15) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
                                    
- {"f-16c_antirad" {fore 0.3} ("p" c(969)  sc(250) g(air_sead) b(usaf_hqcar) brig(usaf) s(usa)  i(14) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"f-35c_strike" {fore 0.3} ("p" c(2200)  sc(450) g(air_strike) b(usaf_hqcar) brig(usaf) s(usa)  i(15) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
-                                   
- ;{"f-35c_stealthaa" {fore 0.3} ("p" c(2200)  sc(170) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(16) cw(0) cp(40) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"f-22_antiair" {fore 0.3} ("p" c(2200)  sc(290) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(17) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ ;{"f-35c_stealthaa" {fore 0} ("p" c(2200)  sc(170) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(16) cw(0) cp(40) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"f-22_antiair" {fore 0} ("p" c(720)  sc(290) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(17) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
                                   
- {"e-2c_hawkeye" {fore 0.3} ("p" c(2200) sc(100) g(radar) b(usaf_hqcar) brig(usaf) s(usa)  i(18) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
+ {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(usaf_hqcar) brig(usaf) s(usa)  i(18) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
                                    
  {"m939_avia" {fore 1} ("vs" c(28) sc(100) g(supply3) b(usaf_hqcar) brig(usaf) s(usa)  i(19) cw(0) cp(2) t(all_nz  supply  ) n(2)               ) }
                                    

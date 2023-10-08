@@ -48,7 +48,7 @@
 						{time 160}
 					}
 					{"trigger"
-						{name "service/mp_weather/normal"}
+						{name "single/3-poltava/poltava_24_00"}
 					}
 				}
 			}
