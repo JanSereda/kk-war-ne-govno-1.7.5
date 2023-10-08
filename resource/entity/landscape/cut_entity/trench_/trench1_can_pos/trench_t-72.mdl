@@ -1,0 +1,78 @@
+;Exported by: Администратор
+;Date:        Sun Jun 03 10:18:48 2012
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Фортификация\Окоп под Т-72\trench_t-72.max
+{Skeleton
+	{bone "trench_t-72"
+		{parameters "CommonMesh;Ground;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "trench_t-72.ply" {Ground} {DecalTarget}}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 18.8814 -67.9973}
+		{Extent 79.7835 1.96851}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 18.8814 61.6536}
+		{Extent 79.7835 1.96851}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 99.4287 -3.55054}
+		{Extent 1.96853 65.1902}
+		{Axis 1 0}
+	}
+	{Rotate}
+}
+{Area "cut"
+	{Polygon2
+		{Radius 0}
+		{Vertex 84.7132 58.1824}
+		{Vertex -157.26 55.8258}
+		{Vertex -157.26 -59.3211}
+		{Vertex 84.7132 -61.704}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 1.9685 79.7835 12.8318}
+	{Bone "trench_t-72"}
+	{Matrix34
+		0	-2	0
+		2	0	0
+		0	0	2
+		18.8814	67.9973	-2.79836
+	}
+}
+{Volume "body1"
+	{Box 1.9685 79.7835 12.8318}
+	{Bone "trench_t-72"}
+	{Matrix34
+		0	-2	0
+		2	0	0
+		0	0	2
+		18.8814	-61.6536	-2.79836
+	}
+}
+{Volume "body2"
+	{Box 1.9685 65.1902 11.1409}
+	{Bone "trench_t-72"}
+	{Matrix34
+		-2	0	0
+		0	-2	0
+		0	0	2
+		99.4287	3.55054	-4.48928
+	}
+}

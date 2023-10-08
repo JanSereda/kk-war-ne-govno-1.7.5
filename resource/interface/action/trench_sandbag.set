@@ -1,0 +1,29 @@
+{action
+	{target ground}
+	{cursor "trench"}
+	{button "trench_sandbag"}
+	{fx "flashred"}
+	{item "sandbag_kit"}
+	{item_in_box}
+	{ShowCount}
+	{abledrag}
+	{AimEntities}
+	{instructions
+		{bind range 1}
+		{disable_action_restart}
+		{take_item}
+		{reserve_hands}
+		{animations "stand_dig_trench" loop totaltime 18}
+		{fsm_request "ground-drop"}
+		{unreserve_hands}
+		{install "trench1_sack_fire_pos" 0 exact_placement
+		}
+		{fsm_request nocheck "hold-nothing"}
+		{install "trench1_sack_exit" 50 exact_placement
+		}
+		{fsm_request nocheck "hold-nothing"}
+		{install "trench1_sack_exit" 10 exact_placement
+		}
+		{fsm_request nocheck "hold-nothing"}
+	}
+}

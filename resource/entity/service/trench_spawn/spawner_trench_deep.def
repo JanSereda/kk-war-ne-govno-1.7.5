@@ -1,0 +1,13 @@
+{game_entity
+	{extension "/properties/piece.ext"}
+	{obstacleId "nothing"}
+     {Skeleton
+	{bone "trench1"
+		{Orientation
+				-1	0	0
+				0	1	0
+				0	0	1
+		}
+	}
+     }
+}

@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/trench.inc")
+	{Extension "trench_t-72.mdl"}
+	{props "sand"}
+	("boneLand"  args "trench_t-72")
+	("volume" args "body")
+	("volume" args "body1")
+	("volume" args "body2")
+	{ObstacleID "unbreakable"}
+}
