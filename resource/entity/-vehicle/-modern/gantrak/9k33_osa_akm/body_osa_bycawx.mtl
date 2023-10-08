@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "body_osa_bycawx"}
+	{blend none}
+}

@@ -1,5 +1,8 @@
 ;SDL
 {units
+{"osa_am_rls"		{structure "cwds_radar"}}
+{"osa_ma_pu"		{structure "cwds_shipcannon"}}
+{"9k33_osa_akm"			{structure "cwds_sam"}}
 
 {"su-34_umpk"		{structure "cwds_plane_attack"}}
 {"mi17_unarmed_supl"		{structure "cwds_heli_common"}}

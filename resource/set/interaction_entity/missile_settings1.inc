@@ -201,6 +201,9 @@
 	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k31_target) decoytype(flare) decoyprob(0.23) min_alt(5))
 	else stuff "strela10 9m37 ammo"			
 	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k37_target) decoytype(flare) decoyprob(0.20) min_alt(5))
+	else stuff "9m33_rocket ammo"			
+	("spawn_proj_7" country(rus) type(active) weapon_tag(9m33_rocket_target) decoytype(chaff) decoyprob(0.21) min_alt(14))
+
 	else stuff "strela10 9m333 ammo"			
 	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k333_target) decoytype(flare) decoyprob(0.15) min_alt(5))
 	else stuff "9m311 ammo"			
@@ -217,6 +220,7 @@
 	("spawn_proj_1" country(rus) type(active) weapon_tag(9m317_target) decoytype(chaff) decoyprob(0.15) min_alt(15))
 	else stuff "9m33 ammo"			
 	("spawn_proj_1" country(rus) type(active) weapon_tag(9m33_target) decoytype(chaff) decoyprob(0.21) min_alt(15))
+
 	else stuff "patriot ammo"		
 	("spawn_proj_5" country(usa) type(active) weapon_tag(patriot_target) decoytype(chaff) decoyprob(0.14) min_alt(15))
 	else stuff "xmim-115avt1 ammo"	

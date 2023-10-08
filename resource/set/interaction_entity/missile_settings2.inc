@@ -568,6 +568,8 @@
 {("CWPS_proj" missilename(9k14m) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
 {("CWPS_proj" missilename(hj73c) rotation(1) rand_move(0) smoke_vulnerable(1)  decoyprob(0.3) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
 {("CWPS_proj" missilename(9k31) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.8) range(17) tail(proj_jet_sam) eng_time(3))("speed_normal" coeff(0.88))}
+{("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}
+{("CWPS_proj" missilename(9m33_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.41) range(33) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k333) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.4) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k111) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.3) range(15) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.81))("tracer" tracer(tracer_konkurs) bone(tail))}
@@ -1334,3 +1336,4 @@
 {("CWPS_torpedo" missilename(mk48_torpedo) rotation(0) rand_move(0) smoke_vulnerable(0) range(40) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
 {("CWPS_torpedo" missilename(ugmt1_torpedo) rotation(0) rand_move(0) smoke_vulnerable(0) range(18) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
 {("CWPS_torpedo" missilename(torpedo_mk46) rotation(0) rand_move(0) smoke_vulnerable(0) range(18) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
+{("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}

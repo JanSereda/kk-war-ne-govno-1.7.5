@@ -1,4 +1,32 @@
 
+{"9k33_osa_akm"		
+	("btr80_sound")	  
+
+	("radar_lifting90_params" triplex(additional_triplex) visor(visor_radar) anim_rotate(radar_loop) anim_lift(radar_lift) marker(antirad_generator_rus))	
+
+	{on spawn	
+		{add_view	 "startsmoke_big"	"shooter00"	"tail00"}			
+		{add_view	 "startsmoke_big"	"shooter01"	"tail01"}			
+		{add_view	 "startsmoke_big"	"shooter02"	"tail02"}		
+		{add_view	 "startsmoke_big"	"shooter03"	"tail03"}		
+		{add_view	 "startsmoke_big"	"shooter04"	"tail04"}		
+		{add_view	 "startsmoke_big"	"shooter05"	"tail05"}			
+	}
+		
+	{on fire "gun2" 			
+	(define "fire_barrel"				name "%0"					
+	{delay 0.1 
+	{spawn "9m33_missile_carrier" "shooter%0"   x}
+	}					
+	{ani_play "fire"}					
+	{view start "shooter%0"}					
+	{delay 0.42						{view pause "shooter%0"}					
+	}			
+	)				
+	{if    ("fire_barrel" args 00)				  else ("fire_barrel" args 01)				  else ("fire_barrel" args 02)				  else ("fire_barrel" args 03)				  else ("fire_barrel" args 04)				  else ("fire_barrel" args 05)		
+		}		
+	}			
+}
 
 
 
