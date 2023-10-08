@@ -219,7 +219,7 @@
 	}
 	{Human "mp2/frg/frg_rpg2" 0x5804
 		{Position 37.42 -2150.19}
-		{xform zl 50.1 y 10.43 zw 16.59}
+		{xform zl 51.04 y 10.43 zw 16.59}
 		{Extender "vitality"
 			{Dead}
 			{Health
@@ -409,14 +409,6 @@
 	}
 	{Entity "9s18_kupol_xx" 0x61
 		{Position -2234.64 6009.91}
-	}
-	{Entity "bmr-3_xx" 0x62
-		{Position 1953.73 6014.24}
-		{xform zl -31.94}
-	}
-	{Entity "bmpt_xx" 0x63
-		{Position 199.46 5522.51}
-		{xform zl 119.08}
 	}
 	{Entity "t72b3_2017_xx" 0x64
 		{Position -2112.94 1644.33}
