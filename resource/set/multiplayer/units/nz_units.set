@@ -99,7 +99,7 @@
                                   
  
  {"mstasm2" {fore 0.4} ("v" c(600) sc(400) g(art1) b(artbr_hqcar) brig(artbr) s(rus)  i(6) cw(0) cp(35) t(all_nz art support_frontline  ) n(4)               ) }
- {"2s7_pion" {fore 0.13} ("v" c(1900) sc(500) g(art2) b(artbr_hqcar) brig(artbr) s(rus)  i(7) cw(0) cp(105) t(all_nz art no_frontline support_frontline   ) n(5)               ) }
+ {"2s7_pion" {fore 0.13} ("v" c(1100) sc(500) g(art2) b(artbr_hqcar) brig(artbr) s(rus)  i(7) cw(0) cp(105) t(all_nz art no_frontline support_frontline   ) n(5)               ) }
  {"ural-4320_tornado_g" {fore 0} ("vs" c(600) sc(400) g(rszo) b(artbr_hqcar) brig(artbr) s(rus)  i(8) cw(0) cp(35) t(all_nz art support_frontline  ) n(2)               ) }
  
  {"bm-30_smerch" {fore 0} ("vs" c(900) sc(420) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(9) cw(0) cp(45) t(all_nz art support_frontline  ) n(4)               ) }
