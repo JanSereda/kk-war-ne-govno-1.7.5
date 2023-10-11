@@ -47589,7 +47589,6 @@
 	}
 	{Entity "fc_c10_2" 0x1a1d
 		{SkeletonSrc "fc_c10_2_x"}
-		{TexMod "kirp2"}
 		{Placer
 			{State "1" {Broken}}
 			{State "2" {Broken}}
@@ -47610,7 +47609,6 @@
 	}
 	{Entity "fc_c3_3" 0x1a24
 		{SkeletonSrc "fc_c3_3_x"}
-		{TexMod "kirp2"}
 		{Placer
 			{State "1" {Broken}}
 		}
@@ -47620,7 +47618,6 @@
 	}
 	{Entity "fc_c2_3" 0x1a25
 		{SkeletonSrc "fc_c2_3_x"}
-		{TexMod "kirp2"}
 		{Extender "structure_bone"
 			{crushed}
 		}
@@ -47690,7 +47687,6 @@
 	}
 	{Entity "fc_c2_4" 0x1a36
 		{SkeletonSrc "fc_c2_4_x"}
-		{TexMod "kirp2"}
 		{Placer
 			{State "1" {Broken}}
 		}
@@ -48817,7 +48813,7 @@
 		{Extender "vitality"
 			{Dead}
 			{Health
-				{current -100}
+				{current 0}
 			}
 			{Stamina
 				{current 0}
@@ -48838,518 +48834,243 @@
 	{Entity "piece_big_airborne_wing" 0x2803
 		{Position -1211.27 38.36 -349}
 		{xform zl 172.89 y 174.12 zw 158.27 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x2804
 		{Position -1775.36 161.79 -368.79}
 		{xform zl 89.14 y 68.33 zw -36.98 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 		{DisableObstacles}
 	}
 	{Entity "piece_big_airborne_wing" 0x2807
 		{Position -1805.49 288.02 -369}
 		{xform zl 77.28 y 118.47 zw 166.21 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x280a
 		{Position -1679.13 279.39 -364.15}
 		{xform zl -89.97 y 89.95 zw 117.01}
 		{TexMod "kirp2"}
-		{Volume "piece1"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x280b
 		{Position -1704.77 250.69 -365.61}
 		{xform zl -94.85 y 0.11 zw 149.25}
 		{TexMod "kirp2"}
-		{Volume "piece2"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x280c
 		{Position -1715.63 332.6 -361.1}
 		{xform zl 0.16 y 90.53 zw -173.65}
 		{TexMod "kirp2"}
-		{Volume "piece3"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x280e
 		{Position -1721.79 265.37 -367.56}
 		{xform zl -89.98 y 90.05 zw -36.34}
-		{TexMod "kirp2"}
-		{Volume "piece5"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2811
 		{Position -1773.5 243.62 -361.37}
 		{xform zl -119.92 y 89.96 zw -172.88}
-		{Volume "piece0"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2859
 		{Position -1752.35 234.83 -367.56}
 		{xform zl -75.75 y 0.05 zw 57.62}
-		{Volume "piece1"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2875
 		{Position -1836.65 188.34 -345.61}
 		{xform zl -90.01 y 89.98 zw -89.91}
-		{Volume "piece2"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2876
 		{Position -1791.67 166.12 -347}
 		{xform zl -119.38 y 90 zw -106.35}
-		{Volume "piece3"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2877
 		{Position -1770.44 232.72 -359.91}
 		{xform zl -8.74 y 179.87 zw 98.88}
-		{Volume "piece4"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2878
 		{Position -1783.5 231.95 -358.76}
 		{xform zl -179.76 y 135.83 zw -165.65}
-		{Volume "piece5"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x287a
 		{Position -1835.96 148.24 -345.45}
 		{xform zl -86.15 y 0.08 zw 19.23}
-		{Volume "piece7"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x287b
 		{Position -1740.32 225.38 -367.61}
 		{xform zl -90.48 y 0.15 zw 18.51}
-		{Volume "piece8"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28b3
 		{Position -1930.45 149.91 -345.48}
 		{xform zl -90.05 y 90.02 zw 23.02}
-		{TexMod "kirp2"}
-		{Volume "piece0"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28be
 		{Position -1919.63 184.31 -345.7}
 		{xform zl -89.97 y 55 zw -1}
 		{TexMod "kirp2"}
-		{Volume "piece3"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28c0
 		{Position -1892.67 168.83 -344.64}
 		{xform zl -90.06 y 0.05 zw 104.42}
-		{TexMod "kirp2"}
-		{Volume "piece5"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28c1
 		{Position -1881.52 157.22 -344.64}
 		{xform zl 89.04 y 179.94 zw 73.34}
-		{TexMod "kirp2"}
-		{Volume "piece6"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x28ca
 		{Position -1960.29 303.6 -347.09}
 		{xform zl 95.24 y 92.34 zw -107.51 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28da
 		{Position -1886.1 167.17 -345.53}
 		{xform zl -175.76 y 179.9 zw 15.92}
-		{Volume "piece4"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28f3
 		{Position -1861.24 259.35 -338.3}
 		{xform zl -89.89 y 90.77 zw 95.56}
-		{Volume "piece1"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28f4
 		{Position -1851.42 249.69 -334.57}
 		{xform zl -90.02 y 89.87 zw 157.83}
-		{Volume "piece2"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28f8
 		{Position -1828.81 264.84 -347.67}
 		{xform zl -122.18 y 120.45 zw -22.77}
-		{Volume "piece6"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x28f9
 		{Position -1934.68 262.98 -345.57}
 		{xform zl 90 y 90.03 zw -166.34}
-		{Volume "piece7"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2926
 		{Position -1905.3 303.72 -334.49}
 		{xform zl -90.03 y 89.92 zw 121.23}
-		{TexMod "kirp2"}
-		{Volume "piece4"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2928
 		{Position -1933.34 332.79 -338.79}
 		{xform zl -179.16 y 90.27 zw 105.21}
 		{TexMod "kirp2"}
-		{Volume "piece6"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2929
 		{Position -1939.58 331.3 -342.87}
 		{xform zl -89.17 y 88.88 zw 15.15}
 		{TexMod "kirp2"}
-		{Volume "piece7"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x292a
 		{Position -1897.6 342.18 -339.52}
 		{xform zl -89.94 y 86.89 zw 14.82}
 		{TexMod "kirp2"}
-		{Volume "piece8"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x292d
 		{Position -2053.11 323.48 -362.3}
 		{xform zl -159.74 y 94.75 zw -165.39 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x292f
 		{Position -1979.95 283.3 -348.14}
 		{xform zl -70.65 y 86.13 zw 14.41}
-		{TexMod "kirp2"}
-		{Volume "piece0"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2931
 		{Position -2083.13 169.08 -365.58}
 		{xform zl -77.94 y 0.08 zw 50.21}
 		{TexMod "kirp2"}
-		{Volume "piece3"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2978
 		{Position -1993.21 278.47 -352.31}
 		{xform zl -124.71 y 83.04 zw 169.19}
-		{TexMod "kirp2"}
-		{Volume "piece1"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2979
 		{Position -2012.27 273.04 -346.14}
 		{xform zl -6.84 y 120.27 zw -102.53}
 		{TexMod "kirp2"}
-		{Volume "piece2"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x297a
 		{Position -2035.33 261.58 -362.37}
 		{xform zl -1.07 y 157.83 zw 49.26}
 		{TexMod "kirp2"}
-		{Volume "piece3"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x297b
 		{Position -1977.06 296.33 -343.56}
 		{xform zl -147.24 y 2.41 zw -104.62}
 		{TexMod "kirp2"}
-		{Volume "piece4"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2982
 		{Position -2009.78 265 -350.99}
 		{xform zl -81.41 y 89.9 zw -65.15}
 		{TexMod "kirp2"}
-		{Volume "piece5"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2983
 		{Position -1993.86 244.1 -353.45}
 		{xform zl -0.03 y 90.12 zw -85.04}
 		{TexMod "kirp2"}
-		{Volume "piece6"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2984
 		{Position -1963.09 253.3 -354.43}
 		{xform zl -45.84 y 135.79 zw -2.42}
 		{TexMod "kirp2"}
-		{Volume "piece7"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x2988
 		{Position -1978.43 321.72 -338.98}
 		{xform zl 151.01 y 40.49 zw 87.18}
 		{TexMod "kirp2"}
-		{Volume "piece0"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x299e
 		{Position -1907.12 339.77 -336.35}
 		{xform zl -89.4 y 101.31 zw 16.64}
 		{TexMod "kirp2"}
-		{Volume "piece3"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x299f
 		{Position -2164.61 370.6 -369}
 		{xform zl -80.58 y 97.02 zw 85.2 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x1e09
 		{Position -1205.13 26.17 -348.95}
 		{xform zl -98.63 y 4.39 zw 89.38 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x1e17
 		{Position -2025.24 293.39 -350.89}
 		{xform zl 152.54 y 81.63 zw 100.72}
 		{TexMod "kirp2"}
-		{Volume "piece2"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x1e22
 		{Position -1980.69 272.3 -348.81}
 		{xform zl -18.33 y 129.67 zw 52.16}
 		{TexMod "kirp2"}
-		{Volume "piece4"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x1e23
 		{Position -2004.77 285.18 -350.26}
 		{xform zl 36.7 y 103.74 zw 29.59}
 		{TexMod "kirp2"}
-		{Volume "piece5"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x582b
 		{Position -8596.38 -5018.38 4080}
 		{xform zl 107.12 y 2.1 zw -107.69 scale 0.1}
-		{TexMod "israel"}
-		{Volume "part2"
-			{able {obstacle 0}}
-		}
 		{DisableObstacles}
 	}
 	{Entity "piece_big_airborne_wing" 0x582c
 		{Position -6090.33 -5018.75 4084}
 		{xform zl -83.75 y 0.46 zw -97.68 scale 0.1}
-		{TexMod "israel"}
-		{Volume "wingr2"
-			{able {obstacle 0}}
-		}
 		{DisableObstacles}
 	}
 	{Entity "piece_big_airborne_wing" 0x584a
 		{Position -6089.42 -5018.75 4084}
 		{xform zl -83.75 y 0.46 zw -97.68 scale 0.1}
-		{TexMod "israel"}
-		{Volume "aileron1"
-			{able {obstacle 0}}
-		}
-		{Volume "wingfront1"
-			{able {obstacle 0}}
-		}
-		{Volume "wingl1"
-			{able {obstacle 0}}
-		}
-		{Volume "wingl2"
-			{able {obstacle 0}}
-		}
 		{DisableObstacles}
 	}
 	{Entity "building_part_concrete" 0x584c
 		{Position -1932.29 316.07 -344.68}
 		{xform zl -38.59 y 112.1 zw 41.68}
 		{TexMod "kirp2"}
-		{Volume "piece1"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "building_part_concrete" 0x584d
 		{Position -1945.91 284.8 -343.71}
 		{xform zl 6.61 y 87.06 zw 22.45}
 		{TexMod "kirp2"}
-		{Volume "piece2"
-			{able {visible 0}{bullet 0}{blast 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x588e
 		{Position -2050.91 324.61 -361.49}
 		{xform zl -172.65 y 18.83 zw 148.22 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x588f
 		{Position -1804.32 273.76 -368.86}
 		{xform zl 140.86 y 0.62 zw 37.71 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "piece_big_airborne_wing" 0x5890
 		{Position -1779.65 161 -366.26}
 		{xform zl -12.31 y 52.13 zw 32.79 scale 0.1}
-		{TexMod "israel"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
-	}
-	{Entity "lancet3m_catapult" 0x493d
-		{Position 7495.95 1601.95 -375.41}
-		{xform zl 8.11 y 15.16 zw 30.49}
-		{Armor
-			{wounds
-				{damage "body" 0.356648 1
-					{matrix
-						{pos 0.424 -0.967 -17.718}
-						{nxform 1.419 0.257 1.586}
-					}
-				}
-			}
-		}
-		{Placer
-			{State "driver" {Disable}}
-		}
-		{Extender "cannon"
-			{animation
-				{switch close}
-			}
-		}
-		{Player 0}
-		{MID 10011}
-		{Able "-repaired" "-select" "exploded"}
-		{Component "body"
-			{State destroyed}
-		}
-		{Component "turret"
-			{State destroyed}
-		}
-		{Component "gun"
-			{State destroyed}
-		}
-		{Component "gun2"
-			{State destroyed}
-		}
-		{Component "shield"
-			{State destroyed}
-		}
-	}
-	{Human "mp2/pol/pol_mgunhelper" 0x6e02
-		{Position 7442.62 1663.97}
-		{xform zl -66.9}
-		{Extender "vitality"
-			{Dead}
-			{Health
-				{current 0}
-			}
-			{Stamina
-				{current 0}
-			}
-		}
-		{DisableObstacles}
-		{Player 0}
-		{MID 10012}
-		{Able "-select"}
-		{NameId 5 27}
-		{LastItem "wz96_beryl_sk3"}
-		{LastDyingAnimation "lie_die"}
-		{FsmState "dead"}
-	}
-	{Entity "pol_kwm02_smg" 0x6e03
-		{Volume "soft_plate1"
-			{able {bullet 0}}
-		}
-		{Volume "soft_plate"
-			{able {bullet 0}}
-		}
-		{Armor
-			{wounds
-				{damage "soft_plate" 0.353577 1
-					{matrix
-						{pos 11.085 -2.585 -21.522}
-						{nxform 1.475 1.493 1.32}
-					}
-				}
-			}
-		}
-	}
-	{Entity "wz96_beryl_sk3" 0x6e04
-		{Extender "stuff"
-			{Item "wz96_beryl_sk3" filling "556natomb" "ammo" 30}
-		}
 	}
 	{Entity "znak_city" 0x1e41
 		{Position 6342.14 229.13}
@@ -52953,37 +52674,6 @@
 			{item "makarov" filled {cell 4 2}}
 			{item "standart" "ammo" 50 {cell 4 3}}
 			{item "beret_irq" {cell 0 4}{user "head"}}
-		}
-	}
-	{Inventory 0x493d
-		{box
-			{clear}
-		}
-	}
-	{Inventory 0x6e02
-		{box
-			{clear}
-			{item 0x6e03 {cell 0 0}}
-			{item "556nato" "ammo" 30 {cell 4 0}}
-			{item "556nato" "ammo" 30 {cell 5 0}}
-			{item "556nato" "ammo" 30 {cell 6 0}}
-			{item "556nato" "ammo" 30 {cell 4 1}}
-			{item "556nato" "ammo" 30 {cell 5 1}}
-			{item "556nato" "ammo" 30 {cell 6 1}}
-			{item "556nato" "ammo" 30 {cell 4 2}}
-			{item "556nato" "ammo" 30 {cell 5 2}}
-			{item "urg86" "grenade" {cell 6 2}}
-			{item "urg86" "grenade" {cell 4 3}}
-			{item "bandage" 5 {cell 5 3}}
-			{item "bandage" 5 {cell 0 4}}
-			{item "smoke" "grenade" {cell 2 4}}
-			{item 0x6e04 {cell 0 5}}
-			{item "762nato" "ammo" 100 {cell 4 4}}
-			{item "762nato" "ammo" 100 {cell 4 5}}
-			{item "762nato" "ammo" 100 {cell 4 6}}
-			{item "762nato" "ammo" 100 {cell 0 7}}
-			{item "sandbag_kit" {cell 6 4}}
-			{item "pasgt_helmet_pol" {cell 2 7}{user "head"}}
 		}
 	}
 	{Slicer 0x1a10

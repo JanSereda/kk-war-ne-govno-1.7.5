@@ -492,8 +492,8 @@
 
  ;{"m2_adats" {fore 0.6} ("vs" c(460) sc(200) g(pvo3) b(usart_hqcar) brig(usart) s(usa)  i(9) cw(0) cp(20) t(all_nz art aat support_frontline  ) n(3)               ) }
  
- {"patriot_launcher" {fore 0} ("vpat" c(500) sc(240) g(pvo45) b(usart_hqcar) brig(usart) s(usa)  i(10) cw(0) cp(20) t(all_nz art support_frontline  ) n(2) c1(patriot_truck) c2(patriot_launcher) n1(vehicle_supporter:2)            ) }
- {"patriot_radar" {fore 0.07} ("vpat" c(500) sc(260) g(pvo46) b(usart_hqcar) brig(usart) s(usa)  i(11) cw(0) cp(20) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(patriot_truck) c2(patriot_radar) n1(vehicle_supporter:2)            ) }
+ {"patriot_launcher" {fore 0} ("vpat" c(1000) sc(260) g(pvo45) b(usart_hqcar) brig(usart) s(usa)  i(10) cw(0) cp(20) t(all_nz art support_frontline  ) n(2) c1(patriot_truck) c2(patriot_launcher) n1(vehicle_supporter:2)            ) }
+ {"patriot_radar" {fore 0.07} ("vpat" c(1000) sc(290) g(pvo46) b(usart_hqcar) brig(usart) s(usa)  i(11) cw(0) cp(20) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(patriot_truck) c2(patriot_radar) n1(vehicle_supporter:2)            ) }
                                    
  {"hawk_rls" {fore 0.9} ("vpat" c(300) sc(35) g(radar1) b(usart_hqcar) brig(usart) s(usa)  i(12) cw(0) cp(5) t(all_nz art cannon heavy_art fixed support_frontline  ) n(2) c1(hmmwv_m998) c2(hawk_rls) n1(vehicle_supporter:2)            ) }
  {"mq9_recon" {fore 0.0} ("h" c(300) sc(80) g(recon_big) b(usart_hqcar) brig(usart) s(usa)  i(13) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }

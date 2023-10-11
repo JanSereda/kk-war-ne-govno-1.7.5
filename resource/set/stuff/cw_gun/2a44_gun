@@ -6,7 +6,7 @@
 	{reloadSound "t80_reload"}
 	
 	{rechargeTime 20}
-	{range 380 390}
+	{range 450 450}
 	
 ;	{gravity 18}
 ;	("speed" s(1200)) 
@@ -18,7 +18,7 @@
 	{ZeroingAccuracy 1 1}
 	
 	;("CW_acc_artillery" mils(2.75))
-	("CW_acc_artillery" mils(2.75))
+	("CW_acc_artillery" mils(2.50))
 	
 	{calibre 203}
 	{cursor "cannon_on_fg_5"}

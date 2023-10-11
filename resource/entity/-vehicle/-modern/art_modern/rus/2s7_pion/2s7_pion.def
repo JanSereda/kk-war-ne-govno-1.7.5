@@ -98,27 +98,21 @@
 	}
 	
 ;===================================================================
-
-	{mass 45500}
+	{mass 56100}
 	{Chassis
-		("tank_trace" fx("tracks_big") step(0.3) len(0.85))
+		("tank_trace" fx("tracks_big") step(0.47) len(1.0))
 		{Locomotion ("CW_track_moveparam" 
-			Mass(50)
-			Width(3.27)
-			Power(580)
-			Realspeed(28)
-			Gamespeed(34) 
-			Range(500)
-			Fuelvolume(965)
+			Mass(56.1)
+			Width(3.7)
+			Power(1500)
+			Realspeed(24)
+			Gamespeed(24) 
 		)
-		{RearGears		0.25 0.49}}
-		("CW_fuelbag" Range(675) Fuelvolume(800))
-		("CW_speed_lev" Gamespeed(30))
+		{RearGears		0.20 0.41}{GearSwitchDelay	0.01}}
+		("CW_fuelbag" Range(500) Fuelvolume(1200))
+		("CW_speed_lev" Gamespeed(24))
 	}
-	
-
-	
-	{props "cwfs_fuel_800"}
+	{props "cwfs_fuel_500" "cwfs_extfuel_1000"}
 	
 ;===================================================================
 	
