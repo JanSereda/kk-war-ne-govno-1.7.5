@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{entity "gbu53b"}
+	{inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "gbu53b_gps"} 
+	{tag "bomb"} ; только для ammo.set
+	{mass 125}
+
+}
+

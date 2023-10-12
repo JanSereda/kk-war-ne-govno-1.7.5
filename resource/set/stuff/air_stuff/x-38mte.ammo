@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	
+	{entity "x-38mte"}
+                {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag "no_ricochet" "fg" "fragmentary" "big" "size4" "88to105" "ptrk" "rus_laser_spot" "laser_using_missile"}
+    {tag "heavy_atgm"} ; только для ammo.set	
+}

@@ -1,5 +1,5 @@
 ;Exported by: Timosh
-;Date:        Thu Sep 21 07:44:29 2023
+;Date:        Tue Oct  3 08:23:57 2023
 ;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\???\agm_130\agm_130 1.max
 {Skeleton
 	{bone "agm130"
@@ -47,6 +47,16 @@
 		0	-1	0
 		0	0	-1
 		1.40654	-0.20191	-1.04274
+	}
+}
+{Volume "starter"
+	{Box 63.3223 4.26899 4.83451}
+	{Bone "starter"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0	0	-0.56701
 	}
 }
 {Extender "preview"

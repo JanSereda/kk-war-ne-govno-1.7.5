@@ -1,4 +1,5 @@
 {actor
 	(include "gbu39_guided.inc")
-    {targetselector "gbu_09"}
+    {targetselector "gbu39_09"}
+	{props "gbu_guided_09"}
 }

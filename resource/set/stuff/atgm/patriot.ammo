@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	{entity "patriot_ammo"}	;MIM-104C
+    {inventory
+		{weight 100}
+		{size 7 1}
+	}
+	{mass 1696} ;с ТПК. Без ТПК - 912 кг.
+	;"RadAA_missile_2gen"
+	{tag  "big" "size4" "88to105" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "usa_radpassive_missile" "antimissile" "anti_ballistic_missile_usa"}
+	{tag "rad_aa_heavy"} ; только для ammo.set
+}

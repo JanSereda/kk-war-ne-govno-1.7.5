@@ -4,7 +4,7 @@
 	{fireSound "gun/2A51"}
 	{reloadSound "tankgun_r03"}
 	{rechargeTime 7.5}
-	{range 225 225}          ;3ОФ-49  8.8км
+	{range 190 190}          ;3ОФ-49  8.8км
 	{gravity 2.9}
 	("speed" s(367)) 
 	("100-128caliber")
@@ -20,37 +20,35 @@
 		("CW_acc_guided" kvo_meters(5))
 		{gravity 3.1}
 	}	
-	{parameters "bullet120_RUS fg"         ;8.8км 3ОФ-49 8.5км китайская мина
-		{range 225 225}
-	}	
 	{parameters "bullet120_RUS rok"         ;3ОФ-50 АРС 12.8км
 		;("CW_acc_artillery" mils(3.84))
 		("CW_acc_artillery" mils(5.0))
-		{range 240 240}
-		{gravity 2.5}
+		{range 225 225}
+		{gravity 2.3}
 	}
 	{parameters "bullet120_RUS cm"          ;3БК-19  1км
-		{range 150 150}
+		{range 100 100}
 		{cursor "cannon_on_heat"}
 		{cursorReloading "cannon_reload_heat"}
 	}	                    
     {parameters "bullet120_RUS tb"          ;3ОФ-74  8.5км  перспектива.
-		{range 225 225}
+		{range 190 190}
 	}
 	{parameters "bullet120_cn rok"         ;13км
 		;("CW_acc_artillery" mils(5.84))
 		("CW_acc_artillery" mils(9))
-		{range 265 265}
-		{gravity 2.5}
+		{range 235 235}
+		{gravity 2.3}
 	}
 	{parameters "bullet120_cn fg"         ;9.5км
-		{range 225 225}
+		{range 195 195}
 	}	
 	{parameters "bullet120_cn cl"         ;9.3км
-	    ("damage4" a(4) b(4) c(4) d(4) e(4))
-		{range 225 225}
+	    ;("damage4" a(4) b(4) c(4) d(4) e(4))
+		{range 193 193}
 		{cursor "cannon_on_heat_3"}
 		{cursorReloading "cannon_reload_heat"}
+	    {Spreading {SpreadYadjust	3.0} }
 	}	
 	
 }

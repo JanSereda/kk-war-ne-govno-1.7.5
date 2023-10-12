@@ -1,0 +1,30 @@
+{weapon_bullet
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo sdb2" 8}
+	{fillingVisible "sdb2_"}
+	{fireSound "reactive/bomb"}
+	{recoveryTime 0.5}
+	{rechargeTime 300}
+;	{range 482 482}	;100км по стац цели
+;	{range 455 455}	;70км по движ цели
+	{range 470 470}	;пока не будет зависимости от цели - пусть стоит среднее, на MOW2 поправим.
+	
+	;{cursor "glonass"}
+             ;{cursorReloading "glonass_reload"}
+	{cursor "bomb_on"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}
+	{automatic}
+	{gravity 520}
+	{speed 2000}
+;	{aimtype adaptive}
+;	("accuracy_kab" kvo_meters(1.0))	;3 гсн - gps, ИК, РЛ, КВО 1м
+	("accuracy_kab" kvo_meters(0.01))	;разница между 1 и 0,01 по наз. целям мала, но при 1м не захватывает нормально технику.
+	{Spreading 
+		{SpreadXYRatio	2}
+	}
+}

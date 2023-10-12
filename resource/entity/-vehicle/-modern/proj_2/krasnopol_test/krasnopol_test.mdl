@@ -1,0 +1,69 @@
+;Exported by: Maksilin
+;Date:        Fri Apr 29 20:26:32 2016
+;File:        F:\Настройки\Снаряды\РФ\152 мм артснаряды\3ОФ39  Краснополь\Краснополь1.max
+{Skeleton
+    {bone "basis"
+        {Orientation
+    		1	0	0
+    		0	-1	0
+    		0	0	1
+    	}
+		{bone revolute "gun_rot"
+		    {limits -120 120}
+			;{speed 0.003}
+		    {Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				0	0	0
+			}
+			{bone revolute "gun"
+			    {limits -45 45}
+			    {Matrix34
+		       		1	0	0
+		       		0	0	1
+		       		0	-1	0
+		       		0	0	0
+		       	}
+		        {bone "missle_foresight"
+		            {Position 15	0	0}
+		        }
+				{bone "cont_vol"
+		            {Position -20	0	0}
+		        }
+    	        {bone "body"
+    	        	{VolumeView "body.ply"}
+    	        	{bone "tail"
+    	        		{Matrix34
+    	        			-1	0	0
+    	        			0	-1	0
+    	        			0	0	1
+    	        			-10.6483	-0.000962086	-1.48299e-005
+    	        		}
+    	        	}
+    	        }
+		     
+			}
+		}
+    }	
+}
+{Volume "body"
+	{Box 25.4646 3.0297 2.98916}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		2.28975	0.010541	0.045972
+	}
+}
+{Volume "select"
+	{Box 25.4646 3.0297 2.98916}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		2.28975	0.010541	0.045972
+	}
+}

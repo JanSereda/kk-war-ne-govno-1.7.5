@@ -1,0 +1,5 @@
+{actor
+	(include "ls6_guided.inc")
+	{targetselector "ls6_02"}
+	{props "kab_guided_02"}
+}

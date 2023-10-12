@@ -4,7 +4,7 @@
 		{weight 100}
 		{size 6 2}
 	}
-	{tag "no_ricochet" "umpk_gps"} 
+	{tag "no_ricochet" "umpk_500_gps"} 
 	{tag "bomb"} ; только для ammo.set
 	{mass 500}
 

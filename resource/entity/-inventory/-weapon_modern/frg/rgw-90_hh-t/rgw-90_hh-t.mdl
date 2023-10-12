@@ -1,0 +1,89 @@
+;Exported by: Kasutaja
+;Date:        Sun May 28 13:49:28 2023
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????? ??????\RGW-90 HH T MATADOR\RGW-90_HH-T_Final 2013.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "rocket"
+			{Position 4.50944	-0.197195	0.560527}
+			{VolumeView "rocket.ply"}
+		}
+		{bone "fxshot"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-7.03572	-0.166184	0.66976
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				13.7718	-0.0691877	0.625345
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999887	0	-0.0150454
+				0	1	0
+				0.0150454	0	0.999887
+				3.41115	-0.161517	1.84882
+			}
+		}
+		{bone "body2"
+			{VolumeView "body2.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 39.3701 4.37994 5.90551}
+	{Bone "body"}
+	{Matrix34
+		0.495717	0	-0.00745911
+		-0.00745911	0	-0.495717
+		0	0.495773	0
+		3.98769	-0.44769	0.76625
+	}
+}
+{Volume "select"
+	{Box 43.3071 5.90551 6.88976}
+	{Bone "body"}
+	{Matrix34
+		0.495717	0	-0.00745911
+		-0.00745911	0	-0.495717
+		0	0.495773	0
+		3.98769	-0.203707	0.76625
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.26487	-27.8766	-1.37095}
+			{lookat 4.2858	4.21067	1.41595}
+			{fov 45}
+			{horizon 0.754073}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.06405	-1.08623	-7.54859}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0960298	0.470635	-0.138856}
+			}
+			{"2"
+				{type point}
+				{position 2.58246	-0.938067	-7.37122}
+			}
+		}
+	}
+}
+

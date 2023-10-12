@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "heat_matadot_hh_t_ammo"}
+	}
+	{extension "heat_matadot_hh_t.mdl"}
+	(include "/properties/shadow/round.inc")
+}
+
+
+
+
+

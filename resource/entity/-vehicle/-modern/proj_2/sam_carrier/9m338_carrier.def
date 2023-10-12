@@ -1,0 +1,18 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_medproximity.mdl"}
+	{props "need_lockon"}
+	("missile_placer" missile("9m338_impactor") country(rus) type(active_asm) calibre(200)
+	speed(fast) guidance(propsam))
+	("custom_maneuvrability" deg_per_s1(65) deg_per_s2(45) deg_per_s3(45 0.87) deg_per_s4(45 0.75)
+	deg_per_s5(45 0.7) deg_per_s6(45 0.7) deg_per_s7(45 0.7) deg_per_s8(45 0.7)
+	angle1(120) angle2(120) angle3(120) angle4(120) angle5(120) angle6(120) angle7(120) angle8(120))
+	{sensor
+		{Visor "sam"
+			{vision "missile_sam"}
+			{bone "missle_foresight"}
+		}
+	}
+	("antimissile_sensors")
+	{props "radioproximity"}	;срабатывает только на металлические объекты
+}

@@ -73,7 +73,9 @@
  {"su-25sm_support_light" {fore 0} ("p" c(720) sc(220) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(8) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
                            
  {"su-34_medbomber" {fore 0} ("p" c(900) sc(420) g(air_tac) b(vvs_hqcar) brig(vvs) s(rus)  i(10) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
- {"su-34_umpk" {fore 0} ("p" c(960) sc(390) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(7) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+
+  {"su-34_umpk" {fore 0} ("p" c(960) sc(290) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(7) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
+  {"su-34_accurate_2" {fore 0} ("p" c(960) sc(360) g(air) b(vvs_hqcar) brig(vvs) s(rus)  i(333) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  {"su-34_antirad" {fore 0} ("p" c(600) sc(200) g(air_sead) b(vvs_hqcar) brig(vvs) s(rus)  i(12) cw(0) cp(40) t(all_nz aircraft   ) n(2)               ) }
  
  

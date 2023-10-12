@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rgw90_rocket"}
+	{blend none}
+}

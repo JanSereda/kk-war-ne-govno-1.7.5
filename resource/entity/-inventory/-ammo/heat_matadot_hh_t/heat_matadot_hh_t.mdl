@@ -1,0 +1,61 @@
+;Exported by: Kasutaja
+;Date:        Sun May 28 08:20:44 2023
+;File:        D:\??????? ????\??? GEM2\????????? 3? ??????? Cold War ?????????\Cold War 2010\?????? ? Pheonix\??????????????\??????\?????? ??????\DZG-141\GAT-3 rocket.max
+{Skeleton
+	{bone "rocket_matador"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rocket_matador.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Position -6.5862	0.00763747	0.0386707}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "rocket_matador"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		2.11299	2.57644	-0.0932525
+	}
+}
+{Volume "select"
+	{Box 18.7402 4.72441 4.72441}
+	{Bone "rocket_matador"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		2.04612	0.11859	0.00461479
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -3.23541	-31.5309	-1.84036}
+			{lookat -1.1992	7.88047	0.0645707}
+			{fov 31.7555}
+			{horizon 179.831}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.83592	5.95083	11.7004}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725233	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -8.2212	7.05173	8.47099}
+			}
+		}
+	}
+}

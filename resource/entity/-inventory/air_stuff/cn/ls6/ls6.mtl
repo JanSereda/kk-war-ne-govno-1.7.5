@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/jh-7a/ls-6"}
+	{blend none}
+}

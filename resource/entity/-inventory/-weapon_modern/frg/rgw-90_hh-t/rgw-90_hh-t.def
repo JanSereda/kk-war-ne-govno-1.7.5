@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "rgw-90_hh-t.mdl"}
+	{extender "stuff"
+		{item "weapon rgw-90_hh-t" filled}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

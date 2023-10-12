@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/a-10c/pilon_triple_maverick"}
+	{bump "$/model/a-10c/pilon_triple_maverick_bp"}
+	{specular "$/model/a-10c/pilon_triple_maverick_sp"}
+	{color "229 229 229 25"}
+	{emitsheat}
+{blend none}
+}

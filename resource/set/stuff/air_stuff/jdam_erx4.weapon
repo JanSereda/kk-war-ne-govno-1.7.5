@@ -1,0 +1,23 @@
+{weapon_bullet
+	{tag "weapon skill_airgun bullet"}	;"bullet" is needed for work of levelling and skills
+	{tag "weapon fg"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo jdam_er" 4}
+	{fillingVisible "bombc_"}
+	{fireSound "reactive/bomb"}
+	{recoveryTime 0.5}
+	{rechargeTime 220}
+	{range 465 465}	;до 80 км
+	{cursor "bomb_on"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_210"}
+	{automatic}
+	{gravity 550}
+	{speed 2000}
+	("accuracy_kab" kvo_meters(8))
+	{Spreading 
+		{SpreadXYRatio	2}
+	}
+}

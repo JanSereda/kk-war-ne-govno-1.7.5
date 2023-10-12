@@ -9,8 +9,8 @@
 	{bone "basis"
 		{Orientation
 			1	0	0
-			0	-1	0
-			0	0	1
+			0	0	-1
+			0	1	0
 		}
 		{bone "ympk_body"
 			{VolumeView "ympk_body.ply"}

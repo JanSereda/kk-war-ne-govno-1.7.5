@@ -1,6 +1,6 @@
 {action
 	{target ground}
-	{cursor "trench"}
+	{cursor "dig"}
 	{button "trench_bunker"}
 	{fx "flashred"}
 	{item "spade_inv"}

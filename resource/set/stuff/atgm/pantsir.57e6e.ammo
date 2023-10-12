@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	{entity "pantsir_57e6e"}	
+		
+	        {mass 74.5}
+	        {inventory		
+		{weight 100}		
+		{size 6 1}	
+	}	
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "semiactive" "anti_smallmissile" "detect_uav_hit" "anti_ballistic_missile_rus"}
+	{tag "rad_aa"} ; только для ammo.set
+}

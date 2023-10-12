@@ -1,15 +1,14 @@
 {action
 	{target ground}
-	{cursor "trench"}
+	{cursor "dig"}
 	{button "trench_cannon"}
 	{fx "flashred"}
 	{item "spade_inv"}
 	{item_in_box}
 	{ShowCount}
 	{abledrag}
-	{AimEntities}
 	{instructions
-		{bind range 1}
+		{bind range 0}
 		{disable_action_restart}
 		{take_item}
 		{reserve_hands}
@@ -20,3 +19,4 @@
 		{fsm_request nocheck "hold-nothing"}
 	}
 }
+

@@ -1,0 +1,90 @@
+;Exported by: Timosh
+;Date:        Sun Oct  1 09:38:15 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\????????\???\GBU-59 SDB II\GBU-59 SDB II 1.max
+{Skeleton
+	{animation
+		{sequence "flip_bomb" {speed 0.5}}
+		{sequence "open_wing" {speed 0.5}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{VolumeView "body.ply"}
+			{bone "tail"
+				{parameters "Voxels=0;"}
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					-16.2318	0.101361	-0.0213764
+				}
+			}
+			{bone "wing2"
+				{Matrix34
+					0	0	1
+					1	0	0
+					0	1	0
+					5.05572	1.93483	0.769189
+				}
+				{VolumeView "wing2.ply"}
+			}
+			{bone "wing1"
+				{Matrix34
+					0	0	-1
+					-1	0	0
+					0	1	0
+					5.05571	1.93483	-0.74092
+				}
+				{VolumeView "wing1.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 27.5591 3.93701 3.93701}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-1.31558	-0.171654	0.310936
+	}
+}
+{Volume "select"
+	{Box 35.4331 7.87402 7.87402}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-1.31558	-0.171655	0.772459
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 28.8981	22.5939	113.411}
+			{lookat 4.58086	1.29328	1.22167}
+			{fov 31.7555}
+			{horizon -128.948}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.95671	4.10093	11.5128}
+			}
+			{"1"
+				{type directional}
+				{direction 0.0725225	-0.378967	-0.318001}
+			}
+			{"2"
+				{type point}
+				{position 7.10041	3.00008	8.28341}
+			}
+		}
+	}
+}

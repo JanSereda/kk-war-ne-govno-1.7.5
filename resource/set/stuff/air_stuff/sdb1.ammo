@@ -4,7 +4,7 @@
 		{weight 100}
 		{size 6 2}
 	}
-	{tag "no_ricochet" "sdb1_gps"} 
+	{tag "no_ricochet" "gbu39_gps"} 
 	{tag "bomb"} ; только для ammo.set
 	{mass 125}
 

@@ -1,0 +1,26 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	{filling "ammo alarm_missile" 2}
+	{fillingVisible "alarm"}	
+	{foresight "Foresight8"}
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 440}	;depends of flight parameters, 40-90 km, we'll take 65
+	{aimRange 440}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "antiradar"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{spreading 4
+		{SpreadRadius 4}
+		{radiusTable 
+			{0 10000}
+		}
+		{SpreadXYRatio	2.0}
+		{SpreadPower	0.1}
+	}
+}

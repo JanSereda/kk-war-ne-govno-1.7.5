@@ -1,0 +1,11 @@
+{from "pattern proj_pointer"
+	{entity "9m330"}	
+		
+	        {mass 165.0}
+	        {inventory		
+		{weight 100}		
+		{size 6 1}	
+	}	
+	{tag  "big" "size4" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "anti_smallmissile" "detect_uav_hit"}
+	{tag "rad_aa"} ; только для ammo.set
+}

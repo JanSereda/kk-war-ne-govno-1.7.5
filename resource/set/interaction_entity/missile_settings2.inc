@@ -568,6 +568,7 @@
 {("CWPS_proj" missilename(9k14m) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
 {("CWPS_proj" missilename(hj73c) rotation(1) rand_move(0) smoke_vulnerable(1)  decoyprob(0.3) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
 {("CWPS_proj" missilename(9k31) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.8) range(17) tail(proj_jet_sam) eng_time(3))("speed_normal" coeff(0.88))}
+{("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9m33_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.41) range(33) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
@@ -1068,22 +1069,6 @@
 		{delay 0.7 {if tagged "cwps_extended_range" {with_linked_entity "missile" {ani_play "on_start"}}}}
 	}
 }
-{("CWPS_proj_2stage" missilename(agm-130) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range40plus(27) tail(proj_jet_small) eng_time(6))
-	{on "link_effects1"
-	  {ani_play "top_attack_off" 1}
-	}
-	{on "top_attack"
-		{delay 0.7 {call "detonate"}}
-		   {with_linked_entity "missile"
-			{view stop "proj_jet"}
-			{view hide "proj_jet"}
-			{view start "proj_jet_main"}
-			{tear "piece_missile_booster" bone "part1"{impulse forward 20}}
-		   }
-	}
-	("speed_slow" coeff(0.94))
-	{on "destroyed_by_kaz" overload}
-}
 
 {("CWPS_proj_2stage" missilename(48n6) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range40plus(10) tail(proj_jet_sam) eng_time(3)) ("antislip")}
 {("CWPS_proj_2stage" missilename(48n6e2) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range40plus(12) tail(proj_jet_sam) eng_time(3)) ("antislip")}
@@ -1336,4 +1321,3 @@
 {("CWPS_torpedo" missilename(mk48_torpedo) rotation(0) rand_move(0) smoke_vulnerable(0) range(40) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
 {("CWPS_torpedo" missilename(ugmt1_torpedo) rotation(0) rand_move(0) smoke_vulnerable(0) range(18) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
 {("CWPS_torpedo" missilename(torpedo_mk46) rotation(0) rand_move(0) smoke_vulnerable(0) range(18) tail(proj_jet_atgm) eng_time(20))("speed_fast" coeff(0.3))}
-{("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}

@@ -1,0 +1,27 @@
+{breed
+	{skin "cw_ger_ksk"}
+	{portrait "_new/ger/ksk"}
+	{icon bund_smg}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head opscore_ksk}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{inventory
+		{item "lbt6094_ksk_smg_a"}
+		{item "bandage" 10}
+		{item "556nato ammo" 240}
+		{item "smoke_ger grenade"}
+		{item "hk416_aimpoint_m302" filling "556nato ammo" 30}
+		{item "m302_hk416_aimpoint" filling "40x46_natopg ammo cm" 1}
+                {item "rgw-90_hh-t" filling "heat_matadot_hh_t_ammo ammo" 1}
+		{item "m72a4law weapon" filling "m72a4 ammo" 1}
+		{item "40x46_natopg ammo cm" 8}
+		{item "smoke_ger grenade" 2}
+		{item "dm51gr grenade" 2}
+		{in_hands 4}
+	}
+}

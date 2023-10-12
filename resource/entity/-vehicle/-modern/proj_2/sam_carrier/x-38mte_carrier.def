@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward.mdl"}
+	("missile_placer" missile("x-38mte_impactor") country(rus) type(laser_spot) calibre(310) 
+	speed(fast) guidance(propsam))
+	("maneuvrability_cwps3" deg_per_s(15))
+	{targetSelector "laser_guided_shell"}
+}

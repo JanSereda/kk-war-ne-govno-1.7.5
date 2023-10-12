@@ -347,3 +347,124 @@
 	}
 	("m939_sound")	  	  
 }
+
+;-----------------------------------trenches/foxholes
+{"spawner_trench_bighole"
+			{on spawn
+					{delay 0.2
+				{spawn "spheredust_norm" "basis"}
+				{spawn "trench_low2" "trench1" x }
+			}
+		}
+}
+{"spawner_trench_deep"
+			{on spawn
+					{delay 0.2
+				{spawn "spheredust_norm" "basis"}
+				{spawn "trench_sit_2" "trench1" x }
+			}
+		}
+}
+{"spawner_trench_low"
+			{on spawn
+					{delay 0.2
+				{spawn "spheredust_norm" "basis"}
+				{spawn "trench_lie_1" "trench1" x }
+			}
+		}
+}
+{"spawner_trench_long"
+		{on spawn
+			{delay 0.2
+				{spawn "spheredust_norm" "basis"}
+				{spawn "trench_low" "trench1" x }
+				{spawn "trench_low_exit" "trench2" x }
+				{spawn "trench_low_exit" "trench3" x }
+			}
+		}
+}
+{"spawner_trench_cannon"
+        {on spawn
+                {delay 0.2
+                        {spawn "spheredust_norm" "basis"}
+                        {if terrain_fx "country_road"	
+                                {spawn "trench1_can_pos" "trench1" x {tex_morph "ground" 0.1}}
+                                ;{spawn "trench1_exit" "trench2" x {tex_morph "ground" 0.1}}
+                        else terrain_fx "snow"
+                                {spawn "trench1_can_pos" "trench1" x {tex_morph "win1" 0.1}}
+                                ;{spawn "trench1_exit" "trench2" x {tex_morph "win1" 0.1}}
+                        else terrain_fx "sand"
+                                {spawn "trench1_can_pos" "trench1" x {tex_morph "sand" 0.1}}
+                                ;{spawn "trench1_exit" "trench2" x {tex_morph "sand" 0.1}}
+                        else terrain_fx "grass"
+                                {spawn "trench1_can_pos" "trench1" x {tex_morph "grass" 0.1}}
+                                ;{spawn "trench1_exit" "trench2" x {tex_morph "grass" 0.1}}
+                        else terrain_fx "ground"
+                                {spawn "trench1_can_pos" "trench1" x {tex_morph "ground" 0.1}}
+                                ;{spawn "trench1_exit" "trench2" x {tex_morph "ground" 0.1}}
+                        else
+                                {spawn "trench1_can_pos" "trench1" x {tex_morph "ground" 0.1}}
+                                ;{spawn "trench1_exit" "trench2" x {tex_morph "ground" 0.1}}
+                        }
+                }
+        }
+}
+{"spawner_trench_bunker"
+        {on spawn
+                {delay 0.2
+                        {spawn "spheredust_norm" "basis"}
+                        {if terrain_fx "country_road"	
+                                {spawn "dzot_5" "trench1" x {tex_morph "ground" 0.1}}
+                                {spawn "trench_ground_exit2_1_5" "trench2" x {tex_morph "ground" 0.1}}
+                        else terrain_fx "snow"
+                                {spawn "dzot_5" "trench1" x {tex_morph "snow" 0.1}}
+                                {spawn "trench_ground_exit2_1_5" "trench2" x {tex_morph "snow" 0.1}}
+                        else terrain_fx "sand"
+                                {spawn "dzot_5" "trench1" x {tex_morph "sand" 0.1}}
+                                {spawn "trench_ground_exit2_1_5" "trench2" x {tex_morph "sand" 0.1}}
+                        else terrain_fx "grass"
+                                {spawn "dzot_5" "trench1" x {tex_morph "grass" 0.1}}
+                                {spawn "trench_ground_exit2_1_5" "trench2" x {tex_morph "grass" 0.1}}
+                        else terrain_fx "ground"
+                                {spawn "dzot_5" "trench1" x {tex_morph "ground" 0.1}}
+                                {spawn "trench_ground_exit2_1_5" "trench2" x {tex_morph "ground" 0.1}}
+                        else
+                                {spawn "dzot_5" "trench1" x {tex_morph "ground" 0.1}}
+                                {spawn "trench_ground_exit2_1_5" "trench2" x {tex_morph "ground" 0.1}}
+                        }
+                }
+        }
+}
+{"spawner_trench_long_deep"
+        {on spawn
+                {delay 0.2
+                        {spawn "spheredust_norm" "basis"}
+                        {if terrain_fx "country_road"	
+                                {spawn "trench1_sack" "trench1" x {tex_morph "ground" 0.1}}
+                                {spawn "trench1_sack_exit" "trench2" x {tex_morph "ground" 0.1}}
+                                {spawn "trench1_sack_exit" "trench3" x {tex_morph "ground" 0.1}}
+                        else terrain_fx "snow"
+                                {spawn "trench1_sack" "trench1" x {tex_morph "snow" 0.1}}
+                                {spawn "trench1_sack_exit" "trench2" x {tex_morph "snow" 0.1}}
+                                {spawn "trench1_sack_exit" "trench3" x {tex_morph "snow" 0.1}}
+                        else terrain_fx "sand"
+                                {spawn "trench1_sack" "trench1" x {tex_morph "sand" 0.1}}
+                                {spawn "trench1_sack_exit" "trench2" x {tex_morph "sand" 0.1}}
+                                {spawn "trench1_sack_exit" "trench3" x {tex_morph "sand" 0.1}}
+                        else terrain_fx "grass"
+                                {spawn "trench1_sack" "trench1" x {tex_morph "grass" 0.1}}
+                                {spawn "trench1_sack_exit" "trench2" x {tex_morph "grass" 0.1}}
+                                {spawn "trench1_sack_exit" "trench3" x {tex_morph "grass" 0.1}}
+                        else terrain_fx "ground"
+                                {spawn "trench1_sack" "trench1" x {tex_morph "ground" 0.1}}
+                                {spawn "trench1_sack_exit" "trench2" x {tex_morph "ground" 0.1}}
+                                {spawn "trench1_sack_exit" "trench3" x {tex_morph "ground" 0.1}}
+                        else
+                                {spawn "trench1_sack" "trench1" x {tex_morph "ground" 0.1}}
+                                {spawn "trench1_sack_exit" "trench2" x {tex_morph "ground" 0.1}}
+                                {spawn "trench1_sack_exit" "trench3" x {tex_morph "ground" 0.1}}
+                        }
+                }
+        }
+}
+;-----------------------------------------------------------------------------

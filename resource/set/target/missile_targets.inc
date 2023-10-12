@@ -36,26 +36,20 @@
 
 	}
 	{antirad_missile	;antiradiation
-		{"RadAA_missile" }
-	    {"RadAA_missile_1gen" }
-		{"RadAA_missile_2gen" }
-		{"AA_proj" }
-		{"AA_missile" }
-		{"AA_missile_2gen" }	
-		{"rus_radpassive cwps2"  }
-		{"rus_radpassive_missile"}
-		{"rus_radpassive_aj cwps2"  }
-		{"rus_radpassive_missile_aj"}
-		{"rus_active cwps2"  }
-		{"rus_active_aj cwps2"  }
-		{"rus_active_asm_aj cwps2"  }
-		{"usa_active cwps2"  }
-		{"usa_active_aj cwps2"  }
-		{"usa_active_asm_aj cwps2"  }
-		{"usa_radpassive cwps2"  }
-		{"usa_radpassive_missile"}
-		{"usa_radpassive_aj cwps2"  }
-		{"usa_radpassive_missile_aj"}
+		{"rad_aa_passive" {volume "targ_for_missile"}}
+	    {"rad_aa" {volume "targ_for_missile"}}
+		{"rus_radpassive cwps2"  {volume "target_front"}}
+		{"rus_radpassive_aj cwps2"  {volume "target_front"}}
+		{"rus_radpassive_missile_aj" {volume "target_front"}}
+		{"rus_active cwps2"  {volume "target_front"}}
+		{"rus_active_aj cwps2"  {volume "target_front"}}
+		{"rus_active_asm_aj cwps2"  {volume "target_front"}}
+		{"usa_active cwps2"  {volume "target_front"}}
+		{"usa_active_aj cwps2"  {volume "target_front"}}
+		{"usa_active_asm_aj cwps2"  {volume "target_front"}}
+		{"usa_radpassive cwps2"  {volume "target_front"}}
+		{"usa_radpassive_aj cwps2"  {volume "target_front"}}
+		{"usa_radpassive_missile_aj" {volume "target_front"}}
 	}
 	{small_targ_missile	;air-to-ground and ATGM
 	    {"anti_smallmissile" {volume "target_front"}}	
@@ -206,26 +200,14 @@
 		
 	}
 	{bomb
-        {"RadAA_missile" {volume "check_for_sam"}}
-	    {"RadAA_missile_1gen" {volume "check_for_sam"}}
-		{"RadAA_missile_2gen" {volume "check_for_sam"}}
-		{"AA_proj" {volume "check_for_sam"}}
-		{"AA_missile" {volume "check_for_sam"}}
-		{"AA_missile_2gen" {volume "check_for_sam"}}	
-		{"rus_radpassive cwps2"  }
-		{"rus_radpassive_missile"}
-		{"rus_radpassive_aj cwps2"  }
-		{"rus_radpassive_missile_aj"}
+		{"rad_aa_passive" {volume "check_for_sam"}}
+		{"rad_aa" {volume "check_for_sam"}}	
 		{"rus_active cwps2"  }
 		{"rus_active_aj cwps2"  }
 		{"rus_active_asm_aj cwps2"  }
 		{"usa_active cwps2"  }
 		{"usa_active_aj cwps2"  }
 		{"usa_active_asm_aj cwps2"  }
-		{"usa_radpassive cwps2"  }
-		{"usa_radpassive_missile"}
-		{"usa_radpassive_aj cwps2"  }
-		{"usa_radpassive_missile_aj"}
 	}
 	
 	{proj_cwps3
@@ -329,41 +311,107 @@
 		{"usa_other cwps2" {volume "body"}}
 		{"rus_other cwps2" {volume "body"}}
 	}
-	{proj_usa_gps
+	
+	{proj_gbu39_gps
 		{"usa_gps cwps2" {volume "target_gbu"}}	
 	}
-	{proj_rus_gps
-		{"rus_gps cwps2" {volume "target_gbu"}}	
-	}
-(define "gbu_selector"	
-	{proj_usa_gps_%n
+(define "gbu39_selector"	
+	{proj_gbu39_gps_%n
 		{"usa_gps cwps2" {volume "target_gorka"}}
 		{"usa_gps cwps2" {ground}}
 		
 	}
 )
-("gbu_selector" n(00))
-("gbu_selector" n(01))
-("gbu_selector" n(02))
-("gbu_selector" n(03))
-("gbu_selector" n(04))
-("gbu_selector" n(05))
-("gbu_selector" n(06))
-("gbu_selector" n(07))
-("gbu_selector" n(08))
-("gbu_selector" n(09))
-("gbu_selector" n(10))
-("gbu_selector" n(11))
-("gbu_selector" n(12))
-("gbu_selector" n(13))
-("gbu_selector" n(14))
-("gbu_selector" n(15))
-(define "umpk_selector"	
-	{proj_rus_gps_%n
+("gbu39_selector" n(00))
+("gbu39_selector" n(01))
+("gbu39_selector" n(02))
+("gbu39_selector" n(03))
+("gbu39_selector" n(04))
+("gbu39_selector" n(05))
+("gbu39_selector" n(06))
+("gbu39_selector" n(07))
+("gbu39_selector" n(08))
+("gbu39_selector" n(09))
+("gbu39_selector" n(10))
+("gbu39_selector" n(11))
+("gbu39_selector" n(12))
+("gbu39_selector" n(13))
+("gbu39_selector" n(14))
+("gbu39_selector" n(15))
+
+	{proj_gbu53b_gps
+		{"usa_gps cwps2" {volume "target_gbu"}}	
+	}
+
+(define "gbu53b_selector"	
+	{proj_gbu53b_gps_%n
+		{"usa_gps cwps2" {volume "target_gorka"}}
+		{"usa_gps cwps2" {ground}}
+	
+	}
+)
+("gbu53b_selector" n(00))
+("gbu53b_selector" n(01))
+("gbu53b_selector" n(02))
+("gbu53b_selector" n(03))
+("gbu53b_selector" n(04))
+("gbu53b_selector" n(05))
+("gbu53b_selector" n(06))
+("gbu53b_selector" n(07))
+("gbu53b_selector" n(08))
+("gbu53b_selector" n(09))
+("gbu53b_selector" n(10))
+("gbu53b_selector" n(11))
+("gbu53b_selector" n(12))
+("gbu53b_selector" n(13))
+("gbu53b_selector" n(14))
+("gbu53b_selector" n(15))
+
+	{proj_jdam_er_gps
+		{"usa_gps cwps2" {volume "target_gbu"}}	
+	}
+
+(define "jdam_er_selector"	
+	{proj_jdam_er_gps_%n
+		{"usa_gps cwps2" {volume "target_gorka"}}
+		{"usa_gps cwps2" {ground}}
+		
+	}
+)
+("jdam_er_selector" n(00))
+("jdam_er_selector" n(01))
+("jdam_er_selector" n(02))
+("jdam_er_selector" n(03))
+
+	{proj_umpk_500_gps
+		{"rus_gps cwps2" {volume "target_gbu"}}	
+	}
+
+(define "umpk_500_selector"	
+	{proj_umpk_500_gps_%n
 		{"rus_gps cwps2" {volume "target_gorka"}}
 		{"rus_gps cwps2" {ground}}
 		
 	}
 )
-("umpk_selector" n(00))
-("umpk_selector" n(01))
+("umpk_500_selector" n(00))
+("umpk_500_selector" n(01))
+("umpk_500_selector" n(02))
+("umpk_500_selector" n(03))
+
+	{proj_ls6_gps
+		{"rus_gps cwps2" {volume "target_gbu"}}	
+	}
+
+(define "ls6_selector"	
+	{proj_ls6_gps_%n
+		{"rus_gps cwps2" {volume "target_gorka"}}
+		{"rus_gps cwps2" {ground}}
+		
+	}
+)
+("ls6_selector" n(00))
+("ls6_selector" n(01))
+("ls6_selector" n(02))
+("ls6_selector" n(03))
+

@@ -5,7 +5,7 @@
 	{preloaded}
 	
 	{ammoLocked}
-	{Automatic}
+	;{Automatic}
 	{recoveryTime 0.1}
 	{rechargeTime 5}
 	{entity "rus_las_ammo"}
@@ -26,9 +26,9 @@
 	{speed 40}
 	{AimingTolerance 2}
 	{cursor "cannon_on"}
-	{burst
-		{min 1}
-		{short 1}
-		{long 2}
-	}
+	;{burst
+	;	{min 1}
+	;	{short 1}
+	;	{long 2}
+	;}
 }

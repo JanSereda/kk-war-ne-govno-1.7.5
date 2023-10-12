@@ -1,0 +1,9 @@
+{from "mk82x6_f-16c"
+	;Tornado
+	{filling "ammo mk_82" 19}
+	{recoveryTime 0.1}
+	{fillingVisible "bomb_"}
+	{fireSound "reactive/bomb"}
+	{foresight "foresight4"}
+	("accuracy_unguided_bomb" bomb_accuracy(1) sight_quality(1) airspeed(917) gamespeed(87))
+}

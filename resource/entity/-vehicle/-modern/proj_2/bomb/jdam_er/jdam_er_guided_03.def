@@ -1,0 +1,5 @@
+{actor
+	(include "jdam_er_guided.inc")
+	{targetselector "jdam_er_03"}
+	{props "jdam_er_guided_03"}
+}

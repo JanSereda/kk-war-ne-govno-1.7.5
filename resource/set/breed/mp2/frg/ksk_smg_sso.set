@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_ger_ksk"}
+	{portrait "_new/ger/ksk"}
+	{icon rifleman_ksk}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head opscore_ksk}
+	}
+	
+	(include "perks_generic.inc")
+	("traits_elite_smg")
+	{inventory
+		{item "lbt6094_ksk_smg"}
+		{item "bandage" 10}
+		{item "556nato ammo" 240}
+		{item "smoke_ger grenade" 2}
+		{item "hk416_aimpoint" filling "556nato ammo" 30}
+		{item "dm51gr grenade" 4}
+		{item "rgw-90_hh-t" 2 filling "heat_matadot_hh_t_ammo ammo" 1}
+		{in_hands 4}
+	}
+}

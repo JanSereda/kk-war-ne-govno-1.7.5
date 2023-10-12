@@ -1,0 +1,14 @@
+;for Hellfire
+{from "missilets"
+{tag "prepare"}
+{Special
+	{Mode aim}
+	{PrepareTime 0}
+	{PrepareCursor "aimed_shot"}
+}
+{recoveryTime 0.1}
+{aimRange 500}
+{maxRange 500}
+{gravity 400}
+{speed 4700}
+}

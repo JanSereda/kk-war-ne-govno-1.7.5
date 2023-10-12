@@ -8,16 +8,6 @@
 	{Extension "su-34_umpk.mdl"}
 	("missile_aimpoint_air")
 	{extender "enumerator" {digit_folder "vks"} {group "2digit"}}
-	{extender "vision_mode"
-		;only one {timer_object} is supported at the moment for vision_mode extender.
-		{timer_object
-			{tag		"thermal"}  ; -> only thermal, night or drone are supported right now
-			{active_time	   36000}  ;Sec 
-			{recharge_rate	  0.5}  ;Factor * game time -> only valid for type "recharge"
-			;{cooldown		   10}  ;Sec -> Only valid for type "consume" or "switch"
-			{type	     "recharge"}; -> only recharge, consume or switch are supported right now
-	    }
-	}
 	{armor
 		("air_armor" body(3) wing(3) avionics(3) engine(3) hydrosystem(3) electronics(3) fuel(3))
 		("armor_panel" name(armor) thickness(17 11 8 0.1))
@@ -45,11 +35,11 @@
 			{gunner "driver"}
 		}
 		{place "bomber"
-			{weapon "umpk500x2" filled}
+			{weapon "umpk500x4" filled}
 			{foresight "foresight7"}
 			{charger "driver"}
 			{gunner "driver"}
-			{barrels 2}
+			{barrels 4}
 			{shooter "ympk_body_"}
 			{basic}
 		}
@@ -162,6 +152,6 @@
 		{speed 1}
         }
         {bone "gun_rot1" {limits -5 0}}
-        {bone "bomb_rot3" {limits -45 25}}
+        {bone "bomb_rot3" {limits -0 25}}
 
 }

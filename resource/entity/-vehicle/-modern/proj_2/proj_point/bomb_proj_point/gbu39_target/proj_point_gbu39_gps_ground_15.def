@@ -1,0 +1,4 @@
+{actor
+(include "/properties/proj_point_gps_ground.ext")
+{targetClass 	"proj_gbu39_gps_15"}
+}

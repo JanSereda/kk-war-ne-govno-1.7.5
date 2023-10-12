@@ -8,17 +8,17 @@
 	{fillingVisible "ympk_body_"}
 	{fireSound "reactive/bomb"}
 	{recoveryTime 0.5}
-	{rechargeTime 150}
-	{range 420 420}
+	{rechargeTime 160}
+	{range 455 455}
 	;{cursor "glonass"}
              ;{cursorReloading "glonass_reload"}
 	{cursor "bomb_on"}
 	{cursorReloading "cannon_reload_fg"}
 	;{cursorReloading "cannon_reload_fg_timer_210"}
 	{automatic}
-	{gravity 300}
-	{speed 3000}
-	{aimtype adaptive}
+	{gravity 550}
+	{speed 2000}
+;	{aimtype adaptive}
 	;("accuracy_kab" kvo_meters(8))
 	("accuracy_kab" kvo_meters(10.0))
 	{Spreading 

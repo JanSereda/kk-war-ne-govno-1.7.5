@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/a-10c/aaq-28_litening"}
+	{blend none}
+}

@@ -1,0 +1,114 @@
+-= Animation: flip_bomb, Node body =-
+	Frame 10 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 11 {
+		Orientation	0.0439683 0 0 0.999033
+	}
+	Frame 12 {
+		Orientation	0.162637 0 0 0.986686
+	}
+	Frame 13 {
+		Orientation	0.33282 0 0 0.94299
+	}
+	Frame 14 {
+		Orientation	0.525175 0 0 0.850994
+	}
+	Frame 15 {
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 16 {
+		Orientation	0.850995 0 0 0.525174
+	}
+	Frame 17 {
+		Orientation	0.942991 0 0 0.332819
+	}
+	Frame 18 {
+		Orientation	0.986686 0 0 0.162637
+	}
+	Frame 19 {
+		Orientation	0.999033 0 0 0.0439679
+	}
+	Frame 20 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: open_wing, Node wing2 =-
+	Frame 20 {
+		Visibility 1
+		Position	5.05572	1.93483	0.769189
+		Orientation	0.5 0.5 0.5 0.5
+	}
+	Frame 21 {
+		Orientation	0.510874 0.488884 0.488884 0.510874
+	}
+	Frame 22 {
+		Orientation	0.539128 0.457538 0.457538 0.539128
+	}
+	Frame 23 {
+		Orientation	0.577239 0.408406 0.408406 0.577239
+	}
+	Frame 24 {
+		Orientation	0.61749 0.344538 0.344538 0.61749
+	}
+	Frame 25 {
+		Orientation	0.653282 0.270598 0.270598 0.653281
+	}
+	Frame 26 {
+		Orientation	0.680256 0.193006 0.193006 0.680256
+	}
+	Frame 27 {
+		Orientation	0.696956 0.119383 0.119383 0.696956
+	}
+	Frame 28 {
+		Orientation	0.704749 0.0576932 0.0576932 0.704749
+	}
+	Frame 29 {
+		Orientation	0.706936 0.0155488 0.0155488 0.706936
+	}
+	Frame 30 {
+		Visibility 1
+		Position	5.05572	1.93483	0.769189
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: open_wing, Node wing1 =-
+	Frame 20 {
+		Visibility 1
+		Position	5.05571	1.93483	-0.74092
+		Orientation	-0.5 0.5 0.5 -0.5
+	}
+	Frame 21 {
+		Orientation	0.510874 -0.488884 -0.488884 0.510874
+	}
+	Frame 22 {
+		Orientation	0.539128 -0.457538 -0.457538 0.539128
+	}
+	Frame 23 {
+		Orientation	0.577239 -0.408406 -0.408406 0.577239
+	}
+	Frame 24 {
+		Orientation	0.61749 -0.344538 -0.344538 0.61749
+	}
+	Frame 25 {
+		Orientation	0.653282 -0.270598 -0.270598 0.653281
+	}
+	Frame 26 {
+		Orientation	0.680256 -0.193006 -0.193006 0.680256
+	}
+	Frame 27 {
+		Orientation	0.696956 -0.119383 -0.119383 0.696956
+	}
+	Frame 28 {
+		Orientation	0.704749 -0.0576932 -0.0576932 0.704749
+	}
+	Frame 29 {
+		Orientation	0.706936 -0.0155488 -0.0155488 0.706936
+	}
+	Frame 30 {
+		Visibility 1
+		Position	5.05571	1.93483	-0.74092
+		Orientation	0.707107 0 0 0.707107
+	}

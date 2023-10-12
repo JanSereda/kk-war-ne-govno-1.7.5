@@ -1,0 +1,26 @@
+{from "pattern proj_weapon_air"
+	{tag "gun"}
+	;ld10 - модификация SD-10, только другая голова
+	{filling "ammo ld10" 6}
+	{fillingVisible "ld10_"}	
+	{fireSound "reactive/missile_large/"}
+	{mass 25}
+	{recoveryTime 2}
+	{rechargeTime 160}
+	{inventory {noView}}
+	{maxRange 455}		;60-80км
+	{aimRange 455}
+	;{cursor "zenite_on"}
+	;{cursorReloading "zenite_reload"}
+	{cursor "antiradar"}
+	{cursorReloading "cannon_reload_fg"}
+	;{cursorReloading "cannon_reload_fg_timer_160"}
+	{spreading 4
+		{SpreadRadius 4}
+		{radiusTable 
+			{0 10000}
+		}
+		{SpreadXYRatio	2.0}
+		{SpreadPower	0.1}
+	}
+}

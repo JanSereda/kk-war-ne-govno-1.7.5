@@ -1,0 +1,30 @@
+{from "pattern proj_impactor"
+	
+	{tag "ammo"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet" "fg" "big" "fragmentary" "size4" "fx_upto50kg"}
+	{tag "bomb"} ; только для ammo.set
+	{inventory
+		{size 5 2}
+		{weight 1000}
+		{noView}
+		{fsm "stuff"}
+	}	
+	{mass 125}
+	{entity "gbu53b"}
+	{view "gbu53b"
+		{tail ""}
+	}
+	;45кг БЧ, около 8.3 кг ВВ (т.к. БЧ кум-фуг, то что-то на основе гексогена, ТЭ 1,6)
+	;диаметр БЧ - порядка 150мм, но удлиннение воронки не очень большое (чтобы было достаточно места для фугасного эффекта)
+	;поэтому взял 5 калибров.
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 10.8 12.4}}
+{damage add blastwave {energy 1.2} {area 9.3 10.7}}
+{damage add blastwave {energy 2.5} {area 6.3 7.3}}
+{damage add blastwave {energy 6.5} {area 4.8 5.6}}
+{damage add blastwave {energy 11} {area 2.6 3}}
+{damage cumulative {damage 750} {distance 3}}
+}
+
+

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/f-15/gbu-31_jdam"}
+	{blend none}
+}

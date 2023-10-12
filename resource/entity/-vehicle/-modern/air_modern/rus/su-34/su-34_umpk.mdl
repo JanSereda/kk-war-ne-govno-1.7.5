@@ -752,6 +752,35 @@
 						-12.2793	-2.36146	-6.30831
 					}
 					{VolumeView "bomb_pilon03.ply"}
+					{bone "ympk_body_03"
+						{Position -8	0 -13}
+						{VolumeView "ympk_body.ply"}
+						{bone "fab500_m62"
+							{Position 0.201553	0.00253994	7.39839}
+							{VolumeView "fab500_m62.ply"}
+							{bone "tail"
+								{Matrix34
+									-1	0	0
+									0	0	1
+									0	1	0
+									-24.8074	-0.00253725	0.176408
+								}
+							}
+						}
+						{bone "wing_l"
+							{Position 11.955	0.00676916	0.889011}
+							{VolumeView "wing_l.ply"}
+						}
+						{bone "wing_r"
+							{Matrix34
+								1	0	0
+								0	-1	0
+								0	0	1
+								11.955	0.00677837	0.241075
+							}
+							{VolumeView "wing_r.ply"}
+						}
+					}
 				}
 				{bone "wingl2"
 					{parameters "ID=wingl2;"}
@@ -881,6 +910,35 @@
 						7.89951	0.659378	-6.37107
 					}
 					{VolumeView "bomb_pilon02.ply"}
+					{bone "ympk_body_02"
+						{Position -8	0 -13}
+						{VolumeView "ympk_body.ply"}
+						{bone "fab500_m62"
+							{Position 0.201553	0.00253994	7.39839}
+							{VolumeView "fab500_m62.ply"}
+							{bone "tail"
+								{Matrix34
+									-1	0	0
+									0	0	1
+									0	1	0
+									-24.8074	-0.00253725	0.176408
+								}
+							}
+						}
+						{bone "wing_l"
+							{Position 11.955	0.00676916	0.889011}
+							{VolumeView "wing_l.ply"}
+						}
+						{bone "wing_r"
+							{Matrix34
+								1	0	0
+								0	-1	0
+								0	0	1
+								11.955	0.00677837	0.241075
+							}
+							{VolumeView "wing_r.ply"}
+						}
+					}
 				}
 				{bone "wingr2"
 					{parameters "ID=wingr2;"}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/eurofighter/gbu10"}
+	{blend none}
+}
