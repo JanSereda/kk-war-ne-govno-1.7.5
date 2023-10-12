@@ -181,16 +181,6 @@
 	}
 	{"mtl18"
 		{layer bump
-			{diffuse "/texture/land/grass/gramma_9a"}
-			{bump "/texture/land/grass/gramma_9a_nm"}
-		}
-		{layer bump
-			{diffuse "/texture/land/grass/gramma_111"}
-			{bump "/texture/land/grass/gramma_111_nm"}
-		}
-	}
-	{"mtl19"
-		{layer bump
 			{diffuse "/texture/land/grass/gramma_111"}
 			{bump "/texture/land/grass/gramma_111_nm"}
 		}
