@@ -1,0 +1,37 @@
+﻿;Создано maaa - DTTGOC
+;LocalGen2
+;Extra data placeholder
+;Extra data placeholder
+;rev 04.07.2022
+
+{tags
+	{"squad"
+		(include 			"1.rus/cw/cw_rus_desc_squads.inc")					;Squads descriptions
+		(include 			"1.rus/custom/custom_rus_desc_squads.inc")			;Custom squads descriptions
+	}
+	{"entity"
+		(include			"1.rus/cw/cw_rus_desc_cn.inc")						;China/SCO units description
+		(include			"1.rus/cw/cw_rus_desc_nato.inc")					;Russia units description
+		(include			"1.rus/cw/cw_rus_desc_usa.inc")						;USA units description
+		(include			"1.rus/cw/cw_rus_desc_nato.inc")					;NATO units description
+		(include			"1.rus/custom/custom_rus_desc.inc")					;Custom units description
+		
+		
+		
+	}
+	{"special"
+		(include			"1.rus/cw/cw_rus_speciality.inc")					;Entities specialty/role names
+		(include			"1.rus/custom/custom_rus_speciality.inc")			;Custom entities specialty/role names
+		
+		
+		
+		
+		(include			"1.rus/cw/kk_war_speciality.inc")					;Entities specialty/role names
+	}
+	{"armor_angle"
+		{"is2"
+			{"body"			"30/60 75/90 49 0"}									;Obsolete - DO NOT DELETE 
+			{"turret"		"сфер. 72 60 0-5"}									;Obsolete - DO NOT DELETE
+		}	
+	}
+}

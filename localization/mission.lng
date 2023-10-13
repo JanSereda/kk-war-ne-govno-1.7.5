@@ -48,6 +48,13 @@
 			{"4vs4_station"				{"name" "<c(711b77)e(shadow)>[4x4]"									" <c(FFFFFF)e(shadow)>Station</c>"}					}			;null
 		}
 		{"5vs5"
+		
+					{"cw_warfields"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Поля полей</c>"} 	}
+			{"gostomel"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Аэродром</c>"}	}
+			{"k1234"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Зимний ад</c>"}	}
+			{"hungry"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Польская провинция</c>"} }
+		
+		
 			{"8v8_farmland"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Сельхозрайон</c>"}				}			;null
 			{"lisa"			{"name" "<c(B205FC)e(shadow)>[5x5]"									" <c(05BCE6)e(shadow)>Новая Бухаловка</c>"}				}			;null
 			{"polska"		{"name" "<c(ff9933)e(shadow)>[6x6]"									" <c(FFFFFF)e(shadow)>Польская граница</c>"}			}			;null			;GSM

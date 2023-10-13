@@ -671,7 +671,9 @@
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}					
+	{item "rvv-sd ammo" 1 {max 10}{value 5}}
+
+	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
 )
 (define "sam_usa"
 	{item "patriot ammo" 2 {max 4}{value 25}}		;лимит 3000		
