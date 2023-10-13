@@ -1,0 +1,5 @@
+{sound
+	{loudness "bazooka"}
+	{signal shot 200}
+    {volume 1.0}
+}
