@@ -5,7 +5,7 @@
          
 
 
- {"ural375i" {fore 1} ("v3" c(220) sc(69) g(infurl) b(common) brig(common) s(rus)  i(16) cw(0) cp(2) t(all_nz inf_rus   ) c1(ural375) n(1) n1(vehicle_supporter:1) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_smg2:2)       ) }
+ {"ural375i" {fore 1} ("v3" c(220) sc(69) g(infurl) b(common) brig(common) s(rus)  i(16) cw(0) cp(2) t(all_nz inf_rus   ) c1(kamaz) n(1) n1(vehicle_supporter:1) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_smg2:2)       ) }
 
  {"btr80_newi" {fore 1} ("v3" c(240) sc(78) g(inf) b(common) brig(common) s(rus)  i(3) cw(0) cp(5) t(all_nz inf_rus   ) c1(btr80_new) n(2) n1(tankman:2) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_smg2:2)       ) }
  {"bmp2_newi" {fore 1} ("v3" c(260) sc(100) g(inf) b(common) brig(common) s(rus)  i(4) cw(0) cp(10) t(all_nz inf_rus   ) c1(bmp2_new) n(2) n1(tankman:3) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_smg2:1)       ) }
@@ -147,7 +147,7 @@
                          
 ;===============================Мотострелки===========================================                                   
 ("squad_with11types" name(elite) f(0)  c(600) cost(110) g(elite) b(mot_hqcar) brig(mot) side(rus)     t(all_nz specnaz infantry  ) info(elite) c1(gru_com:1) c2(gru_mgun2:1) c3(gru_mgun:1) c4(gru_smg3:1) c5(gru_rpg:1) c6(gru_rpghelp:1) c7(gru_smg2:1) c8(gru_smg:1) c9(gru_sniper:1) ca(gru_zamcom:1)     ) 
- {"ural375i_mot" {fore 1} ("v3" c(250) sc(80) g(advinf2) b(mot_hqcar) brig(mot) s(rus)  i(1) cw(0) cp(10) t(all_nz inf_rus infantry  ) c1(ural375) n(2) n1(vehicle_supporter:1) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) n9(spec_sniper:1)     ) }
+ {"ural375i_mot" {fore 1} ("v3" c(250) sc(80) g(advinf2) b(mot_hqcar) brig(mot) s(rus)  i(1) cw(0) cp(10) t(all_nz inf_rus infantry  ) c1(kamaz) n(2) n1(vehicle_supporter:1) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) n9(spec_sniper:1)     ) }
  {"btr82ai2" {fore 1} ("v3" c(300) sc(95) g(advinf2) b(mot_hqcar) brig(mot) s(rus)  i(2) cw(0) cp(10) t(all_nz inf_rus   ) c1(btr82a) n(2) n1(tankman:2) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) n9(spec_sniper:1)     ) }
  {"bmp3_2i" {fore 0.0} ("v3" c(400) sc(150) g(advinf2) b(mot_hqcar) brig(mot) s(rus)  i(3) cw(0) cp(10) t(all_nz inf_rus infantry  ) c1(bmp3_3) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1)       ) }
  ;{"bmp3_dz" {fore 0.0} ("v3" c(500) sc(200) g(advinf2) b(mot_hqcar) brig(mot) s(rus)  i(17) cw(0) cp(10) t(all_nz inf_rus infantry  ) n(2) c1(bmp3_dz) n1(tankman:3) n2(gru_com:1) n3(gru_mgun2:1) n4(gru_mgun:1) n5(gru_smg3:1) n6(gru_rpg:1) n7(gru_rpghelp:1)n8(gru_smg:1)n9(gru_sniper:1)       ) }
@@ -184,7 +184,7 @@
                                    
 ;===============================Морпехи===========================================                                   
 ("squad_with11types" name(morspec) f(0)  c(480) cost(110) g(elite) b(specbr_hqcar) brig(specbr) side(rus)     t(all_nz specnaz infantry  ) info(morspec) c1(morspec_com:1) c2(morspec_mgun:1) c3(morspec_rpg:1) c4(morspec_rpghelp:1) c5(morspec_smg:1) c6(morspec_smg2:1) c7(morspec_smg3:1) c8(morspec_sniper:1) c9(morspec_sniper1:1) ca(morspec_zamcom:1) )    ) 
- {"ural375i_mor" {fore 1} ("v3" c(250) sc(90) g(first_inf2) b(specbr_hqcar) brig(specbr) s(rus)  i(1) cw(0) cp(10) t(all_nz inf_rus infantry  ) n(2) c1(ural375) n1(vehicle_supporter:1) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) n8(mor_smg2:1) n9(morspec_sniper1:1)     ) }
+ {"ural375i_mor" {fore 1} ("v3" c(250) sc(90) g(first_inf2) b(specbr_hqcar) brig(specbr) s(rus)  i(1) cw(0) cp(10) t(all_nz inf_rus infantry  ) n(2) c1(kamaz) n1(vehicle_supporter:1) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) n8(mor_smg2:1) n9(morspec_sniper1:1)     ) }
  {"btr82ai" {fore 1} ("v3" c(300) sc(110) g(advinf111) b(specbr_hqcar) brig(specbr) s(rus)  i(2) cw(0) cp(10) t(all_nz inf_rus infantry  ) n(2) c1(btr82a) n1(tankman:2) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) n8(mor_smg2:1) n9(mor_sniper:1)     ) }
  {"bmp2_newi2" {fore 0.0} ("v3" c(400) sc(120) g(advinf111) b(specbr_hqcar) brig(specbr) s(rus)  i(3) cw(0) cp(10) t(all_nz inf_rus infantry  ) n(2) c1(bmp2_new) n1(tankman:3) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) n8(mor_smg2:1)      ) }
  {"bmp3i" {fore 0.0} ("v3" c(500) sc(150) g(advinf111) b(specbr_hqcar) brig(specbr) s(rus)  i(4) cw(0) cp(10) t(all_nz inf_rus infantry  ) n(2) c1(bmp3_2) n1(tankman:3) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1)       ) }
@@ -817,10 +817,8 @@
 ("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
                                    
 
-{"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(222) g(tonk1) b(supl) brig(common) s(iregular)  i(11) cw(0) cp(50) t(all_nz rogatka   ) n(1)               ) }								
-	
 
- {"sso_irg" {fore 1} ("v3" c(900) sc(469) g(sso)  b(supl) brig(common) s(iregular)  i(25) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_unarmed) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
+
 
 ;=========================================== АРТА   ================== ================== ==================                
 
@@ -868,7 +866,9 @@
 {"m113a_irg" {fore 1} ("v3" c(220) sc(110) g(heavy_peha2)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(3) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(m113a) n(1) n1(tankman:2) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)    ) }     
 {"btr80_2_newi" {fore 1} ("v3" c(669) sc(150) g(specnaz)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(4) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(btr80_2_new) n(1) n1(tankman:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)     ) }     
 {"saper_squad" {fore 0} ("v3" c(180) sc(100) g(sapres)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(5) cw(0) cp(10) t(all_nz inf_irg infantry ) c1(toyota_hilux_transport) n(1) n1(tankman:1) n2(saper:5)     ) }     
-
+{"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(222) g(tonk1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(11) cw(0) cp(50) t(all_nz rogatka   ) n(1)               ) }								
+ {"sso_irg" {fore 1} ("v3" c(900) sc(469) g(sso)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(25) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_unarmed) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
+	
 
 
 
