@@ -12256,16 +12256,16 @@
 		{Color 0xffd5d5d5}
 	}
 	{Entity "ground_clay5" 0x6808
-		{Position -4857.11 -3180.33}
+		{Position -4865.96 -3252.63}
 		{xform zl -80.96}
 	}
 	{Entity "ground_clay5" 0x6809
-		{Position -4860.43 -3479.34}
+		{Position -4869.28 -3551.64}
 		{xform zl -102.34}
 		{TexMod "smooth"}
 	}
 	{Entity "ground_clay5" 0x680a
-		{Position -4889.03 -3568.83}
+		{Position -4897.88 -3641.13}
 		{xform zl -110.35}
 		{TexMod "smooth"}
 	}
@@ -12282,7 +12282,7 @@
 		{Color 0xffe5e5e5}
 	}
 	{Entity "ground_clay5" 0x1006
-		{Position -5014.82 -3089.63}
+		{Position -5023.67 -3161.93}
 		{xform zl 50.43}
 		{TexMod "smooth"}
 	}
@@ -13332,7 +13332,7 @@
 		{Color 0xffcad7c6}
 	}
 	{Entity "cane3" 0x5119
-		{Position -4560.41 -2198.07}
+		{Position -4560.41 -2198.07 -694.56}
 		{xform zl 112.08}
 		{TexMod "autlate"}
 		{Color 0xffcad7c6}
@@ -31970,7 +31970,7 @@
 		{TexMod "aut"}
 	}
 	{Entity "new_bush1" 0x4916
-		{Position -4118.28 -3656.03}
+		{Position -4118.28 -3656.03 -700.61}
 		{xform zl 65.79}
 		{TexMod "burned"}
 		{Volume "crown"
@@ -44947,10 +44947,6 @@
 			{State broken}
 		}
 	}
-	{Entity "trench_cw_exit_1_wood" 0x4416
-		{Position -4663.36 -2686.29 -700}
-		{xform zl 130}
-	}
 	{Entity "cut_trench_1_transp" 0x512
 		{Position -5016.15 -2262.13 -718.13}
 	}
@@ -45378,7 +45374,7 @@
 				{damage "body" -0.549822 1
 					{matrix
 						{pos -21.373 2.198 52.349}
-						{nxform 1.571 -0 -1.538}
+						{nxform 1.571 0 -1.538}
 					}
 				}
 			}
@@ -45448,16 +45444,10 @@
 	{Entity "piece_medium_steel_construction" 0x40e9
 		{Position 161.61 -602.96 -685.06}
 		{xform zl -159.95 y 4.51 zw -63.07}
-		{Volume "piece1"
-			{able {visible 0}}
-		}
 	}
 	{Entity "piece_medium_steel_construction" 0x40d2
 		{Position 159.47 -603.04 -687.91}
 		{xform zl -129.27 y 5.96 zw -94.23}
-		{Volume "piece1"
-			{able {visible 0}}
-		}
 	}
 	{Entity "boat1" 0x6c02
 		{Position -1530.42 -1884.33 -712.98}
@@ -45533,6 +45523,583 @@
 		{Placer
 			{State "1" {Broken}}
 		}
+	}
+	{Entity "cane3" 0x52cf
+		{Position -5930.88 -2696.8}
+		{xform zl 42.7}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52f6
+		{Position -5929.24 -2760.12 -702.07}
+		{xform zl -165.93}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xc96
+		{Position -5903.94 -1968.72 -646.03}
+		{xform zl -38.86}
+	}
+	{Entity "trench_cw_ammo_store_wood" 0xc97
+		{Position -5771.81 -2041.4 -662.18}
+		{xform zl 141.14}
+	}
+	{Entity "trench_cw_big_trench_wood" 0xc98
+		{Position -5641.45 -2144.34 -664.05}
+		{xform zl -38.86}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xc99
+		{Position -5481.99 -2257.41 -628.76}
+		{xform zl 131.14}
+	}
+	{Entity "trench_cw_ammo_store_wood" 0xc9a
+		{Position -5365.82 -2259.3 -662.69}
+		{xform zl -178.86}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xc9b
+		{Position -5239.86 -2268.02 -662.44}
+		{xform zl -58.86}
+	}
+	{Entity "trench_cw_fork_wood" 0xc9c
+		{Position -5130.46 -2447.82 -660.59}
+		{xform zl -48.86}
+	}
+	{Entity "trench_cw_big_trench_wood" 0xc9d
+		{Position -4927.52 -2575.91 -644.15}
+		{xform zl -38.86}
+	}
+	{Entity "trench_cw_big_trench_wood" 0x4415
+		{Position -4746.71 -2719.97 -646.57}
+		{xform zl -38.86}
+	}
+	{Entity "trench_cw_exit_1_wood" 0x4416
+		{Position -4605.77 -2833.6 -697.73}
+		{xform zl 141.14}
+	}
+	{Entity "cut_trench_1_transp" 0xc9e
+		{Position -5033.84 -2485.56 -720.01}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xc9f
+		{Position -5058.53 -2456.36 -718.04}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca0
+		{Position -5157.83 -2349.82 -711.29}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca1
+		{Position -5125.06 -2385.44 -709.93}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca2
+		{Position -5188.52 -2309.09 -715.47}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca3
+		{Position -5225.38 -2276.35 -716.73}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca4
+		{Position -5279.44 -2264.19 -716.39}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca5
+		{Position -5435.72 -2260.31 -716.64}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca6
+		{Position -5482.1 -2249.15 -718.06}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca7
+		{Position -5527.26 -2232.27 -720.18}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca8
+		{Position -5527.79 -2238.34}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xca9
+		{Position -5835.33 -1993.28 -720.09}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcaa
+		{Position -5875.73 -1976.93 -720.7}
+		{xform zl 11.14}
+	}
+	{Entity "trench_cw_mortar_wood" 0x223c
+		{Position -5399.53 -2979.33 -686.01}
+		{xform zl -138.86}
+	}
+	{Entity "trench_cw_big_trench_wood" 0x61dc
+		{Position -5286.72 -2585.88 -657.12}
+		{xform zl 41.14}
+	}
+	{Entity "trench_cw_fork_wood" 0x61dd
+		{Position -5444.98 -2722.44 -646.33}
+		{xform zl 131.14}
+	}
+	{Entity "cut_trench_1_transp" 0x61de
+		{Position -5504.37 -2727.29 -717.1}
+		{xform zl -168.86}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0x61df
+		{Position -5639.72 -2616.36 -602.79}
+		{xform zl -48.86}
+	}
+	{Entity "cut_trench_1_transp" 0x61e0
+		{Position -5639.62 -2624.62 -711.08}
+		{xform zl -168.86}
+	}
+	{Entity "trench_cw_exit_1_wood" 0x61e1
+		{Position -5761.74 -2626.68 -659.21}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4436
+		{Position -5675.73 -2620.84 -703.32}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4437
+		{Position -5592.9 -2645.29 -717.84}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4438
+		{Position -5570.07 -2651.47 -718.73}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4439
+		{Position -5508.18 -2704.63 -716.8}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x443b
+		{Position -5532.84 -2696.95 -717.06}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x443c
+		{Position -5454.63 -2787.01 -717.77}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x443d
+		{Position -5414.36 -2834.03 -716.36}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x443e
+		{Position -5417.93 -2815.71 -717.84}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x443f
+		{Position -5383.68 -2869.27 -717.31}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4440
+		{Position -5349.81 -2912.1 -715.02}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4441
+		{Position -5334.69 -2926.62 -715.96}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4442
+		{Position -5359.77 -2880.2 -715.56}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4443
+		{Position -5353.58 -2949.09 -717.74}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4444
+		{Position -5378.26 -2972.92 -714.77}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4445
+		{Position -5401.51 -2976.77 -711.91}
+		{xform zl 11.14}
+	}
+	{Entity "new_birch" 0x640e
+		{Position -5993.43 -2749.41}
+		{xform zl 163.39}
+		{TexMod "aut1"}
+	}
+	{Entity "cane3" 0x5071
+		{Position -6062.47 -2486.04}
+		{xform zl -160.59}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x5231
+		{Position -6040.22 -2553.67}
+		{xform zl 158.9}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x5236
+		{Position -5989.63 -2714.58}
+		{xform zl -120.43}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52cd
+		{Position -6002.68 -2684.98}
+		{xform zl -120.43}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52ce
+		{Position -5972.1 -2691.49}
+		{xform zl 113.4}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52d2
+		{Position -6018.34 -2634.92}
+		{xform zl -165.93}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52ed
+		{Position -6087.21 -2491.68}
+		{xform zl 113.4}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52ee
+		{Position -6045.98 -2496.98}
+		{xform zl 42.7}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52ef
+		{Position -6035.65 -2531.8}
+		{xform zl 42.7}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52f0
+		{Position -6075.62 -2790.24}
+		{xform zl -66.6}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52f8
+		{Position -5986.93 -2769.06}
+		{xform zl 42.7}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "cane3" 0x52f9
+		{Position -5983.02 -2801.18}
+		{xform zl 42.7}
+		{TexMod "autlate"}
+		{Color 0xffcad7c6}
+	}
+	{Entity "ground_clay5" 0xcab
+		{Position -6047.86 -2700.48}
+		{xform zl 92.63}
+	}
+	{Entity "ground_clay5a" 0xcac
+		{Position -6016.01 -2802.9 -727.79}
+		{xform zl 135.64}
+		{DecalOrder 1}
+	}
+	{Entity "crash_qgarden_9a" 0xcad
+		{Position -6255.21 -2159.35 -719.33}
+		{xform zl 18.64}
+		{Color 0xffcccccc}
+	}
+	{Entity "trench_low2" 0x72f4
+		{Position -5985.38 -2367.33 -670.96}
+		{xform zl 11.14}
+		{TexMod "grass"}
+	}
+	{Entity "trench_cw_big_trench_wood" 0xcae
+		{Position -6950.22 -1723.46 -663.88}
+		{xform zl 1.14}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xcb0
+		{Position -6761.72 -1732.95 -681.84}
+		{xform zl -58.86}
+	}
+	{Entity "trench_cw_ammo_store_wood" 0xcb1
+		{Position -6652.01 -1836.58 -682}
+		{xform zl -48.86}
+	}
+	{Entity "trench_cw_fork_wood" 0xcb3
+		{Position -6574.11 -2000.95 -681.17}
+		{xform zl -48.86}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xcb4
+		{Position -6393.94 -2121.58 -664.03}
+		{xform zl 121.14}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xcb5
+		{Position -6232.42 -2135.13 -646.13}
+		{xform zl 161.14}
+	}
+	{Entity "trench_cw_big_trench_wood" 0xcb6
+		{Position -6071.17 -2041.47 -644.16}
+		{xform zl 31.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcb7
+		{Position -5922.86 -1973.11 -716.58}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcb8
+		{Position -5958.04 -1974.47 -716.75}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcb9
+		{Position -6168.54 -2099.73 -717.76}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcba
+		{Position -6201.56 -2113.93 -716.99}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcbb
+		{Position -6253.67 -2128.92 -718.73}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcbc
+		{Position -6293.53 -2134 -719.69}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcbd
+		{Position -6217.6 -2130.29 -716.54}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcbe
+		{Position -6368.73 -2125.63 -716.71}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcbf
+		{Position -6327.12 -2137.56 -718.32}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc0
+		{Position -6403.24 -2108.47 -719.31}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc1
+		{Position -6453.19 -2077.81 -718.64}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc2
+		{Position -6429.22 -2102.13 -718.74}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc3
+		{Position -6499.51 -2008.3 -717.89}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc4
+		{Position -6514.73 -1996.1 -717.86}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc5
+		{Position -6556.86 -1940.86 -718.13}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc6
+		{Position -6586.78 -1909.28 -717.15}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc7
+		{Position -6605.2 -1891.06 -716.99}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc8
+		{Position -6578.97 -1930.28 -717.93}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcc9
+		{Position -6697.11 -1783.78 -718.95}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcca
+		{Position -6725.21 -1757 -719.06}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xccb
+		{Position -6761.83 -1734.13 -717.73}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xccc
+		{Position -6805.35 -1714.39 -716.24}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xccd
+		{Position -6792.63 -1730.32 -716.78}
+		{xform zl 11.14}
+	}
+	{Entity "trench_cw_small_turn_wood" 0xcce
+		{Position -6696.52 -2157.2 -695}
+		{xform zl 131.14}
+	}
+	{Entity "trench_cw_radial_turn_wood" 0xccf
+		{Position -6586.51 -2304.6 -682.63}
+		{xform zl -178.86}
+	}
+	{Entity "trench_cw_radial_turn_wood" 0xcd0
+		{Position -6338.94 -2378.03 -687.75}
+		{xform zl 1.14}
+	}
+	{Entity "trench_cw_90gr_turn_wood" 0xcd1
+		{Position -6206.29 -2500.67 -679.86}
+		{xform zl -128.86}
+	}
+	{Entity "trench_cw_big_trench_wood" 0xcd2
+		{Position -6296.95 -2686.83 -645.79}
+		{xform zl -118.86}
+	}
+	{Entity "trench_cw_mg_dot_wood" 0x1013
+		{Position -7126.06 -2187.73 -682.18}
+		{xform zl -178.86}
+	}
+	{Entity "trench_cw_exit_1_wood" 0x104a
+		{Position -6945.11 -2224.42 -670.17}
+		{xform zl -178.86}
+	}
+	{Entity "trench_cw_exit_1_wood" 0x1081
+		{Position -6378.76 -2831.27 -670.54}
+		{xform zl 61.41}
+	}
+	{Entity "cut_trench_1_transp" 0x4419
+		{Position -6237.72 -2561.33 -716.29}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x441a
+		{Position -6214.49 -2509.35 -720.95}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x441b
+		{Position -6240.63 -2452.72 -719.48}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x441c
+		{Position -6222.63 -2540.89 -721.53}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x441f
+		{Position -6295.27 -2388.11 -717.57}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4420
+		{Position -6336.99 -2364.48 -717.46}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4421
+		{Position -6394.8 -2345.22 -717.41}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4422
+		{Position -6437.36 -2341.74 -717.11}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4423
+		{Position -6474.65 -2347.33 -716.29}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4424
+		{Position -6537.62 -2335.87 -716.61}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4425
+		{Position -6508.72 -2339.82 -718.28}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4426
+		{Position -6578.73 -2324.58 -718.38}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4427
+		{Position -6612.83 -2304.54 -716.39}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4428
+		{Position -6620.71 -2296.68 -715.23}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4429
+		{Position -6721.94 -2145.61 -702.53}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x442a
+		{Position -6693.08 -2112.28 -706.05}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x442b
+		{Position -6659.65 -2078.99 -710.41}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x442c
+		{Position -7013.8 -2226.28 -719.22}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcd3
+		{Position -6362.37 -2813.79 -718.56}
+		{xform zl 11.14}
+	}
+	{Entity "stack" 0x4559
+		{Position -7359.95 -2318.49}
+		{xform zl -163.01}
+	}
+	{Entity "wheat_big" 0x455a
+		{Position -7353.27 -2315.09}
+		{xform zl 90.23}
+		{DecalOrder 20}
+	}
+	{Entity "trench_cw_big_trench_wood" 0xcd4
+		{Position -7175.38 -1728.55 -681.2}
+		{xform zl 1.14}
+	}
+	{Entity "trench_cw_60gr_turn_wood" 0xcd5
+		{Position -7375.02 -1775.17 -672.1}
+		{xform zl 11.14}
+	}
+	{Entity "trench_cw_exit_1_wood" 0xcd6
+		{Position -7433.35 -1902.49 -679.8}
+		{xform zl 71.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcd7
+		{Position -7310.95 -1737.07}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcd8
+		{Position -7345.66 -1755.32 -712.17}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcd9
+		{Position -7376.36 -1783.92 -704.71}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0xcda
+		{Position -7402.27 -1820.16 -703.82}
+		{xform zl 11.14}
+	}
+	{Entity "trench_cw_exit_1_wood" 0x103d
+		{Position -7306.12 -2229.19 -680.75}
+		{xform zl 1.14}
+	}
+	{Entity "cut_trench_1_transp" 0x442d
+		{Position -7051.51 -2228.91 -718.32}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x442e
+		{Position -7089.09 -2228.15 -717.87}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x442f
+		{Position -7150.92 -2230.27 -717.29}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4430
+		{Position -7198.12 -2231.75 -717.74}
+		{xform zl 11.14}
+	}
+	{Entity "cut_trench_1_transp" 0x4431
+		{Position -7221.91 -2234.09 -717.31}
+		{xform zl 11.14}
 	}
 	{Link 0x186 {0x182 "3"}}
 	{Link 0x435e {0x4361 "01"}}

@@ -10,7 +10,7 @@
 		{box
 			{Size 6 6}
 			{weight 300}
-			{item "ammo hj8 hj8h" 3}
+			{item "ammo hj8 hj8h" 9}
 			(mod "mp"
 				{item "plant" 3}
 			)

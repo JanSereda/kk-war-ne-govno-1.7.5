@@ -67,8 +67,8 @@
 		{box
 			{Size 6 6}
 			{weight 6000}
-			{item "ammo 9m133 cm" 2}
-			{item "ammo 9m133 fg" 1}
+			{item "ammo 9m133 cm" 6}
+			{item "ammo 9m133 fg" 6}
 			(mod "mp"
 				{item "plant" 3}
 			)

@@ -11,7 +11,7 @@
 		{box
 			{Size 6 6}
 			{weight 300}
-			{item "ammo fagot_concurs 9m113m1" 4}
+			{item "ammo fagot_concurs 9m113m1" 8}
 			(mod "mp"
 				{item "plant" 3}
 			)
