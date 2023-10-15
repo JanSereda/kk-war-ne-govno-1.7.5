@@ -26,6 +26,8 @@
 {"tochka_y"					"<c(FFFF00)e(shadow)>Тактический ракетный комплекс</c>"}
 {"mig-21bis_harm"					"<c(FFFF00)e(shadow)>Фронтовой истребитель</c>"}
 {"mig-21bis_pizdec"					"<c(FFFF00)e(shadow)>Фронтовой истребитель</c>"}
+{"mig-21bis_support_b8"					"<c(FFFF00)e(shadow)>Фронтовой истребитель</c>"}
+
 
 
 {"mtlb_zu"					"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}

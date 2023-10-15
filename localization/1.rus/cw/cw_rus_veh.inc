@@ -69,7 +69,7 @@
 
 {"hj8_stan_2"						"<c(FFFFFF)e(shadow)>HJ-8</c>"}
 {"ptur_konkurs_2"						"<c(FFFFFF)e(shadow)>Конкурс</c>"}
-
+{"mig-21bis_support_b8"						"<c(FFFFFF)e(shadow)>Миг-21 поддержки</c>"}
 
 {"mt12_with_mtlb"						"<c(FFFFFF)e(shadow)>МТЛБ с МТ-12 Рапира</c>"}
 {"2c4_tulpan"						"<c(FFFFFF)e(shadow)>2с4 Тюльпан</c>"}
@@ -79,7 +79,7 @@
 {"mtlb_c60"								"<c(FFFFFF)e(shadow)>МТ-ЛБ с С-60</c>"}
 {"mtlb_vmk_ogon"						"<c(FFFFFF)e(shadow)>МТ-ЛБ с РСЗО А-22 Огонь</c>"}
 {"mtlb_c5_vasilek"						"<c(FFFFFF)e(shadow)>МТ-ЛБ с блоком С-5 и минометом Василек</c>"}
-{"yaz_patrior"						"<c(FFFFFF)e(shadow)>УАЗ Патриот поддержки</c>"}
+{"yaz_patrior"						"<c(FFFFFF)e(shadow)>УАЗ Патриот снабжения</c>"}
 {"ural-4320_long_tent_h"						"<c(FFFFFF)e(shadow)>Урал снабжения</c>"}
 {"ural-4320_long_zu23-2_h"						"<c(FFFFFF)e(shadow)>Урал 4320 с ЗУ-23-2 и доп.броней</c>"}
 {"yaz_patrior_rapira"						"<c(FFFFFF)e(shadow)>УАЗ Патриот с МТ-12 Рапира</c>"}

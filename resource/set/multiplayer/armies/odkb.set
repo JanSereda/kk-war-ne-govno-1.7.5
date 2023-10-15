@@ -1,0 +1,6 @@
+﻿{army
+	{id 5}
+	{title "mp/army/odkb"}
+	{icon "/interface/pages/multi/flag_odkb"}
+	{flag "/interface/scene/common/flag-rus"}
+}

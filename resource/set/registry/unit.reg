@@ -3,6 +3,7 @@
 {"osa_am_rls"		{structure "cwds_radar"}}
 {"osa_ma_pu"		{structure "cwds_shipcannon"}}
 {"9k33_osa_akm"			{structure "cwds_sam"}}
+{"grad_p"		{structure "cwds_atgm"}}
 
 {"su-34_umpk"		{structure "cwds_plane_attack"}}
 {"mi17_unarmed_supl"		{structure "cwds_heli_common"}}
@@ -33,7 +34,8 @@
 {"bmp1_isis"			{structure "cwds_ifv"}}
 {"ac130"{structure "cwds_plane_cargo"}}	
 {"mig-21bis_pizdec"{structure "cwds_plane_attack"}}	
-{"mig-21bis_harm"{structure "cwds_plane_attack"}}	
+{"mig-21bis_harm"{structure "cwds_plane_attack"}}
+{"mig-21bis_support_b8"{structure "cwds_plane_attack"}}
 {"chekan"		{structure "cwds_apc4"}} 
 
 {"su24m"{structure "cwds_plane_attack"}}

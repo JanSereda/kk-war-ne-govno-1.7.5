@@ -1,0 +1,5 @@
+{from "pattern cw_helmet"
+	{entity "pasgt_helmet_un"}
+	{desc "Peacemaker helmet"}
+	{mass 1.63}
+}
