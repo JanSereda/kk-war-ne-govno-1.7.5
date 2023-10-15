@@ -8,15 +8,22 @@
 		("smg_range")
 	
 	{burst
-		{short 1 1}
-		{long 0.5 1}
-		{rangeKoef 0.669}
+		{short 2 1}
+		{long 6 2}
+{rangeKoef 0.444}
+	}
+	{healthDamage 68}
+	{spreading 1
+		{BurstAccuracy 100 92 90 87 80 73}
+		{SpreadPower	1.7}
+		{SpreadXYRatio	0.5}
+		{SpreadYadjust	0.2}	
 	}
 	{healthDamage 92}
 	
-	{spreading 0.2}
+	
 	{rechargeTime 3.5}
 	("recoveryTime" r(900))
 	
- 	("speed" s(490))
+ 	("speed" s(890))
 }
