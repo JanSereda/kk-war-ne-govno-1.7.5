@@ -715,10 +715,10 @@
                     {Bone "mgun_kord"
                         {Parameters "ID=gun;"}
                         {Matrix34
-                            1	0	0
+                            -0.5	-0.2	0
+                            -1	-1	0
                             0	0	-1
-                            0	1	0
-                            10.7658	-0.870937	0.857158
+                           -1	-1	0.857158
                         }
                         {VolumeView "mgun_kord.ply"}
                         {Bone "foresight4"

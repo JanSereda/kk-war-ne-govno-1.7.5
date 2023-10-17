@@ -5,7 +5,7 @@
 	{icon_priority 0}
 	{nationality cz}
 	{armors
-		{head "sh-68"}
+		{head pasgt_helmet_un}
 	}
 	{perks
 		{"vision" mp_officer
@@ -52,7 +52,7 @@
 		{item "6b45-1_strelok"}
 		{item "aks74u_4" filling "545 ammo" 30}
 		{item "545 ammo" 100}
-		{item "antitank_tm62m mine" 6}
+		{item "rshg-1 weapon" 2 filling "rshg-1 ammo" 1}
 		{in_hands 4}
 	}
 }
