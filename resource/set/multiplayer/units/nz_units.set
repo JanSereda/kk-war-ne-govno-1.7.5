@@ -464,7 +464,7 @@
  {"a-10c_AT" {fore 0} ("p" c(840)  sc(340) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(8) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
  ;{"a-10c_support" {fore 0} ("p" c(960)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(9) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
  {"f-16c_support" {fore 0} ("p" c(960)  sc(360) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(10) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
-                                   
+  {"f-15e_strike"            ("p" c(600) brig(usaf) t(all_nz additional aircraft duel_fighter nobot support_frontline) s(usa) n(2) g(extra3)  sc(400) b(usaf_hqcar) i(222) cw(0) cp(120))  {fore -1.5}}                                 
                         
  {"f-16c_antirad" {fore 0} ("p" c(600)  sc(250) g(air_sead) b(usaf_hqcar) brig(usaf) s(usa)  i(14) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
  {"f-35c_strike" {fore 0} ("p" c(1500)  sc(450) g(air_strike) b(usaf_hqcar) brig(usaf) s(usa)  i(15) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(1)               ) }
@@ -535,7 +535,7 @@
                                    
  {"magach7" {fore 1} ("v_nation" c(300) sc(120) g(arm2) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(3) cw(0) cp(40) t(all_nz    ) n(4)               ) }
  {"merkava_mk4" {fore 1} ("v_nation" c(400) sc(200) g(obt_idf) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(4) cw(0) cp(65) t(all_nz tank_usa   ) n(4)               ) }
- {"merkava_trophy" {fore 0.7} ("v_nation_v" c(600) sc(215) g(obt_idf) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(5) cw(0) cp(75) t(all_nz tank_usa   ) n(4)               ) }
+ {"merkava_trophy" {fore 0.7} ("v_nation_v" c(600) sc(250) g(obt_idf) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(5) cw(0) cp(75) t(all_nz tank_usa   ) n(4)               ) }
                                    
  {"spike_stan_idf" {fore 0} ("vs_nation" c(560) sc(110) g(1) b(idf_hqcar) brig(idf) s(usa) crew_nation(idf) i(6) cw(0) cp(35) t(all_nz    ) n(2)               ) }
                                    
@@ -798,8 +798,8 @@
 {"uazm2" {fore 1} ("vs" c(222) sc(50) g(reserv_4) b(supl) brig(common) s(iregular)  i(4) cw(5) cp(5) t(all_nz    ) n(3)               ) }
 
 {"toyota_hilux_dshkm" {fore 1} ("vs" c(222) sc(100) g(reserv_5) b(supl) brig(common) s(iregular)  i(5) cw(5) cp(5) t(all_nz    ) n(2)               ) }
+{"hmmwv_isis" {fore 1} ("vs" c(222) sc(50) g(reserv69) b(supl) brig(common) s(iregular)  i(5) cw(5) cp(5) t(all_nz    ) n(3)               ) }
 
-{"hmmwv_isis" {fore 1} ("vs" c(222) sc(50) g(reserv69) b(supl) brig(common) s(iregular)  i(69) cw(5) cp(5) t(all_nz    ) n(3)               ) }
 {"toyota_hilux_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(iregular)  i(6) cw(5) cp(5) t(all_nz    ) n(2)               ) }
 
 
@@ -921,7 +921,7 @@
 	
 {"yaz_patrior_kornet" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 
-{"2121_atgm" {fore 1} ("v" c(200) sc(69) g(uaz25) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(3) cw(0) cp(15) t(all_nz   ) n(2)               ) }
+{"2121_atgm" {fore 1} ("v" c(200) sc(69) g(uaz25) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 
 {"mtlb_c5_vasilek" {fore 1} ("v" c(250) sc(125) g(mtlbvasilek) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(5) cw(0) cp(20) t(all_nz   ) n(4)               ) }
 
