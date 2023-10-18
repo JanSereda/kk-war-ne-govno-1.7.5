@@ -4,7 +4,7 @@
 	(include "/properties/shadow/airborn.inc" scale(1.1))
 	(include "/properties/selection/airborne.inc" scale(3.0))
 	(include "/properties/car_crew.ext")
-	{props "airborne_M" "assault" "vision_lev_plane" "su-25sm" "mig-21bis_agm88"  }	
+	{props "airborne_M" "fighter" "vision_lev_plane" "su-34" "mig-21bis_agm88"}	
 	{Extension "mig-21bis_harm.mdl"}
 	("missile_aimpoint_air")
 	{extender "enumerator" {digit_folder "vks"}}
