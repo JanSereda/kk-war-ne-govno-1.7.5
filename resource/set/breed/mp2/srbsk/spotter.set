@@ -48,14 +48,14 @@
 	}
 	{inventory
 		{item "bandage" 15}
-		{item "usa_las_designator" filling "usa_laser ammo" 2000}
 		{item "binocular"}
 		{item "m16a4full" filling "556natos ammo" 30}
 		{item "556nato ammo" 200}
-		{item "c4_bomb"}
+		{item "rq11_control"}
 		{item "f1_script grenade" 4}
 		{item "tarzan"}
-		{item "rpg27 weapon" filling "rpg27 ammo" 1}
+	
+		{item "fpv_drone"}
 		{in_hands 3}
 	}
 }

@@ -7,7 +7,7 @@
 	(include "/properties/selection/airborne.inc" scale(3.0))
 	(include "/properties/car_crew.ext")
 	
-	{props "Helicopter_M" "vision_lev_small_UAV" "small_UAV"  "cw_autotakeoff" "smalluav_usa"}
+	{props "Helicopter_M" "vision_lev_small_UAV" "small_UAV"  "cw_autotakeoff" "smalluav_usa" "heli_with_ropes"}
 
 	{Extension "fpv_drone.mdl"}
 		("missile_aimpoint_custom" height(0) front(0) side(0))
@@ -77,7 +77,7 @@
 ;		{speed
 ;			{slow 1} ; km/h
 ;			{Normal 1}
-;			{Fast 7}
+;			{Fast 69}
 ;	     }
 ;        }
 ; {Chassis "wheel"
@@ -95,9 +95,9 @@
 ;			{Current "airborne"}
 ;		}
 	
-;("CW_heli_chassis" Maxspeed(7) turnRadius(7) maxSlope(20))
+;("CW_heli_chassis" Maxspeed(25) turnRadius(7) maxSlope(20))
 ("CW_heli_skeed_chassis" 
-	Maxspeed(7) turnRadius(7) Acc(3.85) Climb(3.85)
+	Maxspeed(25) turnRadius(7) Acc(3.85) Climb(3.85)
 	Fuel(1172) Fuel_rate(1.42) Fuel_remain(879))
 	{props "cwfs_fuel_1000"}
 
