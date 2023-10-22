@@ -257,12 +257,8 @@
 	else stuff "pl12 ammo"	
 	("spawn_proj_7" country(rus) type(active) weapon_tag(pl12_target) decoytype(chaff) decoyprob(0.07) min_alt(10))
 ;other
-
 	else stuff "9m33_rocket ammo"			
 	("spawn_proj_7" country(rus) type(active) weapon_tag(9m33_rocket_target) decoytype(chaff) decoyprob(0.21) min_alt(14))
-
-
-
 	else stuff "targeting_radar_usa ammo"		
 	("spawn_proj_passive" country(usa) type(radpassive) weapon_tag(targeting_radar_target) decoytype(chaff) decoyprob(0.04) min_alt(25))	
 	else stuff "targeting_radar_rus ammo"			
@@ -274,8 +270,4 @@
 	else stuff "rus_laser_spot ammo"
 	("spawn_proj_5" country(rus) type(laser_spot) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.00) min_alt(-100))
 ;	else stuff "persmarker" 	{with_effector {call "set_decal"} {with_effector}}
-
-
-
-
 }

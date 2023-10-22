@@ -46,6 +46,8 @@
 {"mstasm2_odkb"	"<c(FFFFFF)e(shadow)>2С19 Мста-С</c>"}
 {"kamaz_grad"	"<c(FFFFFF)e(shadow)>БМ–21А БелГрад</c>"}
 
+
+{"m777a1"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777</c>"}
 {"mtlb_supl"	"<c(FFFFFF)e(shadow)>МТ-ЛБ с тяжёлыми боеприпасами</c>"}
 {"9k35_strela_nurs"	"<c(FFFFFF)e(shadow)>МТ-ЛБ с УБ-32</c>"}
 {"mig-21bis_pizdec"	"<c(FFFFFF)e(shadow)>СУ-7БМВЭК Ударный</c>"}

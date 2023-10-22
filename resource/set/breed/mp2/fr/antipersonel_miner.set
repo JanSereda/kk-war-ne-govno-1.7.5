@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_fr_inf"}
+	{portrait "_new/fr/inf"}
+	{icon "fr_smg"}
+	{icon_priority 0}
+	{nationality fr}
+	{armors
+		{head spectra_helmet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_engineering_troops")
+	{inventory
+		{item "gpb_vest_backpack"}
+		{item "mine antipersonnel_claymore" 8}
+		{item "famas_f1_aimpoint" filling "556nato ammo" 25}
+		{item "556nato ammo" 60}
+		{in_hands 2}
+	}
+}

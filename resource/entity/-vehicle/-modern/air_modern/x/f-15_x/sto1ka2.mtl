@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/f-15/nose_co"}
+	{blend none}
+}

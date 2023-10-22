@@ -1,0 +1,7 @@
+{material simple
+	{diffuse "razmetka_turn45"
+		{Axis 64 128}
+		{AlphaChannel 1}
+	}
+	{Blend blend}
+}

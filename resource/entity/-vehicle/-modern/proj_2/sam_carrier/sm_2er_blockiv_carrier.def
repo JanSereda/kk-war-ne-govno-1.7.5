@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_extproximity.mdl"}
+	("missile_placer" missile("sm_2er_blockiv_impactor") country(usa) type(radpassive) calibre(343)
+	speed(fast) guidance(propsam))
+	("maneuvrability_vertical_zur_cwps3" deg_per_s(34))
+	{props "radioproximity"}	;срабатывает только на металлические объекты
+	{targetSelector "missile"}
+}

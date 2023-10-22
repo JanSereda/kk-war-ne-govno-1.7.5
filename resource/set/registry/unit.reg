@@ -4,7 +4,6 @@
 {"osa_ma_pu"		{structure "cwds_shipcannon"}}
 {"9k33_osa_akm"			{structure "cwds_sam"}}
 {"grad_p"		{structure "cwds_atgm"}}
-
 {"su-34_umpk"		{structure "cwds_plane_attack"}}
 {"mi17_unarmed_supl"		{structure "cwds_heli_common"}}
 {"ags17"		{structure "cwds_ags"}}
@@ -14,6 +13,7 @@
 {"brem-1"			{structure "cwds_tank"}}
 {"brem-1_s"			{structure "cwds_tank"}}
 {"m777"				{structure "cwds_cannon"}}
+{"m777a1"				{structure "cwds_cannon"}}
 {"hmmwv_isis"			{structure "cwds_armcar"}}
 {"t62_isis"			{structure "cwds_tank"}}
 {"t80ybars"			{structure "cwds_tank"}}
@@ -37,7 +37,6 @@
 {"mig-21bis_harm"{structure "cwds_plane_attack"}}
 {"mig-21bis_support_b8"{structure "cwds_plane_attack"}}
 {"chekan"		{structure "cwds_apc4"}} 
-
 {"su24m"{structure "cwds_plane_attack"}}
 {"su24m_strike"{structure "cwds_plane_attack"}}	
 {"su24m_kab"{structure "cwds_plane_attack"}}	
@@ -48,24 +47,18 @@
 {"2c1_rus"					{structure "cwds_tank2"}}
 {"2c1_isis"					{structure "cwds_tank2"}}
 {"2s7_pion"					{structure "cwds_tank2"}}
-
-
 {"tos-1a_solntsepek_odkb"	{structure "cwds_mlrs_tr"}}
 {"mstasm2_odkb"					{structure "cwds_tank2"}}
 {"2c4_tulpan"					{structure "cwds_tank2"}}
 {"kamaz_grad"			{structure "cwds_mlrs6"}}
 {"gaz_tigr_dz"		{structure "cwds_armcar"}}
-
 {"btr-4e"		{structure "cwds_apc8"}}
 {"btr-3e_no_pt"		{structure "cwds_apc8"}}
 {"dshk_trenoga"		{structure "cwds_mgun"}}
 {"zil131_2s1"		{structure "cwds_truck6"}}
 {"t72a_ser"				{structure "cwds_tank"}}
 {"t34-85_ser"		{structure "cwds_tank"}}
-
 {"m113a_ser"			{structure "cwds_ifv"}}
-
-
 {"leopard_2a4_dz"			{structure "cwds_tank"}}
 {"tochka_y"				{structure "cwds_otrk8"}}
 {"mt12_with_mtlb"				{structure "cwds_ifv"}}
@@ -73,7 +66,6 @@
 {"mtlb_c60"				{structure "cwds_ifv"}}
 {"mtlb_vmk_ogon"				{structure "cwds_ifv"}}
 {"mtlb_c5_vasilek"				{structure "cwds_ifv"}}
-
 {"yaz_patrior"		{structure "cwds_armcar"}}
 {"ural-4320_long_tent_h"		{structure "cwds_truck6"}}
 {"ural-4320_long_zu23-2_h"		{structure "cwds_truck6"}}
@@ -84,12 +76,9 @@
 {"t-55_ser"		{structure "cwds_tank"}}
 {"t62m_v2_ser"		{structure "cwds_tank"}}
 {"t-55_rus"		{structure "cwds_tank"}}
-
-
 {"hj8_stan_2"		{structure "cwds_atgm"}}
 {"ptur_konkurs_2"		{structure "cwds_atgm"}}
 {"2c23"					{structure "cwds_tank"}} 
-
 
 ;===================RUS planes
 	{"mi28n"			{structure "cwds_heli_attack"}}
@@ -123,6 +112,7 @@
 	{"su-34_antiair"	{structure "cwds_plane_attack"}}
 	{"su-34_medbomber"	{structure "cwds_plane_attack"}}
 	{"su-34_medbomber_light"	{structure "cwds_plane_attack"}}
+	{"su-34_umpk"		{structure "cwds_plane_attack"}}
 	{"su-35_aa"			{structure "cwds_plane_attack"}}
 	{"su-35_at"			{structure "cwds_plane_attack"}}
 	{"su-35_strike"		{structure "cwds_plane_attack"}}
@@ -179,8 +169,17 @@
 	{"a-10c_bomber"		{structure "cwds_plane_attack"}}
 	{"a-10c_support"	{structure "cwds_plane_attack"}}
 	{"a-10c_support_light"	{structure "cwds_plane_attack"}}
+	{"f-15c_aa"		    {structure "cwds_plane_attack"}}
+	{"f-15e_bomber"		{structure "cwds_plane_attack"}}
+	{"f-15e_kab"		{structure "cwds_plane_attack"}}
+	{"f-15e_sdb"		{structure "cwds_plane_attack"}}
+	{"f-15e_strike"		{structure "cwds_plane_attack"}}
+	{"f-15e_strike2"	{structure "cwds_plane_attack"}}
+	{"f-15e_support"	{structure "cwds_plane_attack"}}
 	{"f-16c_aa"		    {structure "cwds_plane_attack"}}
 	{"f-16c_antirad"	{structure "cwds_plane_attack"}}
+	{"f-16c_sdb"		{structure "cwds_plane_attack"}}
+	{"f-16c_sdb_pol"	{structure "cwds_plane_attack"}}
 	{"f-16c_support_pol"	{structure "cwds_plane_attack"}}
 	{"f-16c_antirad_2"	{structure "cwds_plane_attack"}}
 	{"f-16c_strike"		{structure "cwds_plane_attack"}}
@@ -244,7 +243,7 @@
 	{"ural-4320_tornado_g"	{structure "cwds_mlrs6"}}
 	{"bm-30_smerch"			{structure "cwds_mlrs8"}}
 	{"bm-30_tornado_s"		{structure "cwds_mlrs8"}}
-	{"2c9"					{structure "cwds_tank"}} 
+	{"2c9"					{structure "cwds_tank"}}
 	{"2c3_akaciya"			{structure "cwds_tank2"}}
 	{"dana_152mm"			{structure "cwds_apc8"}}
 	{"pzh2000"				{structure "cwds_tank2"}}
@@ -287,6 +286,7 @@
 	{"tpz1a6_uk"		{structure "cwds_apc6"}}
 	{"wiesel1_gun"		{structure "cwds_ifv"}}
 	{"wiesel1_tow"		{structure "cwds_ifv"}}
+	{"wiesel_2_leflasys"{structure "cwds_sam"}}
 	{"boxer_gmg"		{structure "cwds_apc8"}}
 	{"boxer_mgun"		{structure "cwds_apc8"}}
 	{"boxer_gun_gb"		{structure "cwds_apc8"}}
@@ -356,7 +356,7 @@
 	{"brdm2"			{structure "cwds_apc4"}}
 	{"brdm2_strela"		{structure "cwds_apc4"}}
 	{"brdm2_atgm"		{structure "cwds_apc4"}}
-	{"kamaz_43269"		{structure "cwds_apc4"}} 
+	{"kamaz_43269"		{structure "cwds_apc4"}}
 	{"mtlb_6ma"			{structure "cwds_ifv"}}
 	{"mtlb_6mb"			{structure "cwds_ifv"}}
 	{"mtlb_new"			{structure "cwds_ifv"}}

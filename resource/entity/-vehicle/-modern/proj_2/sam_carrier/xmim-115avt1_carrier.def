@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_medproximity.mdl"}
+	{props "need_lockon"}
+	("missile_placer" missile("xmim-115avt1_impactor") country(usa) type(active_asm) calibre(165)
+	speed(fast) guidance(3pointsam))
+	("maneuvrability_SAMs_cwps3" deg_per_s(79))
+	("antimissile_sensors")
+	{props "radioproximity"}	;срабатывает только на металлические объекты
+	{targetSelector "antimissile"}
+}

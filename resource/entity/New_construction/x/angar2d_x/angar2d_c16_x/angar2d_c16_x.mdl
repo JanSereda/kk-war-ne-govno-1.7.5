@@ -1,0 +1,139 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 12:47:04 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d x final 1.max
+{Skeleton
+	{bone "c16"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position 14.177	-8.81923	137.839}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position 2.14958	7.86728	135.821}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Position -6.70276	-34.3645	140.924}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position -59.4642	8.45941	135.75}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position -29.9458	-25.1748	139.815}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position 48.3892	-52.6743	143.144}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position 16.4486	-40.4142	141.654}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece8"
+			{Position -9.73906	-22.452	128.382}
+			{VolumeView "piece8.ply"}
+		}
+		{bone "piece9"
+			{Position 6.55782	23.6347	117.445}
+			{VolumeView "piece9.ply"}
+		}
+		{bone "piece10"
+			{Position 56.3082	-2.4893	137.081}
+			{VolumeView "piece10.ply"}
+		}
+		{bone "piece11"
+			{Position -70.5633	-38.6239	143.881}
+			{VolumeView "piece11.ply"}
+		}
+		{bone "piece12"
+			{Position 65.7254	23.5869	115.408}
+			{VolumeView "piece12.ply"}
+		}
+		{bone "piece13"
+			{Position -51.7966	23.6827	110.653}
+			{VolumeView "piece13.ply"}
+		}
+		{bone "fx_dust1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				31.5508	25.5543	105.001
+			}
+		}
+		{bone "fx_dust1a"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-71.4263	25.6017	108.757
+			}
+		}
+	}
+}
+{Volume "piece10"
+	{Box 55.2016 53.9107 7.77493}
+	{Bone "piece10"}
+	{Position 0	0	1.52588e-05}
+}
+{Volume "piece11"
+	{Box 47.9024 50.5258 12.268}
+	{Bone "piece11"}
+	{Position 0	0	0}
+}
+{Volume "piece12"
+	{Box 50.6135 3.82787 37.4836}
+	{Bone "piece12"}
+}
+{Volume "piece13"
+	{Box 62.9901 3.83788 46.9715}
+	{Bone "piece13"}
+	{Position 0	0	0}
+}
+{Volume "piece1"
+	{Box 23.5924 23.2856 4.08264}
+	{Bone "piece1"}
+}
+{Volume "piece2"
+	{Box 73.8715 44.7373 6.67694}
+	{Bone "piece2"}
+}
+{Volume "piece3"
+	{Box 31.2539 23.3344 4.10942}
+	{Bone "piece3"}
+	{Position 0	0	0}
+}
+{Volume "piece4"
+	{Box 56.3346 43.6624 6.54674}
+	{Bone "piece4"}
+	{Position 0	0	0}
+}
+{Volume "piece5"
+	{Box 26.1626 22.9008 4.0497}
+	{Bone "piece5"}
+	{Position 0	0	0}
+}
+{Volume "piece6"
+	{Box 50.3755 44.7545 6.72278}
+	{Bone "piece6"}
+	{Position 3.05176e-05	0	0}
+}
+{Volume "piece7"
+	{Box 27.8739 23.0582 4.08105}
+	{Bone "piece7"}
+}
+{Volume "piece8"
+	{Box 162.586 7.03052 10.0576}
+	{Bone "piece8"}
+}
+{Volume "piece9"
+	{Box 62.6591 3.83904 33.4037}
+	{Bone "piece9"}
+}

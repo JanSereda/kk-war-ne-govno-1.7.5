@@ -1,0 +1,46 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 13:05:53 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d final.max
+{Skeleton
+	{bone "angar2d_r3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "angar2d_r3.ply"}
+		{bone "exterior"
+			{Position -17.1406	10.6167	149.295}
+			{VolumeView "exterior.ply"}
+			{bone "fix32"
+				{Matrix34
+					0	0	-1
+					-1	0.00081952	0
+					0.00081952	1	0
+					-74.573	-15.4714	2.72348
+				}
+			}
+			{bone "fix33"
+				{Matrix34
+					0	0	-1
+					-1	0.00081952	0
+					0.00081952	1	0
+					77.3475	-15.4714	2.72348
+				}
+			}
+		}
+	}
+}
+{Area "interior"
+	{Obb2
+		{Center -14.4689 -4.76357}
+		{Extent 66.3677 111.923}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "roof"
+	{Box 140.391 242.295 18.9931}
+	{Bone "exterior"}
+	{Position 0	0	-1.52588e-05}
+}

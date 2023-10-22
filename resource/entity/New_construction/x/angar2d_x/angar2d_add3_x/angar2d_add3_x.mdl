@@ -1,0 +1,106 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 12:46:55 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d x final 1.max
+{Skeleton
+	{bone "add3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position -6.85645	-19.1593	78.6193}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position -28.0071	-20.357	72.5538}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Position 15.4578	-16.9239	85.0065}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position -34.431	2.5961	22.2252}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position -34.4545	0.994953	53.9075}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position 0.417236	-28.009	35.6078}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position 19.272	-28.0068	58.6136}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece8"
+			{Position -28.8068	1.11875	72.3076}
+			{VolumeView "piece8.ply"}
+		}
+		{bone "fx_dust1"
+			{Position -14.7924	-1.80157	0}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 22.9724 27.3883 2.95276}
+	{Bone "piece1"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		0.0828205	0	-0.309043
+	}
+}
+{Volume "piece2"
+	{Box 21.4487 24.1599 2.95276}
+	{Bone "piece2"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		-1.56391	0	2.38255
+	}
+}
+{Volume "piece3"
+	{Box 22.9449 27.2387 2.95276}
+	{Bone "piece3"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		-1.56391	0	1.92199
+	}
+}
+{Volume "piece4"
+	{Box 1.10724 52.0124 39.2946}
+	{Bone "piece4"}
+}
+{Volume "piece5"
+	{Box 1.03143 25.498 23.4484}
+	{Bone "piece5"}
+	{Position 0	0	0}
+}
+{Volume "piece6"
+	{Box 58.7592 1.48289 66.0529}
+	{Bone "piece6"}
+	{Position 6.10352e-05	0	0}
+}
+{Volume "piece7"
+	{Box 23.4484 1.48914 26.0229}
+	{Bone "piece7"}
+	{Position 0	0	0}
+}
+{Volume "piece8"
+	{Box 19.801 23.3003 2.95276}
+	{Bone "piece8"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		-1.56391	0	2.62873
+	}
+}

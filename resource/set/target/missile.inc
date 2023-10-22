@@ -2,9 +2,6 @@
 	{type "missile"}
 
 	{group
-		{sort {in_range 200} {class antiship_missile}}
-		{sort {class bomb} distance}
-		{sort {in_range 200} {class antirad_missile} time_to_aim}
 		{sort {class decoy_chaff} time_to_aim}
 	    {sort {class decoy_flare} time_to_aim}
 	    {sort {class decoy_optic}}
@@ -13,9 +10,10 @@
 		{sort {class airborne} time_to_aim}
 		{sort {class Helicopter} time_to_aim}
 		{sort {class small_UAV} time_to_aim}
-		;{sort {class proj_cwps3} time_to_aim}
-		;{sort {class proj_rus_radpassive} time_to_aim}
-		;{sort {class proj_usa_radpassive} time_to_aim}
+		{sort {class proj_cwps3} time_to_aim}
+		{sort {class antirad_missile} distance}
+		{sort {class antiship_missile} distance}
+		{sort {class bomb} distance}
 		
 		{sort time_to_aim}
 	}
@@ -23,8 +21,13 @@
 {selector
 	{type "antimissile"}
 	{group
-		{sort distance}
+		{sort {in_range 150} {class proj_cwps3}}
+		{sort {class antirad_missile} distance}
+		{sort {class antiship_missile} distance}
 		{sort {class bomb} distance}
+		{sort {class proj_cwps3} time_to_aim}
+		
+		{sort distance}
 	}
 }
 {selector

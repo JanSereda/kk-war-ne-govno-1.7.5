@@ -1,0 +1,97 @@
+{game_entity
+	{Extension "f-16c_xx.mdl"}
+	{Volume "aileron1"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "aileron2"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 5}
+	}
+	{Volume "elevator1"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "elevator2"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "glass"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "part1"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "part2"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "part3"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "rudder"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "tail"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wheel_front_support"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wheel_front"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wheel_left_support"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wheel_left"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wheel_right_support"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wheel_right"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wingfront1"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wingfront2"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wingl1"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wingl2"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wingr1"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{Volume "wingr2"
+		{tags "inflammable" "part"}
+		{thickness 5} 
+	}
+	{mass 9500}
+}

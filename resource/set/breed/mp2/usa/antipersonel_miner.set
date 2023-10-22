@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_us_acu"}
+	{portrait "_new/usa/inf"}
+	{icon "ap_miners"}
+	{icon_priority 1}
+	{nationality usa}
+	{armors
+		{head ech_helmet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_engineering_troops")
+	{inventory
+		{item "iotv_smg"}
+		{item "mine antipersonnel_claymore" 8}
+		{item "m4" filling "556nato ammo" 30}
+		{item "556nato ammo" 120}
+		{in_hands 2}
+	}
+}

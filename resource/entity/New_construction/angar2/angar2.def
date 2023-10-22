@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "angar2.mdl"}
+	{placer}
+	{extender "structure"
+		{place "r5" "angar2d_r5"}
+		{place "r4" "angar2d_r4"}
+		{place "r3" "angar2d_r3"}
+		{place "r2" "angar2d_r2"}
+		{place "r1" "angar2d_r1"}
+		{place "c14b" "angar2d_c14b"}
+		{place "add1" "angar2d_add1"}
+		{place "c12" "angar2d_c12"}
+		{place "add3" "angar2d_add3"}
+		{place "add2" "angar2d_add2"}
+		{place "c10" "angar2d_c10"}
+		{place "c11" "angar2d_c11"}
+		{place "c9" "angar2d_c9"}
+		{place "c7" "angar2d_c7"}
+		{place "c13" "angar2d_c13"}
+		{place "c6" "angar2d_c6"}
+		{place "c5" "angar2d_c5"}
+		{place "c4b" "angar2d_c4b"}
+		{place "c15" "angar2d_c15"}
+		{place "c16" "angar2d_c16"}
+		{place "c4" "angar2d_c4"}
+		{place "c16b" "angar2d_c16b"}
+		{place "c3" "angar2d_c3"}
+		{place "c2" "angar2d_c2"}
+		{place "c2b" "angar2d_c2b"}
+		{place "c8" "angar2d_c8"}
+		{place "basis" "angar2d_land"}
+		{place "c14" "angar2d_c14"}
+		{place "c1" "angar2d_c1"}
+	}
+}

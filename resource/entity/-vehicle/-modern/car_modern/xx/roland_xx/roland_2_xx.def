@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "roland_xx.mdl"}
+	{mass 20000}
+	{Volume "Body"
+		{tags "body"}
+		{component "body"}
+		{thickness 3}   
+	}
+	{Volume "bodyback"
+		{tags "body"}
+		{component "body"}
+		{thickness 3}   
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 3}   
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelleft4"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelright3"
+	}
+	{Volume "wheelright4"
+	}
+}

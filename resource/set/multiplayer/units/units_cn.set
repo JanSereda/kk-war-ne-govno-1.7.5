@@ -23,6 +23,7 @@
 {"hj73_stan"	("vs" c(400) brig(common) t(additional nobot) s(cn) n(1) g(ptursmall) sc(45) b(common) i(10) cw(1) cp(5))  {fore 0.4}}
 
 {"pgz-04"		("v" c(300) brig(common) t(all art aat) s(cn) n(3) g(zpu) sc(130) b(common) i(14) cw(0) cp(15))  {fore 0.0}} 
+{"hq_7b_2"	("v" c(800) brig(common) t(all art aat support_frontline) s(cn) n(3) g(pvo1) sc(220) b(common) i(15) cw(0) cp(25))  {fore 0.0}}
 
 ("squad_with11types" side(cn) name(mso) c(81) g(inf_common) 
   c1(mso_com:1) c2(mso_mgun:1) c3(mso_mgunhelp:1) c4(mso_rpg:1) c5(mso_rpghelp:1) c6(mso_sniper:1)
@@ -31,7 +32,7 @@
 
 {"zsl-92a"		("v3" c(480) c1(zsl-92a)brig(common) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp_common)  sc(50) b(common) i(16) cw(20) cp(20))  {fore 0.4}}
 {"shaanxi_sx2190_passengeri"		("v3" c(81) c1(shaanxi_sx2190_passenger)brig(common) t(all inf_cn infantry max6) s(cn) n(1) n1(vehicle_supporter:1) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_sniper:1) g(inf)  sc(65) b(common) i(21) cw(0) cp(2))  {fore -2.0}}
-{"zsl-92ai"		("v3" c(480) c1(zsl-92a)brig(common) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_sniper:1) g(inf)  sc(105) b(common) i(16) cw(0) cp(5))  {fore 0.4}}
+{"zsl-92ai"		("v3" c(480) c1(zsl-92a)brig(common) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_sniper:1) g(inf)  sc(105) b(common) i(22) cw(0) cp(5))  {fore 0.4}}
 
 {"dongfeng_mengshi_hj8"           ("vs" c(500) brig(common) t(all att) s(cn) n(3) g(car_atgm)  sc(85) b(common) i(11) cw(0) cp(15))  {fore 0.3}}
 {"dongfeng__mengshi_sk131"           ("vs" c(240) brig(common) t(all recon) s(cn) n(5) g(car2)   sc(40) a(1) b(common) i(10) cw(10) cp(15))  {fore 0.0}}
@@ -58,7 +59,7 @@
 {"jh-7a_light"	("p" c(260) brig(cnair) t(all aircraft nobot support_frontline) s(cn) n(2) g(suppa)  sc(250) b(cnair_hqcar) i(4) cw(0) cp(25))  {fore 0.0}}
 
 {"jh-7a_kab"	("p" c(500) brig(cnair) t(all aircraft nobot support_frontline) s(cn) n(2) g(airb)  sc(350) b(cnair_hqcar) i(12) cw(0) cp(30))  {fore -0.4}}
-{"jh-7a_antirad"	("p" c(500) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(antirad)  sc(170) b(cnair_hqcar) i(18) cw(0) cp(45))  {fore -0.25}}
+{"jh-7a_antirad"	("p" c(500) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(antirad)  sc(170) b(cnair_hqcar) i(18) cw(0) cp(50))  {fore -0.25}}
 
 ;{"jh-7a_at"	("p" c(450) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(air_2s)  sc(350) b(cnair_hqcar) i(16) cw(0) cp(100))  {fore -0.8}}
 
@@ -68,42 +69,42 @@
 {"jh-7a_bomber"	("p" c(600) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(extra2)  sc(300) b(extra) i(15) cw(0) cp(100))  {fore -1.5}}
 {"jh-7a_strike"	("p" c(600) brig(cnair) t(additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(extra3)  sc(200) b(extra) i(17) cw(0) cp(100))  {fore -1.5}}
 ;===============================ПВО===========================================
-{"j-10c_aa"	("p" c(450) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(390) b(cnsam_hqcar) i(1) cw(0) cp(50))  {fore -1.8}}
-{"su-35_aa_china"	("p" c(450) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(390) b(cnsam_hqcar) i(2) cw(0) cp(50))  {fore -1.8}}
+{"j-10c_aa"	("p" c(450) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(340) b(cnsam_hqcar) i(1) cw(0) cp(50))  {fore -1.6}}
+{"su-35_aa_china"	("p" c(450) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(350) b(cnsam_hqcar) i(2) cw(0) cp(50))  {fore -1.7}}
 
 
 {"hq_7b"	("v" c(240) brig(cnsam) t(all art aat support_frontline) s(cn) n(3) g(pvo) sc(150) b(cnsam_hqcar) i(5) cw(0) cp(20))  {fore 0.0}}
-{"hq-16b_launcher" ("v" c(400) brig(cnsam) t(all art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(140) b(cnsam_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
+{"hq-16b_launcher" ("v" c(400) brig(cnsam) t(all art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(100) b(cnsam_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
 {"hq-16b_radar" ("v" c(400) brig(cnsam) t(all art nobot support_frontline) s(cn) n(5) g(pvor) sc(100) b(cnsam_hqcar) i(7) cw(0) cp(15))  {fore -1.2}}
-{"llq305_radar" ("v" c(300) brig(cnsam) t(all art nobot support_frontline) s(cn) n(2) g(radar) sc(70) b(cnsam_hqcar) i(8) cw(0) cp(5))  {fore 0.8}}
+{"llq305_radar" ("v" c(300) brig(cnsam) t(all art nobot support_frontline) s(cn) n(2) g(radar) sc(50) b(cnsam_hqcar) i(8) cw(0) cp(5))  {fore 0.8}}
 {"shaanxi_sx2190_avia"	("vs" c(600) brig(cnair) t(all aircraft supply nobot support_frontline) s(cn) n(2) g(123) 	sc(100) b(cnsam_hqcar) i(9) cw(0) cp(2))  {fore 1}} 
 {"shaanxi_sx2190_art_pvo"	("vs" c(300) brig(cnart) t(all supply nobot support_frontline) s(cn) n(2) g(supplyart) 	sc(100) b(cnsam_hqcar) i(10) cw(0) cp(2))  {fore 1}}
 {"box_weapon_cn_krasnopol"	("vs" c(1) brig(cnart) t(all supply nobot support_frontline precision_munition) s(cn) n(0) g(supplyart_spec) 	sc(1) b(cnsam_hqcar) i(11) cw(0) cp(2)) {cost 50} {fore -1500}}  
 
 {"pgz-09"	("v" c(240) brig(cnsam) t(all art aat support_frontline) s(cn) n(3) g(extra4) sc(50) b(extra) i(4) cw(0) cp(25))  {fore 0.0}}
 {"tor_m1_cn"	("v" c(400) brig(cnsam) t(all art aat support_frontline) s(cn) n(4) g(extra5) sc(100) b(extra) i(6) cw(0) cp(25))  {fore 0.0}}
-{"j-10c_patrol"	("p" c(400) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(extra6)  sc(200) b(extra) i(7) cw(0) cp(50))  {fore -1.5}}
+{"j-10c_patrol"	("p" c(400) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(extra6)  sc(200) b(extra) i(7) cw(0) cp(50))  {fore -1.4}}
 
 ;===============================Артиллеристы===========================================
 
 
-("squad_with2types" name(miners) side(cn) c(240) g(eng) c1(antipersonel_miner:4) c2(antitank_miner:4) b(cnart_hqcar) brig(cnart) t(all nobot) cost(25) f(1) info(miners))
+("squad_with2types" name(miners) side(cn) c(240) g(eng) c1(antipersonel_miner:2) c2(antitank_miner:6) b(cnart_hqcar) brig(cnart) t(all nobot) cost(25) f(1) info(miners))
 ("squad_with1types" name(sappers) side(cn) c(240) g(eng) c1(saper:1) b(cnart_hqcar) brig(cnart) t(all nobot support_frontline) cost(10) f(1) info(miners))
 
 ("squad_with9types" side(cn) name(spotters) c(300) g(spot) c1(elite_com_art:3) b(cnart_hqcar) brig(cnart) t(all infantry support_frontline) cost(20) f(1) info(elite))
 
 
 
-{"pl-66"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-66) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art1) sc(150) a(1) b(cnart_hqcar) i(6) cw(5) cp(20))  {fore 0.0}}
+{"pl-96"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-96) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art1) sc(150) a(1) b(cnart_hqcar) i(6) cw(5) cp(20))  {fore 0.0}}
+{"pl-66"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-66) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art2) sc(180) a(1) b(cnart_hqcar) i(7) cw(5) cp(20))  {fore -0.7}}
 
 {"plz-05"	("v" c(300) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(lart)  sc(300) b(cnart_hqcar) i(8) cw(0) cp(35))   {fore -2.0}}
+
 {"phl_81" ("vs" c(600) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) g(rszo) sc(350) b(cnart_hqcar) i(10) m(4) cw(0) cp(40))   {fore -0.5}}
-{"phl-03" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(4) g(rszo2) sc(450) b(cnart_hqcar) i(11) m(4) cw(0) cp(50))  {fore 0.0}}
 
-{"pl-96"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-96) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(extra7) sc(100) a(1) b(extra) i(5) cw(5) cp(20))  {fore 0.0}}
-{"plz-07a"	("v" c(360) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(extra8)  sc(150) b(extra) i(7) cw(0) cp(25))  {fore -1.0}}
-{"dong_feng_15b" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(3) g(extra9)  sc(250) b(extra) i(11) cw(0) cp(25))  {fore -0.3}}
-
+{"plz-07a"	("v" c(360) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(extra7)  sc(150) b(extra) i(7) cw(0) cp(25))  {fore -1.0}}
+{"dong_feng_15b" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(3) g(extra8)  sc(200) b(extra) i(8) cw(0) cp(25))  {fore -0.1}}
+{"phl-03" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(4) g(extra9) sc(350) b(extra) i(9) m(4) cw(0) cp(50))  {fore -0.1}}
 ;===============================Тяжелая бригада===========================================
 
 ;У Китая есть 2 вида сквадов мотопехоты: замком, пулеметная пара, РПГ пара, снайпер или автоматчик. 
@@ -158,7 +159,7 @@
 
 {"pcp001_cs_sm1"           ("vs" c(800) brig(cnmed) t(all) s(cn) n(4) g(stan1)   sc(210) b(cnmed_hqcar) i(8) cw(0) cp(25))  {fore 0.5}}
 
-{"tl-4_stan"	("vs" c(700) brig(cnmed) t(all nobot) s(cn) n(2) g(stan_tl4) sc(270) b(cnmed_hqcar) i(9) cw(1) cp(9))  {fore 0.0}}
+{"tl-4_stan"	("vs" c(700) brig(cnmed) t(all nobot) s(cn) n(2) g(stan_tl4) sc(250) b(cnmed_hqcar) i(9) cw(1) cp(9))  {fore 0.0}}
 {"aft-9"	("vs" c(600) brig(cnmed) t(all att) s(cn) n(2) g(s_konkurs)  sc(120)  b(cnmed_hqcar) i(10) cw(0) cp(20))  {fore 0.0}}
 
 {"ptl-02"		("v_v" c(360) t(all tanks_only duel_tanks90) brig(cnmed) s(cn) n(4) g(bbm1)  sc(180) b(cnmed_hqcar) i(11) cw(0) cp(50))  {fore 0.0}}

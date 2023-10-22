@@ -1,0 +1,26 @@
+;Exported by: Timosh
+;Date:        Mon Oct  9 07:54:07 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\???????\1.max
+{Skeleton
+	{bone "valve"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "valve.ply"}
+		{bone "round"
+			{VolumeView "round.ply"}
+		}
+	}
+}
+{Volume "valve1"
+	{Box 5.28104 5.33859 6.12}
+	{Bone "valve"}
+	{Position 0.00253975	0	0.0291772}
+}
+{Volume "valve"
+	{Box 15.5325 10.8951 7.6}
+	{Bone "valve"}
+	{Position 0.00253975	0	-6.2}
+}

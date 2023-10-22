@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_medproximity.mdl"}
+	{props "need_lockon"}
+	("missile_placer" missile("hq7b_impactor") country(rus) type(active_asm) calibre(156)
+	speed(fast) guidance(3pointsam))
+	("maneuvrability_SAMs_short_cwps3" deg_per_s(44))
+	("antimissile_sensors")	;capable to detect 0.1m2 RCS targets
+	{props "radioproximity"}	;срабатывает только на металлические объекты
+	{targetSelector "antimissile"}
+}

@@ -1,0 +1,90 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 12:46:53 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d x final 1.max
+{Skeleton
+	{bone "add1"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position -15.4703	5.02524	76.2117}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position -12.3522	28.8492	39.7022}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Position 15.3688	-23.9842	84.9926}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position 20.0099	13.8747	86.3106}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position 20.6271	27.288	68.6927}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position 21.2973	27.4816	22.1234}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position -30.2799	-0.20401	28.2216}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "fx_dust1"
+			{Position 2.21808	-18.0085	0}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 46.5006 51.685 2.95276}
+	{Bone "piece1"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		-1.56391	0	-1.27566
+	}
+}
+{Volume "piece2"
+	{Box 22.7598 4.23434 24.8642}
+	{Bone "piece2"}
+	{Position 0	0	0}
+}
+{Volume "piece3"
+	{Box 24.3013 34.5998 2.95276}
+	{Bone "piece3"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		-1.56391	0	1.72694
+	}
+}
+{Volume "piece4"
+	{Box 22.9626 27.8361 2.95276}
+	{Bone "piece4"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		-1.08237	0	0.0974128
+	}
+}
+{Volume "piece5"
+	{Box 23.5597 1.51567 30.6857}
+	{Bone "piece5"}
+}
+{Volume "piece6"
+	{Box 19.9088 1.88885 27.2387}
+	{Bone "piece6"}
+}
+{Volume "piece7"
+	{Box 9.45419 56.5718 51.2884}
+	{Bone "piece7"}
+}

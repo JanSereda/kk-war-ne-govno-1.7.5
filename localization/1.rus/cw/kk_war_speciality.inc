@@ -31,6 +31,9 @@
 
 
 {"mtlb_zu"					"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+
+
+{"m777a1"					"<c(FFFF00)e(shadow)>Гаубица</c>"}
 {"m777"					"<c(FFFF00)e(shadow)>Гаубица</c>"}
 {"t-55_rus"						"<c(FFFF00)e(shadow)>Суррогатное САУ</c>"}
 {"t80ybars"						"<c(FFFF00)e(shadow)>Основной боевой танк</c>"}

@@ -1,0 +1,68 @@
+{game_Entity
+	{Extension "nasams_ii_launcher_xx.mdl"}
+	{Volume "body1"
+		{Tags  "body"}
+		{Thickness 6}
+	}
+	{Volume "body2"
+		{Tags  "body"}
+		{Thickness 6}
+	}
+	{Volume "body3"
+		{Tags  "body"}
+		{Thickness 6}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 6}
+	}
+	{Volume "cabin"
+		{Tags  "body"}
+		{Thickness 6}
+	}
+	{Volume "commander_triplex"
+		{Tags  "body"}
+		{Thickness 6}
+	}
+	{Volume "gun2"
+		{Thickness 4}
+	}
+	{Volume "luke"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "stabilizer1"
+		{Thickness 4}
+	}
+	{Volume "stabilizer2"
+		{Thickness 4}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{thickness 5}
+	}
+	{Volume "wheelleft1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelleft2"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelleft3"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelright1"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelright2"
+		{tags "part"}
+		{thickness 5}
+	}
+	{Volume "wheelright3"
+		{tags "part"}
+		{thickness 5}
+	}
+}

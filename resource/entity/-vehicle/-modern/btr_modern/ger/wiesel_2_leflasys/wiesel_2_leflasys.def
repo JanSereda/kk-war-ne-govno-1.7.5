@@ -1,0 +1,103 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "armored_car_M" "turret_rotator" "tank" "turret" "with_gun" "vision_lev01" "can_paradrop_il-76td" "can_paradrop_an-12" "sam" "cw_panorama"}
+   
+	("armor_light_btr" turret(6 6 6 6) body(8 8 8 8))
+     {targetClass "light_tank"}
+			{targetSelector "missile"}
+;============================================================================================================
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_tank_right"} {base "opend"}}
+		{reverse 	{end	"emit_tank_2_hold"} {base "opend" -1}}
+	}
+	{anm "commander"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+	}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+("crew_human" place(driver)		door(emit2) group(crew)	    animation(driver))
+("crew_human" place(commander)		door(emit1) group(crew)	    animation(commander))
+
+	{extender "inventory"
+		{box
+			{item "ammo 762Nato" 500}
+			{item "ammo fim-92a_ammo" 4}
+		}
+	}	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun2"
+			{weapon "fim-92a_x4" filling "ammo fim-92a_ammo" 4}
+			{foresight "foresight1"}
+			{charger "commander"}
+			{gunner "commander"}
+			{barrels 4}
+			{shooter "none"}
+			{basic}
+			{SequentialAim 0}
+		}
+		{place "mgun"
+			{weapon "mg3" filled}
+			{foresight "foresight3"}
+			{gunner "commander"}
+			{charger "commander"}  
+			("CW_stab_no_stabiliser")
+			{LinkBone "mgun"}
+			{basic}
+		}	
+	}
+	{sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor2"}
+		}
+		{visor "gunner"
+			{vision "aircraft_optic_3g_wide"}
+			{bone "visor1"}
+		}
+		{visor "add"
+			{vision "tank_gunner_optic_IR_3g"}
+			{bone "visor3"}
+		}
+		{visor "add1"
+			{vision "tank_driver"}
+			{bone "visor4"}
+		}
+	}
+	{mass 4100}
+	{Chassis
+        ("tank_trace" fx("tracks_sm") step(0.2) len(0.8))
+		{Locomotion ("CW_track_moveparam" 
+			Mass(4.1)
+			Width(2.05)	;suggestion, 1.85 seems to be not quite correct
+			Power(110)
+			Realspeed(70)
+			Gamespeed(43) 
+		)
+		{RearGears		0.20 0.43}}
+		("CW_fuelbag" Range(500) Fuelvolume(120))
+		("CW_speed_lev" Gamespeed(43))
+	}
+	{props "cwfs_fuel_100"}
+	("two_headlights")
+	{Extension "wiesel_2_leflasys.mdl"}
+	("missile_aimpoint_wieselsize")
+
+	("cwts_buksir")
+	("CW_turr_speed" deg_per_s(60))
+	
+}

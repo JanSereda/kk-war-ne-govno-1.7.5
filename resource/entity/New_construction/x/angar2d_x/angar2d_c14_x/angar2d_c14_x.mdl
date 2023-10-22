@@ -1,0 +1,124 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 12:47:11 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d x final 1.max
+{Skeleton
+	{bone "c14"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position -4.6876	-30.987	128.399}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position -45.1455	-37.1676	140.256}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Position -4.74517	-28.0128	139.146}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position 36.854	-41.658	140.802}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position 23.7702	0.051712	135.757}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position -34.1798	6.89346	134.929}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position -54.1785	15.2051	124.084}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece8"
+			{Position -28.1256	15.1841	120.414}
+			{VolumeView "piece8.ply"}
+		}
+		{bone "piece9"
+			{Position 6.58908	15.1557	123.5}
+			{VolumeView "piece9.ply"}
+		}
+		{bone "piece10"
+			{Position -1.02066	15.1619	98.6341}
+			{VolumeView "piece10.ply"}
+		}
+		{bone "piece11"
+			{Position 44.5109	15.1252	112.978}
+			{VolumeView "piece11.ply"}
+		}
+		{bone "fx_dust1"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				56.8379	17.0403	107.705
+			}
+		}
+		{bone "fx_dust1a"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-104.854	18.0483	86.1391
+			}
+		}
+	}
+}
+{Volume "piece10"
+	{Box 57.1559 3.83452 39.0784}
+	{Bone "piece10"}
+	{Position 0	2.12006e-05	0}
+}
+{Volume "piece11"
+	{Box 53.2619 3.83025 42.3759}
+	{Bone "piece11"}
+	{Position 0	-2.5362e-05	0}
+}
+{Volume "piece1"
+	{Box 129.636 6.99461 10.055}
+	{Bone "piece1"}
+	{Position 0	0	0}
+}
+{Volume "piece2"
+	{Box 47.2472 52.649 7.63086}
+	{Bone "piece2"}
+}
+{Volume "piece3"
+	{Box 35.186 23.676 4.13063}
+	{Bone "piece3"}
+	{Position 0	0	0}
+}
+{Volume "piece4"
+	{Box 49.5252 44.5995 6.71234}
+	{Bone "piece4"}
+}
+{Volume "piece5"
+	{Box 58.5968 43.3953 6.51404}
+	{Bone "piece5"}
+}
+{Volume "piece6"
+	{Box 55.7628 29.7997 4.86702}
+	{Bone "piece6"}
+	{Position 0	0	3.8147e-05}
+}
+{Volume "piece7"
+	{Box 23.3074 3.80611 20.1455}
+	{Bone "piece7"}
+	{Position 0	0	0}
+}
+{Volume "piece8"
+	{Box 26.7364 3.80962 23.7539}
+	{Bone "piece8"}
+	{Position 0	5.53718e-05	0}
+}
+{Volume "piece9"
+	{Box 26.0718 3.80894 21.3227}
+	{Bone "piece9"}
+	{Position 0	0	0}
+}

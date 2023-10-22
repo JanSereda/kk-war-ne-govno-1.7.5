@@ -1,0 +1,17 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_extproximity.mdl"}
+	("missile_placer" missile("patriot_impactor") country(usa) type(radpassive) calibre(410)
+	speed(fast) guidance(propsam))
+	("maneuvrability_SAMs_cwps3" deg_per_s(34))
+	("LR_missile" country(usa) type(radpassive))
+	{sensor
+		{Visor "main"
+			{vision "LRmissile"}
+			{bone "missle_foresight"}
+		}
+	}
+	("antimissile_sensors")
+	{props "radioproximity"}	;срабатывает только на металлические объекты
+	{targetSelector "missile"}
+}

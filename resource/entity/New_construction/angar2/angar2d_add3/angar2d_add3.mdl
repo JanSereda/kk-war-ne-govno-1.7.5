@@ -1,0 +1,82 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 13:05:51 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d final.max
+{Skeleton
+	{bone "angar2d_add3"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "angar2d_add3.ply"}
+		{bone "exterior"
+			{Position -1.73694	-9.49477	80.2943}
+			{VolumeView "exterior.ply"}
+		}
+	}
+}
+{Obstacle "body1"
+	{Obb2
+		{Center 0 28.5228}
+		{Extent 34.9889 1.72528}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body2"
+	{Obb2
+		{Center 2.45298 28.2321}
+		{Extent 36.195 1.72528}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Obstacle "body"
+	{Obb2
+		{Center -33.9219 3.87632}
+		{Extent 1.74945 24.729}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "interior"
+	{Obb2
+		{Center 1.84192 0.191284}
+		{Extent 35.4354 28.3017}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body1"
+	{Box 69.9779 3.45057 68.2084}
+	{Bone "angar2d_add3"}
+	{Position 0	-28.5228	36.6821}
+}
+{Volume "body2"
+	{Box 69.9779 3.45057 18.5322}
+	{Bone "angar2d_add3"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		2.45298	-28.2321	70.9446
+	}
+}
+{Volume "body"
+	{Box 3.49889 49.4581 68.2084}
+	{Bone "angar2d_add3"}
+	{Position -33.9219	-3.87632	36.6821}
+}
+{Volume "roof"
+	{Box 77.2675 46.775 4.07773}
+	{Bone "exterior"}
+	{Matrix34
+		0.965926	0	0.258819
+		0	1	0
+		-0.258819	0	0.965926
+		0.203077	0	-0.758056
+	}
+}

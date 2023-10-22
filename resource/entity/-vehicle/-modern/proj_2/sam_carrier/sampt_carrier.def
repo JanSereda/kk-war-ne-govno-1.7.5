@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_medproximity.mdl"}
+	("missile_placer" missile("sampt_impactor") country(usa) type(radpassive) calibre(180)
+	speed(fast) guidance(propsam))
+	("maneuvrability_vertical_zur_engine_cwps3" deg_per_s(68))
+	("cwps_rangefinder")
+	{props "radioproximity"}	;срабатывает только на металлические объекты
+	{targetSelector "missile"}
+}

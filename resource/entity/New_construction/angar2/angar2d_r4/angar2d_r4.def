@@ -1,0 +1,17 @@
+{game_entity
+	(include "/properties/building.inc")
+	{Extension "angar2d_r4.mdl"}
+	{props "cornered" "concrete" "parts" "construction" "wall"}
+	("armor_heavy" args 0.8)
+	{extender "structure_bone"
+		{hold  "34" "36"}
+		{hold  "35" "37"}
+		{hold  "34" "37"}
+		{hold  "35" "36"}
+	}
+	{Volume "roof"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+}

@@ -112,7 +112,9 @@
 	("two_headlights")
 	{Extension "lyt2021_qlz04.mdl"}
 	("missile_aimpoint_tanksize")
-
+	{bone "gun"
+		{limits -15 45}
+	}
 
 	{mass 1700}
 }

@@ -94,7 +94,7 @@
 	{item "ur_83p_ammo ammo" 1 		{max 2}	{value 25}}
 )
 (define "UAV_rus"
-	{item "eleron3sv ammo" 1 {max 2}{value 150}}				
+	{item "eleron3sv ammo" 1 {max 1}{value 150}}				
 )
 (define "UAV_kamikadze_rus"
 	{item "lancet3m cm ammo" 1 {max 5}{value 69}}				
@@ -449,7 +449,7 @@
 ;	{item "bullet122_RUS" "cm" "d30ammo" "ammo" 1 {max 5}{value 3}}				
 	{item "bullet122_RUS" "rok" "d30ammo" "ammo" 1 {max 24}{value 15}}
 	{item "bullet122_CN" "fg" "d30ammo" "ammo" 1 {max 24}{value 10}}
-    {item "bullet122_CN" "rok" "d30ammo" "ammo" 1 {max 10}{value 20}}	
+    {item "bullet122_CN" "rok" "d30ammo" "ammo" 1 {max 2}{value 20}}	
 	{item "bullet122_CN" "cm" "d30ammo" "ammo" 1 {max 10}{value 10}}
 ;	{item "bullet122_RUS" "sm" "d30ammo" "ammo" 1 {max 5}{value 3}}				
 )
@@ -503,10 +503,9 @@
 ;	{item "bullet152_RUS sm ammo" 1 {max 2}{value 15}}				
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}				
 	{item "bullet152_RUS_korr2 fg bullet152_RUS ammo" 1 {max 30}{value 15}}				
-	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}	
-	{item "3vof34 ammo" 1 {max 20}{value 35}}	
-	
-;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
+	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
+	{item "3vof34 ammo" 1 {max 20}{value 35}}
+	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
@@ -553,7 +552,6 @@
 (define "tochka"
 	{item "tochka f ammo" 1 {max 1}{value 169}}
 )
-
 (define "df15"
 	{item "df15b fg ammo" 1 {max 1}{value 100}}
 ;	{item "df15b tb ammo" 1 {max 1}{value 250}}
@@ -610,7 +608,8 @@
 ;	{item "fagot_concurs 9m113 ammo" 1 {max 5}{value 10}}				
 ;	{item "fagot_concurs 9m113m ammo" 1 {max 3}{value 10}}				
 	{item "fagot_concurs 9m113m1 ammo" 1 {max 5}{value 10}}				
-	{item "strela10 9m333 ammo" 1 {max 8}{value 9}}	
+	{item "strela10 9m333 ammo" 1 {max 8}{value 9}}
+	{item "9m330 ammo" 2 {max 8}{value 20}}	
 	{item "shershen cm ammo" 2 {max 4}{value 9}}
     {item "shershen fg ammo" 2 {max 4}{value 9}}	
 	
@@ -625,7 +624,8 @@
 	{item "agm-114 k ammo" 1 {max 4}{value 10}}
 ;	{item "agm-114 l ammo" 1 {max 2}{value 10}}
 	;{item "agm-114 n ammo" 1 {max 2}{value 10}}
-	{item "aim-9l_ammo ammo" 1 {max 2}{value 5}}
+	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
+	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
 	{item "mistral_missile ammo" 1 {max 4}{value 30}}	
     {item "spike-er2 spike-er ammo" 1 {max 4}{value 61}}			
 )
@@ -638,12 +638,13 @@
 	{item "milan_rock milan-er ammo" 1 {max 4}{value 6}}				
 	{item "spike-er spike-er ammo" 1 {max 4}{value 65}}				
 	{item "spike-lr ammo" 1 {max 2}{value 51}}
-    {item "spike_nlos cm ammo" 1 {max 4}{value 70}}                                             	
+    {item "spike_nlos cm ammo" 1 {max 4}{value 60}}                                             	
 	{item "eryx_rock ammo" 1 {max 2}{value 3}}				
 	{item "mmp_missile ammo" 1 {max 2}{value 51}}
 	{item "jav_rock ammo" 1 {max 2}{value 30}}	
 	{item "agm-114 k ammo" 1 {max 4}{value 10}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 5}}
+	{item "xmim-115avt1 ammo" 2 {max 10}{value 20}}
 )
 (define "atgm_cn"
 	{item "hj73 hj73c" 1 {max 4}{value 4}}				
@@ -653,18 +654,19 @@
 	{item "hj8h hj8 ammo" 3 {max 3}{value 10}}
 	{item "hq7b ammo" 1 {max 8}{value 9}}				
 	{item "red_arrow12_rock ammo" 1 {max 2}{value 20}}		
-    {item "Ten_Lei_ammo cm ammo" 1 {max 2}{value 50}}	
+    {item "Ten_Lei_ammo cm ammo" 1 {max 2}{value 51}}
+	{item "hq7b ammo" 2 {max 4}{value 20}}	
 )
 
 (define "sam_rus"
 	;{item "strela10 9m37 ammo" 1 {max 8}{value 9}}				
-	{item "strela10 9m333 ammo" 1 {max 8}{value 9}}				
+	{item "strela10 9m333 ammo" 2 {max 8}{value 9}}				
 	{item "9m31 ammo" 1 {max 4}{value 9}}	
     {item "9m338 ammo" 4 {max 16}{value 10}}	
 	;{item "9m38 buk ammo" 1 {max 4}{value 50}}				
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
-    {item "pantsir 57e6e ammo" 4 {max 12}{value 25}}
+    {item "pantsir 57e6e ammo" 6 {max 12}{value 20}}
     {item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
@@ -672,7 +674,6 @@
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
 	{item "rvv-sd ammo" 1 {max 10}{value 5}}
-
 	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
 )
 (define "sam_usa"
@@ -689,14 +690,14 @@
 	{item "AIM-120C7 ammo" 2 {max 6}{value 5}}		
 )
 (define "sam_cn"
-	{item "hq7b ammo" 1 {max 4}{value 13}}
+	{item "hq7b ammo" 2 {max 4}{value 10}}
 	{item "9m330 ammo" 2 {max 8}{value 13}}
 	{item "hq16 hq16b ammo" 2 {max 6}{value 25}}	
     {item "pl5e2 ammo" 1 {max 2}{value 5}}		
     {item "pl12 ammo" 1 {max 2}{value 5}}	
 	{item "pl8b ammo" 1 {max 2}{value 5}}				
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}			
+	{item "rvv-sd ammo" 2 {max 10}{value 5}}			
 )
 
 (define "manpads_rus"
@@ -719,10 +720,10 @@
 	{item "germes ammo" 2 {max 8}{value 40}}				
 	{item "fab_250 ammo" 1 {max 2}{value 10}}				
 	{item "fab_250_270 ammo" 6 {max 6}{value 60}}				
-	{item "fab_500 ammo" 1 {max 8}{value 12}}				
+	{item "fab_500 ammo" 1 {max 8}{value 12}}
+	{item "umpk_500 ammo" 1 {max 4}{value 25}}
 	{item "kab-250 ammo" 1 {max 9}{value 25}}				
 	{item "kab-500s ammo" 1 {max 4}{value 30}}
-	{item "umpk_500 ammo" 1 {max 2}{value 25}}
     {item "kab-500kr ammo" 1 {max 4}{value 30}}	
 	{item "odab_500 ammo" 1 {max 2}{value 25}}				
 	{item "pbk-500u ammo" 1 {max 2}{value 25}}				
@@ -731,10 +732,9 @@
     {item "kmgu2 ammo" 4 {max 8}{value 5}}		
 	{item "s25ld ammo" 1 {max 6}{value 20}}				
 	{item "x_25ml_su25_ammo ammo" 1 {max 4}{value 80}}				
-	{item "x31p ammo" 2 {max 6}{value 40}}				
+	{item "x31p ammo" 2 {max 6}{value 90}}				
 	{item "x-38mte ammo" 1 {max 2}{value 75}}			
-	{item "x59m ammo" 1 {max 4}{value 125}}	
-	{item "140mm_a22 ammo" 2 {max 22}{value 100}}	
+	{item "x59m ammo" 1 {max 4}{value 125}}				
 	{item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
@@ -753,13 +753,17 @@
 ;	{item "agm-114 n ammo" 1 {max 8}{value 10}}				
 	{item "agm-65D ammo" 1 {max 3}{value 22}}				
 	{item "agm-65G ammo" 1 {max 3}{value 30}}				
-	{item "agm88 ammo" 2 {max 4}{value 40}}
+	{item "agm88 ammo" 2 {max 4}{value 80}}
     {item "agm-84D ammo" 1 {max 2}{value 20}}	
 	{item "agm-154 ammo" 1 {max 2}{value 50}}				
-	{item "cbu-97 ammo" 1 {max 6}{value 30}}				
+	{item "cbu-97 ammo" 1 {max 6}{value 30}}
+    {item "gbu10 ammo" 1 {max 2}{value 30}}	
 	{item "gbu-31 ammo" 1 {max 2}{value 30}}				
-	{item "gbu-38 ammo" 1 {max 4}{value 30}}				
-	{item "jsm ammo" 1 {max 6}{value 100}}				
+	{item "gbu-38 ammo" 1 {max 4}{value 30}}
+	{item "jdam_er ammo" 1 {max 4}{value 30}}
+    {item "sdb1 ammo" 8 {max 16}{value 150}}	
+	{item "jsm ammo" 1 {max 6}{value 100}}
+	{item "slam_er ammo" 1 {max 2}{value 125}}
 	{item "mk_82 ammo" 2 {max 22}{value 10}}
     {item "spike_nlos cm ammo" 1 {max 4}{value 70}}
     {item "spike_nlos fg ammo" 1 {max 4}{value 70}}	
@@ -772,8 +776,10 @@
 	{item "trigat ammo" 1 {max 8}{value 10}}				
 	{item "AIM-120C7 ammo" 2 {max 8}{value 5}}				
 	{item "brimstone ammo" 1 {max 12}{value 60}}				
-	{item "alarm_missile ammo" 2 {max 4}{value 40}}				
-	{item "gbu10 ammo" 1 {max 4}{value 30}}				
+	{item "alarm_missile ammo" 2 {max 4}{value 80}}
+    {item "agm-154 ammo" 1 {max 2}{value 50}}
+	{item "sdb1 ammo" 8 {max 8}{value 150}}
+	{item "gbu10 ammo" 1 {max 2}{value 30}}				
 	{item "gbu16 ammo" 1 {max 4}{value 30}}				
 	{item "kleinbombe-44 ammo" 56 {max 112}{value 20}}		;Они легкие, но в их цену входит сбраываемая ПУ		
 	{item "taurus ammo" 1 {max 2}{value 125}}				
@@ -783,7 +789,7 @@
     {item "akd-10 ammo" 2 {max 8}{value 12}}
 	{item "bomb250_3 fg ammo" 4 {max 8}{value 40}}				
 	;{item "bomb250_3 ic ammo" 6 {max 24}{value 60}}		
-	{item "ls6 ammo" 1 {max 4}{value 70}}
+	{item "ls6 ammo" 1 {max 4}{value 25}}
 	{item "rbk_cn cl ammo" 1 {max 12}{value 12}}				
 	;{item "rbk_cn tb ammo" 1 {max 12}{value 12}}				
 	{item "ld10 ammo" 2 {max 6}{value 40}}
@@ -1543,7 +1549,49 @@
 	}
 	("supply_decal")
 )
-
+(define "mp_cwr_irg_osnv_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("smokes")
+			("rpg_rus")
+			("tochka")
+			("manpads_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("c5")
+			("120mm_USA")
+			
+		
+			("c8")
+			("c13")
+		}
+		{radius 			10}
+		{resupplyPeriod 	4}
+		{regenerationPeriod 2.3}
+		{limit 				500}
+	}
+	("supply_decal")
+)
 (define "mp_cwr_irg_heavy_boep"
 	{extender "supply_zone"
 		{resupply
@@ -1578,7 +1626,6 @@
 			("120mm_USA")
 			("tochka")
 			("iskander")
-
 		
 			("c8")
 			("c13")
@@ -1587,59 +1634,11 @@
 			("atgm_rus")
 			("sam_rus")
 			("air_stuff_usa")
-
 		}
 		{radius 			22}
 		{resupplyPeriod 	5}
 		{regenerationPeriod 7.8}
 		{limit 				2000}
-	}
-	("supply_decal")
-)
-(define "mp_cwr_irg_osnv_boep"
-	{extender "supply_zone"
-		{resupply
-			("smallarms_rus")
-			("hmgun_rus")
-			("ags30")
-			("mortar_rus")
-			("UAV_rus")
-			("autocannons_rus")
-			("100mm")
-			("100mm_rapira")
-			("115mm")
-			("122mm")
-			("125mm")
-			("152mm")
-			("smokes")
-			("rpg_rus")
-			("tochka")
-			("manpads_rus")
-			("smallarms_west")
-			("smallarms_usa")
-			("rpg_usa")
-			("manpads_usa")
-			("manpads_cn")
-			("grad")
-			("mortar_cn")
-			("type63_cn")
-			("105mm_idf")
-			("105mm_usa")
-
-			("c5")
-			("120mm_USA")
-			
-
-		
-			("c8")
-			("c13")
-
-
-		}
-		{radius 			10}
-		{resupplyPeriod 	4}
-		{regenerationPeriod 2.3}
-		{limit 				500}
 	}
 	("supply_decal")
 )

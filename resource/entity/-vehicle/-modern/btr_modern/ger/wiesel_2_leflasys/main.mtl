@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/wiesel_2_leflasys/oz_main_co"}
+	{bump "$/model/wiesel_2_leflasys/oz_main_co_bp"}
+	{specular "$/model/wiesel_2_leflasys/oz_main_co_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

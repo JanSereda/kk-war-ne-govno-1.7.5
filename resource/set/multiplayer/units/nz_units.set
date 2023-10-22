@@ -485,7 +485,7 @@
  {"m142_himarser" {fore 0} ("v" c(840) sc(480) g(rszo) b(usart_hqcar) brig(usart) s(usa)  i(5) cw(0) cp(50) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls_atacms" {fore 0} ("v" c(1200) sc(250) g(otrk) b(usart_hqcar) brig(usart) s(usa)  i(6) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
  {"mrls_atacms_2" {fore 0} ("v" c(1200) sc(250) g(otrk) b(usart_hqcar) brig(usart) s(usa)  i(7) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
- {"m777" {fore 0.5} ("vart" c(600) sc(125) g(how) b(usart_hqcar) brig(usart) s(usa)  i(17) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m777) n1(vehicle_supporter_usmc:2)            ) }                                  
+ {"m777a1" {fore 0.5} ("vart" c(600) sc(125) g(how) b(usart_hqcar) brig(usart) s(usa)  i(17) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a1) n1(vehicle_supporter_usmc:2)            ) }                                  
  
  {"m163" {fore 1} ("v_nation" c(240) sc(50) g(anitmissile) b(usart_hqcar) brig(usart) s(usa) crew_nation(usa) i(8) cw(0) cp(10) t(all_nz antiair aat support_frontline  ) n(3)               ) }
  

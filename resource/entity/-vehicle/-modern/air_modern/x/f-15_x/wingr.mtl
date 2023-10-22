@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/f-15/rightwing_co"}
+	{bump "$/model/f-15/leftwing_co_bp"}
+	{specular "$/model/f-15/leftwing_co_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

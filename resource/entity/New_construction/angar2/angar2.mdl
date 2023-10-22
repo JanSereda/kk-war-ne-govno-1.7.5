@@ -1,0 +1,96 @@
+;Exported by: Timosh
+;Date:        Sun Oct 15 09:07:05 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d 12.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "r5"
+			{Position 216.684	4.70008	0}
+		}
+		{bone "r4"
+			{Position 128.121	0.291008	0}
+		}
+		{bone "r3"
+			{Position 27.0162	4.85467	0}
+		}
+		{bone "r2"
+			{Position -88.0487	7.40318	0}
+		}
+		{bone "r1"
+			{Position -214.319	5.05235	0}
+		}
+		{bone "c14b"
+			{Position 14.658	199.204	0}
+		}
+		{bone "add1"
+			{Position -356.746	152.483	0}
+		}
+		{bone "c12"
+			{Position 223.228	170.145	0}
+		}
+		{bone "add3"
+			{Position -356.917	-32.5177	0}
+		}
+		{bone "add2"
+			{Position -391.279	55.1063	0}
+		}
+		{bone "c10"
+			{Position 309.793	-1.52788	0}
+		}
+		{bone "c11"
+			{Position 313.179	127.966	0}
+		}
+		{bone "c9"
+			{Position 305.235	-134.397	0}
+		}
+		{bone "c7"
+			{Position 118.173	-150.62	0}
+		}
+		{bone "c13"
+			{Position 115.765	148.887	0}
+		}
+		{bone "c6"
+			{Position 17.7903	-169.96	0}
+		}
+		{bone "c5"
+			{Position -90.4755	-147.853	0}
+		}
+		{bone "c4b"
+			{Position -199.71	-193.351	0}
+		}
+		{bone "c15"
+			{Position -80.9919	162.312	0}
+		}
+		{bone "c16"
+			{Position -192.666	167.049	0}
+		}
+		{bone "c4"
+			{Position -198.599	-166.805	0}
+		}
+		{bone "c16b"
+			{Position -190.564	197.55	0}
+		}
+		{bone "c3"
+			{Position -296.22	-150.232	0}
+		}
+		{bone "c2"
+			{Position -304.903	2.45916	0}
+		}
+		{bone "c2b"
+			{Position -320.719	-6.46132	0}
+		}
+		{bone "c8"
+			{Position 218.086	-171.891	0}
+		}
+		{bone "c14"
+			{Position 14.6581	175.359	0}
+		}
+		{bone "c1"
+			{Position -294.298	139.844	0}
+		}
+	}
+}

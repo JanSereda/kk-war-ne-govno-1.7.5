@@ -23,8 +23,8 @@
 {"metis_m"	("vs" c(400) brig(common) t(additional nobot) s(rus) n(1) g(ptursmall) sc(45) b(common) i(10) cw(1) cp(5))  {fore 0.2}}
 {"kornet_base_stan"	("vs" c(800) brig(common) t(additional nobot) s(rus) n(2) g(stan3) sc(140) b(common) i(11) cw(1) cp(20))  {fore 0.3}}
 
-{"Shilka"		("v" c(300) brig(common) t(all art aat) s(rus) n(4) g(zpu) sc(100) b(common) i(14) cw(0) cp(15))  {fore 0.0}} 
-{"9k35_strela-10mn"	("v" c(240) brig(common) t(all art aat) s(rus) n(3) g(zrk) sc(120) b(common) i(15) cw(0) cp(15))  {fore 0.5}}
+{"9k35_strela-10mn"	("v" c(240) brig(common) t(all art aat) s(rus) n(3) g(zrk) sc(120) b(common) i(14) cw(0) cp(10))  {fore 0.5}}
+{"tor_m1"		("v" c(800) brig(common) t(all art aat) s(rus) n(4) g(zpu) sc(220) b(common) i(15) cw(0) cp(25))  {fore 0.0}} 
 
 ("squad_with11types" side(rus) name(mso) c(94) g(inf_common) 
   c1(mso_com:1) c2(mso_mgun:1) c3(mso_mgunhelp:1) c4(mso_rpg:1) c5(mso_rpghelp:1) c6(mso_smg2:2)
@@ -76,7 +76,7 @@
 ;{"su-25sm_strike"	("p" c(550) brig(vvs) t(additional aircraft nobot support_frontline) s(rus) n(1) g(air_1s)  sc(400) b(vvs_hqcar) i(9) cw(0) cp(40))  {fore 0.0}}
 ;{"su-25sm_accurate"	("p" c(550) brig(vvs) t(additional aircraft nobot support_frontline) s(rus) n(1) g(air_1s)  sc(370) b(vvs_hqcar) i(10) cw(0) cp(40))  {fore 0.0}}
 
-{"su-34_antirad"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(antirad)  sc(200) b(vvs_hqcar) i(18) cw(0) cp(45))  {fore 0.0}}
+{"su-34_antirad"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(antirad)  sc(200) b(vvs_hqcar) i(18) cw(0) cp(50))  {fore 0.0}}
 {"su-34_medbomber_light"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2a)  sc(350) b(vvs_hqcar) i(15) cw(0) cp(30))  {fore -0.4}}
 {"su-34_umpk"	("p" c(500) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2s)  sc(350) b(vvs_hqcar) i(16) cw(0) cp(30))  {fore -0.4}}
 {"su-34_accurate_2"	("p" c(450) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(2) g(air_2s)  sc(450) b(vvs_hqcar) i(17) cw(0) cp(50))  {fore -2.0}}
@@ -94,9 +94,9 @@
 {"su-35_strike"	("p" c(600) brig(vvs) t(additional aircraft duel_fighter nobot support_frontline) s(rus) n(1) g(extra03)  sc(200) b(extra) i(17) cw(0) cp(100))  {fore -1.5}}
 ;===============================ПВО===========================================
 
-{"su-35_aa"	("p" c(450) brig(pvo) t(additional aircraft duel_fighter aat nobot support_frontline) s(rus) n(1) g(air1)  sc(390) b(pvo_hqcar) i(1) cw(0) cp(50))  {fore -1.8}}
+{"su-35_aa"	("p" c(450) brig(pvo) t(additional aircraft duel_fighter aat nobot support_frontline) s(rus) n(1) g(air1)  sc(350) b(pvo_hqcar) i(1) cw(0) cp(50))  {fore -1.7}}
 
-{"mig-29s_aa_r77"	("p" c(400) brig(pvo) t(additional aircraft duel_fighter aat nobot support_frontline) s(rus) n(1) g(air1)  sc(290) b(pvo_hqcar) i(3) cw(0) cp(40))  {fore -1.5}}
+{"mig-29s_aa_r77"	("p" c(400) brig(pvo) t(additional aircraft duel_fighter aat nobot support_frontline) s(rus) n(1) g(air1)  sc(270) b(pvo_hqcar) i(3) cw(0) cp(40))  {fore -1.4}}
 
 {"tor_m2"	("v" c(240) brig(pvo) t(all art aat support_frontline) s(rus) n(4) g(pvo) sc(150) b(pvo_hqcar) i(4) cw(0) cp(20))  {fore 0.0}}
 {"pantsir_s1"	("v" c(400) brig(pvo) t(all art aat support_frontline) s(rus) n(3) g(pvo1) sc(260) b(pvo_hqcar) i(5) cw(0) cp(30))  {fore -0.5}}
@@ -104,7 +104,7 @@
 {"buk_m2" ("v" c(400) brig(pvo) t(all art aat nobot support_frontline) s(rus) n(4) g(pvo17) sc(200) b(pvo_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
 {"9s18_kupol" ("v" c(400) brig(pvo) t(all art nobot support_frontline) s(rus) n(4) g(pvor) sc(80) b(pvo_hqcar) i(7) cw(0) cp(15))  {fore -1.2}}
 
-{"p-37" ("vs" c(300) brig(pvo) t(additional antiair nobot support_frontline) s(rus) n(4) g(radar) sc(70) b(pvo_hqcar) i(8) cw(0) cp(15))  {fore 1}}
+{"p-37" ("vs" c(300) brig(pvo) t(additional antiair nobot support_frontline) s(rus) n(4) g(radar) sc(50) b(pvo_hqcar) i(8) cw(0) cp(15))  {fore 1}}
 
 {"ural_avia"	("vs" c(600) brig(vvs) t(all supply aircraft nobot support_frontline) s(rus) n(2) g(123) 	sc(100) b(pvo_hqcar) i(9) cw(0) cp(2))  {fore 1}} 
 {"ural_art_pvo"	("vs" c(300) brig(artbr) t(all supply nobot support_frontline) s(rus) n(2) g(supplyart) 	sc(100) b(pvo_hqcar) i(10) cw(0) cp(2))  {fore 1}} 
@@ -120,7 +120,7 @@
 ;===============================Артиллеристы===========================================
 
 
-("squad_with2types" name(miners) side(rus) c(240) g(eng) c1(antipersonel_miner:4) c2(antitank_miner:4) b(artbr_hqcar) brig(artbr) t(all nobot) cost(25) f(1) info(miners))
+("squad_with2types" name(miners) side(rus) c(240) g(eng) c1(antipersonel_miner:2) c2(antitank_miner:6) b(artbr_hqcar) brig(artbr) t(all nobot) cost(25) f(1) info(miners))
 ("squad_with1types" name(sappers) side(rus) c(240) g(eng) c1(saper:1) b(artbr_hqcar) brig(artbr) t(all nobot) cost(10) f(1) info(miners))
 
 ("squad_with9types" side(rus) name(spotters) c(300) g(spot) c1(gru_com_art:3) b(artbr_hqcar) brig(artbr) t(all infantry support_frontline) cost(20) f(1) info(elite))
@@ -135,9 +135,8 @@
 {"mstasm2"	("v" c(300) brig(artbr) t(all art nobot support_frontline) s(rus) n(4) g(lart)  sc(350) b(artbr_hqcar) i(9) cw(0) cp(35))  {fore -2.0}}
 
 {"ural-4320_tornado_g" ("vs" c(600) brig(artbr) t(all art nobot support_frontline) s(rus) n(2) g(rszo) sc(350) b(artbr_hqcar) i(11) m(4) cw(0) cp(35))  {fore -0.5}}
-;{"bm-30_smerch" ("vs" c(600) brig(artbr) t(all art nobot support_frontline) s(rus) n(4) g(rszo1) sc(350) b(artbr_hqcar) i(12) m(4) cw(0) cp(45))  {fore -0.5}}
 {"bm-30_tornado_s" ("vs" c(1800) brig(artbr) t(all art nobot support_frontline) s(rus) n(4) g(rszo2) sc(450) b(artbr_hqcar) i(13) m(4) cw(0) cp(50))  {fore 0.0}}
-{"iskander" ("vs" c(1800) brig(artbr) t(all art nobot support_frontline) s(rus) n(3) g(otrk)  sc(350) b(artbr_hqcar) i(14) cw(0) cp(70))  {fore -0.3}}
+{"iskander" ("vs" c(1800) brig(artbr) t(all art nobot support_frontline) s(rus) n(3) g(otrk)  sc(350) b(artbr_hqcar) i(14) cw(0) cp(70))  {fore -0.1}}
 
 {"eleron3sv"	("p" c(200) brig(artbr) t(additional aircraft aat nobot) s(rus) n(0) g(uav)  sc(30) b(artbr_hqcar) i(16) cw(0) cp(2))  {fore 0.0}}
 
@@ -204,7 +203,7 @@
 {"vasilek"		("vart" c(500) c1(mtlb_new) c2(vasilek) brig(mot) t(all art nobot) s(rus) n(2) n1(vehicle_supporter:2) g(stan1) sc(180) a(1) b(mot_hqcar) i(5) cw(5) cp(20))  {fore -0.2}}
 
 
-{"9p149_shturm-s"	("v" c(600) brig(mot) t(all att) s(rus) n(2) g(brdtptur)  	sc(140) b(mot_hqcar) i(6) cw(0) cp(20))  {fore 0.2}}
+{"9p149_shturm-s"	("v" c(600) brig(mot) t(all att) s(rus) n(2) g(brdtptur)  	sc(120) b(mot_hqcar) i(6) cw(0) cp(20))  {fore 0.2}}
 
 
 {"t72b"		("v" c(450) brig(mot) t(all tanks_only duel_tanks90 tank_rus) s(rus) n(3) g(obt_mot1)  sc(250) b(mot_hqcar) i(7) m(4) cw(0) cp(50))  {fore 0.0}} 
@@ -253,7 +252,7 @@
 {"gaz_tigr"	("v3" c(400) c1(gaz_tigr) brig(specbr) t(all recon) s(rus) n(3) n1(vehicle_supporter:3) g(stan1)   sc(130) b(specbr_hqcar) i(55) cw(0) cp(20))  {fore -0.2}}
 
 
-{"brdm2_atgm"	("vs" c(480) brig(specbr) t(all att) s(rus) n(2) g(s_konkurs)  sc(95)  b(specbr_hqcar) i(7) cw(0) cp(20))  {fore 0.0}}
+{"brdm2_atgm"	("vs" c(480) brig(specbr) t(all att) s(rus) n(2) g(s_konkurs)  sc(85)  b(specbr_hqcar) i(7) cw(0) cp(20))  {fore 0.0}}
 
 
 

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/f-15/xx/body_co_xx"}
+	{bump "$/model/f-15/body_co_bp"}
+	{specular "$/model/f-15/body_co_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

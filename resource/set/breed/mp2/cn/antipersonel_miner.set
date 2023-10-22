@@ -1,0 +1,20 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon "ap_miners"}
+	{icon_priority 1}
+	{nationality cn}
+	{armors
+		{head "qgf03_glasses"}
+	}
+
+	(include "perks_generic.inc")
+	("traits_engineering_troops")
+	{inventory
+		{item "type06h_help"}
+		{item "mine antipersonnel_pob" 10}
+		{item "type87_smg" filling "58ammo 58ammo_basic ammo" 30}
+		{item "58ammo 58ammo_basic ammo" 90}
+		{in_hands 2}
+	}
+}

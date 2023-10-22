@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_medproximity.mdl"}
+	("missile_placer" missile("adats_impactor") country(usa) type(laser_asm) calibre(152)
+	speed(fast) guidance(3pointsam))
+	("maneuvrability_SAMs_short_cwps3" deg_per_s(34))
+	("antimissile_sensors")
+	{props "surfaceproximity"} ;селекция целей, которые движутся со скоростью более 45
+	{targetSelector "antimissile"}
+}

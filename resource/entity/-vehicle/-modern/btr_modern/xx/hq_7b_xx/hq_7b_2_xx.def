@@ -1,0 +1,73 @@
+{game_Entity
+	{Extension "hq_7b_xx.mdl"}
+	{Volume "additional_triplex"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}   
+	}
+	{Volume "commander_triplex"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "gun2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "gun2a"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "turret1"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}   
+	}
+	{Volume "wheelleft1"
+		{tags "mover"}
+		{component "mover"}
+		{thickness 4}   
+	}
+	{Volume "wheelleft2"
+		{tags "mover"}
+		{component "mover"}
+		{thickness 4}   
+	}
+	{Volume "wheelleft3"
+		{tags "mover"}
+		{component "mover"}
+		{thickness 4}   
+	}
+	{Volume "wheelright1"
+		{tags "mover"}
+		{component "mover"}
+		{thickness 4}   
+	}
+	{Volume "wheelright2"
+		{tags "mover"}
+		{component "mover"}
+		{thickness 4}   
+	}
+	{Volume "wheelright3"
+		{tags "mover"}
+		{component "mover"}
+		{thickness 4}   
+	}
+}

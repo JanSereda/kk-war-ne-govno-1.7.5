@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/wiesel_2_leflasys/oz_alpha_ca"}
+	{blend blend}
+}

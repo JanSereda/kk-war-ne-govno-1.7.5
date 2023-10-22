@@ -8,4 +8,5 @@
 	{targetSelector "antimissile"}
 	("antimissile_sensors")
 	{props "radioproximity"}	;срабатывает только на металлические объекты
+	{targetSelector "missile"}
 }

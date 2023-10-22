@@ -1,0 +1,106 @@
+;Exported by: Timosh
+;Date:        Mon Oct 16 12:47:09 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar2 ?????????????\angar2d x final 1.max
+{Skeleton
+	{bone "c2"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Position -5.98773	28.3689	153.507}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Position -15.8318	-35.5801	122.851}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Position -12.4697	18.5548	121.106}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Position 27.6268	20.525	154.163}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Position 3.05026	-43.499	152.232}
+			{VolumeView "piece5.ply"}
+		}
+		{bone "piece6"
+			{Position 1.54837	91.7302	145.568}
+			{VolumeView "piece6.ply"}
+		}
+		{bone "piece7"
+			{Position -2.14389	-94.4944	146.048}
+			{VolumeView "piece7.ply"}
+		}
+		{bone "piece8"
+			{Position -15.878	-91.6237	121.348}
+			{VolumeView "piece8.ply"}
+		}
+		{bone "piece9"
+			{Position -15.7393	77.6527	121.936}
+			{VolumeView "piece9.ply"}
+		}
+		{bone "fx_dust1"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				-17.1488	91.5776	121.826
+			}
+		}
+		{bone "fx_dust1a"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				-17.2804	-101.366	122.106
+			}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 33.4003 55.5731 8.62967}
+	{Bone "piece1"}
+	{Position 0	0	1.52588e-05}
+}
+{Volume "piece2"
+	{Box 2.81952 56.0734 42.4502}
+	{Bone "piece2"}
+	{Position 0	0	0}
+}
+{Volume "piece3"
+	{Box 9.45398 56.9596 44.6849}
+	{Bone "piece3"}
+	{Position 0	0	0}
+}
+{Volume "piece4"
+	{Box 17.3321 25.0111 4.39644}
+	{Bone "piece4"}
+	{Position 0	0	0}
+}
+{Volume "piece5"
+	{Box 51.5369 64.1746 9.17419}
+	{Bone "piece5"}
+}
+{Volume "piece6"
+	{Box 48.3354 54.8739 7.96353}
+	{Bone "piece6"}
+	{Position 0	0	1.52588e-05}
+}
+{Volume "piece7"
+	{Box 41.2687 56.5503 8.27704}
+	{Bone "piece7"}
+}
+{Volume "piece8"
+	{Box 2.80487 38.1665 37.6713}
+	{Bone "piece8"}
+}
+{Volume "piece9"
+	{Box 2.81897 56.1156 40.203}
+	{Bone "piece9"}
+	{Position 0	0	0}
+}

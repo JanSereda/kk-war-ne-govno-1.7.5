@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward_medproximity.mdl"}
+	{props "fast" "need_lockon"}
+	("missile_placer" missile("rvv-ae_impactor") country(rus) type(active_asm) calibre(200)
+	speed(fast) guidance(propsam))
+	("antimissile_sensors")
+	("maneuvrability_SAMs_cwps3" deg_per_s(45))
+	{targetSelector "missile"}
+}

@@ -1,0 +1,8 @@
+{entity 
+	{DecalView 
+		{Sprite "razmetka_turn.mtl"}
+		{orientation normal}
+		{layer grounddecal }
+		{UseDirection }
+	}
+}
