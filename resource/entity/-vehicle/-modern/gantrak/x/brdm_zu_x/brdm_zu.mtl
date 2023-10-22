@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "brdm_zu_x"}
+	{bump "brdm_zu_bp"}
+	{specular "brdm_zu_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

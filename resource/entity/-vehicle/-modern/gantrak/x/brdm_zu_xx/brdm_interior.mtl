@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "brdm_interior_xx"}
+	{blend none}
+}
