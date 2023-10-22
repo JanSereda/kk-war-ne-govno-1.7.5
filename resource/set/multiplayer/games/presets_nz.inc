@@ -29,6 +29,13 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar  srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 				;gb_hqcar fra_hqcar
 			}
+			{extra
+				{resource 
+					{start 		50000}
+				}
+				{buttons "extra"}
+				{tag "special"}
+			}
 			{hqcar
 				{mode "standard"}
 				{resource
@@ -74,6 +81,13 @@
 				} 
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
+			{extra
+				{resource 
+					{start 		50000}
+				}
+				{buttons "extra"}
+				{tag "special"}
+			}
 			("no_hq_cars")
 		} 
 	}
@@ -83,6 +97,15 @@
 )
 
 ;====Стандарт====
+(define "extra_units"
+			{extra
+				{resource 
+					{start 		500}
+				}
+				{buttons "extra"}
+				{tag "special"}
+			}
+)
 (define "hq_cars"
 			{hqcar
 				{mode "standard"}
@@ -112,7 +135,7 @@
 						{restore	"0.35	0.30	0.20	0.05	0.05"}
 					}
 				}
-				{buttons "hqcardummy"}
+				
 			}
 )
 (define "without_update"
@@ -190,6 +213,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
+			("extra_units")
 		} 
 	}
 	{bots
@@ -215,6 +239,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
+			("extra_units")
 		} 
 	}
 	{bots
@@ -240,6 +265,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
+			("extra_units")
 		} 
 	}
 	{bots
@@ -266,6 +292,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("hq_cars" hq_restore_speed(%hq_restore_speed) size(%size))
+			("extra_units")
 		} 
 	}
 	{bots
@@ -291,6 +318,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("no_hq_cars")
+			("extra_units")
 		} 
 	}
 	{bots
@@ -316,6 +344,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("no_hq_cars")
+			("extra_units")
 		} 
 	}
 	{bots
@@ -342,6 +371,7 @@
 				{buttons "common supl vvs_hqcar artbr_hqcar vdv_hqcar mot_hqcar armbr_hqcar specbr_hqcar usaf_hqcar usart_hqcar idf_hqcar usarmy_hqcar usmc_hqcar nrf_hqcar abn_hqcar bund_hqcar gb_hqcar fra_hqcar cnair_hqcar cnart_hqcar cnheavy_hqcar cnmed_hqcar cnsco_hqcar iart_hqcar iregular_mot_hqcar iregular_specbr_hqcar srbs_mot_hqcar srbs_vdv_hqcar cnsam_hqcar srbs_art_hqcar srbs_pmc_hqcar"}
 			}
 			("no_hq_cars")
+			("extra_units")
 		} 
 	}
 	{bots
