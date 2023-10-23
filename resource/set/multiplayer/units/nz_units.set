@@ -1034,6 +1034,23 @@
 {"t72a_1984year"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(100) b(supl) i(11) cw(0) cp(2))  {fore 1}}
 {"t-64b"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(110) b(supl) i(12) cw(0) cp(2))  {fore 1}}
 {"t72b"		("v" c(150) brig(common) t(all_nz  nobot) s(odkb) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}		
+;=========авиация============= avia_odkb avia_odkb_hqcar
+
+ {"su24m_kab" {fore 0.3} ("p" c(2000) sc(360) g(air) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(6) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(2)               ) }
+  {"su24m" {fore 0.3} ("p" c(2000) sc(370) g(air_sead) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(9) cw(0) cp(45) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"su24m_strike" {fore 0.3} ("p" c(2200) sc(560) g(air_strike) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(10) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ 
+;============арта и пво ======     
+
+	{"tos-1a_solntsepek_odkb" {fore 0} ("v" c(950) sc(450) g(kz_reach_unit) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(1) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) }
+	{"d30i" {fore 0.75} ("vart" c(600) sc(130) g(art) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(2) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(d30) n1(vehicle_supporter:2)            ) }
+	{"mstasm2_odkb" {fore 0.4} ("v" c(600) sc(250) g(art1) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(3) cw(0) cp(35) t(all_nz art support_frontline  ) n(4)               ) }		
+	{"kamaz_grad" {fore 0} ("vs" c(600) sc(350) g(art1) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(4) cw(0) cp(35) t(all_nz art support_frontline  ) n(2)               ) }     
+	{"tochka_y_wagner" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(5) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	{"zil131_2s1" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(6) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+	{"2c4_tulpan" {fore 0.0} ("v" c(600) sc(250) g(art) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(7) cw(0) cp(25) t(all_nz art support_frontline  ) n(2)               ) }
+                          
+ 
 
 ;==================== Укры =============
 
@@ -1044,6 +1061,30 @@
 
 ;=============== ВС РБ ============  bel_odkb_hqcar
 
+("squad_with11types_custom" side(odkb) crew_nation(odkb) name(odkb_peha) c(240) g(inf_odkb_non_car) 
+  c1(bel_com) c2(bel_mgunhelp:1) c3(bel_mgun:2) c4(bel_rpg:2) c5(bel_smg2:2)
+  b(bel_odkb_hqcar) brig(bel_odkb) t(all_nz inf_cn) cost(80) f(1.0) 
+)
+	
+ {"t72b1" {fore 1} ("v"  c(300) sc(150) g(obt_blr) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
+ {"t72b3_blr" {fore 0} ("v" c(500) sc(179) g(obt_blr1) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(2) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
+ {"t72b3_gorod_komplect" {fore 0} ("v" c(500) sc(200) g(obt_blr1) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(3) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
+ {"m1a1_lodka" {fore 0.0} ("v" c(500) sc(200) g(obt_blr2) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(3) cw(0) cp(50) t(all_nz tank_cn rogatka  ) n(4)               ) }
+
+ 
+ {"mtlbm_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(5) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mtlb_6mb) n(1) n1(vehicle_supporter:3) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
+ {"bel_diversant" {fore 1} ("v3" c(360) sc(30) g(diverstant) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(9) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(motorcycle) n(2) n1(bel_sniper_at_2:1) n2(bel_sniper_at:1)     ) }
+ {"shershen_d_stan" {fore 0} ("vs" c(700) sc(80) g(stan4) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(12) cw(1) cp(25) t(all_nz    ) n(2)               ) }                                   
+
+
+
+
+
+
+
+
+
+
  {"btr_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(6) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr82a) n(1) n1(vehicle_supporter:2) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
- {"BLR_reservist" {fore 1} ("v3" c(290) sc(70) g(inf_reserv) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(7) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(maz6317) n(1) n1(a_bel_res_smg:1) n2(a_bel_res_com:1) n3(a_bel_res_mgun:1) n4(a_bel_res_smg:5) n5(a_bel_res_rpg:2) n6(a_bel_res_smg2:2)       ) }	
+ {"BLR_reservist" {fore 1} ("v3" c(290) sc(70) g(inf_reserv) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(7) cw(2) cp(15) t(all_nz inf_cn infantry ) c1() n(1) n1(a_bel_res_smg:1) n2(a_bel_res_com:1) n3(a_bel_res_mgun:1) n4(a_bel_res_smg:5) n5(a_bel_res_rpg:2) n6(a_bel_res_smg2:2)       ) }	
  {"BLR_motopehota" {fore 1} ("v3" c(320) sc(100) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(8) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(maz6317) n(1) n1(bel_smg:1) n2(bel_com:1) n3(bel_mgunhelp:1) n4(bel_mgun:1) n5(bel_rpg:1) n6(bel_smg2:2) n7(bel_smg:2)     ) }	

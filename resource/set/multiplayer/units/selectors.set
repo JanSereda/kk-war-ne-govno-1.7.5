@@ -66,7 +66,8 @@
 
 
 
-
+{"avia_odkb_mp_flag"           ("hqcar" c(120) brig(avia_odkb) t(all all_nz hqcar) s(odkb) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
+{"art_odkb_mp_flag"           ("hqcar" c(120) brig(art_odkb) t(all all_nz hqcar) s(odkb) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
 {"ukr_odkb_mp_flag"           ("hqcar" c(120) brig(ukr_odkb) t(all all_nz hqcar) s(odkb) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
 {"bel_odkb_mp_flag"           ("hqcar" c(120) brig(bel_odkb) t(all all_nz hqcar) s(odkb) n(2) g(hqcar)   sc(1) b(hqcar) i(5) cw(0) cp(-200)) {cost 100}}
 
