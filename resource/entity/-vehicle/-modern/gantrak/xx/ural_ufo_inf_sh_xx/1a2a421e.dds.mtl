@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ural_4320/x/kuzov_xx"}
+	{blend none}
+}

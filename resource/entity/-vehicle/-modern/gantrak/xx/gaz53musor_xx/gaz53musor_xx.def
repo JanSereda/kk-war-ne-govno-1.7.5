@@ -1,0 +1,73 @@
+{game_entity
+	{Extension "gaz53musor_xx.mdl"}
+	{Volume "body_lod1"
+	}
+	{Volume "body"
+	}
+	{Volume "bodyback1"
+	}
+	{Volume "bodyback2"
+	}
+	{Volume "bodyback3"
+	}
+	{Volume "bodyback4"
+	}
+	{Volume "bodyback5"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "box01"
+	}
+	{Volume "cabin1"
+	}
+	{Volume "cabin3"
+	}
+	{Volume "cabin4"
+	}
+	{Volume "cabin"
+	}
+	{Volume "cabinl_lod1"
+	}
+	{Volume "detail1"
+	}
+	{Volume "detail2"
+	}
+	{Volume "detail3"
+	}
+	{Volume "doorr02"
+	}
+	{Volume "doorr"
+	}
+	{Volume "engine"
+	}
+	{Volume "fiscar1"
+	}
+	{Volume "fiscar2"
+	}
+	{Volume "fuel"
+	}
+	{Volume "inventory"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "pivot_back"
+	}
+	{Volume "pivot_front"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

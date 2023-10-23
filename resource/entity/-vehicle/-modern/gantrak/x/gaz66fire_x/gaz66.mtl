@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "gaz66fire_x"}
+	{bump "gaz66_bp"}
+	{specular "gaz66_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

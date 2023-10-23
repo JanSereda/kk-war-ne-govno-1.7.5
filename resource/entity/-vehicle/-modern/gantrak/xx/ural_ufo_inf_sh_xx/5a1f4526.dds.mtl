@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ural_4320/x/interior_xx"}
+	{blend none}
+}

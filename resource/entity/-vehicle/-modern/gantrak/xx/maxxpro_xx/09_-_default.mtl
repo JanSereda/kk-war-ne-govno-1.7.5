@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/Details/trains_xx"}
+	{blend none}
+}

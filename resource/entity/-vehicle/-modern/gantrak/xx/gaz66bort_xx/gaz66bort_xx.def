@@ -1,0 +1,49 @@
+{game_entity
+	{Extension "gaz66bort_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback1"
+	}
+	{Volume "bodyback2"
+	}
+	{Volume "bodyback3"
+	}
+	{Volume "bodyback4"
+	}
+	{Volume "bodyback5"
+	}
+	{Volume "bodyback6"
+	}
+	{Volume "bodyback7"
+	}
+	{Volume "cabin1_lod1"
+	}
+	{Volume "cabin1"
+	}
+	{Volume "cabin_lod1"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "fuel"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

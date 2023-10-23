@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/fuel_pricep_xx"}
+	{blend none}
+}

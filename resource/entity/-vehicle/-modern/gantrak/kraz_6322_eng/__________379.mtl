@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/krazes/6322sps ds"}
+	{bump "$/model/krazes/6322sps_bp"}
+	{specular "$/model/krazes/6322sps_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

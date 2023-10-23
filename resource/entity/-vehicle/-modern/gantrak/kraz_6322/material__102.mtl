@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/krazes/6322sps1 ds"}
+	{bump "$/model/krazes/6322sps_bp"}
+	{blend none}
+}

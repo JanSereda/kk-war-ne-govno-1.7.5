@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/pochta_x"}
+	{bump "$/model/gaz53_bp"}
+	{specular "$/model/gaz53_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

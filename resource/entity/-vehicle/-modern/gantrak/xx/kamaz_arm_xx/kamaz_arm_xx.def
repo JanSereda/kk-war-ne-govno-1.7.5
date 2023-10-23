@@ -1,0 +1,53 @@
+{Game_entity
+	{Extension "kamaz_arm_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "fuel"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "shieldl4"
+	}
+	{Volume "shieldl5"
+	}
+	{Volume "shieldl6"
+	}
+	{Volume "shieldl7"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "shieldr4"
+	}
+	{Volume "shieldr5"
+	}
+	{Volume "shieldr6"
+	}
+	{Volume "shieldr7"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelleft3"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+	{Volume "wheelright3"
+	}
+}

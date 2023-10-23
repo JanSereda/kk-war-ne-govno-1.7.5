@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "nomer by"}
+	{blend none}
+}

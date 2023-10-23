@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "gaz66_pricep_x.mdl"}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+}

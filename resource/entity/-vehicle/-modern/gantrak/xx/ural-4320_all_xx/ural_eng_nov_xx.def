@@ -1,0 +1,12 @@
+{game_entity
+	
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	{Extension "ural-4320_repair_xx.mdl"}
+	{Volume "Body"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}   
+	}
+	{mass 4500}
+
+}

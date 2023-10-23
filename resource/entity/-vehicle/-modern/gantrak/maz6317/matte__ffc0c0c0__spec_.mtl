@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "tex26_0"}
+	{blend none}
+}

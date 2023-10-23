@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "us_m998_xx.mdl"}
+	{Volume "body"
+	}
+}

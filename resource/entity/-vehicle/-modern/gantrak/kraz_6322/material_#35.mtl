@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/krazes/_ram_ural_05_diff"}
+	{blend none}
+}

@@ -970,8 +970,21 @@
 
 
 
-(define "bel_squad"
-;¡≈À¿–”—€
+
+(define "odkb_squad"
+;Œƒ ¡
+("soldier"   breed(ukr_com)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
+("soldier"   breed(ukr_radio)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_rpg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_smg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_mgun)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_mgunhelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(ukr_tankman)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+
+
 ("soldier"   breed(bel_com)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
 ("soldier"   breed(bel_rpg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(bel_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
@@ -996,22 +1009,17 @@
 ("soldier"   breed(avispas_com)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(avispas_rpg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 
+("soldier"   breed(tankman)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags(crew))
+("soldier"   breed(tankman2)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags(crew))
+("soldier"   breed(tankman3)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags(crew))
+("soldier"   breed(vdv_tankman2)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags(crew))
+("soldier"   breed(vdv_tankman)		side(%side) brig(%brig)	sc(10)	cp(-1)	cw(0)	c(0)	tags(crew))
+("soldier"   breed(vehicle_supporter)	side(%side) brig(%brig)	sc(10)	cp(0)	cw(1)	c(0)	tags(crew))
+("soldier"   breed(bazooker2)		side(%side) brig(%brig)	sc(10)	cp(4)	cw(1)	c(5)	tags())
+("soldier"   breed(bazooker2_help)		side(%side) brig(%brig)	sc(10)	cp(4)	cw(1)	c(5)	tags())
+("soldier"   breed(engineer)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(0.5)	c(2)	tags(common))
 
-)
-
-(define "ukr_squad"
-;” –¿»Õ÷€
-("soldier"   breed(ukr_com)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
-("soldier"   breed(ukr_radio)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_rpg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_smg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_mgun)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_mgunhelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(ukr_tankman)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-
+("soldier"   breed(pzrk)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(0.5)	c(2)	tags(common))
 
 
 )
@@ -1020,8 +1028,9 @@
 
 ("hagi_wagner_squad" side(rus) brig(common))
 
-("bel_squad" side(rus) brig(common))
-("ukr_squad" side(rus) brig(common))
+("odkb_squad" side(odkb) brig(common))
 
 ("KZ_squad" side(rus) brig(common))
 ("IRN_squad" side(rus) brig(common))
+
+

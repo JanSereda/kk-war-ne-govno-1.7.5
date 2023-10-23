@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "vehiclelights128"}
+	{blend none}
+}

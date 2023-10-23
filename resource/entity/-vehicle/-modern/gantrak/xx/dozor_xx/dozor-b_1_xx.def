@@ -1,0 +1,6 @@
+{game_entity
+	{Extension "badyaga_xx.mdl"}
+	{Volume "turret"
+	{thickness 10}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/m998_hmmwv/us_m1035_tent_xx"}
+	{blend none}
+}

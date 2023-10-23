@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ural_4320/de32600b"}
+	{blend none}
+}

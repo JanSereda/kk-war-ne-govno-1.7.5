@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/gaz66bort_xx"}
+	{blend none}
+}

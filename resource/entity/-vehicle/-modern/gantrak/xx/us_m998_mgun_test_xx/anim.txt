@@ -1,0 +1,33 @@
+-= Animation: break, Node Body =-
+	Frame 100 {
+		Visibility 1
+		Position	1.09225	0.0369984	14.0014
+		Orientation	-0.0248157 0.0134439 -0.706979 0.706671
+	}
+	Frame 125 {
+		Visibility 1
+		Position	1.09225	0.0369984	14.0014
+		Orientation	-0.0248157 0.0134439 -0.706979 0.706671
+	}
+-= Animation: break, Node part1 =-
+	Frame 100 {
+		Visibility 1
+		Position	-21.9873	-15.3428	9.43119
+		Orientation	0.0625684 -0.0283573 -0.256504 0.964099
+	}
+	Frame 125 {
+		Visibility 1
+		Position	-21.9873	-15.3428	9.43119
+		Orientation	0.0625684 -0.0283573 -0.256504 0.964099
+	}
+-= Animation: break, Node part2 =-
+	Frame 100 {
+		Visibility 1
+		Position	22.583	-15.1021	9.39117
+		Orientation	0.138063 -0.0297916 0.478062 0.866895
+	}
+	Frame 125 {
+		Visibility 1
+		Position	22.583	-15.1021	9.39117
+		Orientation	0.138063 -0.0297916 0.478062 0.866895
+	}

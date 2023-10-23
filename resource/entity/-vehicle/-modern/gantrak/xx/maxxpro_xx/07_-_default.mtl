@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/kamaz/kamaz_body_x"}
+	{blend blend}
+}

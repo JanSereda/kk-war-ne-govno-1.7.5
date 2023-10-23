@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "us_avenger_body"}
+	{blend none}
+}

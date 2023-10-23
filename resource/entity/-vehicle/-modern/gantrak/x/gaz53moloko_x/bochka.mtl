@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/bochka_x"}
+	{bump "$/model/bochka_bp"}
+	{specular "$/model/bochka_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/fuel_pricep_x"}
+	{bump "$/model/fuel_pricep_bp"}
+	{specular "$/model/fuel_pricep_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

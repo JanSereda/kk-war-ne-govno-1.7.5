@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/musor_xx"}
+	{bump "$/model/musor_bp"}
+	{specular "$/model/musor_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,67 @@
+{game_entity
+	{Extension "gaz53hleb_xx.mdl"}
+	{Volume "body_lod1"
+	}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "bumper"
+	}
+	{Volume "cabin1"
+	}
+	{Volume "cabin3"
+	}
+	{Volume "cabin4"
+	}
+	{Volume "cabin"
+	}
+	{Volume "cabinl_lod1"
+	}
+	{Volume "detail8"
+	}
+	{Volume "doorl05"
+	}
+	{Volume "doorl06"
+	}
+	{Volume "doorl"
+	}
+	{Volume "doorr03"
+	}
+	{Volume "doorr04"
+	}
+	{Volume "doorr06"
+	}
+	{Volume "doorr07"
+	}
+	{Volume "doorr"
+	}
+	{Volume "engine"
+	}
+	{Volume "fuel"
+	}
+	{Volume "inventory"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "pivot_back"
+	}
+	{Volume "pivot_front"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

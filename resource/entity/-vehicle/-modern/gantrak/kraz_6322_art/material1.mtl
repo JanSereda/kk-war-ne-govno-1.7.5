@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/krazes/6322sps ds"}
+	{blend none}
+}

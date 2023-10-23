@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rrs-kuz3"}
+	{blend none}
+}

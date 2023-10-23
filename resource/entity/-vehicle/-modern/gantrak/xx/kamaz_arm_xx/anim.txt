@@ -1,0 +1,99 @@
+-= Animation: break, Node Body =-
+	Frame 50 {
+		Visibility 1
+		Position	1.60621	-0.978144	31.8787
+		Orientation	-0.00639018 -0.00906243 -0.00183433 0.999937
+	}
+	Frame 65 {
+		Visibility 1
+		Position	1.60621	-0.978144	31.8787
+		Orientation	-0.00639018 -0.00906243 -0.00183433 0.999937
+	}
+-= Animation: break, Node ShieldL2 =-
+	Frame 10 {
+		Visibility 1
+		Position	-37.8743	25.6696	-25.2613
+		Orientation	0 0.0429475 0 0.999077
+	}
+	Frame 20 {
+		Visibility 1
+		Position	-37.8743	25.6696	-25.2613
+		Orientation	0 0.0429475 0 0.999077
+	}
+-= Animation: break, Node ShieldR3 =-
+	Frame 10 {
+		Visibility 1
+		Position	8.7538	-23.7358	-21.2698
+		Orientation	-0.101243 -0.0336332 0.00342468 0.994287
+	}
+	Frame 20 {
+		Visibility 1
+		Position	8.7538	-23.7358	-21.2698
+		Orientation	-0.101243 -0.0336332 0.00342468 0.994287
+	}
+-= Animation: break, Node ShieldR4 =-
+	Frame 10 {
+		Visibility 1
+		Position	34.4976	-25.8044	0.161457
+		Orientation	0 -0.0854066 0 0.996346
+	}
+	Frame 20 {
+		Visibility 1
+		Position	34.4976	-25.8044	0.161457
+		Orientation	0 -0.0854066 0 0.996346
+	}
+-= Animation: break, Node ShieldL4 =-
+	Frame 10 {
+		Visibility 1
+		Position	35.029	26.1618	0.161457
+		Orientation	0.105649 2.73882e-005 0.994403 0.000257786
+	}
+	Frame 20 {
+		Visibility 1
+		Position	35.029	26.1618	0.161457
+		Orientation	0.105649 2.73882e-005 0.994403 0.000257786
+	}
+-= Animation: break, Node ShieldL3 =-
+	Frame 10 {
+		Visibility 1
+		Position	8.7538	25.275	-23.0882
+		Orientation	0 -0.0472234 0 0.998884
+	}
+	Frame 20 {
+		Visibility 1
+		Position	8.7538	25.275	-23.0882
+		Orientation	0 -0.0472234 0 0.998884
+	}
+-= Animation: break, Node ShieldR2 =-
+	Frame 10 {
+		Visibility 1
+		Position	-37.8743	-26.0935	-24.6745
+		Orientation	0.0557497 -0.0348716 0.00194814 0.997834
+	}
+	Frame 20 {
+		Visibility 1
+		Position	-37.8743	-26.0935	-24.6745
+		Orientation	0.0557497 -0.0348716 0.00194814 0.997834
+	}
+-= Animation: break, Node ShieldL7 =-
+	Frame 10 {
+		Visibility 1
+		Position	-71.7815	16.7079	-22.6526
+		Orientation	-0.0578443 -0.119883 0.0561468 0.98951
+	}
+	Frame 20 {
+		Visibility 1
+		Position	-71.7815	16.7079	-22.6526
+		Orientation	-0.0578443 -0.119883 0.0561468 0.98951
+	}
+-= Animation: break, Node ShieldR7 =-
+	Frame 10 {
+		Visibility 1
+		Position	-71.7815	-16.8005	-21.4505
+		Orientation	0.0578172 -0.0802357 0.0680663 0.992767
+	}
+	Frame 20 {
+		Visibility 1
+		Position	-71.7815	-16.8005	-21.4505
+		Orientation	0.0578172 -0.0802357 0.0680663 0.992767
+	}

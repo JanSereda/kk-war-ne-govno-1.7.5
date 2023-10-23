@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/hleb_xx"}
+	{bump "$/model/hleb_bp"}
+	{specular "$/model/hleb_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

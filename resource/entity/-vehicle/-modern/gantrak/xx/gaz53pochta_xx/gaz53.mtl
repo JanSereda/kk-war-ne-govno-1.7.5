@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/gaz53_xx"}
+	{bump "$/model/gaz53_bp"}
+	{specular "$/model/gaz53_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

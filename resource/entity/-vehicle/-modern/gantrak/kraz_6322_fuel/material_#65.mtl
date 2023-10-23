@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/krazes/kraz_glass"}
+	{blend blend}
+}

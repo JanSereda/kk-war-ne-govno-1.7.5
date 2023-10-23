@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "priborka2"}
+	{blend none}
+}

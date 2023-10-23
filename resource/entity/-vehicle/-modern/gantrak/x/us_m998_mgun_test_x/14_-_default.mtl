@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/m998_hmmwv/tex3_0"}
+	{blend blend}
+}

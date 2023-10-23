@@ -1,0 +1,67 @@
+;Exported by: Admin
+;Date:        Sun Oct 26 03:09:58 2014
+;File:        C:\Documents and Settings\Admin\Мои документы\3dsmax\scenes\hmmwv_project\us_m988_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.0526116	0.998492	0.0156687
+				-0.997287	0.0517264	0.0523681
+				0.0514786	-0.0183814	0.998505
+				27.2899	1.08801	0.943888
+			}
+			{VolumeView "body.ply"}
+			{bone "part3"
+				{parameters "ID=body;"}
+				{Position -0.0343847	28.1728	11.8152}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part1"
+				{parameters "ID=body;"}
+				{Position -0.0413597	-8.17754	3.90592}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{parameters "ID=body;"}
+				{Position 0	28.2877	14.0067}
+				{VolumeView "part2.ply"}
+			}
+			{bone revolute "part4"
+				{parameters "ID=wheelleft2;"}
+				{Matrix34
+					0	1	0.000756886
+					0	-0.000756904	1
+					1	0	0
+					17.8293	56.7263	2.73013
+				}
+				{VolumeView "part4.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0.0526114	-0.997287	0.0514785
+		0.998492	0.0517261	-0.0183814
+		0.0156688	0.0523679	0.998505
+		-1.16744	26.197	-2.30092
+	}
+}
+{Volume "part2"
+	{Polyhedron "part2.vol"}
+	{Bone "part2"}
+	{Matrix34
+		0.00708257	-0.998608	0.0522623
+		0.999852	0.00625308	-0.0160177
+		0.0156686	0.0523681	0.998505
+		1.86467	44.1158	-3.54545
+	}
+}

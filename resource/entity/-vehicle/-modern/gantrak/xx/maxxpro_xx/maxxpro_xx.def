@@ -1,0 +1,9 @@
+{game_Entity
+	{Extension "maxxpro.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "turret"
+	}
+}

@@ -49,8 +49,8 @@
  {"psnr5m" {fore 0} ("vs" c(900) sc(100) g(psnr) b(supl) brig(common) s(rus)  i(12) cw(1) cp(30) t(all_nz    ) n(2)               ) }
                                    
  {"bmr-3" {fore 1} ("vart_kamaz" c(120) sc(80) g(demine) b(supl) brig(common) s(rus)  i(11) cw(0) cp(5) t(all_nz art   ) c1(bmr-3) n1(tankman:4)             ) }
-("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(supl) brig(common) side(rus)     t(all_nz    ) info(miners) c1(antipersonel_miner:4) c2(antitank_miner:4)             ) 
-("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(rus)     t(all_nz    ) info(miners) c1(saper:1)              ) 
+("squad_with2types" name(miners) f(1)  c(240) cost(40) g(eng) b(supl) brig(common) side(rus)     t(all_nz    ) info(miners) c1(antipersonel_miner:2) c2(antitank_miner:6)             ) 
+;("squad_with1types" name(sappers) f(1)  c(240) cost(10) g(eng) b(supl) brig(common) side(rus)     t(all_nz    ) info(miners) c1(saper:1)              ) 
               	   
 
 {"t62_cw"	("v" c(69) brig(common) t(all_nz  nobot) s(rus) n(0) g(reserv)  sc(85) b(supl) i(14) cw(0) cp(2))  {fore 1}} 
@@ -1010,10 +1010,40 @@
  
  
 
+;===============================ОДКБ===========================================                                   
+;===============================Common===========================================                                   
+ {"dozor-b_1" {fore 1} ("vs" c(240) sc(40) g(reco) b(common) brig(common) s(odkb)  i(1) cw(10) cp(10) t(all_nz recon   ) n(3)               ) }
+ {"hmmwv_knkrs" {fore 1} ("vs" c(240) sc(80) g(car2) b(common) brig(common) s(odkb)  i(2) cw(0) cp(10) t(all_nz att   ) n(3)               ) }
+ {"brdm2kz" {fore 1} ("vs" c(420) sc(45) g(reco) b(common) brig(common) s(odkb)  i(4) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }
+      
+ {"ural3757i" {fore 1} ("v3" c(220) sc(60) g(inf) b(common) brig(common) s(odkb)  i(3) cw(0) cp(2) t(all_nz inf_odkb infantry  ) n(1) c1(ural375) n1(vehicle_supporter:1) n2(taj_com:1) n3(taj_mgun:1) n4(taj_mgunhelp:1) n5(taj_rpg:1) n6(taj_rpghelp:1) n7(taj_smg:2)       ) }     
+ {"btr80_2_newaodkbi" {fore 1} ("v3" c(270) sc(60) g(inf_btr) b(common) brig(common) s(odkb)  i(4) cw(0) cp(5) t(all_nz  infantry  ) n(2) c1(btr80_2_new) n1(tankman:2) n2(taj_com:1) n3(taj_mgun:1) n4(taj_mgunhelp:1) n5(taj_rpg:1) n6(taj_rpghelp:1) n7(taj_sniper:1) n8(taj_smg:2)       ) }
+ {"btr82a_mgun" {fore 1} ("v3" c(270) sc(80) g(inf_btr2) b(common) brig(common) s(odkb)  i(5) cw(0) cp(5) t(all_nz  infantry  ) n(2) c1(btr82a_mgun) n1(tankman:2) n2(taj_com:1) n3(taj_mgun:1) n4(taj_mgunhelp:1) n5(taj_rpg:1) n6(taj_rpghelp:1) n7(taj_sniper:1) n8(taj_smg:2)       ) }
+ ("squad_with2types" name(pzrk) f(1)  c(250) cost(40) g(pzrk) b(common) brig(common) side(odkb)     t(all_nz antiair   ) info(pzrk) c1(pzrk:2)              ) 
+ ("squad_with2types" name(bazookers2) f(1)  c(120) cost(25) g(rpg) b(common) brig(common) side(odkb)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
+  
+;===============================Вспомогательные войска===========================================                                   
+("squad_with2types" name(tankman) f(1)  c(1) cost(20) g(eng) b(supl) brig(common) side(odkb)     t(all_nz    ) info(tankman) c1(tankman:1)              ) 
+("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(15) g(support) b(supl) brig(common) side(odkb)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:2)              ) 
+("squad_with2types" name(pilot) f(1)  c(50) cost(40) g(eng) b(supl) brig(common) side(odkb)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
+                                           
+ {"kraz_6322_sup" {fore 1} ("vs" c(600) sc(50) g(supply5) b(supl) brig(common) s(odkb)  i(1) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
+ {"kraz_6322_eng" {fore 1} ("vs" c(120) sc(25) g(supply6) b(supl) brig(common) s(odkb)  i(2) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
+ {"kraz_6322_fuel" {fore 1} ("vs" c(120) sc(25) g(fuel) b(supl) brig(common) s(odkb)  i(3) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
+
+{"t72a_1984year"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(100) b(supl) i(11) cw(0) cp(2))  {fore 1}}
+{"t-64b"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(110) b(supl) i(12) cw(0) cp(2))  {fore 1}}
+{"t72b"		("v" c(150) brig(common) t(all_nz  nobot) s(odkb) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}		
+
+;==================== Укры =============
+
+ {"tunguska" {fore 0} ("v3" c(250) sc(150) g(pvo2) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(23) cw(0) cp(7) t(all_nz   ) c1(tunguska) n(1) n1(vehicle_supporter:4)      ) }
+ {"buk_m1"  {fore 0.0} ("v" c(500) sc(275) g(pvo1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(26) cw(0) cp(40) t(all_nz art aat support_frontline  ) n(4)               ) }
+ 
 
 
-;srbs_vdv
-;srbs_vdv_hqcar
+;=============== ВС РБ ============  bel_odkb_hqcar
 
-;srbs_pmc
-;srbs_pmc_hqcar
+ {"btr_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(6) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr82a) n(1) n1(vehicle_supporter:2) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
+ {"BLR_reservist" {fore 1} ("v3" c(290) sc(70) g(inf_reserv) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(7) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(maz6317) n(1) n1(a_bel_res_smg:1) n2(a_bel_res_com:1) n3(a_bel_res_mgun:1) n4(a_bel_res_smg:5) n5(a_bel_res_rpg:2) n6(a_bel_res_smg2:2)       ) }	
+ {"BLR_motopehota" {fore 1} ("v3" c(320) sc(100) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(8) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(maz6317) n(1) n1(bel_smg:1) n2(bel_com:1) n3(bel_mgunhelp:1) n4(bel_mgun:1) n5(bel_rpg:1) n6(bel_smg2:2) n7(bel_smg:2)     ) }	

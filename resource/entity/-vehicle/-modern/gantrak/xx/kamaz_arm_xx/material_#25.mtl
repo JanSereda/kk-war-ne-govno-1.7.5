@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "box053 [albedo]"}
+	{bump "box053 [normal]"}
+	{blend none}
+}

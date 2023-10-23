@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/ural_4320/x/cabin_x"}
+	{color "229 229 229 25"}
+	{blend none}
+}

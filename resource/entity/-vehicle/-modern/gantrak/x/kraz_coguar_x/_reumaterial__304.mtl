@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cougar01"}
+	{blend none}
+}
