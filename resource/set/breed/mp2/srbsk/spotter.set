@@ -55,7 +55,7 @@
 		{item "f1_script grenade" 4}
 		{item "tarzan"}
 	
-		{item "fpv_drone"}
+		{item "fpv_drone" 4}
 		{in_hands 3}
 	}
 }
