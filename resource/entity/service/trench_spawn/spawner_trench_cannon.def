@@ -8,22 +8,17 @@
 			1	0	0
 			0	1	0
 			0	0	1
-	}
-	{bone "trench1"
+		}
+		{bone "trench1"
 			{Orientation
-				0	-1	0
-				-1	0	0
+				1	0	0
+				0	1	0
 				0	0	-1
 			}
-	}
-	{bone "trench2"
-			{Orientation
-				-1	0	0
-				0	-1	0
-				0	0	-1
-                        }
-			{Position -140 -2 0}
-	}
+		}
+		{bone "trench2"
+			{Position 0 50 0}
+		}
 	}
      }
 }
