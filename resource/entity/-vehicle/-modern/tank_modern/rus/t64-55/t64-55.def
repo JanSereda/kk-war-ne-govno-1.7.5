@@ -1,0 +1,177 @@
+;ASS edition by Timosh
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy_M" "turret_rotator" "vision_lev05" "auto_dig_in" "remote_mgun" "has_autoloader"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+;Т-64 с 2А42-1
+
+
+
+
+;	("armor_t64a_1981_multilayer" turret(351 351 70 50) body(475 87 44 109))  ;должно быть
+	("armor_heavy" turret(424 210 70 50) body(150 80 40 100))  
+	("comp_armor_increment" turret(50) body(15))
+
+	("armor_engine"  t(40 80 80 40))
+
+	("shield_t-64a_1981")
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	
+
+;	("crew_4_human_extended")
+	("crew_inside")
+	{placer
+		{place "driver"
+			{group "crew"}
+			{visor "driver"}
+		}
+	}
+	{boarder
+		{door "emit0"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+	("crew_human" place(gunner)	door1(emit1) door2(emit2) anm(left2) visor(main))
+	("crew_human" place(charger)	door1(emit2) door2(emit1) visor(main))
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(main))
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open1"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open1" -1}}
+		}	
+		{anm "left2"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open12"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open12" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}{base "open2"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open2" -1}}
+		}
+
+	}
+
+
+	(define "define_place"
+		{placer
+			{place "%place" {LinkBone "%bone"}{openForCrush} {turnoff {shadow}}{attach squat_lie} }
+		}
+			{boarder
+			{door "%door"}
+			{link "%door" "%place" {anm "%animation"} }
+		}
+		{Volume "%place"
+			{tags "attach" "attach_%place"}
+			{able clear {bullet 0} {touch 1}}
+		}
+	)
+	("define_place" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("define_place" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("define_place" place(seat3) bone(seat03) door(emit6)  animation(armor))
+	("define_place" place(seat4) bone(seat04) door(emit5)  animation(armor1))
+	{extender "enumerator"}
+
+	{sensor		
+		{visor "driver"
+		    {vision "moto"}
+			{bone "Visor1"}
+		}
+		{visor "main"
+			{vision "tank_gunner_optic_IR_1g"}
+			{bone "Visor2"}
+		}
+	}
+
+
+	{extender "inventory"
+;		{weapon "mgun"
+;			{mask "weapon mgun"}
+;		}
+		{box	
+			{item "ammo PKM_ammo" 1250}      
+			{item "ammo bullet100_RUS apcr" 15}
+			{item "ammo bullet100_RUS cm" 10}
+			{item "ammo bullet100_RUS fg" 17}
+                ; БК для спаренного пулемета ПКТ - 1500 патр.
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "100mm_D-10T" filling "ammo bullet100_RUS apcr" 1}	
+			{gunner "gunner"}
+			{charger "charger"} 
+			("CW_stab_abm" abm(0.17))
+			("CW_stab_no_suo")
+		}
+		{place "mgun1"
+			{type "mgun_coaxial"}
+			{charger "gunner"}
+			{weapon  "PKT" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"} 
+			{basic}
+			("CW_stab_abm" abm(0.41))
+			("CW_stab_no_suo")
+                }
+	}
+
+	{mass 38500}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.85))
+		("CW_tracks"
+			Mass(38.5)
+			Width(3.41)
+			Power(700)
+			Realspeed(50)
+			Gamespeed(34) 
+			Range(700)
+			Fuelvolume(1500)
+		)
+	}
+	{props "cwfs_fuel_700" "cwfs_extfuel_1500"}
+
+	("two_headlights")
+	{Extension "t6455.mdl"}
+	("missile_aimpoint_tanksize")
+	("cwts_buksir")
+
+	
+	{bone "gun_rot_helper"		
+		{limits -5 18}
+	}
+	{texmod "2"}
+	("CW_turr_speed" deg_per_s(20))
+
+	
+	
+}
