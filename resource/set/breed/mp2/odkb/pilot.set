@@ -1,11 +1,11 @@
 {breed
-	{skin "cw_bel_vertpilot"}
-	{portrait "_new/bel/pilot"}
+	{skin "cw_ukr_pilot"}
+	{portrait "_new/ukr/pilot"}
 	{icon "pilot"}
 	{icon_priority 0}
-	{nationality rus}
+	{nationality ukr}
 	{armors
-		{head "zsh7v"}
+		{head "zsh7apn"}
 	}
 
 	(include "perks_generic.inc")
