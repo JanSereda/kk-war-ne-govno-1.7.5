@@ -1,12 +1,15 @@
+;By cAwX
+
 {game_entity
 	(include "/properties/airborne_M.ext")	;сюда впишем общие свойства и компоненты
 	{PatherID  "airborne"}
 	(include "/properties/shadow/airborn.inc" scale(1.1))
 	(include "/properties/selection/airborne.inc" scale(3.0))
 	(include "/properties/car_crew.ext")
-	{props "airborne_M" "assault" "vision_lev_plane" "su-25sm" "su24_x31"}	
-	{Extension "su24.mdl"}
+	{props "airborne_M" "assault" "vision_lev_plane" "su-25sm"}	
+	{Extension "su24_support.mdl"}
 	("missile_aimpoint_air")
+
 	{mass 22300}
 
 	{armor
@@ -28,12 +31,13 @@
 			{charger "driver"}
 			{gunner "driver"}
 		}
-		{place "ptur4"
-			{weapon "x31x2" filled}
-			{foresight "foresight_11"}
-			{charger "commander"}
-			{gunner "commander"}
-			{barrels 2}
+		{place "nar1"
+			{weapon "80mm_b8_x2" filling "bullet80_DM cm ammo" 40}
+			{foresight "foresight1"}
+			{charger "driver"}
+			{gunner "driver"}
+			{shooter "B8shooter_"}
+			{barrels 40}
 			{basic}
 		}
 		{place "flare_dropper"

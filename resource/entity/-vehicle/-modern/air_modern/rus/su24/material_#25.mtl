@@ -1,5 +1,5 @@
 {material simple
-	{diffuse "$/model/f-35b/gbu-31"}
+	{diffuse "$/model/Su-25sm/b-8"}
 	{emitsheat}
 {blend none}
 }
