@@ -24,6 +24,10 @@
 {"su24m"							"<c(FFFF00)>Фронтовой бомбардировщик </c>"}
 {"su24m_strike"							"<c(FFFF00)>Фронтовой бомбардировщик </c>"}
 {"tochka_y"					"<c(FFFF00)e(shadow)>Тактический ракетный комплекс</c>"}
+{"tochka_y_wagner"					"<c(FFFF00)e(shadow)>Тактический ракетный комплекс</c>"}
+
+
+
 {"mig-21bis_harm"					"<c(FFFF00)e(shadow)>Фронтовой истребитель</c>"}
 {"mig-21bis_pizdec"					"<c(FFFF00)e(shadow)>Фронтовой истребитель</c>"}
 {"mig-21bis_support_b8"					"<c(FFFF00)e(shadow)>Фронтовой истребитель</c>"}

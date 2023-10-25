@@ -60,8 +60,14 @@
 	    ("human")   
 	}
 	{airborne
-		{"rad_aa_passive"}
-	    {"rad_aa"}
+	    {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj usa_ir_FF_beam"}
+		{"AA_proj rus_ir_FF_beam"}
+		{"AA_proj"}
+		{"AA_missile"}
+		{"AA_missile_2gen"}
 	    {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
 		{"rus_ir_aj cwps2" {volume "body"}}
@@ -75,8 +81,14 @@
 		{"kamikaze" {volume "target_hight"}}
 	}
 	{Helicopter
-		{"rad_aa_passive"}
-	    {"rad_aa"}
+	    {"RadAA_missile"}
+		{"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj usa_ir_FF_beam"}
+		{"AA_proj rus_ir_FF_beam"}
+		{"AA_proj"}
+		{"AA_missile"}
+		{"AA_missile_2gen"}
 	    {"short_sam"}
 	    {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
@@ -101,7 +113,6 @@
 		
 	}
 	{small_UAV 
-		{"rad_aa"}
 	    {"short_sam"}
         {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
@@ -109,6 +120,13 @@
 		{"usa_ir_aj cwps2" {volume "body"}}
 		{"rus_ir_asm_aj cwps2" {volume "body"}}
 		{"usa_ir_asm_aj cwps2" {volume "body"}}	
+	    {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+        {"AA_proj"}
+        {"AA_missile"}
+		{"AA_missile_2gen"}
+		{"anti_smallmissile"}
 		{"tv_seeker"}
 		{"autocannon_small"}
 		{"antiair"}
@@ -118,9 +136,11 @@
 		{"ptr"}
 		{"bullet"}		
 	}
-	{medium_UAV 	
-		{"rad_aa_passive"}
-	    {"rad_aa"}
+	{medium_UAV 		
+	    {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj"}
 		{"antiair"}
 		{"zenite"}
 		{"autocannon_small"}
@@ -137,9 +157,12 @@
 		{"bullet"}	
 	}
 	{medium_UAV_kamikaze
-		{"rad_aa_passive"}
-		{"rad_aa"}
-		{"antiair"} 	
+        {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj"}
+		{"antiair"}
+		{"anti_smallmissile"} 	
 		{"tv_seeker"}
 		{"autocannon_small"}
 		{"zenite"}

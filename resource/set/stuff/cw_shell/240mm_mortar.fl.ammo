@@ -1,0 +1,43 @@
+{from "pattern fg"                        
+
+	{tag "big" "size4" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+
+	{tag "itemin2hands"}
+	{tag "no_ricochet"}          
+
+{inventory
+{weight 14}                              
+{size 8 2}                         
+}
+{mass 100}                               
+{entity "240mm_2s4_ammo"}                 
+{view "240mm_2s4_ammo" }
+{damage blastwave                      
+{energy 3}                               
+{area 2 3}
+}
+{damage blastwave                        
+{energy 2}                         
+{area 0.1 0.1}                           
+}
+{damage add blastwave                    
+{energy 3}
+{area 2 2}
+}
+{damage fire                            
+{radius 24}
+{heating 7}
+{time 7}
+}
+{damage fire                            
+{radius 24}
+{heating 22}
+{time 9}
+}
+
+
+
+	("fg_heavy" args 24.0)
+	("fg" args 13.0)
+}

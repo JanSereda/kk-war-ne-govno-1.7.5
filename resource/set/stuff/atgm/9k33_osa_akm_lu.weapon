@@ -16,8 +16,8 @@
 	{recoveryTime 6}
 	{rechargeTime 120}
 	{inventory {noView}}
-	{maxRange 180}
-	{aimRange 230}
+	{maxRange 250}
+	{aimRange 300}
 	
 ;	{cursor "zenite_on"}
 ;	{cursorReloading "zenite_reload"}

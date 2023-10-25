@@ -59,6 +59,7 @@
 {"t-55_c60"									"<c(FFFFFF)e(shadow)>T-55А с башней С60</c>"}
 {"hmmwv_knkrs"					"<c(FFFFFF)e(shadow)>HMMWV с ПТРК Конкурс</c>"}
 {"tochka_y"					"<c(FFFFFF)e(shadow)>Точка-у</c>"}
+{"tochka_y_wagner"					"<c(FFFFFF)e(shadow)>Точка-у</c>"}
 {"mtlb_zu"					"<c(FFFFFF)e(shadow)>МТЛБ с ЗУ-23-2</c>"}
 {"grad_p"					"<c(FFFFFF)e(shadow)>9П132 Град-П («Партизан»)</c>"}
 {"m777"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777</c>"}

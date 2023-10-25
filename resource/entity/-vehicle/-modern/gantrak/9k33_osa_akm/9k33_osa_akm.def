@@ -5,7 +5,7 @@
 	(include "/properties/shadow/tank.inc"  scale(1.0))
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
 	
-	{props "vehicle" "armored_car_M" "tank" "turret" "wheeled" "with_gun" "vision_lev04" "6_wheels" "remote_turret" "sam" "sam_radar" "autotrack_suo"}
+	{props "vehicle" "armored_car_M" "tank" "turret" "wheeled" "with_gun" "vision_lev04" "6_wheels" "remote_turret" "sam" "sam_radar" "autotrack_suo" "strela10"}
 	
 	{targetSelector "missile"}
 
