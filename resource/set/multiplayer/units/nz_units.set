@@ -962,11 +962,16 @@
 
 ;==================Мобильная бригада==========================
  
- {"mig-21bis_support" {fore 0.4} ("p" c(500) sc(150) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-21bis_support" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_support_b8" {fore 0.4} ("p" c(500) sc(150) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-21bis_support_hydra" {fore 0.4} ("p" c(500) sc(169) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-21bis_support_hydra" {fore 0.4} ("p" c(500) sc(169) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-21bis_support_s13" {fore 0.4} ("p" c(500) sc(190) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-21bis_support_s25" {fore 0.4} ("p" c(500) sc(210) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  
 
- {"mig-21bis_bomber" {fore 0.4} ("p" c(500) sc(125) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(2) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+
+ {"mig-21bis_bomber" {fore 0.4} ("p" c(500) sc(125) g(susem_bobmb) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(2) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_harm" {fore 0.4} ("p" c(800) sc(170) g(susem_rad) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(8) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  
 
@@ -1026,11 +1031,13 @@
 {"t-64b"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(110) b(supl) i(12) cw(0) cp(2))  {fore 1}}
 {"t72b"		("v" c(150) brig(common) t(all_nz  nobot) s(odkb) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}		
 ;=========авиация============= avia_odkb avia_odkb_hqcar
-
+ {"su24m_support" {fore 0.3} ("p" c(2000) sc(360) g(air) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"su24m_kab" {fore 0.3} ("p" c(2000) sc(360) g(air) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(6) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(2)               ) }
-  {"su24m" {fore 0.3} ("p" c(2000) sc(370) g(air_sead) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(9) cw(0) cp(45) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"su24m" {fore 0.3} ("p" c(2000) sc(370) g(air_sead) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(9) cw(0) cp(45) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"su24m_strike" {fore 0.3} ("p" c(2200) sc(560) g(air_strike) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(10) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
  
+ {"kraz_6322_avi" {fore 1} ("vs" c(120) sc(25) g(avia_boep) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(333) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
+
 ;============арта и пво ======     
 
 	{"tos-1a_solntsepek_odkb" {fore 0} ("v" c(950) sc(450) g(kz_reach_unit) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(1) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) }
@@ -1041,7 +1048,8 @@
 	{"zil131_2s1" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(6) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 	{"2c4_tulpan" {fore 0.0} ("v" c(600) sc(250) g(art) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(7) cw(0) cp(25) t(all_nz art support_frontline  ) n(2)               ) }
                           
- 
+    {"kraz_6322_art_pvo" {fore 1} ("vs" c(120) sc(25) g(art_boep)b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(333) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
+
 
 ;==================== Укры =============
 
@@ -1077,5 +1085,5 @@
 
 
  {"btr_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(6) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr82a) n(1) n1(vehicle_supporter:2) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
- {"BLR_reservist" {fore 1} ("v3" c(290) sc(70) g(inf_reserv) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(7) cw(2) cp(15) t(all_nz inf_cn infantry ) c1() n(1) n1(a_bel_res_smg:1) n2(a_bel_res_com:1) n3(a_bel_res_mgun:1) n4(a_bel_res_smg:5) n5(a_bel_res_rpg:2) n6(a_bel_res_smg2:2)       ) }	
+ {"BLR_reservist" {fore 1} ("v3" c(290) sc(70) g(inf_reserv) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(7) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(maz6317) n(1) n1(a_bel_res_smg:1) n2(a_bel_res_com:1) n3(a_bel_res_mgun:1) n4(a_bel_res_smg:5) n5(a_bel_res_rpg:2) n6(a_bel_res_smg2:2)       ) }	
  {"BLR_motopehota" {fore 1} ("v3" c(320) sc(100) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(8) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(maz6317) n(1) n1(bel_smg:1) n2(bel_com:1) n3(bel_mgunhelp:1) n4(bel_mgun:1) n5(bel_rpg:1) n6(bel_smg2:2) n7(bel_smg:2)     ) }	
