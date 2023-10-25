@@ -1,6 +1,6 @@
 ;Exported by: ??????
-;Date:        Mon Dec 12 19:47:49 2022
-;File:        C:\Users\??????\Desktop\3?? ???????\su24_max\su24_max_WiP.max
+;Date:        Fri Nov 11 23:32:52 2022
+;File:        C:\Users\??????\Desktop\su24_max_WiP.max
 {Skeleton
 	{animation
 		{sequence "wheels" {speed 0.6}}
@@ -14,12 +14,12 @@
 		}
 		{bone "body"
 			{parameters "ID=body;"}
-			{Position -67.3152	-0.991683	69.195}
+			{Position -33.5276	-1.06571	74.3602}
 			{VolumeView "body.ply"}
 			{bone "retract_wheelr"
 				{Position -7.73496	-24.9133	-47.7118}
 				{VolumeView "retract_wheelr.ply"}
-				{bone revolute "wheelr1"
+				{bone "wheelr1"
 					{parameters "ID=wheel_right;"}
 					{Matrix34
 						1	0	0
@@ -47,7 +47,7 @@
 			{bone "retract_wheell"
 				{Position -7.76747	27.8756	-47.7092}
 				{VolumeView "retract_wheell.ply"}
-				{bone revolute "wheell1"
+				{bone "wheell1"
 					{parameters "ID=wheel_left;"}
 					{Matrix34
 						1	0	0
@@ -145,28 +145,28 @@
 			{bone "body_systems"
 				{Position 52.37	-0.29268	-23.7773}
 			}
-			{bone "x29l_00"
+			{bone "x31pd_00"
 				{Matrix34
 					1	0.00071725	0
-					-0.00071725	1	0
-					0	0	-1
+					0.00071725	1	0
+					0	0	1
 					1.17097	45.2682	-31.4956
 				}
-				{VolumeView "x29l_00.ply"}
+				{VolumeView "x31pd_00.ply"}
 			}
-			{bone "x29l_01"
+			{bone "x31pd_01"
 				{Matrix34
 					1	0.00071725	0
-					-0.00071725	1	0
-					0	0	-1
+					0.00071725	1	0
+					0	0	1
 					1.17097	-42.3269	-31.4956
 				}
-				{VolumeView "x29l_00.ply"}
+				{VolumeView "x31pd_01.ply"}
 			}
-			{bone "shooter_x29l_01"
+			{bone "shooter_r31_01"
 				{Position 4.6229	-42.3895	-31.5748}
 			}
-			{bone "shooter_x29l_00"
+			{bone "shooter_r31_00"
 				{Position 4.6229	45.6291	-31.5748}
 			}
 			{bone "pilon_niz_0"
@@ -177,11 +177,9 @@
 			}
 			{bone revolute "missile_rot"
 				{parameters "ID=turret;"}
-				{limits -30 30}
 				{Position 213.289	1.33932	-37.449}
 				{bone revolute "missile_rot1"
 					{parameters "ID=gun;"}
-					{limits -30 30}
 					{Matrix34
 						1	0	0
 						0	0	1
@@ -272,8 +270,13 @@
 }
 {Volume "body"
 	{Polyhedron "body.vol"}
-	{Bone "body"}
-	{Position 16.7103	0	0}
+	{Bone "body_systems"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-20.0285	35.9302	3.2064
+	}
 }
 {Volume "electronics1"
 	{Box 19.392 35.9744 27.9927}
