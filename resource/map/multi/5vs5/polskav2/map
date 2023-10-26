@@ -7319,6 +7319,10 @@
 		{Position -156.4 -444.43 -577.46}
 		{xform zl 161.84}
 	}
+	{Entity "road_m_clay1" 0x6822
+		{Position -174.9 -198.09 -573.61}
+		{xform zl -17.33}
+	}
 	{Entity "road_m_clay1" 0x6823
 		{Position -132.83 -554.23 -580.15}
 		{xform zl -166.84}
@@ -7326,6 +7330,14 @@
 	{Entity "road_m_clay1" 0x6824
 		{Position -197.31 -74.4 -571.99}
 		{xform zl 2.53}
+	}
+	{Entity "road_m_clay1" 0x6825
+		{Position -303.74 -423.24 -568.15}
+		{xform zl 40.52}
+	}
+	{Entity "road_m_clay1" 0x6826
+		{Position -563.88 -262.3 -553.15}
+		{xform zl -137.95}
 	}
 	{Entity "road_m_clay1" 0x6827
 		{Position -811.85 -151.7 -548.15}
@@ -7711,6 +7723,28 @@
 		{Position -2238.36 -4926.1 -685.72}
 		{xform zl 95.63}
 	}
+	{Entity "trench_mid_cover1" 0x585d
+		{Position -550.87 154.5 -558.74}
+		{xform zl -74.56}
+		{TexMod "brown"}
+	}
+	{Entity "trench_curve" 0x585e
+		{Position -450.09 171.42 -564.16}
+		{xform zl -64.63}
+	}
+	{Entity "trench_end_short" 0x585f
+		{Position -397.39 150.29 -574.15}
+		{xform zl 56.12}
+	}
+	{Entity "trench_mid_cover2" 0x5860
+		{Position -667.78 117.85 -554}
+		{xform zl -72.32}
+		{TexMod "brown"}
+	}
+	{Entity "trench_end" 0x5861
+		{Position -781.26 75.9 -554}
+		{xform zl -65.9}
+	}
 	{Entity "tent_modern_rus" 0x207b
 		{Position -1044.04 -1083.58}
 		{xform zl 25.87}
@@ -7903,133 +7937,148 @@
 		{Position -503.12 -916.92}
 		{xform zl -155.15}
 	}
+	{Entity "trench_cw_round_mortar" 0x707b
+		{Position -2351.58 -858.26 -505.74}
+	}
+	{Entity "trench_cw_round_mortar" 0x707c
+		{Position -424.82 -125.76 -554.73}
+	}
 	{Entity "trench_cw_round_mortar" 0x600a
 		{Position -745.24 -2440.98 -524.26}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_round_mortar" 0x600b
 		{Position 1272 -2248.43 -526.12}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_round_mortar" 0x600d
 		{Position -2542.34 -2408.48 -479.26}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_low2" 0x600f
 		{Position -2766.69 -2511.03 -479.21}
 		{xform zl -137.67}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x6028
 		{Position 1444.16 -2487.9 -519.6}
 		{xform zl 130.3}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x6029
 		{Position 1359.83 -2545.61 -518.96}
 		{xform zl 140.23}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x6034
 		{Position 1303.13 -2548.59 -541.72}
 		{xform zl -99.02}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x3002
 		{Position 1525.05 -2396.41 -510.82}
 		{xform zl -170.21}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x4088
 		{Position 1531.57 -2283.28 -510.87}
 		{xform zl -179.67}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x408a
 		{Position 1524.85 -2169.78 -499.83}
 		{xform zl -127.77}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x408b
 		{Position 1494.19 -2121.63 -545.79}
 		{xform zl -130.96}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x408c
 		{Position -420.41 -2781.41 -506}
 		{xform zl 115.51}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x408d
 		{Position -320.55 -2727.04 -500.29}
 		{xform zl 167.41}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x408e
 		{Position -290.02 -2678.81 -562.4}
 		{xform zl 164.22}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x408f
 		{Position -642.44 -2799.59 -517.1}
 		{xform zl 73.1}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x4090
 		{Position -736.63 -2759.98 -508.87}
 		{xform zl 83.03}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x4091
 		{Position -525.56 -2823.64 -509.46}
 		{xform zl 124.97}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x4092
 		{Position -766.33 -2718.63 -555.66}
 		{xform zl -153.54}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x74
 		{Position -2074.63 -2950.92 -469.41}
 		{xform zl 107.02}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x8e
 		{Position -1967.84 -2911.88 -459.58}
 		{xform zl 158.92}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x8f
 		{Position -1930.52 -2868.68 -519.78}
 		{xform zl 155.73}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x10e
 		{Position -2295.73 -2925.96 -467.67}
 		{xform zl 56.99}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x10f
 		{Position -2375.23 -2861.76 -463.58}
 		{xform zl 66.92}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x118
 		{Position -2184.86 -2977.17 -459.41}
 		{xform zl 116.48}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x11b
 		{Position -2394.37 -2808.31 -497.07}
 		{xform zl -172.33}
-		{AreaDisable "cut"}
+	}
+	{Entity "trench_mid_cover1" 0x11d
+		{Position -2698.87 -610.71 -489.64}
+		{xform zl -73.02}
+		{TexMod "brown"}
+	}
+	{Entity "trench_curve" 0x134
+		{Position -2807.28 -653.93 -492.38}
+		{xform zl -19.59}
+	}
+	{Entity "trench_end_short" 0x136
+		{Position -2843.45 -698.08 -548.99}
+		{xform zl -22.78}
+	}
+	{Entity "trench_mid_cover1" 0x139
+		{Position -2323.77 -565.14 -491.82}
+		{xform zl -95.68}
+		{TexMod "brown"}
+	}
+	{Entity "trench_curve" 0x13c
+		{Position -2223.67 -585.68 -493.17}
+		{xform zl -85.75}
+	}
+	{Entity "trench_end_short" 0x141
+		{Position -2182.12 -624.38 -523.81}
+		{xform zl 35}
+	}
+	{Entity "trench_end_short" 0x4093
+		{Position -2644.03 -592.75 -535.55}
+		{xform zl 100.17}
+	}
+	{Entity "trench_end_short" 0x4094
+		{Position -2381.41 -557.49 -525.94}
+		{xform zl -81.93}
 	}
 	{Entity "road_m_clay1" 0x4095
 		{Position -1002.37 -1450.15 -538.15}
@@ -8341,6 +8390,10 @@
 		{Position -1789.15 -1307.95 -525.97}
 		{xform zl 0.03}
 	}
+	{Entity "lockout_tower" 0x707d
+		{Position -2559.89 -710.19 -526.45}
+		{xform zl -167.84}
+	}
 	{Entity "trailer_base" 0x70db
 		{Position -1886.46 -1307.53 -524.06}
 		{xform zl -0.32}
@@ -8360,6 +8413,60 @@
 	{Entity "lockout_tower" 0x70e6
 		{Position -253.31 -866.21 -563.85}
 		{xform zl 86.39}
+	}
+	{Entity "lockout_tower" 0x70ef
+		{Position -613.35 -9.86 -553.52}
+		{xform zl -153.56}
+	}
+	{Entity "sandbags_big_curve" 0x70f0
+		{Position -256.39 207.44 -581.97}
+		{xform zl -97.43}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big" 0x70f1
+		{Position -213.27 176.13}
+		{xform zl -134.29}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big" 0x70f2
+		{Position -301.95 182.61 -581.78}
+		{xform zl -46.7}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big_curve" 0x70f3
+		{Position -160.48 94.74 -585.26}
+		{xform zl 169.03}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big" 0x70fb
+		{Position -182.46 141.74}
+		{xform zl -140.24}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big_curve" 0x7109
+		{Position -711.43 37.24 -551.7}
+		{xform zl -31.75}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big" 0x710a
+		{Position -665.13 63.64}
+		{xform zl -68.61}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big" 0x710d
+		{Position -707.57 -14.49 -552.1}
+		{xform zl 18.98}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big_curve" 0x710e
+		{Position -569.23 78.23 -552.75}
+		{xform zl -125.29}
+		{TexMod "brown"}
+	}
+	{Entity "sandbags_big" 0x710f
+		{Position -621.11 77.56}
+		{xform zl -74.56}
+		{TexMod "brown"}
 	}
 	{Entity "sandbags_big" 0x7111
 		{Position -1737.79 -1243.37}
@@ -8407,6 +8514,16 @@
 	{Entity "netting1" 0x6011
 		{Position 134.62 -1585.61 -527.77}
 		{xform zl 130.85}
+		{TexMod "new"}
+	}
+	{Entity "netting" 0x6025
+		{Position -272.55 60.43 -576.4}
+		{xform zl 137.48}
+		{TexMod "new"}
+	}
+	{Entity "netting1" 0x6026
+		{Position -338.45 -8.27 -567.11}
+		{xform zl 137.48}
 		{TexMod "new"}
 	}
 	{Entity "netting" 0x6027
@@ -8919,6 +9036,22 @@
 	{Entity "coaster_ship_crate3" 0x210f
 		{Position 162.08 -1573.42}
 		{xform zl -41.54}
+	}
+	{Entity "coaster_ship_crate3" 0x2110
+		{Position -272.96 -201.32}
+		{xform zl 171.11}
+	}
+	{Entity "coaster_ship_crate3" 0x2111
+		{Position -274.41 -269.4}
+		{xform zl 1.97}
+	}
+	{Entity "coaster_ship_crate3" 0x2112
+		{Position -2489.86 -802.41}
+		{xform zl 96.85}
+	}
+	{Entity "coaster_ship_crate3" 0x2113
+		{Position -2555.78 -819.48}
+		{xform zl -72.29}
 	}
 	{Entity "pla01b" 0x14a
 		{Position -4335.69 -3266.7}
@@ -9600,6 +9733,10 @@
 	{Entity "new_poplar1" 0x40a3
 		{Position 299.64 -330.29 -640.77}
 		{xform zl 111.39}
+	}
+	{Entity "bush10a" 0x40a4
+		{Position -37.9 -384.56 -586.07}
+		{xform zl 148.08}
 	}
 	{Entity "new_tree33" 0x40a5
 		{Position 644.48 -372.89}
@@ -12093,7 +12230,7 @@
 	}
 	{Entity "cane3" 0x4178
 		{Position -2923.19 -729.07}
-		{xform zl -34.88 y 14.75 zw 88.92}
+		{xform zl -37.5 y 14.78 zw 91.67}
 		{Constrain surface}
 		{Color 0xffe2e2e2}
 	}
@@ -17030,108 +17167,88 @@
 		{Position -4629.42 3776.24 -611.38}
 		{xform zl 89.14}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover2" 0x161e
 		{Position -4506.93 3778.59 -602.16}
 		{xform zl 91.38}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end" 0x161f
 		{Position -4386.23 3787 -599.15}
 		{xform zl 97.8}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x1620
 		{Position -4730.9 3788.29 -610.9}
 		{xform zl 99.07}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x1621
 		{Position -4775.55 3823.37 -630.87}
 		{xform zl -140.18}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x1622
 		{Position -5081.93 4333.02 -597.24}
 		{xform zl 24.19}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover2" 0x1623
 		{Position -5027.94 4223.04 -598.8}
 		{xform zl 26.43}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end" 0x1624
 		{Position -4969.22 4117.26 -599.67}
 		{xform zl 32.85}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x1627
 		{Position -5276.25 5127.58 -571.96}
 		{xform zl 1.31}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover2" 0x1628
 		{Position -5269.26 5005.27 -558.58}
 		{xform zl 3.55}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end" 0x1629
 		{Position -5256.29 4884.97 -552.93}
 		{xform zl 9.97}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x162a
 		{Position -5268.05 5229.44 -562.28}
 		{xform zl 11.24}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x48ad
 		{Position -5198.4 5301.88 -549.54}
 		{xform zl -35.9}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_curve" 0x48ae
 		{Position -5102.37 5294.24 -537.81}
 		{xform zl -90.2}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover1" 0x3c0d
 		{Position -4987.68 5091.22 -561.16}
 		{xform zl -157.2}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_mid_cover2" 0x3c0e
 		{Position -5038.98 5202.48 -548.16}
 		{xform zl -154.96}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end" 0x3c0f
 		{Position -4945.19 4984.15 -552.93}
 		{xform zl 20.02}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end" 0x687c
 		{Position -5125.76 4442.25 -587.52}
 		{xform zl -160.79}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_round_mortar" 0x687d
 		{Position -4286.59 4011.02 -609.05}
 		{xform zl 25.41}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_round_mortar" 0x687e
 		{Position -5110.06 4997.84 -600.17}
-		{AreaDisable "cut"}
 	}
 	{Entity "station_corner1" 0x2138
 		{TexMod
@@ -24628,17 +24745,14 @@
 		{Position -113.59 1434.38 -560.35}
 		{xform zl -91.2}
 		{TexMod "brown"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x311e
 		{Position -57.66 1434.91 -580.59}
 		{xform zl 90.19}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_end_short" 0x311f
 		{Position -167.58 1432.13 -585.77}
 		{xform zl -94.64}
-		{AreaDisable "cut"}
 	}
 	{Entity "road_cross1" 0x3120
 		{Position -1287.13 4046.82}
@@ -24709,6 +24823,12 @@
 	{Entity "road_cross1" 0x41f0
 		{Position -2665.39 -878.56}
 		{xform zl 70.74}
+		{TexMod "2brown"}
+		{DecalOrder 6}
+	}
+	{Entity "road_cross1" 0x424d
+		{Position -2265.98 -711.16}
+		{xform zl -85.69}
 		{TexMod "2brown"}
 		{DecalOrder 6}
 	}
@@ -30533,7 +30653,6 @@
 		{Position 5886.68 5750.68 -400}
 		{xform zl 48.47}
 		{TexMod "road"}
-		{AreaDisable "cut"}
 	}
 	{Entity "building_part_concrete" 0x2263
 		{Position 6006.1 5805.34 -332.8}
