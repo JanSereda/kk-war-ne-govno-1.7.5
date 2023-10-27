@@ -8,6 +8,6 @@
 	;Á× ÊÇ-6 (3êã 1,8êã ÒÃ-50 èëè ÒÃ-40 (Òİ 1,3-1,35) ÁÁ 215ìì)
 {damage blastwave {energy 1.4} {area 2.9 3.4}}
 {damage add blastwave {energy 2.7} {area 1.2 1.4}}
-{damage cumulative {damage 270} {distance 3}}
+{damage cumulative {damage 320} {distance 3}}
  
 }
