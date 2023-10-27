@@ -21,7 +21,8 @@
 			{item "ammo pkm_ammo" 1750}
 			{item "pkt" filled {user "mgun"}}
 			{item "rpg26 weapon" 4 filling "rpg26 ammo" 1}
-            {item "rpg7_og-7v rpg7 ammo" 4}			
+            {item "rpg7_og-7v rpg7 ammo" 4}
+			{item "mine antitank_tm89" 40}			
 		}
 	}
 	{Weaponry

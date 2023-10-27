@@ -1,0 +1,60 @@
+{breed
+	{behaviour soldier}
+	{skin "lnr_kazaki_separ_berezka"}
+	{portrait "_new/rus/inf"}
+	{icon smgs}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body "6b23-1_smersh"}
+		{head kubanka}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_4
+		}
+		{"health" "190%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "300%"
+		}
+		{"stamina_regeneration" "300%"
+		}
+		{"speed" 1.1
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+
+	{inventory
+		{item "545 ammo" 300}
+		{item "bandage" 5}
+		{item "rgo grenade" 4}
+		{item "mosin_s" filling "svd_ammo ammo" 5}
+		{item "svd_ammo ammo" 125}
+		{item "6b23-1_smersh"}
+		{in_hands 3}
+	}
+}

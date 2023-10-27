@@ -961,13 +961,13 @@
 
 ("squad_with1types" name(spotter) f(1)  c(500) cost(120) g(eng) b(supl) brig(common) side(srbsk)     t(all_nz    )  c1(spotter:1)              ) 
           
-;{"eleron_catapult_serb" {fore 0.6} ("vart" c(500) sc(175) g(bpla) b(supl) brig(common) s(srbsk)  i(14) cw(0) cp(5) t(all_nz art   ) c1(eleron_control) c2(eleron_catapult)  n1(vehicle_supporter:1)            ) } 
+
 ;==================================Мотобригада===================
-{"yaz_patrior_rapira" {fore 1} ("v" c(100) sc(69) g(uaz2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(1) cw(0) cp(5) t(all_nz   ) n(3)               ) }
+;{"yaz_patrior_rapira" {fore 1} ("v" c(100) sc(69) g(uaz2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(1) cw(0) cp(5) t(all_nz   ) n(3)               ) }
 	
 {"yaz_patrior_kornet" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
+{"2121_atgm" {fore 1} ("v" c(150) sc(100) g(uaz234) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 
-{"2121_atgm" {fore 1} ("v" c(200) sc(69) g(uaz25) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(2) cw(0) cp(15) t(all_nz   ) n(2)               ) }
 
 {"mtlb_c5_vasilek" {fore 1} ("v" c(250) sc(125) g(mtlbvasilek) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(5) cw(0) cp(20) t(all_nz   ) n(4)               ) }
 
@@ -1027,9 +1027,18 @@
 ;==================Иностранные челиксы ====
  {"chekan" {fore 1} ("v3" c(750) sc(170) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(1) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2) n2(ruchich_com:1) n3(ruchich_mg:1) n4(ruchich_rpg:1) n5(ruchich_saper:2) n6(ruchich_smg:1) n7(ruchich_smg2:1) n8(ruchich_sniper:1) ) }	
  {"Hagi_wagner_grup" {fore 1} ("v3" c(750) sc(110) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(2) cw(0) cp(5) t(all_nz inf_rus   ) c1(mtlb_vmk) n(1) n1(vehicle_supporter:2) n2(pmc_com:1) n3(pmc_mgun:2) n4(pmc_rpg:2) n5(pmc_zek:5) n6(pmc_zek2:3)n7(pmc_zek3:2)    ) }
+ {"kazachki" {fore 1} ("v3" c(750) sc(110) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(3) cw(0) cp(5) t(all_nz inf_rus   ) c1(btr80_2_new) n(1) n1(vehicle_supporter:2) n2(kaz_ataman:1) n3(kaz_mg:1) n4(kaz_rpg:1) n5(kaz_rpg_help:1) n6(kaz_smg1:2)n7(kaz_smg2:2)n8(kaz_smg3:2)n9(kaz_sniper:1)     ) }
+ 
+ ;================ СПЕЦ ОЧКИ СЕРБЫ
  
  
+ {"ka50" {fore 0.4} ("p" c(900) sc(250) g(mi24) b(extra) brig(srbs_vdv) s(srbsk)  i(1) m(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ ;{"t-90s" {fore 0} ("v" c(800) sc(200) g(tonk69) b(extra) brig(srbs_mot) s(srbsk)  i(13) cw(0) cp(20) t(all_nz   ) n(3)               ) }
+ {"eleron_catapult_serb" {fore 0.6} ("vart" c(500) sc(50) g(bpla) b(extra) brig(srbs_pmc) s(srbsk)  i(3) m(3) cw(0) cp(5) t(all_nz art   ) c1(eleron_control) c2(eleron_catapult)  n1(vehicle_supporter:1)            ) } 
 
+ ;{"an-12" {fore 0.6} ("vdv_d" c(600) sc(250) g(air) b(extra) brig(srbs_pmc) s(srbsk)  i(4) cw(0) m(4) cp(50) t(all_nz  no_frontline  ) c1(an-12) n(5) n1(pilot:5) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:2) n6(vdv_smg2:1) n7(vdv_smg3:1) n8(vdv_smg4:1)   ) }
+
+ {"an-12bk" {fore 0} ("vdv_d" c(969) sc(250) g(air) b(extra) brig(srbs_pmc) s(srbsk)  i(4) m(4) cw(0) cp(50) t(all_nz  no_frontline  ) c1(an-12bk) c2(bmd2) n(5) n1(pilot:5) n2(vdv_mg:2) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:2) n6(vdv_smg2:2) n7(vdv_smg3:2) n8(vdv_smg4:1) a1(tankman:2)  ) }
 ;===============================ОДКБ===========================================                                   
 ;===============================Common===========================================                                   
  {"dozor-b_1" {fore 1} ("vs" c(240) sc(40) g(reco) b(common) brig(common) s(odkb)  i(1) cw(10) cp(10) t(all_nz recon   ) n(3)               ) }

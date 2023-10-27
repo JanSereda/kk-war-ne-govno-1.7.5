@@ -3,7 +3,7 @@
 	{filling "ammo tochka" 1}
 	{fillingVisible "rock"}
 	{fireSound "reactive/missile_big"}
-		{range 400 400}
+		{range 450 450}
 		{spreading
 			{SpreadRadius 26}	;КВО порядка 450м
 		}

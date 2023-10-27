@@ -1,0 +1,59 @@
+{breed
+	{behaviour soldier}
+	{skin "lnr_kazaki_gorka"}
+	{portrait "_new/rus/inf"}
+	{icon smgs}
+	{icon_priority 0}
+	{nationality rus}
+	{armors
+		{body "6b23-1_smersh"}
+		{head kubanka}
+	}
+	{perks
+		{"vision" mp_soldier
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"pistol" lvl_4
+		}
+		{"gra_launch" lvl_4
+		}
+		{"melee" lvl_3
+		}
+		{"avoidance" lvl_4
+		}
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.9
+		}
+		{"skill_tankgun" lev_1
+		}
+		{"skill_atgm_launcher" lev_4
+		}
+		{"skill_airgun" lev_1
+		}
+		{"skill_airgm_launcher" lev_1
+		}
+	}
+
+	{inventory
+		{item "f1 grenade"}
+		{item "bandage" 5}
+		{item "rus_oficer_planshet"}
+		{item "ak74b" filling "545 ammo" 30}
+		{item "545 ammo" 300}
+		{in_hands 3}
+	}
+}
