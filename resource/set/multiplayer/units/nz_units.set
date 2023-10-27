@@ -959,8 +959,8 @@
 	
  {"at_serbs" {fore 0.9} ("v3" c(500) sc(111) g(atat) b(supl) brig(common) s(srbsk)  i(5) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(at2:2) n3(at2_2:2) 	)}                   
 
-("squad_with1types" name(spotter) f(1)  c(500) cost(120) g(eng) b(supl) brig(common) side(srbsk)     t(all_nz    )  c1(spotter:1)              ) 
-          
+
+{"furgon" {fore 1} ("v3" c(900) sc(200) g(269)  b(supl) brig(common) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(spotter:1)      ) }  
 
 ;==================================Мотобригада===================
 ;{"yaz_patrior_rapira" {fore 1} ("v" c(100) sc(69) g(uaz2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(1) cw(0) cp(5) t(all_nz   ) n(3)               ) }

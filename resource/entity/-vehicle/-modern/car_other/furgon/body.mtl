@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "$/model/furgon_swat/furgon"}
+	{color "230 230 230 25"}
+	{blend none}
+}
+
+
+
+
+

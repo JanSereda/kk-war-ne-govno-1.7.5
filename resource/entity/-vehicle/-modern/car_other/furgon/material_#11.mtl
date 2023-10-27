@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/model/dodje/all_engine"}
+	{color "230 230 230 25"}
+	{blend none}
+}
+
+
+
