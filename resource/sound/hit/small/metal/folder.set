@@ -1,0 +1,5 @@
+{sound
+	{signal hit 0}
+	{loudness "whizz"}
+	{volume		1.00}
+}
