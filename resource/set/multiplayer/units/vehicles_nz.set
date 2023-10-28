@@ -269,3 +269,8 @@
 )
 
 (include "nz_units.set")
+(include "nz_rus.set")
+(include "nz_usa.set")
+(include "nz_cn.set")
+(include "nz_nato.set")
+(include "nz_isis.set")

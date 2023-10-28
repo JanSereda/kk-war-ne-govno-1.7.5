@@ -1,0 +1,108 @@
+     
+;===============================ИЗИС===========================================                                   
+;===============================Common===========================================                                   
+("squad_with11types_custom" side(iregular) crew_nation(iregular) name(regular_non_mech_peha) c(170) g(regular_non_mech_peha1) 
+  c1(army_com) c2(army_mgun:1) c3(army_mgunhelp:1) c4(army_radio:1) c5(army_rpg:1) c6(army_rpghelp:1) c7(army_smg:1) c8(army_smg2:2) c9(army_sniper:1)
+  b(common) brig(common) t(all_nz inf_irg) cost(50) f(1.0) 
+)
+("squad_with11types_custom" side(iregular) crew_nation(iregular) name(regular_at2) c(120) g(regular_at2) 
+  c1(bazooker2:2) 
+  b(common) brig(common) t(all_nz inf_irg) cost(30) f(1.0) 
+)	
+{"gaz_66i" {fore 1} ("v3" c(100) sc(80) g(inf) b(common) brig(common) s(iregular)  i(1) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(gaz66) n1(vehicle_supporter:1) n2(army_com:1) n3(army_mgun:1) n4(army_mgunhelp:1) n5(army_radio:1) n6(army_rpg:1) n7(army_rpghelp:1)  n8(army_smg:2)  n9(army_smg2:2)     ) }
+{"btr60i" {fore 1} ("v3" c(200) sc(111) g(inf_btr) b(common) brig(common) s(iregular)  i(2) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(btr60) n1(tankman:2) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)        ) }
+
+
+ {"spg_9" {fore 1} ("vs" c(120) sc(30) g(stan3) b(common) brig(common) s(iregular)  i(3) cw(1) cp(5) t(all_nz    ) n(2)               ) }                                 
+ {"grad_p" {fore 1} ("vs" c(350) sc(40) g(stan5) b(common) brig(common) s(iregular)  i(4) cw(1) cp(10) t(all_nz    ) n(2)               ) }  
+ 
+
+
+{"bmp1_newi" {fore 1} ("v3" c(240) sc(120) g(inf_btr2) b(common) brig(common) s(iregular)  i(6) cw(0) cp(2) t(all_nz infantry  ) n(1) c1(bmp1_isis) n1(tankman:3) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)        ) }
+
+
+("squad_with2types" name(pzrk) f(1)  c(250) cost(30) g(pzrk) b(common) brig(common) side(iregular)     t(all_nz antiair   )  c1(pzrk1:2)             ) 
+ {"pzrk2_iregular" {fore 0.9} ("v3" c(500) sc(69) g(pzrk2) b(common) brig(common) s(iregular)  i(5) cw(0) cp(0) t(all_nz aat  ) c1(toyota_hilux_transport) n(2) n1(vehicle_supporter:1) n2(pzrk1:2) n3(pzrk2:2) n4(pzrk3:2)	)}    
+("squad_with1types" name(spotter) f(1)  c(500) cost(120) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    )  c1(spotter:1)              ) 
+    
+;===============================Вспомогательные войска===========================================                                   
+
+					
+;{"toyota_hilux_nurs" {fore 1} ("vs" c(222) sc(100) g(art_toyhota) b(supl) brig(common) s(iregular)  i(2) cw(5) cp(5) t(all_nz    ) n(4)               ) }							
+{"uazpzrk" {fore 0} ("vs" c(222) sc(50) g(reserv_3) b(supl) brig(common) s(iregular)  i(3) cw(5) cp(5) t(all_nz    ) n(3)               ) }
+{"uazm2" {fore 1} ("vs" c(222) sc(50) g(reserv_4) b(supl) brig(common) s(iregular)  i(4) cw(5) cp(5) t(all_nz    ) n(3)               ) }
+
+{"toyota_hilux_dshkm" {fore 1} ("vs" c(222) sc(100) g(reserv_5) b(supl) brig(common) s(iregular)  i(5) cw(5) cp(5) t(all_nz    ) n(2)               ) }
+{"hmmwv_isis" {fore 1} ("vs" c(222) sc(50) g(reserv69) b(supl) brig(common) s(iregular)  i(5) cw(5) cp(5) t(all_nz    ) n(3)               ) }
+
+{"toyota_hilux_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(iregular)  i(6) cw(5) cp(5) t(all_nz    ) n(2)               ) }
+
+
+ {"toyota_hilux_ammo" {fore 1} ("v3" c(600) sc(100) g(69) b(supl) brig(common) s(iregular)  i(20) cw(0) cp(2) t(all_nz supply ) n(2) c1(toyota_hilux_ammo) n1(vehicle_supporter:2)      ) }
+ {"mtlb_supl" {fore 1} ("v3" c(900) sc(100) g(169) b(supl) brig(common) s(iregular)  i(21) cw(0) cp(10) t(all_nz supply ) n(2) c1(mtlb_supl) n1(vehicle_supporter:2)      ) }
+
+ {"brdm2_strelaii" {fore 1} ("v3" c(200) sc(69) g(pvo_st) b(common) brig(common) s(iregular)  i(22) cw(0) cp(15) t(all_nz   ) c1(brdm2_strela) n(1) n1(tankman:3)      ) }
+ {"Shilka_i" {fore 0} ("v3" c(300) sc(90) g(pvo2)  b(common) brig(common) s(iregular)  i(23) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(tankman:4)      ) }
+ {"9k35_strela-10" {fore 0} ("v3" c(300) sc(90) g(pvo3)  b(common) brig(common) s(iregular)  i(24) cw(0) cp(15) t(all_nz   ) c1(9k35_strela-10) n(1) n1(tankman:4)      ) }
+ 
+
+                                  
+("squad_with2types" name(tankman) f(1)  c(1) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(tankman) c1(tankman:2)              ) 
+("squad_with1types" name(vehicle_supporter) f(1)  c(30) cost(5) g(support) b(supl) brig(common) side(iregular)     t(all_nz    ) info(vehicle_supporter) c1(vehicle_supporter:4)              ) 
+("squad_with2types" name(pilot) f(1)  c(50) cost(5) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    ) info(pilot) c1(Pilot:1)              ) 
+                                   
+
+
+
+
+;=========================================== АРТА   ================== ================== ==================                
+
+{"ural_grad" {fore 0} ("v" c(600) sc(200) g(art_heavy) b(iart_hqcar) brig(iart) s(iregular)  i(1) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+
+
+;{"hj73_stan" {fore 1} ("v" c(100) sc(30) g(no_art) b(iart_hqcar) brig(iart) s(iregular)  i(2) cw(0) cp(5) t(all_nz art  support_frontline) n(1)               ) }
+{"ptur_tow_isis" {fore 1} ("v" c(200) sc(30) g(no_art1) b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
+{"kornet_base_stan_isis" {fore 0} ("v" c(300) sc(30) g(no_art2) b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
+
+;{"type_pp87"  {fore 1} ("v" c(300) sc(100) g(art2) b(iart_hqcar) brig(iart) s(iregular)  i(3) cw(0) cp(10) t(all_nz art  support_frontline) n(2)               ) }
+
+{"ags17" {fore 1} ("v" c(300) sc(69) g(art3) b(iart_hqcar) brig(iart) s(iregular)  i(4) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"2c1_isis" {fore 0.75} ("vart" c(300) sc(169) g(art_heavy) b(iart_hqcar) brig(iart) s(iregular)  i(5) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(2c1_isis) n1(vehicle_supporter:4)           ) }
+{"2b11_isis" {fore 0} ("v" c(300) sc(120) g(art5) b(iart_hqcar) brig(iart) s(iregular)  i(6) cw(0) cp(15) t(all_nz art  support_frontline) n(2)               ) }
+{"type63_rocket2i" {fore 0.75} ("vart" c(250) sc(100) g(art6) b(iart_hqcar) brig(iart) s(iregular)  i(7) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
+{"zu23-2i" {fore 1} ("vart" c(200) sc(69) g(art7) b(iart_hqcar) brig(iart) s(iregular)  i(8) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(zu23-2) n1(vehicle_supporter:2)            ) }
+{"2c3_akaciya_irg" {fore 0} ("v3" c(500) sc(210) g(art_heavy)  b(iart_hqcar) brig(iart) s(iregular)  i(9) cw(0) cp(7) t(all_nz   ) c1(2c3_akaciya) n(1) n1(tankman:4)      ) }
+{"9k35_strela_nurs" {fore 0} ("v" c(787) sc(91) g(art9) b(iart_hqcar) brig(iart) s(iregular)  i(10) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
+{"brdm2_atgm" {fore 0} ("v" c(333) sc(100) g(art10) b(iart_hqcar) brig(iart) s(iregular)  i(11) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
+{"9k72" {fore 0} ("vs" c(1330) sc(469) g(otrk)  b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(69) t(all_nz art support_frontline 9k72 ) n(7)               ) } 
+
+;===================================== Тяжёлая бригада =====================================================
+
+{"brem-1" {fore 1} ("v3" c(900) sc(120) g(269)  b(iregular_mot_hqcar) brig(iregular_mot)s(iregular)  i(1) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1) n1(vehicle_supporter:4)      ) }
+ 
+ 
+{"t-55" {fore 1} ("v" c(100) sc(69) g(tonk) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(2) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"t64" {fore 1} ("v" c(120) sc(100) g(tonk3) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(3) cw(0) cp(10) t(all_nz   ) n(3)               ) }
+{"t62_isis" {fore 1} ("v" c(140) sc(100) g(tonk2) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(4) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+
+{"t72m_siriya" {fore 1} ("v" c(260) sc(105) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(5) cw(0) cp(30) t(all_nz    ) n(3)               ) }
+{"m1_abrams" {fore 1} ("v" c(260) sc(105) g(tank_old_new1)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(6) cw(0) cp(30) t(all_nz    ) n(5)               ) }
+ 
+{"leopard_2a0" {fore 1} ("v" c(300) sc(120) g(tank_old_new2)b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(7) cw(0) cp(30) t(all_nz    ) n(4)               ) }
+ 
+{"t72av" {fore 0} ("v" c(600) sc(180) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(8) cw(0) cp(35) t(all_nz    ) n(3)               ) }
+{"t80ybars" {fore 0} ("v_v" c(900) sc(222) g(tonk_pizdec) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(9) cw(0) cp(50) t(all_nz rogatka   ) n(3)               ) }
+
+
+;=========================================Средняя бригада=============================================
+
+ {"bmp2_new_irg" {fore 1} ("v3" c(220) sc(69) g(heavy_peha)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(1) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(bmp2_new) n(1) n1(tankman:3)   ) }       
+{"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(2) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
+{"m113a_irg" {fore 1} ("v3" c(220) sc(110) g(heavy_peha2)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(3) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(m113a) n(1) n1(tankman:2) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)    ) }     
+{"btr80_2_newi" {fore 1} ("v3" c(669) sc(150) g(specnaz)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(4) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(btr80_2_new) n(1) n1(tankman:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)     ) }     
+{"saper_squad" {fore 0} ("v3" c(180) sc(100) g(sapres)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(5) cw(0) cp(10) t(all_nz inf_irg infantry ) c1(toyota_hilux_transport) n(1) n1(tankman:1) n2(saper:5)     ) }     
+{"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(222) g(tonk1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(11) cw(0) cp(50) t(all_nz rogatka   ) n(1)               ) }								
+ {"sso_irg" {fore 1} ("v3" c(900) sc(469) g(sso)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(25) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_unarmed) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
+	
+
+
