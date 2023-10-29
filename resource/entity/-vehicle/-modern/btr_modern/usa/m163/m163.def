@@ -1,0 +1,98 @@
+;Модель предоставил WarDen
+;Конвертация в игру Pheonix
+;Настрока ТТХ Timosh
+
+
+{ArmoredCar 
+	(include "/properties/tank_amph.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.1))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+
+	{collider "tank.light"}
+	{props "light_M" "turret_rotator" "vision_lev04"  "amphibia" "sam" "sam_radar"}
+        {targetClass "light_tank"}
+	{PatherID "amphibia"}
+
+	{extension "crew.ext"}
+        {extender "enumerator"}
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+	}
+	{volume "gun"
+		{thickness 15}
+	}
+
+	("armor_light" turret(15 15 15 1) body(13 13 13 11))
+	("armor_engine"  t(20))
+
+	{placer 
+		{place "driver" {group "crew"} }
+		{place "commander"	{group "crew"} {visor "radar"}}
+		{place "gunner" {group "crew"} {linkbone "gunner"}}
+	}
+
+
+	{extender "inventory"
+		{box
+			{item "ammo vulcan20mm" 600}
+		}
+	}	
+	{Weaponry
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "vulcan" filling "ammo vulcan20mm" 500}
+			("CW_stab_no_stabiliser")
+			{gunner "gunner"}
+			{charger "gunner"}  
+		}
+		
+	}
+	{sensor
+		{visor "main"
+			{vision "tank_gunner_optic_IR_1g"}	;предположительно, машина старая
+		}
+		{visor "radar"
+			{vision "radar_wide"}
+			{bone "visor3"}
+		}
+	}
+	("sam_radar" type(usa))
+
+	{mass 12600}
+	{Chassis
+                ("tank_trace" fx("tracks_sm") step(0.15) len(0.45))
+		("CW_tracks"
+			Mass(12.5)
+			Width(2.85)
+			Power(215)
+			Realspeed(64)
+			Gamespeed(40) 
+			Range(480)
+			Fuelvolume(360)
+		)
+	}
+	{props "cwfs_fuel_300"}
+
+	("CW_amphibia" Waterline(1.7) )
+	("two_headlights")
+	{Extension "m163.mdl"}
+	("missile_aimpoint_tanksize")
+
+	("cwts_buksir")
+
+	{bone "gun_rot"
+		{limits -5 80}
+	}
+	{texmod "m163"}
+	("CW_turr_speed" deg_per_s(40))
+
+
+}
+
+

@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+
+	{props "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "phl03 ammo cl brc4"}
+	}
+	{Extension "phl03ammo_bre2.mdl"}
+}

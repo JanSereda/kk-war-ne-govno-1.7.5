@@ -1,0 +1,12 @@
+;Model by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{props "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "ammo m270 fg"}
+	}
+	{Extension "mlrs_fg_ammo.mdl"}
+}

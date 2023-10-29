@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{extension "vog_25p.mdl"}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo mortar pd p"}
+	}
+}

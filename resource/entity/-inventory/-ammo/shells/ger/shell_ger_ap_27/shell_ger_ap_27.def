@@ -1,0 +1,10 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet27_ger ap ammo"}
+	}
+
+	{Extension "shell_ger_ap_27.mdl"}
+}

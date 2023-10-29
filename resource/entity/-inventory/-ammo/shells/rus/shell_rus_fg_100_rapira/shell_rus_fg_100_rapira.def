@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet100_rus_rapira fg"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_rus_fg_100_rapira.mdl"}
+}
+

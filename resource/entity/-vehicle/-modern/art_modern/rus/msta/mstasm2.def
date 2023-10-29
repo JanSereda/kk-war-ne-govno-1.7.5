@@ -102,8 +102,8 @@
 			{item "ammo bullet152_RUS fg" 25}
 			{item "ammo bullet152_RUS korr" 3}
 			{item "ammo bullet152_RUS_r fg" 5}
-			
-			{item "ammo bullet152_RUS_h fg" 15}	
+			{item "ammo bullet152_RUS rok" 10}
+			{item "ammo bullet152_RUS_h fg" 10}	
 			{item "ammo Hcb_ammo" 75} 
 			{item "ammo osv_fg" 75}	
 		}

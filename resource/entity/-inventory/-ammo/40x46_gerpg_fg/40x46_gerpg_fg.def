@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{Extension "m583a1_l.mdl"}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo 40x46_gerpg fg"}
+	}
+}

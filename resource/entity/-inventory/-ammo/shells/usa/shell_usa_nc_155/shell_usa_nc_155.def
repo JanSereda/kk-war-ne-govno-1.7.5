@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_shell.ext")
+	{extender "stuff"
+		{item "bullet155_USA nc"}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "shell_usa_nc_155.mdl"}
+	
+}

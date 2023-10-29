@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{Extension "gm94_1.mdl"}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo gm94ammo l"}
+	}}

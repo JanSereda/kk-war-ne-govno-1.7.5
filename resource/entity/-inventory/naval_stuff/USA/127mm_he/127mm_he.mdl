@@ -1,0 +1,60 @@
+;Exported by: Администратор
+;Date:        Sat Aug 23 09:51:42 2014
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Флот\Arley Burke\Хороший\Mark 80 HE-PD\Mark 80 HE-PD 1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Position -6.7982	0.0338107	0.0911368}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.1157 2.52276 2.59928}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0	0.0127051	0.000331062
+	}
+}
+{Volume "select"
+	{Box 13.5131 2.5992 2.67804}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0	-0.0266753	0.00033106
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.194899	-28.3047	-3.30289}
+			{lookat 0.0732617	-0.919262	-0.834369}
+			{fov 31.7555}
+			{horizon 0.891752}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.57412	-3.00895	12.0074}
+			}
+			{"1"
+				{type directional}
+				{direction -0.072523	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -5.483	-1.90805	8.77799}
+			}
+		}
+	}
+}

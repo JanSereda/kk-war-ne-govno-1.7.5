@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet152_RUS rok"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_152amm_reactive.mdl"}
+}

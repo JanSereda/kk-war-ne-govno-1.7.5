@@ -1,0 +1,65 @@
+;Exported by: Timosh
+;Date:        Fri Jul 03 20:10:12 2015
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Флот\МРК Овод\Вооружение\76mm_shell.max
+{Skeleton
+	{bone "cylinder01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "cylinder01.ply"}
+		{bone "tail"
+			{Matrix34
+				0	0	-1
+				0	-1	0
+				-1	0	0
+				0	0	-8.05118
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.5424 2.0021 1.69161}
+	{Bone "cylinder01"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		0.106095	0	-0.0984246
+	}
+}
+{Volume "select"
+	{Box 20.5125 2.96311 2.57124}
+	{Bone "cylinder01"}
+	{Matrix34
+		0	0	-1
+		0	-1	0
+		-1	0	0
+		-0.333722	0	-0.0984242
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -5.47979	43.552	-0.842804}
+			{lookat -2.6633	9.69574	-1.08727}
+			{fov 31.7555}
+			{horizon -89.9689}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -12.0074	16.8195	-10.938}
+			}
+			{"1"
+				{type directional}
+				{direction 0.317994	-0.378972	0.0725235}
+			}
+			{"2"
+				{type point}
+				{position -8.77807	15.7186	-0.88092}
+			}
+		}
+	}
+}

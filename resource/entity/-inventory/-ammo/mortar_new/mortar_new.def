@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{extension "minomet.mdl"}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo mortar of"}
+	}
+	{props "steel" "explosive_stuff"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "30mm_head"}
+	{blend none}
+}

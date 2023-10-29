@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{Extension "dfs10.mdl"}
+	(include "/properties/shadow/round.inc")
+	{extender "stuff"
+		{item "ammo dfs10"}
+	}
+}

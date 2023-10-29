@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo 23mm_shotgun gas_short"}
+	}
+
+	{Extension "winm12_ammo.mdl"}
+}

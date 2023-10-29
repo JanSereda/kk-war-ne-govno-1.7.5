@@ -1,0 +1,10 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet115_rus apcr_h"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_rus_apcr_115.mdl"}
+}

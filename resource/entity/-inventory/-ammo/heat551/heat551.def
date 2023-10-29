@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+;
+	{Extension "heat551.mdl"}
+	{extender "stuff"
+		{item "gustaf3 heat551 ammo"}
+	}
+
+
+}

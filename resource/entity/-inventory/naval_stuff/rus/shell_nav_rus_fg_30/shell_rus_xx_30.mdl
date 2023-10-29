@@ -1,0 +1,73 @@
+;Exported by: Pheonix
+;Date:        Mon Aug 31 19:21:39 2009
+;File:        D:\Documents and Settings\Pheonix\Мои документы\3dsmax\scenes\MyWorks\Shells\Modern\RUS_30mm_all.max
+{Skeleton
+	{bone "30mm"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "30mm.ply"}
+		{bone "head30"
+			{Position 8.72816	-0.00109336	0.00538258}
+			{VolumeView "head30.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "30mm"}
+	{Position 5.75057	-0.0126579	-0.577713}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "30mm"}
+	{Position 5.55579	-0.14745	-2.34605}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.5124	-2.99787	18.4992}
+			{lookat 3.58455	-1.6732	10.6474}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -3.43125	-0.0901812	0.936089}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0184001	0.212226	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 13.8203	-5.96283	2.50543}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.78191	-1.83424	10.7387}
+			{lookat 6.89601	0.181729	-1.21219}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -6.82403	4.55984	-10.5186}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0179491	0.212264	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 10.415	-1.34945	-8.94923}
+			}
+		}
+	}
+}

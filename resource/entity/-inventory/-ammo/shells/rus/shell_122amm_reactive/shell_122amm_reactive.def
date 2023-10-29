@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+
+	{props "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "bullet122_rus rok"}
+	}
+	{Extension "shell_122amm_reactive.mdl"}
+}

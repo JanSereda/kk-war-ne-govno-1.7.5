@@ -1,0 +1,13 @@
+{Actor
+	(include "/properties/stuff_shell.ext")
+
+
+	{props "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "tornado_s ammo 9m549"}
+	}
+	{Extension "9k537.mdl"}
+}

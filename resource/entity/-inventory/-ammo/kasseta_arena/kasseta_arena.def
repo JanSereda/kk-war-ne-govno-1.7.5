@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "arena ammo"}
+	}
+
+	{Extension "kasseta_arena.mdl"}
+
+}

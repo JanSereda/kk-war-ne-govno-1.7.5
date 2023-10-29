@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "pgu-13b"}
+	{blend none}
+}

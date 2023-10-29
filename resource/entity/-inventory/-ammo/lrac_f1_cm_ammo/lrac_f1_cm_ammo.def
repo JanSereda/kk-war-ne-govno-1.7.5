@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{Extension "lrac_f1_cm_ammo.mdl"}
+	{extender "stuff"
+		{item "lrac_f1 cm ammo"}
+	}
+
+
+}

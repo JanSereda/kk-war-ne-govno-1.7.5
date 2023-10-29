@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_shell.ext")
+
+	{Extension "pfaust3_ammo.mdl"}
+	{extender "stuff"
+		{item "pfaust3_ammo"}
+	}
+	{nogroupmesh 1}
+}

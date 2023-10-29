@@ -1,0 +1,10 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo mk30abm_abm fg"}
+	}
+
+	{Extension "30mm_abm.mdl"}
+}

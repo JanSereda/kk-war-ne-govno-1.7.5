@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "matador_injector"}
+	}
+	{Extension "matador_injector.mdl"}
+	{constrain none}
+	{fogable never}
+	{volume "body" {able clear}}
+
+}

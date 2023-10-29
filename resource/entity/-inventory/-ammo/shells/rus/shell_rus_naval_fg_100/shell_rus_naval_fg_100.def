@@ -1,0 +1,10 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet100_rus_nav fg"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_rus_fg_100.mdl"}
+}

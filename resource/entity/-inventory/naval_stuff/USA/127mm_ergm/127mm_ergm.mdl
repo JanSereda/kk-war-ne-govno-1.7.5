@@ -1,0 +1,60 @@
+;Exported by: Администратор
+;Date:        Sat Aug 23 10:59:02 2014
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Флот\Arley Burke\Хороший\ERGM\ERGM 1.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Position -8.23807	0.0990324	0.0911371}
+		}
+	}
+}
+{Volume "body"
+	{Box 13.1157 2.52276 2.59928}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.43987	0.0779269	0.000331385
+	}
+}
+{Volume "select"
+	{Box 13.5131 2.5992 2.67804}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.43987	0.0385464	0.000331383
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.68295	-41.7893	0.138093}
+			{lookat -1.36665	-0.98449	-0.834365}
+			{fov 31.7555}
+			{horizon -179.11}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.13422	-3.07418	12.0074}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725233	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -6.9229	-1.97328	8.778}
+			}
+		}
+	}
+}

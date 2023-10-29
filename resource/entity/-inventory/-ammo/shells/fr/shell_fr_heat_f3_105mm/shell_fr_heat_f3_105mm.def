@@ -1,0 +1,10 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet105a_fr cm ammo"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_fr_heat_f3_105mm.mdl"}
+}

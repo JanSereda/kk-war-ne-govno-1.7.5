@@ -1,0 +1,11 @@
+;Model by StarMeh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+
+	{extender "stuff"
+		{item "gsh-30_ammo ap"}
+	}
+	{props "explosive_stuff"}
+	{Extension "gsh-30_ap.mdl"}
+}

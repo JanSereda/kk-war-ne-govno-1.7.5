@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "heat_rpg75"}
+	}
+	{Extension "rpg75_heat.mdl"}
+	{constrain none}
+	{fogable never}
+
+}

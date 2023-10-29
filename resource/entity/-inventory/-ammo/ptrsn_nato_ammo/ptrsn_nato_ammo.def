@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo nato_ptr sn"}
+	}
+
+	{Extension "ptr_ammo.mdl"}
+}

@@ -1,0 +1,10 @@
+;by g521
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo 762"}
+	}
+
+	{Extension "762ammo.mdl"}
+}

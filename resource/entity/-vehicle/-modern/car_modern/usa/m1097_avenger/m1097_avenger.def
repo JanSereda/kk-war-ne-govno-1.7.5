@@ -113,7 +113,7 @@
 	{sensor
 		{visor "gunner"
 			{bone "visor2"}
-			{vision "aircraft_optic_IR_3g"}	;телескопический+FLIR
+			{vision "aircraft_optic_3g_wide"}	;телескопический+FLIR
 		}
 	}		
 

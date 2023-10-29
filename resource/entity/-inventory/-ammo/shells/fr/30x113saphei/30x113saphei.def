@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet30_USA ap ammo"}
+	}
+
+	{Extension "30x113saphei.mdl"}
+}

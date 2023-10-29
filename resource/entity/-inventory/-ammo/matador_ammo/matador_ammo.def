@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "matador_ammo ammo"}
+	}
+	{Extension "m72law-rocket.mdl"}
+	{constrain none}
+	{fogable never}
+
+}

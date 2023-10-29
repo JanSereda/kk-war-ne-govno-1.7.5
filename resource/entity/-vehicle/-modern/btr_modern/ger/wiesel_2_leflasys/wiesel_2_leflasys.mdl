@@ -1,6 +1,6 @@
 ;Exported by: Timosh
-;Date:        Thu Oct 19 14:44:51 2023
-;File:        G:\?????? ? Pheonix\??????????????\??????\???\Wiesel 2 Ozelot\Wiesel-2_ozelot 5.max
+;Date:        Sun Oct 22 08:10:29 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\???\Wiesel 2 Ozelot\Wiesel-2_ozelot final.max
 {Skeleton
 	{animation
 		{sequence "start" {speed 0.4}}
@@ -120,7 +120,7 @@
 					-7.39415	-6.90827	11.8265
 				}
 			}
-			{bone "fxlight2"
+			{bone "headlightr"
 				{Matrix34
 					0	-1	0
 					0	0	1
@@ -128,7 +128,7 @@
 					-15.1421	-44.4052	-2.09143
 				}
 			}
-			{bone "fxlight1"
+			{bone "headlightl"
 				{Matrix34
 					0	-1	0
 					0	0	1
@@ -179,13 +179,13 @@
 			{bone "emit2"
 				{Position -38.0726	1.88605	-24.2353}
 			}
-			{bone revolute "foresight9"
+			{bone revolute "fxlight"
 				{limits -5 5}
 				{Matrix34
-					0	-0.707107	0.707107
-					0	-0.707107	-0.707107
+					0	-1	0
 					1	0	0
-					3.5123	-47.6458	-1.96422
+					0	0	1
+					0.244359	-50.6493	-1.96422
 				}
 			}
 			{bone revolute "wheelr1"
@@ -499,6 +499,31 @@
 							}
 						}
 					}
+				}
+			}
+			{bone revolute "foresight19"
+				{limits -5 5}
+				{Matrix34
+					0	-0.707107	0.707107
+					1	0	0
+					0	0.707107	0.707107
+					2.49019	-47.699	-1.96422
+				}
+			}
+			{bone "fxfire2"
+				{Matrix34
+					0	-1	0
+					0	0	1
+					-1	0	0
+					7.8071	25.924	-5.51356
+				}
+			}
+			{bone "fxsteam"
+				{Matrix34
+					0	-1	0
+					0	0	1
+					-1	0	0
+					7.8071	-18.8366	3.98742
 				}
 			}
 		}

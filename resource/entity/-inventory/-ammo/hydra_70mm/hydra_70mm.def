@@ -1,0 +1,12 @@
+;Created by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+        
+	
+	{extender "stuff"
+		{item "ammo bullet70_hydra"}
+	}
+	{extension "hydra.mdl"}
+	
+}

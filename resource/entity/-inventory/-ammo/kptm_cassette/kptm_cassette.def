@@ -1,0 +1,11 @@
+;by NicolaruS
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+
+	{extender "stuff"
+		{item "ksf_cassette kptm ammo"}
+	}
+	{props "explosive_stuff"}
+	{extension "kcf.mdl"}
+}

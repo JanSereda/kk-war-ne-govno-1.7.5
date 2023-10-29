@@ -1,0 +1,10 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet25_usa ap ammo"}
+	}
+
+	{Extension "35mm_apcr.mdl"}
+}

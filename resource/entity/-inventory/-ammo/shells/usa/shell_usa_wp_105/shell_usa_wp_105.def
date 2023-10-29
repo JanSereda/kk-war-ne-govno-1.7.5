@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_shell.ext")
+	{extender "stuff"
+		{item "shell_usa_wp_105"}
+	}
+	{props "steel" "explosive_stuff"}
+	{Extension "shell_usa_wp_105.mdl"}
+	
+}

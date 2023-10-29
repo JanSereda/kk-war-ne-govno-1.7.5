@@ -1,0 +1,7 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{props "explosive_stuff"}
+	{Extension "bullet.mdl"}
+}

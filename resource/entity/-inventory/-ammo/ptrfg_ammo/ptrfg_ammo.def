@@ -1,0 +1,10 @@
+;by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo osv_fg"}
+	}
+
+	{Extension "ptr_ammo.mdl"}
+}

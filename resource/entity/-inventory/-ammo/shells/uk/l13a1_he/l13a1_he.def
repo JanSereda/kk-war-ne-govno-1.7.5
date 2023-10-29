@@ -1,0 +1,11 @@
+;Created by $an-SchezZzzz
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet30_gb fg ammo"}
+	}
+
+	{extension "l14a2_apds.mdl"}
+	{props "explosive_stuff"}
+}

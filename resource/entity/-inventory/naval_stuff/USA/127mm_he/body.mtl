@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "mark_80_he_pd"}
+	{blend none}
+}

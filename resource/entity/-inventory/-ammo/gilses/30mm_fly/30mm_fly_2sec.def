@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "wind"}
+	}
+	{Extension "30mm_fly.mdl"}
+	("cw_self_destroy_2sec")
+}

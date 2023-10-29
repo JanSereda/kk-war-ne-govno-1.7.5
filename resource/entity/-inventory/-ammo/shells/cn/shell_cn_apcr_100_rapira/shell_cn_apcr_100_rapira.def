@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet100_cn_rapira apcr"}
+	}
+	{props "explosive_stuff"}
+	{Extension "lapfsds_ptl02.mdl"}
+}

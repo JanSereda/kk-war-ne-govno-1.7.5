@@ -1,0 +1,94 @@
+{Entity
+           (include "/properties/tank_amph.ext")		
+           (include "/properties/shadow/tank.inc"  scale(1.1))		
+           (include "/properties/selection/vehicle.inc"  scale(1.1))
+
+           {collider "tank.light"}		
+           {props "light_M" "vision_lev04"  "amphibia" "sam"}
+	
+           {targetClass "light_tank"}		
+           {PatherID "amphibia"}
+
+          {volume "body"			
+                {tags "body"}			
+                {component "body"}		
+          }		
+          {volume "turret"			
+                  {tags "turret"}			
+                  {component "turret"}		
+          }		
+          {volume "gun"   {thickness 15}}
+          {volume "gun2"   {thickness 20}}
+
+          ("armor_light" turret(15 15 15 1) body(13 13 13 11))		
+          ("armor_engine"  t(20))
+
+          {extension "crew.ext"}
+
+        {extender "inventory"			
+                  {box				
+                     {item "ammo vulcan20mmB" 600}
+                     {item "ammo fim-92a_ammo" 4}
+			{item "netting_kit" 5}			
+                  }		
+        }
+        {Weaponry
+	("restore_ik_time")
+              {place "gun"				
+                     {RestoreIKAfterAim}				
+                     {weapon "vulcan" filling "ammo vulcan20mmB" 500}
+                     			("CW_stab_no_stabiliser")			
+                     {gunner "gunner"}				
+                     {charger "gunner"}
+                     {basic}  			
+              }			
+              {place "gun2"				
+                     {RestoreIKAfterAim}
+                    {weapon "fim-92a_x4" filling "ammo fim-92a_ammo" 4}				
+                    {foresight "foresight"}				
+                    {charger "gunner"}				
+                    {gunner "gunner"}
+                    {barrels 4}	
+                    {basic}	
+              }
+					
+        }
+
+
+       {sensor			
+             {visor "main"				
+                 {vision "tank_gunner_optic_IR_3g"}
+             }
+        } 
+       
+
+
+
+       {mass 12600}		
+       {Chassis	                
+          ("tank_trace" fx("tracks_sm") step(0.15) len(0.45))			
+          ("CW_tracks"				
+                  Mass(12.5)	
+                  Width(2.85) 
+                  Power(215)	
+                  Realspeed(64)				
+                  Gamespeed(40) 				
+                  Range(480)				
+                  Fuelvolume(360)			
+           )		
+       }		
+	{props "cwfs_fuel_300"}
+
+       ("CW_amphibia" Waterline(1.7) )
+	("two_headlights")
+{Extension "m163machbet.mdl"}
+	("missile_aimpoint_tanksize")
+
+	("cwts_buksir")
+
+      {bone "gun_rot"			
+             {limits -5 80}		
+      }		
+	("CW_turr_speed" deg_per_s(60))
+
+}

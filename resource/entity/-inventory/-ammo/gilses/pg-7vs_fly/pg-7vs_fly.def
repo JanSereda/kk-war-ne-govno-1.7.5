@@ -1,0 +1,7 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{extender "stuff"
+		{item "wind"}
+	}
+	{Extension "pg-7vs_fly.mdl"}
+}

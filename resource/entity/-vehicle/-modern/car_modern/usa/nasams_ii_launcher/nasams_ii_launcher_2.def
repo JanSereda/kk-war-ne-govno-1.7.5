@@ -71,10 +71,10 @@
 			{vision "vehicle_main"}
 			{bone "visor2"}
 		}
-;		{Visor "passive"	;вроде бы без него тоже работает, но на всякий - все замоделлено
-;			{vision "vertical_antimissile_side"}
-;			{bone "visor1"}
-;		}
+		{Visor "passive"	;вроде бы без него тоже работает, но на всякий - все замоделлено
+			{vision "sam_no_radar_datalink"}
+			{bone "visor1"}
+		}
 		{RecognizeTime 0.1}
 		{InformRange 300 300}
 	}

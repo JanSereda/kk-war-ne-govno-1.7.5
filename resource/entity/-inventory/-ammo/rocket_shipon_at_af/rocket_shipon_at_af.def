@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "rocket_shipon_at_af ammo"}
+	}
+	{Extension "rocket_shipon_at_af.mdl"}
+	{constrain none}
+	{fogable never}
+
+}

@@ -1,0 +1,10 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "762cn_200ammo"}
+	}
+
+	{Extension "762cn_200ammo.mdl"}
+}

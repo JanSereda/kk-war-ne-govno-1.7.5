@@ -2,7 +2,7 @@
 	(include "/properties/tank.ext")
 	(include "/properties/shadow/tank.inc"  scale(1.0))
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
-	{props "armored_car_M" "turret_rotator" "tank" "turret" "with_gun" "vision_lev01" "can_paradrop_il-76td" "can_paradrop_an-12" "sam" "cw_panorama"}
+	{props "armored_car_M" "turret_rotator" "tank" "turret" "with_gun" "vision_lev01" "can_paradrop_il-76td" "can_paradrop_an-12" "sam" "cw_panorama" "4_barrels_smoke"}
    
 	("armor_light_btr" turret(6 6 6 6) body(8 8 8 8))
      {targetClass "light_tank"}
@@ -59,6 +59,14 @@
 			{LinkBone "mgun"}
 			{basic}
 		}	
+		{place "mgun19"			;дым гранатометы
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight19"}
+			{barrels 4}
+		}
 	}
 	{sensor
 		{visor "driver"
@@ -66,7 +74,7 @@
 			{bone "visor2"}
 		}
 		{visor "gunner"
-			{vision "aircraft_optic_3g_wide"}
+			{vision "aircraft_optic_3g_360"}
 			{bone "visor1"}
 		}
 		{visor "add"

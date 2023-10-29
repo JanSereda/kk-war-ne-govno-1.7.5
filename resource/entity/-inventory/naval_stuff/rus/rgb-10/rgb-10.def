@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{Volume "proximity"		{thickness 1}	{able clear}	}
+	(include "/properties/shadow/round.inc")
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "ammo 305mm_rbu"}
+	}
+	{Extension "rgb-10.mdl"}
+}

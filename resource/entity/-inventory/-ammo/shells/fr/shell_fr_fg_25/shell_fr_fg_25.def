@@ -1,0 +1,11 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet25_fr fg ammo"}
+	}
+
+	{Extension "35mm_hei.mdl"}
+	{props "explosive_stuff"}
+}

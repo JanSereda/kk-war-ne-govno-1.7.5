@@ -1,0 +1,23 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+
+	{props "explosive_stuff"}
+	{constrain none}
+	{fogable never}
+	{lodclass "stuff_small"}
+	{extender "stuff"
+		{item "ammo type63_rocket fg"}
+	}
+	{Extension "type4rocket_ammo.mdl"}
+}
+
+
+
+
+
+
+
+
+
+

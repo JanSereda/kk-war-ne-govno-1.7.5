@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Thu Oct 26 09:16:45 2023
+;File:        G:\?????? ? Pheonix\??????????????\??? ??????\??????\??????????\??????? ? ??????\????\30mm_fly.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				193.413	0.0429629	-0.07652
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.24803 0.590551 0.590551}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0	0.0091522	0
+	}
+}
+{Volume "select"
+	{Box 3.52736 1.41732 1.15197}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0407773	0.0104857	0.0799266
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.840709	-16.3026	-0.864086}
+			{lookat -0.0539169	-1.07409	-0.128025}
+			{fov 31.7555}
+			{horizon 179.831}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.30062	-3.01811	11.4636}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0725233	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -6.7565	-1.91721	8.23421}
+			}
+		}
+	}
+}

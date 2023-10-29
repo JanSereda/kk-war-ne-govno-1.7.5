@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+                           
+	
+	{extender "stuff"
+		{item "smaw ammo"}
+	}
+	{extension "smaw_rocket_fg.mdl"}
+	{props "explosive_stuff"}
+}

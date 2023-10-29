@@ -1,0 +1,11 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet27_ger fg ammo"}
+	}
+
+	{Extension "shell_ger_he_27.mdl"}
+	{props "explosive_stuff"}
+}

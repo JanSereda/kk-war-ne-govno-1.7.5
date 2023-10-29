@@ -1,0 +1,20 @@
+{Game_entity
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{mass 200}
+	{body {proper body sensible}}
+	{volume "body" 
+		{able {obstacle 0}}
+		{thickness 1}
+	}
+	{lodclass "part_small"}
+
+	{collider "torpedo"}
+	{Extension "rgb-10.mdl"}
+	{props "steel" "explosive_stuff" "depth_charge"}
+	{extender "stuff"
+		{item "305mm_rbu_impactor"}
+	}
+	{Volume "proximity"		{thickness 1}	{able clear}	}
+
+}

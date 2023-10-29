@@ -1,0 +1,10 @@
+;Model by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet80_dm fgh"}
+	}
+	{props "explosive_stuff"}
+	{Extension "s-8dm.mdl"}
+}

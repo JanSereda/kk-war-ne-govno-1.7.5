@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo ir_flare"}
+	}
+
+	{Extension "flaergun_ammo_inventory.mdl"}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "35mm_hei"}
+	{blend none}
+}

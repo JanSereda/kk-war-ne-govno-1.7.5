@@ -1,0 +1,11 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet40_NATO apcr ammo"}
+	}
+
+	{Extension "shell_fr_apfsds-t_40mm.mdl"}
+}
+

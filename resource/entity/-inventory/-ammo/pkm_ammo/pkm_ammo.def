@@ -1,0 +1,10 @@
+;Created by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo PKM_ammo"}
+	}
+
+	{Extension "pkm_ammo.mdl"}
+}

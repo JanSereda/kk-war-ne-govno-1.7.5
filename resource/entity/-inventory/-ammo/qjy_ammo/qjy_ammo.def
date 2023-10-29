@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo 58ammo 58ammo_mg"}
+	}
+
+	{Extension "qjy_ammo.mdl"}
+
+}

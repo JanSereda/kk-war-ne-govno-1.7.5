@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+;
+	{Extension "dm-32.mdl"}
+	{extender "stuff"
+		{item "ammo dm32"}
+	}
+
+
+}

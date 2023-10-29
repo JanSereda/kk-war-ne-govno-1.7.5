@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{props  "explosive_stuff"}
+	{extender "stuff"
+		{item "bullet120_UK sm ammo"}
+	}
+
+	{Extension "l34_sm.mdl"}
+}

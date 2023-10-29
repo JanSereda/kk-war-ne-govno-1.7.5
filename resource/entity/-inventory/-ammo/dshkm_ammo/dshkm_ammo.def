@@ -1,0 +1,13 @@
+;Created by Pheonix
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "ammo dshkm_ammo"}
+	}
+	{Volume "body"
+		{thickness 3}
+	}
+	{Extension "kpvt_ammo.mdl"}
+}
+

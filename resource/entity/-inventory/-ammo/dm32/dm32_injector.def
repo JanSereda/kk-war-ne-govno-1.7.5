@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "dm32_injector"}
+	}
+	{Extension "dm32_injector.mdl"}
+	{constrain none}
+	{fogable never}
+	{volume "body" {able clear}}
+
+}

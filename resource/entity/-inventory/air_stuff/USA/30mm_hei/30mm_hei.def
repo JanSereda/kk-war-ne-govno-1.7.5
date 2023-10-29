@@ -1,0 +1,8 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{extender "stuff"
+		{item "gau-8 fg ammo"}
+	}
+	{Extension "30mm_hei.mdl"}
+}

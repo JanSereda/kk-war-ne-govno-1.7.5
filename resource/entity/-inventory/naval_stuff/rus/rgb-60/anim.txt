@@ -1,0 +1,38 @@
+-= Animation: start, Node rgb-60 =-
+	Frame 10 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 11 {
+		Orientation	0.996338 0 -0.0855039 0
+	}
+	Frame 12 {
+		Orientation	0.983445 0 -0.181206 0
+	}
+	Frame 13 {
+		Orientation	0.959634 0 -0.281253 0
+	}
+	Frame 14 {
+		Orientation	0.925077 0 -0.379779 0
+	}
+	Frame 15 {
+		Orientation	0.881921 0 -0.471397 0
+	}
+	Frame 16 {
+		Orientation	0.834078 0 -0.551646 0
+	}
+	Frame 17 {
+		Orientation	0.786773 0 -0.617242 0
+	}
+	Frame 18 {
+		Orientation	0.745941 0 -0.666012 0
+	}
+	Frame 19 {
+		Orientation	0.717579 0 -0.696477 0
+	}
+	Frame 20 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	-0.707107 0 0.707107 0
+	}

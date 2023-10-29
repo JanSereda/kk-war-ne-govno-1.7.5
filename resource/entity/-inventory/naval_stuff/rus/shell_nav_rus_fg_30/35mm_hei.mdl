@@ -1,0 +1,60 @@
+;Exported by: Администратор
+;Date:        Tue Oct 11 18:14:57 2011
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\35мм снаряды\35мм HEI\35mm_HEI.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Position -2.49027	0.0338107	0.467275}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.1188 1.41728 1.52058}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.04943	-0.0858572	0.556377
+	}
+}
+{Volume "select"
+	{Box 7.12598 1.41732 1.51575}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.09514	-0.055457	0.623721
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.432797	-16.2935	-0.32029}
+			{lookat 1.21959	-1.06493	0.415771}
+			{fov 29.7555}
+			{horizon 179.83}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -5.8342	0.481447	-8.02031}
+			}
+			{"1"
+				{type directional}
+				{direction -0.109068	0.263232	-0.410869}
+			}
+			{"2"
+				{type point}
+				{position 8.91931	-0.0329409	-8.79564}
+			}
+		}
+	}
+}

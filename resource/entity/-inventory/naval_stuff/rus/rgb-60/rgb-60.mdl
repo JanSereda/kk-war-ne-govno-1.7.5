@@ -1,0 +1,63 @@
+;Exported by: Timosh
+;Date:        Sat Oct 24 16:44:53 2020
+;File:        G:\?????? ? Pheonix\??????????????\??????\????\??????\???-60\RGB-60.max
+{Skeleton
+	{animation
+		{sequence "start"}
+	}
+	{bone "rgb-60"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "rgb-60.ply"}
+		{bone "tail"
+			{parameters "Voxels=0;"}
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-18.2083	-0.0661283	0.156032
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 33.1856 3.60646 3.98752}
+	{Bone "rgb-60"}
+	{Position 0.0690989	-0.0254551	-0.0722237}
+}
+{Volume "proximity"
+	{Sphere 98.4252}
+	{Bone "rgb-60"}
+}
+{Volume "select"
+	{Box 33.1856 3.60646 3.98752}
+	{Bone "rgb-60"}
+	{Position 0.0690989	-0.0254551	-0.0722237}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.81727	-112.302	-5.25584}
+			{lookat -4.43551	-1.13874	-2.7956}
+			{fov 31.7555}
+			{horizon -179.98}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.76997	-3.33802	12.7992}
+			}
+			{"1"
+				{type directional}
+				{direction -0.072523	0.378972	-0.317994}
+			}
+			{"2"
+				{type point}
+				{position -8.28715	-2.23713	9.56985}
+			}
+		}
+	}
+}

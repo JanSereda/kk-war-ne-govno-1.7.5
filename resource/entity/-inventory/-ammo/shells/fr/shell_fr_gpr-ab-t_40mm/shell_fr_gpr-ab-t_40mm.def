@@ -1,0 +1,17 @@
+;Created by Timosh
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet40_NATO abm ammo"}
+	}
+
+	{Extension "shell_fr_gpr-ab-t_40mm.mdl"}
+	{props "explosive_stuff"}
+}
+
+
+
+
+
+

@@ -36,9 +36,9 @@
 	{extender "inventory"
 		{box
 			{Size 6 8}
-			{item "ammo bullet155_USA_h fg" 25}
+			{item "ammo bullet155_USA_h fg" 20}
 			{item "ammo bullet155_USA cl" 5}
-			{item "ammo bullet155_USA_ar fg" 5}                
+			{item "ammo bullet155_USA_ar fg" 10}                
 		}
 	}
 	{Weaponry

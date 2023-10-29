@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rgb-10"}
+	{blend none}
+}

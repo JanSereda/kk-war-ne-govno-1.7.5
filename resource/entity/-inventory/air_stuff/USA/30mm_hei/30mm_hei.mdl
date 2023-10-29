@@ -1,0 +1,60 @@
+;Exported by: Администратор
+;Date:        Thu Jan 05 14:42:31 2012
+;File:        G:\Работа с Pheonix\Редактирование\Мои модели\Авиация\Навесняк\30mm for GAU-8\30mm PGU-13B\PGU-13B.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Position -2.13416	0.0289758	0.400454}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.1188 1.41728 1.52058}
+	{Bone "body"}
+	{Matrix34
+		0.857	0	0
+		0	0	0.857
+		0	-0.857	0
+		0.899358	-0.0735796	0.476815
+	}
+}
+{Volume "select"
+	{Box 7.12598 1.41732 1.51575}
+	{Bone "body"}
+	{Matrix34
+		0.857	0	0
+		0	0	0.857
+		0	-0.857	0
+		0.938537	-0.0475267	0.534529
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.370879	-13.9635	-0.27449}
+			{lookat 1.04516	-0.912655	0.396317}
+			{fov 33.7555}
+			{horizon 179.83}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -5.8342	0.481447	-8.02031}
+			}
+			{"1"
+				{type directional}
+				{direction -0.109068	0.263232	-0.410869}
+			}
+			{"2"
+				{type point}
+				{position 8.91931	-0.0329409	-8.79564}
+			}
+		}
+	}
+}

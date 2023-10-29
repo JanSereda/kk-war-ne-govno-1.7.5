@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+;
+	{Extension "heat_pf98_long.mdl"}
+	{extender "stuff"
+		{item "heat_pf98 cm"}
+	}
+	{props "explosive_stuff"}
+}
