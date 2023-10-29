@@ -1,6 +1,7 @@
 ;SDL
 {units
 
+
 {"kraz_6322_sup"		{structure "cwds_truck6"}}
 {"kraz_6322_eng"		{structure "cwds_truck6"}}
 {"kraz_6322_fuel"		{structure "cwds_truck6"}}

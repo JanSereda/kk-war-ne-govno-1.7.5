@@ -230,6 +230,10 @@
 		{ani_play "close" -0.4} }}          
  	}
 }
+{"t-64b_ser"
+	("T64_sound")
+	("2a46_type_gun")
+}
 {"tank_mtu"
 	("Shilka_sound")	
 	{on "specability" 
