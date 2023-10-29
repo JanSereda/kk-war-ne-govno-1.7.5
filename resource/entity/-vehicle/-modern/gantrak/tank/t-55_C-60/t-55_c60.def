@@ -2,7 +2,8 @@
 	(include "/properties/tank.ext")
 	(include "/properties/shadow/tank.inc"  scale(1.2))
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
-	{props "medium_M" "turret_rotator" "vision_lev05"}
+	{props "medium_M" "turret_rotator" "vision_lev05" "sam"}
+	
 
 	{volume "body"
 		{tags "body"}
