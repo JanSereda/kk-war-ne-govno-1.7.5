@@ -57,13 +57,13 @@
 {"hj8_stan_2" {fore 0} ("v" c(200) sc(50) g(no_art1) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk) i(6) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
 {"ptur_konkurs_2" {fore 1} ("v" c(300) sc(40) g(no_art2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(7) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
 
-{"brem-1_s" {fore 1} ("v3" c(900) sc(120) g(269)  b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1_s) n1(vehicle_supporter:4)      ) }
-{"t-55_ser" {fore 1} ("v" c(100) sc(69) g(tonk3) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(8) cw(0) cp(10) t(all_nz   ) n(4)               ) }
+{"brem-1_s" {fore 0} ("v3" c(200) sc(120) g(269)  b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(brem-1_s) n1(vehicle_supporter:4)      ) }
+{"t-55_ser" {fore 1} ("v" c(125) sc(69) g(tonk3) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(8) cw(0) cp(10) t(all_nz   ) n(4)               ) }
 {"t62m_v2_ser" {fore 1} ("v" c(125) sc(125) g(tonk1) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(9) cw(0) cp(15) t(all_nz   ) n(4)               ) }
-{"t-64b_ser" {fore 0} ("v" c(500) sc(140) g(tonk2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(11) cw(0) cp(20) t(all_nz   ) n(3)               ) }
-{"t72a_ser" {fore 1} ("v" c(500) sc(140) g(tonk2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(10) cw(0) cp(20) t(all_nz   ) n(3)               ) }
+{"t-64b_ser" {fore 1} ("v" c(400) sc(140) g(tonk2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(11) cw(0) cp(20) t(all_nz   ) n(3)               ) }
+{"t72a_ser" {fore 1} ("v" c(400) sc(140) g(tonk23) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(10) cw(0) cp(20) t(all_nz   ) n(3)               ) }
 {"t72b_1989year" {fore 0} ("v" c(500) sc(170) g(tonk911) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(12) cw(0) cp(20) t(all_nz   ) n(3)               ) }
-{"t-64bm2" {fore 0} ("v" c(800) sc(199) g(tonk69) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(13) cw(0) cp(20) t(all_nz   ) n(3)               ) }
+{"t-64bm2" {fore 0} ("v" c(569) sc(199) g(tonk69) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(13) cw(0) cp(20) t(all_nz   ) n(3)               ) }
 
 
 
