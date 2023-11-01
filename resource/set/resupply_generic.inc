@@ -504,6 +504,7 @@
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}				
 	{item "bullet152_RUS_korr2 fg bullet152_RUS ammo" 1 {max 30}{value 15}}				
 	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
+;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 	{item "3vof34 ammo" 1 {max 20}{value 35}}
 	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
@@ -514,7 +515,7 @@
 	{item "bullet155_USA_ar fg ammo" 1 {max 30}{value 15}}				
 	{item "bullet155_USA_h fg ammo" 1 {max 30}{value 15}}	
 	{item "bullet155_USA_h_r fg ammo" 1 {max 30}{value 15}}	
-	{item "bullet155_USA_pgk fg ammo" 1 {max 3}{value 70}}
+	{item "bullet155_USA_pgk fg ammo" 1 {max 3}{value 60}}
 )
 (define "155mm_NATO"
 	{item "bullet155_GER fg ammo" 1 {max 40}{value 15}}				
@@ -527,7 +528,9 @@
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}	
     {item "bullet155_USA_h fg ammo" 1 {max 30}{value 15}}	
 	{item "bullet155_USA_h_r fg ammo" 1 {max 30}{value 15}}		
-	{item "bullet155_USA_pgk fg ammo" 1 {max 30}{value 40}}
+	{item "bullet155_USA_pgk fg ammo" 1 {max 30}{value 60}}
+	
+	{item "bullet152_RUS_a fg ammo" 1 {max 40}{value 15}}	
 )
 (define "155mm_cn"
 	{item "bullet155_cn 155_cn cl ammo" 1 {max 20}{value 15}}				
@@ -674,7 +677,7 @@
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
 	{item "rvv-sd ammo" 1 {max 10}{value 5}}
-	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
+	{item "9m33_rocket ammo" 2 {max 12}{value 9}}
 )
 (define "sam_usa"
 	{item "patriot ammo" 2 {max 4}{value 25}}		;лимит 3000		

@@ -6,5 +6,7 @@
 		{size 6 1}
 	}
 
-	{tag  "big" "size4" "88to105" "-ap" "-rocketlauncher" "no_ricochet" "-low_speed" "semiactive" "anti_ballistic_missile_rus" "anti_smallmissile" "RadAA_missile_2gen"} 
+		{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "semiactive" "anti_smallmissile" "ground_active_rus"} 	
+	{tag "rad_aa"} ; только для ammo.set
+
 }
