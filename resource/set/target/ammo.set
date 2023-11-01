@@ -62,7 +62,14 @@
 	{airborne
 		{"rad_aa_passive"}
 	    {"rad_aa"}
-		{"ir_aa"}
+	    {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj usa_ir_FF_beam"}
+		{"AA_proj rus_ir_FF_beam"}
+		{"AA_proj"}
+		{"AA_missile"}
+		{"AA_missile_2gen"}
 	    {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
 		{"rus_ir_aj cwps2" {volume "body"}}
@@ -78,7 +85,15 @@
 	{Helicopter
 		{"rad_aa_passive"}
 	    {"rad_aa"}
-		{"ir_aa"}
+
+	    {"RadAA_missile"}
+		{"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj usa_ir_FF_beam"}
+		{"AA_proj rus_ir_FF_beam"}
+		{"AA_proj"}
+		{"AA_missile"}
+		{"AA_missile_2gen"}
 	    {"short_sam"}
 	    {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
@@ -103,55 +118,69 @@
 		
 	}
 	{small_UAV 
-		{"rad_aa" {volume "body"}}
-		{"ir_aa" {volume "body"}}
-	    {"short_sam" {volume "body"}}
+		{"rad_aa"}
+	    {"short_sam"}
         {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
 		{"rus_ir_aj cwps2" {volume "body"}}
 		{"usa_ir_aj cwps2" {volume "body"}}
 		{"rus_ir_asm_aj cwps2" {volume "body"}}
 		{"usa_ir_asm_aj cwps2" {volume "body"}}	
-		{"tv_seeker" {volume "body"}}
-		{"autocannon_small" {volume "body"}}
-		{"antiair" {volume "body"}}
-		{"zenite" {volume "body"}}
-		{"hmgun" {volume "body"}}
-		{"hrifle" {volume "body"}}
-		{"ptr" {volume "body"}}
-		{"bullet" {volume "body"}}		
+	    {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+        {"AA_proj"}
+        {"AA_missile"}
+		{"AA_missile_2gen"}
+		{"anti_smallmissile"}
+		{"tv_seeker"}
+		{"autocannon_small"}
+		{"antiair"}
+		{"zenite"}
+		{"hmgun"}
+		{"hrifle"}
+		{"ptr"}
+		{"bullet"}		
 	}
-	{medium_UAV 	
-		{"rad_aa_passive" {volume "body"}}
-	    {"rad_aa" {volume "body"}}
-		{"ir_aa" {volume "body"}}
-		{"antiair" {volume "body"}}
-		{"zenite" {volume "body"}}
-		{"autocannon_small" {volume "body"}}
-		{"anti_smallmissile" {volume "body"}}
+	{medium_UAV 
+		{"rad_aa_passive"}
+	    {"rad_aa"}	
+	    {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj"}
+		{"antiair"}
+		{"zenite"}
+		{"autocannon_small"}
+		{"anti_smallmissile"}
 		
 	}
-	{small_UAV_kamikaze 	
-		{"tv_seeker" {volume "body"}}
-		{"autocannon_small" {volume "body"}}
-		{"zenite" {volume "body"}}
-		{"hmgun" {volume "body"}}
-		{"hrifle" {volume "body"}}
-		{"ptr" {volume "body"}}
-		{"bullet" {volume "body"}}	
+	{small_UAV_kamikaze
+				{"rad_aa_passive"}
+		{"rad_aa"}
+		{"antiair"} 	
+		{"tv_seeker"}
+		{"autocannon_small"}
+		{"zenite"}
+		{"hmgun"}
+		{"hrifle"}
+		{"ptr"}
+		{"bullet"}	
 	}
 	{medium_UAV_kamikaze
-		{"rad_aa_passive" {volume "body"}}
-		{"rad_aa" {volume "body"}}
-		{"ir_aa" {volume "body"}}
-		{"antiair" {volume "body"}} 	
-		{"tv_seeker" {volume "body"}}
-		{"autocannon_small" {volume "body"}}
-		{"zenite" {volume "body"}}
-		{"hmgun" {volume "body"}}
-		{"hrifle" {volume "body"}}
-		{"ptr" {volume "body"}}
-		{"bullet" {volume "body"}}	
+        {"RadAA_missile"}
+	    {"RadAA_missile_1gen"}
+		{"RadAA_missile_2gen"}
+		{"AA_proj"}
+		{"antiair"}
+		{"anti_smallmissile"} 	
+		{"tv_seeker"}
+		{"autocannon_small"}
+		{"zenite"}
+		{"hmgun"}
+		{"hrifle"}
+		{"ptr"}
+		{"bullet"}	
 	}
 	{car
 	    ("exceptions")

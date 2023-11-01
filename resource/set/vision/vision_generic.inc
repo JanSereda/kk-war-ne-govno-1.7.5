@@ -211,9 +211,7 @@
             {visible (* %optic 1.65)}
             {still (* %optic 1.5)}
         }
-        {small_UAV (* %optic 0.8)
-			{visible (* %optic 1.4)}
-		}
+        {small_UAV (* %optic 0.6)}
         {UAV (* %optic 1.3)
             {firing (* %firing_ir (* %optic 1.4))}
             {visible (* %optic 1.4)}
@@ -535,38 +533,6 @@
 		{large_antirad_point 0.001}
     }
     {mods {stand 1}}
-)
-(define "datalink"
-    {rules
-        ("human_invisible")
-        ("ground_veh_invisible")
-		("aviation_invisible")
-		("proj_point_invisible")
-        {missile 0.001} {targetable_missile 0.001}
-		{impactor 0.001} {targetable_impactor 0.001}
-        {bigship 0.001}
-        {submarine 0.001}
-        {proj_point 0.001}
-		{antirad_point 0.001}
-		{large_antirad_point 0.001}
-		
-		{stealth_plane 0.001
-			{visible %r}
-        }
-        {small_UAV 0.001
-			{visible %r}
-		}
-        {UAV 0.001
-			{visible %r}
-        }
-        {helicopter 0.001
-			{visible %r}
-        }
-        {plane 0.001
-			{visible %r}
-		}
-    }
-	{mods {stand 1}}
 )
 ;===============================================================
 (define "vision_new_optic_human_cannon"

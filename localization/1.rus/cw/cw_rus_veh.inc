@@ -4,7 +4,7 @@
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
 
-{"t-64b_ser"								"<c(FFFFFF)e(shadow)>T-64Б Сосна обр.1980</c>"}
+
 {"9k33_osa_akm"						"<c(FFFFFF)e(shadow)>Оса</c>"}
 {"2s7_pion"						"<c(FFFFFF)e(shadow)>2C7 Пион</c>"}
 

@@ -1,8 +1,0 @@
-{material bump
-	{diffuse "$/model/t64_new/t64b(bv)/dz"}
-	{bump "$/model/t64_new/t64b(bv)/dz_bp"}
-	{specular "$/model/t64_new/t64b(bv)/dz_sp"}
-	{color "229 229 229 127"}
-	{emitsheat}
-{blend none}
-}

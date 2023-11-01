@@ -6,6 +6,7 @@
 {"kraz_6322_eng"		{structure "cwds_truck6"}}
 {"kraz_6322_fuel"		{structure "cwds_truck6"}}
 {"maz6317"		{structure "cwds_truck6"}}
+
 {"osa_am_rls"		{structure "cwds_radar"}}
 {"osa_ma_pu"		{structure "cwds_shipcannon"}}
 {"9k33_osa_akm"			{structure "cwds_sam"}}
