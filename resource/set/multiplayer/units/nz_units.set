@@ -43,7 +43,7 @@
  {"at_serbs" {fore 0.9} ("v3" c(500) sc(111) g(atat) b(supl) brig(common) s(srbsk)  i(5) cw(0) cp(10) t(all_nz aat  ) c1(yaz_patrior) n(2) n1(vehicle_supporter:1) n2(at2:2) n3(at2_2:2) 	)}                   
 
 
-{"furgon" {fore 1} ("v3" c(900) sc(200) g(269)  b(supl) brig(common) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(spotter:1)      ) }  
+{"furgon" {fore 1} ("v3" c(900) sc(200) g(269)  b(supl) brig(common) s(srbsk)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(furgon) n1(1st_com:1) n2(spotter:1)     ) }  
 
 ;==================================Мотобригада===================
 ;{"yaz_patrior_rapira" {fore 1} ("v" c(100) sc(69) g(uaz2) b(srbs_mot_hqcar) brig(srbs_mot) s(srbsk)  i(1) cw(0) cp(5) t(all_nz   ) n(3)               ) }
@@ -116,12 +116,13 @@
  
  
  {"ka50" {fore 0.4} ("p" c(900) sc(250) g(mi24) b(extra) brig(srbs_vdv) s(srbsk)  i(1) m(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- ;{"t-90s" {fore 0} ("v" c(800) sc(200) g(tonk69) b(extra) brig(srbs_mot) s(srbsk)  i(13) cw(0) cp(20) t(all_nz   ) n(3)               ) }
  {"eleron_catapult_serb" {fore 0.6} ("vart" c(500) sc(50) g(bpla) b(extra) brig(srbs_pmc) s(srbsk)  i(3) m(3) cw(0) cp(5) t(all_nz art   ) c1(eleron_control) c2(eleron_catapult)  n1(vehicle_supporter:1)            ) } 
-
- ;{"an-12" {fore 0.6} ("vdv_d" c(600) sc(250) g(air) b(extra) brig(srbs_pmc) s(srbsk)  i(4) cw(0) m(4) cp(50) t(all_nz  no_frontline  ) c1(an-12) n(5) n1(pilot:5) n2(vdv_mg:1) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:2) n6(vdv_smg2:1) n7(vdv_smg3:1) n8(vdv_smg4:1)   ) }
-
  {"an-12bk" {fore 0} ("vdv_d" c(969) sc(250) g(air) b(extra) brig(srbs_pmc) s(srbsk)  i(4) m(4) cw(0) cp(50) t(all_nz  no_frontline  ) c1(an-12bk) c2(bmd2) n(5) n1(pilot:5) n2(vdv_mg:2) n3(vdv_rpg:1) n4(vdv_com:1) n5(vdv_smg1:2) n6(vdv_smg2:2) n7(vdv_smg3:2) n8(vdv_smg4:1) a1(tankman:2)  ) }
+
+ {"bmp1_kliver" {fore 1} ("p" c(900) sc(50) g(extrabmpklrtg) b(extra) brig(srbs_vdv) s(srbsk)  i(6) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
+ {"brdm_zu" {fore 1} ("p" c(900) sc(25) g(extrabmpklrtg2) b(extra) brig(srbs_vdv) s(srbsk)  i(5) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
+ {"su-25sm_support" {fore 0} ("p" c(600) sc(200) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
+
 ;===============================ОДКБ===========================================                                   
 ;===============================Common===========================================                                   
  {"dozor-b_1" {fore 1} ("vs" c(240) sc(40) g(reco) b(common) brig(common) s(odkb)  i(1) cw(10) cp(10) t(all_nz recon   ) n(3)               ) }
