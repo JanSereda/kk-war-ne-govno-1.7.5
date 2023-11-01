@@ -1237,10 +1237,6 @@
 		{Player 0}
 		{MID 252}
 	}
-	{Entity "invisible_wall_mp_nz" 0x8000
-		{Position -11308.2 4273.85}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x8001
 		{Position 7768.08 3504.67}
 		{xform zl 88.57}
@@ -1249,33 +1245,17 @@
 		{Position 7746.1 3002.36}
 		{xform zl 88.57}
 	}
-	{Entity "invisible_wall_mp_nz" 0x8003
-		{Position -11324 3771.32}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x8004
 		{Position 7737.28 2508.65}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8005
-		{Position -11326.6 3277.53}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800a
 		{Position 7726.24 2013.6}
 		{xform zl 88.57}
 	}
-	{Entity "invisible_wall_mp_nz" 0x800b
-		{Position -11331.5 2782.38}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x800c
 		{Position 7671.55 27.39}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x800d
-		{Position -11361.6 795.64}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x800e
 		{Position 7682.59 522.43}
@@ -1289,25 +1269,9 @@
 		{Position 7713.38 1518.46}
 		{xform zl 88.57}
 	}
-	{Entity "invisible_wall_mp_nz" 0x8011
-		{Position -11356.7 1290.79}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8012
-		{Position -11354 1784.58}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8013
-		{Position -11338.3 2287.12}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x8014
 		{Position 7615.75 -1956.19}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8015
-		{Position -11392.8 -1188.47}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8016
 		{Position 7626.78 -1461.14}
@@ -1321,25 +1285,9 @@
 		{Position 7657.58 -465.12}
 		{xform zl 88.57}
 	}
-	{Entity "invisible_wall_mp_nz" 0x8019
-		{Position -11387.9 -693.32}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x801a
-		{Position -11385.2 -199.54}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x801b
-		{Position -11369.5 303}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x801c
 		{Position 7560.31 -3934.77}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x801d
-		{Position -11423.7 -3167.59}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x801e
 		{Position 7571.34 -3439.72}
@@ -1353,25 +1301,9 @@
 		{Position 7602.13 -2443.7}
 		{xform zl 88.57}
 	}
-	{Entity "invisible_wall_mp_nz" 0x8021
-		{Position -11418.8 -2672.44}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8022
-		{Position -11416.1 -2178.66}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8023
-		{Position -11400.4 -1676.11}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x8024
 		{Position 7507.01 -5911.35}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8025
-		{Position -11452.5 -5144.67}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8026
 		{Position 7518.05 -5416.3}
@@ -1385,25 +1317,9 @@
 		{Position 7548.84 -4420.28}
 		{xform zl 88.57}
 	}
-	{Entity "invisible_wall_mp_nz" 0x802b
-		{Position -11447.6 -4649.53}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x802e
-		{Position -11444.9 -4155.74}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x802f
-		{Position -11429.2 -3653.2}
-		{xform zl 89.28}
-	}
 	{Entity "invisible_wall_mp_nz" 0x8031
 		{Position 7458.02 -7891.06}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8033
-		{Position -11476.9 -7124.85}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x8035
 		{Position 7469.05 -7396.01}
@@ -1416,18 +1332,6 @@
 	{Entity "invisible_wall_mp_nz" 0x8037
 		{Position 7499.84 -6399.99}
 		{xform zl 88.57}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8038
-		{Position -11472 -6629.69}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8039
-		{Position -11469.3 -6135.91}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x803b
-		{Position -11453.6 -5633.36}
-		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0x803d
 		{Position 7404.16 -9866.26}
@@ -1455,10 +1359,6 @@
 	}
 	{Entity "invisible_wall_mp_nz" 0x804a
 		{Position -11498.7 -8111.62}
-		{xform zl 89.28}
-	}
-	{Entity "invisible_wall_mp_nz" 0x8051
-		{Position -11483 -7609.08}
 		{xform zl 89.28}
 	}
 	{Entity "invisible_wall_mp_nz" 0xf000
@@ -1555,58 +1455,35 @@
 	{Tags "keep_places_without_door" 0x1705}
 	{Tags "keep_places_without_door" 0x1713}
 	{Tags "keep_places_without_door" 0x17d6}
+	{Tags "keep_places_without_door" {0x31f6 "basis"}}
 	{Tags "invisible_wall_mp_nz" 0x8008}
 	{Tags "invisible_wall_mp_nz" 0x8009}
 	{Tags "invisible_wall_mp_nz" 0x8006}
 	{Tags "invisible_wall_mp_nz" 0x8007}
-	{Tags "invisible_wall_mp_nz" 0x8000}
 	{Tags "invisible_wall_mp_nz" 0x8001}
 	{Tags "invisible_wall_mp_nz" 0x8002}
-	{Tags "invisible_wall_mp_nz" 0x8003}
 	{Tags "invisible_wall_mp_nz" 0x8004}
-	{Tags "invisible_wall_mp_nz" 0x8005}
 	{Tags "invisible_wall_mp_nz" 0x800a}
-	{Tags "invisible_wall_mp_nz" 0x800b}
 	{Tags "invisible_wall_mp_nz" 0x800c}
-	{Tags "invisible_wall_mp_nz" 0x800d}
 	{Tags "invisible_wall_mp_nz" 0x800e}
 	{Tags "invisible_wall_mp_nz" 0x800f}
 	{Tags "invisible_wall_mp_nz" 0x8010}
-	{Tags "invisible_wall_mp_nz" 0x8011}
-	{Tags "invisible_wall_mp_nz" 0x8012}
-	{Tags "invisible_wall_mp_nz" 0x8013}
 	{Tags "invisible_wall_mp_nz" 0x8014}
-	{Tags "invisible_wall_mp_nz" 0x8015}
 	{Tags "invisible_wall_mp_nz" 0x8016}
 	{Tags "invisible_wall_mp_nz" 0x8017}
 	{Tags "invisible_wall_mp_nz" 0x8018}
-	{Tags "invisible_wall_mp_nz" 0x8019}
-	{Tags "invisible_wall_mp_nz" 0x801a}
-	{Tags "invisible_wall_mp_nz" 0x801b}
 	{Tags "invisible_wall_mp_nz" 0x801c}
-	{Tags "invisible_wall_mp_nz" 0x801d}
 	{Tags "invisible_wall_mp_nz" 0x801e}
 	{Tags "invisible_wall_mp_nz" 0x801f}
 	{Tags "invisible_wall_mp_nz" 0x8020}
-	{Tags "invisible_wall_mp_nz" 0x8021}
-	{Tags "invisible_wall_mp_nz" 0x8022}
-	{Tags "invisible_wall_mp_nz" 0x8023}
 	{Tags "invisible_wall_mp_nz" 0x8024}
-	{Tags "invisible_wall_mp_nz" 0x8025}
 	{Tags "invisible_wall_mp_nz" 0x8026}
 	{Tags "invisible_wall_mp_nz" 0x8027}
 	{Tags "invisible_wall_mp_nz" 0x8029}
-	{Tags "invisible_wall_mp_nz" 0x802b}
-	{Tags "invisible_wall_mp_nz" 0x802e}
-	{Tags "invisible_wall_mp_nz" 0x802f}
 	{Tags "invisible_wall_mp_nz" 0x8031}
-	{Tags "invisible_wall_mp_nz" 0x8033}
 	{Tags "invisible_wall_mp_nz" 0x8035}
 	{Tags "invisible_wall_mp_nz" 0x8036}
 	{Tags "invisible_wall_mp_nz" 0x8037}
-	{Tags "invisible_wall_mp_nz" 0x8038}
-	{Tags "invisible_wall_mp_nz" 0x8039}
-	{Tags "invisible_wall_mp_nz" 0x803b}
 	{Tags "invisible_wall_mp_nz" 0x803d}
 	{Tags "invisible_wall_mp_nz" 0x803f}
 	{Tags "invisible_wall_mp_nz" 0x8040}
@@ -1614,8 +1491,6 @@
 	{Tags "invisible_wall_mp_nz" 0x8048}
 	{Tags "invisible_wall_mp_nz" 0x8049}
 	{Tags "invisible_wall_mp_nz" 0x804a}
-	{Tags "invisible_wall_mp_nz" 0x8051}
-	{Tags "keep_places_without_door" {0x31f6 "basis"}}
 	{Tags "invisible_wall_mp_nz" 0xf000}
 	{Environment "multi/desert_hills/desert_hills_day"}
 	{Helpers

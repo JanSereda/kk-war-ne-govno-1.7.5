@@ -5695,14 +5695,6 @@
 		{Position -2967.64 -1246.65 -16.52}
 		{xform zl 177.65}
 	}
-	{Entity "road_slush_clay2a" 0x200f
-		{Position -3022.09 -653.4 -18.2}
-		{xform zl 18.65}
-	}
-	{Entity "road_slush_clay2a" 0x2010
-		{Position -2948.21 -931.56 -15.91}
-		{xform zl -10.46}
-	}
 	{Entity "road_slush_clay2a" 0x2011
 		{Position -3220.45 -390.98 -29.79}
 		{xform zl -163.42}
@@ -5819,10 +5811,6 @@
 	{Entity "road_slush_clay2a" 0x6845
 		{Position -2724.06 -967.78 -10.58}
 		{xform zl -135.23}
-	}
-	{Entity "road_slush_clay2a" 0x6846
-		{Position -2956.91 -758.22 -13.93}
-		{xform zl -154.4}
 	}
 	{Entity "clay_s2" 0x6071
 		{Position -6300.16 -4902.48}
@@ -14148,11 +14136,6 @@
 		{Volume "crown"
 			{able {visible 0}}
 		}
-	}
-	{Entity "ash_tree3" 0x2145
-		{Position -2802.5 -1203.47}
-		{xform zl -170.5}
-		{TexMod "win2"}
 	}
 	{Entity "ash_tree_bush1" 0x2146
 		{Position -2840.14 -1226.87}
@@ -78447,81 +78430,6 @@
 		{xform zl -104.98 scale 0.887}
 		{TexMod "win2"}
 	}
-	{Entity "ash_tree3" 0x4ca3
-		{Position -3158.18 -797.36}
-		{xform zl -124.64 scale 1.023}
-		{TexMod "win2"}
-	}
-	{Entity "new_alder2" 0x4ca4
-		{Position -3261.37 -767.84}
-		{xform zl -159}
-		{TexMod "win1"}
-	}
-	{Entity "ash_tree_bush1" 0x4ca5
-		{Position -3059.8 -844.26}
-		{xform zl -93.11}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "ash_tree_bush1" 0x4ca6
-		{Position -3174.94 -668.17}
-		{xform zl -125.91 scale 1.343}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "ash_tree_bush1" 0x4ca7
-		{Position -3105.94 -727.45}
-		{xform zl -22.94 scale 1.343}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "ash_tree_bush1" 0x4ca9
-		{Position -3106.02 -975.84}
-		{xform zl 99.96 scale 0.943}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "cane3" 0x4caa
-		{Position -3150.48 -862.15}
-		{xform zl -91.67 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x4cab
-		{Position -3071.26 -809.28}
-		{xform zl 73.7 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x4caf
-		{Position -3115.12 -809.37}
-		{xform zl 17.34 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "new_alder2" 0x4cb0
-		{Position -3110.76 -1308.3}
-		{xform zl -34.84 scale 1.023}
-		{TexMod "win1"}
-	}
-	{Entity "ash_tree3" 0x25fb
-		{Position -3145.97 -1208.07}
-		{xform zl -20.66 scale 1.023}
-		{TexMod "win2"}
-	}
-	{Entity "ash_tree_bush1" 0x2c50
-		{Position -3160.69 -1104.2}
-		{xform zl -8.26}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
 	{Entity "ash_tree_bush2" 0x2c51
 		{Position -3143.66 -1252.49}
 		{xform zl -14.64}
@@ -78529,44 +78437,6 @@
 		{Volume "crown"
 			{able {visible 0}}
 		}
-	}
-	{Entity "cane3" 0x2c53
-		{Position -3126.63 -1019.05}
-		{xform zl 76.32 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "ash_tree_bush1" 0x2c54
-		{Position -3080.16 -1138.87}
-		{xform zl -160.28 scale 0.873}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "cane3" 0x2c55
-		{Position -3085.12 -1040.24}
-		{xform zl 147.38 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x2c56
-		{Position -3112.43 -1185.09}
-		{xform zl -10.68 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x2c57
-		{Position -3139.54 -924.81}
-		{xform zl 147.38 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x2c58
-		{Position -3119.02 -899.57}
-		{xform zl 147.38 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x2c59
-		{Position -3147.81 -1069.24}
-		{xform zl 147.38 scale 0.923}
-		{TexMod "win2"}
 	}
 	{Entity "cane3" 0x2c5a
 		{Position -3108.36 -1332.5}
@@ -78598,11 +78468,6 @@
 		{xform zl 29.23 scale 0.923}
 		{TexMod "win2"}
 	}
-	{Entity "cane3" 0x2c60
-		{Position -3278.85 -648.72}
-		{xform zl 163.86 scale 0.923}
-		{TexMod "win2"}
-	}
 	{Entity "ash_tree_bush1" 0x2c61
 		{Position -3367.59 -785.88}
 		{xform zl -75.95 scale 1.343}
@@ -78611,43 +78476,10 @@
 			{able {visible 0}}
 		}
 	}
-	{Entity "cane3" 0x2c62
-		{Position -3295.58 -715.79}
-		{xform zl 163.86 scale 0.923}
-		{TexMod "win2"}
-	}
 	{Entity "cane3" 0x2c63
 		{Position -3353.42 -720.37}
 		{xform zl 109.35 scale 0.923}
 		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x2c64
-		{Position -3064.93 -894.7}
-		{xform zl 109.35 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "cane3" 0x2c65
-		{Position -3208.39 -592.71}
-		{xform zl 109.35 scale 0.923}
-		{TexMod "win2"}
-	}
-	{Entity "ash_tree_bush1" 0x2c67
-		{Position -3247.86 -597.2}
-		{xform zl -46.27 scale 1.153}
-		{TexMod "win3"}
-		{Volume "crown"
-			{able {visible 0}}
-		}
-	}
-	{Entity "new_alder2" 0xcbd
-		{Position -3224.77 -534.91}
-		{xform zl -158.05}
-		{TexMod "win1"}
-	}
-	{Entity "new_alder2" 0xf67
-		{Position -3131.78 -669.9}
-		{xform zl -10.2 scale 1.233}
-		{TexMod "win1"}
 	}
 	{Entity "destroy_trash5_w" 0xf68
 		{Position -3502.13 -2251.34}
@@ -79888,10 +79720,6 @@
 		{Position -3592.64 -639.87 -12.91}
 		{xform zl 70.71 y 10.2 zw -72.14}
 		{Constrain none}
-	}
-	{Entity "shaft_r1a" 0xaa9
-		{Position -3236.53 -705.52 -20.18}
-		{xform zl -20.43}
 	}
 	{Entity "trace_people3d" 0xaab
 		{Position -3322.07 -654.27 -25.64}
@@ -93933,6 +93761,1778 @@
 	}
 	{Entity "picket_fence_3" 0x3c7
 	}
+	{Entity "shed125_corn1" 0x1004
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed125_corn2" 0x1005
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed125_corn3" 0x1008
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed125_corn4" 0x1009
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed_wood125" 0x100a
+		{Position -1952.42 -2720.39}
+		{xform zl -163.41}
+	}
+	{Entity "house_wood123" 0x100b
+		{Position -1569.11 -2553.28}
+		{xform zl 31.96}
+		{TexMod
+			{"/texture/common/roof/roof_sh29" "win"}
+			{"/texture/common/wall/wall_wood_sh04" "win"}
+			{"/texture/common/window & door/door_sh7" "win"}
+			{"/texture/common/wall/wall_wood_sh05" "win"}
+		}
+	}
+	{Entity "shed_ru_124" 0x100c
+		{Position -1588.97 -1980.53}
+		{xform zl 135.98}
+		{TexMod
+			{"/texture/common/window & door/gate_w1_sh" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/wall/wall_wood_sh06" "win"}
+			{"/texture/common/wall/wall_wood_sh06_1" "win"}
+			{"/texture/common/roof/roof__soloma_4u" "win"}
+			{"/texture/common/roof/roof__soloma_4u_a" "win"}
+			{"/texture/common/roof/hlam1_u" "win"}
+		}
+	}
+	{Entity "fence_wood_r1" 0x100d
+		{Position -1477.32 -2549.95}
+		{xform zl -60.37}
+	}
+	{Entity "cane3" 0x100e
+		{Position -1435.42 -2561.67}
+		{xform zl 34.46}
+		{TexMod "win2"}
+	}
+	{Entity "beam_piles1" 0x100f
+		{Position -1484.47 -2527.36}
+		{xform zl -9.42}
+	}
+	{Entity "fence_wood_r4" 0x1010
+		{Position -2132.17 -2247.53}
+		{xform zl 113.41}
+		{TexMod "win"}
+	}
+	{Entity "fence_wood_r2" 0x1011
+		{Position -2105.27 -2244.15}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x1012
+		{Position -2077.08 -2237.52}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x1016
+		{Position -2047.45 -2230.75}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x101e
+		{Position -2021.74 -2225.25}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x1023
+		{Position -2246.8 -2274.67 17.38}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x1026
+		{Position -2218.59 -2268.05}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x102a
+		{Position -2188.95 -2261.28}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x1038
+		{Position -2163.25 -2255.77}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x1039
+		{Position -2286.32 -2299.64}
+		{xform zl -165.32}
+	}
+	{Entity "fence_wood_r2" 0x103a
+		{Position -2278.81 -2327.63}
+		{xform zl -165.32}
+	}
+	{Entity "fence_wood_r2" 0x103b
+		{Position -2271.12 -2357.04}
+		{xform zl -165.32}
+	}
+	{Entity "fence_wood_r1" 0x103c
+		{Position -1814.47 -2398.35}
+		{xform zl -9.42}
+	}
+	{Entity "fence_wood_r1" 0x103d
+		{Position -1819.62 -2429.26}
+		{xform zl -9.42}
+	}
+	{Entity "fence_wood_r3" 0x1045
+		{Position -1826.02 -2460.49}
+		{xform zl -9.42}
+	}
+	{Entity "fence_wood_r4" 0x1046
+		{Position -1877.41 -2584.13}
+		{xform zl -9.42}
+	}
+	{Entity "fence_wood_r1" 0x1047
+		{Position -1888.24 -2608.82}
+		{xform zl -30.7}
+	}
+	{Entity "fence_wood_r3" 0x1048
+		{Position -1905.53 -2635.6}
+		{xform zl -30.7}
+	}
+	{Entity "fence_wood_r1" 0x1049
+		{Position -2136.81 -2820.35}
+		{xform zl 15.47}
+	}
+	{Entity "fence_wood_r1" 0x104a
+		{Position -2145.56 -2789.95}
+		{xform zl 15.47}
+	}
+	{Entity "fence_wood_r1" 0x104b
+		{Position -2154.3 -2759.19}
+		{xform zl 15.47}
+	}
+	{Entity "fence_wood_r2" 0x104c
+		{Position -1960.42 -2211.14}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r2" 0x104d
+		{Position -1934.71 -2205.64}
+		{xform zl -77.1}
+	}
+	{Entity "fence_wood_r1" 0x104e
+		{Position -1989.54 -2217.31}
+		{xform zl -74.54}
+	}
+	{Entity "fence_wood_r1" 0x104f
+		{Position -1647.52 -2529.44}
+		{xform zl -9.3}
+	}
+	{Entity "fence_wood_r4" 0x1051
+		{Position -1620.11 -2474.68}
+		{xform zl 157.3}
+		{TexMod "win"}
+	}
+	{Entity "fence_wood_r2" 0x1052
+		{Position -1603.09 -2453.59}
+		{xform zl -33.21}
+	}
+	{Entity "fence_wood_r2" 0x1054
+		{Position -1636.82 -2502.17}
+		{xform zl -33.21}
+	}
+	{Entity "fence_wood_r4" 0x1056
+		{Position -1588.16 -2426.71}
+		{xform zl 157.3}
+		{TexMod "win"}
+	}
+	{Entity "fence_wood_r2" 0x1057
+		{Position -1571.12 -2405.63}
+		{xform zl -33.21}
+	}
+	{Entity "fence_wood_r7" 0x105a
+		{Position -1693.17 -2011.07 12.16}
+		{xform zl -94.48}
+	}
+	{Entity "ash_tree_bush2" 0x105b
+		{Position -1682.13 -2669.23}
+		{xform zl -9.42}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x105c
+		{Position -1673.31 -2644.27}
+		{xform zl -159.49 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x105e
+		{Position -1701.42 -2706.18}
+		{xform zl -9.42}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x108e
+		{Position -1853.34 -2195.48}
+		{xform zl -15.64}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x109e
+		{Position -2193.58 -2235.31}
+		{xform zl -68.2}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x10a2
+		{Position -2104.01 -2210.7}
+		{xform zl -68.2}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x10a5
+		{Position -2012.38 -2199.87}
+		{xform zl -68.2}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x10a7
+		{Position -1931.8 -2185.16}
+		{xform zl -68.2}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x10a9
+		{Position -1793.19 -2232.76}
+		{xform zl -15.64}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x10aa
+		{Position -1753.78 -2253.23}
+		{xform zl -15.64}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x10ae
+		{Position -1715.41 -2248.95}
+		{xform zl -109.86}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x10af
+		{Position -1746.86 -2220.98}
+		{xform zl -39.42}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x10b1
+		{Position -1847.87 -2176.77}
+		{xform zl -109.86 scale 0.7}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x10b8
+		{Position -1798.27 -2197.72}
+		{xform zl -15.64}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x10bb
+		{Position -1787.04 -2403.94}
+		{xform zl -109.86 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x10c1
+		{Position -1763.63 -2350.27}
+		{xform zl -118.11}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x10c3
+		{Position -1737.51 -2301.62}
+		{xform zl -118.11}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x10c4
+		{Position -1679.87 -2068.12}
+		{xform zl -109.86 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x10c5
+		{Position -1867.64 -2641.01}
+		{xform zl -159.49 scale 1.05}
+		{TexMod "win2"}
+	}
+	{Entity "awning01" 0x10c6
+		{Position -2219.37 -2328.56 14.5}
+		{xform zl 14.63}
+		{TexMod "win"}
+	}
+	{Entity "awning02" 0x10c7
+		{Position -2158.43 -2312.31}
+		{xform zl 14.63}
+		{TexMod "win"}
+	}
+	{Entity "barrel_woods4" 0x10cb
+		{Position -2014.09 -2655.23}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "wood_floor1a" 0x10cf
+		{Position -1951.28 -2716.12}
+		{xform zl -163.42}
+	}
+	{Entity "wood_floor1_a" 0x10d7
+		{Position -1585.64 -2559.62}
+		{xform zl 31.96}
+	}
+	{Entity "wood_floor1_a" 0x10db
+		{Position -1560.64 -2544.42}
+		{xform zl 31.96}
+	}
+	{Entity "barrel_woods6" 0x10dc
+		{Position -1577.78 -2472.08}
+		{xform zl -54.46}
+		{TexMod
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "beam_piles1" 0x10dd
+		{Position -2028.57 -2696.74}
+		{xform zl 112.28}
+		{TexMod "win"}
+	}
+	{Entity "crate4" 0x10de
+		{Position -2220.45 -2330.03}
+		{xform zl 14.29}
+	}
+	{Entity "crate7" 0x10df
+		{Position -2168.78 -2319.53}
+		{xform zl -9.42}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10003}
+	}
+	{Entity "bags1" 0x10e0
+		{Position -2146.97 -2306.74}
+		{xform zl 122.52}
+	}
+	{Entity "bags2" 0x10e1
+		{Position -2146.52 -2296.68}
+		{xform zl 40.66}
+	}
+	{Entity "barrel_woods" 0x10e2
+		{Position -2191.76 -2313.91}
+		{xform zl -9.42}
+	}
+	{Entity "barrel_woods_small" 0x10e3
+		{Position -2189.04 -2329.5}
+		{xform zl -9.42}
+	}
+	{Entity "wood_toilet" 0x10e4
+		{Position -1706.2 -1994.95 3.23}
+		{xform zl 173.36}
+	}
+	{Entity "wood_toilet" 0x10e5
+		{Position -2113.82 -2793.16 10.97}
+		{xform zl 161.98}
+	}
+	{Entity "barrel_woods_small" 0x10e6
+		{Position -1895.58 -2344.89}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods_small" 0x10e7
+		{Position -1908.51 -2337.77}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods_small1" 0x10e9
+		{Position -1931.09 -2341.13 -4.1}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win1"}
+		}
+	}
+	{Entity "barrel_woods" 0x10f1
+		{Position -1962.76 -2310.5}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods4" 0x10f2
+		{Position -1952.73 -2332.02}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+		}
+	}
+	{Entity "barrel_woods_small" 0x10f3
+		{Position -1903.91 -2359.36}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods_small1" 0x10f4
+		{Position -1920.1 -2355.16}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods4" 0x10f5
+		{Position -1672.56 -1985.23}
+		{xform zl -9.42}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+		}
+	}
+	{Entity "road_slush_clay2a" 0x10f6
+		{Position -1775.46 -2131.99}
+		{xform zl 56.3}
+	}
+	{Entity "road_slush_clay2a" 0x10f7
+		{Position -1604.71 -2249.85}
+		{xform zl 128.37}
+	}
+	{Entity "road_slush_clay2a" 0x10f8
+		{Position -1756.66 -2538.46}
+		{xform zl 150.42}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1108
+		{Position -1806.91 -2526.25 -3.79}
+		{xform zl 44.31}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1109
+		{Position -2084.6 -2470.77 10.02}
+		{xform zl 73.82}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x110d
+		{Position -2123.31 -2582.45 19.49}
+		{xform zl 163.34}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x110e
+		{Position -1576.91 -2299.55 17.13}
+		{xform zl -131.21}
+		{DecalOrder 9}
+	}
+	{Entity "post_small" 0x110f
+		{Position -1902.45 -2579.05 0.71}
+		{xform zl 12.15}
+	}
+	{Entity "turnout_white2" 0x1110
+		{Position -2081.6 -2506.58}
+		{xform zl -11.31}
+	}
+	{Entity "stub_root" 0x1111
+		{Position -2193.46 -2745.56}
+		{xform zl -139.62 scale 1.02}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree_bush1" 0x1112
+		{Position -2217.58 -2624.13}
+		{xform zl -21.46 scale 1.13}
+		{TexMod "win3"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "ash_tree_bush1" 0x1113
+		{Position -2198.61 -2686.34}
+		{xform zl -50.43 scale 0.926}
+		{TexMod "win3"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "shed125_corn1" 0x1114
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed125_corn2" 0x1115
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed125_corn3" 0x1116
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed125_corn4" 0x1117
+		{TexMod
+			{"/texture/common/decor/cut001_4" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/wall/wall_euro_sh_38" "win"}
+			{"/texture/common/window & door/window_sh6" "win"}
+			{"/texture/common/roof/roof_sh32" "win"}
+			{"/texture/common/wall/wall_euro_sh_29" "2"}
+		}
+	}
+	{Entity "shed_wood125" 0x1118
+		{Position -2881.4 -3336.96}
+		{xform zl -175.24}
+	}
+	{Entity "house_wood123" 0x1119
+		{Position -2471.98 -3251.96}
+		{xform zl 20.13}
+		{TexMod
+			{"/texture/common/roof/roof_sh29" "win"}
+			{"/texture/common/wall/wall_wood_sh04" "win"}
+			{"/texture/common/window & door/door_sh7" "win"}
+			{"/texture/common/wall/wall_wood_sh05" "win"}
+		}
+	}
+	{Entity "shed_ru_124" 0x111c
+		{Position -2374.02 -2687.31}
+		{xform zl 124.15}
+		{TexMod
+			{"/texture/common/window & door/gate_w1_sh" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/wall/wall_wood_sh06" "win"}
+			{"/texture/common/wall/wall_wood_sh06_1" "win"}
+			{"/texture/common/roof/roof__soloma_4u" "win"}
+			{"/texture/common/roof/roof__soloma_4u_a" "win"}
+			{"/texture/common/roof/hlam1_u" "win"}
+		}
+	}
+	{Entity "fence_wood_r1" 0x111e
+		{Position -2381.45 -3267.52}
+		{xform zl -72.2}
+	}
+	{Entity "cane3" 0x1145
+		{Position -2342.85 -3287.58}
+		{xform zl 22.63}
+		{TexMod "win2"}
+	}
+	{Entity "beam_piles1" 0x1147
+		{Position -2383.82 -3243.94}
+		{xform zl -21.25}
+	}
+	{Entity "fence_wood_r4" 0x1148
+		{Position -2960.41 -2837.3}
+		{xform zl 101.58}
+		{TexMod "win"}
+	}
+	{Entity "fence_wood_r2" 0x1149
+		{Position -2933.39 -2839.5}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x114a
+		{Position -2904.44 -2838.79}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x114b
+		{Position -2874.05 -2838.24}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x114c
+		{Position -2847.76 -2838.13}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x114d
+		{Position -3078.18 -2840.37 -16.17}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x114e
+		{Position -3049.2 -2839.67}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x1150
+		{Position -3018.81 -2839.11}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x1151
+		{Position -2992.53 -2838.99}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x1158
+		{Position -3121.97 -2856.7}
+		{xform zl -177.15}
+	}
+	{Entity "fence_wood_r2" 0x1159
+		{Position -3120.36 -2885.64}
+		{xform zl -177.15}
+	}
+	{Entity "fence_wood_r2" 0x116b
+		{Position -3118.86 -2916}
+		{xform zl -177.15}
+	}
+	{Entity "fence_wood_r1" 0x1174
+		{Position -2680.37 -3050.03}
+		{xform zl -21.25}
+	}
+	{Entity "fence_wood_r1" 0x1181
+		{Position -2691.75 -3079.23}
+		{xform zl -21.25}
+	}
+	{Entity "fence_wood_r3" 0x1189
+		{Position -2704.41 -3108.49}
+		{xform zl -21.25}
+	}
+	{Entity "fence_wood_r4" 0x118d
+		{Position -2780.06 -3218.97}
+		{xform zl -21.25}
+	}
+	{Entity "fence_wood_r1" 0x118e
+		{Position -2795.71 -3240.91}
+		{xform zl -42.53}
+	}
+	{Entity "fence_wood_r3" 0x1190
+		{Position -2818.13 -3263.58}
+		{xform zl -42.53}
+	}
+	{Entity "fence_wood_r1" 0x1191
+		{Position -3082.37 -3397.01}
+		{xform zl 3.64}
+	}
+	{Entity "fence_wood_r1" 0x1192
+		{Position -3084.7 -3365.46}
+		{xform zl 3.64}
+	}
+	{Entity "fence_wood_r1" 0x1194
+		{Position -3086.95 -3333.55}
+		{xform zl 3.64}
+	}
+	{Entity "fence_wood_r2" 0x1195
+		{Position -2784.85 -2836.88}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r2" 0x1196
+		{Position -2758.56 -2836.77}
+		{xform zl -88.93}
+	}
+	{Entity "fence_wood_r1" 0x1198
+		{Position -2814.62 -2836.95}
+		{xform zl -86.37}
+	}
+	{Entity "fence_wood_r1" 0x1199
+		{Position -2543.83 -3212.56}
+		{xform zl -21.13}
+	}
+	{Entity "fence_wood_r4" 0x119e
+		{Position -2505.79 -3164.58}
+		{xform zl 145.47}
+		{TexMod "win"}
+	}
+	{Entity "fence_wood_r2" 0x11a1
+		{Position -2484.8 -3147.43}
+		{xform zl -45.04}
+	}
+	{Entity "fence_wood_r2" 0x11a2
+		{Position -2527.78 -3188.06}
+		{xform zl -45.04}
+	}
+	{Entity "fence_wood_r4" 0x11a4
+		{Position -2464.68 -3124.17}
+		{xform zl 145.47}
+		{TexMod "win"}
+	}
+	{Entity "fence_wood_r2" 0x11a5
+		{Position -2443.68 -3107.03}
+		{xform zl -45.04}
+	}
+	{Entity "fence_wood_r7" 0x11a7
+		{Position -2482.26 -2695.84 -5.17}
+		{xform zl -106.31}
+	}
+	{Entity "ash_tree_bush2" 0x11aa
+		{Position -2606.37 -3342.29}
+		{xform zl -21.25}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x11ab
+		{Position -2592.62 -3319.67}
+		{xform zl -171.32 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x11ad
+		{Position -2632.82 -3374.5}
+		{xform zl -21.25}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11ae
+		{Position -2676.84 -2843.5}
+		{xform zl -27.47}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x11b2
+		{Position -3018.01 -2812.75}
+		{xform zl -80.03}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x11b3
+		{Position -2925.3 -2807.02}
+		{xform zl -80.03}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x11b4
+		{Position -2833.39 -2815.2}
+		{xform zl -80.03}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x11b8
+		{Position -2751.51 -2817.32}
+		{xform zl -80.03}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11b9
+		{Position -2625.61 -2892.32}
+		{xform zl -27.47}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11bb
+		{Position -2591.23 -2920.43}
+		{xform zl -27.47}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x11bc
+		{Position -2552.79 -2924.11}
+		{xform zl -121.69}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11bd
+		{Position -2577.84 -2890.29}
+		{xform zl -51.25}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x11c1
+		{Position -2667.65 -2826.31}
+		{xform zl -121.69 scale 0.7}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11c6
+		{Position -2623.4 -2856.98}
+		{xform zl -27.47}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x11c7
+		{Position -2654.68 -3061.13}
+		{xform zl -121.69 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11ca
+		{Position -2620.76 -3013.39}
+		{xform zl -129.94}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x11cb
+		{Position -2585.22 -2971.13}
+		{xform zl -129.94}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x11cc
+		{Position -2480.94 -2754.4}
+		{xform zl -121.69 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x11cd
+		{Position -2782.15 -3276.64}
+		{xform zl -171.32 scale 1.05}
+		{TexMod "win2"}
+	}
+	{Entity "awning01" 0x11ce
+		{Position -3062.38 -2898.73 -12.86}
+		{xform zl 2.8}
+		{TexMod "win"}
+	}
+	{Entity "awning02" 0x11d1
+		{Position -2999.4 -2895.32}
+		{xform zl 2.8}
+		{TexMod "win"}
+	}
+	{Entity "barrel_woods4" 0x11d2
+		{Position -2928.41 -3260.54}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "wood_floor1a" 0x11d6
+		{Position -2879.41 -3333.01}
+		{xform zl -175.25}
+	}
+	{Entity "wood_floor1_a" 0x11d8
+		{Position -2489.45 -3254.79}
+		{xform zl 20.13}
+	}
+	{Entity "wood_floor1_a" 0x11db
+		{Position -2461.87 -3245.03}
+		{xform zl 20.13}
+	}
+	{Entity "barrel_woods6" 0x11e3
+		{Position -2463.82 -3170.72}
+		{xform zl -66.29}
+		{TexMod
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "beam_piles1" 0x11e4
+		{Position -2951.09 -3298.21}
+		{xform zl 100.45}
+		{TexMod "win"}
+	}
+	{Entity "crate4" 0x11e5
+		{Position -3063.73 -2899.94}
+		{xform zl 2.46}
+	}
+	{Entity "crate7" 0x11e7
+		{Position -3011.01 -2900.26}
+		{xform zl -21.25}
+		{Placer
+			{State "driver1" {Disable}}
+			{State "driver2" {Disable}}
+		}
+		{Extender "cannon"
+			{animation
+				{switch close}
+			}
+		}
+		{Player 0}
+		{MID 10004}
+	}
+	{Entity "bags1" 0x11e8
+		{Position -2987.04 -2892.21}
+		{xform zl 110.69}
+	}
+	{Entity "bags2" 0x11e9
+		{Position -2984.54 -2882.46}
+		{xform zl 28.83}
+	}
+	{Entity "barrel_woods" 0x11ea
+		{Position -3032.35 -2890.06}
+		{xform zl -21.25}
+	}
+	{Entity "barrel_woods_small" 0x11ec
+		{Position -3032.88 -2905.87}
+		{xform zl -21.25}
+	}
+	{Entity "wood_toilet" 0x11ed
+		{Position -2491.72 -2677.39 -13.16}
+		{xform zl 161.53}
+	}
+	{Entity "wood_toilet" 0x11ee
+		{Position -3054.29 -3375.11 3.32}
+		{xform zl 150.15}
+	}
+	{Entity "barrel_woods_small" 0x11ef
+		{Position -2748.81 -2981.08}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods_small" 0x11f0
+		{Position -2760 -2971.46}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods_small1" 0x11f1
+		{Position -2782.79 -2970.12 -30.99}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win1"}
+		}
+	}
+	{Entity "barrel_woods" 0x11f2
+		{Position -2807.51 -2933.65}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods4" 0x11f3
+		{Position -2802.1 -2956.77}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+		}
+	}
+	{Entity "barrel_woods_small" 0x11f4
+		{Position -2759.92 -2993.54}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods_small1" 0x11f7
+		{Position -2774.9 -2986.1}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+		}
+	}
+	{Entity "barrel_woods4" 0x11f8
+		{Position -2456.8 -2674.77}
+		{xform zl -21.25}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+		}
+	}
+	{Entity "road_slush_clay2a" 0x11fb
+		{Position -2587.59 -2797.32}
+		{xform zl 44.47}
+	}
+	{Entity "road_slush_clay2a" 0x11fc
+		{Position -2444.63 -2947.68}
+		{xform zl 116.54}
+	}
+	{Entity "road_slush_clay2a" 0x11fd
+		{Position -2652.51 -3199.02}
+		{xform zl 138.59}
+	}
+	{Entity "road_slush_clay2tn1b" 0x11fe
+		{Position -2699.19 -3176.77 -6.37}
+		{xform zl 32.48}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1200
+		{Position -2959.61 -3065.55 -35.13}
+		{xform zl 61.99}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1203
+		{Position -3020.39 -3166.92 -5.85}
+		{xform zl 151.51}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1208
+		{Position -2427.6 -3002.02 -14.24}
+		{xform zl -143.04}
+		{DecalOrder 9}
+	}
+	{Entity "post_small" 0x1214
+		{Position -2803.53 -3208.86 -9.69}
+		{xform zl 0.32}
+	}
+	{Entity "turnout_white2" 0x1215
+		{Position -2964.02 -3101.21}
+		{xform zl -23.14}
+	}
+	{Entity "stub_root" 0x1216
+		{Position -3122.48 -3312.19}
+		{xform zl -151.45 scale 1.02}
+		{TexMod "1"}
+	}
+	{Entity "ash_tree_bush1" 0x123c
+		{Position -3121.2 -3188.39}
+		{xform zl -33.29 scale 1.13}
+		{TexMod "win3"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "ash_tree_bush1" 0x123d
+		{Position -3115.39 -3253.17}
+		{xform zl -62.26 scale 0.926}
+		{TexMod "win3"}
+		{Volume "crown"
+			{able {visible 0}}
+		}
+	}
+	{Entity "house_ru_141_1_1" 0x123f
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_1_2" 0x1240
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_2_1" 0x1241
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_2_2" 0x1242
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_3_1" 0x1243
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_3_2" 0x1245
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_4_1" 0x1246
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_4_2" 0x1247
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_5_1" 0x1249
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_5_2" 0x124d
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_6_1" 0x124e
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_6_2" 0x124f
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_7_1" 0x1250
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_7_2" 0x1251
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_8_1" 0x1255
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_8_2" 0x1258
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_9_1" 0x126d
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_9_2" 0x1270
+		{TexMod
+			{"/texture/common/wall/wall_ru_141_2" "win1"}
+			{"/texture/common/roof/roof_sh35" "win1"}
+			{"/texture/common/roof/roof_sh35_2" "win1"}
+		}
+	}
+	{Entity "house_ru_141_10_3" 0x1286
+		{TexMod "win1"}
+	}
+	{Entity "house_ru_141_11_3" 0x128a
+		{TexMod "win1"}
+	}
+	{Entity "house_ru_141_12_3" 0x128b
+		{TexMod "win1"}
+	}
+	{Entity "house_ru_141" 0x12a9
+		{Position -3615.58 -765.74}
+		{xform zl -78.69}
+	}
+	{Entity "house_wood123" 0x12b6
+		{Position -2804.52 -1371.31}
+		{xform zl -99.45}
+		{TexMod
+			{"/texture/common/wall/wall_wood_sh04" "win"}
+			{"/texture/common/roof/roof_sh29" "win"}
+			{"/texture/common/window & door/door_sh7" "win"}
+			{"/texture/common/wall/wall_wood_sh05" "win"}
+		}
+	}
+	{Entity "fence_wood_r7" 0x12bb
+		{Position -3076.27 -1431.15}
+		{xform zl -21.54}
+	}
+	{Entity "fence_wood_r8" 0x12be
+		{Position -3058.54 -1387.73}
+		{xform zl -22.09}
+	}
+	{Entity "fence_wood_r8" 0x12c8
+		{Position -3044.36 -1342.2}
+		{xform zl -11.18}
+	}
+	{Entity "cane3" 0x12d8
+		{Position -2765.81 -1291.72}
+		{xform zl -30.97}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x12dc
+		{Position -2724.32 -1302.78}
+		{xform zl 101.53}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x12e8
+		{Position -2742.1 -1240.24}
+		{xform zl -27.18}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x12ec
+		{Position -2785.5 -1231.01}
+		{xform zl 133.08}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x12f5
+		{Position -2879.08 -1491.48}
+		{xform zl -27.18}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x12f6
+		{Position -2837.29 -1478.93}
+		{xform zl 106.52}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x12f7
+		{Position -2809.11 -1466.86}
+		{xform zl 106.52}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x12f8
+		{Position -2776 -1466.17}
+		{xform zl -148.89}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x12f9
+		{Position -2932.39 -1514.96}
+		{xform zl -27.18 scale 0.6}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x12fd
+		{Position -2769.41 -1464.81}
+		{xform zl -27.18 scale 0.6}
+		{TexMod "win2"}
+	}
+	{Entity "wood_floor1a_a" 0x12ff
+		{Position -2805.88 -1389.9}
+		{xform zl 75.33}
+	}
+	{Entity "wood_floor1a_a" 0x1304
+		{Position -2803.63 -1361.28}
+		{xform zl 80.28}
+	}
+	{Entity "fence_wood_r7" 0x131a
+		{Position -3238 -1038.76}
+		{xform zl 106.91}
+	}
+	{Entity "fence_wood_r7" 0x1324
+		{Position -3264.44 -1039.08}
+		{xform zl 105.09}
+	}
+	{Entity "fence_wood_r7" 0x1325
+		{Position -3512.81 -1188.56}
+		{xform zl 27.07}
+	}
+	{Entity "ash_tree_bush2" 0x1327
+		{Position -3360.18 -974.61}
+		{xform zl 73.26}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x132c
+		{Position -3367.2 -878.71}
+		{xform zl 117.14}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x132e
+		{Position -3324.99 -873.65}
+		{xform zl 73.26 scale 0.8}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x132f
+		{Position -3295.29 -919.21}
+		{xform zl -37.97 scale 1.1}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1330
+		{Position -3301.24 -901.57}
+		{xform zl 167.49}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1331
+		{Position -3323.66 -906.19}
+		{xform zl 167.49}
+		{TexMod "win2"}
+	}
+	{Entity "rabbit_house" 0x1357
+		{Position -3524.24 -830.85}
+		{xform zl 6.96}
+	}
+	{Entity "ash_tree_bush1" 0x1358
+		{Position -3483.5 -1146.38}
+		{xform zl -128.68}
+		{TexMod "win2"}
+	}
+	{Entity "house_wood122" 0x1361
+		{Position -3472.04 -591.83}
+		{xform zl 178.34}
+		{TexMod
+			{"/texture/common/wall/wall_wood_sh03" "win"}
+			{"/texture/common/decor/wood_sh5" "win"}
+			{"/texture/common/decor/fence_wood_sh1" "win"}
+			{"/texture/common/wall/wall_wood_sh03_1" "win"}
+			{"/texture/common/window & door/door_sh17" "win"}
+			{"/texture/common/roof/roof_sh27" "win"}
+			{"/texture/common/roof/roof_sh28" "win"}
+		}
+	}
+	{Entity "house_wood123" 0x1362
+		{Position -3546.28 -1050.56}
+		{xform zl 105.34}
+		{TexMod
+			{"/texture/common/wall/wall_wood_sh04" "win"}
+			{"/texture/common/roof/roof_sh29" "win"}
+			{"/texture/common/window & door/door_sh7" "win"}
+			{"/texture/common/wall/wall_wood_sh05" "win"}
+		}
+	}
+	{Entity "cane3" 0x1363
+		{Position -3644.22 -596.46}
+		{xform zl 83.45}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x1364
+		{Position -3615.38 -544.09}
+		{xform zl -76.81}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1365
+		{Position -3605.35 -550.04}
+		{xform zl 83.45}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x1366
+		{Position -3368.79 -637.04}
+		{xform zl 73.26}
+		{TexMod "win2"}
+	}
+	{Entity "barrel_woods4" 0x1367
+		{Position -3507.17 -661.14}
+		{xform zl 73.26}
+	}
+	{Entity "wood_floor1_a" 0x1368
+		{Position -3612.6 -779.18}
+		{xform zl 99.69}
+	}
+	{Entity "wood_floor1_a" 0x1369
+		{Position -3618.62 -739.43}
+		{xform zl 99.69}
+	}
+	{Entity "ash_tree3" 0x136b
+		{Position -3534.67 -1165.6}
+		{xform zl -37.97}
+		{TexMod "win2"}
+	}
+	{Entity "wood_floor1a_a" 0x136c
+		{Position -3550.74 -1032.93}
+		{xform zl 105.66}
+	}
+	{Entity "wood_floor1a_a" 0x1370
+		{Position -3537.76 -1064}
+		{xform zl 105.66}
+	}
+	{Entity "fence_wood_r7" 0x1371
+		{Position -3534.67 -1146.72}
+		{xform zl 27.07}
+	}
+	{Entity "fence_wood_r8" 0x1375
+		{Position -3458.36 -1290.73 -31}
+		{xform zl 100.09 y 5.73 zw 100.16}
+	}
+	{Entity "fence_wood_r8" 0x1376
+		{Position -3406.82 -1515.02}
+		{xform zl -170.95}
+	}
+	{Entity "fence_wood_r7" 0x1384
+		{Position -3433.81 -1376.37}
+		{xform zl -168.5}
+	}
+	{Entity "fence_wood_r7" 0x1385
+		{Position -3442.75 -1335.2}
+		{xform zl -165.09}
+	}
+	{Entity "fence_wood_r8" 0x1387
+		{Position -3415.2 -1468.6}
+		{xform zl -169.05}
+	}
+	{Entity "cane3" 0x1388
+		{Position -3443.78 -1442.73}
+		{xform zl -75.48}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x1389
+		{Position -3572.98 -1150.45}
+		{xform zl -15.13}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x138a
+		{Position -3484.53 -1127.37}
+		{xform zl -20.27 scale 0.6}
+		{TexMod "win2"}
+	}
+	{Entity "barrel_woods6" 0x138b
+		{Position -3375.01 -1493.91}
+		{xform zl 0.07}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+		}
+	}
+	{Entity "bags2" 0x138c
+		{Position -3302.52 -1409.94}
+		{xform zl 38.28}
+	}
+	{Entity "fence_wood_r7" 0x138d
+		{Position -3093.23 -1475.2}
+		{xform zl -21.54}
+	}
+	{Entity "fence_wood_r7" 0x138e
+		{Position -3110.76 -1519.76}
+		{xform zl -21.54}
+	}
+	{Entity "fence_wood_r8" 0x138f
+		{Position -3232.98 -1574.28}
+		{xform zl -81.14}
+	}
+	{Entity "fence_wood_r8" 0x1393
+		{Position -3185.75 -1567.44}
+		{xform zl -79.95}
+	}
+	{Entity "fence_wood_r8" 0x1396
+		{Position -3141.64 -1553.09}
+		{xform zl -61.32}
+	}
+	{Entity "fence_wood_r8" 0x1397
+		{Position -3279.83 -1582.53}
+		{xform zl -81.14}
+	}
+	{Entity "fence_wood_r8" 0x1399
+		{Position -3326.41 -1585.25}
+		{xform zl -95.15}
+	}
+	{Entity "fence_wood_r8" 0x139a
+		{Position -3399.68 -1557.02}
+		{xform zl -170.95}
+	}
+	{Entity "fence_wood_r8" 0x13a1
+		{Position -3373.72 -1581.61}
+		{xform zl -94.17}
+	}
+	{Entity "barrel_woods6" 0x13ab
+		{Position -3133.51 -1484.93}
+		{xform zl 178.81}
+		{TexMod
+			{"/texture/common/entourage/barrelwood" "win"}
+			{"/texture/common/entourage/barrelwood1" "win"}
+			{"/texture/common/entourage/barrelwood2" "win"}
+		}
+	}
+	{Entity "wood_floor1_a" 0x13b2
+		{Position -3218.24 -1495.86 23.32}
+		{xform zl 95.83}
+	}
+	{Entity "wood_floor1_a" 0x13b7
+		{Position -3304.33 -1506.4 12.41}
+		{xform zl 95.83}
+	}
+	{Entity "ash_tree3" 0x13b9
+		{Position -3673.8 -1722.81}
+		{xform zl 51.78 scale 0.8}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13ba
+		{Position -3291.97 -1663.28}
+		{xform zl -100.23}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x13bb
+		{Position -3259.32 -1685.5}
+		{xform zl 162.6}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x13c1
+		{Position -3217.21 -1671.72}
+		{xform zl 19.31 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13c7
+		{Position -3169.04 -1653.7}
+		{xform zl -153.52}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x13c8
+		{Position -3575.67 -1666.95}
+		{xform zl 162.6 scale 1.1}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x13c9
+		{Position -3818.29 -1627.79}
+		{xform zl -147.8}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x13ca
+		{Position -3783.72 -1512.53}
+		{xform zl -147.8 scale 0.8}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13cc
+		{Position -3743.61 -991.13}
+		{xform zl -35.01}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13cd
+		{Position -3724.93 -970.09}
+		{xform zl -35.01}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x13ce
+		{Position -3773.09 -1498.9}
+		{xform zl -106.14}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush1" 0x13d5
+		{Position -3755.83 -999.89}
+		{xform zl -153.61}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x13d6
+		{Position -3505.1 -1308.71}
+		{xform zl -147.8 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13d8
+		{Position -3689.01 -1270.08}
+		{xform zl -85.59}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13e5
+		{Position -3649.52 -1633.96}
+		{xform zl -40.56}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x13e6
+		{Position -3765.23 -1155.18}
+		{xform zl -94.83}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x13e7
+		{Position -3718.08 -1303.35}
+		{xform zl -47.36}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x13eb
+		{Position -3767.79 -1211.03}
+		{xform zl -35.01}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x13f9
+		{Position -3666.49 -895.83}
+		{xform zl 164.73}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x1403
+		{Position -2948.82 -1593.81}
+		{xform zl -142.85}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1406
+		{Position -3091.82 -1527.56}
+		{xform zl 55.02}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1408
+		{Position -2918.77 -1610.46}
+		{xform zl 17.41}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1409
+		{Position -3170.39 -1592.81}
+		{xform zl 17.41}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x140a
+		{Position -3125.4 -1580.05}
+		{xform zl 17.41}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x140c
+		{Position -2920.09 -1558.95}
+		{xform zl 51.82}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x140f
+		{Position -3074.49 -1743.51}
+		{xform zl -80.64}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x1410
+		{Position -3010.4 -1706.28}
+		{xform zl -42.41}
+		{TexMod "win2"}
+	}
+	{Entity "trace_people3a" 0x1411
+		{Position -3451.03 -957.05}
+		{xform zl 143.54}
+	}
+	{Entity "road_slush_clay2a" 0x1413
+		{Position -3022.01 -1558.86}
+		{xform zl -36.16}
+	}
+	{Entity "road_slush_clay2a" 0x1416
+		{Position -3361.74 -765.51}
+		{xform zl 58.79}
+		{DecalOrder 9}
+	}
+	{Entity "trace_people3a" 0x1418
+		{Position -3413.59 -871.2}
+		{xform zl 170.43}
+	}
+	{Entity "ash_tree3" 0x1419
+		{Position -3692.63 -792.38}
+		{xform zl 164.73 scale 1.3}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x141a
+		{Position -3714.33 -812.88}
+		{xform zl -35.01}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x142e
+		{Position -3068.09 -1476.24}
+		{xform zl 81.97}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x142f
+		{Position -3018.41 -1327.58}
+		{xform zl 81.97}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1431
+		{Position -3040.91 -1387.52}
+		{xform zl 81.97}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1434
+		{Position -3052.39 -1425.41}
+		{xform zl 81.97}
+		{TexMod "win2"}
+	}
+	{Entity "trace_people3a" 0x143d
+		{Position -3664.8 -1063.6}
+		{xform zl -6.98}
+	}
+	{Entity "trace_people3a" 0x143e
+		{Position -3556.73 -925.5}
+		{xform zl -68.69}
+	}
+	{Entity "trace_people3a" 0x145b
+		{Position -3471.74 -874.16}
+		{xform zl 123.84}
+	}
+	{Entity "trace_people3a" 0x145c
+		{Position -3620.44 -669.63}
+		{xform zl -88.07}
+	}
+	{Entity "trace_people3a" 0x145d
+		{Position -3485.28 -702.69}
+		{xform zl -116.12}
+	}
+	{Entity "cane3" 0x145e
+		{Position -3354.17 -536.09}
+		{xform zl 96}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x145f
+		{Position -3462.43 -1411.85}
+		{xform zl 65.52 scale 0.8}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree_bush2" 0x1460
+		{Position -3457.57 -1442.24}
+		{xform zl 165.96}
+		{TexMod "win2"}
+	}
+	{Entity "ash_tree3" 0x1461
+		{Position -3437.28 -1538.6}
+		{xform zl 54.73}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1462
+		{Position -3480.49 -1490.44}
+		{xform zl -99.81}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1463
+		{Position -3489.05 -1311.75}
+		{xform zl -83.29}
+		{TexMod "win2"}
+	}
+	{Entity "cane3" 0x1464
+		{Position -3580.39 -1242.04}
+		{xform zl -118.72}
+		{TexMod "win2"}
+	}
+	{Entity "trace_people3a" 0x1465
+		{Position -3713.78 -1056.01}
+		{xform zl 122.01}
+	}
+	{Entity "road_slush_clay2a" 0x1466
+		{Position -3385.14 -1053.89}
+		{xform zl -166.11}
+	}
+	{Entity "road_slush_clay2a" 0x1467
+		{Position -3431.43 -924.24}
+		{xform zl -178.59}
+		{DecalOrder 6}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1468
+		{Position -3297.5 -1192.44 -22.99}
+		{xform zl 1.29}
+		{DecalOrder 9}
+	}
+	{Entity "road_slush_clay2tn1b" 0x1469
+		{Position -3246.2 -1308.17 -20.28}
+		{xform zl -3.79}
+		{DecalOrder 9}
+	}
+	{Entity "turnout_white2" 0x146a
+		{Position -3252.45 -1271.35}
+		{xform zl -55.99}
+	}
+	{Entity "post_small" 0x146c
+		{Position -3450.92 -1164.98 -27.81}
+		{xform zl -74.76}
+	}
+	{Entity "post_small" 0x146d
+		{Position -3121.76 -1608.87 0.99}
+		{xform zl -114.45}
+	}
+	{Entity "post_small" 0x146e
+		{Position -3550.15 -650.12 -14.96}
+		{xform zl -142.27}
+	}
+	{Entity "trace_people3a" 0x146f
+		{Position -3630.91 -1209.98}
+		{xform zl 17.99}
+	}
+	{Entity "trace_people3a" 0x1470
+		{Position -3570.41 -1364.35}
+		{xform zl -171.2}
+	}
+	{Entity "trace_people3a" 0x1471
+		{Position -3541.35 -1529.9}
+		{xform zl 22}
+	}
+	{Entity "trace_people3a" 0x1472
+		{Position -3405.91 -1637.94}
+		{xform zl 69.97}
+	}
+	{Entity "trace_people3a" 0x1473
+		{Position -3240.53 -1663.92}
+		{xform zl -103.47}
+	}
+	{Entity "ash_tree_bush2" 0x1474
+		{Position -2765.35 -1065.02 -0.42}
+		{xform zl 63.64}
+		{TexMod "win2"}
+	}
+	{Entity "trace_people3" 0x1475
+		{Position -2791.41 -675.28}
+		{xform zl -45.88}
+	}
+	{Entity "barrel_woods6" 0x1476
+		{Position -2803.57 -1277.9 -22.17}
+		{xform zl -99.16}
+	}
+	{Entity "post_small" 0x1479
+		{Position -3087.1 -1401.73 0.04}
+		{xform zl 65.17}
+	}
+	{Entity "road_slush_clay2a" 0x5009
+		{Position -3046.68 -651.74 -17.25}
+		{xform zl -152.34}
+	}
+	{Entity "trace_people3" 0x500a
+		{Position -2973.83 -635.91 -11.72}
+		{xform zl -67.93}
+	}
+	{Entity "road_slush_clay2a" 0x500b
+		{Position -2842.36 -842.4 -13.54}
+		{xform zl -152.34}
+	}
+	{Entity "trace_people3" 0x500c
+		{Position -2769.51 -826.57 -6.65}
+		{xform zl -67.93}
+	}
 	{Link 0x1875 {0x184b "120_f2addition1"}}
 	{Link 0x1881 {0x184b "roof_el_1"}}
 	{Link 0x1882 {0x184b "roof_el_2"}}
@@ -94550,4 +96150,33 @@
 	{Link 0xb21 {0x17d6 "door3"}}
 	{Link 0xb22 {0x17d6 "w1"}}
 	{Link 0xb23 {0x17d6 "w2"}}
+	{Link 0x1004 {0x100a "1"}}
+	{Link 0x1005 {0x100a "2"}}
+	{Link 0x1008 {0x100a "3"}}
+	{Link 0x1009 {0x100a "4"}}
+	{Link 0x1114 {0x1118 "1"}}
+	{Link 0x1115 {0x1118 "2"}}
+	{Link 0x1116 {0x1118 "3"}}
+	{Link 0x1117 {0x1118 "4"}}
+	{Link 0x123f {0x12a9 "1_1"}}
+	{Link 0x1240 {0x12a9 "1_2"}}
+	{Link 0x1241 {0x12a9 "2_1"}}
+	{Link 0x1242 {0x12a9 "2_2"}}
+	{Link 0x1243 {0x12a9 "3_1"}}
+	{Link 0x1245 {0x12a9 "3_2"}}
+	{Link 0x1246 {0x12a9 "4_1"}}
+	{Link 0x1247 {0x12a9 "4_2"}}
+	{Link 0x1249 {0x12a9 "5_1"}}
+	{Link 0x124d {0x12a9 "5_2"}}
+	{Link 0x124e {0x12a9 "6_1"}}
+	{Link 0x124f {0x12a9 "6_2"}}
+	{Link 0x1250 {0x12a9 "7_1"}}
+	{Link 0x1251 {0x12a9 "7_2"}}
+	{Link 0x1255 {0x12a9 "8_1"}}
+	{Link 0x1258 {0x12a9 "8_2"}}
+	{Link 0x126d {0x12a9 "9_1"}}
+	{Link 0x1270 {0x12a9 "9_2"}}
+	{Link 0x1286 {0x12a9 "10_3"}}
+	{Link 0x128a {0x12a9 "11_3"}}
+	{Link 0x128b {0x12a9 "12_3"}}
 }
