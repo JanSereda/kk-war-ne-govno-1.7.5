@@ -17,7 +17,7 @@ UnitClass = {
 
 
 function readAllUnits(sq,units,army)
-	local mod_folder_name = "kk-war-175"				-- Mod folder name here.
+	local mod_folder_name = "kk-war-ne-govno-1.7.5"				-- Mod folder name here.
 
 	local path = "mods\\"..mod_folder_name.."\\resource\\set\\multiplayer\\units\\"	-- Path to units folder. Example: "mods\\"..mod_folder_name.."\\resource\\set\\multiplayer\\units\\"
 														-- SET FOLDER MUST NOT BE ARCHIVED! EXTRACT IT TO RESOURCE FOLDER! Maybe this requirment will be removed soon.
