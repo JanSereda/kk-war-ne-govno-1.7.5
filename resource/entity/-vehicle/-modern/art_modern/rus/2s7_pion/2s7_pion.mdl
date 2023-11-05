@@ -82,12 +82,12 @@
 			{bone revolute "turret"
 				{parameters "ID=Turret;"}
 				{limits -15 15}
-				{speed 0.001}
+				{speed 0.002}
 				{Position -40.2663	-0.93387	8.85494}
 				{VolumeView "turret.ply"}
 				{bone revolute "gun_rot"
 					{parameters "ID=gun;"}
-					{limits 0 45}
+					{limits 0 69}
 					{speed 0.001}
 					{Matrix34
 						1	0	0

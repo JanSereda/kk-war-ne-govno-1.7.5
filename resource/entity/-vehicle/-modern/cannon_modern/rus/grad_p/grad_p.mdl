@@ -50,7 +50,7 @@
 			}
 			{bone revolute "gun_rot"
 				{parameters "ID=gun;"}
-				{limits -2 18}
+				{limits -2 50}
 				{speed 0.02}
 				{Matrix34
 					-1	0	0
