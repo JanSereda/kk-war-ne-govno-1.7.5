@@ -1,0 +1,21 @@
+{from "pattern cl"
+	{tag "big" "size2" "150to152fg" "cluster" "fx_45_89"}
+	
+   	 {damage blastwave
+			{energy 0.5}
+			{area 1 2}
+	}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 60} ; 48кг снаряд, около 12кг заряд
+	{entity "shell_155mm_cn_cl"}
+
+	;{cumulative 2.0}
+
+	{view "shell_155mm_cn_cl"	}
+	
+}
+;Снаряжен китайскими клонами M42 - Type 81
+;M483A1 КОБЭ M42
+;http://bulletpicker.com/pdf/TM%2043-0001-28,%20Artillery%20Ammunition.pdf#page=322

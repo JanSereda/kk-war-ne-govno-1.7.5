@@ -1,0 +1,20 @@
+{from "pattern cl"
+	{tag "big" "size2" "150to152fg" "cluster" "fx_45_89"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{detonationThickness 40}
+   	 {damage blastwave
+			{energy 0.5}
+			{area 1 2}
+	}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 58.8}
+	{entity "shell_152amm_reactive"}
+
+	;{cumulative 2.0}
+
+	{view "shell_152amm_reactive"}
+
+}
+;3-O-23 Настояние. 40 КОБЭ.

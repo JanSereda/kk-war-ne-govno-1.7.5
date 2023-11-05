@@ -1,0 +1,23 @@
+{from "pattern fg"
+	{tag "size1" "20mm" "pierce" "autocannon_small" "shell_antimissile" "ic" "fx_16_24" "fg_air"}
+	;Осколочно-фугасные-зажигательные снаряды
+	{inventory
+		{weight 25}
+		{size 3 1}
+		{block 5}
+	}
+	{mass 0.435}
+	{entity "23omm_zenit_ammo"}
+	;{view "23omm_zenit_ammo"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.25}
+		}
+		{length 4.5}
+	}
+	{view "30mm_fly_0_7sec"}
+
+	;0,0185 кг A-IX-20 т.э.-1.21 ВВ для ЗУОФ7 0.018 x 0.95 = 0.0171кг к расчету ОФ.
+{damage blastwave {energy 0.7} {area 2 2.3}}
+{damage add blastwave {energy 1.2} {area 1.4 1.6}}
+}

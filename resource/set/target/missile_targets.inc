@@ -136,6 +136,14 @@
 		{"usa_laser_aj cwps2"  }
 		{"usa_laser_asm_aj cwps2"  }
 	}
+	{proj_usa_laser_guide
+		{"usa_laser_spot cwps2"  }
+		{"usa_laser_spot_aj cwps2"  }
+	}
+	{proj_usa_laser_uas
+		{"usa_laser_spot cwps2"  }
+		{"usa_laser_spot_aj cwps2"  }
+	}
 	{proj_usa_other
 		{"usa_other cwps2"  }
 		{"usa_other_aj cwps2"  }
@@ -223,6 +231,7 @@
 		{"usa_active cwps2" {volume "target_usa_active"}}
 		{"usa_ir cwps2" {volume "target_usa_ir"}}
 		{"usa_laser cwps2" {volume "target_usa_laser"}}
+		{"usa_laser_spot cwps2" {volume "target_usa_laser_spot"}}
 		{"usa_other cwps2" {volume "target_usa_other"}}
 		{"usa_antiship cwps2" {volume "target_usa_antiship"}}
 		{"usa_radpassive cwps2" {volume "target_usa_radpassive"}}
@@ -262,6 +271,7 @@
 		{"usa_ir_aj cwps2" {volume "target_usa_ir"}}
 		{"usa_ir_asm_aj cwps2" {volume "target_usa_ir"}}
 		{"usa_laser_aj cwps2" {volume "target_usa_laser"}}
+		{"usa_laser_spot_aj cwps2" {volume "target_usa_laser_spot"}}
 		{"usa_laser_asm_aj cwps2" {volume "target_usa_laser"}}
 		{"usa_other_aj cwps2" {volume "target_usa_other"}}
 		{"usa_other_asm_aj cwps2" {volume "target_usa_other"}}

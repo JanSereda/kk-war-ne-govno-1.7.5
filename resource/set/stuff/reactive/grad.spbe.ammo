@@ -1,0 +1,15 @@
+{bullet
+	
+	{tag "big shell bomb grad size1 no_ricochet fx_gren"}
+	{inventory
+		{size 7 1}
+		{weight 100}
+	}	
+	{mass 56.4}
+	{entity "shell_122mm_reactive_spbe"}
+	{view "shell_122mm_reactive_spbe"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+}

@@ -8,7 +8,7 @@
 	{range 285 285}    ; 18700м - 270им.
 ;	{gravity 19}
 ;	("speed" s(1200)) 
-	{gravity 1.9}
+	{gravity 2.4}
 	("speed_artillery") 
 	("100-128caliber")
 	{ZeroingAccuracy 0.75 0.5}

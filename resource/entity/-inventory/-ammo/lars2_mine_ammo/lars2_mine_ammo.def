@@ -10,4 +10,5 @@
 		{item "ammo lars2 mine"}
 	}
 	{Extension "dm_21_ammo.mdl"}
+	("cw_altitude_fuse_25m")
 }

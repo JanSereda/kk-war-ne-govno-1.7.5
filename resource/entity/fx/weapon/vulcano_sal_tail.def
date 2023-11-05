@@ -1,0 +1,17 @@
+{fx
+	{particleview vulcano_sal_tail
+		{entitygenerator
+			{emissionarea
+				{alpha0 0}
+				{alpha1 0}
+			}
+			{particleinit
+				{speed 100} ;28.5 1.5
+				{lifetime 1}
+			}
+			{entity "vulcano_sal_spawner"}
+			{totalparticles 1}
+			{totalparticles 1}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "size1" "ic" "autocannon_small" "shell_antimissile" "fx_25_40"}
+	{mass 0.69}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+	{entity "bullet25_CN_fg"}	
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.26}
+		}
+		{length 4}
+	}
+	{view "30mm_fly_0_7sec"}
+	; около 0,043 кг ВВ - масса снаряда 0,250 кг
+{damage blastwave {energy 0.7} {area 2.1 2.4}}
+{damage add blastwave {energy 1.2} {area 1.5 1.7}}
+
+}

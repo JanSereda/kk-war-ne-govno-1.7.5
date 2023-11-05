@@ -39,6 +39,12 @@
 		{cursor "cannon_on_fg_4"}
 		{cursorReloading "cannon_reload_fg"}	
 	}
+	{parameters "bullet155_GER sal"
+	    {gravity 1.42}
+		{range 455 455}
+		{cursor "cannon_on_fg_4"}
+		{cursorReloading "cannon_reload_fg"}	
+	}
 	{parameters "bullet155_USA spbe"
 		{range 315 315}	; 22.5km
 		{cursor "cannon_on_heat_5"}

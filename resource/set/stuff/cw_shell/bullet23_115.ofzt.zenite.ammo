@@ -1,0 +1,27 @@
+{from "pattern fg"
+	{tag "size1" "20mm" "autocannon_small" "ic" "fx_16_24"}
+	;ОФ-зажигательно-трассирующие снаряды
+	{inventory
+		{weight 25}
+		{size 3 1}
+		{block 5}
+	}
+	{mass 0.338}
+	{entity "bullet23_115_fg"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.25}
+		}
+		{length 5}
+	}
+	{view "30mm_fly_0_7sec"}
+	;около 0,011 кг ВВ 9-А-715
+	{damage blastwave	 ; fragmentary
+		{energy 0.7}
+		{area 1.9 2.2}
+	}
+	{damage add blastwave	 ; HE antipersonnel
+		{energy 1.2}
+		{area 1.4 1.6}
+	}		
+}

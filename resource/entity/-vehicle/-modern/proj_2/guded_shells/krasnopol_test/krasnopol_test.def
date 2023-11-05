@@ -1,0 +1,19 @@
+{actor
+	(include "/properties/projectile_impulse.ext")
+	{extender "stuff"
+		{item "krasnopol_impactor"}
+	}
+	{props "krasnopol_test" "proj_impulse"}
+	{Extension "krasnopol_test.mdl"}
+
+	("guidance_aj" country(rus) typeaj(laser_spot_aj) guidanceaj(arc_160))
+	("impulse_missile_armor" thickness(30000) durability(30000))
+
+	{targetSelector "laser_guided_shell"}
+	{volume "cont_vol"
+		{able clear {contact}}
+		{Box 0 25 25}
+		{Bone "cont_vol"}
+		{Position 1	0	0}
+	}
+}

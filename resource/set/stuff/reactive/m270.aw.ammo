@@ -1,0 +1,28 @@
+{bullet
+	
+	{tag "big" "shell" "fg" "size2" "no_ricochet" "m270_aw" "fragmentary" "antiinf" "fx_90_110" "fx_splitter_big"}
+	{tag "cluster_shell"} ; только для ammo.set
+	{inventory
+		{size 7 2}
+		{weight 100}
+	}	
+	{mass 262}
+	{entity "mlrs_aw_ammo"}
+	{view "mlrs_aw_ammo"
+		{tail "rocket_smoke_short_mlrs" "tail"}
+	}
+	{detonationThickness 40}
+	{applyProjectile}
+	;The 200-pound GMLRS-AW high-explosive warhead contains approximately 160,000 preformed tungsten fragments
+	;Если обычная БЧ имеет 24кг ВВ, то тут PBXN-110 (88% октогена и 12% добавок). Высота детонации - около 9-10м.
+	;https://rex-net.livejournal.com/7184271.html
+	;броня БР2 держит. Диаметр шарика - 2,8мм, масса 0,22г. Площадь грудной мишени 0,2м2
+	;на расстоянии 50м в нее попадет примерно 1 осколок (при сферическом распределении)
+	; на 25м - 4, на 12м - 8
+	;Шарики весят 35кг, то массу ВВ можно оценить как примерно 8кг
+	{damage blastwave {energy 0.7} {area 19.8 22.7}}
+	{damage add blastwave {energy 1.2} {area 11.3 13}}
+	{damage add blastwave {energy 2.5} {area 7.6 8.7}}
+	{damage add blastwave {energy 6.5} {area 5.1 5.9}}
+	{damage add blastwave {energy 11} {area 2.6 3}}
+}

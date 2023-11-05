@@ -1,4 +1,7 @@
-{material simple
+{material bump
 	{diffuse "$/new_construction/usa/angar2"}
+	{bump "$/new_construction/usa/angar2_bp"}
+	{specular "$/new_construction/usa/angar2_sp"}
+	{color "230 230 230 25"}
 	{blend none}
 }

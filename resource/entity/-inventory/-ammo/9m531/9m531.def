@@ -10,4 +10,5 @@
 		{item "smerch tornado_s ammo 9m531"}
 	}
 	{Extension "9k55_ammo.mdl"}
+	("cw_altitude_fuse_25m")
 }

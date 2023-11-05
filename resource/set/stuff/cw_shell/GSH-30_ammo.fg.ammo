@@ -1,0 +1,20 @@
+{from "pattern fg"
+	{tag "size1" "autocannon_small" "ic" "fx_25_40"}
+	{mass 0.83}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+	{entity "GSH-30_fg"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.24}
+		}
+		{length 3.5}
+	}
+	{view "30mm_fly_1sec"}
+	;около 0,049 кг ВВ - масса снаряда 9-А-4002К 0,387 кг
+        {damage blastwave {energy 0.7} {area 2.2 2.5}}
+        {damage add blastwave {energy 1.2} {area 1.5 1.8}}
+}

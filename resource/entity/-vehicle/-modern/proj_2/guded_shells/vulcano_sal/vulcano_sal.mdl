@@ -1,0 +1,70 @@
+;Exported by: Timosh
+;Date:        Thu Nov  2 17:59:41 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\Vulcano 155mm\vulcano_sal.max
+{Skeleton
+	{bone "basis"
+        {Orientation
+    		1	0	0
+    		0	-1	0
+    		0	0	1
+    	}
+		{bone revolute "gun_rot"
+		    {limits -120 120}
+			;{speed 0.003}
+		    {Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				0	0	0
+			}
+			{bone revolute "gun"
+			    {limits -45 45}
+			    {Matrix34
+		       		1	0	0
+		       		0	0	1
+		       		0	-1	0
+		       		0	0	0
+		       	}
+		        {bone "missle_foresight"
+		            {Position 15	0	0}
+		        }
+				{bone "cont_vol"
+		            {Position -20	0	0}
+		        }
+    	        {bone "body_sal"
+					{Orientation
+						1	0	0
+						0	-1	0
+						0	0	1
+					}
+					{VolumeView "body_sal.ply"}
+					{bone "tail"
+						{parameters "Voxels=0;"}
+						{Position -9.97291	-0.0807427	0.0911365}
+					}
+				}
+		     
+			}
+		}
+    }
+}
+{Volume "body"
+	{Box 25.4646 3.0297 2.98916}
+	{Bone "body_sal"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.08276	1.59174	0.000331125
+	}
+}
+{Volume "select"
+	{Box 18.609 3.15345 3.71177}
+	{Bone "body_sal"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-0.194243	-0.036945	0.000330405
+	}
+}

@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+
+	{extender "stuff"
+		{item "bullet155_cn_r 155_cn fg ammo"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_155mm_cn.mdl"}
+	("cw_altitude_fuse_5m")
+}

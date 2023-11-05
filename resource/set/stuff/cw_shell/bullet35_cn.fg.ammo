@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "size1" "autocannon_small" "bullet35" "shell_antimissile" "ic" "fx_25_40"}
+	{mass 1.58}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+	{entity "shell_35mm_fg"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.24}
+		}
+		{length 3.5}
+	}
+	{view "30mm_fly_0_7sec"}
+
+	;0,112 êã ÂÂ 
+{damage blastwave {energy 0.7} {area 2.6 2.9}}
+{damage add blastwave {energy 1.2} {area 1.8 2.1}}
+}

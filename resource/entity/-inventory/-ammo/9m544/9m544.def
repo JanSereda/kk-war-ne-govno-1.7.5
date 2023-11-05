@@ -10,4 +10,5 @@
 		{item "tornado_s ammo 9m544"}
 	}
 	{Extension "9k537.mdl"}
+	("cw_altitude_fuse_25m")
 }

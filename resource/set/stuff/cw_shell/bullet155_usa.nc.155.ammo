@@ -1,0 +1,34 @@
+{from "pattern fg"
+	{tag "big" "size4" "155ammo" "no_ricochet" "cluster" "fx_nuq"}
+	
+	{mass 53.9} ; использует 10.7 кг заряд М119А2 - 18.1 км 
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_usa_nc_155"}
+	{view "shell_usa_nc_155"}
+	;ядерная БЧ тротил экв - 1.5 КТ
+{damage blastwave {energy 0.7} {area 134 137.9}}
+{damage add blastwave {energy 1.2} {area 120.1 125.8}}
+{damage add blastwave {energy 2.5} {area 91.4 95.5}}
+{damage add blastwave {energy 6.5} {area 84.6 85.3}}
+{damage add blastwave {energy 11} {area 70.3 71.6}}
+
+	{damage add blastwave	 ; HE, kinetic, direct hit, antitank
+		{energy 22}
+		{area 13.1 15.1}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 50}
+		{area 7 9}
+	}
+	{damage add fire
+			{radius 10}
+			{heating 40}
+			{time 10}
+	}
+	{damage add fire
+			{radius 50}
+			{heating 30}
+			{time 6}
+	}
+}

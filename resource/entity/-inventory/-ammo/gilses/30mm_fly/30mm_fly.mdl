@@ -10,12 +10,11 @@
 		}
 		{VolumeView "body.ply"}
 		{bone "tail"
-			{parameters "Voxels=0;"}
 			{Matrix34
 				-1	0	0
 				0	-1	0
 				0	0	1
-				193.413	0.0429629	-0.07652
+				-1.66654	0.00915217	0
 			}
 		}
 	}

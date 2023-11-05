@@ -10,4 +10,5 @@
 		{item "ammo grad mine"}
 	}
 	{Extension "shell_122mm_reactive_mine.mdl"}
+	("cw_altitude_fuse_25m")
 }

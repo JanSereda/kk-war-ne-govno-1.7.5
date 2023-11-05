@@ -11,4 +11,5 @@
 		{item "ammo ATACMS cl"}
 	}
 	{Extension "mlrs_atacms_ammo.mdl"}
+	("cw_altitude_fuse_25m")
 }

@@ -1,0 +1,15 @@
+{bullet
+	
+	{tag "big shell bomb size1 no_ricochet fx_gren"}
+	{inventory
+		{size 7 1}
+		{weight 100}
+	}	
+	{mass 56.4}
+	{entity "lars2_mine_ammo"}
+	{view "lars2_mine_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+}

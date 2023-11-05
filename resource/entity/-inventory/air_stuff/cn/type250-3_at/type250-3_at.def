@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{Extension "type250-3_at.mdl"}
+	{extender "stuff"
+		{item "rbk_cn cl ammo"}
+	}
+	("cw_altitude_fuse_15m")
+}

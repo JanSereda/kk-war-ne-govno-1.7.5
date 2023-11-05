@@ -1,0 +1,27 @@
+{bullet
+	{tag "ammo shell itemin2hands"}
+	{tag "spbe_shell"} ; только для ammo.set
+	{detonationThickness 2}
+	{inventory
+		{size 5 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{tag "big" "size2" "155ammo" "150to152fg" "cluster" "fx_45_89"}
+	
+   	 {damage blastwave
+			{energy 0.5}
+			{area 1 2}
+	}
+	{inventory
+		{size 6 1}
+	}	
+	{mass 57.2} ; использует 10.7 кг заряд М119А2 - 17.7 км
+	{entity "shell_usa_spbe_155"}
+
+	;{cumulative 2.0}
+
+	{view "shell_usa_spbe_155"	}
+	
+}
+;German shell Smart155

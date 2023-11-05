@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff.ext")
+	{Extension "type250-3_at.mdl"}
+	{props "dispencer"}
+	{extender "stuff"
+		{item "type250-3_at_impactor"}
+	}
+}

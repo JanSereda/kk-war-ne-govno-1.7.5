@@ -1,0 +1,6 @@
+﻿;Created by Pheonix 
+{from "155mm_L31 gun"     ;AS-90 39 калибров.
+	{fireSound "gun/fh70_shot"}
+	{reloadSound "as90_reload"}
+
+}			

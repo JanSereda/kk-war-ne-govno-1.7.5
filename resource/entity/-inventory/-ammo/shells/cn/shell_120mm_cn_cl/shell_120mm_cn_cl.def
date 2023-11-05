@@ -6,4 +6,6 @@
 	}
 	{props "explosive_stuff"}
 	{Extension "shell_120mm_cn_cl.mdl"}
+	("cw_altitude_fuse_15m")
+
 }

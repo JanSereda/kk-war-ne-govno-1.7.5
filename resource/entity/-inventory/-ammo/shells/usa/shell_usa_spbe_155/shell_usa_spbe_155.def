@@ -5,5 +5,5 @@
 	}
 	{props "steel" "explosive_stuff"}
 	{Extension "shell_usa_spbe_155.mdl"}
-	
+	("cw_altitude_fuse_20m")
 }

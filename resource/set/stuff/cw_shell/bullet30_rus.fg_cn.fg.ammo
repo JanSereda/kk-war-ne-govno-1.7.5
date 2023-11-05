@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "size1" "ic" "autocannon_small" "shell_antimissile" "fx_25_40" "fg_air"}
+	{mass 0.837}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+;	("fg" args 0.8)
+	{entity "shell_cn_30mm_fg"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.24}
+		}
+		{length 3.5}
+	}
+	{view "30mm_fly_0_7sec"}
+
+	;Думаю, близкие ТТХ к ОФС РФ
+        {damage blastwave {energy 0.7} {area 2.2 2.5}}
+        {damage add blastwave {energy 1.2} {area 1.5 1.8}}
+}

@@ -1,0 +1,14 @@
+{from "pattern proj_pointer"
+	{tag "big" "size4" "laser_using_missile" "ap"}
+	{mass 50.8}
+	{inventory
+		{size 6 1}
+	}	
+	{entity "shell_fr_fg_155_vulcano_sal"}
+	{view "vog_25pm"
+	   {tail "vulcano_sal_tail" "tail"}
+	}
+	{detonationThickness 109}
+	;Примерно 2.7кг ВВ, в расчетах брал Composition B (ТЭ 1.33, масса к расчету 2.7кг)
+{damage add blastwave {energy 6.5} {area 0.0 0.0}}
+}

@@ -1,0 +1,21 @@
+{from "pattern fg"
+	{tag "size1" "autocannon_small" "ic" "fx_25_40"}
+	{mass 0.904}
+	{inventory
+		{size 3 1}
+		{weight 25}
+		{block 4}
+	}	
+	{entity "L13A1_he"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.24}
+		}
+		{length 3.5}
+	}
+	{view "30mm_fly_0_7sec"}
+	;L13A2 - 25.6ãð ÂÂ Torpex 2. è.ý.- 1
+	{damage blastwave {energy 0.7} {area 2 2.3}}
+        {damage add blastwave {energy 1.2} {area 1.4 1.6}}
+}
+
