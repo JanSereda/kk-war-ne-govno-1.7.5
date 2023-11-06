@@ -14,7 +14,7 @@
 	{Ocean
 		{active}
 		{state calm}
-		{zlevel -20}
+		{zlevel -30}
 		{waveamount 8}
 		{wavedir 50}
 	}
