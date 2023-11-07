@@ -52,7 +52,7 @@
 		{item "m16a4full" filling "556natos ammo" 30}
 		{item "556nato ammo" 200}
 		{item "rq11_control"}
-		{item "f1_script grenade" 4}
+		
 		{item "tarzan"}
 	
 		{item "fpv_drone" 4}

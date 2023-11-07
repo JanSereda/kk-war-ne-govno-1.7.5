@@ -23,8 +23,10 @@
 
 ("squad_with2types" name(pzrk) f(1)  c(250) cost(30) g(pzrk) b(common) brig(common) side(iregular)     t(all_nz antiair   )  c1(pzrk1:2)             ) 
  {"pzrk2_iregular" {fore 0.9} ("v3" c(500) sc(69) g(pzrk2) b(common) brig(common) s(iregular)  i(5) cw(0) cp(0) t(all_nz aat  ) c1(toyota_hilux_transport) n(2) n1(vehicle_supporter:1) n2(pzrk1:2) n3(pzrk2:2) n4(pzrk3:2)	)}    
-("squad_with1types" name(spotter) f(1)  c(500) cost(120) g(eng) b(supl) brig(common) side(iregular)     t(all_nz    )  c1(spotter:1)              ) 
-    
+	
+{"uaz_car_konkurs" {fore 1} ("v3" c(900) sc(200) g(269)  b(supl) brig(common) s(iregular)   i(119) cw(0) cp(10) t(all_nz supply ) n(2) c1(uaz_car_konkurs) n1(reserv5:1) n2(spotter:1)     ) }  
+
+	
 ;===============================Вспомогательные войска===========================================                                   
 
 					

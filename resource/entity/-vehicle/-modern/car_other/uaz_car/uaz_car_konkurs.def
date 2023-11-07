@@ -52,8 +52,9 @@
 	{extender "inventory"
 		
 		{Box
-			{Size 6 6}
-			{weight 700}
+			{Size 11 9}
+			{weight 1000}
+			{item "ammo bullet152_RUS korr" 6}
 			{item "ptur_konkurs" 1}
 			{item "ammo fagot_concurs 9m113" 7}
                                                                          
@@ -66,7 +67,7 @@
 			Turnradius(7)
 			Power(80)
 			Realspeed(115)
-			Gamespeed(61) 
+			Gamespeed(78) 
 			Range(500)
 			Fuelvolume(78)
 		)

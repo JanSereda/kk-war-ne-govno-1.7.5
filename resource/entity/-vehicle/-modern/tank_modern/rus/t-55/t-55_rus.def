@@ -111,9 +111,11 @@
 ;			{mask "weapon mgun"}
 ;		}
 		{box	
-			{item "ammo PKM_ammo" 1250}      
-			{item "ammo bullet100_RUS fg" 42}
-                ; БК для спаренного пулемета ПКТ - 1500 патр.
+           	{item "ammo bullet122_cn fg" 24}
+			{item "ammo bullet122_cn cl" 10}
+			{item "ammo bullet122_cn rok" 5}
+			{item "spade_inv" 10}
+			{item "netting_kit" 5}
 		}
 	}
 
@@ -121,7 +123,7 @@
 		("restore_ik_time")
 		{place "gun"
 			{RestoreIKAfterAim}
-			{weapon "100mm_D-10Texp" filling "ammo bullet100_RUS fg" 1}	
+			{weapon "122mm_2A18" filling "ammo bullet122_cn fg" 1}	
 			{gunner "gunner"}
 			{charger "charger"} 
 			("abm_howitzer")
@@ -149,7 +151,7 @@
 	("cwts_buksir")
 	("CW_turr_speed" deg_per_s(15)) ; СТП-2 Циклон 15гр/сек. в.1 г.3.
 	{bone "gun_rot_helper"		
-		{limits 7 37}
+		{limits -5 37}
 	}
 
 }
