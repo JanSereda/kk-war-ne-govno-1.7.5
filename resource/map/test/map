@@ -201,7 +201,7 @@
 	}
 	{Human "mp2/frg/frg_rpg2" 0x5804
 		{Position 37.42 -2150.19}
-		{xform zl 54.71 y 10.43 zw 16.59}
+		{xform zl 55.61 y 10.43 zw 16.59}
 		{Extender "vitality"
 			{Dead}
 			{Health
@@ -10358,8 +10358,8 @@
 		}
 	}
 	{Human "single/est/est_com" 0x6013
-		{Position -890.97 2373.36}
-		{xform zl 163.12 y 18.62 zw -164.95}
+		{Position -894.69 2384.18}
+		{xform zl 150.05 y 20.65 zw -151.1}
 		{Player 0}
 		{MID 10010}
 		{NameId 0 1}
@@ -10600,23 +10600,13 @@
 			{Item "ak74b" filled}
 		}
 	}
-	{Entity "radar_minimap" 0x5800
-		{Position 2347.18 1022.31 310.67}
-		{DisableObstacles}
-		{Player 0}
-		{MID 10028}
-	}
 	{Entity "piece_big_airborne_wing" 0x5806
 		{Position -4629.33 -844.27 302.22}
 		{xform zl 147.04 y 179.71 zw -110.72}
-		{TexMod "vksred10"}
-		{Volume "target_hight"
-			{able {visible 0}{throwing 0}{obstacle 0}{blast 0}{select 0}}
-		}
 	}
 	{Entity "su-25sm_miner" 0x1807
 		{Position -2468.53 -457.3}
-		{xform zl 165.24 y 0.1 zw -165.24}
+		{xform zl 165.21 y 0.1 zw -165.21}
 		{Volume "steering_eler_l"
 			{able {contact 0}{contact_ground 0}}
 		}
@@ -10694,7 +10684,7 @@
 	}
 	{Human "mp2/usa/2smg_gren" 0x1809
 		{Position -2422.76 -458.3}
-		{xform zl 165.24 y 0.1 zw -165.24}
+		{xform zl 165.21 y 0.1 zw -165.21}
 		{Player 1}
 		{MID 10031}
 		{NameId 26 12}
@@ -10703,6 +10693,137 @@
 	{Entity "m4s" 0x180b
 		{Extender "stuff"
 			{Item "m4s" filled}
+		}
+	}
+	{Entity "radar_minimap" 0x6009
+		{Position -2651.36 1626.83 339.89}
+		{DisableObstacles}
+		{Player 1}
+		{MID 10012}
+	}
+	{Entity "radar_minimap" 0x600f
+		{Position 2347.18 1022.31 339.89}
+		{DisableObstacles}
+		{Player 0}
+		{MID 10032}
+	}
+	{Entity "radar_minimap" 0x6016
+		{Position 2341.83 1213.33 339.89}
+		{DisableObstacles}
+		{Player 0}
+		{MID 10033}
+	}
+	{Entity "radar_minimap" 0x2089
+		{Position 2347.18 1022.31 338.09}
+		{DisableObstacles}
+		{Player 0}
+		{MID 10034}
+	}
+	{Entity "m2_adats" 0x5006
+		{Position 7362.4 -767.69}
+		{Extender "enumerator"
+			{number 504}
+		}
+		{Player 255}
+		{MID 10035}
+	}
+	{Entity "proj_point_usa_antirad_spawner" 0x5007
+		{Player 0}
+		{MID 10036}
+	}
+	{Entity "proj_point_usa_antirad" 0x5010
+		{Player 0}
+		{MID 10037}
+	}
+	{Entity "cwps3_proj_point" 0x5011
+		{Player 255}
+		{MID 10038}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
+		}
+	}
+	{Entity "m1126_jav" 0x6801
+		{Position 7329.94 -442.02 300}
+		{Player 255}
+		{MID 10039}
+	}
+	{Entity "cwps3_proj_point" 0x6803
+		{Player 255}
+		{MID 10040}
+		{Component "rus_active"
+			{State broken}
+		}
+		{Component "rus_antiship"
+			{State broken}
+		}
+		{Component "rus_ir"
+			{State broken}
+		}
+		{Component "rus_laser"
+			{State broken}
+		}
+		{Component "rus_laser_spot"
+			{State broken}
+		}
+		{Component "rus_other"
+			{State broken}
+		}
+		{Component "rus_radpassive"
+			{State broken}
+		}
+		{Component "usa_active"
+			{State broken}
+		}
+		{Component "usa_antiship"
+			{State broken}
+		}
+		{Component "usa_ir"
+			{State broken}
+		}
+		{Component "usa_laser"
+			{State broken}
+		}
+		{Component "usa_other"
+			{State broken}
+		}
+		{Component "usa_radpassive"
+			{State broken}
 		}
 	}
 	{Link 0x16 {0x4 "station_corner9"}}
@@ -10718,21 +10839,25 @@
 	{Link 0x4003 {0x4002 "point"}}
 	{Link 0x6012 {0x6011 "cwps_proj_point"}}
 	{Link 0x6013 {0x6011 "driver"}}
+	{Link 0x6800 {0x92f "seat3"}}
+	{Link 0xc01 {0x92f "commander"}}
+	{Link 0x2800 {0x92f "charger"}}
+	{Link 0x7000 {0x92f "commander2"}}
 	{Link 0x930 {0x92f "vehicle9"}}
 	{Link 0x932 {0x92f "cwps_proj_point"}}
-	{Link 0xc01 {0x92f "commander"}}
-	{Link 0x6800 {0x92f "seat3"}}
-	{Link 0x7000 {0x92f "commander2"}}
-	{Link 0x2800 {0x92f "charger"}}
 	{Link 0x931 {0x930 "point"}}
+	{Link 0x3000 {0x2082 "driver"}}
+	{Link 0x1004 {0x2082 "commander"}}
+	{Link 0x4800 {0x2082 "charger"}}
 	{Link 0x2083 {0x2082 "vehicle9"}}
 	{Link 0x2088 {0x2082 "cwps_proj_point"}}
-	{Link 0x1004 {0x2082 "commander"}}
-	{Link 0x3000 {0x2082 "driver"}}
-	{Link 0x4800 {0x2082 "charger"}}
 	{Link 0x2087 {0x2083 "point"}}
 	{Link 0x1808 {0x1807 "cwps_proj_point"}}
 	{Link 0x1809 {0x1807 "driver"}}
+	{Link 0x5007 {0x5006 "vehicle9"}}
+	{Link 0x5011 {0x5006 "cwps_proj_point"}}
+	{Link 0x5010 {0x5007 "point"}}
+	{Link 0x6803 {0x6801 "cwps_proj_point"}}
 	{Inventory 0x5804
 		{box
 			{clear}
