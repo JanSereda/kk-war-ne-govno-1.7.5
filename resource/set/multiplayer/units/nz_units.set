@@ -74,12 +74,11 @@
  {"mig-21bis_support_hydra" {fore 0.4} ("p" c(500) sc(169) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_support_hydra" {fore 0.4} ("p" c(500) sc(169) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_support_s13" {fore 0.4} ("p" c(500) sc(190) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- {"mig-21bis_support_s25" {fore 0.4} ("p" c(500) sc(210) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- 
+
 
 
  {"mig-21bis_bomber" {fore 0.4} ("p" c(500) sc(125) g(susem_bobmb) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(2) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- {"mig-21bis_harm" {fore 0.4} ("p" c(800) sc(170) g(susem_rad) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(8) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
+ {"mig-21bis_support_s25" {fore 0.4} ("p" c(800) sc(170) g(susem_rad) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(8) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  
 
  

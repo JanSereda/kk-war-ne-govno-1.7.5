@@ -2,8 +2,8 @@
 ;===============================USA===========================================                                   
 
 ;==================== СПЕЦ ОЧКИ США  
- {"a-10c_bomber" {fore 0} ("p" c(900)  sc(300) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(250) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"mq9" {fore 0} ("p" c(500)  sc(50) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(200) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"f-15e_kab" {fore 0} ("p" c(1500)  sc(250) g(air_strike) b(extra) brig(usaf) s(usa) m(3) i(3) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
     
  {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(extra) brig(usaf) s(usa) m(4)  i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
@@ -84,24 +84,13 @@
 
 							   
 ;===============================USAF===========================================                                   
- ;{"SSO_usa" {fore 0.8} ("v3" c(600) sc(90) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(2) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(mh-6) n1(vertpilot:2) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:1) n7(delta_bazooker_sso:1)       ) }
+
  {"uh60" {fore 0} ("v3" c(420) sc(150) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(20) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(uh60) n1(vertpilot:4) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:2) n7(delta_bazooker_sso:2) n8(delta_mgun:1)  n9(delta_smg_sso:2)    ) }                                 
- ;{"ac130" {fore 0.3} ("v_cust" c(700) sc(222) g(ac130) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(20) cw(0) cp(50) t(all_nz aircraft support_frontline  nobot) n(2)               ) }
-
- 
- {"mq9" {fore 0} ("h" c(480) sc(100) g(heli) b(usaf_hqcar) brig(usaf) s(usa)  i(3) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
- {"Apache" {fore 0} ("v_cust" c(420) sc(155) g(heli) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
-
-                                  
+ {"Apache" {fore 0} ("v_cust" c(420) sc(155) g(heli) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }                                  
  {"a-10c_support_light" {fore 0} ("p" c(660)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(6) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(1)               ) }
-
- {"a-10c_AT" {fore 0} ("p" c(840)  sc(340) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(8) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
- ;{"a-10c_support" {fore 0} ("p" c(960)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(9) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"f-16c_support" {fore 0} ("p" c(960)  sc(360) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(10) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
-                   
- {"f-16c_antirad" {fore 0} ("p" c(600)  sc(250) g(air_sead) b(usaf_hqcar) brig(usaf) s(usa)  i(14) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
-                             
- ;{"f-35c_stealthaa" {fore 0} ("p" c(2200)  sc(170) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(16) cw(0) cp(40) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"a-10c_support" {fore 0} ("p" c(960)  sc(320) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(9) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ {"f-16c_support" {fore 0} ("p" c(960)  sc(360) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(10) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }              
+ {"f-16c_antirad" {fore 0} ("p" c(600)  sc(250) g(air_sead) b(usaf_hqcar) brig(usaf) s(usa)  i(14) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }                            
  {"f-22_antiair" {fore 0} ("p" c(720)  sc(290) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(17) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
                                   
                              
@@ -211,4 +200,9 @@
  {"mh-6" {fore 1} ("h" c(200) sc(20) g(nzt) b(nzt) brig(nzt) s(usa)  i(0) cw(0) cp(5) t(nzt    ) n(4)               ) }
  {"rq11raven" {fore 1} ("h" c(200) sc(20) g(nzt) b(nzt) brig(nzt) s(usa)  i(0) cw(0) cp(5) t(nzt    ) n(4)               ) }
  {"switchblade300" {fore 1} ("h" c(200) sc(20) g(nzt) b(nzt) brig(nzt) s(usa)  i(0) cw(0) cp(5) t(nzt    ) n(4)               ) }
-                     
+                 
+ ;{"SSO_usa" {fore 0.8} ("v3" c(600) sc(90) g(sso) b(usaf_hqcar) brig(usaf) s(usa)  i(2) cw(0) cp(2) t(all_nz  support_frontline  ) n(3) c1(mh-6) n1(vertpilot:2) n2(delta_com_sso:1) n3(delta_marksman_sso:1) n4(delta_mgun_sso:1) n5(delta_smg_sso:1) n6(delta_smg2_sso:1) n7(delta_bazooker_sso:1)       ) }
+ ;{"ac130" {fore 0.3} ("v_cust" c(700) sc(222) g(ac130) b(usaf_hqcar) brig(usaf) s(usa) crew(usa/vertpilot_apache) i(20) cw(0) cp(50) t(all_nz aircraft support_frontline  nobot) n(2)               ) }
+ ;{"mq9" {fore 0} ("h" c(480) sc(100) g(heli) b(usaf_hqcar) brig(usaf) s(usa)  i(3) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
+ ;{"a-10c_AT" {fore 0} ("p" c(840)  sc(340) g(air) b(usaf_hqcar) brig(usaf) s(usa)  i(8) cw(0) cp(30) t(all_nz aircraft support_frontline  ) n(1)               ) }
+ ;{"f-35c_stealthaa" {fore 0} ("p" c(2200)  sc(170) g(antiair) b(usaf_hqcar) brig(usaf) s(usa)  i(16) cw(0) cp(40) t(all_nz aircraft support_frontline  ) n(1)               ) }
