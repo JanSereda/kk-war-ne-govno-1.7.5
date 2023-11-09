@@ -566,6 +566,7 @@
 	{item "grad rok ammo" 8 {max 40}{value 100}}
     {item "tos1a fg ammo" 2 {max 24}{value 30}}	
 	{item "shahed136 base ammo" 1 {max 5}{value 30}}	
+	{item "ammo r17" 1 {max 1} {value 300}}	
 	
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
 ;	{item "grad fg ammo" 10 {max 40}{value 50}}				

@@ -1,7 +1,7 @@
 {Entity
-	(include "/properties/armoredcar.ext")
-	(include "/properties/shadow/tank.inc"  scale(1.0))
-	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	(include "/properties/armoredcar.ext") 
+	(include "/properties/shadow/tank.inc"  scale(0.6))
+	(include "/properties/selection/vehicle.inc"  scale(0.7))
 	{collider "truck"}
 	{PatherID  "vehicle.large"}
 	{props "vehicle" "car" "wheeled" "turn_over" "vision_lev03" "uaz-3907_mg" "with_open_zpu"}
