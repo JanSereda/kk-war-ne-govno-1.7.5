@@ -197,7 +197,7 @@
 	{props "cwfs_fuel_700" "cwfs_extfuel_1500"}
 
 	("two_headlights")
-	{Extension "t-90a.mdl"}
+	{Extension "t-90s.mdl"}
 	("missile_aimpoint_tanksize")
 	("cwts_buksir")
 

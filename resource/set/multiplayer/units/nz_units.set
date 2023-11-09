@@ -201,7 +201,6 @@
  {"t72b1" {fore 1} ("v"  c(300) sc(150) g(obt_blr) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
  {"t72b3_blr" {fore 0} ("v" c(500) sc(179) g(obt_blr1) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(2) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
  {"t72b3_gorod_komplect" {fore 0} ("v" c(500) sc(200) g(obt_blr1) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(3) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
- {"m1a1_lodka" {fore 0.0} ("v" c(500) sc(200) g(obt_blr2) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(3) cw(0) cp(50) t(all_nz tank_cn rogatka  ) n(4)               ) }
 
  
  {"mtlbm_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(5) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mtlb_6mb) n(1) n1(vehicle_supporter:3) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
