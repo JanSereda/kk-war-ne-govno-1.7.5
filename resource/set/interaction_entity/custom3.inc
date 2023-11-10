@@ -257,7 +257,7 @@
 	}
 	("T62_sound")
 }
-{"t-64bv_ukr"
+{"t64-55"
 	{on spawn
 		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke"}
 		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke1"}

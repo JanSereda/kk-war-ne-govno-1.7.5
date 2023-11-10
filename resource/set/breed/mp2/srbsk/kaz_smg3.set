@@ -53,6 +53,7 @@
 		{item "f1 grenade"}
 		{item "bandage" 5}
 		{item "rkg3 grenade" 2}
+		{item "sandbag_kit"}
 		{item "ak74" filling "545 ammo" 30}
 		{item "6b23-1_6sh92"}
 		{item "rpg26 weapon" 2 filling "rpg26 ammo" 1}

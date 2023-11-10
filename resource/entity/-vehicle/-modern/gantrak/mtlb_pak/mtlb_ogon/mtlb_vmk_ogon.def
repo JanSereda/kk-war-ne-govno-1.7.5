@@ -1,5 +1,4 @@
-;Конвертация в игру Pheonix
-;Настрока ТТХ Timosh
+
 
 {ArmoredCar 
 	(include "/properties/tank_amph.ext")
@@ -8,7 +7,7 @@
 
 	{collider "tank.light"}
 	{props "light_M" "turret_rotator" "truck" "tractor" "vision_lev04" "amphibia" "mtlb_vmk"}
-        	{targetClass "light_tank"}
+    {targetClass "light_tank"}
 	{PatherID "amphibia"}
 
 	{extension "crew_na.ext"}
@@ -32,7 +31,12 @@
 		}
 		{box
 			{size 8 10}
-			{item "140mm_a22 fg ammo" 22}
+		
+		}
+	}
+	{brain
+		{properties
+			{fire_mode hold}
 		}
 	}
 	{Weaponry

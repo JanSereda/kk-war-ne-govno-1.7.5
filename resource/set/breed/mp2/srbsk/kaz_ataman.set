@@ -52,6 +52,7 @@
 		{item "f1 grenade"}
 		{item "bandage" 5}
 		{item "rus_oficer_planshet"}
+		{item "sandbag_kit"}
 		{item "ak74b" filling "545 ammo" 30}
 		{item "545 ammo" 300}
 		{in_hands 3}

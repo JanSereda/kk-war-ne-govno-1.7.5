@@ -3,7 +3,7 @@
 ;Date: Sat Apr 22 14:21:26 2017
 ;File: G:\?????? ???\?????? ? 1.6.1\T-62\?-62M2.max
 ;Model create/rebuild by: Makimka
-;Last build date: Saturday 10 November 2023 [14:02:46]
+;Last build date: Saturday 10 November 2023 [15:52:59]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.5}}
@@ -1021,16 +1021,6 @@
                         0	1.16238	-0.0942624
                         0	0.0942624	1.16238
                         -39.91	-0.149995	35.9
-                    }
-                    {VolumeView "shield_net.ply"}
-                }
-                {Bone "krovat_1"
-                    {Parameters "ID=shieldL1;"}
-                    {Matrix34
-                        0.565197	0.0352826	0.149091
-                        -0.0140388	1.16145	-0.102077
-                        -0.0669339	0.0727059	0.861196
-                        -4.47001	14.89	32.65
                     }
                     {VolumeView "shield_net.ply"}
                 }

@@ -3,7 +3,7 @@
 ;Date: Tue Aug 16 20:42:02 2011
 ;File: G:\Работа с Pheonix\Редактирование\Конвертация\Т-64\T64 final 2.max
 ;Model create/rebuild by: Makimka
-;Last build date: Friday 9 November 2023 [21:09:41]
+;Last build date: Saturday 10 November 2023 [16:05:00]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -296,15 +296,6 @@
                         -25.4118	15.7534	8.4568
                     }
                 }
-                {Bone "detail1"
-                    {Matrix34
-                        -0.0314109	-0.999507	0
-                        0.0017537	-4.83839e-05	0.999998
-                        -0.999505	0.0314109	0.00175436
-                        -8.49879	23.6835	6.7408
-                    }
-                    {VolumeView "detail1.ply"}
-                }
                 {Bone "visor3"
                     {Matrix34
                         -1	0	0
@@ -350,6 +341,46 @@
                             }
                         }
                     }
+                }
+                {Bone "krovat_0"
+                    {Parameters "ID=shieldL1;"}
+                    {Matrix34
+                        0.515615	-0.324099	-0.00320526
+                        0.0613904	0.317333	1.00364
+                        -0.158037	-0.890549	0.343484
+                        -14.69	-22	6.54998
+                    }
+                    {VolumeView "shield_net.ply"}
+                }
+                {Bone "krovat_0_0"
+                    {Parameters "ID=shieldL1;"}
+                    {Matrix34
+                        0.534469	0.145208	0.0908592
+                        -0.0586499	0.221482	1.03014
+                        0.0742039	-0.963681	0.236297
+                        8.96999	-25.65	7.50998
+                    }
+                    {VolumeView "shield_net.ply"}
+                }
+                {Bone "krovat_1"
+                    {Parameters "ID=shieldL1;"}
+                    {Matrix34
+                        -0.865104	-0.194956	0.0247996
+                        0.0316074	-0.243187	1.02437
+                        -0.0674542	0.969479	0.277344
+                        -6.93002	23.84	7.02999
+                    }
+                    {VolumeView "shield_net.ply"}
+                }
+                {Bone "krovat_1_0"
+                    {Parameters "ID=shieldL1;"}
+                    {Matrix34
+                        -0.134739	0.987412	-0.0501872
+                        -0.384455	-0.0884435	1.032
+                        0.839623	0.261847	0.456711
+                        25.52	2.84	8.01998
+                    }
+                    {VolumeView "shield_net.ply"}
                 }
             }
             {Bone "engine"
@@ -592,9 +623,28 @@
                     1	0	0
                     0	0.999574	0.0291823
                     0	-0.0291823	0.999574
-                    -0.000165224	-54.3647	-8.60677
+                    -0.000165224	-60.7646	-4.10677
                 }
                 {VolumeView "otval.ply"}
+            }
+            {Bone "krovat"
+                {Parameters "ID=shieldR1;"}
+                {Matrix34
+                    1.00882	-0.00398002	0.00280817
+                    0.00133557	0.710761	0.443957
+                    -0.00197573	-0.045515	0.824561
+                    0.100001	-55.9599	8.63
+                }
+                {VolumeView "shield_net.ply"}
+            }
+            {Bone "shieldr10"
+                {Matrix34
+                    -0.011047	-1.00027	-0.0360521
+                    0.999595	-0.00440184	-0.0259573
+                    0.0254041	-0.0159266	0.998617
+                    -0.471302	-74.8342	-0.221903
+                }
+                {VolumeView "shieldr10.ply"}
             }
         }
     }
@@ -628,16 +678,6 @@
         0	0	1
         3.47853	-10.3065	0.203047
     }
-}
-{Volume "autoloader1"
-    {Cylinder 15.748 5.90551}
-    {Bone "turret"}
-    {Position 19.5919	-0.506223	-22.028}
-}
-{Volume "autoloader"
-    {Box 1.9685 3.93701 23.7933}
-    {Bone "turret"}
-    {Position 7.31668	0.123852	-8.29191}
 }
 {Volume "body1"
     {Polyhedron "body1.vol"}

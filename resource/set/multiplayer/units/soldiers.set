@@ -889,6 +889,8 @@
 ("soldier"   breed(kaz_smg3)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(kaz_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 
+("soldier"   breed(pzrk)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+
 )
 
 

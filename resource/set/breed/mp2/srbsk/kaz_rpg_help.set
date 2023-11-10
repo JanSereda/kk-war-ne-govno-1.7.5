@@ -57,6 +57,7 @@
 		{item "bandage" 5}
 		{item "pg-7v rpg7 ammo" 3}
 		{item "pg-7vr rpg7 ammo" 2}
+		{item "sandbag_kit"}
 		{item "rkg3 grenade" 2}
 		{in_hands 0}
 	
