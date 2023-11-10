@@ -2,7 +2,7 @@
 ;Model created by: Man232
 ;Date: Saturday 10 November 2023 [14:42:02]
 ;Model create/rebuild by: Makimka
-;Last build date: Saturday 10 November 2023 [14:47:28]
+;Last build date: Saturday 10 November 2023 [15:03:38]
 {Skeleton
     {Animation
         {Sequence "start" {Speed 0.6}}
@@ -138,10 +138,10 @@
                         {VolumeView "crank_m.ply"}
                     }
                     {Bone "charger"
-                        {Position -9.3084	10.891	-2.92141}
+                        {Position -10.0284	10.891	-6.52141}
                     }
                     {Bone "gunner"
-                        {Position -9.7059	-9.14065	-4.1913}
+                        {Position -10.0659	-9.14065	-7.7913}
                     }
                     {Bone "visor2"
                         {Position 18.09	0.559999	6.46}
