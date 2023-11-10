@@ -88,7 +88,7 @@
 
 	("CW_amphibia" Waterline(1.7) )
 	("two_headlights")
-	{Extension "m113.mdl"}
+	{Extension "m113_ser.mdl"}
 	("missile_aimpoint_tanksize")
 	("cwts_buksir")
 
