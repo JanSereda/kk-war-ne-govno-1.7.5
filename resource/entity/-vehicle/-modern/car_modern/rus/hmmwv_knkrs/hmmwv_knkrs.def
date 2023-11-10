@@ -135,7 +135,7 @@
 	("two_headlights")
 	{Extension "hmmwv_tow.mdl"}
 	("missile_aimpoint_tanksize")
-
+	{texmod "poland"}
 
 	{mass 2600}
 
