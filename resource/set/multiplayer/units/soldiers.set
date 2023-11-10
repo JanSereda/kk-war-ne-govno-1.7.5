@@ -941,23 +941,6 @@
 )
 
 
-(define "IRN_squad"
-;Чурки 
-("soldier"   breed(iran_bazooker_at)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
-("soldier"   breed(iran_bazooker_at_help)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(iran_com)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(irq_recruits__smg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(irq_recruits__smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_smg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-
-("soldier"   breed(taj_com)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_mgun)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_mgunhelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_rpg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-("soldier"   breed(taj_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
-)
 
 
 
@@ -996,6 +979,7 @@
 ("soldier"   breed(ukr_tankman)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 
 
+("soldier"   breed(brpg2)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
 ("soldier"   breed(bel_com)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
 ("soldier"   breed(bel_rpg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 ("soldier"   breed(bel_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
@@ -1032,7 +1016,20 @@
 
 ("soldier"   breed(pzrk)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(0.5)	c(2)	tags(common))
 
+("soldier"   breed(iran_bazooker_at)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(4)	c(3)	tags())
+("soldier"   breed(iran_bazooker_at_help)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(iran_com)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(irq_recruits__smg)		side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(irq_recruits__smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_smg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_smg2)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 
+("soldier"   breed(taj_com)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_mgun)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_mgunhelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_rpg)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_rpghelp)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
+("soldier"   breed(taj_sniper)	side(%side) brig(%brig)	sc(10)	cp(3)	cw(2)	c(3)	tags())
 )
 
 
@@ -1042,6 +1039,5 @@
 ("odkb_squad" side(odkb) brig(common))
 
 ("KZ_squad" side(rus) brig(common))
-("IRN_squad" side(rus) brig(common))
 
 
