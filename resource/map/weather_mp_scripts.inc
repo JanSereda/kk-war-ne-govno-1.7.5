@@ -37,18 +37,28 @@
 						{apply}
 					}
 					{"delay"
+						{time 150}
+					}
+					{"environment"
+						{name "multi/canyon/canyon_evening"}
+						{time 150}
+						{apply}
+					}
+					{"delay"
 						{time 300}
 					}
 					{"environment"
 						{name "m10/krimea_0600"}
-						{time 150}
+						{time 200}
 						{apply}
 					}
 					{"delay"
 						{time 160}
 					}
-					{"trigger"
+					{"environment"
 						{name "single/3-poltava/poltava_24_00"}
+						{time 160}
+						{apply}
 					}
 				}
 			}

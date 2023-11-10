@@ -534,7 +534,6 @@
 	{Entity "house_wood_4" 0x4800
 		{Position -1621.64 -1983.93 143}
 		{xform zl -1.65}
-		{AreaDisable "cut"}
 	}
 	{Entity "h_w_4_cut3" 0x4804
 		{TexMod
@@ -552,7 +551,6 @@
 	{Entity "house_wood_4" 0x4853
 		{Position -4338.86 -1547.45 143}
 		{xform zl -107.55}
-		{AreaDisable "cut"}
 	}
 	{Entity "shed_ru_124" 0x2802
 		{Position -1499.49 -792.94}
@@ -1956,13 +1954,6 @@
 		{Position 448.64 786.93}
 		{xform zl -89.24}
 	}
-	{Entity "vaz_2106" 0x43cd
-		{Position -4961.99 176.22 160.36}
-		{xform zl -90.18 y 91.85 zw -31.79}
-		{TexMod "green"}
-		{Player 3}
-		{MID 10015}
-	}
 	{Entity "new_car_4" 0x43ce
 		{Position -5167.1 339.17}
 		{xform zl 7.85 scale 1.15}
@@ -2505,18 +2496,6 @@
 	{Entity "beam_big" 0x62e5
 		{Position 1445.2 -2176.13}
 		{xform zl -84.92}
-	}
-	{Entity "ural375" 0xe70
-		{Position 1114.36 -2543.09}
-		{xform zl -105.33}
-		{Volume "kuzovumz5"
-			{disabled}
-		}
-		{Placer
-			{State "seat13" {Broken}}
-		}
-		{Player 3}
-		{MID 10006}
 	}
 	{Entity "new_tree1b" 0x41ce
 		{Position -1717.13 -2636.61}
@@ -3640,20 +3619,6 @@
 		{TexMod
 			{"/texture/common/roof/roof_met2_sh01" "sov5"}
 		}
-	}
-	{Entity "vaz_2106" 0x2818
-		{Position 6339.1 2177.57 170}
-		{xform zl -81.28}
-		{TexMod "pps"}
-		{Player 3}
-		{MID 10030}
-	}
-	{Entity "vaz_2106" 0x2819
-		{Position 6136.03 1914.22 170.01}
-		{xform zl -6.96}
-		{TexMod "pps"}
-		{Player 3}
-		{MID 10031}
 	}
 	{Entity "asphalt_road_q4" 0x205b
 		{Position 5372.95 1132.19}
@@ -7186,7 +7151,6 @@
 	{Entity "house_wood_4" 0x60c4
 		{Position 6812.07 3396.07 235.5}
 		{xform zl -86.86}
-		{AreaDisable "cut"}
 	}
 	{Entity "house_ru3room01" 0x60d1
 		{Position 7156.82 3415.04 234.5}
@@ -7199,367 +7163,306 @@
 		{Position 5806.81 -1407.19 100}
 		{xform zl 91.35}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x504b
 		{Position 5398.12 -709.94 115}
 		{xform zl 62.45}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_t" 0x504d
 		{Position 6148.41 -1630.37 114}
 		{xform zl 1.59}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x504f
 		{Position 5452.12 -1426.87 100}
 		{xform zl 3.51}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_cross" 0x20cd
 		{Position 5285.6 -913.31 110.82}
 		{xform zl -31.16}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x20ce
 		{Position 5578.13 -1419.93 99.97}
 		{xform zl 2.59}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground" 0x20cf
 		{Position 5175.12 -845.64 113}
 		{xform zl -31.03}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_deadend" 0x7803
 		{Position 5486.65 -417.21 122.23}
 		{xform zl 120.08}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x7020
 		{Position 5519.98 -482.36 121}
 		{xform zl 117.71}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_t" 0x7021
 		{Position 5451.53 -614.92 115}
 		{xform zl -120.53}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x7022
 		{Position 5345.9 -807.38 114.54}
 		{xform zl 61.57}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_t" 0x7023
 		{Position 5644.05 -1059.26 119.03}
 		{xform zl 118.16}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_deadend" 0x7024
 		{Position 5116.51 -809.17 110.99}
 		{xform zl 148.76}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x7025
 		{Position 5380.14 -1326.59 105.29}
 		{xform zl 121.42}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_t" 0x7026
 		{Position 5326.27 -1231.83 109}
 		{xform zl -61.57}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x7028
 		{Position 5270.8 -1131.52 108}
 		{xform zl 117.61}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x553
 		{Position 5222.4 -1037.81 107}
 		{xform zl -62.74}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x554
 		{Position 6023.7 -1630.8 111}
 		{xform zl -1.2}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x555
 		{Position 5952.91 -1523.34 106.09}
 		{xform zl 116.71}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x407c
 		{Position 5891.87 -1414.63 101}
 		{xform zl 172.85}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x408d
 		{Position 6276.85 -1626.53 110.11}
 		{xform zl 2.59}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x408e
 		{Position 6365.43 -1621.75 103.5}
 		{xform zl -87.24}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x408f
 		{Position 6145.59 -1548.94 114}
 		{xform zl 3.01}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4090
 		{Position 5666.84 -1415.63 99}
 		{xform zl -86.2}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4091
 		{Position 5875.88 -526.97 117.12}
 		{xform zl 17.21}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4092
 		{Position 6203.06 -428.49 113.34}
 		{xform zl -73.75}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x4093
 		{Position 5576.53 -675.29 117.83}
 		{xform zl 28.88}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x40a2
 		{Position 5688.17 -615.02 121}
 		{xform zl 28.16}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x40a3
 		{Position 5434.34 -1173.77 109}
 		{xform zl 28.83}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x40a4
 		{Position 5784.41 -562.88 120}
 		{xform zl 28.28}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x40a5
 		{Position 6117.12 -453.1 112.76}
 		{xform zl 16.08}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x40a6
 		{Position 5597.3 -960.76 123.08}
 		{xform zl -64.97}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x40a7
 		{Position 5364.26 -960.2 112.96}
 		{xform zl -120.6}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x40a8
 		{Position 5999.54 -487.54 114.02}
 		{xform zl 17.21}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x40a9
 		{Position 5548.77 -1111.43 113.81}
 		{xform zl 28.83}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x103d
 		{Position 5721.31 -778.48 127}
 		{xform zl -128.77}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x1040
 		{Position 5659.65 -855.67 125}
 		{xform zl 52.74}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x1041
 		{Position 5707.69 -1162.68 114}
 		{xform zl -4.33}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x1042
 		{Position 5807.3 -1170.13 116.94}
 		{xform zl 175.01}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x1043
 		{Position 5909.79 -1168.49 116.07}
 		{xform zl 4.49}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x1044
 		{Position 6039.11 -1157.26 118.23}
 		{xform zl 4.49}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x1045
 		{Position 5851.31 -782.22 123.92}
 		{xform zl -2.5}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x1047
 		{Position 6378.58 -1128.63 109.67}
 		{xform zl -85.31}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x1048
 		{Position 6289.45 -1135.51 115.36}
 		{xform zl 4.52}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x1049
 		{Position 6167.36 -1145.68 117.58}
 		{xform zl 5.65}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x60d0
 		{Position 5970.1 -793.44 116.04}
 		{xform zl 172.94}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x60d2
 		{Position 6024.36 -886.54 106.51}
 		{xform zl -152.97}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x60e1
 		{Position 2804.42 2689.22 222.39}
 		{xform zl -23.76}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x60e4
 		{Position 2969.95 2627.76 228.73}
 		{xform zl -106.18}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x301e
 		{Position 2905.76 2648.33 230}
 		{xform zl 160.53}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x301f
 		{Position 2782.87 2816.04 221}
 		{xform zl 91.84}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x3020
 		{Position 2782.83 2883.81 221}
 		{xform zl -1.92}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x60d3
 		{Position 7732.46 102.33 163.42}
 		{xform zl -26.24}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x60d6
 		{Position 7106.75 412.32 173.7}
 		{xform zl 100.33}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x60d7
 		{Position 7088.37 516.18 173.79}
 		{xform zl -80.02}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x60dc
 		{Position 7718.8 249.75 160.16}
 		{xform zl -91.36}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x60de
 		{Position 7852.24 48.88 166.15}
 		{xform zl -21.27}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x60df
 		{Position 7341.36 298.76 163.2}
 		{xform zl -49.29}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x60e0
 		{Position 7935.57 19.52 167.84}
 		{xform zl -107.27}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x60da
 		{Position 7302.77 599.73 176.93}
 		{xform zl -105.47}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x60d9
 		{Position 7197.47 622.62 177}
 		{xform zl -139.56}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "cane3" 0x897
 		{Position 6225.32 -1519.35}
@@ -12334,7 +12237,6 @@
 	{Entity "house_wood_4" 0x5823
 		{Position -3021.07 -901.9 142}
 		{xform zl -102.2}
-		{AreaDisable "cut"}
 	}
 	{Entity "topol02" 0xc00
 		{Position -2448.42 -1021.88}
@@ -12595,49 +12497,41 @@
 		{Position -1002.1 39.99 170}
 		{xform zl -28.12}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4202
 		{Position -1401.96 -114.77 150.76}
 		{xform zl 127.6}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4204
 		{Position -1327.89 -62.06 163.16}
 		{xform zl -145.1}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_deadend" 0x4205
 		{Position -826.58 -196.46 164.8}
 		{xform zl -29.87}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x4206
 		{Position -888.05 -156.75 167.24}
 		{xform zl -32.24}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4207
 		{Position -1221.27 11.98 169}
 		{xform zl -145.54}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x420b
 		{Position -909.85 -7.45 169}
 		{xform zl 151.99}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x420d
 		{Position -1113.69 83.97 169}
 		{xform zl -146.82}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "fence3m1a" 0x2291
 		{Position -3203.25 -823.62}
@@ -15260,61 +15154,51 @@
 		{Position 2849.17 3681.55 230.87}
 		{xform zl -69.72}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x6193
 		{Position 2892.43 3558.14 234.2}
 		{xform zl 108.66}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x6194
 		{Position 2987.86 3852.93 232.94}
 		{xform zl -133.52}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x6196
 		{Position 2920.02 3781.11 233}
 		{xform zl 47.99}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x6197
 		{Position 2955.09 3422.84 236}
 		{xform zl -9.08}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x6198
 		{Position 3053.73 3407.16 236}
 		{xform zl 170.26}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x619b
 		{Position 3117.11 3838.43 236}
 		{xform zl -7.25}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x619d
 		{Position 3234.56 3817.4 236}
 		{xform zl 168.19}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x619f
 		{Position 3280.91 3720.12 236}
 		{xform zl -157.72}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x5051
 		{Position 3118.8 3396.24 236}
 		{xform zl -98.63}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "road_sand_af1b" 0x10e6
 		{Position 2051.2 971.9}
@@ -18567,28 +18451,24 @@
 		{xform zl -108.39}
 		{TexMod "1"}
 		{Color 0xffffffe6}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x7813
 		{Position 3413.7 3140.62 230}
 		{xform zl -10.9}
 		{TexMod "1"}
 		{Color 0xffffffe6}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x7814
 		{Position 3345.8 2941.72 220}
 		{xform zl 66.49}
 		{TexMod "1"}
 		{Color 0xffffffe6}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x7815
 		{Position 3309.7 2868.19 206.47}
 		{xform zl 148.99}
 		{TexMod "1"}
 		{Color 0xffffffe6}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0xcd4
 		{Position 7443.57 794.13}
@@ -32617,13 +32497,6 @@
 		{Position -1.49 -1537.77}
 		{xform zl 131.31 scale 1.377}
 	}
-	{Entity "vaz_2106" 0x5836
-		{Position 68.01 -2028.46 150.63}
-		{xform zl 71.41 y 0.96 zw -164.2}
-		{TexMod "white"}
-		{Player 3}
-		{MID 10072}
-	}
 	{Entity "stuff3" 0x5841
 		{Position 93.25 -2169.18}
 		{xform zl -75.03}
@@ -33130,24 +33003,6 @@
 	{Entity "stuff_boxes3" 0x3236
 		{Position 536.29 -1741.67}
 		{xform zl 92.07}
-	}
-	{Entity "ural375" 0x5251
-		{Position 990.59 -1497.6}
-		{xform zl -25.44}
-		{Placer
-			{State "seat13" {Broken}}
-		}
-		{Player 3}
-		{MID 10074}
-	}
-	{Entity "ural375" 0x525a
-		{Position 974.37 -1590.65}
-		{xform zl 148.58}
-		{Placer
-			{State "seat13" {Broken}}
-		}
-		{Player 3}
-		{MID 10075}
 	}
 	{Entity "asphalt_road_q4" 0x525b
 		{Position 1247.6 -1517.19}
@@ -35307,15 +35162,6 @@
 	{Entity "beam1" 0x1a05
 		{Position 5475.01 4709.36}
 		{xform zl 13.39}
-	}
-	{Entity "ural375" 0x1a06
-		{Position 5274.69 4880.01}
-		{xform zl 68.5}
-		{Placer
-			{State "seat13" {Broken}}
-		}
-		{Player 3}
-		{MID 10001}
 	}
 	{Entity "ash_tree_bush1" 0x1a07
 		{Position 5459.16 4971.52}
@@ -37583,7 +37429,6 @@
 	{Entity "trench_t-72" 0x140e
 		{Position -4551.67 949.19 169}
 		{xform zl -21.93}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag3" 0x140f
 		{Position -4652.77 911.9 174.03}
@@ -45532,31 +45377,26 @@
 		{Position -1108.25 3673.73 135.66}
 		{xform zl 158}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low2" 0x6504
 		{Position -1151.75 3541.6 143.98}
 		{xform zl 60.92}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0x6505
 		{Position -1037.52 3465.79 143.32}
 		{xform zl -135.21}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x6506
 		{Position -1215.37 3424.94 140.19}
 		{xform zl 161.78}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0x6507
 		{Position -1152.71 3403.87 143.37}
 		{xform zl 165.99}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x650a
 		{Position -1157.29 3543.07}
@@ -45590,13 +45430,11 @@
 		{Position -1026.69 3589.56 140.07}
 		{xform zl -79.79}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_sit_1" 0x278f
 		{Position -994.52 3965.64 125.09}
 		{xform zl 151.37}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag2_round" 0xeb7
 		{Position -1158.86 3523.32 147.86}
@@ -45667,13 +45505,11 @@
 		{Position -2890.42 3100.97 156.32}
 		{xform zl -142.51}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0x4711
 		{Position -2844.29 3139.95 156.03}
 		{xform zl -134.74}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crate_one" 0x4712
 		{Position -2885.27 3103.91}
@@ -45683,7 +45519,6 @@
 		{Position -2822.28 3272.58 154.83}
 		{xform zl 99.41}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag3" 0x4718
 		{Position -2782.8 3176.56 167.92}
@@ -45986,13 +45821,11 @@
 		{Position -3792.86 2751.83 152.75}
 		{xform zl 160.8}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x470f
 		{Position -3663.7 2789.19 154.86}
 		{xform zl 34.95}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag3" 0x4717
 		{Position -2799.19 3286.41 166.96}
@@ -46008,7 +45841,6 @@
 		{Position -3956.4 2832.69 154}
 		{xform zl 152.1}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crate_one" 0x470d
 		{Position -3843.06 2773.26}
@@ -46018,7 +45850,6 @@
 		{Position -3880.82 2794.18 154.41}
 		{xform zl 153.67}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag3" 0x471e
 		{Position -3791.86 2781.3 168.14}
@@ -46064,7 +45895,6 @@
 		{Position -1253.5 3063.34 124.71}
 		{xform zl 38.79}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x4737
 		{Position -1257.11 3068.73}
@@ -46195,7 +46025,6 @@
 		{Position -1274.65 891.07 157.61}
 		{xform zl 162.68}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x43f0
 		{Position -1274.96 885.35}
@@ -46251,13 +46080,11 @@
 		{Position -1815.5 3312.81 126.75}
 		{xform zl 100.32}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_sit_1" 0x585c
 		{Position -836.88 4721.52 135.05}
 		{xform zl 149.08}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag2_round" 0xcb5
 		{Position -1241.26 3051.33 135.15}
@@ -47566,13 +47393,11 @@
 		{Position -3.63 4723.71 151.99}
 		{xform zl 48.34}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low2" 0x4252
 		{Position -2195.64 -2704.01 129.01}
 		{xform zl 85.59}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "stone10" 0x442a
 		{Position -822.77 -2790.9 106.26}
@@ -47583,7 +47408,6 @@
 		{Position -5896.96 -1204.14 182.75}
 		{xform zl 67.37}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag" 0x16e9
 		{Position -2968.08 5043.71}
@@ -47752,7 +47576,6 @@
 		{Position 7721.74 340.04 162.85}
 		{xform zl -3.46}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "road_sand_af1b" 0x16fe
 		{Position 8283.35 1097.06}
@@ -47846,13 +47669,11 @@
 		{Position 7135.88 285.72 185.86}
 		{xform zl -24.12}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_turn2" 0x2002
 		{Position 7273.22 241.99 199.96}
 		{xform zl 39.17}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crate4" 0x26e8
 		{Position 8277.81 865.88 197.85}
@@ -47922,7 +47743,6 @@
 		{Position 7258.28 430.54 186.23}
 		{xform zl 97}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x18da
 		{Position 7255.84 432.93 149.11}
@@ -48016,7 +47836,6 @@
 		{Position 6913.25 965.22 210.85}
 		{xform zl 66.47}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x26eb
 		{Position 6912.37 968.52 161.34}
@@ -48026,7 +47845,6 @@
 		{Position 7784.74 -364.73 196.19}
 		{xform zl 141.03}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x26ed
 		{Position 7778.88 -362.71 126.72}
@@ -48036,31 +47854,26 @@
 		{Position 7923.31 1341.4 219.13}
 		{xform zl -116.45}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x60d8
 		{Position 8112.44 1355.37 198.1}
 		{xform zl -96.59}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x626d
 		{Position 7862.87 1183.47 203.36}
 		{xform zl 167.46}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x626e
 		{Position 8044.36 1357.58 218.73}
 		{xform zl 0.96}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_mgun" 0x16e7
 		{Position 7882.02 1246.05 222.53}
 		{xform zl 70.09}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "ash_tree_bush1" 0x171c
 		{Position 6911.39 35.64}
@@ -48214,7 +48027,6 @@
 	{Entity "trench_t-72" 0x60d5
 		{Position 7698.46 1021.72 176.1}
 		{xform zl 135.61}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag" 0x6288
 		{Position 7779.45 886.53 177.17}
@@ -48339,7 +48151,6 @@
 	{Entity "trench_t-72" 0x30d3
 		{Position 8772.13 622.93 203.09}
 		{xform zl -2.09}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x444c
 		{Position 8780.18 622.86 135.98}
@@ -48545,27 +48356,6 @@
 	{Entity "crate_one" 0x5218
 		{Position 7536.99 672.76}
 		{xform zl -142.78}
-	}
-	{Entity "ural375" 0x3d4
-		{Position 8773.96 620.15}
-		{xform zl -58.64 y 3.85 zw -124.28}
-		{Placer
-			{State "seat13" {Broken}}
-		}
-		{Player 3}
-		{MID 10010}
-	}
-	{Entity "ural375" 0x5e2
-		{Position 8638.86 794.96}
-		{xform zl 85.34 y 3.41 zw -72.84}
-		{Volume "kuzovumz5"
-			{disabled}
-		}
-		{Placer
-			{State "seat13" {Broken}}
-		}
-		{Player 3}
-		{MID 10011}
 	}
 	{Entity "dried2" 0x5e5
 		{Position 7912.97 1448.94 183.69}
@@ -49775,7 +49565,6 @@
 	{Entity "trench_t-72" 0x62b0
 		{Position 6225.56 -685.47 140.51}
 		{xform zl -165.22}
-		{AreaDisable "cut"}
 	}
 	{Entity "netting" 0x62b3
 		{Position 6223.44 -687.29 59.94}
@@ -52599,19 +52388,16 @@
 		{Position 1755.68 -1668.64 150}
 		{xform zl -71.66}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x6294
 		{Position 2900.1 232.5 191.83}
 		{xform zl -163.89}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x62d5
 		{Position 2548.23 2550.75 218.38}
 		{xform zl 4.61}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crash_brick3a" 0x62d6
 		{Position 2563.35 -1486.94}
@@ -52724,19 +52510,16 @@
 		{Position 3072.59 -1156.86 142.4}
 		{xform zl -28.88}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x62f4
 		{Position 2182.87 1829.68 212.49}
 		{xform zl -6.3}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x62f5
 		{Position 3046.6 1848.81 213.75}
 		{xform zl 144.25}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "rock03" 0x62f6
 		{Position -328.08 -837.57 145}
@@ -53403,37 +53186,31 @@
 		{Position -1534.31 -201.23 151.18}
 		{xform zl 121.05}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low2" 0xae7
 		{Position -1833.48 1058.35 167.7}
 		{xform zl 140.01}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low2" 0x406e
 		{Position -2389.72 1091.74 195.84}
 		{xform zl -163.84}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x42f9
 		{Position -1776.89 296.55 213.53}
 		{xform zl -115.33}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x434f
 		{Position -610.8 126.19 218.11}
 		{xform zl -110.49}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crater_norm" 0x2144
 		{Position -369.95 620.7 235.25}
 		{xform zl 151.59}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "house_floormarble1" 0x2146
 		{Position -554.37 916.93}
@@ -55778,13 +55555,11 @@
 		{Position 3095.6 3617.97 262.84}
 		{xform zl -113.73}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low2" 0x52dc
 		{Position 2935.28 2796.43 264.74}
 		{xform zl -50.01}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crate_one" 0x52dd
 		{Position 3010.59 2816.63}
@@ -56353,7 +56128,6 @@
 		{Position 3534.65 1004.99 213.7}
 		{xform zl -176.46}
 		{TexMod "road"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag" 0x282a
 		{Position 3055.61 1206.53}
@@ -56603,13 +56377,6 @@
 	{Entity "stuff4" 0xe4f
 		{Position 3271.14 1389.39}
 		{xform zl 54.87}
-	}
-	{Entity "vaz_2106" 0x4611
-		{Position 3529.75 1289.11}
-		{xform zl 80.95}
-		{TexMod "white"}
-		{Player 3}
-		{MID 10008}
 	}
 	{Entity "box_concrete" 0x4612
 		{Position 3353.96 1239.18}
@@ -58327,19 +58094,16 @@
 		{Position -625.11 3257.45 137.45}
 		{xform zl 18.21}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0xce7
 		{Position -810.68 3086.41 142.23}
 		{xform zl -162.5}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0xce8
 		{Position -747.51 3105.88 142.34}
 		{xform zl -158.29}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "crate_one" 0xcea
 		{Position -763.96 3147.81}
@@ -58363,13 +58127,11 @@
 		{Position -569.29 3292.19 144.7}
 		{xform zl -152.58}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0xcef
 		{Position -512.72 3404.95 141.27}
 		{xform zl 88.32}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag2_round" 0xcf0
 		{Position -526.8 3300.58 128.04}
@@ -58392,19 +58154,16 @@
 		{Position -642.11 4143.13 127.71}
 		{xform zl 99.56}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0xcf8
 		{Position -782.26 3974.02 149.17}
 		{xform zl 166.35}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0xcf9
 		{Position -671.13 4029.57 136.07}
 		{xform zl -138.23}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag3" 0xcfa
 		{Position -674.46 3978.57 141.2}
@@ -58415,25 +58174,21 @@
 		{Position -834.11 3991.12 150.83}
 		{xform zl 161.13}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low2" 0xcfc
 		{Position -868.89 4433.15 138.91}
 		{xform zl 95.08}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0xcfd
 		{Position -1395.05 2682.52 140.19}
 		{xform zl -172.06}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0xcfe
 		{Position -1329.52 2691.24 142.34}
 		{xform zl -167.85}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag2_round" 0xcff
 		{Position -1282.34 2692.17 137.43}
@@ -58444,7 +58199,6 @@
 		{Position -1245.64 2780.22 151.19}
 		{xform zl 69.05}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "sandbag3" 0xd01
 		{Position -1206.76 3090.6 135.38}
@@ -58664,7 +58418,6 @@
 	{Entity "house_wood_4" 0x2768
 		{Position -2564.33 2326.38 132}
 		{xform zl -92.92}
-		{AreaDisable "cut"}
 	}
 	{Entity "888" 0x2769
 		{Position -2718.74 2222.04 118.46}
@@ -58764,91 +58517,76 @@
 		{Position -3195.99 2654.88 161.69}
 		{xform zl 25.5}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low" 0x3013
 		{Position -2864.48 4806.36 169}
 		{xform zl 63.92}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x3267
 		{Position -2827.21 4892.63 169}
 		{xform zl 69.05}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x328d
 		{Position -2916.51 4731.22 169}
 		{xform zl -117.05}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low" 0x3313
 		{Position -2933.18 3911.83 179.54}
 		{xform zl 164.52}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x3314
 		{Position -3024.83 3932.6 181.01}
 		{xform zl 169.65}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x3315
 		{Position -2849.75 3874.51 181.84}
 		{xform zl -16.45}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low" 0x3316
 		{Position -2625.82 4022.51 191.26}
 		{xform zl 54.02}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x3317
 		{Position -2580.36 4228.04 193.12}
 		{xform zl 110.85}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x3318
 		{Position -2690 3957.43 192.53}
 		{xform zl -126.95}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0x3319
 		{Position -2582.99 4102.68 167.88}
 		{xform zl -125.7}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low" 0x331a
 		{Position -2722.34 3650.81 200.96}
 		{xform zl -78.52}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x331b
 		{Position -2726.88 3742.1 206.78}
 		{xform zl 100.51}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_turn" 0x331c
 		{Position -2723.06 3498.85 179}
 		{xform zl -134.26}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_low_exit" 0x331d
 		{Position -2753.54 3470.54 214.92}
 		{xform zl -135.83}
 		{TexMod "ground"}
-		{AreaDisable "cut"}
 	}
 	{Entity "box_sand_fortification" 0x501a
 		{Position -2729.74 3381.35}
@@ -59626,13 +59364,6 @@
 	{Entity "beam1" 0x1923
 		{Position 545.5 2200.73}
 		{xform zl -121.89 y 1.15 zw 94.51}
-	}
-	{Entity "vaz_2106" 0x192b
-		{Position 2250.18 2808.33}
-		{xform zl 20.7 y 7.35 zw -171.56}
-		{TexMod "yellow"}
-		{Player 3}
-		{MID 10017}
 	}
 	{Entity "fence_low_rus_1" 0x192c
 		{Position 1234.5 1161.45}
@@ -67415,522 +67146,6 @@
 		{xform zl -163.67 scale 1.283}
 		{Constrain none}
 	}
-	{Entity "cwps3_proj_point" 0x375
-		{Player 255}
-		{MID 10018}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x37b
-		{Player 255}
-		{MID 10021}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x38b
-		{Player 255}
-		{MID 10023}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x38c
-		{Player 255}
-		{MID 10024}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x84a
-		{Player 255}
-		{MID 10025}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x851
-		{Player 255}
-		{MID 10027}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x852
-		{Player 255}
-		{MID 10028}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0xa1c
-		{Player 255}
-		{MID 10029}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0xa2a
-		{Player 255}
-		{MID 10032}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0xa2b
-		{Player 255}
-		{MID 10033}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0xef4
-		{Player 255}
-		{MID 10034}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
-	{Entity "cwps3_proj_point" 0x1e6d
-		{Player 255}
-		{MID 10035}
-		{Component "rus_active"
-			{State broken}
-		}
-		{Component "rus_antiship"
-			{State broken}
-		}
-		{Component "rus_ir"
-			{State broken}
-		}
-		{Component "rus_laser"
-			{State broken}
-		}
-		{Component "rus_laser_spot"
-			{State broken}
-		}
-		{Component "rus_other"
-			{State broken}
-		}
-		{Component "rus_radpassive"
-			{State broken}
-		}
-		{Component "usa_active"
-			{State broken}
-		}
-		{Component "usa_antiship"
-			{State broken}
-		}
-		{Component "usa_ir"
-			{State broken}
-		}
-		{Component "usa_laser"
-			{State broken}
-		}
-		{Component "usa_other"
-			{State broken}
-		}
-		{Component "usa_radpassive"
-			{State broken}
-		}
-	}
 	{Entity "cane3" 0x3350
 		{Position -7231.87 -669.97 109.53}
 		{xform zl -10.23 y 7.34 zw -75.82 scale 0.95}
@@ -68115,22 +67330,6 @@
 		{xform zl 170.78}
 		{DecalOrder 1}
 		{Color 0xffdfdfdf}
-	}
-	{Entity "3m1a_middle_top" 0x538
-	}
-	{Entity "3m1a_bottom" 0x540
-	}
-	{Entity "3m1a_right" 0x54f
-	}
-	{Entity "3m1a_corner_right" 0x7c1
-	}
-	{Entity "3m1a_bottom" 0x7dd
-	}
-	{Entity "3m1a_middle" 0x7df
-	}
-	{Entity "shed125_corn4" 0x7e9
-	}
-	{Entity "3m1a_corner_left" 0x821
 	}
 	{Link 0x4002 {0x4001 "01"}}
 	{Link 0x4004 {0x4001 "03"}}
@@ -68388,7 +67587,6 @@
 	{Link 0x50b1 {0xe15 "118_w2"}}
 	{Link 0x442 {0xe15 "118_w3"}}
 	{Link 0x443 {0xe15 "118_w4"}}
-	{Link 0x375 {0x43cd "cwps_proj_point"}}
 	{Link 0x91b {0x91a "dummy_cnt"}}
 	{Link 0x110b {0x1114 "1"}}
 	{Link 0x110c {0x1114 "2"}}
@@ -68431,7 +67629,6 @@
 	{Link 0x10dc {0x10e5 "01"}}
 	{Link 0x10e3 {0x10e5 "03"}}
 	{Link 0x10e4 {0x10e5 "02"}}
-	{Link 0x37b {0xe70 "cwps_proj_point"}}
 	{Link 0x1e7 {0x1013 "118_c1"}}
 	{Link 0x1e8 {0x1013 "118_c2"}}
 	{Link 0x1e9 {0x1013 "118_c3"}}
@@ -68451,8 +67648,6 @@
 	{Link 0x7074 {0x7070 "119_ekpp_c4"}}
 	{Link 0x7075 {0x7070 "119_ekpp_roof"}}
 	{Link 0x7076 {0x7070 "119_ekpp_w1"}}
-	{Link 0x38b {0x2818 "cwps_proj_point"}}
-	{Link 0x38c {0x2819 "cwps_proj_point"}}
 	{Link 0x15e {0x5847 "118_c2"}}
 	{Link 0x166 {0x5847 "118_w4"}}
 	{Link 0x100f {0x1021 "station_corner1"}}
@@ -68858,9 +68053,6 @@
 	{Link 0x41a7 {0x41c2 "118_w2"}}
 	{Link 0x41a8 {0x41c2 "118_w3"}}
 	{Link 0x41a9 {0x41c2 "118_w4"}}
-	{Link 0x538 {0x2294 "8"}}
-	{Link 0x540 {0x1095 "1"}}
-	{Link 0x54f {0x1095 "3"}}
 	{Link 0x3061 {0x306d "4"}}
 	{Link 0x3062 {0x306d "3"}}
 	{Link 0x3063 {0x306d "2"}}
@@ -69054,9 +68246,6 @@
 	{Link 0xeaf {0xeb2 "7"}}
 	{Link 0xeb0 {0xeb2 "8"}}
 	{Link 0xeb1 {0xeb2 "9"}}
-	{Link 0x7c1 {0xf14 "5"}}
-	{Link 0x7dd {0xf30 "1"}}
-	{Link 0x7df {0xf30 "2"}}
 	{Link 0xf31 {0xf48 "3"}}
 	{Link 0xf32 {0xf48 "2"}}
 	{Link 0xf33 {0xf48 "1"}}
@@ -69100,7 +68289,6 @@
 	{Link 0x40b7 {0x40ba "station_corner9"}}
 	{Link 0x40b8 {0x40ba "station_corner10"}}
 	{Link 0x40b9 {0x40ba "station_corner11"}}
-	{Link 0x7e9 {0x3190 "4"}}
 	{Link 0x7156 {0x7293 "4"}}
 	{Link 0x7159 {0x7293 "3"}}
 	{Link 0x7289 {0x7293 "2"}}
@@ -69216,7 +68404,6 @@
 	{Link 0x2477 {0x247a "119_ekpp_roof"}}
 	{Link 0x2478 {0x247a "119_ekpp_w1"}}
 	{Link 0x247b {0x247c "wall_c"}}
-	{Link 0x84a {0x5836 "cwps_proj_point"}}
 	{Link 0xf21 {0x1371 "3"}}
 	{Link 0xf22 {0x1371 "2"}}
 	{Link 0xf23 {0x1371 "1"}}
@@ -69238,10 +68425,6 @@
 	{Link 0x136f {0x1371 "19"}}
 	{Link 0x1370 {0x1371 "20"}}
 	{Link 0x4834 {0x4841 "dummy_cnt"}}
-	{Link 0x851 {0x5251 "cwps_proj_point"}}
-	{Link 0x852 {0x525a "cwps_proj_point"}}
-	{Link 0x821 {0x5878 "7"}}
-	{Link 0xa1c {0x1a06 "cwps_proj_point"}}
 	{Link 0x43cb {0x4502 "01"}}
 	{Link 0x43cf {0x4502 "02"}}
 	{Link 0x43df {0x4502 "03"}}
@@ -69255,8 +68438,6 @@
 	{Link 0xf0 {0xf3 "station_h_corner7"}}
 	{Link 0xf1 {0xf3 "station_h_corner8"}}
 	{Link 0xf2 {0xf3 "station_h_corner9"}}
-	{Link 0xa2a {0x3d4 "cwps_proj_point"}}
-	{Link 0xa2b {0x5e2 "cwps_proj_point"}}
 	{Link 0xa30 {0x2739 "1"}}
 	{Link 0xa31 {0x2739 "2"}}
 	{Link 0xa32 {0x2739 "3"}}
@@ -69264,9 +68445,7 @@
 	{Link 0x32ef {0x32f2 "01"}}
 	{Link 0x32f0 {0x32f2 "03"}}
 	{Link 0x32f1 {0x32f2 "02"}}
-	{Link 0xef4 {0x4611 "cwps_proj_point"}}
 	{Link 0x2475 {0x2768 "3"}}
-	{Link 0x1e6d {0x192b "cwps_proj_point"}}
 	{Link 0x3401 {0x691f "2r"}}
 	{Link 0x94 {0x691f "3r"}}
 	{Link 0x5600 {0x691f "4r"}}
