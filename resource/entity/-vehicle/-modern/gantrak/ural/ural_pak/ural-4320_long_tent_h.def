@@ -87,7 +87,9 @@
     {extender "inventory"
     	  {box
 			{size 8 16}
-                        {clear}
+            {item "ammo PKM_ammo" 1250}      
+			{item "ammo bullet100_RUS apcr" 1}
+			{item "repair_kit" 3}
 			{item "can" 1}
 		}
 	}

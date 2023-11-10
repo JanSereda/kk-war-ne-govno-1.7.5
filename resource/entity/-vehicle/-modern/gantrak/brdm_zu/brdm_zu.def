@@ -2,7 +2,7 @@
 	(include "/properties/armoredcar.ext")
 	(include "/properties/selection/vehicle.inc"  scale(1.0))
 
-	{props "vehicle" "armored_car_M" "tank" "turret"  "wheeled" "with_gun" "vision_lev03" "4_wheels" "brdm2"}
+	{props "vehicle" "armored_car_M" "tank" "turret"  "wheeled" "with_gun" "vision_lev03" "4_wheels" "brdm2" "sam"}
 	{targetclass "armoredcar" "ap bullet"}
 	(include "/properties/tank_crew.ext")
 	{targetSelector "tank"}

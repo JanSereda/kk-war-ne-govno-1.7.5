@@ -1,5 +1,5 @@
 {material simple
-	{diffuse "$/model/T-55/t55a"}
+	{diffuse "$/model/T6455/t55a"}
 	{emitsheat}
 {blend test}
 }

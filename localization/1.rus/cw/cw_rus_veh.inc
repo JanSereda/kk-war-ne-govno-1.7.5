@@ -6,6 +6,9 @@
 
 
 {"milan_stan_2"								"<c(FFFFFF)e(shadow)>MILAN-ER</c>"}
+
+{"t64-55"								"<c(FFFFFF)e(shadow)>Т-64-55</c>"}
+
 {"brdm_zu"								"<c(FFFFFF)e(shadow)>БРДМ-2 С ЗУ-23</c>"}
 {"t-64b_ser"								"<c(FFFFFF)e(shadow)>T-64Б Сосна обр.1980</c>"}
 {"9k33_osa_akm"						"<c(FFFFFF)e(shadow)>Оса</c>"}

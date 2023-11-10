@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/brdm2_atgm/wheel"}
+	{emitsheat}
+{blend none}
+}
+
+

@@ -19,19 +19,6 @@
 	}
 	{texmod "green"}
 	;борт башни - от 111 до 160 мм, данные с wiki ru и wiki eng не совпадают, крыша - от 30 до 16 мм, взял 23мм среднее
-;http://btvt.narod.ru/4/t-62/t62.htm Тут для Т-62
-
-;http://military.tomsk.ru/blog/topic-299.html
-;http://btvt.narod.ru/4/t55_9.htm
-;У Т-62МД помимо 102мм лба корпуса и 242мм лба башни установлены пакеты допброни.
-;Допброня лба корпуса -30мм RHA+3х5мм (наверняка HSS) и все залито пенополиуретаном. Т. к. по движению снаряда оставлено место, предполагаю, что
-;принцип работы как у Т-72, со смещением листов. то есть наполнитель неснарядостойкий, его не учитываю (учет как воздух, 0,/0,2).
-;Итого 102+30х1+3х1,3х5х1,35х1.3+0/0,2*105(бонус многослойности 30%)(листы не под 60, а под 68, и (16хcos68)/(16хcos60)=1.35)=102+64/85.
-; Эквивалент 204+128/170
-;Толщина пакета листов допброни башни вдвое больше, наружный лист вдвое толще, из чего можно предпольжить, что и листов там вдвое больше:
-;Итого 218+128/190. Но только в зоне покрытия пакетов. Вне пакетов - 218
-;Крыша - среднее между 30 крышей и 20мм дном.
-;Борта башни - на глазок 150мм, точно там не выставить.
 
 
 ("armor_heavy" turret(218 150 65 23) body(102 80 45 25))
@@ -198,7 +185,19 @@
 			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
 			{reverse 	{end	"emit_body"}}
 		}
+		
+		
+
+		{anm "armor4"
+			{forward	{begin	"board_body"} {end "seat_isu1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor5"
+			{forward	{begin	"board_body"} 	{end "seat_isu"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
 	}
+
 
 
 
@@ -216,6 +215,7 @@
 ("crew_human" place(driver)		door(emit0) group(crew)		    animation(driver))
 ("crew_human" place(gunner)	        door(emit1) group(crew)	            animation(left))
 ("crew_human" place(commander)	        door(emit1) group(crew)	            animation(left2))
+
 
 	{placer
 		{place "charger"
@@ -265,6 +265,16 @@
 	;ТШС-41У дневной, на лбу башни
 		}
 	}
+("seat_human" place(seat1) bone(seat01) door(emit1)  animation(armor))
+("seat_human" place(seat2) bone(seat02) door(emit1)  animation(armor1))
+("seat_human" place(seat3) bone(seat03) door(emit1)  animation(armor2))
+("seat_human" place(seat4) bone(seat04) door(emit1)  animation(armor2))
+("seat_human" place(seat5) bone(seat05) door(emit1)  animation(armor4))
+("seat_human" place(seat6) bone(seat06) door(emit1)  animation(armor5))
+("seat_human" place(seat7) bone(seat07) door(emit1)  animation(armor5))
+("seat_human" place(seat8) bone(seat08) door(emit1)  animation(armor4))
+
+("seat_human" place(seat9) bone(seat09) door(emit1)  animation(armor))
 
 	{extender "inventory"
 		{weapon "mgun"

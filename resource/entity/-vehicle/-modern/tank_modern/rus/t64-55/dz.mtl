@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/t72_b3_gorod/t72ba_dz"}
+	{blend none}
+}

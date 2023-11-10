@@ -1,0 +1,9 @@
+{material bump
+	{diffuse "$/model/brdm2_atgm/konkurs_tube"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+

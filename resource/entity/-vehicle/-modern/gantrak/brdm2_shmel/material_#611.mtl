@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "$/model/brdm2_atgm/glass_s"}
+	{emitsheat}
+{blend blend}
+}
+
+
+
+
+

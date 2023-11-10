@@ -3,7 +3,7 @@
 	(include "/properties/tank.ext")
 	(include "/properties/shadow/tank.inc"  scale(1.2))
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
-	{props "heavy_M" "turret_rotator" "vision_lev05" "auto_dig_in" "remote_mgun" "has_autoloader"}
+	{props "heavy_M" "turret_rotator" "vision_lev05" "auto_dig_in" "remote_mgun"}
 
 	{volume "body1"
 		{tags "body"}
@@ -40,8 +40,12 @@
 	{component "shieldr2" {tags "shield"}}
 	{component "shieldr3" {tags "shield"}}
 	{component "shieldr4" {tags "shield"}}
+	{component "krovat_0" {tags "shield"}}	
+	{component "krovat_0_0" {tags "shield"}}	
+	{component "krovat_1" {tags "shield"}}
+	{component "krovat_1_0" {tags "shield"}}
+	{component "krovat" {tags "shield"}}
 	
-
 ;	("crew_4_human_extended")
 	("crew_inside")
 	{placer

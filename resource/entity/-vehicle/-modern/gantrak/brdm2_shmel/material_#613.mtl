@@ -1,0 +1,10 @@
+{material bump
+	{diffuse "$/model/brdm2_atgm/lopata"}
+	{emitsheat}
+{blend none}
+}
+
+
+
+
+
