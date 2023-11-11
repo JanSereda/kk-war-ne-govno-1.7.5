@@ -117,7 +117,7 @@
 
  {"bmp1_kliver" {fore 1} ("p" c(900) sc(50) g(extrabmpklrtg) b(extra) brig(srbs_vdv) s(srbsk)  i(6) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
  {"brdm_zu" {fore 1} ("p" c(900) sc(25) g(extrabmpklrtg2) b(extra) brig(srbs_vdv) s(srbsk)  i(5) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
- {"su-25sm_support" {fore 0} ("p" c(600) sc(200) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
+ ;{"su-25sm_support" {fore 0} ("p" c(600) sc(200) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(1)               ) }
 
 
 
@@ -217,7 +217,7 @@
 ;=================  ¿«¿’»
 
 
- {"bmp1_new" {fore 1} ("v3" c(220) sc(100) g(inf_kz_odkb) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(111) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(bmp1_new) n(1) n1(kz_tankman:3) n2(kz_com:1) n3(kz_mgun:2) n4(kz_mgunhelp:1) n5(kz_smg2:2) n6(kz_smg:3) n7(kz_smg2:3) n8(kz_radio:1)     ) }        
+ {"bmp1_new_2433" {fore 1} ("v3" c(220) sc(100) g(inf_kz_odkb) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(111) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(bmp1_new) n(1) n1(kz_tankman:3) n2(kz_com:1) n3(kz_mgun:2) n4(kz_mgunhelp:1) n5(kz_smg2:2) n6(kz_smg:3) n7(kz_smg2:3) n8(kz_radio:1)     ) }        
  {"bmp2_newii" {fore 1} ("v3" c(220) sc(120) g(inf_kz_odkb) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(4) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(bmp2_new) n(1) n1(kz_tankman:3) n2(kz_com:1) n3(kz_mgun:2) n4(kz_mgunhelp:1) n5(kz_smg2:2) n6(kz_smg:2) n7(kz_radio:1)     ) }        
  {"brdm2kz" {fore 1} ("vs" c(420) sc(45) g(reco) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(2) cw(10) cp(10) t(all_nz recon   ) n(4)               ) }
          
