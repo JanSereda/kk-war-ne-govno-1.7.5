@@ -257,6 +257,8 @@
 	else stuff "pl12 ammo"	
 	("spawn_proj_7" country(rus) type(active) weapon_tag(pl12_target) decoytype(chaff) decoyprob(0.07) min_alt(10))
 ;other
+	else stuff "3m9_kub_rocket ammo"			
+	("spawn_proj_1" country(rus) type(active) weapon_tag(3m9_target) decoytype(chaff) decoyprob(0.21) min_alt(-100))
 	else stuff "9m33_rocket ammo"			
 	("spawn_proj_7" country(rus) type(active) weapon_tag(9m33_rocket_target) decoytype(chaff) decoyprob(0.21) min_alt(14))
 	else stuff "targeting_radar_usa ammo"		

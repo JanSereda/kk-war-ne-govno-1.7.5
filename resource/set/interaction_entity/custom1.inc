@@ -28,6 +28,41 @@
 	}			
 }
 
+{"2k12_kub"
+	("Shilka_sound")	  	
+	{on spawn			
+	{add_view	 "flash_gun_big"	"shooter00"	"shooter00"}	{add_view	 "flash_gun_big"	"shooter01"	"shooter01"}
+	{add_view	 "flash_gun_big"	"shooter02"	"shooter02"}
+
+	{add_view	 "startsmoke_big"	"shooter00"	"shooter00"}			
+	{add_view	 "startsmoke_big"	"shooter01"	"shooter01"}
+	{add_view	 "startsmoke_big"	"shooter02"	"shooter02"}			 	
+	}		
+	{on fire "ptur" 			
+	(define "fire_barrel"				name "%0"					
+	{delay 0.1 
+	{spawn "3m9_kub_carrier" "shooter%0"   x}
+	}					
+	{ani_play "fire"}					
+	{view start "shooter%0"}					
+	{delay 0.42					
+	{view pause "shooter%0"}					
+	}			
+	)				
+	{if    ("fire_barrel" args 00)			
+	  else ("fire_barrel" args 01)			
+	  else ("fire_barrel" args 02)				 			
+	}		
+	}	
+	}
+
+	{"1s91_kub_radar"
+	("Shilka_sound")	  
+
+	("radar_lifting90_params" triplex(additional_triplex) visor(visor2) anim_rotate(radar) anim_lift(radar) marker(antirad_generator_usa))	  
+	
+	}
+
 
 
 {"2s7_pion"	  

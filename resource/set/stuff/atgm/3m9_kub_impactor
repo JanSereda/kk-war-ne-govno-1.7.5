@@ -1,0 +1,13 @@
+{from "pattern proj_impactor"
+	{entity "3m9_kub_impactor"}
+              {inventory
+		{weight 100}
+		{size 5 1}
+	}
+	{tag  "big" "size3" "88to105" "AA_missile" "-ap" "-rocketlauncher" "-low_speed" "fx_111_145"}
+	{damage blastwave {energy 0.7} {area 18.1 20.8}}
+        {damage add blastwave {energy 1.2} {area 15.8 18.2}}
+        {damage add blastwave {energy 2.5} {area 10 11.5}}
+        {damage add blastwave {energy 6.5} {area 7.7 8.9}}
+        {damage add blastwave {energy 11} {area 3.8 4.4}}
+}

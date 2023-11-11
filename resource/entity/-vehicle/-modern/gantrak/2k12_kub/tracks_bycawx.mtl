@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "sa6_track_col"}
+	{blend none}
+}

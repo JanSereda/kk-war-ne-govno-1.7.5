@@ -54,20 +54,7 @@
 	("T64_sound")
 	("2a46_type_gun")
 }
-{"tank_mtu"
-	("Shilka_sound")	
-	{on "specability" 
-		{ani_play "most" 0.1} 
-                {delay 390
-		{spawn "most_m1_wcw" "most1" x}
-                {delay 0.1
-		{bone hide "Mesh08"}
-		{bone cut "most1"}
-		{bone cut "most2"}}
-                {delay 5
-		{ani_play "most" -0.4} }}          
- 	}
-}
+
 
 
 {"chapparal"
@@ -126,29 +113,6 @@
 	}	
 
 
-{"zrk_krug"
-	("Shilka_sound")	  	
-	{on spawn			
-	{add_view	 "flash_gun_big"	"shooter00"	"shooter00"}			
-	{add_view	 "flash_gun_big"	"shooter01"	"shooter01"}			
-	
-	{add_view	 "startsmoke_big"	"shooter00"	"shooter00"}			
-	{add_view	 "startsmoke_big"	"shooter01"	"shooter01"}		 	
-	}		
-	{on fire "gun2" 			
-	(define "fire_barrel"				name "%0"					
-	{delay 0.1 
-	{spawn "3m8_carrier" "shooter%0"   x}
-	}					
-	{ani_play "fire"}					
-	{view start "shooter%0"}					
-	{delay 0.42						{view pause "shooter%0"}					
-	}			
-	)				
-	{if    ("fire_barrel" args 00)				  else ("fire_barrel" args 01)				 			
-	}		
-	}	
-	}
 
 
 {"s125x2"
@@ -211,44 +175,6 @@
 	{spawn "s75_carrier" "shooter00"   x}				
 	}	
 	}	
-
-{"zrk_kub"
-	("Shilka_sound")	  	
-	{on spawn			
-	{add_view	 "flash_gun_big"	"shooter00"	"shooter00"}			
-	{add_view	 "flash_gun_big"	"shooter01"	"shooter01"}
-	{add_view	 "flash_gun_big"	"shooter02"	"shooter02"}			
-	
-	{add_view	 "startsmoke_big"	"shooter00"	"shooter00"}			
-	{add_view	 "startsmoke_big"	"shooter01"	"shooter01"}
-	{add_view	 "startsmoke_big"	"shooter02"	"shooter02"}			 	
-	}		
-	{on fire "gun2" 			
-	(define "fire_barrel"				name "%0"					
-	{delay 0.1 
-	{spawn "3m9_kub_carrier" "shooter%0"   x}
-	}					
-	{ani_play "fire"}					
-	{view start "shooter%0"}					
-	{delay 0.42						{view pause "shooter%0"}					
-	}			
-	)				
-	{if    ("fire_barrel" args 00)				  else ("fire_barrel" args 01)				  else ("fire_barrel" args 02)				 			
-	}		
-	}	
-	}	
-
-
-
-	{"fv4333_hvm"
-	("marder_sound")
-
-	("radar_lifting90_params" triplex(additional_triplex) visor(visor3) anim_rotate(radar) anim_lift(radar_lift) marker(antirad_generator_rus))	
-
-	{on fire "gun2" 			
-	{spawn "starstreak_carrier" "shooter00"   x}		
-	}	
-	}
 
 ;fpv drone
 
