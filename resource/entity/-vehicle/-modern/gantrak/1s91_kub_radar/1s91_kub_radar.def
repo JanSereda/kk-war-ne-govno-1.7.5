@@ -32,15 +32,16 @@
 		}
         {visor "Radar"
 			{bone "visor2"}
-			{vision "radarX_buk_85km"}
+			{vision "radar_around"}
 		}
         {visor "Laser"
 			{bone "visor3"}
-			{vision "radarX_buk_85km"}
+			{vision "radar_around"}
 		}
 	}
 	("sam_radar" type(rus_large))
 	
+
 ;===================================================================
 
 	{boarder

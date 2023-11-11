@@ -5,6 +5,9 @@
 ;rev 04.07.2022
 
 
+{"1s91_kub_radar"								"<c(FFFFFF)e(shadow)>СУРН 1с91</c>"}
+{"2k12_kub"								"<c(FFFFFF)e(shadow)>2П25 КУБ</c>"}
+
 {"milan_stan_2"								"<c(FFFFFF)e(shadow)>MILAN-ER</c>"}
 
 {"t64-55"								"<c(FFFFFF)e(shadow)>Т-64-55</c>"}

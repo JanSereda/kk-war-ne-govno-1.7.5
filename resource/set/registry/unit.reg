@@ -1,6 +1,9 @@
 ;SDL
 {units
 
+
+{"1s91_kub_radar"			{structure "cwds_sam"}}
+{"2k12_kub"			{structure "cwds_sam"}}
 {"t64-55"	{structure "cwds_tank"}} 
 {"t-64b_ser"	{structure "cwds_tank"}} 
 {"milan_stan_2"	{structure "cwds_atgm"}} 
@@ -671,7 +674,7 @@
 	{"t-14"				{structure "cwds_tank2"}}
 	{"bmpt"				{structure "cwds_tank"}}
 	{"bmr-3"			{structure "cwds_tank"}}
-	{"buk_m1"			{structure "cwds_sam"}}
+	{"buk_m1"			{structure "cwds_sam"}} 
 	{"buk_m2"			{structure "cwds_sam"}}
 	{"9s18_kupol"		{structure "cwds_sam"}}
 	{"tunguska"			{structure "cwds_sam"}}
