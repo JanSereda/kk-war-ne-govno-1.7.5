@@ -9,7 +9,7 @@
 		{fogOfWar 		fog_realistic}
 		{difficulty 		multiplayer}
 		{gameDuration 		"60 min"} ; min
-		{scoreMin			15000}
+		{scoreMin			1500}
 		{scoreMax			30000}
 		{scoreFinal			15000}
 		{impregnableTimeout	4}	; sec

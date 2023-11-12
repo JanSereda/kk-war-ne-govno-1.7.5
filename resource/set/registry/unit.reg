@@ -84,6 +84,7 @@
 {"mtlb_vmk_ogon"				{structure "cwds_ifv"}}
 {"mtlb_c5_vasilek"				{structure "cwds_ifv"}}
 {"yaz_patrior"		{structure "cwds_armcar"}}
+{"toyota_hilux_t69"		{structure "cwds_armcar"}}
 {"ural-4320_long_tent_h"		{structure "cwds_truck6"}}
 {"ural-4320_long_zu23-2_h"		{structure "cwds_truck6"}}
 {"yaz_patrior_rapira"		{structure "cwds_armcar"}}

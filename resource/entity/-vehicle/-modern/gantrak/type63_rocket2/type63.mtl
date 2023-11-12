@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type63"}
+	{specular "type63_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

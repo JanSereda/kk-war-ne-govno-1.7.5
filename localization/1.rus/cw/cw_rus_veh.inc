@@ -50,6 +50,7 @@
 
 {"uaz69s"	"<c(FFFFFF)e(shadow)>УАЗ-69М</c>"}
 
+{"toyota_hilux_t69"	"<c(FFFFFF)e(shadow)>Toyota Hilux с Тип-69</c>"}
 {"toyota_hilux_grad_p"	"<c(FFFFFF)e(shadow)>Toyota Hilux с Град-п</c>"}
 {"toyota_hilux_nurs"	"<c(FFFFFF)e(shadow)>Toyota Hilux с УБ-32</c>"}
 {"uazpzrk"	"<c(FFFFFF)e(shadow)>УАЗ с РПО Шмель</c>"}
