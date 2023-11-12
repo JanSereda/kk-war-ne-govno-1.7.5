@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/new_construction/usa/angar_military/metal"}
+	{blend none}
+}

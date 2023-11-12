@@ -1,0 +1,24 @@
+﻿{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("spike_nlos_fg_impactor_link") country(usa) type(other) calibre(1000)
+	speed(slow) guidance(prop))
+	;такой большой калибр из-за большого размаха крыльев.
+	;("maneuvrability_cwps3" deg_per_s(20))
+	("maneuvrability_cwps3" deg_per_s(15))
+	{sensor
+		{Visor "add"
+			{vision "tank_gunner_optic_IR_3g"}	;https://www.youtube.com/watch?v=XdDOHgcLGRI
+												;танк был замечен с 6 км.
+			{bone "missle_foresight"}
+		}
+	}
+	("cwps_top_attack")
+	("arc_attack" country(usa) type(other) weapon(missilets_arc_320))
+	("allow_manual_control")
+	("targetable_missile")
+	;("rangefinder50")
+
+
+}

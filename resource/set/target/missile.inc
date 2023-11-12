@@ -13,7 +13,7 @@
 		{sort {class proj_cwps3} time_to_aim}
 		{sort {class antirad_missile} distance}
 		{sort {class antiship_missile} distance}
-		
+		{sort {class bomb} distance}
 		
 		{sort time_to_aim}
 	}
@@ -24,7 +24,7 @@
 		{sort {in_range 150} {class proj_cwps3}}
 		{sort {class antirad_missile} distance}
 		{sort {class antiship_missile} distance}
-		
+		{sort {class bomb} distance}
 		{sort {class proj_cwps3} time_to_aim}
 		
 		{sort distance}

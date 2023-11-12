@@ -1,0 +1,93 @@
+;Exported by: Timosh
+;Date:        Thu Nov  9 19:40:45 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar_military ?????????????\angar_military 50.max
+{Skeleton
+	{bone "angar_military_wbr_05"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "angar_military_wbr_05.ply"}
+		{bone "fx_metall1"
+			{Matrix34
+				0	-1	0
+				-0.000768944	0	1
+				-1	0	-0.000768944
+				8.52863	43.4478	115.686
+			}
+		}
+		{bone "fix30"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.14521	-14.0062	121.25
+			}
+		}
+		{bone "fix31"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				8.75986	142.469	97.2992
+			}
+		}
+		{bone "fix32"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				8.75985	73.8991	133.454
+			}
+		}
+		{bone "fix33"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.57258	73.8991	42.5893
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Box 22.9962 3.02242 27.3797}
+	{Bone "angar_military_wbr_05"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.54272	-9.56064	96.3776
+	}
+}
+{Volume "body2"
+	{Box 111.071 3.02242 23.8203}
+	{Bone "angar_military_wbr_05"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.54272	76.2811	118.958
+	}
+}
+{Volume "body3"
+	{Box 9.71875 3.02242 31.6811}
+	{Bone "angar_military_wbr_05"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.54274	73.0647	92.8774
+	}
+}
+{Volume "body"
+	{Box 22.9962 3.02242 80.5286}
+	{Bone "angar_military_wbr_05"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.54271	11.2429	99.0113
+	}
+}

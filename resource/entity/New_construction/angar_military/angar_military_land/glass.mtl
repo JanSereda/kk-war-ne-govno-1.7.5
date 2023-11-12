@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "glass"}
+	{specular "glass_sp"}
+	{color "230 230 230 20"}
+	{blend none}
+}

@@ -1,0 +1,11 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "big" "-concrete""steel" "parts" "construction" "wall"}
+	("armor_medium" args 0.5)
+	{Extension "angar_military_wfl_06.mdl"}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}}
+	}
+}

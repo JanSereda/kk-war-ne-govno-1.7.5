@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "angar_military_wbl_01_x.mdl"}
+	{Volume "piece1"
+	}
+	{Volume "piece2"
+	}
+}

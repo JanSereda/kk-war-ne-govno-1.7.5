@@ -1,0 +1,15 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "big" "-concrete""steel" "parts" "construction" "wall"}
+	("armor_medium" args 0.5)
+	{Extension "angar_military_roof_12.mdl"}
+	{extender "structure_bone"
+		{hold  "100"}
+		{hold  "101"}
+	}
+	{Volume "roof"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 0}{obstacle 0}}
+	}
+}

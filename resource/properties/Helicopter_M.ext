@@ -476,18 +476,18 @@ actor
                    
 (define "hull_and_rotors"
         {setting "propeller" {thickness %main_rotor_th}				
-            {durability  {blast {value (* 2.5 %main_rotor_th)}} {pierce {value 50}}}		
-            {threshold  {blast {value (* 0.5 %main_rotor_th)}} {pierce {value %main_rotor_th}}}	
+            {durability  {blast {value 14}} {pierce {value 50}}}		
+            {threshold  {blast {value 0.01}} {pierce {value %main_rotor_th}}}	
             {volumes "propeller*"}
         }
         {setting "tail_rotor" {thickness %tail_rotor_th}
-            {durability  {blast {value (* 2.5 %tail_rotor_th)}} {pierce {value 40}}}				
-            {threshold  {blast {value (* 0.5 %tail_rotor_th)}} {pierce {value %tail_rotor_th}}}	
+            {durability  {blast {value (* 0.1 %tail_rotor_th)}} {pierce {value 40}}}				
+            {threshold  {blast {value (* 0.01 %tail_rotor_th)}} {pierce {value %tail_rotor_th}}}	
             {volumes "tail_rotor*"}
         }
         {setting "body"
-            {durability  {blast {koef 1} {value 33}} {pierce {koef 1} {value 130}}}				
-            {threshold  {blast {koef 1} {value 4}} {pierce {koef 1} {value 15}}}	
+            {durability  {blast {koef 1} {value 15}} {pierce {koef 1} {value 130}}}				
+            {threshold  {blast {koef 1} {value 0.1}} {pierce {koef 1} {value 15}}}	
             {volumes "body*"}
         }
         {setting "cabin" {thickness %cabin_th}

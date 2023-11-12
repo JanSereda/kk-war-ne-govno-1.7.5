@@ -1,91 +1,32 @@
 {entity
-	(include "/properties/cannon.ext")
-	(include "/properties/shadow/tank.inc"  scale(0.5))
-	{props "vehicle" "cannon" "heavy" "wheeled" "vision_lev04_can" "round_sandbag2" "trailer"}
-	{PatherId "cannon.large"}
-	("armor_heavy")
+	(include "m777.inc")
 
-	{volume "body"
-		{tags "body"}
-		{component "body"}
-	}
-	
-	("crew_wheeled_gun")
-	{boarder
-		{anm "gunner"
-			{forward	{end "pose_pak40_gunlayer" 10}}
-		}
-		{anm "commander"
-			{forward	{end "pose_pak40_charger" 10}}
-		}
-		{anm "driver1"
-			{forward {end "cannon_pak40_pusher_left" 10}}
-		}
-		{anm "driver2"
-			{forward {end "cannon_pak40_pusher_right" 10}}
-		}
-		{anm "seat1"
-			{forward {end "pose_seat_cannon_left" 10}}
-		}
-		{anm "seat2"
-			{forward {end "pose_seat_cannon_right" 10}}
-		}
-	}
-	("wheel" args "wheelright")
-	("wheel" args "wheelleft")
 	{extender "inventory"
 		{box
 			{Size 6 8}
-			{item "ammo bullet155_USA_h fg" 20}
-			{item "ammo bullet155_USA cl" 5}
+			{item "ammo bullet155_USA_h fg" 20}                                 
 			{item "ammo bullet155_USA_ar fg" 10}                
+			{item "ammo bullet155_USA cl" 5}
 		}
 	}
 	{Weaponry
 		{place "gun"
-			{weapon "155mm_M776" filling "ammo bullet155_USA_h fg" 1}	
+			{weapon "155mm_M776_nogps" filling "ammo bullet155_USA_h fg" 1}
+			{gunner "gunner"}
+			{charger "charger3"}   
 			{RestoreIKAfterAim}
 			{Rotate}
 			("abm_howitzer_rt" rechargetime(7))
 		}
 	}
 
-	{mass 4218}
 	{Extension "m777a1.mdl"}
 	("missile_aimpoint_wieselsize")
 
-	(include "/properties/selection/cannon.inc"  scale(0.7))
 
 	{bone "basis"
 		{speed 0.003}
 	}
-	{bone "turret"
-		{limits -12 12}
-		{speed 0.005}
-	}
-	{bone "gun_rot"
-		{limits -55 72}
-		{speed 0.006}
-	}
-	{extender "cannon"
-		{animation
-			{switch "close"}
-			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
-			{aim "cannon_zis3_gunlayer" ""}
-			{fire  "Cannon_gunlayer_fire-alert" "cannon_zis3_charger_fire 0.13"}
-			{reload  "" "Cannon_zis3_charger"}
-		}
-		{move {obstacle "close"}}
-		{attack {obstacle "open"}}
-		;(mod "mp" {rotate_ik_Limit 1})
-	}
-	{Chassis "track"
-		("car_trace" fx("tracewheel03") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
-		("loco_big")
-    }
-{sensor
-		{visor "main"
-			{vision "cannon_main-far"}
-		}
-	}
+	{bone "turret"	{speed 0.002} {limits -23 23}}
+	{bone "gun_rot_helper"	{speed 0.004} {limits -3 70}}
 }

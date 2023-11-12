@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "angar_military_wfr_04_x.mdl"}
+	{Volume "piece1"
+	}
+	{Volume "piece2"
+	}
+	{Volume "piece3"
+	}
+}

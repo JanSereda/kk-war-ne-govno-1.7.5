@@ -1,0 +1,67 @@
+;Exported by: Timosh
+;Date:        Thu Nov  9 19:40:43 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar_military ?????????????\angar_military 50.max
+{Skeleton
+	{bone "angar_military_roof_21"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "angar_military_roof_21.ply"}
+		{bone "exterior"
+			{Position 0.245514	-38.9214	146.335}
+			{VolumeView "exterior.ply"}
+			{bone "fx_metall1"
+				{Matrix34
+					-0.998651	0	-0.0519334
+					0	1	0
+					0.0519334	0	-0.998651
+					3.53793	23.9672	6.93463
+				}
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 5.73401 -0.322266}
+		{Extent 3.9866 2.76379}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Area "interior"
+	{Obb2
+		{Center 0.773178 38.1431}
+		{Extent 112.33 45.6849}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 7.97319 5.52757 154.748}
+	{Bone "angar_military_roof_21"}
+	{Position 5.73401	0.322266	76.1699}
+}
+{Volume "roof1"
+	{Box 120.547 94.2056 6.99263}
+	{Bone "exterior"}
+	{Matrix34
+		0.993713	0	-0.111958
+		0	1	0
+		0.111958	0	0.993713
+		63.6483	0	2.33624
+	}
+}
+{Volume "roof"
+	{Box 91.6154 94.2056 6.99263}
+	{Bone "exterior"}
+	{Matrix34
+		0.99011	0	0.140294
+		0	1	0
+		-0.140294	0	0.99011
+		-39.7505	0	3.64447
+	}
+}

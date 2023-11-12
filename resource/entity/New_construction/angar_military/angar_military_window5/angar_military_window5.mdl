@@ -1,0 +1,42 @@
+;Exported by: Timosh
+;Date:        Thu Nov  9 19:40:23 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar_military ?????????????\angar_military 50.max
+{Skeleton
+	{bone "window5"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "window5.ply"}
+		{bone "fix59"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.12274	-35.261	51.8231
+			}
+		}
+		{bone "fix60"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.12274	-59.6722	86.9403
+			}
+		}
+		{bone "fx_glass5"
+			{Position 11.6069	-34.2245	83.6286}
+		}
+	}
+}
+{Volume "window5"
+	{Box 45.0025 1.17577 47.3883}
+	{Bone "window5"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.47585	-33.5286	83.2669
+	}
+}

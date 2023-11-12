@@ -1,0 +1,16 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "big" "-concrete""steel" "parts" "construction" "wall"}
+	("armor_medium" args 0.5)
+	{Extension "angar_military_wfr_04.mdl"}
+	{extender "structure_bone"
+		{hold  "12" "13"}
+		{hold  "12" "14"}
+		{hold  "13" "14"}
+	}
+	{Volume "body"
+		{Tags  "body"}
+		{Thickness 10}
+		{able {visible 1}{obstacle 0}}
+	}
+}

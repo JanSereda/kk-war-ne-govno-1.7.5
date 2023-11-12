@@ -1,0 +1,5 @@
+{game_entity
+	{Extension "angar_military_door_or_x.mdl"}
+	{Volume "piece1"
+	}
+}

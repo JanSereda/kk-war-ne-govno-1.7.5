@@ -191,20 +191,20 @@
 	("spawn_proj_7" country(rus) type(ir) weapon_tag(x-38mte_target) decoytype(optic) decoyprob(0.15) min_alt(-100))
 ;MANPADs
 	else stuff "igla_S ammo"		
-	("spawn_proj_5" country(rus) type(ir) weapon_tag(igla_S_target) decoytype(flare) decoyprob(0.04) min_alt(5))
+	("spawn_proj_5" country(rus) type(ir) weapon_tag(igla_S_target) decoytype(flare) decoyprob(0.04) min_alt(1))
 	else stuff "fim-92a_ammo ammo"	
-	("spawn_proj_5" country(usa) type(ir) weapon_tag(fim-92a_target) decoytype(flare) decoyprob(0.04) min_alt(5))
+	("spawn_proj_5" country(usa) type(ir) weapon_tag(fim-92a_target) decoytype(flare) decoyprob(0.04) min_alt(1))
 	else stuff "fn6a_ammo ammo"	
-	("spawn_proj_5" country(rus) type(ir) weapon_tag(fn6a_target) decoytype(flare) decoyprob(0.15) min_alt(5))
+	("spawn_proj_5" country(rus) type(ir) weapon_tag(fn6a_target) decoytype(flare) decoyprob(0.15) min_alt(1))
 	else stuff "mistral_missile ammo"	
 	("spawn_proj_5" country(usa) type(ir) weapon_tag(mistral_missile_target) decoytype(flare) decoyprob(0.04) min_alt(-100))
 ;SAMs
 	else stuff "9m31 ammo"			
 	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k31_target) decoytype(flare) decoyprob(0.23) min_alt(5))
 	else stuff "strela10 9m37 ammo"			
-	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k37_target) decoytype(flare) decoyprob(0.20) min_alt(5))
+	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k37_target) decoytype(flare) decoyprob(0.20) min_alt(1))
 	else stuff "strela10 9m333 ammo"			
-	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k333_target) decoytype(flare) decoyprob(0.15) min_alt(5))
+	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k333_target) decoytype(flare) decoyprob(0.15) min_alt(1))
 	else stuff "9m311 ammo"			
 	("spawn_proj_5" country(rus) type(active) weapon_tag(9m311_target) decoytype(chaff) decoyprob(0.13) min_alt(-100))
 	else stuff "pantsir 57e6e ammo"			
@@ -271,5 +271,7 @@
 	("spawn_proj_passive" country(rus) type(laser) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.04) min_alt(-100))
 	else stuff "rus_laser_spot ammo"
 	("spawn_proj_5" country(rus) type(laser_spot) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.00) min_alt(-100))
+	else stuff "usa_laser_spot ammo"
+	("spawn_proj_5" country(usa) type(laser_spot) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.00) min_alt(-100))
 ;	else stuff "persmarker" 	{with_effector {call "set_decal"} {with_effector}}
 }

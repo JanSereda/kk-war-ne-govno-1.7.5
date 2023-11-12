@@ -1,0 +1,31 @@
+{entity
+	(include "m777.inc")
+
+	{extender "inventory"
+		{box
+			{Size 6 8}
+			{item "ammo bullet155_USA_h fg" 20}                                 
+			{item "ammo bullet155_USA_ar fg" 10}                
+			{item "ammo bullet155_USA cl" 5}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "155mm_M776" filling "ammo bullet155_USA_h fg" 1}
+			{gunner "gunner"}
+			{charger "charger3"}   
+			{RestoreIKAfterAim}
+			{Rotate}
+			("abm_howitzer_rt" rechargetime(7))
+		}
+	}
+
+	{Extension "m777a2.mdl"}
+	("missile_aimpoint_wieselsize")
+
+	{bone "basis"
+		{speed 0.003}
+	}
+	{bone "turret"	{speed 0.002} {limits -23 23}}
+	{bone "gun_rot_helper"	{speed 0.004} {limits -3 70}}
+}

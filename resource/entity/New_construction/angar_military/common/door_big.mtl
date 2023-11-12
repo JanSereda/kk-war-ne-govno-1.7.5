@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/new_construction/usa/angar_military/door"}
+	{bump "$/new_construction/usa/angar_military/door_bp"}
+	{specular "$/new_construction/usa/angar_military/door_sp"}
+	{color "230 230 230 20"}
+	{blend none}
+}

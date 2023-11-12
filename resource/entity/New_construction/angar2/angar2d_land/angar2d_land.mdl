@@ -10,8 +10,9 @@
 		}
 		{VolumeView "angar2d_land.ply"}
 		{bone "land"
+			{parameters "Land;CommonMesh;Ground;"}
 			{Position 0	0	0.655762}
-			{VolumeView "land.ply"}
+			{VolumeView "land.ply" {Ground}}
 		}
 	}
 }

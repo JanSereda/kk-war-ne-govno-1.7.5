@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "concrete"}
+	{obstacleid "unbreakable"}
+	{Extension "angar_military_land.mdl"}
+	{Extender "land_patch"
+		{TerrainType "road" "bridge"}	
+	}
+}

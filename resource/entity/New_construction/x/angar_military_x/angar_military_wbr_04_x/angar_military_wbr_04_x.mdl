@@ -1,0 +1,82 @@
+;Exported by: Timosh
+;Date:        Thu Nov  9 19:00:02 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar_military ?????????????\angar_military x 25.max
+{Skeleton
+	{bone "wrl_04"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.63556	48.5417	37.4047
+			}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.50699	84.8917	13.7709
+			}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.61308	29.8107	18.9816
+			}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.55453	98.2461	52.6545
+			}
+			{VolumeView "piece4.ply"}
+		}
+		{bone "piece5"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.44702	112.917	17.7013
+			}
+			{VolumeView "piece5.ply"}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 50.6965 2.84598 56.299}
+	{Bone "piece1"}
+	{Position 0	0	0}
+}
+{Volume "piece2"
+	{Box 27.8758 1.95107 22.3415}
+	{Bone "piece2"}
+	{Position 1.52588e-05	0	0}
+}
+{Volume "piece3"
+	{Box 23.4969 1.93483 22.8183}
+	{Bone "piece3"}
+	{Position 0	0	0}
+}
+{Volume "piece4"
+	{Box 45.4244 2.87021 53.4081}
+	{Bone "piece4"}
+	{Position -1.52588e-05	0	0}
+}
+{Volume "piece5"
+	{Box 24.6825 1.94162 21.7802}
+	{Bone "piece5"}
+	{Position 0	-1.52588e-05	0}
+}

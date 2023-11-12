@@ -1,0 +1,76 @@
+;Exported by: Timosh
+;Date:        Thu Nov  9 19:40:47 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar_military ?????????????\angar_military 50.max
+{Skeleton
+	{bone "angar_military_wbl_01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "angar_military_wbl_01.ply"}
+		{bone "fx_metall1"
+			{Matrix34
+				0	-1	0
+				-0.00076644	0	1
+				-1	0	-0.00076644
+				8.88615	9.93256	35.0585
+			}
+		}
+		{bone "fix24"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				6.72174	19.9062	45.9423
+			}
+		}
+		{bone "fix25"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				9.49009	32.7907	40.7192
+			}
+		}
+	}
+}
+{Obstacle "body"
+	{Obb2
+		{Center 9.90138 -9.28891}
+		{Extent 1.42307 10.181}
+		{Axis 1 0}
+	}
+	{Rotate}
+	{Tags  "body"}
+}
+{Volume "body1"
+	{Box 20.362 2.84615 43.999}
+	{Bone "angar_military_wbl_01"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.9014	9.28891	129.331
+	}
+}
+{Volume "body2"
+	{Box 7.33031 2.84615 51.9189}
+	{Bone "angar_military_wbl_01"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.90138	15.8284	83.8901
+	}
+}
+{Volume "body"
+	{Box 20.362 2.84615 55.695}
+	{Bone "angar_military_wbl_01"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		9.90138	9.28891	30.709
+	}
+}

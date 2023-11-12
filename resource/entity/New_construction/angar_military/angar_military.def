@@ -1,0 +1,112 @@
+{game_entity
+	{Extension "angar_military.mdl"}
+	{placer}
+	{extender "structure"
+		{place	"door1l"	"angar_military_door_ol" "angar_military_door_cr" "angar_military_door_cra"}
+		{place	"door1r"	"angar_military_door_or" "angar_military_door_cr"}
+		{place	"door2l"	"angar_military_door_cl" "angar_military_door_ol" "angar_military_door_cra"}
+		{place	"door2r"	"angar_military_door_cr" "angar_military_door_or"}
+		{place	"door3l"	"" "angar_military_door_ol" "angar_military_door_cr" "angar_military_door_cra"}
+		{place	"door3r"	"" "angar_military_door_or" "angar_military_door_cr"}
+		{place	"door4l"	"" "angar_military_door_cl" "angar_military_door_ol" "angar_military_door_cra"}
+		{place	"door4r"	"" "angar_military_door_cr" "angar_military_door_or"}
+		{place	"land"	"angar_military_land"}
+		{place	"roof_01"	"angar_military_roof_01"}
+		{place	"roof_02"	"angar_military_roof_02"}
+		{place	"roof_03"	"angar_military_roof_03"}
+		{place	"roof_04"	"angar_military_roof_04"}
+		{place	"roof_05"	"angar_military_roof_05"}
+		{place	"roof_06"	"angar_military_roof_06"}
+		{place	"roof_07"	"angar_military_roof_07"}
+		{place	"roof_08"	"angar_military_roof_08"}
+		{place	"roof_09"	"angar_military_roof_09"}
+		{place	"roof_10"	"angar_military_roof_10"}
+		{place	"roof_11"	"angar_military_roof_11"}
+		{place	"roof_12"	"angar_military_roof_12"}
+		{place	"roof_13"	"angar_military_roof_13"}
+		{place	"roof_14"	"angar_military_roof_14"}
+		{place	"roof_15"	"angar_military_roof_15"}
+		{place	"roof_16"	"angar_military_roof_16"}
+		{place	"roof_17"	"angar_military_roof_17"}
+		{place	"roof_18"	"angar_military_roof_18"}
+		{place	"roof_19"	"angar_military_roof_19"}
+		{place	"roof_20"	"angar_military_roof_20"}
+		{place	"roof_21"	"angar_military_roof_21"}
+		{place	"roof_22"	"angar_military_roof_22"}
+		{place	"roof_23"	"angar_military_roof_23"}
+		{place	"roof_24"	"angar_military_roof_24"}
+		{place	"roof_25"	"angar_military_roof_25"}
+		{place	"wl_01"	"angar_military_wl_01"}
+		{place	"wl_02"	"angar_military_wl_02"}
+		{place	"wl_03"	"angar_military_wl_03"}
+		{place	"wl_04"	"angar_military_wl_04"}
+		{place	"wl_05"	"angar_military_wl_05"}
+		{place	"wl_06"	"angar_military_wl_06"}
+		{place	"wl_07"	"angar_military_wl_07"}
+		{place	"wl_08"	"angar_military_wl_08"}
+		{place	"wl_09"	"angar_military_wl_09"}
+		{place	"wl_10"	"angar_military_wl_10"}
+		{place	"wl_11"	"angar_military_wl_11"}
+		{place	"wl_12"	"angar_military_wl_12"}
+		{place	"wr_01"	"angar_military_wr_01"}
+		{place	"wr_02"	"angar_military_wr_02"}
+		{place	"wr_03"	"angar_military_wr_03"}
+		{place	"wr_04"	"angar_military_wr_04"}
+		{place	"wr_05"	"angar_military_wr_05"}
+		{place	"wr_06"	"angar_military_wr_06"}
+		{place	"wr_07"	"angar_military_wr_07"}
+		{place	"wr_08"	"angar_military_wr_08"}
+		{place	"wr_09"	"angar_military_wr_09"}
+		{place	"wr_10"	"angar_military_wr_10"}
+		{place	"wr_11"	"angar_military_wr_11"}
+		
+		{place	"wfl_01"	"angar_military_wfl_01"	"angar_military_wbl_01"}
+		{place	"wfl_02"	"angar_military_wfl_02"	"angar_military_wbl_02"}
+		{place	"wfl_03"	"angar_military_wfl_03"	"angar_military_wbl_03"}
+		{place	"wfl_04"	"angar_military_wfl_04"	"angar_military_wbl_04"}
+		{place	"wfl_05"	"angar_military_wfl_05"	"angar_military_wbl_05"}
+		{place	"wfl_06"	"angar_military_wfl_06"	"angar_military_wbl_06"}
+		{place	"wfl_07"	""	"angar_military_wbl_07"}
+		{place	"wfl_08"	""	"angar_military_wbl_08"}
+		{place	"wfl_09"	""	"angar_military_window1"}
+		{place	"wfl_10"	""	"angar_military_window2"}
+		{place	"wfl_11"	""	"angar_military_window3"}
+		
+		{place	"wfr_01"	"angar_military_wfr_01"	"angar_military_wbr_01"}
+		{place	"wfr_02"	"angar_military_wfr_02"	"angar_military_wbr_02"}
+		{place	"wfr_03"	"angar_military_wfr_03"	"angar_military_wbr_03"}
+		{place	"wfr_04"	"angar_military_wfr_04"	"angar_military_wbr_04"}
+		{place	"wfr_05"	"angar_military_wfr_05"	"angar_military_wbr_05"}
+		{place	"wfr_06"	"angar_military_wfr_06"	"angar_military_wbr_06"}
+		{place	"wfr_07"	""	"angar_military_wbr_07"}
+		{place	"wfr_08"	""	"angar_military_window4"}
+		{place	"wfr_09"	""	"angar_military_window5"}
+		{place	"wfr_10"	""	"angar_military_window6"}
+		{place	"wfr_11"	""}
+		
+		{place	"wrl_01"	"angar_military_wbr_01"	"angar_military_wfr_01"}
+		{place	"wrl_02"	"angar_military_wbr_02"	"angar_military_wfr_02"}
+		{place	"wrl_03"	"angar_military_wbr_03"	"angar_military_wfr_03"}
+		{place	"wrl_04"	"angar_military_wbr_04"	"angar_military_wfr_04"}
+		{place	"wrl_05"	"angar_military_wbr_05"	"angar_military_wfr_05"}
+		{place	"wrl_06"	"angar_military_wbr_06"	"angar_military_wfr_06"}
+		{place	"wrl_07"	"angar_military_wbr_07"}
+		{place	"wrl_08"	"angar_military_window4"}
+		{place	"wrl_09"	"angar_military_window5"}
+		{place	"wrl_10"	"angar_military_window6"}
+		{place	"wrl_11"	""}
+		
+		{place	"wrr_01"	"angar_military_wbl_01"	"angar_military_wfl_01"}
+		{place	"wrr_02"	"angar_military_wbl_02"	"angar_military_wfl_02"}
+		{place	"wrr_03"	"angar_military_wbl_03"	"angar_military_wfl_03"}
+		{place	"wrr_04"	"angar_military_wbl_04"	"angar_military_wfl_04"}
+		{place	"wrr_05"	"angar_military_wbl_05"	"angar_military_wfl_05"}
+		{place	"wrr_06"	"angar_military_wbl_06"	"angar_military_wfl_06"}
+		{place	"wrr_07"	"angar_military_wbl_07"}
+		{place	"wrr_08"	"angar_military_wbl_08"}
+		{place	"wrr_09"	"angar_military_window1"}
+		{place	"wrr_10"	"angar_military_window2"}
+		{place	"wrr_11"	"angar_military_window3"}
+
+	}
+}

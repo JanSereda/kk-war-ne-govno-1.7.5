@@ -1,0 +1,14 @@
+{game_entity
+	(include "/properties/building.inc")
+	{props "cornered" "big" "-concrete""steel" "parts" "construction" "windowed" "wall"}
+	("armor_medium" args 0.5)
+	{Extension "angar_military_window5.mdl"}
+	{extender "structure_bone"
+		{hold  "59" "60"}
+	}
+	{Volume "window5"
+		{Tags  "fire"}
+		{Thickness 0.2}
+		{able {visible 0}{window}}
+	}
+}

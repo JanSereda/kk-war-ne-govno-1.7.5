@@ -1,0 +1,68 @@
+;Exported by: Timosh
+;Date:        Thu Nov  9 19:00:04 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????? ? ???????\angar_military ?????????????\angar_military x 25.max
+{Skeleton
+	{bone "wfl_04"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "piece1"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				10.1268	-87.3459	113.174
+			}
+			{VolumeView "piece1.ply"}
+		}
+		{bone "piece2"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				10.2385	-141.764	111.152
+			}
+			{VolumeView "piece2.ply"}
+		}
+		{bone "piece3"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				6.01189	-85.0975	100.502
+			}
+			{VolumeView "piece3.ply"}
+		}
+		{bone "piece4"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				10.0354	-34.3301	117.309
+			}
+			{VolumeView "piece4.ply"}
+		}
+	}
+}
+{Volume "piece1"
+	{Box 55.5788 2.00835 35.1302}
+	{Bone "piece1"}
+	{Position -1.52588e-05	-1.52588e-05	0}
+}
+{Volume "piece2"
+	{Box 52.1583 1.99463 31.2603}
+	{Bone "piece2"}
+	{Position -1.52588e-05	1.52588e-05	0}
+}
+{Volume "piece3"
+	{Box 142.338 14.4877 19.3675}
+	{Bone "piece3"}
+	{Position -1.52588e-05	-1.52588e-05	0}
+}
+{Volume "piece4"
+	{Box 55.0175 2.01366 43.2073}
+	{Bone "piece4"}
+	{Position -1.52588e-05	0	0}
+}
