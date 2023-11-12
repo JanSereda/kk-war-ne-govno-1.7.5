@@ -45,7 +45,8 @@
 	{"kamaz_grad" {fore 0} ("vs" c(600) sc(350) g(art1) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(4) cw(0) cp(35) t(all_nz art support_frontline  ) n(2)               ) }     
 	{"tochka_y_wagner" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(5) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 	{"zil131_2s1" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(6) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
-	
+	{"2c4_tulpan" {fore 0.0} ("v" c(600) sc(250) g(art) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(7) cw(0) cp(25) t(all_nz art support_frontline  ) n(2)               ) }
+       
 	{"tor_m2_early" {fore 0.0} ("v" c(1330) sc(350) g(pvo_tor) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(69) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 	{"tunguska" {fore 0.0} ("v" c(1330) sc(350) g(tunguskayobka) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(969) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 	{"buk_m1" {fore 0.0} ("v" c(1330) sc(350) g(buk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(96) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
@@ -53,8 +54,7 @@
 
 
 	
-	;{"2c4_tulpan" {fore 0.0} ("v" c(600) sc(250) g(art) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(7) cw(0) cp(25) t(all_nz art support_frontline  ) n(2)               ) }
-                          
+                   
     {"kraz_6322_art_pvo" {fore 1} ("vs" c(120) sc(25) g(art_boep)b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(333) cw(0) cp(2) t(all_nz supply   ) n(2)               ) }
 
 

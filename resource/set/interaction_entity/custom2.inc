@@ -1,4 +1,95 @@
+{"toyota_hilux_dshkm"
+	{on spawn
+		{call "rand_tex"}	
+	}
+	{on "rand_tex"	
+				(define "rand_tex" 
+						{if rand %r1
+							{delay 0.05 
+								{tex_mod "%r2"}	
+							}
+						}
+				)	
+("rand_tex" r1(0.25) r2(hamas1))	
+("rand_tex" r1(0.25) r2(hamas2))	
+("rand_tex" r1(0.10) r2(un))
+("rand_tex" r1(0.15) r2(red2))
+("rand_tex" r1(0.15) r2(5))
 
+("rand_tex" r1(0.15) r2(2))
+
+	}
+	
+}
+{"toyota_hilux_spg9"
+	{on spawn
+		{call "rand_tex"}	
+	}
+	{on "rand_tex"	
+				(define "rand_tex" 
+						{if rand %r1
+							{delay 0.05 
+								{tex_mod "%r2"}	
+							}
+						}
+				)	
+("rand_tex" r1(0.25) r2(hamas1))	
+("rand_tex" r1(0.25) r2(hamas2))	
+("rand_tex" r1(0.10) r2(un))
+("rand_tex" r1(0.15) r2(red2))
+("rand_tex" r1(0.15) r2(5))
+
+("rand_tex" r1(0.15) r2(2))
+
+	}
+	
+}
+{"toyota_hilux_ammo"
+	{on spawn
+		{call "rand_tex"}	
+	}
+	{on "rand_tex"	
+				(define "rand_tex" 
+						{if rand %r1
+							{delay 0.05 
+								{tex_mod "%r2"}	
+							}
+						}
+				)	
+("rand_tex" r1(0.25) r2(hamas1))	
+("rand_tex" r1(0.25) r2(hamas2))	
+("rand_tex" r1(0.10) r2(un))
+("rand_tex" r1(0.15) r2(red2))
+("rand_tex" r1(0.15) r2(5))
+
+("rand_tex" r1(0.15) r2(2))
+
+	}
+	
+}
+{"toyota_hilux_tow"
+	{on spawn
+		{call "rand_tex"}	
+	}
+	{on "rand_tex"	
+				(define "rand_tex" 
+						{if rand %r1
+							{delay 0.05 
+								{tex_mod "%r2"}	
+							}
+						}
+				)	
+("rand_tex" r1(0.25) r2(hamas1))	
+("rand_tex" r1(0.25) r2(hamas2))	
+("rand_tex" r1(0.10) r2(un))
+("rand_tex" r1(0.15) r2(red2))
+("rand_tex" r1(0.15) r2(5))
+("rand_tex" r1(0.15) r2(ter))
+("rand_tex" r1(0.15) r2(2))
+
+	}
+	
+}
 
 {"btr-4"	
 	("atgm_multi_launcher"
