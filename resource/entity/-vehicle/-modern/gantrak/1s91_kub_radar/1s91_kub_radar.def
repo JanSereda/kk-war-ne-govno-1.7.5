@@ -30,16 +30,16 @@
 			{bone "visor1"}
 			{vision "vehicle_top_mgun"}
 		}
-        {visor "radar"
-			{bone "visor2"}
+		{Visor "radar"
 			{vision "radar_around"}
+			{bone "Visor_radar"}
 		}
         {visor "laser"
 			{bone "visor3"}
 			{vision "radar_around"}
 		}
 	}
-	("sam_radar" type(rus_large))
+	("sam_radar" type(rus))
 	
 
 ;===================================================================

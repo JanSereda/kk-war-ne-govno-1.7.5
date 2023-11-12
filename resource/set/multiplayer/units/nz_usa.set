@@ -4,10 +4,10 @@
 ;==================== СПЕЦ ОЧКИ США  
  {"mq9" {fore 0} ("p" c(500)  sc(50) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
  {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(200) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
- {"f-15e_kab" {fore 0} ("p" c(1500)  sc(250) g(air_strike) b(extra) brig(usaf) s(usa) m(3) i(3) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"f-15e_kab" {fore 0} ("p" c(1500)  sc(150) g(air_strike) b(extra) brig(usaf) s(usa) m(3) i(3) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
     
  {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(extra) brig(usaf) s(usa) m(4)  i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
- {"m777a1" {fore 0} ("vart" c(500) sc(100) g(how) b(extra) brig(usart) s(usa) m(5)  i(5) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a1) n1(vehicle_supporter_usmc:2)            ) }                                  
+ {"m777a2" {fore 0} ("vart" c(500) sc(100) g(how) b(extra) brig(usart) s(usa) m(5)  i(5) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) n1(vehicle_supporter_usmc:2)            ) }                                  
  {"m163" {fore 0} ("v_nation" c(240) sc(50) g(anitmissile) b(extra) brig(usart) m(6) s(usa) crew_nation(usa) i(6) cw(0) cp(10) t(all_nz antiair aat support_frontline  ) n(3)               ) }
       
  {"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(extra) brig(usart) s(usa)  i(7) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
@@ -168,7 +168,7 @@
 
 {"magach7"           ("v_nation" c(500) brig(idf) t(all_nz additional tanks_only) s(usa) n(4) crew_nation(idf) g(arm2)  sc(180) b(idf_hqcar)   i(5) m(2) cw(0) cp(40))  {fore 1}}
 
-{"merkava_mk4"            ("v_nation_v" c(450) brig(idf) t(all_nz tanks_only duel_tanks2000 tank_usa) s(usa) n(4) crew_nation(idf) g(obt_idf)   sc(370) b(idf_hqcar) i(7) cw(0) cp(75))  {fore 0.0}}
+{"merkava_mk4"            ("v_nation_v" c(450) brig(idf) t(all_nz tanks_only duel_tanks2000 tank_usa) s(usa) n(4) crew_nation(idf) g(obt_idf)   sc(180) b(idf_hqcar) i(7) cw(0) cp(75))  {fore 0.0}}
 
 
             
@@ -190,7 +190,7 @@
 ("squad_with11types" name(usmc_sturm) side(usa) c(180) g(suppinf1) c1(usmc_bazooker:2) c2(usmc_saper:2) b(usmc_hqcar) brig(usmc) t(all_nz infantry) cost(47) f(9) info(usmc_sturm))
 
 
-{"mortarfru"		("vart" c(480) c1(hmmwv_m998_tent) c2(mortarfr) brig(usmc) t(all_nz art nobot) s(usa) n(2) n1(vehicle_supporter_usmc:2) g(stan2) sc(175) a(1) b(usmc_hqcar) i(4) cw(5) cp(20))  {fore 0.0}} 
+;{"mortarfru"		("vart" c(480) c1(hmmwv_m998_tent) c2(mortarfr) brig(usmc) t(all_nz art nobot) s(usa) n(2) n1(vehicle_supporter_usmc:2) g(stan2) sc(175) a(1) b(usmc_hqcar) i(4) cw(5) cp(20))  {fore 0.0}} 
 
 {"lav-ad"          ("v" c(600) brig(usmc) t(all_nz antiair aat) s(usa) n(3) g(pvo) sc(150) b(usmc_hqcar) i(8) cw(0) cp(20))  {fore 0.5}}
 {"lav-atws"          ("v" c(480) brig(usmc) t(all_nz aat) s(usa) n(4) g(1stan2) sc(90) b(usmc_hqcar) i(8) cw(0) cp(16))  {fore 1}}

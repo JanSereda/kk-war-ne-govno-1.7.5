@@ -77,8 +77,8 @@
 ;===============================ПВО===========================================
 
 {"hq_7b"	("v" c(240) brig(cnart) t(all_nz art aat support_frontline) s(cn) n(3) g(pvo) sc(150) b(cnart_hqcar) i(5) cw(0) cp(20))  {fore 0.0}}
-{"hq-16b_launcher" ("v" c(400) brig(cnart) t(all_nz art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(100) b(cnart_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
-{"hq-16b_radar" ("v" c(400) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(5) g(pvor) sc(100) b(cnart_hqcar) i(7) cw(0) cp(15))  {fore -1.2}}
+{"hq-16b_launcher" ("v" c(600) brig(cnart) t(all_nz art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(160) b(cnart_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
+{"hq-16b_radar" ("v" c(600) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(5) g(pvor) sc(200) b(cnart_hqcar) i(7) cw(0) cp(15))  {fore -1.2}}
 {"llq305_radar" ("v" c(300) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(2) g(radar) sc(50) b(cnart_hqcar) i(8) cw(0) cp(5))  {fore 0.8}}
 {"shaanxi_sx2190_avia"	("vs" c(600) brig(cnair) t(all_nz aircraft supply nobot support_frontline) s(cn) n(2) g(123) 	sc(100) b(cnart_hqcar) i(9) cw(0) cp(2))  {fore 1}} 
 {"shaanxi_sx2190_art_pvo"	("vs" c(300) brig(cnart) t(all_nz supply nobot support_frontline) s(cn) n(2) g(supplyart) 	sc(100) b(cnair_hqcar) i(10) cw(0) cp(2))  {fore 1}}
@@ -107,7 +107,7 @@
 
 {"plz-07a"	("v" c(360) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(5) g(extra7)  sc(150) b(extra) i(7) cw(0) cp(25))  {fore -1.0}}
 {"dong_feng_15b" ("vs" c(1800) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(3) g(extra8)  sc(200) b(extra) i(8) cw(0) cp(25))  {fore -0.1}}
-{"phl-03" ("vs" c(1800) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(4) g(extra9) sc(350) b(extra) i(9) m(4) cw(0) cp(50))  {fore -0.1}}
+{"phl-03" ("vs" c(1800) brig(cnart) t(all_nz art nobot support_frontline) s(cn) n(4) g(extra9) sc(300) b(extra) i(9) m(4) cw(0) cp(50))  {fore -0.1}}
 ;===============================Тяжелая бригада===========================================
 
 ;У Китая есть 2 вида сквадов мотопехоты: замком, пулеметная пара, РПГ пара, снайпер или автоматчик. 
@@ -161,7 +161,7 @@
 
 {"pcp001_cs_sm1"           ("vs" c(800) brig(cnmed) t(all_nz) s(cn) n(4) g(stan1mon)   sc(110) b(cnmed_hqcar) i(8) cw(0) cp(25))  {fore 1}}
 
-{"tl-4_stan"	("vs" c(700) brig(cnmed) t(all_nz nobot) s(cn) n(2) g(stan_tl4) sc(250) b(cnmed_hqcar) i(9) cw(1) cp(9))  {fore 0.0}}
+{"tl-4_stan"	("vs" c(700) brig(cnmed) t(all_nz nobot) s(cn) n(2) g(stan_tl4) sc(50) b(extra) i(9) cw(1) cp(9))  {fore 0.0}}
 {"aft-9"	("vs" c(600) brig(cnmed) t(all_nz att) s(cn) n(2) g(s_konkurs)  sc(120)  b(cnmed_hqcar) i(10) cw(0) cp(20))  {fore 1}}
 
 {"ptl-02"		("v_v" c(360) t(all_nz tanks_only duel_tanks90) brig(cnmed) s(cn) n(4) g(bbm1)  sc(110) b(cnmed_hqcar) i(11) cw(0) cp(50))  {fore 0.0}}

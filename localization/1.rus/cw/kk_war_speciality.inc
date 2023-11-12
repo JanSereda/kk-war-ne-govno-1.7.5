@@ -5,7 +5,7 @@
 ;rev 04.07.2022
 
 
-
+{"toyota_hilux_tow"								"<c(FFFF00)>Автомобиль</c>"} 
 {"2k12_kub"								"<c(FFFF00)>ЗРК</c>"}
 {"1s91_kub_radar"								"<c(FFFF00)>Станция обнаружения и целеуказания</c>"}
 {"milan_stan_2"								"<c(FFFF00)>ПТРК</c>"}
@@ -13,6 +13,8 @@
 {"brdm_zu"								"<c(FFFF00)>Суррогатная бронемашина</c>"}
 {"t-64b_ser"								"<c(FFFF00)>Основной боевой танк</c>"}
 {"9k33_osa_akm"						"<c(FFFF00)e(shadow)>Зенитный ракетный комплекс</c>"}
+{"9k33_osa_akm_isis"						"<c(FFFF00)e(shadow)>Зенитный ракетный комплекс</c>"}
+
 {"2s7_pion"						"<c(FFFF00)e(shadow)>Самоходная пушка</c>"}
 {"su-34_umpk"						"<c(FFFF00)e(shadow)>Фронтовой бомбардировщик</c>"}
 {"brem-1"						"<c(FFFF00)e(shadow)>Бронированная ремонтно-эвакуационная машина</c>"}
@@ -44,6 +46,7 @@
 {"mtlb_zu"					"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
 
 
+{"m777a2"					"<c(FFFF00)e(shadow)>Гаубица</c>"}
 {"m777a1"					"<c(FFFF00)e(shadow)>Гаубица</c>"}
 {"m777"					"<c(FFFF00)e(shadow)>Гаубица</c>"}
 {"t-55_rus"						"<c(FFFF00)e(shadow)>Суррогатное САУ</c>"}
@@ -688,7 +691,7 @@
 			{"motorcycle"								"<c(FFFF00)>Мотоцикл</c>"}
 			{"mtz_80"									"<c(FFFF00)>Трактор</c>"}
 			{"prado"									"<c(FFFF00)>Автомобиль</c>"}
-			{"toyota_hilux"								"<c(FFFF00)>Автомобиль</c>"}
+			{"toyota_hilux"								"<c(FFFF00)>Автомобиль</c>"} 
 			{"toyota_hilux_ammo"						"<c(FFFF00)>Автомобиль</c>"}
 			{"toyota_hilux_dshkm"						"<c(FFFF00)>Автомобиль</c>"}
 			{"toyota_hilux_spg9"						"<c(FFFF00)>Автомобиль</c>"}

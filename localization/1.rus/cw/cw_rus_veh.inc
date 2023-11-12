@@ -15,6 +15,9 @@
 {"brdm_zu"								"<c(FFFFFF)e(shadow)>БРДМ-2 С ЗУ-23</c>"}
 {"t-64b_ser"								"<c(FFFFFF)e(shadow)>T-64Б Сосна обр.1980</c>"}
 {"9k33_osa_akm"						"<c(FFFFFF)e(shadow)>Оса</c>"}
+{"9k33_osa_akm_isis"						"<c(FFFFFF)e(shadow)>Оса</c>"}
+
+{"toyota_hilux_tow"						"<c(FFFFFF)e(shadow)>Toyota Hilux с TOW</c>"}
 {"2s7_pion"						"<c(FFFFFF)e(shadow)>2C7 Пион</c>"}
 
 {"su-34_umpk"						"<c(FFFFFF)e(shadow)>СУ-34 УМПК</c>"}
@@ -56,7 +59,8 @@
 {"kamaz_grad"	"<c(FFFFFF)e(shadow)>БМ–21А БелГрад</c>"}
 
 
-{"m777a1"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777</c>"}
+{"m777a2"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777А2</c>"}
+{"m777a1"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777А1</c>"}
 {"mtlb_supl"	"<c(FFFFFF)e(shadow)>МТ-ЛБ с тяжёлыми боеприпасами</c>"}
 {"9k35_strela_nurs"	"<c(FFFFFF)e(shadow)>МТ-ЛБ с УБ-32</c>"}
 {"mig-21bis_pizdec"	"<c(FFFFFF)e(shadow)>СУ-7БМВЭК Ударный</c>"}

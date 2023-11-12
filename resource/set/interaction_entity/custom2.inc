@@ -21,6 +21,13 @@
 		tail(foresight1)
 	)
 }
+{"toyota_hilux_tow"	
+	("atgm_single_launcher"
+		weapon(gun)
+		foresight(foresight1)
+		tail(foresight1)
+	)
+}
 {"shershen_d_stan_4"	
 	("atgm_multi_launcher"
 		weapon(gun)
