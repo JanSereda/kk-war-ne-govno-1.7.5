@@ -26,15 +26,15 @@
 ;===================================================================
 
 	{sensor
-		{visor "Driver"
+		{visor "driver"
 			{bone "visor1"}
 			{vision "vehicle_top_mgun"}
 		}
-        {visor "Radar"
+        {visor "radar"
 			{bone "visor2"}
 			{vision "radar_around"}
 		}
-        {visor "Laser"
+        {visor "laser"
 			{bone "visor3"}
 			{vision "radar_around"}
 		}
@@ -64,9 +64,9 @@
 		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
 	}
 )
-("crew_human" place(driver)		animation(driver)	door(emit2))
+("crew_human" place(driver)		animation(driver)	door(emit1))
 ("crew_human" place(commander)		animation(driver)	door(emit1))
-("crew_human" place(gunner)		animation(driver)	door(emit2))
+("crew_human" place(gunner)		animation(driver)	door(emit1))
 
 ;===================================================================
 
