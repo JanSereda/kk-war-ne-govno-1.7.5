@@ -126,7 +126,13 @@
 		tail(foresight1)
 	)
 }
-
+{"brdm2grom"	
+	("atgm_single_launcher"
+		weapon(gun2)
+		foresight(foresight2)
+		tail(foresight2)
+	)
+}
 	
 {"hj8_stan_2"	
 	("atgm_single_launcher"
