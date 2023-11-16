@@ -12,6 +12,7 @@
 
 {"t64-55"								"<c(FFFFFF)e(shadow)>Т-64-55</c>"}
 
+{"dozor-b_1"								"<c(FFFFFF)e(shadow)>Дозор-Б</c>"}
 {"brdm2grom"								"<c(FFFFFF)e(shadow)>БРДМ-2 С 2А28</c>"}
 {"brdm_zu"								"<c(FFFFFF)e(shadow)>БРДМ-2 С ЗУ-23</c>"}
 {"t-64b_ser"								"<c(FFFFFF)e(shadow)>T-64Б Сосна обр.1980</c>"}

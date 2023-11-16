@@ -8,6 +8,7 @@
 {"t-64b_ser"	{structure "cwds_tank"}} 
 {"milan_stan_2"	{structure "cwds_atgm"}} 
 {"brdm_zu"		{structure "cwds_apc4"}}
+{"dozor-b_1"		{structure "cwds_apc4"}}
 {"brdm2grom"		{structure "cwds_apc4"}}
 {"kraz_6322_sup"		{structure "cwds_truck6"}}
 {"kraz_6322_eng"		{structure "cwds_truck6"}}
@@ -17,7 +18,6 @@
 {"osa_ma_pu"		{structure "cwds_shipcannon"}}
 {"9k33_osa_akm"			{structure "cwds_sam"}}
 {"9k33_osa_akm_isis"			{structure "cwds_sam"}}
-
 {"grad_p"		{structure "cwds_atgm"}}
 {"su-34_umpk"		{structure "cwds_plane_attack"}}
 {"mi17_unarmed_supl"		{structure "cwds_heli_common"}}

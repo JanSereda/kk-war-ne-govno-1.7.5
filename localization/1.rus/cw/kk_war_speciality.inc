@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 
 
+{"dozor-b_1"								"<c(FFFF00)>Бронеавтомобиль</c>"} 
 {"toyota_hilux_t69"								"<c(FFFF00)>Автомобиль</c>"} 
 {"toyota_hilux_tow"								"<c(FFFF00)>Автомобиль</c>"} 
 {"2k12_kub"								"<c(FFFF00)>ЗРК</c>"}

@@ -3,7 +3,7 @@
 
 ;==================== СПЕЦ ОЧКИ США  
  {"mq9" {fore 0} ("p" c(500)  sc(50) g(air_tac) b(extra) brig(usaf) s(usa)  m(2) i(2) cw(0) cp(75) t(all_nz aircraft support_frontline  ) n(1)               ) }
- {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(200) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
+ {"f-15e_strike" {fore 0} ("v_cust" c(1250) sc(150) g(heli_spike) b(extra) brig(usaf) s(usa) crew(usa/vertpilot_apache) m(1) i(1) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"f-15e_kab" {fore 0} ("p" c(1500)  sc(150) g(air_strike) b(extra) brig(usaf) s(usa) m(3) i(3) cw(0) cp(100) t(all_nz aircraft support_frontline  ) n(2)               ) }
     
  {"e-2c_hawkeye" {fore 0} ("p" c(300) sc(100) g(radar) b(extra) brig(usaf) s(usa) m(4)  i(4) cw(0) cp(20) t(all_nz aircraft support_frontline  ) n(5)               ) }
@@ -11,18 +11,18 @@
  {"m163" {fore 0} ("v_nation" c(240) sc(50) g(anitmissile) b(extra) brig(usart) m(6) s(usa) crew_nation(usa) i(6) cw(0) cp(10) t(all_nz antiair aat support_frontline  ) n(3)               ) }
       
  {"mq9_recon" {fore 0.0} ("h" c(300) sc(50) g(recon_bigextra) b(extra) brig(usart) s(usa)  i(7) m(7) cw(0) cp(5) t(all_nz aircraft support_frontline  ) n(0)               ) }
- {"m142_himarser" {fore 0} ("v" c(840) sc(200) g(rszoextra) b(extra) brig(usart) s(usa)  i(8) m(8) cw(0) cp(50) t(all_nz art support_frontline  ) n(2)               ) }
- {"mrls_atacms_2" {fore 0} ("v" c(1200) sc(250) g(otrkextraextra) b(extra) brig(usart) s(usa)  m(9) i(9) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
+ {"m142_himars" {fore 0} ("v" c(840) sc(150) g(rszoextra) b(extra) brig(usart) s(usa)  i(8) m(8) cw(0) cp(50) t(all_nz art support_frontline  ) n(2)               ) }
+ {"mrls_atacms_2" {fore 0} ("v" c(1200) sc(200) g(otrkextraextra) b(extra) brig(usart) s(usa)  m(9) i(9) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
 
  ("squad_with7types" name(defend) f(0)  c(600) cost(50) g(elite) b(extra) brig(usarmy) side(usa)    t(all_nz specnaz infantry  ) info(defend) c1(delta_com:1) c2(delta_smg:1) c3(delta_smg2:1) c4(delta_smg3:1) c5(delta_mgun:1) c6(delta_marksman:1) c7(delta_bazooker:3)        ) 
  {"shorad" {fore 0} ("v" c(700) sc(200) g(spat_aa) b(extra) brig(usarmy) s(usa)  i(10) m(10) cw(0) cp(30) t(all_nz att   ) n(4)               ) }
- {"m1a2tusk_2_new" {fore 0} ("v" c(600) sc(250) g(obt_army) b(extra) brig(usarmy) s(usa)  i(11) m(11) cw(0) cp(65) t(all_nz tank_usa no_frontline  ) n(4)               ) }
+ {"m1a2tusk_2_new" {fore 0} ("v" c(600) sc(150) g(obt_army) b(extra) brig(usarmy) s(usa)  i(11) m(11) cw(0) cp(65) t(all_nz tank_usa no_frontline  ) n(4)               ) }
 
 ("squad_with11types_custom" side(usa) crew_nation(idf) name(idf_vdv) c(500) g(extra13) c1(sayeret_matkal_com:1) c2(sayeret_matkal_smg:2) c3(sayeret_matkal_mgun:1) c4(sayeret_matkal_bazooker:1) c5(sayeret_matkal_bazooker2:1) c6(sayeret_matkal_marksman:1) c7(sayeret_matkal_smg2:2) c8(sayeret_matkal_heavy_mgun:1) b(extra) brig(idf) t(all_nz nobot) cost(50) f(0) info(idf_squad_elite))
 {"m163machbet"             ("v_nation" c(300) brig(idf) t(all_nz additional antiair aat) s(usa) n(3) crew_nation(idf) g(extra14) sc(50) a(2) b(extra) i(12) cw(0) cp(15))  {fore 0.0}}
-{"merkava_trophy"            ("v_nation" c(1200) brig(idf) t(all_nz tanks_only duel_tanks2000 tank_usa) s(usa) n(4) crew_nation(idf) g(extra15)   sc(250) b(extra) i(13) cw(0) cp(65))  {fore 0.0}}
+{"merkava_trophy"            ("v_nation" c(1200) brig(idf) t(all_nz tanks_only duel_tanks2000 tank_usa) s(usa) n(4) crew_nation(idf) g(extra15)   sc(200) b(extra) i(13) cw(0) cp(65))  {fore 0.0}}
 
-{"m1a1_FEP"            ("v" c(600) brig(usmc) t(all_nz tanks_only duel_tanks90 tank_usa) s(usa) n(4) g(extra17)   sc(150) b(extra) i(14) m(14) cw(0) cp(60))  {fore -0.2}} 
+{"m1a1_FEP"            ("v" c(600) brig(usmc) t(all_nz tanks_only duel_tanks90 tank_usa) s(usa) n(4) g(extra17)   sc(100) b(extra) i(14) m(14) cw(0) cp(60))  {fore -0.2}} 
 ;{"ah1z"            ("v_cust" c(1000) brig(usmc) t(all_nz duel_heli heli nobot) s(usa) n(2) crew(usa/vertpilot_viper) g(extra18)  sc(250) b(extra) i(15) cw(0) cp(60))  {fore 0.0}}
 {"Apache_spike"            ("v_cust" c(1200) brig(usmc) t(all_nz duel_heli heli nobot) s(usa) n(2) crew(usa/vertpilot_viper) g(extra128)  sc(250) b(extra) i(16) cw(0) cp(80))  {fore 0.0}}
 

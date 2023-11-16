@@ -105,6 +105,21 @@
 		tail(foresight1)
 	)
 }
+{"ptur_konkurs_3"	
+	("atgm_single_launcher"
+		weapon(gun)
+		foresight(foresight1)
+		tail(foresight1)
+	)
+}
+{"metis_m_odkb"	
+	("atgm_single_launcher"
+		weapon(gun2)
+		foresight(foresight1)
+		tail(foresight1)
+	)
+}
+
 {"milan_stan_2"	
 	("atgm_single_launcher"
 		weapon(gun)
