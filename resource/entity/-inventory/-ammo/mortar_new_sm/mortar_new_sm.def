@@ -5,4 +5,6 @@
 	{extender "stuff"
 		{item "ammo mortar sm"}
 	}
+	("cw_advanced_bullet")
+	("cwbs_mortar_sound")
 }

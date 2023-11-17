@@ -1,0 +1,18 @@
+;{entity
+{game_entity
+	{skeleton
+		{bone "basis"
+			{matrix34
+				1  0  0
+				0 -1  0
+				0  0  1
+				0  0  0
+			}
+			{bone "cw_bullet_dummy"}
+		}
+	}
+	{props "bullet"}
+	{constrain none}
+	{collider "grenade"}
+
+}

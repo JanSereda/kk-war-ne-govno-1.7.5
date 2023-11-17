@@ -11,5 +11,6 @@
 		{item "ammo m270 cl"}
 	}
 	{Extension "mlrs_fg_ammo.mdl"}
+	("cw_advanced_bullet")
 	("cw_altitude_fuse_25m")
 }

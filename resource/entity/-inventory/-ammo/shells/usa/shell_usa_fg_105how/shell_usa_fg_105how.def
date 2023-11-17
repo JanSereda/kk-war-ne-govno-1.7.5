@@ -5,5 +5,6 @@
 	}
 	{props "steel" "explosive_stuff"}
 	{Extension "shell_usa_fg_105how.mdl"}
-	
+	("cw_advanced_bullet")
+	("cwbs_122mm_shell_sound")
 }

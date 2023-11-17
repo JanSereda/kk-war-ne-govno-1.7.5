@@ -24,6 +24,7 @@
 	("missile_aimpoint_wieselsize")
 
 	{bone "basis"
+		{limits}
 		{speed 0.003}
 	}
 	{bone "turret"	{speed 0.002} {limits -23 23}}

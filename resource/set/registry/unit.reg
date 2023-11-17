@@ -1,104 +1,5 @@
 ;SDL
 {units
-
-
-{"1s91_kub_radar"			{structure "cwds_sam"}}
-{"2k12_kub"			{structure "cwds_sam"}}
-{"t64-55"	{structure "cwds_tank"}} 
-{"t-64b_ser"	{structure "cwds_tank"}} 
-{"milan_stan_2"	{structure "cwds_atgm"}} 
-{"brdm_zu"		{structure "cwds_apc4"}}
-{"dozor-b_1"		{structure "cwds_apc4"}}
-{"brdm2grom"		{structure "cwds_apc4"}}
-{"kraz_6322_sup"		{structure "cwds_truck6"}}
-{"kraz_6322_eng"		{structure "cwds_truck6"}}
-{"kraz_6322_fuel"		{structure "cwds_truck6"}}
-{"maz6317"		{structure "cwds_truck6"}}
-{"osa_am_rls"		{structure "cwds_radar"}}
-{"osa_ma_pu"		{structure "cwds_shipcannon"}}
-{"9k33_osa_akm"			{structure "cwds_sam"}}
-{"9k33_osa_akm_isis"			{structure "cwds_sam"}}
-{"grad_p"		{structure "cwds_atgm"}}
-{"su-34_umpk"		{structure "cwds_plane_attack"}}
-{"mi17_unarmed_supl"		{structure "cwds_heli_common"}}
-{"ags17"		{structure "cwds_ags"}}
-{"ptur_tow_isis"			{structure "cwds_atgm"}}
-{"kornet_base_stan_isis"			{structure "cwds_atgm"}}
-{"2b11_isis"		        {structure "cwds_mortar"}}
-{"brem-1"			{structure "cwds_tank"}}
-{"brem-1_s"			{structure "cwds_tank"}}
-{"m777"				{structure "cwds_cannon"}}
-{"m777a1"				{structure "cwds_cannon"}}
-{"m777a2"				{structure "cwds_cannon"}}
-{"toyota_hilux_tow"			{structure "cwds_armcar"}}
-{"hmmwv_isis"			{structure "cwds_armcar"}}
-{"t62_isis"			{structure "cwds_tank"}}
-{"t80ybars"			{structure "cwds_tank"}}
-{"t72b3_blr"			{structure "cwds_tank"}}
-{"m1a1_lodka"			{structure "cwds_tank2"}}
-{"maz-537"	{structure "cwds_truck8"}}
-{"hmmwv_knkrs"			{structure "cwds_armcar"}}
-{"gaz_tigr_dz"			{structure "cwds_armcar"}}
-{"toyota_hilux_nurs2"			{structure "cwds_armcar"}}
-{"toyota_hilux_nurs"			{structure "cwds_armcar"}}
-{"toyota_hilux_grad_p"			{structure "cwds_armcar"}}
-{"uazpzrk"			{structure "cwds_armcar"}}
-{"uazm2"			{structure "cwds_armcar"}}
-{"brdm2kz"		{structure "cwds_apc4"}}
-{"brdm2sr"		{structure "cwds_apc4"}}
-{"mtlb_supl"			{structure "cwds_ifv"}}
-{"9k35_strela_nurs"		{structure "cwds_apc4"}}
-{"bmp1_isis"			{structure "cwds_ifv"}}
-{"ac130"{structure "cwds_plane_cargo"}}	
-{"mig-21bis_pizdec"{structure "cwds_plane_attack"}}	
-{"mig-21bis_harm"{structure "cwds_plane_attack"}}
-{"mig-21bis_support_b8"{structure "cwds_plane_attack"}}
-{"chekan"		{structure "cwds_apc4"}} 
-{"su24m"{structure "cwds_plane_attack"}}
-{"su24m_strike"{structure "cwds_plane_attack"}}	
-{"su24m_kab"{structure "cwds_plane_attack"}}	
-{"maz-537"		{structure "cwds_apc4"}}
-{"t-55_c60"				{structure "cwds_tank"}}
-{"kamaz_zu"		{structure "cwds_truck6"}}
-{"2c1"					{structure "cwds_tank2"}}
-{"2c1_rus"					{structure "cwds_tank2"}}
-{"2c1_isis"					{structure "cwds_tank2"}}
-{"2s7_pion"					{structure "cwds_tank2"}}
-{"tos-1a_solntsepek_odkb"	{structure "cwds_mlrs_tr"}}
-{"mstasm2_odkb"					{structure "cwds_tank2"}}
-{"2c4_tulpan"					{structure "cwds_tank2"}}
-{"kamaz_grad"			{structure "cwds_mlrs6"}}
-{"gaz_tigr_dz"		{structure "cwds_armcar"}}
-{"btr-4e"		{structure "cwds_apc8"}}
-{"btr-3e_no_pt"		{structure "cwds_apc8"}}
-{"dshk_trenoga"		{structure "cwds_mgun"}}
-{"zil131_2s1"		{structure "cwds_truck6"}}
-{"t72a_ser"				{structure "cwds_tank"}}
-{"t34-85_ser"		{structure "cwds_tank"}}
-{"m113a_ser"			{structure "cwds_ifv"}}
-{"leopard_2a4_dz"			{structure "cwds_tank"}}
-{"tochka_y"				{structure "cwds_otrk8"}}
-{"tochka_y_wagner"				{structure "cwds_otrk8"}}
-{"mt12_with_mtlb"				{structure "cwds_ifv"}}
-{"mtlb_zu"				{structure "cwds_ifv"}}
-{"mtlb_c60"				{structure "cwds_ifv"}}
-{"mtlb_vmk_ogon"				{structure "cwds_ifv"}}
-{"mtlb_c5_vasilek"				{structure "cwds_ifv"}}
-{"yaz_patrior"		{structure "cwds_armcar"}}
-{"toyota_hilux_t69"		{structure "cwds_armcar"}}
-{"ural-4320_long_tent_h"		{structure "cwds_truck6"}}
-{"ural-4320_long_zu23-2_h"		{structure "cwds_truck6"}}
-{"yaz_patrior_rapira"		{structure "cwds_armcar"}}
-{"yaz_patrior_kornet"		{structure "cwds_armcar"}}
-{"yaz_patrior_zu23_2"		{structure "cwds_armcar"}}
-{"2121_atgm"		{structure "cwds_armcar"}}
-{"t-55_ser"		{structure "cwds_tank"}}
-{"t62m_v2_ser"		{structure "cwds_tank"}}
-{"t-55_rus"		{structure "cwds_tank"}}
-{"hj8_stan_2"		{structure "cwds_atgm"}}
-{"ptur_konkurs_2"		{structure "cwds_atgm"}}
-{"2c23"					{structure "cwds_tank"}} 
-
 ;===================RUS planes
 	{"mi28n"			{structure "cwds_heli_attack"}}
 	{"mi28ub"			{structure "cwds_heli_attack"}}
@@ -458,6 +359,8 @@
 	{"hawk_rls"			{structure "cwds_radar"}}
 	{"m119"				{structure "cwds_cannon"}}
 	{"m120"				{structure "cwds_mortar"}}
+	{"m777a1"			{structure "cwds_cannon"}}
+	{"m777a2"			{structure "cwds_cannon"}}
 ;===================NATO cannon
 	{"gmg_stan"		{structure "cwds_ags"}}
 	{"spike_stan"	{structure "cwds_atgm"}}
@@ -680,7 +583,7 @@
 	{"t-14"				{structure "cwds_tank2"}}
 	{"bmpt"				{structure "cwds_tank"}}
 	{"bmr-3"			{structure "cwds_tank"}}
-	{"buk_m1"			{structure "cwds_sam"}} 
+	{"buk_m1"			{structure "cwds_sam"}}
 	{"buk_m2"			{structure "cwds_sam"}}
 	{"9s18_kupol"		{structure "cwds_sam"}}
 	{"tunguska"			{structure "cwds_sam"}}

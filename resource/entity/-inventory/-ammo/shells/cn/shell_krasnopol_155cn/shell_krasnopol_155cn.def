@@ -6,4 +6,6 @@
 	{props "explosive_stuff"}
 
 	{Extension "shell_rus_kranopol_152.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_152mm_shell_sound")
 }

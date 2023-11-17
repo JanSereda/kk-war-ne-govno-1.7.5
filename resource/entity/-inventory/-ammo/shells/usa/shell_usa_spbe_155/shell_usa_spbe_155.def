@@ -5,5 +5,7 @@
 	}
 	{props "steel" "explosive_stuff"}
 	{Extension "shell_usa_spbe_155.mdl"}
+	("cw_advanced_bullet")
 	("cw_altitude_fuse_20m")
+	("cwbs_152mm_shell_sound")
 }

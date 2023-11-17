@@ -6,4 +6,6 @@
 	}
 	{props "explosive_stuff"}
 	{Extension "shell_122mm_cn.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_122mm_shell_sound")
 }

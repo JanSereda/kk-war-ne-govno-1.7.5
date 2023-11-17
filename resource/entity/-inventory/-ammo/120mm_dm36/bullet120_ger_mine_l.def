@@ -6,4 +6,6 @@
 	}
 	{props "explosive_stuff"}
 	{Extension "120mm_DM36.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_mortar_sound")
 }

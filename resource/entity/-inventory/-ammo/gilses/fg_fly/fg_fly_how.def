@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/stuff_shell.ext")
+	{extender "stuff"
+		{item "wind"}
+	}
+	{Extension "fg_fly.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_122mm_shell_sound")
+}

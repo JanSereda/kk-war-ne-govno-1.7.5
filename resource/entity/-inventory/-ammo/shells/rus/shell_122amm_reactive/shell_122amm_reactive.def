@@ -10,4 +10,6 @@
 		{item "bullet122_rus rok"}
 	}
 	{Extension "shell_122amm_reactive.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_122mm_shell_sound")
 }

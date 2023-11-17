@@ -6,4 +6,6 @@
 	}
 	{props "explosive_stuff"}
 	{Extension "shell_155mm_cn_satt.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_152mm_shell_sound")
 }

@@ -79,8 +79,8 @@
  }
 	{Sensor
 		{Visor "OLS"
-			{vision "aircraft_optic_2g"}	;2g - это зум 4-8х, у Ланцета что-то в этом роде.
-			{bone "visor_ols"}
+			{vision "aircraft_optic_IR_2g"}	;2g - это зум 4-8х, у Ланцета что-то в этом роде.
+			{bone "visor_ols"}				;С осени 23г ставится ИК камера
 		}
 	}		
 	{brain

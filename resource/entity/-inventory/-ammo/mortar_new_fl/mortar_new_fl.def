@@ -6,4 +6,6 @@
 		{item "ammo mortar fl"}
 	}
 	{props "steel" "explosive_stuff"}
+	("cw_advanced_bullet")
+	("cwbs_mortar_sound")
 }

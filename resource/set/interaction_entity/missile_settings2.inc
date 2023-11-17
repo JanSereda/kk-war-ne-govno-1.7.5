@@ -569,11 +569,6 @@
 {("CWPS_proj" missilename(hj73c) rotation(1) rand_move(0) smoke_vulnerable(1)  decoyprob(0.3) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
 {("CWPS_proj" missilename(9k31) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.8) range(17) tail(proj_jet_sam) eng_time(3))("speed_normal" coeff(0.88))}
 {("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
-{("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}
-{("CWPS_proj" missilename(9m33_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.41) range(33) tail(proj_jet_sam) eng_time(3))}
-{("CWPS_proj" missilename(3m9_kub) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.23) range(33) tail(proj_jet_sam) eng_time(3)) ("antislip")}
-
-{("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k333) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.4) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k111) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.3) range(15) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.81))("tracer" tracer(tracer_konkurs) bone(tail))}
 {("CWPS_proj" missilename(9k111m) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.3) range(16) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.81))("tracer" tracer(tracer_konkurs) bone(tail))}
@@ -649,7 +644,7 @@
 {("CWPS_proj" missilename(milan-er) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}
 {("CWPS_proj" missilename(hot_rock) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(23) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))}	
 {("CWPS_proj" missilename(spike-sr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.3) range(26) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(0.96))}
-{("CWPS_proj" missilename(spike-lr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(40) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.11))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
+{("CWPS_proj" missilename(spike-lr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(32) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.11))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
 {("CWPS_proj" missilename(red_arrow_10b) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(40) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.20))
 	{on "launch_procedures"
 		{delay 0.1 {with_linked_entity "missile" {ani_play "on_start"}}}

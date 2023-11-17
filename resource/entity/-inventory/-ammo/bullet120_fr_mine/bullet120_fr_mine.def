@@ -6,4 +6,6 @@
 	}
 	{props "explosive_stuff"}
 	{Extension "shell_usa_120_mine_he.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_mortar_sound")
 }

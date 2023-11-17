@@ -131,7 +131,7 @@
 		{move {workers "driver1" "driver2" "driver3" "driver4"} {obstacle "close"}}
 		{attack {workers "gunner" "commander" "charger3" "charger4"} {obstacle "open"}}
 		{trailing {workers "seat1" "seat2" "seat3" "seat4" "seat5"}}
-		{rotate_ik_Limit 0}
+;		{rotate_ik_Limit 0}
 	}
 	
 	("wheel" args "wheelright")

@@ -6,5 +6,7 @@
 	}
 	{props "explosive_stuff"}
 	{Extension "120mm_m934a1.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_mortar_sound")
 	
 }

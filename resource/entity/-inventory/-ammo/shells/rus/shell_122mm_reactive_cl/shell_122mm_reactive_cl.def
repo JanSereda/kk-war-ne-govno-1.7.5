@@ -10,5 +10,6 @@
 		{item "ammo grad cl"}
 	}
 	{Extension "shell_122mm_reactive.mdl"}
+	("cw_advanced_bullet")
 	("cw_altitude_fuse_25m")
 }

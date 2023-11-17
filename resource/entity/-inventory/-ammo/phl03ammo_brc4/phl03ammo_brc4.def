@@ -10,5 +10,6 @@
 		{item "phl03 ammo cl brc4"}
 	}
 	{Extension "phl03ammo_bre2.mdl"}
+	("cw_advanced_bullet")
 	("cw_altitude_fuse_25m")
 }
