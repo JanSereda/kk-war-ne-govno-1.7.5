@@ -97,7 +97,7 @@
 	{item "eleron3sv ammo" 1 {max 1}{value 150}}				
 )
 (define "UAV_kamikadze_rus"
-	{item "lancet3m cm ammo" 1 {max 1}{value 150}}				
+	{item "lancet3m cm ammo" 1 {max 5}{value 69}}				
 )
 (define "smallarms_west"	;common for USA and NATO
 	{item "standart ammo" 10 {max 30}{value 1}}				
@@ -505,6 +505,8 @@
 	{item "bullet152_RUS_korr2 fg bullet152_RUS ammo" 1 {max 30}{value 15}}				
 	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
+	{item "3vof34 ammo" 1 {max 20}{value 35}}
+	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
@@ -547,7 +549,11 @@
 ;    {item "ATACMS ammo" 1 {max 2}{value 130}}		
 )
 (define "iskander"
-	{item "iskander tb ammo" 1 {max 2}{value 200}}			;лимит 3000		
+	{item "iskander tb ammo" 1 {max 2}{value 200}}			;лимит 3000	
+	{item "tochka f ammo" 1 {max 2}{value 169}}
+)
+(define "tochka"
+	{item "tochka f ammo" 1 {max 1}{value 169}}
 )
 (define "df15"
 	{item "df15b fg ammo" 1 {max 1}{value 100}}
@@ -559,14 +565,17 @@
 (define "grad"
 	{item "grad rok ammo" 8 {max 40}{value 100}}
     {item "tos1a fg ammo" 2 {max 24}{value 30}}	
+	{item "shahed136 base ammo" 1 {max 5}{value 30}}	
+	{item "ammo r17" 1 {max 1} {value 300}}	
+	
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
 ;	{item "grad fg ammo" 10 {max 40}{value 50}}				
 ;	{item "grad spbe ammo" 10 {max 40}{value 50}}				
 ;	{item "grad mine ammo" 10 {max 40}{value 50}}				
 )
 (define "smerch"
-    {item "smerch tornado_s 9m528 fg ammo" 3 {max 12}{value 130}}
-	{item "tornado_s 9m546 cl ammo" 3 {max 12}{value 150}}
+    {item "smerch tornado_s 9m528 fg ammo" 4 {max 12}{value 130}}
+	{item "tornado_s 9m546 cl ammo" 4 {max 12}{value 150}}
 )
 (define "grad_cn"
 	{item "grad fgh ammo" 8 {max 40}{value 100}}
@@ -670,7 +679,8 @@
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}					
+	{item "rvv-sd ammo" 1 {max 10}{value 5}}
+	{item "9m33_rocket ammo" 2 {max 12}{value 9}}
 )
 (define "sam_usa"
 	{item "patriot ammo" 2 {max 4}{value 25}}		;лимит 3000		
@@ -730,7 +740,7 @@
 	{item "x_25ml_su25_ammo ammo" 1 {max 4}{value 80}}				
 	{item "x31p ammo" 2 {max 6}{value 90}}				
 	{item "x-38mte ammo" 1 {max 2}{value 75}}			
-	{item "x59m ammo" 1 {max 2}{value 125}}				
+	{item "x59m ammo" 1 {max 4}{value 125}}				
 	{item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
@@ -1542,6 +1552,99 @@
 		{resupplyPeriod 	5}
 		{regenerationPeriod 2.4}
 		{limit 				900}
+	}
+	("supply_decal")
+)
+(define "mp_cwr_irg_osnv_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("smokes")
+			("rpg_rus")
+			("tochka")
+			("manpads_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("c5")
+			("120mm_USA")
+			
+		
+			("c8")
+			("c13")
+		}
+		{radius 			10}
+		{resupplyPeriod 	4}
+		{regenerationPeriod 2.3}
+		{limit 				500}
+	}
+	("supply_decal")
+)
+(define "mp_cwr_irg_heavy_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("smokes")
+			("rpg_rus")
+			("atgm_rus")
+			("manpads_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("155mm_USA")
+			("c5")
+			("120mm_USA")
+			("tochka")
+			("iskander")
+		
+			("c8")
+			("c13")
+			("air_stuff_rus")
+			("manpads_rus")
+			("atgm_rus")
+			("sam_rus")
+			("air_stuff_usa")
+		}
+		{radius 			22}
+		{resupplyPeriod 	5}
+		{regenerationPeriod 7.8}
+		{limit 				2000}
 	}
 	("supply_decal")
 )
