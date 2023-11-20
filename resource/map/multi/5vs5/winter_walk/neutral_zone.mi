@@ -15909,6 +15909,14 @@
 					{"delay"
 						{time 160}
 					}
+					{"environment"
+						{name "single/3-poltava/poltava_24_00"}
+						{time 160}
+						{apply}
+					}
+					{"delay"
+						{time 160}
+					}
 					{"trigger"
 						{name "single/3-poltava/poltava_24_00"}
 					}
@@ -15922,11 +15930,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
-						{title "ЧЁ НАХУЙ"}
+						{time 250}
+						{title "Приказ: пукнуть в районе"}
 					}
 					{"delay"
-						{time 210}
+						{time 250}
 					}
 					{"timer"
 						{hide}
