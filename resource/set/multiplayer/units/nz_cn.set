@@ -13,7 +13,7 @@
 ("squad_with2types" name(pzrk) side(cn) c(250) g(suppinf111) c1(pzrk:1) c2(pzrkhelp:1) b(common) brig(common) t(all_nz antiair) cost(40) f(1) info(pzrk))
 {"pzrk2_cn"		("v3" c(500) c1(beijing_bj2022)brig(common) t(all_nz inf_cn aat) s(cn) n(2) n1(pzrkhelp:2) n2(pzrk:2) g(pzrk)  sc(80) b(common) i(0) cw(0) cp(0))  {fore 1}}
 {"qjz-89_stan"	("vs" c(300) brig(common) t(all_nz nobot) s(cn) n(2) g(stan_mgun) sc(45) b(common) i(1) cw(10) cp(5))  {fore 1}}
-{"qlz04"	("vs" c(400) brig(common) t(all_nz nobot) s(cn) n(2) g(stan13) sc(100) b(common) i(2) cw(10) cp(15))  {fore 1}}
+{"qlz04"	("vs" c(400) brig(common) t(all_nz nobot) s(cn) n(2) g(stan13) sc(86) b(common) i(2) cw(10) cp(15))  {fore 1}}
 {"type_pp87"            ("vs" c(600) brig(common) t(all_nz nobot) s(cn) n(2) g(stan12) sc(100) b(common) i(3) cw(1) cp(15))  {fore 1}}
 {"pbp-172"            ("vs" c(600) brig(common) t(all_nz nobot) s(cn) n(3) g(stan1) sc(120) b(common) i(4) cw(1) cp(15)) {fore 1}}
 
@@ -116,14 +116,14 @@
 
 ("squad_with11types" side(cn) name(spec) c(120) g(inf)  c1(spec_com:1) c2(spec_mgun:1) c3(spec_mgunhelp:1) c4(spec_rpg:1) c5(spec_rpghelp:1) c6(spec_sniper:1) c7(spec_smg2:2) c8(spec_minmen:1) b(cnheavy_hqcar) brig(cnheavy) t(all_nz infantry) cost(75) f(1.0) info(spec))
 {"zbd86a"		("v3" c(300) c1(zbd86a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp11)  sc(75) b(cnheavy_hqcar) i(2) cw(20) cp(20))  {fore 1}}
-{"zbd04a"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(3) n1(tankman:3) g(bmp22)  sc(200) b(cnheavy_hqcar) i(3) cw(20) cp(35))  {fore 1}}
+{"zbd04a"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(3) n1(tankman:3) g(bmp22)  sc(140) b(cnheavy_hqcar) i(3) cw(20) cp(35))  {fore 1}}
 
 {"shaanxi_sx2190_passengeri_cnheavy"		("v3" c(120) c1(shaanxi_sx2190_passenger)brig(cnheavy) t(all_nz inf_cn infantry max5) s(cn) n(2) 
   n1(vehicle_supporter:1) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:2) n9(spec_minmen:1)
-  g(first_inf1)  sc(80) b(cnheavy_hqcar) i(1) cw(0) cp(8))  {fore 1}
+  g(first_inf1)  sc(60) b(cnheavy_hqcar) i(1) cw(0) cp(8))  {fore 1}
 }
-{"zbd86ai"		("v3" c(300) c1(zbd86a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1) g(bmp)  sc(130) b(cnheavy_hqcar) i(12) cw(0) cp(15))  {fore 1}}
-{"zbd04ai"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1)  g(bmp2)  sc(155) b(cnheavy_hqcar) i(13) cw(0) cp(35))  {fore 0.0}}
+{"zbd86ai"		("v3" c(300) c1(zbd86a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1) g(bmp)  sc(111) b(cnheavy_hqcar) i(12) cw(0) cp(15))  {fore 1}}
+{"zbd04ai"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all_nz inf_cn infantry) s(cn) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1)  g(bmp2)  sc(130) b(cnheavy_hqcar) i(13) cw(0) cp(35))  {fore 0.0}}
 
 ("squad_with2types" name(snipers2) side(cn) c(480) g(snipers) c1(motostrelk_sniper:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all_nz duel_snipers infantry) cost(50) f(0.5) info(snipers2))
 ("squad_with2types" name(at_rifle) side(cn) c(240) g(snipers) c1(at_rifle:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all_nz) cost(50) f(0.5) info(at_rifle))
@@ -142,24 +142,24 @@
 
 
 
-("squad_with11types" side(cn) name(spec2) c(120) g(inf)  c1(spec2_com:1) c2(spec2_mgun:1) c3(spec2_mgunhelp:1) c4(spec2_rpg:1) c5(spec2_rpghelp:1) c6(spec2_sniper:1) c7(spec2_smg2:2) c8(spec2_minmen:1) b(cnmed_hqcar) brig(cnmed) t(all_nz infantry) cost(75) f(1.0) info(spec2))
+("squad_with11types" side(cn) name(spec2) c(120) g(inf)  c1(spec2_com:1) c2(spec2_mgun:1) c3(spec2_mgunhelp:1) c4(spec2_rpg:1) c5(spec2_rpghelp:1) c6(spec2_sniper:1) c7(spec2_smg2:2) c8(spec2_minmen:1) b(cnmed_hqcar) brig(cnmed) t(all_nz infantry) cost(60) f(1.0) info(spec2))
 
 {"zsl-92b"		("v3" c(300) c1(zsl-92b)brig(cnmed) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp1)  sc(65) b(cnmed_hqcar) i(2) cw(20) cp(20))  {fore 1}}
 {"zbl_08_atgm"		("v3" c(300) c1(zbl_08_atgm)brig(cnmed) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp12)  sc(65) b(cnmed_hqcar) i(3) cw(20) cp(25))  {fore 1}}
 
 {"shaanxi_sx2190_passengeri_cnmed"		("v3" c(120) c1(shaanxi_sx2190_passenger)brig(cnmed) t(all_nz inf_cn infantry max5) s(cn) n(2) 
   n1(vehicle_supporter:1) n2(spec2_com:1) n3(spec2_mgun:1) n4(spec2_mgunhelp:1) n5(spec2_rpg:1) n6(spec2_rpghelp:1) n7(spec2_sniper:1) n8(spec2_smg2:2) n9(spec2_minmen:1)
-  g(first_inf2)  sc(80) b(cnmed_hqcar) i(1) cw(0) cp(8))  {fore 1}
+  g(first_inf2)  sc(60) b(cnmed_hqcar) i(1) cw(0) cp(8))  {fore 1}
 }
 {"zsl-92bi"		("v3" c(300) c1(zsl-92b)brig(cnmed) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec2_com:1) n3(spec2_mgun:1) n4(spec2_mgunhelp:1) n5(spec2_rpg:1) n6(spec2_rpghelp:1) n7(spec2_sniper:1) n8(spec2_smg2:1) g(bmp11111)  sc(110) b(cnmed_hqcar) i(12) cw(0) cp(15))  {fore 1}}
-{"zbl_08_atgmi"		("v3" c(300) c1(zbl_08_atgm)brig(cnmed) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec2_com:1) n3(spec2_mgun:1) n4(spec2_mgunhelp:1) n5(spec2_rpg:1) n6(spec2_rpghelp:1) n7(spec2_sniper:1) n8(spec2_smg2:1) g(bmp122222)  sc(145) b(cnmed_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
+{"zbl_08_atgmi"		("v3" c(300) c1(zbl_08_atgm)brig(cnmed) t(all_nz inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec2_com:1) n3(spec2_mgun:1) n4(spec2_mgunhelp:1) n5(spec2_rpg:1) n6(spec2_rpghelp:1) n7(spec2_sniper:1) n8(spec2_smg2:1) g(bmp122222)  sc(122) b(cnmed_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
 
 ("squad_with2types" name(flamers) side(cn) c(480) g(snipers) c1(flamer:2) b(cnmed_hqcar) brig(cnmed) t(all_nz duel_snipers infantry) cost(30) f(1) info(flamers))
 
 ;{"lyt2021"			("vs" c(240) brig(cnmed) t(all_nz recon) s(cn) n(5) g(car_mg)   sc(30) b(cnmed_hqcar) i(5) cw(1) cp(5))  {fore 1}}
-{"lyt2021_qlz04"	("vs" c(600) brig(cnmed) t(all_nz recon) s(cn) n(5) g(car_gmg)   sc(135) b(cnmed_hqcar) i(6) cw(1) cp(15))  {fore 1}}
+{"lyt2021_qlz04"	("vs" c(600) brig(cnmed) t(all_nz recon) s(cn) n(5) g(car_gmg)   sc(111) b(cnmed_hqcar) i(6) cw(1) cp(15))  {fore 1}}
 
-{"pcp001_cs_sm1"           ("vs" c(800) brig(cnmed) t(all_nz) s(cn) n(4) g(stan1mon)   sc(110) b(cnmed_hqcar) i(8) cw(0) cp(25))  {fore 1}}
+{"pcp001_cs_sm1"           ("vs" c(800) brig(cnmed) t(all_nz) s(cn) n(4) g(stan1mon)   sc(100) b(cnmed_hqcar) i(8) cw(0) cp(25))  {fore 1}}
 
 {"tl-4_stan"	("vs" c(700) brig(cnmed) t(all_nz nobot) s(cn) n(2) g(stan_tl4) sc(50) b(extra) i(9) cw(1) cp(9))  {fore 0.0}}
 {"aft-9"	("vs" c(600) brig(cnmed) t(all_nz att) s(cn) n(2) g(s_konkurs)  sc(120)  b(cnmed_hqcar) i(10) cw(0) cp(20))  {fore 1}}
