@@ -60,7 +60,7 @@
 {"jh-7a_kab"	("p" c(500) brig(cnair) t(all_nz aircraft nobot support_frontline) s(cn) n(2) g(airb)  sc(350) b(cnair_hqcar) i(12) cw(0) cp(30))  {fore -0.4}}
 {"jh-7a_antirad"	("p" c(500) brig(cnair) t(all_nz additional aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(antirad)  sc(170) b(cnair_hqcar) i(18) cw(0) cp(50))  {fore -0.25}}
 
-{"jh-7a_at"	("p" c(450) brig(cnair) t(all_nz aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(air_2s)  sc(350) b(cnair_hqcar) i(16) cw(0) cp(100))  {fore -0.8}}
+;{"jh-7a_at"	("p" c(450) brig(cnair) t(all_nz aircraft duel_fighter nobot support_frontline) s(cn) n(2) g(air_2s)  sc(350) b(cnair_hqcar) i(16) cw(0) cp(100))  {fore -0.8}}
 
 {"j-10c_aa"	("p" c(450) brig(cnair) t(all_nz aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(340) b(cnair_hqcar) i(12) cw(0) cp(50))  {fore -1.6}}
 {"su-35_aa_china"	("p" c(450) brig(cnair) t(all_nz aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(350) b(cnair_hqcar) i(22) cw(0) cp(50))  {fore -1.7}}
