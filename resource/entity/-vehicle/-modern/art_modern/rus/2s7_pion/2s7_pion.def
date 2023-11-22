@@ -91,7 +91,7 @@
 			{gunner "gunner"}
 			{charger "gunner"} 
 			
-			{StationaryFiring}
+			;{StationaryFiring}
 			{RestoreIKAfterAim}
 			{basic}
 		}

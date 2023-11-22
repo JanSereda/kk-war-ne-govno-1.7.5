@@ -15885,6 +15885,17 @@
 					{"delay"
 						{time 300}
 					}
+					{"delay"
+						{time 140}
+					}
+					{"environment"
+						{name "skirmish/rus-iskra_b"}
+						{time 450}
+						{apply}
+					}
+					{"delay"
+						{time 300}
+					}
 					{"environment"
 						{name "m14/m14_18_00"}
 						{time 150}
