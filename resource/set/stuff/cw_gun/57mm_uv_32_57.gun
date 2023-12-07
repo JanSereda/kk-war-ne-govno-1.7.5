@@ -7,7 +7,7 @@
 	{recoveryTime 0.05}
 	{Automatic}
 	{rechargeTime 50}		;ракеты весят всего по 4 кг, изаряжать 2 ракеты в минуту, думаю, нетрудно
-	{range 100 130}
+	{range 150 150}
 	("speed" s(600)) 	;оставил, за 1.1с работы двигателя ракета пролетает 300м
 	("CW_acc_heli" mils(10))
  ;см Б8Б20
@@ -17,7 +17,7 @@
 	{cursorReloading "cannon_reload_fg"}
 	;{cursorReloading "cannon_reload_fg_timer_50"}
              {parameters "cm"
-		{range 120 120}
+		{range 150 150}
 		;{cursor "cannon_on_heat"}
 		;{cursorReloading "cannon_on_heat"}
 		{cursor "cannon_on_heat_10"}

@@ -5,6 +5,10 @@
 ;rev 04.07.2022
 
 
+
+{"uaz469_spg9"								"<c(FFFFFF)e(shadow)>УАЗ-469 с СПГ-9</c>"}
+{"uaz469_ub32"								"<c(FFFFFF)e(shadow)>УАЗ-469 с УБ-32</c>"}
+
 {"1s91_kub_radar"								"<c(FFFFFF)e(shadow)>СУРН 1с91</c>"}
 {"2k12_kub"								"<c(FFFFFF)e(shadow)>2П25 КУБ</c>"}
 

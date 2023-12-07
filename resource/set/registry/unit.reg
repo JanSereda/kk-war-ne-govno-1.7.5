@@ -2,6 +2,8 @@
 {units
 
 
+{"uaz469_spg9"			{structure "cwds_armcar"}}
+{"uaz469_ub32"			{structure "cwds_armcar"}}
 {"1s91_kub_radar"			{structure "cwds_sam"}}
 {"2k12_kub"			{structure "cwds_sam"}}
 {"t64-55"	{structure "cwds_tank"}} 

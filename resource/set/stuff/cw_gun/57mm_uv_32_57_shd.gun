@@ -9,12 +9,12 @@
 		{PrepareTime 3}
 		{PrepareCursor "aimed_shot"}
 	}
-	{recoveryTime 0.25}
+	{recoveryTime 0.05}
 	{Automatic}
 	{rechargeTime 50}		;ракеты вес€т всего по 4 кг, изар€жать 2 ракеты в минуту, думаю, нетрудно
-	{range 100 130}
-	("speed" s(555)) 	;оставил, за 1.1с работы двигател€ ракета пролетает 300м
-	("CW_acc_heli" mils(10))
+	{range 180 185}
+	("speed" s(669)) 	;оставил, за 1.1с работы двигател€ ракета пролетает 300м
+	("CW_acc_heli" mils(8))
  ;см Ѕ8Ѕ20
 	;{cursor "cannon_on_fg"}
 	;{cursorReloading "cannon_on_fg"}

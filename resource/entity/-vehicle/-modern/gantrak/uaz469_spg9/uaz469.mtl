@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/uaz469/uaz469"}
+	{specular "$/model/uaz469/uaz469_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}
