@@ -65,7 +65,6 @@
  {"mig-21bis_support" {fore 0.4} ("p" c(500) sc(135) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_support_b8" {fore 0.4} ("p" c(500) sc(150) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_support_hydra" {fore 0.4} ("p" c(500) sc(169) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
- {"mig-21bis_support_hydra" {fore 0.4} ("p" c(500) sc(169) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
  {"mig-21bis_support_s13" {fore 0.4} ("p" c(500) sc(190) g(susem) b(srbs_vdv_hqcar) brig(srbs_vdv) s(srbsk)  i(1) cw(0) cp(25) t(all_nz aircraft   ) n(1)               ) }
 
 
@@ -86,20 +85,16 @@
  
 
 ;========== Артбр	игада    
- {"mtlb_vmk_ogon" {fore 1} ("v" c(1000) sc(169) g(mtlbogn)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(1) cw(0) cp(20) t(all_nz   ) n(3)               ) }
- {"mtlb_c5_vasilek" {fore 1} ("v" c(250) sc(125) g(mtlbvasilek) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(512) cw(0) cp(20) t(all_nz   ) n(4)               ) }
-
- {"t-55_rus" {fore 0} ("v3" c(300) sc(100) g(art_heavy2)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(2) cw(0) cp(25) t(all_nz inf_irg infantry ) c1(t-55_rus) n(1) n1(tankman:4)   ) }
- {"ural_grad_ser" {fore 0} ("v3" c(600) sc(200) g(art_heavy)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(3) cw(0) cp(50) t(all_nz inf_irg infantry ) c1(ural_grad) n(1) n1(vehicle_supporter:2)   ) }
+ {"uaz469_ub32" {fore 1} ("v" c(300) sc(69) g(pizdec_kakoyto) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(8) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
  {"2c1_rus" {fore 0} ("v3" c(450) sc(200) g(med_art)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(4) cw(0) cp(35) t(all_nz inf_irg infantry ) c1(2c1_rus) n(1) n1(tankman:3)   ) }
  {"d30serb" {fore 0.75} ("vart" c(600) sc(170) g(art)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(5) cw(5) cp(15) t(all_nz art support_frontline  )   c1(t34-85_ser) c2(giatsint_b) n1(tankman:4) n2(vehicle_supporter:2)          ) }
-
  {"2c3_akaciyarus" {fore 0} ("v3" c(800) sc(220) g(med_art)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(44) cw(0) cp(45) t(all_nz inf_irg infantry ) c1(2c3_akaciya) n(1) n1(tankman:4)   ) }
-
- 
+ {"mtlb_c5_vasilek" {fore 1} ("v" c(250) sc(125) g(mtlbvasilek) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(512) cw(0) cp(20) t(all_nz   ) n(4)               ) }
+ {"t-55_rus" {fore 0} ("v3" c(300) sc(100) g(art_heavy2)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(2) cw(0) cp(25) t(all_nz inf_irg infantry ) c1(t-55_rus) n(1) n1(tankman:4)   ) }
+ {"ural_grad_ser" {fore 0} ("v3" c(600) sc(200) g(art_heavy)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)   i(3) cw(0) cp(50) t(all_nz inf_irg infantry ) c1(ural_grad) n(1) n1(vehicle_supporter:2)   ) }
+ {"mtlb_vmk_ogon" {fore 1} ("v" c(1000) sc(169) g(mtlbogn)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(1) cw(0) cp(20) t(all_nz   ) n(3)               ) }
  {"2c23" {fore 0} ("v" c(540) sc(170) g(nonasvk) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(15) cw(0) cp(20) t(all_nz art   ) n(2)               ) }
  {"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
- {"mt12_with_mtlb" {fore 1} ("v" c(300) sc(100) g(pizdec_kakoyto) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(8) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
 
 ;==================Иностранные челиксы ====
  {"chekan" {fore 1} ("v3" c(750) sc(170) g(pmc)  b(srbs_pmc_hqcar) brig(srbs_pmc) s(srbsk)  i(1) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(chekan) n(1) n1(ruchich_smg:2) n2(ruchich_com:1) n3(ruchich_mg:1) n4(ruchich_rpg:1) n5(ruchich_saper:2) n6(ruchich_smg:1) n7(ruchich_smg2:1) n8(ruchich_sniper:1) ) }	

@@ -36,7 +36,10 @@
 
 {"t72a_1984year"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(100) b(supl) i(11) cw(0) cp(2))  {fore 1}}
 {"t-64b"		("v" c(150) brig(common) t(all_nz nobot ) s(odkb) n(0) g(reserv)  sc(110) b(supl) i(12) cw(0) cp(2))  {fore 1}}
-{"t72b1"		("v" c(150) brig(common) t(all_nz  nobot) s(odkb) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}		
+{"t72b1"		("v" c(150) brig(common) t(all_nz  nobot) s(odkb) n(0) g(reserv)  sc(120) b(supl) i(13) cw(0) cp(2))  {fore 1}}	
+
+
+{"uaz469_spg9" {fore 1} ("vs" c(140) sc(69) g(reserv_6) b(supl) brig(common) s(odkb)  i(666) cw(5) cp(5) t(all_nz    ) n(4)               ) }	
 ;=========авиация============= avia_odkb avia_odkb_hqcar
  {"mi-24vm" {fore 0.3} ("p" c(600) sc(360) g(heli) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"mig-29s_aa_r77" {fore 0.3} ("p" c(800) sc(360) g(airrvv) b(avia_odkb_hqcar) brig(avia_odkb) s(odkb)  i(2) cw(0) cp(50) t(all_nz aircraft support_frontline  ) n(1)               ) }
