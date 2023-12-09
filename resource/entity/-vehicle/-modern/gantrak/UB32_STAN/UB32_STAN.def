@@ -16,7 +16,7 @@
 	}
 
 	{Weaponry
-		{place "mgun_rot"
+		{place "mgun"
 			{weapon "57mm_uv_32_57_shd" filling "C5 cm ammo" 32}
 			{foresight "foresight3"}
 			{gunner "gunner"}

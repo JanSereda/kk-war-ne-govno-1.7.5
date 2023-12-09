@@ -58,13 +58,13 @@
 		{box
 			{Size 7 7}
 			{weight 1100}
-				{item "ammo C5 fg" 32}
+				
 			)
 		}	
 	}	
 	{Weaponry
 		{place "gun"
-			{weapon "57mm_uv_32_57_shd" filling "C5 cm ammo" 32}
+			{weapon "57mm_uv_32_57_shd" filling "C5 fg ammo" 32}
 			{foresight "foresight1"}
 			{gunner "gunner"}
 			{Barrels 32}

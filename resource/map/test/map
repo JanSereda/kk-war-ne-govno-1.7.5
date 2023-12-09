@@ -201,7 +201,7 @@
 	}
 	{Human "mp2/frg/frg_rpg2" 0x5804
 		{Position 37.42 -2150.19}
-		{xform zl 67.45 y 10.43 zw 16.59}
+		{xform zl 68.12 y 10.43 zw 16.59}
 		{Extender "vitality"
 			{Dead}
 			{Health
@@ -10197,6 +10197,7 @@
 	}
 	{Entity "9k33_osa_akm" 0x4001
 		{Position -2651.36 1626.83 300}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 845}
 			{digit_folder "cdf"}
@@ -10293,6 +10294,7 @@
 	{Entity "su-25sm_miner" 0x6011
 		{Position -942.36 2390.22}
 		{xform zl 154.91 y 19.72 zw -156.27}
+		{SpawnedInFog}
 		{Volume "steering_eler_l"
 			{able {contact 0}{contact_ground 0}}
 		}
@@ -10378,8 +10380,8 @@
 		}
 	}
 	{Human "single/est/est_com" 0x6013
-		{Position -888.01 2425.49}
-		{xform zl 152.93 y 20.07 zw -154.16}
+		{Position -889.82 2430.68}
+		{xform zl 150.99 y 20.45 zw -152.09}
 		{Player 0}
 		{MID 10010}
 		{NameId 0 1}
@@ -10411,8 +10413,18 @@
 	{Human "mp2/rus/flamer2" 0x7000
 		{Position 2511.58 1022.88}
 		{xform zl -106.41}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10022}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.999893}
+					{prevposition 2501.97 1019.08 327.883}
+					{prevdirection -0.82075 0.0361066 0.570146}
+				}
+			}
+		}
 		{NameId 19 92}
 		{FsmState "stand"}
 	}
@@ -10468,6 +10480,7 @@
 	{Human "mp2/rus/flamer2" 0x6800
 		{Position 2497.61 1018.98}
 		{xform zl -114.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10026}
 		{NameId 14 107}
@@ -10503,6 +10516,7 @@
 	{Entity "su-25sm_miner" 0x1807
 		{Position -2468.53 -457.3}
 		{xform zl 165.22 y 0.1 zw -165.22}
+		{SpawnedInFog}
 		{Volume "steering_eler_l"
 			{able {contact 0}{contact_ground 0}}
 		}
@@ -10701,17 +10715,9 @@
 	{Human "single/geo/geo_smg" 0x3007
 		{Position 3821.56 4746.12}
 		{xform zl 90}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10048}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.902167}
-					{prevposition 3831.4 4757.29 314.804}
-					{prevdirection 0.717118 0.39455 -0.574519}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3009
@@ -10722,14 +10728,15 @@
 	{Human "single/geo/geo_smg" 0x300a
 		{Position 3748.41 4821.78}
 		{xform zl 159.34}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10049}
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.967112}
-					{prevposition 3737.95 4831.32 312.669}
-					{prevdirection -0.290528 0.575184 -0.764694}
+					{value 0.904617}
+					{prevposition 3741.03 4834.99 315.819}
+					{prevdirection -0.139208 0.865099 -0.481898}
 				}
 			}
 		}
@@ -10743,17 +10750,9 @@
 	{Human "single/geo/geo_smg" 0x300d
 		{Position 3778.03 4821.28}
 		{xform zl 97.51}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10050}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.967195}
-					{prevposition 3781.57 4835.01 312.707}
-					{prevdirection 0.375235 0.528855 -0.761256}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x300f
@@ -10764,17 +10763,9 @@
 	{Human "single/geo/geo_smg" 0x3010
 		{Position 3849.76 4727.25}
 		{xform zl 147.84}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10051}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.92608}
-					{prevposition 3838.61 4724.08 313.793}
-					{prevdirection -0.922963 0.223009 -0.313697}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3012
@@ -10785,8 +10776,18 @@
 	{Human "single/geo/geo_smg" 0x3013
 		{Position 3818.75 4699.33}
 		{xform zl 166.4}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10052}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.887088}
+					{prevposition 3809.85 4711.81 317.231}
+					{prevdirection -0.240288 0.901756 -0.359301}
+				}
+			}
+		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3015
@@ -10797,6 +10798,7 @@
 	{Human "single/geo/geo_smg" 0x3016
 		{Position 3782.74 4778.3}
 		{xform zl 135}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10053}
 		{FsmState "stand"}
@@ -10809,14 +10811,15 @@
 	{Human "single/geo/geo_smg" 0x3019
 		{Position 3762.67 4813.4}
 		{xform zl 148.78}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10054}
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.857621}
-					{prevposition 3749.92 4819.91 315.886}
-					{prevdirection -0.634878 0.746895 -0.197683}
+					{value 0.840636}
+					{prevposition 3755.27 4825.21 312.9}
+					{prevdirection -0.153317 0.654683 -0.740193}
 				}
 			}
 		}
@@ -10830,14 +10833,15 @@
 	{Human "single/geo/geo_smg" 0x301c
 		{Position 3830.56 4729.82}
 		{xform zl 135}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10055}
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.998875}
-					{prevposition 3831.17 4740 327.399}
-					{prevdirection 0.433808 0.711406 0.552914}
+					{value 0.840687}
+					{prevposition 3826.19 4743.06 312.9}
+					{prevdirection 0.00703743 0.672359 -0.740193}
 				}
 			}
 		}
@@ -10851,14 +10855,15 @@
 	{Human "single/geo/geo_smg" 0x301f
 		{Position 3764.11 4828.47}
 		{xform zl 133.9}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10056}
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.832456}
-					{prevposition 3760.18 4841.88 312.959}
-					{prevdirection 0.0249333 0.674366 -0.737977}
+					{value 0.900204}
+					{prevposition 3764.68 4841.27 325.195}
+					{prevdirection 0.430008 0.838126 0.335615}
 				}
 			}
 		}
@@ -10872,14 +10877,15 @@
 	{Human "single/geo/geo_smg" 0x3022
 		{Position 3853.25 4692.59}
 		{xform zl -1.4}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10057}
 		{Weaponry
 			{State
 				{AccuracyByMotion
-					{value 0.997547}
-					{prevposition 3866.3 4686.97 312.431}
-					{prevdirection 0.459844 -0.414648 -0.785246}
+					{value 0.888607}
+					{prevposition 3864.59 4682.36 316.845}
+					{prevdirection 0.425296 -0.816332 -0.390801}
 				}
 			}
 		}
@@ -10893,17 +10899,9 @@
 	{Human "single/geo/geo_smg" 0x3025
 		{Position 3926.77 4727.31}
 		{xform zl -141.64}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10058}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.999542}
-					{prevposition 3913.41 4722.97 312.449}
-					{prevdirection -0.61957 0.0239928 -0.784575}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3027
@@ -10914,17 +10912,9 @@
 	{Human "single/geo/geo_smg" 0x3028
 		{Position 3893.68 4774.72}
 		{xform zl -113}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10059}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.956671}
-					{prevposition 3880.21 4768.85 321.781}
-					{prevdirection -0.999657 -0.0143964 0.0219009}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x302a
@@ -10935,17 +10925,9 @@
 	{Human "single/geo/geo_smg" 0x302b
 		{Position 3905.79 4632.56}
 		{xform zl -172.35}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10060}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.999865}
-					{prevposition 3898.2 4638.91 327.642}
-					{prevdirection -0.300989 0.763109 0.571901}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x302d
@@ -10956,17 +10938,9 @@
 	{Human "single/geo/geo_smg" 0x302e
 		{Position 3915.24 4733.62}
 		{xform zl -148.65}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10061}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.963836}
-					{prevposition 3900.61 4732.65 313.81}
-					{prevdirection -0.709593 0.235506 -0.664089}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3030
@@ -10977,17 +10951,9 @@
 	{Human "single/geo/geo_smg" 0x3031
 		{Position 4175.41 4639.91}
 		{xform zl 45}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10062}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.959232}
-					{prevposition 4190.99 4641.14 318.843}
-					{prevdirection 0.929456 -0.285828 -0.233267}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3033
@@ -10998,17 +10964,9 @@
 	{Human "single/geo/geo_smg" 0x3034
 		{Position 3884.91 4786.24}
 		{xform zl -106.2}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10063}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.8}
-					{prevposition 3880.76 4774.71 321.115}
-					{prevdirection -0.69319 -0.689019 0.211524}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3036
@@ -11019,17 +10977,9 @@
 	{Human "single/geo/geo_smg" 0x3037
 		{Position 3869.59 4776.74}
 		{xform zl 152.95}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10064}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.975247}
-					{prevposition 3856.85 4780.31 315.181}
-					{prevdirection -0.750836 0.61888 -0.230719}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3039
@@ -11040,8 +10990,18 @@
 	{Human "single/geo/geo_smg" 0x303a
 		{Position 3914.14 4763.84}
 		{xform zl 135}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10065}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.899572}
+					{prevposition 3914.45 4776.75 325.073}
+					{prevdirection 0.412675 0.851142 0.324435}
+				}
+			}
+		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x303c
@@ -11052,6 +11012,7 @@
 	{Human "single/geo/geo_smg" 0x303d
 		{Position 3888.32 4707.96}
 		{xform zl 135}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10066}
 		{FsmState "stand"}
@@ -11064,6 +11025,7 @@
 	{Human "single/geo/geo_smg" 0x3040
 		{Position 3900.05 4762.6}
 		{xform zl -71.03}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10067}
 		{FsmState "stand"}
@@ -11076,17 +11038,9 @@
 	{Human "single/geo/geo_smg" 0x3043
 		{Position 3908.74 4721.55}
 		{xform zl 135}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10068}
-		{Weaponry
-			{State
-				{AccuracyByMotion
-					{value 0.978175}
-					{prevposition 3897.96 4719.28 313.251}
-					{prevdirection -0.873834 0.326458 -0.360332}
-				}
-			}
-		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3045
@@ -11097,8 +11051,18 @@
 	{Human "single/geo/geo_smg" 0x3046
 		{Position 3912.21 4748.93}
 		{xform zl -79.08}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 10069}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.891015}
+					{prevposition 3904.32 4735.8 319.866}
+					{prevdirection -0.797205 -0.588269 -0.135659}
+				}
+			}
+		}
 		{FsmState "stand"}
 	}
 	{Entity "m16a1" 0x3048
@@ -11127,6 +11091,7 @@
 	{Entity "bmp1_new" 0x5012
 		{Position 3571.42 4148.65}
 		{xform zl 131.22}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 882}
 		}
@@ -11179,6 +11144,7 @@
 	{Entity "btr80_2_new" 0x5014
 		{Position 3782.48 4415.18}
 		{xform zl -58.47 zw 12.45}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 902}
 		}
@@ -11667,6 +11633,7 @@
 	{Entity "1s91_kub_radar" 0x7001
 		{Position 2303.38 974.99}
 		{xform zl -169.28}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 445}
 		}
@@ -11727,6 +11694,7 @@
 	{Entity "2k12_kub" 0x5016
 		{Position 2258.21 1101.38 299.21}
 		{xform zl -173.28 y 0.77 zw -176.94}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 477}
 		}
@@ -11779,7 +11747,7 @@
 	{Entity "toyota_hilux_tow" 0x6009
 		{Position -4045.03 1906.45}
 		{xform zl -81.21 y 0.1 zw 155.31}
-		{TexMod "2"}
+		{TexMod "un"}
 		{Extender "enumerator"
 			{number 964}
 		}
@@ -12037,7 +12005,7 @@
 		}
 	}
 	{Human "mp2/frg/frg2_mgun" 0x400f
-		{Position -4120.19 1372.53}
+		{Position -4120.18 1372.54}
 		{xform zl -81.23 y 0.1 zw 172.71}
 		{Player 1}
 		{MID 10112}
@@ -12214,14 +12182,14 @@
 		}
 	}
 	{Human "single/geo/geo_smg" 0x6020
-		{Position -4107.22 1372.64}
+		{Position -4107.22 1372.65}
 		{xform zl -81.23 y 0.1 zw 172.71}
 		{Player 1}
 		{MID 10100}
 		{LastItem "m16a1"}
 	}
 	{Human "mp2/frg/frg2_mgun" 0x6021
-		{Position -3961.18 1386.6}
+		{Position -3961.18 1386.61}
 		{xform zl -178.52}
 		{Player 1}
 		{MID 10104}
@@ -12242,31 +12210,19 @@
 		}
 	}
 	{Human "single/geo/geo_smg" 0x6026
-		{Position -3962.99 1367.24}
+		{Position -3963 1367.25}
 		{xform zl 91.48}
 		{Player 1}
 		{MID 10107}
 		{LastItem "m16a1"}
 	}
 	{Human "mp2/frg/frg2_mgun" 0x6027
-		{Position -4105.66 1333.3}
-		{xform zl -47.22 y 3.54 zw 140}
+		{Position -4105.65 1333.21}
+		{xform zl -43.18 y 3.78 zw 135.98}
 		{Player 1}
 		{MID 10108}
 		{NameId 132 39}
 		{LastItem "h&k_mg5a1_zeiss_zo_4x30i"}
-	}
-	{Entity "radar_minimap" 0x4006
-		{Position -2651.36 1626.83 306.22}
-		{DisableObstacles}
-		{Player 1}
-		{MID 10111}
-	}
-	{Entity "radar_minimap" 0x400d
-		{Position 2303.38 974.99 306.22}
-		{DisableObstacles}
-		{Player 0}
-		{MID 10115}
 	}
 	{Entity "toyota_hilux_t69" 0x2087
 		{Position -4114.54 1384.95}
@@ -12318,6 +12274,66 @@
 		}
 		{Component "usa_radpassive"
 			{State broken}
+		}
+	}
+	{Human "mp2/idf/idf_com" 0x6018
+		{Position -4104.41 1061.99}
+		{xform zl -69.84}
+		{Player 1}
+		{MID 10118}
+		{Weaponry
+			{State
+				{AccuracyByMotion
+					{value 0.972159}
+					{prevposition -4097.49 1049.25 329.644}
+					{prevdirection 0.166153 -0.984789 0.0508489}
+				}
+			}
+		}
+		{NameId 142 15}
+		{FsmState "stand"}
+	}
+	{Entity "tar21" 0x6024
+		{Extender "stuff"
+			{Item "tar21" filled}
+		}
+	}
+	{Human "mp2/idf/idf_com" 0x6028
+		{Position -4093.07 1072.72}
+		{Player 1}
+		{MID 10119}
+		{NameId 35 8}
+		{FsmState "stand"}
+	}
+	{Entity "tar21" 0x602a
+		{Extender "stuff"
+			{Item "tar21" filled}
+		}
+	}
+	{Human "mp2/idf/idf_com" 0x602b
+		{Position -4100.5 1084.53}
+		{xform zl 69.48}
+		{Player 1}
+		{MID 10120}
+		{NameId 24 50}
+		{FsmState "stand"}
+	}
+	{Entity "tar21" 0x602d
+		{Extender "stuff"
+			{Item "tar21" filled}
+		}
+	}
+	{Human "mp2/idf/idf_com" 0x602e
+		{Position -4083.08 1059.1}
+		{xform zl -55.46}
+		{Player 1}
+		{MID 10121}
+		{NameId 115 49}
+		{FsmState "stand"}
+	}
+	{Entity "tar21" 0x6030
+		{Extender "stuff"
+			{Item "tar21" filled}
 		}
 	}
 	{Link 0x16 {0x4 "station_corner9"}}
@@ -12389,16 +12405,16 @@
 	{Link 0x4420 {0x2082 "commander"}}
 	{Link 0x4411 {0x2082 "commander2"}}
 	{Link 0x2083 {0x2082 "cwps_proj_point"}}
-	{Link 0x6014 {0x600f "cwps_proj_point"}}
 	{Link 0x6021 {0x600f "driver"}}
-	{Link 0x6026 {0x600f "gunner"}}
 	{Link 0x601a {0x600f "commander"}}
+	{Link 0x6026 {0x600f "gunner"}}
 	{Link 0x400c {0x600f "charger"}}
-	{Link 0x2088 {0x2087 "cwps_proj_point"}}
+	{Link 0x6014 {0x600f "cwps_proj_point"}}
 	{Link 0x601b {0x2087 "commander"}}
 	{Link 0x400f {0x2087 "seat_p1"}}
 	{Link 0x6020 {0x2087 "seat_p2"}}
 	{Link 0x6027 {0x2087 "gunner"}}
+	{Link 0x2088 {0x2087 "cwps_proj_point"}}
 	{Inventory 0x5804
 		{box
 			{clear}
@@ -14208,6 +14224,118 @@
 			{item "dm51gr" "grenade" {cell 6 3}}
 			{item "dm51gr" "grenade" {cell 0 6}}
 			{item "opscore_ksk_com" {cell 1 6}{user "head"}}
+		}
+	}
+	{Inventory 0x6018
+		{box
+			{clear}
+			{item "idf_marom_dolphin" {cell 0 0}}
+			{item 0x6024 {cell 0 4}{user "hand_right"}}
+			{item "556nato" "ammo" 30 {cell 4 0}}
+			{item "556nato" "ammo" 30 {cell 5 0}}
+			{item "556nato" "ammo" 30 {cell 6 0}}
+			{item "556nato" "ammo" 30 {cell 4 1}}
+			{item "556nato" "ammo" 30 {cell 5 1}}
+			{item "556nato" "ammo" 30 {cell 6 1}}
+			{item "556nato" "ammo" 30 {cell 4 2}}
+			{item "556nato" "ammo" 30 {cell 5 2}}
+			{item "556nato" "ammo" 30 {cell 6 2}}
+			{item "556nato" "ammo" 30 {cell 4 3}}
+			{item "m61" "grenade" {cell 5 3}}
+			{item "m61" "grenade" {cell 6 3}}
+			{item "m61" "grenade" {cell 4 4}}
+			{item "m61" "grenade" {cell 5 4}}
+			{item "bandage" 5 {cell 4 5}}
+			{item "bandage" 5 {cell 0 6}}
+			{item "smoke" "grenade" {cell 2 6}}
+			{item "smoke" "grenade" {cell 4 6}}
+			{item "binocular" {cell 0 7}}
+			{item "sandbag_kit" {cell 6 4}}
+			{item "idf_or201_mitznefet" {cell 2 7}{user "head"}}
+		}
+	}
+	{Inventory 0x6028
+		{box
+			{clear}
+			{item "idf_marom_dolphin" {cell 0 0}}
+			{item 0x602a {cell 0 4}{user "hand_right"}}
+			{item "556nato" "ammo" 30 {cell 4 0}}
+			{item "556nato" "ammo" 30 {cell 5 0}}
+			{item "556nato" "ammo" 30 {cell 6 0}}
+			{item "556nato" "ammo" 30 {cell 4 1}}
+			{item "556nato" "ammo" 30 {cell 5 1}}
+			{item "556nato" "ammo" 30 {cell 6 1}}
+			{item "556nato" "ammo" 30 {cell 4 2}}
+			{item "556nato" "ammo" 30 {cell 5 2}}
+			{item "556nato" "ammo" 30 {cell 6 2}}
+			{item "556nato" "ammo" 30 {cell 4 3}}
+			{item "m61" "grenade" {cell 5 3}}
+			{item "m61" "grenade" {cell 6 3}}
+			{item "m61" "grenade" {cell 4 4}}
+			{item "m61" "grenade" {cell 5 4}}
+			{item "bandage" 5 {cell 4 5}}
+			{item "bandage" 5 {cell 0 6}}
+			{item "smoke" "grenade" {cell 2 6}}
+			{item "smoke" "grenade" {cell 4 6}}
+			{item "binocular" {cell 0 7}}
+			{item "sandbag_kit" {cell 6 4}}
+			{item "idf_or201_mitznefet" {cell 2 7}{user "head"}}
+		}
+	}
+	{Inventory 0x602b
+		{box
+			{clear}
+			{item "idf_marom_dolphin" {cell 0 0}}
+			{item 0x602d {cell 0 4}{user "hand_right"}}
+			{item "556nato" "ammo" 30 {cell 4 0}}
+			{item "556nato" "ammo" 30 {cell 5 0}}
+			{item "556nato" "ammo" 30 {cell 6 0}}
+			{item "556nato" "ammo" 30 {cell 4 1}}
+			{item "556nato" "ammo" 30 {cell 5 1}}
+			{item "556nato" "ammo" 30 {cell 6 1}}
+			{item "556nato" "ammo" 30 {cell 4 2}}
+			{item "556nato" "ammo" 30 {cell 5 2}}
+			{item "556nato" "ammo" 30 {cell 6 2}}
+			{item "556nato" "ammo" 30 {cell 4 3}}
+			{item "m61" "grenade" {cell 5 3}}
+			{item "m61" "grenade" {cell 6 3}}
+			{item "m61" "grenade" {cell 4 4}}
+			{item "m61" "grenade" {cell 5 4}}
+			{item "bandage" 5 {cell 4 5}}
+			{item "bandage" 5 {cell 0 6}}
+			{item "smoke" "grenade" {cell 2 6}}
+			{item "smoke" "grenade" {cell 4 6}}
+			{item "binocular" {cell 0 7}}
+			{item "sandbag_kit" {cell 6 4}}
+			{item "idf_or201_mitznefet" {cell 2 7}{user "head"}}
+		}
+	}
+	{Inventory 0x602e
+		{box
+			{clear}
+			{item "idf_marom_dolphin" {cell 0 0}}
+			{item 0x6030 {cell 0 4}{user "hand_right"}}
+			{item "556nato" "ammo" 30 {cell 4 0}}
+			{item "556nato" "ammo" 30 {cell 5 0}}
+			{item "556nato" "ammo" 30 {cell 6 0}}
+			{item "556nato" "ammo" 30 {cell 4 1}}
+			{item "556nato" "ammo" 30 {cell 5 1}}
+			{item "556nato" "ammo" 30 {cell 6 1}}
+			{item "556nato" "ammo" 30 {cell 4 2}}
+			{item "556nato" "ammo" 30 {cell 5 2}}
+			{item "556nato" "ammo" 30 {cell 6 2}}
+			{item "556nato" "ammo" 30 {cell 4 3}}
+			{item "m61" "grenade" {cell 5 3}}
+			{item "m61" "grenade" {cell 6 3}}
+			{item "m61" "grenade" {cell 4 4}}
+			{item "m61" "grenade" {cell 5 4}}
+			{item "bandage" 5 {cell 4 5}}
+			{item "bandage" 5 {cell 0 6}}
+			{item "smoke" "grenade" {cell 2 6}}
+			{item "smoke" "grenade" {cell 4 6}}
+			{item "binocular" {cell 0 7}}
+			{item "sandbag_kit" {cell 6 4}}
+			{item "idf_or201_mitznefet" {cell 2 7}{user "head"}}
 		}
 	}
 }
