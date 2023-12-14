@@ -7,7 +7,7 @@
 	{filling "ammo ls6" 2}
 	{fillingVisible "bombe_"}
 	{fireSound "reactive/bomb"}
-	{recoveryTime 0.3}
+	{recoveryTime 0.75}
 	{rechargeTime 160}
 	{range 430 440}
 	;{cursor "glonass"}
@@ -16,14 +16,12 @@
 	{cursorReloading "cannon_reload_fg"}
 	;{cursorReloading "cannon_reload_fg_timer_210"}
 	{automatic}
-;	{gravity 0.095}
-;	{speed 24}
-	{gravity 560}
-	{speed 2000}
-	{aimtype direct}
+	{gravity 300}
+	{speed 3000}
+	{aimtype adaptive}
 	;("accuracy_kab" kvo_meters(8))
 	("accuracy_kab" kvo_meters(4))
-	{Spreading 
-		{SpreadXYRatio	2}
-	}
+	;{Spreading 
+	;	{SpreadXYRatio	2}
+	;}
 }

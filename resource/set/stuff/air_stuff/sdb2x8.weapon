@@ -7,7 +7,7 @@
 	{filling "ammo sdb2" 8}
 	{fillingVisible "sdb2_"}
 	{fireSound "reactive/bomb"}
-	{recoveryTime 0.5}
+	{recoveryTime 0.75}
 	{rechargeTime 300}
 ;	{range 482 482}	;100км по стац цели
 ;	{range 455 455}	;70км по движ цели
@@ -19,12 +19,12 @@
 	{cursorReloading "cannon_reload_fg"}
 	;{cursorReloading "cannon_reload_fg_timer_210"}
 	{automatic}
-	{gravity 520}
-	{speed 2000}
-;	{aimtype adaptive}
+	{gravity 300}
+	{speed 3000}
+	{aimtype adaptive}
 ;	("accuracy_kab" kvo_meters(1.0))	;3 гсн - gps, ИК, РЛ, КВО 1м
 	("accuracy_kab" kvo_meters(0.01))	;разница между 1 и 0,01 по наз. целям мала, но при 1м не захватывает нормально технику.
-	{Spreading 
-		{SpreadXYRatio	2}
-	}
+	;{Spreading 
+	;	{SpreadXYRatio	2}
+	;}
 }

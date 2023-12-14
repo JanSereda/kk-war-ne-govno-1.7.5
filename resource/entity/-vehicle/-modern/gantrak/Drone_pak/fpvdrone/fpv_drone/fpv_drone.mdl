@@ -2,8 +2,8 @@
 ;Model created by: MOCKVu4
 ;Date: Tue Aug 22 23:44:47 2023
 ;File: D:\!Neu\model\!air\drone_rpg.max
-;Model create/rebuild by: MoCKBu4
-;Last build date: Sunday 21 October 2023 [01:01:34]
+;Model create/rebuild by: Makimka
+;Last build date: Friday 14 December 2023 [20:35:30]
 {Skeleton
     {Animation
         {Sequence "basis" {Speed 0.2}}
@@ -26,7 +26,7 @@
                 1	0	0
                 0	0.999999	-0.00126076
                 0	0.00126076	0.999999
-                0.0294383	0	3.20253
+                0.0294383	0.2	3.12253
             }
             {Bone "cwhs_ani1"
                 {Matrix34
@@ -37,9 +37,9 @@
                 }
                 {Bone "body"
                     {Matrix34
-                        0.999488	0	0.032
-                        -4.04096e-05	0.999999	0.00117751
-                        -0.032	-0.0011782	0.999487
+                        1.7325	0	0.0554683
+                        -5.69187e-05	1.40854	0.00165858
+                        -0.0443135	-0.00163157	1.38409
                         3.6004	-0.109392	4.75871
                     }
                     {VolumeView "body.ply"}

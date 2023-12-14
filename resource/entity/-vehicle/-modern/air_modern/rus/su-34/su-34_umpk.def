@@ -152,6 +152,6 @@
 		{speed 1}
         }
         {bone "gun_rot1" {limits -5 0}}
-        {bone "bomb_rot3" {limits -0 25}}
+        {bone "bomb_rot3" {limits -45 25}}
 
 }

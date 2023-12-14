@@ -1,0 +1,29 @@
+{bullet
+	{tag "submunition" "ic" "no_ricochet"}
+	{detonationThickness 1}
+	{inventory
+		{size 1 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+
+
+	{tag "size1"}
+	{entity "9m22s_submunition"}
+	{mass 0.033}
+	;Mg+Al, в центре пиросостав
+	{damage blastwave	 ; fragmentary
+		{energy 0.1}
+		{area 0 0}
+	}
+	{damage add fire
+		{radius 0.5}
+		{heating 8}
+		{time 5}
+	}
+	{damage add fire
+		{radius 1.5}
+		{heating 2}
+		{time 5}
+	}
+}

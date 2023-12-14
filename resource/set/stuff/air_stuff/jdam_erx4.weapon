@@ -14,10 +14,11 @@
 	{cursorReloading "cannon_reload_fg"}
 	;{cursorReloading "cannon_reload_fg_timer_210"}
 	{automatic}
-	{gravity 550}
-	{speed 2000}
+	{gravity 300}
+	{speed 3000}
+	{aimtype adaptive}
 	("accuracy_kab" kvo_meters(8))
-	{Spreading 
-		{SpreadXYRatio	2}
-	}
+	;{Spreading 
+	;	{SpreadXYRatio	2}
+	;}
 }

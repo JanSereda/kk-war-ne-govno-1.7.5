@@ -16,7 +16,7 @@
 		{item "smoke m18 grenade"}
 		{item "smoke m18 grenade"}
 		{item "556nato ammo" 240}
-		{item "hk416_aimpoint" filling "556nato ammo" 30}
+		{item "hk416a5_silenced" filling "556nato ammo" 30}
 		{item "m79" filling "40x46_natopg ammo cm" 1}
 		{item "40x46_natopg ammo cm" 6}
 		{item "40x46_natopg ammo fg" 6}

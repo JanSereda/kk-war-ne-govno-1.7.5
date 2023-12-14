@@ -7,12 +7,10 @@
 ;;{"gra_launch"} - подствольный гранатомёт
 ;;{check_grenade} - unknown  
 (define "human"
-       {"grenade_ap"}
 		{"visor_binocular" {ready_for_shot}}
         {"fg_shell"}
 		{"bomb"}
         {"nar"}
-		{"fg_pod"}
 		{"rpg_he"}
 		{"hesh_shell"}
 		{"kamikaze"}
@@ -20,7 +18,8 @@
 		{"hmgun"}
 		{"hrifle"}
 		{"bullet"}
-		
+		{"fg_pod"}
+		{"grenade_ap"}
 		{"cm_shell" {ready_for_shot}}
 		{"cluster_shell" {ready_for_shot}}
 		{"cm_pod" {ready_for_shot}}

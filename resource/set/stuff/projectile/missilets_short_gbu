@@ -7,7 +7,7 @@
 	{PrepareCursor "aimed_shot"}
 }
 {aimRange 500}
-{maxRange 100}
-{gravity 6}	;чтобы особо не пытались кабрировать
+{maxRange 75}
+{gravity 15}	;чтобы особо не пытались кабрировать
 {speed 310}
 }

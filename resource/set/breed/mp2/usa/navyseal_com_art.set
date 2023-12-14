@@ -14,7 +14,7 @@
 		{item "bandage" 5}
 		{item "smoke m18 grenade"}
 		{item "m67 grenade" 1}
-		{item "hk416_aimpoint" filling "556nato ammo" 30}
+		{item "hk416a5_silenced" filling "556nato ammo" 30}
 		{item "556nato ammo" 240}
 		{item "switchblade300_w" filled}
 		{item "switchblade300 ammo" 3}

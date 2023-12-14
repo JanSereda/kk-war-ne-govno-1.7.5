@@ -1,0 +1,107 @@
+{entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.0))
+	(include "/properties/selection/vehicle.inc"  scale(1.0))
+	{props "vehicle" "tank" "armored_car_M" "turret" "wheeled" "with_gun" "vision_lev03" "8_wheels" "remote_mgun" "vbci_common" "cw_panorama" "DUM" "4_barrels_smoke"}
+	{extension "crew.ext"}
+	{targetClass "armoredcar_DUM"}
+	("armor_btr" turret(5 5 5 5) body(39 14 1 34))
+	{armor
+		("aas_armor_component" volumes(front_wheels) thickness(20))	;противоминка по STANAG4
+	}
+	{extender "inventory"
+		{box
+			{item "ammo 50Nato" 1800}
+			{item "apilas weapon" 4 filling "heat_apilas ammo" 1}	
+		}
+	}
+	
+	{Weaponry
+		{place "mgun"
+			{weapon "browning_m2hb" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("CW_stab_abm" abm(0.92))	;данных по СУО КШМ нет. Предп. турель как у Stryker
+			("CW_stab_ld_suo")
+			{basic}
+			{foresight "foresight3"}
+		}
+		{place "mgun15"			
+			{type "mgun_left"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+			{barrels 4}
+			;{basic}
+		}
+		{place "mgun16"		
+			{type "mgun_right"}
+			{weapon "4xsmokegun_bredly" filling "smoke_shtora ammo" 4}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight22"}
+			{barrels 4}
+			;{basic}
+		}
+		{place "mgun17"			
+			{type "mgun_left"}
+			{weapon "3xsmokegun_m60" filling "smoke_shtora ammo" 3}
+			{gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight23"}
+			{barrels 3}
+			;{basic}
+		}
+		{place "mgun18"		
+			{type "mgun_right"}
+			{weapon "3xsmokegun_m60" filling "smoke_shtora ammo" 3}
+			{gunner "commander"}
+			{charger "commander"}
+			{foresight "foresight24"}
+			{barrels 3}
+			;{basic}
+		}	
+	}	
+	{sensor
+		{visor "gunner"
+			{vision "tank_gunner_optic_IR_3g"}
+			{bone "Visor1"}
+		}
+		{visor "add"
+			{vision "tank_main-l"}
+			{bone "visor3"}
+		}
+	}
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+	("wheel" args "wheelright4")
+	("wheel" args "wheelleft4")
+	
+	{mass 23300}
+
+	{Chassis
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlr") wheelr("wrr") bonel("FXtraceL4") boner("FXtraceR4"))
+		{Locomotion ("CW_wheels_moveparam" 
+			Mass(23.3)
+			Turnradius(5.0)
+			Power(550)
+			Realspeed(100)
+			Gamespeed(55) 
+			)
+			{RearGears		0.12 0.27}
+		}
+		("CW_fuelbag" Range(500) Fuelvolume(500))
+	}
+	{props "cwfs_fuel_500"}
+
+	("two_headlights")
+	{Extension "vbci_vpc.mdl"}
+	("missile_aimpoint_trucksize")
+	("cwts_buksir")
+}

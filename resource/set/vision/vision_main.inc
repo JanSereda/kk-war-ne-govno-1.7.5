@@ -619,10 +619,10 @@
     ("vision_antimissile")
 }
 {"harm_passive_radar"
-    ("radius" r(240))
+    ("radius" r(350))
     ("uncover" u(350))
-    ("h_fov" h(60))
-    ("v_fov" v(90))
+    ("h_fov" h(120))
+    ("v_fov" v(120))
     ("vision_antirad")
 }
 {"antiship_missile"

@@ -133,7 +133,7 @@
 		{limits -20 20}
        }
 		{bone "bomb1_rot"
-		{limits -0 20}
+		{limits -45 20}
        }		
 }
 
