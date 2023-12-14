@@ -27,7 +27,7 @@
 ("squad_with2types" name(bazookers2) f(1)  c(120) cost(25) g(rpg) b(common) brig(common) side(rus)     t(all_nz    ) info(bazookers2) c1(bazooker2:1) c2(bazooker2_help:1)             ) 
  {"2b11" {fore 1} ("vs" c(300) sc(125) g(stan1) b(common) brig(common) s(rus)  i(9) cw(1) cp(7) t(all_nz    ) n(2)               ) }
  {"zu23-2" {fore 1} ("vs" c(150) sc(50) g(zu23) b(common) brig(common) s(rus)  i(10) cw(1) cp(7) t(all_nz    ) n(2)               ) }
- {"metis_m" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(rus)  i(11) cw(1) cp(5) t(all_nz    ) n(1)               ) }
+ ;{"metis_m" {fore 1} ("vs" c(150) sc(35) g(ptursmall) b(common) brig(common) s(rus)  i(11) cw(1) cp(5) t(all_nz    ) n(1)               ) }
  {"ptur_konkurs" {fore 1} ("vs" c(250) sc(45) g(stan) b(common) brig(common) s(rus)  i(12) cw(1) cp(5) t(all_nz    ) n(2)               ) }
  {"kornet_base_stan" {fore 0.0} ("vs" c(560) sc(80) g(stan3) b(common) brig(common) s(rus)  i(13) cw(1) cp(15) t(all_nz    ) n(2)               ) }
  {"mt12_rapira" {fore 1} ("vart" c(300) sc(45) g(stan1)  b(common) brig(common) s(rus)  i(14) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) n1(vehicle_supporter:2) c1(mtlb_new) c2(mt12_rapira)            ) }                          

@@ -48,7 +48,9 @@
 	}
 	{inventory
 		{item "bandage" 10}
-		{item "fpv_drone"}
+		{item "fpv_drone" 3}
+		{item "fpv_drone120" 3}
+
 		{item "rq11_control"}
 		{item "akm" filling "762 ammo" 30}
 		{item "762 ammo" 100}

@@ -295,29 +295,3 @@
 	}	
 	}	
 
-;fpv drone
-
-
-{"fpv_drone"
-
-{on "specability"
-	{if chassis "wheel"		
-		{spawn "fpv_drone_ammo" "basis" x}
-		{delete}
-	}
-}
-
-{on "add_movement_sound" overload			
-{link_sound "engine_start"		"vehicle/airborne/small_UAV/small_UAV_start"	
-}			
-{link_sound "engine_work"		"vehicle/airborne/small_UAV/small_UAV_work"			
-}			
-{link_sound "engine_stop"		"vehicle/airborne/small_UAV/small_UAV_stop"			
-}	
-			
-}					
-}
-
-	
-{"fpv_drone_b_ammo"		{on "change"			{spawn "fpv_drone_ammo" "root" x}			{delete}		}	}	
-{"fpv_drone_ammo"		{on "onThrow"	             				{spawn "fpv_drone" "root" dir_velocity no_normal}				{delete}	    		}	}

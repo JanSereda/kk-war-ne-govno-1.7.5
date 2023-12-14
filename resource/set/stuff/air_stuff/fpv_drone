@@ -3,7 +3,7 @@
 	{tag "grenade"}
     {inventory
 		{weight 100}
-		{size 1 2}
+		{size 2 2}
 		{fsm "belt"}
 	}
 	{mass 4}

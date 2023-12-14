@@ -37,14 +37,88 @@
 	}
 	("9k72_sound")	  
 }
-
-{"uragan_new"
-	{on spawn
-		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke"}
-		{add_view	"exhaust_dark_small"	"exhaust"		"FXsmoke1"}
-	}
-	("9k72_sound")	  
+{"fpv_drone"		
+	{on "add_movement_sound" overload			
+		{link_sound "engine_start"		"vehicle/airborne/small_UAV/small_UAV_start"		}			
+		{link_sound "engine_work"		"vehicle/airborne/small_UAV/small_UAV_work"			}			
+		{link_sound "engine_stop"		"vehicle/airborne/small_UAV/small_UAV_stop"			}		
+	}		
+	{on "link_flare_fx" overload}		
+	{on "engine_on"			
+		{if not "engine_started"				
+			{set "engine_started" 1}				
+			{play_sound "engine_start"}				
+			{ani_play "engine_start" callback}			
+		}		
+	}		
+	{on animation_end "engine_start"			
+		{ani_play "engine_work" loop}			
+		{play_sound "engine_work" 1}		
+	}		                                                                           		                        		
+	("loitering_munition" missilename(fpv_drone))	
 }
+{"fpv_drone"
+
+	{on "specability"
+		{if chassis "wheel"		
+			{spawn "fpv_drone_ammo" "basis" x}
+			{delete}
+		}
+	}
+	{on "add_movement_sound" overload			
+	{link_sound "engine_start"		"vehicle/airborne/small_UAV/small_UAV_start"}			
+	{link_sound "engine_work"		"vehicle/airborne/small_UAV/small_UAV_work"}			
+	{link_sound "engine_stop"		"vehicle/airborne/small_UAV/small_UAV_stop"	}	
+				
+	}				
+}
+{"fpv_drone120"		
+	{on "add_movement_sound" overload			
+		{link_sound "engine_start"		"vehicle/airborne/small_UAV/small_UAV_start"		}			
+		{link_sound "engine_work"		"vehicle/airborne/small_UAV/small_UAV_work"			}			
+		{link_sound "engine_stop"		"vehicle/airborne/small_UAV/small_UAV_stop"			}		
+	}		
+	{on "link_flare_fx" overload}		
+	{on "engine_on"			
+		{if not "engine_started"				
+			{set "engine_started" 1}				
+			{play_sound "engine_start"}				
+			{ani_play "engine_start" callback}			
+		}		
+	}		
+	{on animation_end "engine_start"			
+		{ani_play "engine_work" loop}			
+		{play_sound "engine_work" 1}		
+	}		                                                                           		                        		
+	("loitering_munition" missilename(fpv_drone120))	
+}
+
+{"cvadropoter"
+
+{on "specability"
+	{if chassis "wheel"		
+		{spawn "cvadropoter_ammo" "basis" x}
+		{delete}
+	}
+}
+
+{on "add_movement_sound" overload			
+{link_sound "engine_start"		"vehicle/airborne/small_UAV/small_UAV_start"	
+}			
+{link_sound "engine_work"		"vehicle/airborne/small_UAV/small_UAV_work"			
+}			
+{link_sound "engine_stop"		"vehicle/airborne/small_UAV/small_UAV_stop"			
+}	
+			
+}					
+}
+
+{"fpv_drone_b_ammo"			{on "change"			{spawn "fpv_drone_ammo" "root" x}										{delete}		}	}	
+{"fpv_drone_ammo"			{on "onThrow"	        {spawn "fpv_drone" 		"root" dir_velocity no_normal}					{delete}	    }	}	
+{"fpv_drone120_b_ammo"		{on "change"			{spawn "fpv_drone120_ammo" "root" x}									{delete}		}	}	
+{"fpv_drone120_ammo"		{on "onThrow"	        {spawn "fpv_drone120" "root" dir_velocity no_normal}					{delete}	    }	}	
+{"cvadropoter_b_ammo"		{on "change"			{spawn "cvadropoter_ammo" "root" x}										{delete}		}	}	
+{"cvadropoter_ammo"			{on "onThrow"	        {spawn "cvadropoter" "root" dir_velocity no_normal} 					{delete}	    }	}
 
 {"maz_537g"
 	{on spawn

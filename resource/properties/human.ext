@@ -1,0 +1,218 @@
+;SDL
+human
+
+;		; если сделать {Slow xx yy}, то будет останавливаться после того, 
+;		; как energy станет меньше xx, и сможет ходить только когда 
+;		; energy станет больше yy
+{extender "vitality"
+	{Health
+		{max		100}	; max health
+		{current	100}	; current health
+		{inc		0.1}	; health regeneration per second
+	}
+	{Stamina
+		{max		200}	; max stamina
+		{current	200}	; current stamina
+		{inc				; stamina regeneration/usage per second (depending on movement mode and load)		
+			; movement_mode		0-30kg		30-50kg		50-70kg		more 70 kg
+			;------------------------------------------------------------------------
+            {stay                +15           +10        +7          0}
+            {walk                +15           +7         +2          0}
+            {slow                +10           +5         +0.1        0}
+            {normal              +2.5          +0.1       +0.1        0}
+            {fast                -10           -16        -24       -40}
+		}
+		{load		0		30		70		120}	; equipment weight (in kg)
+		{movement_limits
+			{Fast		30		100}
+			{Normal		15		29}
+			{Slow		-1		5}
+		}
+	}
+}
+
+
+{extender "inventory"
+	{box
+		{Size 7 10}
+		{Weight 100}
+	}
+	{hand_left}
+	{hand_right}
+	;{armor "mask"
+	;	;{mask "head"}
+	;	{bone "head"}
+	;;;	;{volumes "head"}
+	;	{pierceAbsorb 10}
+	;}
+	{armor "head"
+		{mask "head"}
+		{bone "head"}
+		{volumes "head"}
+		{pierceAbsorb 25}
+	}
+	{armor "body"
+		{mask "body"}
+		{volumes "body"} ;"foot1l" "foot1r" "foot2l" "foot2r"
+		{bone "IK_UpDown"}
+		{pierceAbsorb 400000000000}
+		{HeatDamping 0.6}
+	}
+
+}
+
+{extender "stuff"
+	{item "human"}
+}
+
+{Sensor
+	{Visor "eyes"
+		{vision "human"}
+		{bone "visor"}
+	}
+	{Visor "telescope"}
+	{AttackZone 60.5}
+		{RecognizeTime 0.5}
+		{InformRange 120 120}
+}
+
+{Chassis "foot"			  
+	;  speed S (km/h) animation A (km/h) rotation (degree/s)
+	;  animation speed = movement speed / A * animation scale 
+	{Crawl           
+		{Slow		4  	5  100 }
+		{Normal		5   5  200 }
+		{Fast		7   5  200 }
+	}                     
+	{Swim                 
+		{Slow		2   5  200 }
+		{Normal		3   5  200 }
+		{Fast		5   5  200 }
+	}                     
+	{Run                  
+		{Sneak		5	2  	200 }   ; x 0.85
+		{Spot 		6  	2  	200 }   ; x 0.5
+		{Walk 		6  1.8 	200 }   ; x 0.48
+		{Slow		8  	7	400 }   ; x 1
+		{Normal	   14   7  	400 }   ; x 0.55
+		{Fast	   25   7  	400 }   ; x 0.33
+		{Bow   	   18.5 7  	400 }   ; x 0.55
+	}
+;)
+	{Strafe
+		; 			m  m+v  km/h  speed	animation up 					animation down					; m+v = mask + value for strafe counter
+		{Forth		3  2 0	6.5   3		"walk_spot_gun_up_1"		  "walk_spot_gun_down_1"}			; 6.5 km/h move 2 km/h animation 0.37 scale --> in Run
+		{Forth		3  2 1	11.0  1 	"run_spot_gun_up" 			  "run_spot_gun_down"}    		  	
+		{Forth		8  0 0	13.2  1.2	"run_spot_gun_up" 			  "run_spot_gun_down"}				
+		{Left		4  0 0	10.5  1.22	"run_spot_back-strafe_gun_up" "run_spot_back-strafe_gun_down"}	
+		{Right		8  0 0	13.0  1.1	"run_spot_left-strafe_gun_up" "run_spot_left-strafe_gun_down"}	
+		{Back		8  0 0	10.5  1.22	"run_back_spot_gun_up" 		  "run_back_spot_gun_down"}			
+	}
+	{Injured 0.50}
+}
+
+{volume "body"	;for melee - melee works only if body is availible for shooting
+	{thickness 1.5}{tags "body_c"}
+}
+{volume "body1"	;old body
+	{thickness 1.5}{tags "body" "body_c"}
+}
+{volume "crit"
+	{thickness 0.5}{tags "body_c"}
+	{able {contact 1} {Visible 0}}
+}
+{volume "head"
+	{thickness 1.0}{tags "body_c"}
+}
+{volume "foot1r"
+	{thickness 1.5}{tags "body_c"}
+	{able {nolook 1} {Visible 0}}
+}
+{volume "foot2r"
+	{thickness 1.5}{tags "body_c"}
+	{able {nolook 1}}
+}
+{volume "foot1l"
+	{thickness 1.5}{tags "body_c"}
+	{able {nolook 1} {Visible 0}}
+}
+{volume "foot2l"
+	{thickness 1.5}{tags "body_c"}
+	{able {nolook 1}}
+}
+
+{extension "human_fsm.ext"}
+
+{mass 70}
+{obstacleID "human"}
+{PatherID	"human"}
+{collider   "human"}
+
+{simulation {able 1} {state 0}}
+{simulatorId "human"}
+;{simulatorId "particle_system"}
+
+{able "crew" "fight" "minimap"}
+{props "flesh" "human" "nocover" "collectable" "unit"}
+{targetClass 	"human"}
+{targetSelector "human"}
+
+(include "shadow/human.inc")
+
+{brain "human"
+	{const "bomb/detect_boom" 		2}
+	{const "bomb/danger_zone" 		7}
+	{const "fight/distance"			1.5}
+	
+	{const "bomb/detect_explosives" 7}		;detect explosives inside 7 meter radius
+	{const "bomb/detect_grenades" 	5}		;detect grenades inside 5 meter radius
+	{const "bomb/danger_zone_run" 	3}		;run away if danger is inside 0 - 3 meter radius
+	{const "bomb/danger_zone_jump" 	4}		;jump away if danger is inside 3 - 4 meter radius
+	{const "bomb/danger_zone_hide" 	6}		;hide if danger is inside 4 - 6 meter radius
+;from CtA
+;	{const "bomb/danger_zone" 		4}	;hide if danger is more than 5 meters away, otherwise run away
+;	{const "weapon/change_time"		20}	;disable ai weapon switch for 20 seconds
+    {Properties
+	    {ai_move
+			{mode enable}
+		}
+		{advance_ratio 1}
+		{retreat_ratio 3}
+	}
+}
+
+(define "accuracy_by_motion" ;  spreading depending on the speed of "body", "gun" volumes
+	{AccuracyByMotion
+        {MaxLinearSpeed %max_linear}               ;km/h
+        {ByLinearSpeed %accuracy_by_linear}
+        {MaxAngularSpeed %max_angular}             ;deg/s
+        {ByAngularSpeed %accuracy_by_angular}
+        {DisorderTime %disorder_time}              ;s
+        {OrderTime %order_time}                    ;s
+    }
+)
+
+{Weaponry
+	{place "hand_right"
+		{Rotate}
+		{SequentialAim 0}
+		{LinkBone "right_hand"}
+		{LinkAnimation "on"}
+		("accuracy_by_motion"
+			max_linear(10.00) accuracy_by_linear(0.75)
+			max_angular(15.00) accuracy_by_angular(0.80)
+			disorder_time(0.50) order_time(0.50)
+		)
+	}
+	
+
+;	(mod not "mp"
+;		{ManualAccuracy 1.5}
+;	)
+}
+
+{extender "talk"
+	{talker "human"}
+}
+
+{lodclass "human"}
