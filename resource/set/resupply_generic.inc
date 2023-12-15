@@ -118,6 +118,11 @@
 	
 	{item "pkm_ammo ammo" 100 		{max 600}	{value 4}}
 )
+(define "fpv"
+	{item "fpv_drone" 1 {max 2}{value 20}}
+	{item "fpv_drone120" 1 {max 2}{value 20}}
+
+)
 (define "smallarms_usa"
 	{item "nato_pg cm ammo" 1 {max 8}{value 1}}
 ;	{item "40x46_natopg fg ammo" 1 {max 4}{value 1}}
@@ -1559,6 +1564,7 @@
 	{extender "supply_zone"
 		{resupply
 			("smallarms_rus")
+			("fpv")
 			("hmgun_rus")
 			("ags30")
 			("mortar_rus")
@@ -1602,6 +1608,7 @@
 	{extender "supply_zone"
 		{resupply
 			("smallarms_rus")
+			("fpv")
 			("hmgun_rus")
 			("ags30")
 			("mortar_rus")

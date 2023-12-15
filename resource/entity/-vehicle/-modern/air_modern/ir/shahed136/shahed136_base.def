@@ -9,7 +9,7 @@
 	{Extension "shahed136.mdl"}
 		("missile_aimpoint_custom" height(0) front(0) side(0))
 	{collider "particle.big"}
-	{targetClass 	"medium_UAV"}
+	{targetClass 	"small_UAV_kamikaze"}
 	{targetSelector "cannon_bullet"}
 	{mass 200}
 	{armor

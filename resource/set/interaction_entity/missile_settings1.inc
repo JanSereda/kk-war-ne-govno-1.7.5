@@ -219,6 +219,9 @@
 	("spawn_proj_1" country(rus) type(active) weapon_tag(9m317_target) decoytype(chaff) decoyprob(0.15) min_alt(15))
 	else stuff "9m33 ammo"			
 	("spawn_proj_1" country(rus) type(active) weapon_tag(9m33_target) decoytype(chaff) decoyprob(0.21) min_alt(15))
+	else stuff "fpv_drone_ammo ammo"				
+	("spawn_proj_5" country(srbsk) type(other) weapon_tag(fpv_drone_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))
+	
 	else stuff "patriot ammo"		
 	("spawn_proj_5" country(usa) type(active) weapon_tag(patriot_target) decoytype(chaff) decoyprob(0.14) min_alt(15))
 	else stuff "xmim-115avt1 ammo"	

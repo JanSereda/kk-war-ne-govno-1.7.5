@@ -10,7 +10,7 @@
 	{Extension "lancet3m_cm.mdl"}
 		("missile_aimpoint_custom" height(0) front(0) side(0))
 	{collider "particle.big"}
-	{targetClass 	"medium_UAV_kamikaze"}
+	{targetClass 	"small_UAV_kamikaze"}
 	{targetSelector "cannon_bullet"}
 	{mass 13}
 	{armor

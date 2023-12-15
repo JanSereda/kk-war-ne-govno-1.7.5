@@ -53,9 +53,9 @@
 		{item "556nato ammo" 200}
 		{item "rq11_control"}
 		
-		{item "tarzan"}
-	
-		{item "fpv_drone" 4}
+		{item "fpv_drone" 3}
+		{item "fpv_drone120" 3}
+
 		{in_hands 3}
 	}
 }
