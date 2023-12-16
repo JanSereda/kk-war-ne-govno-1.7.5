@@ -39,7 +39,7 @@
 {"mk19"            ("vs" c(400) brig(common) t(all_nz nobot) s(usa) n(2) g(stan2) sc(130) b(common) i(5) cw(10) cp(15))  {fore 1}}
 {"m252"            ("vs" c(600) brig(common) t(all_nz nobot) s(usa) n(2) g(stan2) sc(120) b(common) i(6) cw(1) cp(15))  {fore 0}}
 {"m120"            ("vs" c(600) brig(common) t(all_nz nobot) s(usa) n(3) g(stan2) sc(160) b(common) i(7) cw(1) cp(15))  {fore 0}}
-{"mtvr_m2"		("v3" c(480) c1(mtvr_m2)brig(common) t(all_nz inf_usa infantry) s(usa) n(3) n1(vehicle_supporter:1) n2(vehicle_supporter:1) n3(vehicle_supporter:1) g(bmp_common)  sc(20) b(common) i(9) cw(10) cp(5))  {fore 1}}
+
 ("squad_with11types" side(usa) name(smg) c(230) g(inf_common) 
   c1(smg_newcom:1) c2(smg_new:2) c3(smg_gren:2) c4(smg_mgun:2) c5(smg_bazooker:2)
   b(common) brig(common) t(all_nz infantry) cost(60) f(1) info(smg)
