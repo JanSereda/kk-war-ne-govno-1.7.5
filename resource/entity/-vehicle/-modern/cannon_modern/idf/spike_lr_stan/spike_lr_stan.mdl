@@ -1,0 +1,226 @@
+;Exported by: Timosh
+;Date:        Thu Dec 14 14:28:08 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????????\Spike-LR\Spike LR final.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.3}}
+	}
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "driver1"
+			{Position -5.67004	3.78191	1.31322}
+		}
+		{bone "driver2"
+			{Position -2.22172	-5.30927	1.31322}
+		}
+		{bone "emit1"
+			{Position -17.5793	3.54801	1.31322}
+		}
+		{bone "support1"
+			{Position 3.65641	4.12381	1.31322}
+		}
+		{bone "support2"
+			{Position 4.36327	-4.9848	1.31322}
+		}
+		{bone "support3"
+			{Position -6.56595	0.153054	1.31322}
+		}
+		{bone "gunner"
+			{Position -10.1623	2.562	0.379387}
+		}
+		{bone "commander"
+			{Position -10.019	-14.2171	1.31321}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -1.22835	-0.587597	2.8349}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{limits -15 15}
+				{Position 1.52854	-0.0295289	7.73917}
+				{VolumeView "turret.ply"}
+				{bone "gun"
+					{parameters "ID=gun;"}
+					{Matrix34
+						0.996195	0	0.0871557
+						0	1	0
+						-0.0871557	0	0.996195
+						-4.47937	2.42913	-0.671922
+					}
+					{VolumeView "gun.ply"}
+					{bone revolute "gun_rot"
+						{limits -15 40}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							11.735	-2.41937	2.05509
+						}
+						{bone "foresight1"
+							{Matrix34
+								1	0	0
+								0	0	-1
+								0	1	0
+								0.230768	0	0
+							}
+						}
+					}
+					{bone "shooter00"
+						{Position 10.4046	-2.42566	2.05509}
+					}
+					{bone "tail"
+						{Matrix34
+							-0.984808	0	-0.173648
+							0	-1	0
+							-0.173648	0	0.984808
+							-12.9343	-2.08458	0.237283
+						}
+					}
+					{bone revolute "handle"
+						{Matrix34
+							0	-1	0
+							-0.0198319	0	-0.999803
+							0.999803	0	-0.0198319
+							-0.142057	-2.99027	-1.18275
+						}
+					}
+					{bone "visor1"
+						{Position 12.9332	1.92282	-0.327815}
+					}
+					{bone "rocket"
+						{Matrix34
+							0.996195	0	0.0871557
+							0	1	0
+							-0.0871557	0	0.996195
+							1.06567	-2.37946	0.981647
+						}
+						{VolumeView "rocket.ply"}
+					}
+				}
+			}
+			{bone "part1"
+				{parameters "ID=body;"}
+				{Matrix34
+					0	1	0
+					-1	0	0
+					0	0	1
+					0.43267	0	6.31752
+				}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part3"
+				{parameters "ID=body;"}
+				{Matrix34
+					0	0.939693	-0.34202
+					-1	0	0
+					0	0.34202	0.939693
+					1.60712	-0.544013	6.4026
+				}
+				{VolumeView "part3.ply"}
+			}
+			{bone "part2"
+				{parameters "ID=body;"}
+				{Matrix34
+					0	0.939693	0.34202
+					-1	0	0
+					0	-0.34202	0.939693
+					1.60712	0.500984	6.4026
+				}
+				{VolumeView "part2.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 1.35364	-0.204086	4.63947}
+}
+{Volume "gun"
+	{Polyhedron "gun.vol"}
+	{Bone "gun"}
+	{Matrix34
+		0	1	0
+		-0.996195	0	-0.0871557
+		-0.0871557	0	0.996195
+		-0.749586	-2.32896	-1.26776
+	}
+}
+{Volume "part1"
+	{Box 1.01312 1.79255 10.3723}
+	{Bone "part1"}
+	{Matrix34
+		0	-0.866025	-0.5
+		1	0	0
+		0	-0.5	0.866025
+		-0.060041	2.51355	-4.3762
+	}
+}
+{Volume "part2"
+	{Box 0.969326 0.928681 9.99515}
+	{Bone "part2"}
+	{Matrix34
+		0.116978	-0.939693	0.321394
+		0.992945	0.116978	-0.0193823
+		-0.0193825	0.321394	0.946747
+		0.229884	-2.01529	-5.09977
+	}
+}
+{Volume "part3"
+	{Box 0.984252 0.984252 9.90086}
+	{Bone "part3"}
+	{Matrix34
+		-0.123199	-0.932872	0.338485
+		0.992148	-0.123199	0.0215747
+		0.0215744	0.338486	0.940724
+		-0.122632	-1.97585	-5.18581
+	}
+}
+{Volume "select"
+	{Box 53.0697 44.3414 5.13035}
+	{Bone "body"}
+	{Position -1.0594	0.409634	-4.18286}
+}
+{Volume "turret1"
+	{Polyhedron "turret1.vol"}
+	{Bone "turret"}
+	{Matrix34
+		0.984808	0	0.173648
+		0	1	0
+		-0.173648	0	0.984808
+		5.1621	4.47753	-4.21646
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position -0.371867	-0.0596234	-2.00685}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 29.1748	-66.9948	23.0951}
+			{lookat 5.85919	-13.0992	8.88808}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -2.75436	-15.0223	16.298}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	0.263804	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position -1.08656	-16.4255	16.2257}
+			}
+		}
+	}
+}

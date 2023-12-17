@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/starstreak/star_base"}
+	{bump "$/model/starstreak/star_base_n"}
+	{specular "$/model/starstreak/star_base_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

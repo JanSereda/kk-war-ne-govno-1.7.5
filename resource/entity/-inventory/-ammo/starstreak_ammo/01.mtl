@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/starstreak/star_rocket"}
+	{blend none}
+}

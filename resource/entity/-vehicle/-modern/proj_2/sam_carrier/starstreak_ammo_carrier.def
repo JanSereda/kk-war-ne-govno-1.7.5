@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "sam_carrier_offset_far_forward.mdl"}
+	{props "need_lockon"}
+	("missile_placer" missile("starstreak_ammo_impactor") country(usa) type(laser_aa) calibre(130)
+	speed(fast) guidance(3pointsam))
+	("maneuvrability_SAMs_short_cwps3" deg_per_s(1))
+}

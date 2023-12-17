@@ -1,0 +1,30 @@
+{actor
+	(include "/properties/projectile.ext")
+	{Extension "atgm_carrier_forward.mdl"}
+	{props "tandem"}
+	("missile_placer" missile("switchblade600_impactor_link") country(usa) type(other) calibre(600)
+	speed(slow) guidance(prop))
+	("maneuvrability_cwps3" deg_per_s(60))
+	;неизвестна даже приблизительно. Должна быть достаточна для поражения быстродвижущихся автомобилей с невыгодных углов.
+	{sensor
+		{Visor "add"
+			{vision "aircraft_optic_2g"}
+			{bone "missle_foresight"}
+		}
+	}
+	("allow_manual_control")
+	("targetable_missile")
+	{targetClass 	"medium_UAV"}
+	{Volume "missile1"
+		{Cylinder (* 0.01 76) 80}
+		{Bone "missile_point"}
+		{Matrix34
+			0	0	-1
+			0	1	0
+			1	0	0
+			24.5	0	0
+		}
+	}
+	{Volume "missile1" {able clear {contact 1}}}
+
+}

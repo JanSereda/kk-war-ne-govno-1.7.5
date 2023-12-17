@@ -1,0 +1,12 @@
+{from "pattern proj_impactor"
+	{entity "starstreak_dart_impactor"}
+               {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "ap" "-rocketlauncher" "-low_speed" "fx_25_40"}
+	;масса б/ч  0,43 кг, ВВ - гексоген (т. э. 1,6, коэфициент 1,23) 0,09кг, 
+{damage blastwave {energy 0.7} {area 2.4 2.8}}
+{damage add blastwave {energy 1.2} {area 1.7 2}}
+{damage cumulative {damage 40} {distance 3}}	;ориентировочное пробитие кинетикой, кум воронки нет
+}

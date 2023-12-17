@@ -10,7 +10,7 @@
 
 
 (define "impulse_cruise_missile"	;поддержка подсветочного наведения, колеблющийся вперед-назад маркер наведения, средний таргеткласс
-	{props "vis_level_targetable_missile" "proj_impulse" "proj_impulse_cruise_missile"}
+	{props "vision_lev_UAV" "proj_impulse" "proj_impulse_cruise_missile"}
 	{targetClass "medium_UAV"}
 	{extension "/properties/animation/vehicle/proj_point_anm.ext"}
 	{component "antimissile_t"}

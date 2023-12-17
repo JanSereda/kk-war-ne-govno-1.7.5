@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{extension "starstreak_ammo.mdl"}
+	{props "projectile_impactor"}
+	{extender "stuff"
+		{item "starstreak_ammo_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+}

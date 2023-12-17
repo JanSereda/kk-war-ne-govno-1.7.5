@@ -1,0 +1,106 @@
+;Exported by: Timosh
+;Date:        Wed Dec 13 12:11:47 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????????\Starstreak\starstreak missile 2.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "starter"
+			{Position -8.94662	-0.000697236	0.00138745}
+			{VolumeView "starter.ply"}
+		}
+		{bone "starter2"
+			{VolumeView "starter2.ply"}
+			{bone "tail"
+				{Matrix34
+					-1	0	0
+					0	-0.997731	0.0673286
+					0	0.0673287	0.997731
+					-6.42826	0.00854977	-0.013969
+				}
+			}
+		}
+		{bone "spawner1"
+			{Matrix34
+				0.996195	0	0.0871557
+				0	1	0
+				-0.0871557	0	0.996195
+				11.9818	0.00855517	0.908699
+			}
+		}
+		{bone "spawner2"
+			{Matrix34
+				0.996195	0.0754794	-0.0435777
+				0	-0.5	-0.866026
+				-0.087156	0.86273	-0.498097
+				11.9818	0.803944	-0.472804
+			}
+		}
+		{bone "spawner3"
+			{Matrix34
+				0.996195	-0.0754787	-0.043578
+				0	-0.5	0.866025
+				-0.0871555	-0.86273	-0.498098
+				11.9818	-0.807246	-0.508123
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.9214 2.55657 2.55657}
+	{Bone "body"}
+	{Position 0.965604	-0.00428683	-0.0179408}
+}
+{Volume "part"
+	{Polyhedron "part.vol"}
+	{Bone "starter"}
+	{Matrix34
+		-1	0	0
+		0	-0.766044	-0.642788
+		0	-0.642788	0.766044
+		-0.350628	-0.566202	0.551436
+	}
+}
+{Volume "part1"
+	{Box 15.9251 1.90383 1.90383}
+	{Bone "starter2"}
+	{Position 1.78293	-0.00428699	-0.0279272}
+}
+{Volume "select"
+	{Box 2.55906 27.3622 2.55906}
+	{Bone "body"}
+	{Matrix34
+		0	1.02902	0
+		-1.02902	0	0
+		0	0	1.02902
+		2.01568	-0.073496	0.0796165
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.81975	50.0718	-0.240352}
+			{lookat 4.83141	16.2831	-0.267798}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0532642	-0.438886	-0.233544}
+			}
+			{"1"
+				{type point}
+				{position 9.02402	1.76116	-0.317657}
+			}
+			{"2"
+				{type point}
+				{position -20.2751	1.83078	-9.25641}
+			}
+		}
+	}
+}

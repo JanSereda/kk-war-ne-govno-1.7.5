@@ -1,0 +1,12 @@
+{from "pattern proj_impactor"
+	{entity "starstreak_ammo_impactor"}
+               {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	{tag  "big" "size2" "88to105" "AA_missile_2gen" "-ap" "-rocketlauncher" "-low_speed" "fx_111_145"}
+	;масса б/ч  1,26 кг (3 по 0,43), ВВ - гексоген (т. э. 1,6, коэфициент 1,23) 3 по 0,09кг, 
+{damage blastwave {energy 0.7} {area 3.7 4.3}}
+{damage add blastwave {energy 1.2} {area 2.4 2.8}}
+{damage cumulative {damage 40} {distance 3}}	;ориентировочное пробитие кинетикой - 3 дарта в 1 точку
+}

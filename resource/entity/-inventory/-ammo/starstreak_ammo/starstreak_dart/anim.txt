@@ -1,0 +1,35 @@
+-= Animation: rotate, Node nose =-
+	Frame 1 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}
+	Frame 2 {
+		Orientation	-0.107528 0 0 0.994202
+	}
+	Frame 3 {
+		Orientation	-0.386164 0 0 0.92243
+	}
+	Frame 4 {
+		Orientation	-0.727374 0 0 0.686242
+	}
+	Frame 5 {
+		Orientation	0.966204 0 0 -0.257778
+	}
+	Frame 6 {
+		Orientation	0.966204 0 0 0.257778
+	}
+	Frame 7 {
+		Orientation	0.727374 0 0 0.686242
+	}
+	Frame 8 {
+		Orientation	0.386165 0 0 0.92243
+	}
+	Frame 9 {
+		Orientation	0.107528 0 0 0.994202
+	}
+	Frame 10 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	0 0 0 1
+	}

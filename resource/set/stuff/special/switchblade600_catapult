@@ -1,0 +1,10 @@
+{item
+	{tag "keepEntity itemin2hands"}
+	{entity "switchblade600_catapult"}
+	{inventory
+		{size 5 3}
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 5}
+}

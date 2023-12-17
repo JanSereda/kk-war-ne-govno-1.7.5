@@ -1,0 +1,111 @@
+{actor
+	(include "/properties/cannon_mgun_mod.ext")
+	(include "/properties/shadow/tank.inc"  scale(0.3))
+	{props "collectable" "atgm" "vision_lev03_can" "round_sandbag2"}
+	("cw_armor_atgm")
+	{extender "inventory"
+		{box
+			{Size 6 6}
+			{weight 300}
+			{item "ammo starstreak_ammo" 3}
+			(mod "mp"
+				{item "plant" 3}
+			)
+		}	
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon starstreakx3" filling "ammo starstreak_ammo" 3}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{barrels 3}
+			{shooter "none"}
+			{basic}
+		}
+	}
+	{sensor
+		{Visor "main"
+			{vision "tank_gunner_optic_IR_2g"}
+			{bone "visor1"}
+		}
+	}
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_snipe_gun"}}
+		}
+		{anm "commander"
+			{forward	{end "pose_squat_empty"}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+		{link "driver1" "gunner"}
+		{link "driver2" "commander"}
+	}
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+			{aim "" ""}
+			{fire  "" ""}
+			{reload  "" ""}
+		}
+		{animation
+			{switch close}
+		}
+		{attack {workers "gunner" "commander"}}
+	}  
+	{Extension "starstreak_stan.mdl"}
+	("missile_aimpoint_stansize")
+
+	{Volume "body"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "gun"
+		{tags "body"}
+		{thickness 10}
+		{component "gun"}
+	}
+	{Volume "part1"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part2"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part3"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part5"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "part6"
+		{tags "body"}
+		{thickness 10}
+		{component "body"}
+	}
+	{Volume "turret"
+		{thickness 10}
+		{component "turret"}
+	}
+	{Volume "turret1"
+		{thickness 10}
+		{component "turret"}
+	}
+	{Volume "select"
+		{able{obstacle 0} {Bullet 0} {Contact 0} {Select 1} {Blast 0} {Overlap 0} {Touch 1} {Contact_ground 0}}
+	}
+}

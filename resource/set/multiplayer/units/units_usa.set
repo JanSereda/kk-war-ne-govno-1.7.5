@@ -25,7 +25,7 @@
 {"mk19"            ("vs" c(400) brig(common) t(all nobot) s(usa) n(2) g(stan2) sc(130) b(common) i(5) cw(10) cp(15))  {fore 0}}
 {"m252"            ("vs" c(600) brig(common) t(all nobot) s(usa) n(2) g(stan2) sc(120) b(common) i(6) cw(1) cp(15))  {fore 0}}
 {"m120"            ("vs" c(600) brig(common) t(all nobot) s(usa) n(3) g(stan2) sc(160) b(common) i(7) cw(1) cp(15))  {fore 0}}
-{"mtvr_m2"		("v3" c(480) c1(mtvr_m2)brig(common) t(all inf_usa infantry) s(usa) n(3) n1(vehicle_supporter:1) n2(vehicle_supporter:1) n3(vehicle_supporter:1) g(bmp_common)  sc(40) b(common) i(9) cw(10) cp(5))  {fore 0.4}}
+;{"mtvr_m2"		("v3" c(480) c1(mtvr_m2)brig(common) t(all inf_usa infantry) s(usa) n(3) n1(vehicle_supporter:1) n2(vehicle_supporter:1) n3(vehicle_supporter:1) g(bmp_common)  sc(40) b(common) i(9) cw(10) cp(5))  {fore 0.4}}
 ("squad_with11types" side(usa) name(smg) c(130) g(inf_common) 
   c1(smg_newcom:1) c2(smg_new:2) c3(smg_gren:2) c4(smg_mgun:2) c5(smg_bazooker:2)
   b(common) brig(common) t(all infantry) cost(100) f(-2.0) info(smg)
@@ -136,7 +136,7 @@
 {"m2a3_brat"		("v3" c(300) c1(m2a3_brat)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp1)  sc(160) b(usarmy_hqcar) i(1) cw(30) cp(25))  {fore 0.0}}
 {"m1126_jav"		("v3" c(300) c1(m1126_jav)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp2)  sc(160) b(usarmy_hqcar) i(2) cw(20) cp(25))  {fore -1.0}}
 {"m1126_mk19"		("v3" c(400) c1(m1126_mk19)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp3)  sc(145) b(usarmy_hqcar) i(3) cw(20) cp(30))  {fore -0.5}}
-{"m1126"		("v3" c(140) c1(m1126)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp4)  sc(45) b(usarmy_hqcar) i(4) cw(30) cp(15))  {fore -1.0}}
+;{"m1126"		("v3" c(140) c1(m1126)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp4)  sc(45) b(usarmy_hqcar) i(4) cw(30) cp(15))  {fore -1.0}}
 {"m1296"		    ("v3" c(300) c1(m1296)brig(usarmy) t(all inf_usa infantry) s(usa) n(2) n1(tankman:3) g(bmp5)  sc(145) b(usarmy_hqcar) i(5) cw(30) cp(25))  {fore 0.0}}
 
 {"m939i_usarmy"		("v3" c(120) c1(m939)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) 
@@ -233,7 +233,7 @@
 ;{"m939"		("h" c(900) brig(common) t(nzt nobot) s(rus) n(2) g(nzt)  sc(5) b(nzt) i(0) cw(1) cp(0)) {cost 260} {fore 0}}
 ;{"mtvr_m2"		("h" c(900) brig(common) t(nzt nobot) s(rus) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(10) cp(5))  {fore 0}}
 ;{"m1126_mk19"		("h" c(900) brig(usarmy) t(nzt nobot) s(rus) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(20) cp(30))  {fore 0}}
-;{"m1126"		("h" c(900) brig(usarmy) t(nzt nobot) s(rus) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(30) cp(15))  {fore 0}}
+{"m1126"		("h" c(900) brig(usarmy) t(nzt nobot) s(rus) n(2) g(nzt)  sc(45) b(nzt) i(0) cw(30) cp(15))  {fore 0}}
 ;{"m2a3_brat"		("h" c(900) brig(usarmy) t(nzt nobot) s(rus) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(30) cp(25))  {fore 0}}
 ;{"m113a"		("h" c(900) brig(idf) t(nzt nobot) s(rus) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(30) cp(5))  {fore 0}}
 ;{"namer"		("h" c(900) brig(idf) t(nzt nobot) s(rus) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(0) cp(30))  {fore 0}}

@@ -31,7 +31,7 @@
   b(common) brig(common) t(all infantry) cost(70) f(-2.0) info(mso)
 )
 
-{"btr80_new"		("v3" c(480) c1(btr80_new)brig(common) t(all inf_rus infantry) s(rus) n(2) n1(tankman:2) g(bmp_common1)  sc(40) b(common) i(16) cw(20) cp(5))  {fore 0.4}}
+;{"btr80_new"		("v3" c(480) c1(btr80_new)brig(common) t(all inf_rus infantry) s(rus) n(2) n1(tankman:2) g(bmp_common1)  sc(40) b(common) i(16) cw(20) cp(5))  {fore 0.4}}
 {"btr82a"		("v3" c(480) c1(btr82a)brig(common) t(all inf_rus infantry) s(rus) n(2) n1(tankman:2) g(bmp_common2)  sc(60) b(common) i(17) cw(20) cp(15))  {fore 0.0}}
 {"ural375i"		("v3" c(94) c1(ural375)brig(common) t(all inf_rus infantry max5) s(rus) n(1) 
   n1(vehicle_supporter:1) n2(mso_com:1) n3(mso_mgun:1) n4(mso_mgunhelp:1) n5(mso_rpg:1) n6(mso_rpghelp:1) n7(mso_smg2:2) 
@@ -111,7 +111,7 @@
 {"box_weapon_rus_krasnopol"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline precision_munition) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(11) cw(0) cp(2)) {cost 50} {fore -1200}}
 {"box_weapon_rus_smerch_cl"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(12) cw(0) cp(2)) {cost 100} {fore -1200}}
 ;{"box_weapon_rus_smerch_tb"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec_extra) sc(1) b(pvo_hqcar) i(13) cw(0) cp(2)) {cost 300} {fore -1800}}
-{"box_weapon_rus_tornado_s_fg"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(14) cw(0) cp(2)) {cost 100} {fore -1500}}
+{"box_weapon_rus_tornado_s_cl"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(14) cw(0) cp(2)) {cost 100} {fore -1500}}
 
 
 {"buk_m1" ("v" c(600) brig(pvo) t(all art aat nobot support_frontline) s(rus) n(4) g(extra1) sc(150) b(extra) i(6) cw(0) cp(40))  {fore -1.2}}

@@ -94,10 +94,13 @@
 	{item "ur_83p_ammo ammo" 1 		{max 2}	{value 25}}
 )
 (define "UAV_rus"
-	{item "eleron3sv ammo" 1 {max 1}{value 150}}				
+	{item "eleron3sv ammo" 1 {max 3}{value 69}}
 )
 (define "UAV_kamikadze_rus"
-	{item "lancet3m cm ammo" 1 {max 5}{value 69}}				
+	{item "lancet3m cm ammo" 1 {max 5}{value 69}}	
+)
+(define "UAV_kamikadze_usa"
+	{item "switchblade600 ammo" 1 {max 2}{value 200}}
 )
 (define "smallarms_west"	;common for USA and NATO
 	{item "standart ammo" 10 {max 30}{value 1}}				
@@ -507,11 +510,11 @@
     {item "bullet152_RUS_r fg ammo" 1 {max 40}{value 15}}	
 ;	{item "bullet152_RUS sm ammo" 1 {max 2}{value 15}}				
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}				
+	{item "3vof34 ammo" 1 {max 20}{value 35}}
+	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 	{item "bullet152_RUS_korr2 fg bullet152_RUS ammo" 1 {max 30}{value 15}}				
 	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
-	{item "3vof34 ammo" 1 {max 20}{value 35}}
-	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
@@ -554,11 +557,7 @@
 ;    {item "ATACMS ammo" 1 {max 2}{value 130}}		
 )
 (define "iskander"
-	{item "iskander tb ammo" 1 {max 2}{value 200}}			;лимит 3000	
-	{item "tochka f ammo" 1 {max 2}{value 169}}
-)
-(define "tochka"
-	{item "tochka f ammo" 1 {max 1}{value 169}}
+	{item "iskander tb ammo" 1 {max 2}{value 200}}			;лимит 3000		
 )
 (define "df15"
 	{item "df15b fg ammo" 1 {max 1}{value 100}}
@@ -572,15 +571,14 @@
     {item "tos1a fg ammo" 2 {max 24}{value 30}}	
 	{item "shahed136 base ammo" 1 {max 5}{value 30}}	
 	{item "ammo r17" 1 {max 1} {value 300}}	
-	
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
 ;	{item "grad fg ammo" 10 {max 40}{value 50}}				
 ;	{item "grad spbe ammo" 10 {max 40}{value 50}}				
 ;	{item "grad mine ammo" 10 {max 40}{value 50}}				
 )
 (define "smerch"
-    {item "smerch tornado_s 9m528 fg ammo" 4 {max 12}{value 130}}
-	{item "tornado_s 9m546 cl ammo" 4 {max 12}{value 150}}
+    {item "smerch tornado_s 9m528 fg ammo" 3 {max 12}{value 130}}
+	{item "tornado_s 9m542 fg ammo" 3 {max 12}{value 150}}
 )
 (define "grad_cn"
 	{item "grad fgh ammo" 8 {max 40}{value 100}}
@@ -637,7 +635,8 @@
 	;{item "agm-114 n ammo" 1 {max 2}{value 10}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
 	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
-	{item "mistral_missile ammo" 1 {max 4}{value 30}}	
+	{item "mistral_missile ammo" 2 {max 4}{value 15}}
+	{item "starstreak_ammo ammo" 3 {max 3}{value 30}}
     {item "spike-er2 spike-er ammo" 1 {max 4}{value 61}}			
 )
 (define "atgm_nato"
@@ -647,8 +646,8 @@
 	{item "hot_rock hot3 ammo" 1 {max 8}{value 10}}				
 ;	{item "milan_rock cm ammo" 1 {max 4}{value 4}}				
 	{item "milan_rock milan-er ammo" 1 {max 4}{value 6}}				
-	{item "spike-er spike-er ammo" 1 {max 4}{value 65}}				
-	{item "spike-lr ammo" 1 {max 2}{value 51}}
+	{item "spike-er spike-er ammo" 1 {max 3}{value 65}}				
+	{item "spike-lr ammo" 1 {max 3}{value 51}}
     {item "spike_nlos cm ammo" 1 {max 4}{value 60}}                                             	
 	{item "eryx_rock ammo" 1 {max 2}{value 3}}				
 	{item "mmp_missile ammo" 1 {max 2}{value 51}}
@@ -684,8 +683,9 @@
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}
-	{item "9m33_rocket ammo" 2 {max 12}{value 9}}
+	{item "rvv-sd ammo" 1 {max 10}{value 5}}	
+	
+	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
 )
 (define "sam_usa"
 	{item "patriot ammo" 2 {max 4}{value 25}}		;лимит 3000		
@@ -745,7 +745,7 @@
 	{item "x_25ml_su25_ammo ammo" 1 {max 4}{value 80}}				
 	{item "x31p ammo" 2 {max 6}{value 90}}				
 	{item "x-38mte ammo" 1 {max 2}{value 75}}			
-	{item "x59m ammo" 1 {max 4}{value 125}}				
+	{item "x59m ammo" 1 {max 2}{value 125}}				
 	{item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
@@ -1390,7 +1390,7 @@
 
 			("atacms")
 			("m270")
-
+			("UAV_kamikadze_usa")
 			("kaz")
 			("mines")
 

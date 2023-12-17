@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{entity "starstreak_ammo"}
+	
+    {inventory
+		{weight 100}
+		{size 6 1}
+	}
+	;Трехточка по лазеру
+	{tag  "big" "size2" "88to105" "-AA_missile_2gen" "-ap" "-rocketlauncher" "-low_speed"}
+	{tag "short_sam"} ; только дял ammo.set
+	{mass 14}
+}

@@ -1,0 +1,10 @@
+{item
+	{tag "keepEntity itemin2hands"}
+	{entity "spike_lr_stan"}
+	{inventory
+		{size 5 4}	;без ракеты довольно компактен, примерно как Метис.
+		{weight 100}
+		{fsm "hand-only"}
+	}
+	{mass 9}
+}

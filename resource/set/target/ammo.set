@@ -67,7 +67,9 @@
 		{"rus_ir_aj cwps2" {volume "body"}}
 		{"usa_ir_aj cwps2" {volume "body"}}
 		{"rus_ir_asm_aj cwps2" {volume "body"}}
-		{"usa_ir_asm_aj cwps2" {volume "body"}}  
+		{"usa_ir_asm_aj cwps2" {volume "body"}} 
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
 	    {"short_sam" {volume "target_hight"}}
 		{"antiair" {volume "target_hight"}}
 		{"zenite" {volume "target_hight"}}
@@ -85,7 +87,8 @@
 		{"usa_ir_aj cwps2" {volume "body"}}
 		{"rus_ir_asm_aj cwps2" {volume "body"}}
 		{"usa_ir_asm_aj cwps2" {volume "body"}}
-	    
+	    {"usa_laser_aa_aj cwps2" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
 		{"antiair"}
 		{"shell rok"}
 		{"for_heli"}
@@ -111,6 +114,8 @@
 		{"usa_ir_aj cwps2" {volume "body"}}
 		{"rus_ir_asm_aj cwps2" {volume "body"}}
 		{"usa_ir_asm_aj cwps2" {volume "body"}}	
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
 		{"tv_seeker" {volume "body"}}
 		{"autocannon_small" {volume "body"}}
 		{"antiair" {volume "body"}}
@@ -128,6 +133,8 @@
 		{"zenite" {volume "body"}}
 		{"autocannon_small" {volume "body"}}
 		{"anti_smallmissile" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
 		
 	}
 	{small_UAV_kamikaze 	
@@ -143,6 +150,8 @@
 		{"rad_aa_passive" {volume "body"}}
 		{"rad_aa" {volume "body"}}
 		{"ir_aa" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
+		{"usa_laser_aa_aj cwps2" {volume "body"}}
 		{"antiair" {volume "body"}} 	
 		{"tv_seeker" {volume "body"}}
 		{"autocannon_small" {volume "body"}}

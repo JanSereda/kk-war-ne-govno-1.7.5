@@ -1,0 +1,8 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{Extension "starstreak_ammo.mdl"}
+	{collider "ammo"}
+	{extender "stuff"
+		{item "starstreak_ammo ammo"}
+	}
+}

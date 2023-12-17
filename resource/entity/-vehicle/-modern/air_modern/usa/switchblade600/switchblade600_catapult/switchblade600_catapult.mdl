@@ -1,0 +1,117 @@
+;Exported by: Timosh
+;Date:        Tue Dec 12 11:02:33 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\Switchblade_600\switchblade 600 launcher final.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 1}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "support1"
+			{Position 1.63064	10.1582	0}
+		}
+		{bone "gunner"
+			{Position -6.90904	-8.58329	0}
+		}
+		{bone "emit1"
+			{Position -17.4711	-0.136991	0}
+		}
+		{bone "driver1"
+			{Position -0.073163	-4.24827	0}
+		}
+		{bone "support2"
+			{Position 1.8584	-10.2135	0}
+		}
+		{bone "support3"
+			{Position -11.111	0	0}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-2.9289	0	12.1598
+			}
+			{VolumeView "body.ply"}
+			{bone "stan1"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.7417	0.508134	0.437814
+					-0.670731	0.562602	0.48332
+					-0.000724018	-0.652134	0.758103
+					1.74814	-4.47255	2.6796
+				}
+				{VolumeView "stan1.ply"}
+			}
+			{bone "stan2"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.766044	-0.485118	-0.421707
+					0.64269	0.589503	0.489322
+					0.011218	-0.645869	0.763366
+					-1.76758	-4.46592	2.68537
+				}
+				{VolumeView "stan2.ply"}
+			}
+			{bone "foresight1"
+				{Matrix34
+					0	-0.642788	0.766044
+					1	0	0
+					0	0.766044	0.642788
+					-0.0707395	-8.82958	10.6034
+				}
+			}
+			{bone revolute "handle"
+				{Matrix34
+					0	0.642788	-0.766044
+					0	0.766044	0.642788
+					1	0	0
+					2.35449	-0.572586	0.583282
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.15905 3.98588 27.9195}
+	{Bone "body"}
+	{Matrix34
+		0	-0.75056	-0.660802
+		1	0	0
+		0	-0.660802	0.75056
+		-0.0673128	0.56593	-0.382156
+	}
+}
+{Volume "select"
+	{Box 47.3049 23.6906 2.5935}
+	{Bone "basis"}
+	{Position 0	0	1.29675}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 30.6541	-58.1078	17.0084}
+			{lookat 8.2349	-6.28432	7.35613}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.06028	-7.99282	1.9469}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	0.263804	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position 9.72808	-9.39602	1.87462}
+			}
+		}
+	}
+}

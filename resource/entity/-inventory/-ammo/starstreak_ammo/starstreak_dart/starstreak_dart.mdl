@@ -1,0 +1,58 @@
+;Exported by: Timosh
+;Date:        Thu Dec 14 09:57:47 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????????\Starstreak\starstreak dart 1.max
+{Skeleton
+	{animation
+		{sequence "rotate"}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "nose"
+			{VolumeView "nose.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Box 8.48097 0.533072 0.494995}
+	{Bone "body"}
+	{Position -0.0502925	-0.0315403	-0.00918724}
+}
+{Volume "select"
+	{Box 0.94685 8.75591 1.01569}
+	{Bone "body"}
+	{Matrix34
+		0	1.02902	0
+		-1.02902	0	0
+		0	0	1.02902
+		0	0.00686891	0.0541093
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.133729	23.3718	0.140626}
+			{lookat -0.131281	16.2762	0.134861}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0532642	-0.438886	-0.233544}
+			}
+			{"1"
+				{type point}
+				{position 4.06133	1.7543	0.0850026}
+			}
+			{"2"
+				{type point}
+				{position -25.2377	1.82392	-8.85375}
+			}
+		}
+	}
+}

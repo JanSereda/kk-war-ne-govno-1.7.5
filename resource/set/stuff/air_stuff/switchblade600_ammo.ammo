@@ -1,0 +1,10 @@
+{from "pattern proj_pointer"
+	{mass 25}
+	{entity "switchblade600_ammo"}
+                {inventory
+		{weight 100}
+		{size 6 2}
+	}
+	{tag "no_ricochet" "size2" "ground_other_usa"}
+	{tag "kamikaze"} ; только для ammo.set   
+}
