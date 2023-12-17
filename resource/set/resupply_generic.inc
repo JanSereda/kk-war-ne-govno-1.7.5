@@ -1578,7 +1578,7 @@
 			("152mm")
 			("smokes")
 			("rpg_rus")
-			("tochka")
+			
 			("manpads_rus")
 			("smallarms_west")
 			("smallarms_usa")
@@ -1637,7 +1637,7 @@
 			("155mm_USA")
 			("c5")
 			("120mm_USA")
-			("tochka")
+			
 			("iskander")
 		
 			("c8")

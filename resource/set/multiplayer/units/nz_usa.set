@@ -106,7 +106,7 @@
 
  {"nasams_ii_launcher" {fore 0} ("vradar" c(240) sc(150) g(pvo1) b(usart_hqcar) brig(usart) s(usa)  i(911) cw(0) cp(20) t(all_nz  antiair aat ) n(3) c1(nasams_ii_launcher) c2(hawk_cwar) n1(vehicle_supporter:3) n2()           ) }
 
-{"switchblade600_catapult"            ("v_kamikaze" c(450) brig(usart) t(all_nz nobot) s(usa) n(1) g(kamikaze_600) sc(180) b(usart_hqcar) i(333) cw(0) cp(5))  {fore -1.0}}
+{"switchblade600_catapult"            ("v_kamikaze" c(669) brig(usart) t(all_nz nobot) s(usa) n(1) g(kamikaze_600) sc(180) b(usart_hqcar) i(333) cw(0) cp(5))  {fore 1}}
 
  ;{"m2_adats" {fore 0.6} ("vs" c(460) sc(200) g(pvo3) b(usart_hqcar) brig(usart) s(usa)  i(9) cw(0) cp(20) t(all_nz art aat support_frontline  ) n(3)               ) }
  

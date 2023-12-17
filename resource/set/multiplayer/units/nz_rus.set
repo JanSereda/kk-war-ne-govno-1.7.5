@@ -163,7 +163,7 @@
 ("squad_with1types" name(minmen) f(1)  c(60) cost(20) g(supp) b(mot_hqcar) brig(mot) side(rus)     t(all_nz    ) info(minmen) c1(minmen:1)              ) 
 ("squad_with1types" name(scout2) f(1)  c(180) cost(10) g(rzv) b(mot_hqcar) brig(mot) side(rus)     t(all_nz    ) info(scout2) c1(scout2:1)              ) 
 
- {"lancet3m_catapult" {fore 0} ("vart" c(669) sc(169) g(lancet)  b(mot_hqcar) brig(mot) s(rus)  i(69) cw(0) cp(30) t(all_nz art   ) c1(eleron_control) c2(lancet3m_catapult)  n1(vehicle_supporter:1)            ) }
+ {"lancet3m_catapult" {fore 1} ("vart" c(669) sc(169) g(lancet)  b(mot_hqcar) brig(mot) s(rus)  i(69) cw(0) cp(30) t(all_nz art   ) c1(eleron_control) c2(lancet3m_catapult)  n1(vehicle_supporter:1)            ) }
 
  
  {"t72b3" {fore 1} ("v" c(360) sc(145) g(obt5)  b(mot_hqcar) brig(mot) s(rus)  i(333) cw(0) cp(30) t(all_nz tank_rus   ) n(3)               ) }                                 
