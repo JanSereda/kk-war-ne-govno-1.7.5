@@ -617,7 +617,7 @@
 		{MID 122}
 	}
 	{Entity "flag_point_17" 0x802a
-		{Position 2503.42 -4715.3}
+		{Position 2514.42 -3958.85}
 		{Extender "map_point"
 			{name f124}
 			{zoneA 60}
@@ -637,7 +637,7 @@
 		{MID 124}
 	}
 	{Entity "flag_point_17" 0x802c
-		{Position 103.48 -4715.24}
+		{Position 114.48 -3958.79}
 		{Extender "map_point"
 			{name f126}
 			{zoneA 60}
@@ -897,7 +897,7 @@
 		{MID 162}
 	}
 	{Entity "flag_point_17" 0xc02d
-		{Position -2296.33 -4715.61}
+		{Position -2285.33 -3959.16}
 		{Extender "map_point"
 			{name f207}
 			{zoneA 60}
@@ -1239,12 +1239,93 @@
 		{xform zl -1.32}
 	}
 	{Entity "side_star" 0x8000
-		{Position 1523.72 3896.87}
+		{Position 659.12 2282.5 -39.73}
+		{xform zl 177.91 y 79.33 zw -86.76}
 		{Extender "bone_rotator"
 			{"rotate"
 				{speed 10}
 			}
 		}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8001
+		{Position 3259.09 -4603.88}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8002
+		{Position 3754.26 -4604.85}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8003
+		{Position 4248.05 -4603.65}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8004
+		{Position 4750.7 -4615.43}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8005
+		{Position 1274.78 -4588.34}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x800a
+		{Position 1769.96 -4589.32}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x800b
+		{Position 2263.75 -4588.12}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x800d
+		{Position 2766.4 -4599.9}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8011
+		{Position -704.52 -4573.07}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8012
+		{Position -209.34 -4574.04}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8013
+		{Position 284.45 -4572.84}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8015
+		{Position 787.1 -4584.62}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8019
+		{Position -2681.77 -4559.9}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x801a
+		{Position -2186.6 -4560.88}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x801b
+		{Position -1692.8 -4559.68}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x801d
+		{Position -1190.15 -4571.46}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8021
+		{Position -3673.11 -4550.87}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8022
+		{Position -3170.45 -4562.65}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8023
+		{Position -4139.19 -4546.7}
+		{xform zl -0.26}
+	}
+	{Entity "invisible_wall_mp_nz" 0x8025
+		{Position -4510.44 -4532.49}
+		{xform zl -0.26}
 	}
 	{Tags "keep_places_without_door" 0x2e}
 	{Tags "keep_places_without_door" 0x1019}
@@ -1262,7 +1343,6 @@
 	{Tags "keep_places_without_door" 0x47c}
 	{Tags "keep_places_without_door" 0x5f2}
 	{Tags "keep_places_without_door" 0x5db}
-	{Tags "keep_places_without_door" 0x5021}
 	{Tags "keep_places_without_door" 0x868}
 	{Tags "keep_places_without_door" 0x674}
 	{Tags "keep_places_without_door" 0x9a4}
@@ -1276,26 +1356,18 @@
 	{Tags "keep_places_without_door" 0x3408}
 	{Tags "keep_places_without_door" 0x5840}
 	{Tags "keep_places_without_door" 0x867}
-	{Tags "keep_places_without_door" 0x244f}
 	{Tags "keep_places_without_door" 0x64bc}
 	{Tags "keep_places_without_door" 0x64c4}
 	{Tags "keep_places_without_door" 0x500d}
-	{Tags "keep_places_without_door" 0x1800}
-	{Tags "keep_places_without_door" 0x7c00}
-	{Tags "keep_places_without_door" 0x7c63}
-	{Tags "keep_places_without_door" 0x4401}
 	{Tags "keep_places_without_door" 0x2a76}
 	{Tags "keep_places_without_door" 0x6808}
 	{Tags "keep_places_without_door" 0x6809}
 	{Tags "cwfs_check_fuel" 0xb5e}
-	{Tags "keep_places_without_door" 0x688a}
 	{Tags "keep_places_without_door" 0x54b6}
 	{Tags "keep_places_without_door" 0x54c4}
 	{Tags "keep_places_without_door" 0x5519}
 	{Tags "keep_places_without_door" 0x5644}
 	{Tags "keep_places_without_door" 0x5645}
-	{Tags "keep_places_without_door" 0x5646}
-	{Tags "keep_places_without_door" 0x5647}
 	{Tags "keep_places_without_door" 0x253b}
 	{Tags "keep_places_without_door" 0x2558}
 	{Tags "keep_places_without_door" 0x25ee}
@@ -1330,6 +1402,26 @@
 	{Tags "keep_places_without_door" {0x64f "2"}}
 	{Tags "keep_places_without_door" {0x550a "2"}}
 	{Tags "keep_places_without_door" {0x5516 "4"}}
+	{Tags "invisible_wall_mp_nz" 0x8001}
+	{Tags "invisible_wall_mp_nz" 0x8002}
+	{Tags "invisible_wall_mp_nz" 0x8003}
+	{Tags "invisible_wall_mp_nz" 0x8004}
+	{Tags "invisible_wall_mp_nz" 0x8005}
+	{Tags "invisible_wall_mp_nz" 0x800a}
+	{Tags "invisible_wall_mp_nz" 0x800b}
+	{Tags "invisible_wall_mp_nz" 0x800d}
+	{Tags "invisible_wall_mp_nz" 0x8011}
+	{Tags "invisible_wall_mp_nz" 0x8012}
+	{Tags "invisible_wall_mp_nz" 0x8013}
+	{Tags "invisible_wall_mp_nz" 0x8015}
+	{Tags "invisible_wall_mp_nz" 0x8019}
+	{Tags "invisible_wall_mp_nz" 0x801a}
+	{Tags "invisible_wall_mp_nz" 0x801b}
+	{Tags "invisible_wall_mp_nz" 0x801d}
+	{Tags "invisible_wall_mp_nz" 0x8021}
+	{Tags "invisible_wall_mp_nz" 0x8022}
+	{Tags "invisible_wall_mp_nz" 0x8023}
+	{Tags "invisible_wall_mp_nz" 0x8025}
 	{Brain 0xb5e
 		{Properties
 			{fire_mode hold}
@@ -1338,7 +1430,7 @@
 	{Environment "multi/desert_hills/desert_hills_day"}
 	{Helpers
 		{zone "poly"
-			{position 567.655 -8762.01 -400}
+			{position 567.655 -8762.01 -333}
 			{Name "cw_auto_landing_team_a"}
 			{Point -6167.75 -910.953}
 			{Point -6118.15 1114.76}
@@ -1346,7 +1438,7 @@
 			{Point 6143.32 -1073.71}
 		}
 		{zone "poly"
-			{position -1044.41 7888 -400}
+			{position -1044.41 7888 -333}
 			{Name "cw_auto_landing_team_b"}
 			{Point -5675.11 -1665.34}
 			{Point -5675.54 1326.78}
@@ -15742,18 +15834,28 @@
 						{apply}
 					}
 					{"delay"
+						{time 150}
+					}
+					{"environment"
+						{name "multi/canyon/canyon_evening"}
+						{time 150}
+						{apply}
+					}
+					{"delay"
 						{time 300}
 					}
 					{"environment"
 						{name "m10/krimea_0600"}
-						{time 150}
+						{time 200}
 						{apply}
 					}
 					{"delay"
 						{time 160}
 					}
-					{"trigger"
+					{"environment"
 						{name "single/3-poltava/poltava_24_00"}
+						{time 160}
+						{apply}
 					}
 				}
 			}
@@ -15765,11 +15867,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
-						{title "ЧЁ НАХУЙ"}
+						{time 200}
+						{title "ЁБАНЫЙ ПИЗДЕЦ ЧЕРЕЗ:"}
 					}
 					{"delay"
-						{time 210}
+						{time 200}
 					}
 					{"timer"
 						{hide}
@@ -15785,7 +15887,7 @@
 		}
 		{waypoints "auto_landing_a"
 			{"0"
-				{position 3001.46 -8425.93 -400}
+				{position 3001.46 -8425.93 -333}
 				{transition "1"}
 				{commands
 					{"air_state"
@@ -15794,7 +15896,7 @@
 				}
 			}
 			{"1"
-				{position 516.931 -8451.16 -400}
+				{position 516.931 -8451.16 -333}
 				{transition "2"}
 				{commands
 					{"air_state"
@@ -15803,7 +15905,7 @@
 				}
 			}
 			{"2"
-				{position -1338.03 -8439.3 -400}
+				{position -1338.03 -8439.3 -336.319}
 				{transition "3"}
 				{commands
 					{"air_state"
@@ -15820,7 +15922,7 @@
 				{transition "5"}
 			}
 			{"5"
-				{position -4579.86 -9246.07 -400}
+				{position -4579.86 -9246.07 -333}
 			}
 		}
 		{waypoints "auto_landing_b"
@@ -15832,7 +15934,7 @@
 				{position 4727.16 9133.29 0}
 			}
 			{"6"
-				{position -1939.01 8200.62 -400}
+				{position -1939.01 8200.62 -333}
 				{transition "7"}
 				{commands
 					{"air_state"
@@ -15841,7 +15943,7 @@
 				}
 			}
 			{"7"
-				{position 62.5568 8216.31 -400}
+				{position 62.5568 8216.31 -333}
 				{transition "8"}
 				{commands
 					{"air_state"
@@ -15850,7 +15952,7 @@
 				}
 			}
 			{"8"
-				{position 1616.96 8224.6 -400}
+				{position 1616.96 8224.6 -333}
 				{transition "9"}
 				{commands
 					{"air_state"
