@@ -82,7 +82,6 @@
 
 {"btr-3e_no_pt" {fore 1} ("v3" c(220) sc(100) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(211) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr-3e_no_pt) n(1) n1(vehicle_supporter:3)      ) }
 {"btr-4e" {fore 1} ("v3" c(220) sc(150) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(202) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr-4e) n(1) n1(vehicle_supporter:3)     ) }
-
 	
  
 
