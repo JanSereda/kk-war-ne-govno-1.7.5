@@ -8,7 +8,7 @@
 	{fillingVisible "ympk_body_"}
 	{fireSound "reactive/bomb"}
 	{recoveryTime 0.75}
-	{rechargeTime 160}
+	{rechargeTime 120}
 	{range 455 455}
 	;{cursor "glonass"}
              ;{cursorReloading "glonass_reload"}

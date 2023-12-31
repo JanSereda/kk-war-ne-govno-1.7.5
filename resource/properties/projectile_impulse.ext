@@ -85,6 +85,14 @@
 )
 (define "guidance_double"
 	{Weaponry
+		{place "targeting_sys_anti_jamming"
+			{weapon "missilets_%guidanceaj" filling "%country_%typeaj cwps2 ammo" 200}
+			{foresight "missle_foresight"}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+			{SequentialAim 0}
+		}
 		{place "targeting_sys"
 			{weapon "missilets_%guidance" filling "%country_%type cwps2 ammo" 200}
 			{foresight "missle_foresight"}
@@ -93,15 +101,6 @@
 			{basic}
 			{SequentialAim 0}
 		}
-	    {place "targeting_sys_anti_jamming"
-			{weapon "missilets_%guidanceaj" filling "%country_%typeaj cwps2 ammo" 200}
-			{foresight "missle_foresight"}
-			{charger "driver"}
-			{gunner "driver"}
-			{basic}
-			{SequentialAim 0}
-		}
-
 	}
 )
 (define "guidance_aj"

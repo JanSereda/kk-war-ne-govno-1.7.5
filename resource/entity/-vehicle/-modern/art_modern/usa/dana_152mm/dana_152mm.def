@@ -91,7 +91,11 @@
 			{weapon "152mm_DANA" filling "ammo bullet152_RUS_a fg" 1}	
 			{gunner "gunner"}
 			{charger "charger"} 	
-			;("CW_stab_no_stabiliser")
+			{AccuracyByMotion
+				{MaxLinearSpeed 20} {ByLinearSpeed 0.2}
+				{MaxAngularSpeed 115} {ByAngularSpeed 0.0}
+				{DisorderTime 1.2} {OrderTime 0} 
+			}
 		}
 		{place "mgun"
 			{weapon "Dshk_m" filled}

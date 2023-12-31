@@ -67,7 +67,11 @@
 			{weapon "155mm_M284" filling "ammo bullet155_USA_h fg" 1}
 			{gunner "gunner"}
 			{charger "charger"}        	
-			;("CW_stab_artillery_rt" rechargetime(10))
+			{AccuracyByMotion
+				{MaxLinearSpeed 20} {ByLinearSpeed 0.2}
+				{MaxAngularSpeed 115} {ByAngularSpeed 0.0}
+				{DisorderTime 1.2} {OrderTime 0} 
+			}
 		}
 		{place "mgun"
 			{weapon "browning_m2hb" filled}

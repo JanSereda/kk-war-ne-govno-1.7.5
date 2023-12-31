@@ -129,6 +129,7 @@
 		{"rad_aa_passive" {volume "body"}}
 	    {"rad_aa" {volume "body"}}
 		{"ir_aa" {volume "body"}}
+		{"short_sam_laser" {volume "body"}}
 		{"antiair" {volume "body"}}
 		{"zenite" {volume "body"}}
 		{"autocannon_small" {volume "body"}}
@@ -149,6 +150,7 @@
 		{"rad_aa_passive" {volume "body"}}
 		{"rad_aa" {volume "body"}}
 		{"ir_aa" {volume "body"}}
+		{"short_sam_laser" {volume "body"}}
 		{"usa_laser_aa_aj cwps2" {volume "body"}}
 		{"usa_laser_aa_aj cwps2" {volume "body"}}
 		{"antiair" {volume "body"}} 	

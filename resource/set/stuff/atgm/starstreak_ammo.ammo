@@ -7,6 +7,6 @@
 	}
 	;“рехточка по лазеру
 	{tag  "big" "size2" "88to105" "-AA_missile_2gen" "-ap" "-rocketlauncher" "-low_speed"}
-	{tag "short_sam"} ; только д€л ammo.set
+	{tag "short_sam" "short_sam_laser"} ; только для ammo.set
 	{mass 14}
 }

@@ -8,7 +8,7 @@
 	{fillingVisible "sdb2_"}
 	{fireSound "reactive/bomb"}
 	{recoveryTime 0.75}
-	{rechargeTime 300}
+	{rechargeTime 200}
 ;	{range 482 482}	;100км по стац цели
 ;	{range 455 455}	;70км по движ цели
 	{range 470 470}	;пока не будет зависимости от цели - пусть стоит среднее, на MOW2 поправим.

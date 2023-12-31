@@ -8,7 +8,7 @@
 	{fillingVisible "bombc_"}
 	{fireSound "reactive/bomb"}
 	{recoveryTime 0.5}
-	{rechargeTime 220}
+	{rechargeTime 140}
 	{range 465 465}	;до 80 км
 	{cursor "bomb_on"}
 	{cursorReloading "cannon_reload_fg"}

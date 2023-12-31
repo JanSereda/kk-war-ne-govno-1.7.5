@@ -1,4 +1,4 @@
 {from "umpk500x2 weapon"
 	{filling "ammo umpk_500" 4}
-	{rechargeTime 220}
+	{rechargeTime 140}
 }

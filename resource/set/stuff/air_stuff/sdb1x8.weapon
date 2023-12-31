@@ -8,7 +8,7 @@
 	{fillingVisible "sdb1_"}
 	{fireSound "reactive/bomb"}
 	{recoveryTime 0.75}
-	{rechargeTime 300}
+	{rechargeTime 200}
 	{range 482 482}
 	;{cursor "glonass"}
              ;{cursorReloading "glonass_reload"}
