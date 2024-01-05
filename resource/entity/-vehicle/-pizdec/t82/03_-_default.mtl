@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/t72_b3_gorod/wheels"}
+	{bump "$/model/t72_b3_gorod/wheels_bp"}
+	{specular "$/model/t72_b3_gorod/wheels_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

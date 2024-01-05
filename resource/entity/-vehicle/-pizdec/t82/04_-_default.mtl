@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/t72/traki"}
+	{blend none}
+}

@@ -3,7 +3,7 @@
 ;Date: Tue Aug 16 20:42:02 2011
 ;File: G:\Работа с Pheonix\Редактирование\Конвертация\Т-64\T64 final 2.max
 ;Model create/rebuild by: Makimka
-;Last build date: Saturday 10 November 2023 [16:05:00]
+;Last build date: Saturday 5 January 2024 [13:46:32]
 {Skeleton
     {Animation
         {Sequence "start"}
@@ -230,7 +230,7 @@
                     -0	1	0
                     -1	-0	0
                     0	0	1
-                    2	8.78962	11.561
+                    -0.4	8.98962	11.561
                 }
                 {VolumeView "turret.ply"}
                 {Bone "cover_gunner"
