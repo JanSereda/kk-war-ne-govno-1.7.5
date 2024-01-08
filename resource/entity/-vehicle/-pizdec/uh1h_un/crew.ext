@@ -1,0 +1,86 @@
+;SDL
+{boarder
+		{anm "driver"
+			{forward	{begin	"board_big-midcar_driver"} {end "seat_driver_car"} {base "doorleft"}}
+			{reverse 	{end	"board_big-midcar_driver" -1} {base "doorlleft" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_big-midcar"} {end "seat_driver_car"} {base "doorright"}}
+			{reverse 	{end	"board_big-midcar" -1} {base "doorright" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_SdKfz251-1"} {end "seat_passenger"} {base "doorcenter"}}
+			{reverse 	{end	"emit_body" 1}{base "doorcenter"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_SdKfz251-1"} {end "seat_passenger"} {base "doorcenter1"}}
+			{reverse 	{end	"emit_body" 1}{base "doorcenter1"}}
+		}
+		{anm "gunner_l"
+			{forward	{begin	"board_SdKfz251-1"} {end "seat_driver_car"} {base "doorcenter"}}
+			{reverse 	{end	"emit_body" 1}{base "doorcenter"}}
+		}
+		{anm "gunner_r"
+			{forward	{begin	"board_SdKfz251-1"} {end "seat_driver_car"} {base "doorcenter1"}}
+			{reverse 	{end	"emit_body" 1}{base "doorcenter1"}}
+		}
+
+
+
+
+
+
+}
+(define "crew_human"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{linkbone "%bone"}
+			{turnoff {sensor} {shadow}}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+	("crew_human" place(driver) bone(driver) door(emit3) animation(driver))
+	("crew_human" place(commander) bone(commander) door(emit3) animation(commander))
+
+
+
+(define "passenger"
+	{placer
+		{place "%place"
+			{group "passengers"}
+			{linkbone "%bone"}
+			{turnoff {sensor} {shadow}}
+		}
+	}
+	{boarder
+		{link "emit_ropel"	"%place" {anm "left"}}	
+		{link "emit_roper" "%place" {anm "right"}}	
+;		{link "emit3"	"%place" {anm "left"}}	;for CtA only
+;		{link "emit4" "%place" {anm "right"}}	;for CtA only
+	}
+)
+	{placer
+		{place "driver"	{visor "visor"}}
+		{place "commander"	{visor "visor"}}
+
+	}
+	("passenger" place(passenger01)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger02)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger03)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger04)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger05)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger06)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger07)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger08)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger09)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger10)	door1(emit3) door2(emit4) bone(seat01))
+	("passenger" place(passenger11)	door1(emit3) door2(emit4) bone(seat01))
+
+
+

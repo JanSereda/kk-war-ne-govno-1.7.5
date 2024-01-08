@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/gazelle/rocket"}
+	{blend none}
+}
