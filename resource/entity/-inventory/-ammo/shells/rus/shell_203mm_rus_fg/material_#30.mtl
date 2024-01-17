@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/2s7m_malka/shell203_fg"}
+	{blend none}
+}

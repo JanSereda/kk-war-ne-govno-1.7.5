@@ -1,0 +1,22 @@
+{from "pattern fg"
+	{tag "big" "size4" "150to152fg" "fx_146_299"}
+	{tag "fg_150_shell"} ; только для ammo.set
+	{detonationThickness 40}
+	{mass 110}
+	{inventory
+		{size 6 2}
+	}	
+	{entity "shell_203mm_rus_fg"}
+	{view "shell_203mm_rus_fg"}
+	;17.8 кг ВВ A-IX-2 гексал (т.э. 1,7), масса снаряда 110кг, заряд - 43,2кг, скорость 960 
+	{tag "he_8to30"}
+{damage blastwave {energy 0.7} {area 15.2 17.4}}
+{damage add blastwave {energy 1.2} {area 12.8 14.7}}
+{damage add blastwave {energy 2.5} {area 9.1 10.5}}
+{damage add blastwave {energy 6.5} {area 7 8}}
+{damage add blastwave {energy 11} {area 3.6 4.1}}
+	{damage add blastwave	 ; HE, kinetic, direct hit
+		{energy 22}
+		{area 0.5 1}
+	}
+}

@@ -228,7 +228,7 @@
  {"mi17_b8" {fore 0} ("v3" c(600) sc(150) g(sso_extra) b(extra) brig(vvs) s(rus)  i(69) cw(0) cp(2) m(11) t(all_nz aircraft support_frontline  ) n(2) c1(mi17_b8)brig(vvs) n1(vertpilot:2) n2(scout_mso_com:1) n3(scout_mso_mgun:1) n4(scout_mso_smg:2) n5(scout_mso_smg2:2) n6(scout_mso_sniper:1)        ) }
  {"ka52_germes" {fore 0} ("h" c(900) sc(250) g(helik_extra) b(extra) brig(vvs) s(rus)  i(256) cw(0) m(12) cp(80) t(all_nz aircraft ) n(2)               ) }
  
- {"2s7_pion" {fore 0.13} ("v" c(1100) sc(200) g(art2extra) b(extra) brig(artbr) s(rus)  i(777) cw(0) m(13) cp(100) t(all_nz art no_frontline support_frontline   ) n(5)               ) }
+ {"2s7m_malka" {fore 0.13} ("v" c(1100) sc(200) g(art2extra) b(extra) brig(artbr) s(rus)  i(777) cw(0) m(13) cp(100) t(all_nz art no_frontline support_frontline   ) n(5)               ) }
  {"bm-30_smerch" {fore 0} ("vs" c(900) sc(250) g(rszo1extra) b(extra) brig(artbr) s(rus)  i(78) cw(0) m(14) cp(69) t(all_nz art support_frontline  ) n(4)               ) }
  {"tos-1a_solntsepek" {fore 0} ("v" c(900) sc(300) g(extratos) b(extra) brig(artbr) s(rus)  i(731) m(15) cw(0) cp(70) t(all_nz art no_frontline support_frontline  ) n(3)               ) } 
  

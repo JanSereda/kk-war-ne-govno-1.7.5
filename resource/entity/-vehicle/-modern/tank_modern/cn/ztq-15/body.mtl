@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/ztq-15/body_turret"}
+	{bump "$/model/ztq-15/body_turret_bp"}
+	{specular "$/model/ztq-15/body_turret_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

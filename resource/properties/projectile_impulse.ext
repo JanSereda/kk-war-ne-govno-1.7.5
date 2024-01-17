@@ -2,7 +2,7 @@
 (include "/properties/projectile.ext")
 
 	{collider "ammo"}	;желательно нарастить коллайдер до projectile, но пока с ним не работает двигатель х-59
-{props "steel" "explosive_stuff"}
+{props "steel"}
 
 
 
@@ -10,7 +10,7 @@
 
 
 (define "impulse_cruise_missile"	;поддержка подсветочного наведения, колеблющийся вперед-назад маркер наведения, средний таргеткласс
-	{props "vision_lev_UAV" "proj_impulse" "proj_impulse_cruise_missile"}
+	{props  "-vis_level_targetable_missile" "-vis_level_missile" "vision_lev_small_UAV" "proj_impulse" "proj_impulse_cruise_missile"}
 	{targetClass "medium_UAV"}
 	{extension "/properties/animation/vehicle/proj_point_anm.ext"}
 	{component "antimissile_t"}
@@ -67,7 +67,7 @@
 	}
 )
 (define "impulse_glide_bomb"	;противоракеты наводятся без захвата
-	{props "vis_level_targetable_missile" "-vis_level_missile" "proj_impulse" "proj_impulse_bomb"}
+	{props  "vision_lev_glide_bomb" "-vis_level_targetable_missile" "-vis_level_missile" "-vision_lev_small_UAV" "proj_impulse" "proj_impulse_bomb"}
 	{targetclass "bomb"}
 	{Volume "check_for_sam"
 		{able clear {Visible 1} {select 0} {bullet 1}} {Thickness 0.1} {component "check_for_sam"}
@@ -78,6 +78,8 @@
 	{component "check_for_sam"
 		{RepairTime 1}
     }
+	{component "body"}
+	{volume "body" {component "body"}}
 )
 (define "impulse_allow_manual_control"
 	{able "select"}
@@ -120,7 +122,7 @@
 		{setting "body"
             {thickness %thickness}
             {durability {blast {value %durability} } {pierce  {value %durability} }  }  
-            {threshold  {blast {value %durability} } {pierce  {value %durability} }}
+            {threshold  {blast {value %thickness} } {pierce  {value %thickness} }}
             {volumes "body" "select" "check_for_sam" "part1" "part2" "targ_for_missile"}
         }
 	}

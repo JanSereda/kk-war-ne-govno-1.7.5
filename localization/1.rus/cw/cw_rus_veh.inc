@@ -6,6 +6,9 @@
 
 
 
+{"ztq-15"								"<c(FFFFFF)e(shadow)>ZTQ-15</c>"}
+{"2s7m_malka"								"<c(FFFFFF)e(shadow)>2C7М 'Малка'</c>"}
+
 {"uaz469_spg9"								"<c(FFFFFF)e(shadow)>УАЗ-469 с СПГ-9</c>"}
 {"uaz469_ub32"								"<c(FFFFFF)e(shadow)>УАЗ-469 с УБ-32</c>"}
 

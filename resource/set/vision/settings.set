@@ -105,6 +105,7 @@
 	{targetable_missile     actor  "vis_level_targetable_missile"}
 	{missile     actor  "vis_level_missile"}
 	{targetable_impactor     actor  "vis_level_targetable_impactor"}
+	{glide_bomb    actor  "vision_lev_glide_bomb"}
 	{impactor     actor  "vis_level_impactor"}	;средняя ЭПР 0,1м2
 	{proj_point     actor  "vis_proj_point"}
 	{antirad_point     actor  "vis_antirad_point"}

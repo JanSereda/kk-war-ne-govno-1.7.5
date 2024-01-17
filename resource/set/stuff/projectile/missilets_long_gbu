@@ -6,7 +6,7 @@
 	{PrepareTime 0}
 	{PrepareCursor "aimed_shot"}
 }
-{recoveryTime 0.1}
+{recoveryTime 1.1}
 {aimRange 500}
 {maxRange 500}
 {gravity 400}

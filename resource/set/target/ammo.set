@@ -139,12 +139,13 @@
 		
 	}
 	{small_UAV_kamikaze 	
-		{"tv_seeker"}
-		{"zenite"}
-		{"hmgun"}
-		{"hrifle"}
-		{"ptr"}
-		{"bullet"}	
+		{"tv_seeker" {volume "body"}}
+		{"autocannon_small" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"hrifle" {volume "body"}}
+		{"ptr" {volume "body"}}
+		{"bullet" {volume "body"}}	
 	}
 	{medium_UAV_kamikaze
 		{"rad_aa_passive" {volume "body"}}

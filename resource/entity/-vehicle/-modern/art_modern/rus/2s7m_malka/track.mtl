@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/2s7m_malka/2s7_pion_track_diff"}
+	{blend test}
+}

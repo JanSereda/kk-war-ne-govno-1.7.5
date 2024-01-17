@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ztq-15/body_turret"}
+	{blend none}
+}

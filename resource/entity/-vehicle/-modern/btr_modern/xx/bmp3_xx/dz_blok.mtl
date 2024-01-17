@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/bmp3/xx/dz_interier_xx"}
+	{blend none}
+}

@@ -13,7 +13,7 @@
 		{box
 			{item "ammo bullet30_USA cm" 500}	;оценка
 			{item "ammo 762Nato" 400} 
-			{item "agm-114 l ammo" 4}
+			{item "agm-114 l ammo" 2}
 			{item "ammo fim-92a_ammo" 4}
 		}
 	}

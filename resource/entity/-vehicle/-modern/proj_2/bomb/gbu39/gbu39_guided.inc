@@ -11,6 +11,6 @@
 
 	("impulse_glide_bomb")
 	("guidance_double" country(usa) type(gps) typeaj(gps) guidance(long_gbu) guidanceaj(short_gbu))
-	("impulse_missile_armor" thickness(3) durability(30))
+	("impulse_missile_armor" thickness(7) durability(50))	;стенка ФАБ-500 около 10мм
 
 

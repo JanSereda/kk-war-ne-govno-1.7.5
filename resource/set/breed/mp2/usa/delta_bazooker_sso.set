@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_us_delta"}
+	{portrait "_new/usa/delta"}
+	{icon "us_delta_m136"}
+	{icon_priority 3}
+	{nationality usa}
+	{armors
+		{head opscore_delta}
+	}
+
+	(include "perks_generic.inc")
+	("traits_elite_bazooker")
+	{inventory
+		{item "lbt6094_delta_rpg"}
+		{item "556nato ammo" 210}
+        {item "javelin weapon" filling "jav_rock f ammo" 1}
+		{item "bandage" 10}
+		{item "smoke m18 grenade"}
+		{item "hk416_aimpoint" filling "556nato ammo" 30}
+        {item "ammo jav_rock f" 1}
+		{in_hands 5}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ztz-99a/junhui"}
+	{blend test}
+}

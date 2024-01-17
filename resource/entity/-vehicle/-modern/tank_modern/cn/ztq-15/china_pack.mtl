@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/zbd04a/china_pack"}
+	{blend none}
+}

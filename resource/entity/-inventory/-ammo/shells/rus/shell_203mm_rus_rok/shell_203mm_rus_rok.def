@@ -1,0 +1,10 @@
+{Actor
+	(include "/properties/stuff_shell.ext")
+	{extender "stuff"
+		{item "bullet203_rus rok"}
+	}
+	{props "explosive_stuff"}
+	{Extension "shell_203mm_rus_fg.mdl"}
+	("cw_advanced_bullet")
+	("cwbs_152mm_shell_sound")
+}

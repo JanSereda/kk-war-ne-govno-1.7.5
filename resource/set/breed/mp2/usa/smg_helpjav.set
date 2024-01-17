@@ -1,0 +1,24 @@
+{breed
+	{skin "cw_us_acu"}
+	{portrait "_new/usa/inf"}
+	{icon "us_army_javelin"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head ech_helmet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "iotv_g_rpg_a"}
+		{item "smoke m18 grenade"}
+		{item "smoke m18 grenade"}
+		{item "m61 grenade" 2}
+		{item "scar-l" filling "556nato ammo" 30}
+		{item "ammo jav_rock f" 2}
+		{item "556nato ammo" 120}
+		{item "bandage" 10}
+		{in_hands 4}
+	}
+}

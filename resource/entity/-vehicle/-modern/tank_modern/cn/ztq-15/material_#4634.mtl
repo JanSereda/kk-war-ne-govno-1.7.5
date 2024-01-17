@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ztq-15/ztz15_track_am"}
+	{blend test}
+}

@@ -1,0 +1,110 @@
+;SDL
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_tank_left"}	{base "open_driver"}}
+		{reverse 	{end	"emit_tank_1_hold" }{	base "open_driver" -1}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_pz-6"}	{base "open"}}
+		{reverse 	{end	"emit_tank_2_hold" }	{base "open"}}
+	}
+	{anm "gunner"
+		{forward	{begin	"board_pz-6"}	{base "open1"}}
+		{reverse 	{end	"emit_tank_2_hold"}	{base "open1"}}
+	}
+	{anm "mgun1"
+		{forward	{begin	"board_pz-6"}	{base "open_gunner_l"}}
+		{reverse 	{end	"emit_tank_2_hold"}	{base "open_gunner_l" -1}}
+	}
+	{anm "mgun2"
+		{forward	{begin	"board_pz-6"}	{base "open_gunner_r"}}
+		{reverse 	{end	"emit_tank_2_hold"}	{base "open_gunner_r" -1}}
+	}
+	{anm "passengers_r"
+		{forward	{begin	"embarkation_bmp3_r"} 	{base "open_desant_r"}} 
+	}
+	{anm "passengers_l"
+		{forward	{begin	"embarkation_bmp3_l"}	{base "open_desant_l"}}
+	}
+	{anm "Dismounting_r"
+		{reverse 	{end	"Dismounting_bmp3"}	{base "open_desant_r" }}
+	}
+	{anm "Dismounting_l"
+		{reverse 	{end	"Dismounting_bmp3"}	{base "open_desant_l" }}
+	}
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+
+	
+("crew_human" place(driver)	          door(emit1) group(crew)		          animation(driver))
+("crew_human" place(gunner)           door(emit5) group(crew)	              animation(gunner))
+("crew_human" place(commander)	      door(emit4) group(crew)	              animation(commander))
+ 	{placer
+		{place "driver"	{visor "driver"}}
+		{place "gunner"	{visor "main"}}
+		{place "commander"	{visor "panorama"}}
+		
+		;{place "gunner1"	{visor "mgum1"}}
+		;{place "gunner2"	{visor "mgum2"}}
+	}
+("crew_human" place(gunner1)	      door(emit1)  animation(mgun1)       group(passengers))   ;левый
+("crew_human" place(gunner2)	      door(emit2)  animation(mgun2)       group(passengers))   ;правый
+   
+ 
+ 
+ 
+ 
+(define "crew_human_b"
+	{placer
+		{place "%place" {group "%group"}}
+	}
+	{boarder
+		{door "%door" {auto_release_time 3}}    										 ;зададим дверь посадки
+		{node "nod_r"}  																;обозначим присутствие НОДа
+		{link "emit7" "nod_r" {anm "passengers_r"}{forward putoff} {reverse puton}}		
+		{link "nod_r" "%place" {anm "Dismounting_r"}}
+	}
+	
+)
+(define "crew_human_a"
+	{placer
+		{place "%place" {group "%group"}}
+	}
+	{boarder
+		{door "%door" {auto_release_time 3}}     
+		{node "nod_l"}
+		{link "emit6" "nod_l" {anm "passengers_l"}{forward putoff} {reverse puton}}
+		{link "nod_l" "%place" {anm "Dismounting_l"}}
+	}
+	
+)
+
+
+("crew_human_b" place(seat1)	      door(emit7)  animation(passengers_r)	group(passengers))
+("crew_human_a" place(seat2)	      door(emit6)  animation(passengers_l)	group(passengers))
+("crew_human_b" place(seat3)	      door(emit7)  animation(passengers_r)	group(passengers))
+("crew_human_a" place(seat4)	      door(emit6)  animation(passengers_l)	group(passengers))
+("crew_human_b" place(seat5)	      door(emit7)  animation(passengers_r)	group(passengers))
+("crew_human_a" place(seat6)	      door(emit6)  animation(passengers_l)	group(passengers))
+("crew_human_a" place(seat7)	      door(emit6)  animation(passengers_l)	group(passengers))
+
+
+
+
+
+
+
+
+
+
+

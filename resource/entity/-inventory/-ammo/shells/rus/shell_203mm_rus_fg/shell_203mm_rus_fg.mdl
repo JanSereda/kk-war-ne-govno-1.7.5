@@ -1,0 +1,65 @@
+;Exported by: Timosh
+;Date:        Sun Jan  7 14:18:52 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????????\203?? ??????\shell203.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	-1
+				0	-1	0
+				-6.36742	0	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 16.5189 3.77953 3.51969}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.90316	-0.0923468	0.128741
+	}
+}
+{Volume "select"
+	{Box 24.1176 5.70709 7.28575}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		1.90316	-0.192603	0.128741
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.329134	-0.184578	33.363}
+			{lookat 1.26939	-0.0539172	16.6132}
+			{fov 45}
+			{horizon -98.9428}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -15.0786	0.620675	8.57069}
+			}
+			{"1"
+				{type directional}
+				{direction 0.111952	-0.113776	-0.473837}
+			}
+			{"2"
+				{type point}
+				{position 8.80458	1.1798	6.93537}
+			}
+		}
+	}
+}

@@ -1,0 +1,176 @@
+;SDL
+;driver		seat5
+;commander
+;seat9		charger2
+;seat6		gunner
+;seat7		charger
+;seat8		charger3
+
+;длительность анимации close должна быть больше, чем полный цикл перемещения экипажа с походных мест на боевые.
+
+{boarder
+	{anm "walk"
+		{forward {speed 1}}
+		{reverse {speed 1}}
+	}
+;	board_dodge_body - для ступеньки.
+;	board_hetzer - возможно, залезание по лестнице
+;	board_hummel_driver - возможно, вместо анм мехвода
+;	cannon_155gpf_charger - для заряжающих
+;	cannon_m5_charger - для заряжающих
+;	cannon_flak38-1_gunlayer - для стрелка
+;	cannon_flak38_gunlayer - для стрелка
+;	cannon_vickers_gunlaeyr-r - для стрелка
+;	cannon_flak41_gunlayer_fire-alert - при выстреле
+;	cannon_pdr25_gunlayer_fire-alert - при выстреле
+;	cannon_vickers_gunlaeyr-r_fire-alert - при выстреле
+;	cannon_gunlayer_fire-alert - для стрелового и заряжающих при выстреле
+;	cannon_lg40_gunlayer_fire-alert_1 - для стрелового и заряжающих при выстреле
+;	pose_stand_2hand - для стрелового
+;	seat_m7_mgunner - для стрелового
+;	shield_stand - для стрелового
+;	t80y_mgunner  - для стрелового
+;	pose_vickers_gunlaeyr-r - для стрелка
+;	pose_pdr25_charger - для заряжающих
+	
+	
+	{anm "driver"
+		{forward	{begin	"board_middlearmor"} {end "seat_driver_car"} {base "open_driver"}{fix_orientation}}
+		{reverse 	{begin	"none"}{end	"emit_tank_1"} {base "open_driver" -1}{fix_orientation}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_middlearmor"} {end "seat_driver_car"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+		{door "emit0"}
+		{door "emit2"}
+		{door "emit3" {auto_release_time 2.5}}
+		{door "emit4"}
+		{door "emit5"}
+		{door "emit6"}
+		{door "emit7"}
+		{link "driver" "seat5"}
+}
+
+(define "crew_human_visible"
+	{placer
+		{place "%place" {LinkBone "%place"} {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+{placer
+	{crew}
+}
+
+;это мехвод. В развернутом состоянии неактивен, превращается в пассажира. В неразвернутом ведет.
+("crew_human" place(driver)		door(emit0) group(crew)		animation(driver)	    visor(driver))
+("crew_human" place(seat5)		door(emit0) group(crew)		animation(driver)	    visor(driver))
+;Это стрелок. В развернутом стреляет, в неразвернутом - пассажир.
+;Это заряжающий. В развернутом стреляет, в неразвернутом - пассажир.
+	{placer
+		{place "seat6" {group "crew"} {visor "none"}}
+		{place "gunner" {LinkBone "gunner"} {group "crew"} {visor "main"}{openForCrush}	{useVision}}
+		{place "seat7" {group "crew"} {visor "none"}}
+		{place "charger" {LinkBone "charger"} {group "crew"} {visor "main"}{openForCrush}	{useVision}}
+	}
+	{boarder
+		{anm "left_ladder"
+			{forward	{begin	"board_lowarmor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "step"
+			{forward	{begin	"board_dodge_body"}}
+			{reverse 	{end	"board_dodge_body" -1}}
+		}
+		{anm "to_hatch_left"
+			{forward	{begin	"board_lowarmor" -1} {base "open_gunner"}}
+			{reverse 	{end	"board_lowarmor"} {base "open_gunner" -1}}
+		}
+		{anm "gunner_place"
+			{forward	{end "pose_vickers_gunlaeyr-r"}}
+			{reverse 	{begin "pose_vickers_gunlaeyr-r"}}
+		}
+		{anm "charger_place"
+			{forward	{end "cannon_m5_gunlayer" 2}}
+			{reverse 	{begin "cannon_m5_gunlayer" 2}}
+		}
+		{node "node1"}
+		{node "node2"}
+		{node "node3"}
+		{node "node3a"}
+		{node "node4"}
+		{link "emit3" "node1" {anm "left_ladder"} {forward putoff} {reverse puton}}
+		(mod "mp" {link "node1" "node2"}) (mod not "mp" {link "node1" "node2" {anm "step"}})
+		{link "node2" "node3" }
+		{link "node3" "node3a"}
+		(mod "mp" {link "node3a" "seat6"}) (mod not "mp" {link "node3a" "seat6" {anm "to_hatch_left"}})
+		(mod "mp" {link "node3a" "seat7"}) (mod not "mp" {link "node3a" "seat7" {anm "to_hatch_left"}})
+		{link "node1" "node4"}
+		(mod "mp" {link "node4" "gunner"}) (mod not "mp" {link "node4" "gunner" {anm "gunner_place"}})
+		(mod "mp" {link "node4" "charger"}) (mod not "mp" {link "node4" "charger" {anm "charger_place"}})
+	}
+;Заряжающие на земле charger2 и charger3
+;на MOW2 активировать закомменченное
+	{placer
+		{place "seat9" {group "crew"} {visor "none"}}
+;		{place "charger2" {LinkBone "charger2"} {group "crew"}{openForCrush} {useVision}}
+		{place "seat8" {group "crew"} {visor "none"}}
+;		{place "charger3" {LinkBone "charger3"} {group "crew"}{openForCrush} {useVision}}
+	}
+	{boarder
+		{anm "charger2_place"
+			{forward	{begin "stand_idle_empty_1" 3}{end "pose_155gpf_charger"}}
+			{reverse 	{begin "pose_155gpf_charger"}{end "stand_idle_empty_1" 3}}
+		}
+		{anm "charger3_place"
+			{forward	{begin "stand_idle_empty_1" 3}{end "pose_m5_charger"}}
+			{reverse 	{begin "pose_m5_charger"}{end "stand_idle_empty_1" 3}}
+		}
+		{anm "right"
+			{forward	{begin "board_middlearmor"}{end	"none"}{fix_orientation}}
+			{reverse 	{end	"emit_tank_1"}{fix_orientation}}
+		}
+		{anm "to_hatch_right"
+			{forward	{begin	"board_lowarmor" -1} {base "open_charger"}}
+			{reverse 	{end	"board_lowarmor"} {base "open_charger" -1}}
+		}
+		{node "node8"}
+		{node "node9"}
+		{node "node9a"}
+		{node "node10"}
+		{link "emit7" "node9" {forward putoff} {reverse puton}}
+		{link "node9" "node9a"}
+		{link "node9a" "seat9" {anm "driver"}}
+		{link "node9" "node8" {anm "[fsm]"}}
+		{link "node8" "node10" {anm "[fsm]"}}
+;		{link "node10" "charger2" {anm "charger2_place"}}
+		{link "emit5" "node8" {forward putoff} {reverse puton}}
+
+		{node "node5"}
+		{node "node6"}
+		{node "node6a"}
+		{node "node11"}
+		{link "emit4" "node6a"{forward putoff} {reverse puton}}
+		{link "node6a" "node5" {anm "right"}}
+		{link "node5" "seat8" {anm "to_hatch_right"}}
+		{link "node6a" "node6"}
+		{link "node6" "node11" {anm "[fsm]"}}
+;		{link "node11" "charger3" {anm "charger3_place"}}
+		{link "emit6" "node11" {forward putoff} {reverse puton}}
+	}
+
+("crew_human" place(commander)	door(emit2) group(crew)	    animation(commander)	    visor(add))
+
+

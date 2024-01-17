@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/bmp3/XX/bmp3_body_xx"}
+	{blend none}
+}

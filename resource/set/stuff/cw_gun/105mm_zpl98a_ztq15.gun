@@ -1,0 +1,6 @@
+;Created by Pheonix 
+{from "105mm_zpl98a"    ; Ztq15
+	{reloadSound "autoloader_leclerc"}
+	{RecoveryTime 4.36}	;это если снаряд подан на линию стрельбы заранее
+	{rechargeTime 5.4}
+}

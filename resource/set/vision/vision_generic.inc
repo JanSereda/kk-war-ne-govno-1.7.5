@@ -211,6 +211,9 @@
             {visible (* %optic 1.65)}
             {still (* %optic 1.5)}
         }
+		{glide_bomb (* %optic 0.8)
+			{visible (* %optic 1.4)}
+		}
         {small_UAV (* %optic 0.8)
 			{visible (* %optic 1.4)}
 		}
@@ -322,7 +325,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(1))
         ("marine_in_rad_spectre" radar(1) stand_radar(1))
 		{missile 0.001} {targetable_missile 8}
-		{impactor 0.001} {targetable_impactor 6.2}
+		{impactor 0.001} {targetable_impactor 6.2} {glide_bomb 6.2}
         {proj_point 10}
 		{antirad_point 9}
 		{large_antirad_point 15}
@@ -340,7 +343,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(1))
         ("marine_in_rad_spectre" radar(2) stand_radar(1))
         {missile 0.001} {targetable_missile 5}
-		{impactor 0.001} {targetable_impactor 6.2}
+		{impactor 0.001} {targetable_impactor 6.2} {glide_bomb 6.2}
         {proj_point 0.001}
 		{antirad_point 4}
 		{large_antirad_point 5}
@@ -358,7 +361,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(1))
         ("marine_in_rad_spectre" radar(1) stand_radar(1))
         {missile 0.001} {targetable_missile 5}
-		{impactor 0.001} {targetable_impactor 6.2}
+		{impactor 0.001} {targetable_impactor 6.2} {glide_bomb 6.2}
         {proj_point 0.001}
 		{antirad_point 4}
 		{large_antirad_point 5}
@@ -376,7 +379,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(1))
         ("marine_in_rad_spectre" radar(1) stand_radar(1))
         {missile 0.001} {targetable_missile 5}
-		{impactor 0.001} {targetable_impactor 5.5}
+		{impactor 0.001} {targetable_impactor 5.5} {glide_bomb 5.5}
         {proj_point 0.001}
 		{antirad_point 0.001}
 		{large_antirad_point 0.001}
@@ -393,7 +396,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(1))
         ("marine_in_rad_spectre" radar(1) stand_radar(1))
         {missile 0.001} {targetable_missile 5}
-		{impactor 0.001} {targetable_impactor 5.5}
+		{impactor 0.001} {targetable_impactor 5.5} {glide_bomb 5.5}
         {proj_point 0.001}
 		{antirad_point 0.001}
 		{large_antirad_point 0.001}
@@ -411,7 +414,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(1))
         ("marine_in_rad_spectre" radar(2) stand_radar(1))
         {missile 0.001} {targetable_missile 0.001}
-		{impactor 0.001} {targetable_impactor 0.001}
+		{impactor 0.001} {targetable_impactor 0.001} {glide_bomb 0.001}
         {proj_point 0.001}
  		{antirad_point 0.001}
 		{large_antirad_point 0.001}
@@ -428,7 +431,7 @@
         ("small_UAV_in_rad_spectre" radar(1) stand_radar(0.001))
         ("aviation_in_rad_spectre" radar(1) stand_radar(0.001))
         {missile 0.001} {targetable_missile 4}
-		{impactor 0.001} {targetable_impactor 3.38}
+		{impactor 0.001} {targetable_impactor 3.38} {glide_bomb 3.38}
         {proj_point 0.001}
         {bigship 0.001}
         {submarine 0.001}
@@ -447,7 +450,7 @@
         ("aviation_in_rad_spectre" radar(0.001) stand_radar(0.001))
         ("marine_in_rad_spectre" radar(0.6) stand_radar(0.001))
         {missile 0.001} {targetable_missile 0.001}
-		{impactor 0.001} {targetable_impactor 0.001}
+		{impactor 0.001} {targetable_impactor 0.001} {glide_bomb 0.001}
         {proj_point 0.001}
  		{antirad_point 0.001}
 		{large_antirad_point 0.001}
@@ -462,7 +465,7 @@
         ("small_UAV_in_rad_spectre" radar(1) stand_radar(0.001))
         ("aviation_in_rad_spectre" radar(1) stand_radar(0.001))
         {missile 0.001} {targetable_missile 0.001}
-		{impactor 0.001} {targetable_impactor 0.001}
+		{impactor 0.001} {targetable_impactor 0.001} {glide_bomb 0.001}
         {proj_point 0.001}
         {bigship 0.001}
         {submarine 0.001}
@@ -479,7 +482,7 @@
         ("small_UAV_in_rad_spectre" radar(0.001) stand_radar(1))
         ("aviation_in_rad_spectre" radar(1) stand_radar(0.001))
         {missile 0.001} {targetable_missile 0.001}
-		{impactor 0.001} {targetable_impactor 0.001}
+		{impactor 0.001} {targetable_impactor 0.001} {glide_bomb 0.001}
         {bigship 0.001}
         {submarine 0.001}
         {proj_point 0.001}
@@ -497,7 +500,7 @@
         ("aviation_in_rad_spectre" radar(1) stand_radar(0.001))
         ("marine_in_rad_spectre" radar(1) stand_radar(1))
         {missile 0.001} {targetable_missile 3.5}
-		{impactor 0.001} {targetable_impactor 2}
+		{impactor 0.001} {targetable_impactor 2} {glide_bomb 2}
         {proj_point 0.001}
 		{antirad_point 4}
 		{large_antirad_point 5}
@@ -512,7 +515,7 @@
         ("small_UAV_in_rad_spectre" radar(0.001) stand_radar(1))
         ("aviation_in_rad_spectre" radar(1) stand_radar(0.001))
         {missile 0.001} {targetable_missile 4}
-		{impactor 0.001} {targetable_impactor 3.38}
+		{impactor 0.001} {targetable_impactor 3.38} {glide_bomb 3.38}
         {proj_point 0.001}
         {bigship 4}
         {submarine 1}
@@ -527,7 +530,7 @@
         ("ground_veh_invisible")
 		("aviation_invisible")
         {missile 1} {targetable_missile 1}
-		{impactor 1} {targetable_impactor 1}
+		{impactor 1} {targetable_impactor 1} {glide_bomb 0.001}
         {bigship 0.001}
         {submarine 0.001}
         {proj_point 0.001}
@@ -553,6 +556,10 @@
 		{stealth_plane 0.001
 			{visible %r}
         }
+		{glide_bomb 0.001
+			{visible %r}
+		
+		}
         {small_UAV 0.001
 			{visible %r}
 		}

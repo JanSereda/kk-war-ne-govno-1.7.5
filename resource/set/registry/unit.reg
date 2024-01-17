@@ -1,6 +1,10 @@
 ;SDL
 {units
 
+{"ztq-15"			{structure "cwds_tank2"}}
+{"2s7m_malka"			{structure "cwds_tank2"}}
+
+
 
 {"uaz469_spg9"			{structure "cwds_armcar"}}
 {"uaz469_ub32"			{structure "cwds_armcar"}}

@@ -1,0 +1,21 @@
+{breed
+	{skin "cw_us_acu"}
+	{portrait "_new/usa/inf"}
+	{icon "us_army_javelin"}
+	{icon_priority 4}
+	{nationality usa}
+	{armors
+		{head ech_helmet}
+	}
+
+	(include "perks_generic.inc")
+	("traits_army_bazooker")
+	{inventory
+		{item "iotv_g_rpg"}
+		{item "javelin weapon" filling "jav_rock f ammo" 1}
+		{item "ammo jav_rock f" 1}
+		{item "bandage" 5}
+		{item "smoke m18 grenade"}
+		{in_hands 1}
+	}
+}

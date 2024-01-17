@@ -1,0 +1,5 @@
+;Created by Pheonix 
+{from "203mm_2a44"     ; "Малка"
+	{rechargeTime 40}	;1.5 выс/мин для Пиона
+	{ZeroingAccuracy 0.75 0.5}
+}

@@ -1,3 +1,22 @@
+{"t-64bm2"
+	{on spawn
+		{call "rand_tex"}	
+	}
+	{on "rand_tex"	
+				(define "rand_tex" 
+						{if rand %r1
+							{delay 0.05 
+								{tex_mod "%r2"}	
+							}
+						}
+				)	
+("rand_tex" r1(0.15) r2(serb_1))	
+("rand_tex" r1(0.15) r2(serb_2))	
+
+
+	}
+	
+}
 {"toyota_hilux_dshkm"
 	{on spawn
 		{call "rand_tex"}	

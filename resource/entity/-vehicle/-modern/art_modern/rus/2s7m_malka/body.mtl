@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/2s7m_malka/2s7_pion_body_diff"}
+	{bump "$/model/2s7m_malka/2s7_pion_body_bp"}
+	{specular "$/model/2s7m_malka/2s7_pion_body_spec"}
+	{color "230 230 230 25"}
+	{blend none}
+}

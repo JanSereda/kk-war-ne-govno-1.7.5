@@ -1,0 +1,9 @@
+{from "pattern submunition"
+	{tag "size2" "fx_gren"}
+	{entity "3o16_submunition"}
+	;230г ВВ A-IX-2 гексал (т.э. 1,7), масса 1,375кг
+	;осколочный шаблон
+	{damage blastwave {energy 0.7} {area 5.3 6.2}}
+	{damage add blastwave {energy 1.2} {area 2.4 2.7}}
+	{damage add blastwave {energy 2.5} {area 0.3 0.3}} ; для уничтожения радаров, грузовиков
+}
