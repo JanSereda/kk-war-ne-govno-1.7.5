@@ -130,7 +130,7 @@
 
 
 
-
+{"ztq-15"		("v" c(500) t(all_nz tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(150) b(cnheavy_hqcar) i(69) cw(0) cp(60))  {fore 1}}
 
 {"ztz-96a"		("v_v" c(450) brig(cnheavy) t(all_nz tanks_only duel_tanks90 tank_cn) s(cn) n(3) g(obt_mot1)  sc(150) b(cnheavy_hqcar) i(7) m(4) cw(0) cp(50))  {fore 1}} 
 
