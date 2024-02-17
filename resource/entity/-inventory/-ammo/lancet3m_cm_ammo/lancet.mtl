@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/lancet3m/lancet3m"}
+	{blend none}
+}

@@ -1,0 +1,106 @@
+-= Animation: move, Node Propeller =-
+	Frame 40 {
+		Visibility 0
+		Position	-15.378	0.0280954	-0.15648
+		Orientation	-0.83147 0 0 0.55557
+	}
+	Frame 41 {
+		Orientation	0.92388 0 0 -0.382684
+	}
+	Frame 42 {
+		Orientation	0.980785 0 0 -0.19509
+	}
+	Frame 43 {
+		Orientation	1 0 0 0
+	}
+	Frame 44 {
+		Orientation	0.980785 0 0 0.19509
+	}
+	Frame 45 {
+		Orientation	0.92388 0 0 0.382683
+	}
+	Frame 46 {
+		Orientation	0.83147 0 0 0.55557
+	}
+	Frame 47 {
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 48 {
+		Orientation	0.55557 0 0 0.83147
+	}
+	Frame 49 {
+		Orientation	0.382684 0 0 0.923879
+	}
+	Frame 50 {
+		Orientation	0.195091 0 0 0.980785
+	}
+	Frame 51 {
+		Orientation	0 0 0 1
+	}
+	Frame 52 {
+		Orientation	-0.19509 0 0 0.980785
+	}
+	Frame 53 {
+		Orientation	-0.382683 0 0 0.92388
+	}
+	Frame 54 {
+		Orientation	-0.55557 0 0 0.83147
+	}
+	Frame 55 {
+		Visibility 0
+		Position	-15.378	0.0280954	-0.15648
+		Orientation	-0.707106 0 0 0.707107
+	}
+-= Animation: move, Node propeller_work1 =-
+	Frame 40 {
+		Visibility 1
+		Position	-15.0744	0.0280954	-0.15648
+		Orientation	0.346105 -0.616613 0.346105 0.616613
+	}
+	Frame 41 {
+		Orientation	0.210341 -0.675097 0.210341 0.675097
+	}
+	Frame 42 {
+		Orientation	0.065384 -0.704077 0.065384 0.704077
+	}
+	Frame 43 {
+		Orientation	-0.0824307 -0.702286 -0.0824307 0.702286
+	}
+	Frame 44 {
+		Orientation	-0.226643 -0.669801 -0.226643 0.669801
+	}
+	Frame 45 {
+		Orientation	-0.36095 -0.608042 -0.36095 0.608042
+	}
+	Frame 46 {
+		Orientation	-0.479481 -0.51971 -0.479481 0.51971
+	}
+	Frame 47 {
+		Orientation	0.577057 0.408663 0.577057 -0.408663
+	}
+	Frame 48 {
+		Orientation	0.649413 0.279756 0.649413 -0.279756
+	}
+	Frame 49 {
+		Orientation	0.693386 0.138622 0.693386 -0.138622
+	}
+	Frame 50 {
+		Orientation	0.707055 -0.00857028 0.707055 0.0085702
+	}
+	Frame 51 {
+		Orientation	0.689822 -0.155388 0.689822 0.155388
+	}
+	Frame 52 {
+		Orientation	0.642441 -0.295414 0.642441 0.295414
+	}
+	Frame 53 {
+		Orientation	0.566982 -0.42253 0.566982 0.42253
+	}
+	Frame 54 {
+		Orientation	0.466743 -0.531179 0.466743 0.531179
+	}
+	Frame 55 {
+		Visibility 1
+		Position	-15.0744	0.0280954	-0.15648
+		Orientation	0.346105 -0.616613 0.346105 0.616612
+	}

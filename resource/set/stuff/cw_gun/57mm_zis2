@@ -1,0 +1,47 @@
+
+;Created by Pheonix 
+{from "pattern tank_gun"    ; "mt-12"
+	{filling "bullet57"}
+	{fireSound "gun/100mm_D10-t"}
+	{reloadSound "gun73reload"}
+	{rechargeTime 4.5}
+	{range 135 135}
+	("CW_acc_common" mils(0.24))
+	("CW_acc_common_130" mils(0.24))
+
+	{cursor "cannon_on_fg_4"}
+	{cursorReloading "cannon_reload_fg"}
+	("speed" s(663))
+	("100-128caliber")
+	{calibre 15}
+	
+	{parameters "bullet57 ap"             ; ПК 3БМ24 Калач
+		("CW_APCR_damage_ST1500" penetr_2000m(195)) ; +15% к бронебойности 3БМ2 
+		{range 145 145}
+		("CW_acc_common" mils(0.27));оценка
+		("CW_acc_common_130" mils(0.27));оценка
+		;{cursor "arta_apcr"}
+		;{cursorReloading "arta_apcr_reload"}
+		{cursor "cannon_on_apcr"}
+		{cursorReloading "cannon_reload_apcr"}
+		("speed" s(1575))
+	}
+	{parameters "bullet57 apcr"
+		{range 145 145}
+		("CW_acc_common" mils(0.44));оценка
+		("CW_acc_common_130" mils(0.44));оценка
+		{cursor "arta_heat"}
+		{cursorReloading "arta_heat_reload"}	
+		{cursor "cannon_on_heat"}
+		{cursorReloading "cannon_reload_heat"}
+		("speed" s(975))
+	}
+	{parameters "bullet57 fg"
+		("speed" s(563))
+		{gravity 7}	
+	}
+
+
+
+}
+                    

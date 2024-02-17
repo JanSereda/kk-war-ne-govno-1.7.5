@@ -1,0 +1,19 @@
+{from "pattern cm"	
+	{tag "ammo shell itemin2hands cm hesh_type_dmg no_ricochet cumulative size2 -low_speed -fragmentary -antiinf bullet90_nato" "fx_90_110"}
+	{inventory
+		{size 5 1}
+	}
+;	("ap" args 1.1)
+	{mass 8.2}
+	{entity "shell_fr_hesh_90mm"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;NR 503A2 4.2кг - 0,9 кг ВВ Состав А3 - расчет взял кумулятивно-фугасный, т.к. безоболочечный очен слаб, а 3 кг снаряда никуда не денутся.
+{damage blastwave {energy 0.7} {area 4.4 5}}
+{damage add blastwave {energy 1.2} {area 3 3.5}}
+{damage add blastwave {energy 2.5} {area 0.2 0.3}}	;бонус
+{damage cumulative {damage 80} {distance 3}}
+}

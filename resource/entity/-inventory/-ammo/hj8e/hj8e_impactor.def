@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{Extension "hj8e.mdl"}
+	{props "projectile_impactor" "cm_jet_med"}
+	{extender "stuff"
+		{item "hj8e_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+}

@@ -94,10 +94,10 @@
 	{item "ur_83p_ammo ammo" 1 		{max 2}	{value 25}}
 )
 (define "UAV_rus"
-	{item "eleron3sv ammo" 1 {max 3}{value 69}}
+	{item "eleron3sv ammo" 1 {max 1}{value 150}}
 )
 (define "UAV_kamikadze_rus"
-	{item "lancet3m cm ammo" 1 {max 5}{value 69}}	
+	{item "lancet3m cm ammo" 1 {max 2}{value 150}}
 )
 (define "UAV_kamikadze_usa"
 	{item "switchblade600 ammo" 1 {max 2}{value 200}}
@@ -516,6 +516,11 @@
 	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
+(define "203mm"
+	{item "bullet203_rus fg ammo" 1 {max 5} {value 15}}				
+	{item "bullet203_rus cl ammo" 1 {max 3} {value 30}}	
+   ; {item "bullet203_rus rok ammo" 99 {max 99}{value 15}}
+)
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
 	{item "bullet155_USA fg ammo" 1 {max 30}{value 15}}				
@@ -567,10 +572,10 @@
     {item "phl03 bre3 fg ammo" 4 {max 12}{value 160}}
 )
 (define "grad"
-	{item "grad rok ammo" 8 {max 40}{value 100}}
-    {item "tos1a fg ammo" 2 {max 24}{value 30}}	
 	{item "shahed136 base ammo" 1 {max 5}{value 30}}	
 	{item "ammo r17" 1 {max 1} {value 300}}	
+	{item "grad rok ammo" 8 {max 40}{value 100}}
+    {item "tos1a fg ammo" 2 {max 24}{value 30}}	
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
 ;	{item "grad fg ammo" 10 {max 40}{value 50}}				
 ;	{item "grad spbe ammo" 10 {max 40}{value 50}}				
@@ -629,14 +634,12 @@
 	{item "tow_missile tow2b ammo" 1 {max 2}{value 10}}	
 	{item "tow_missile tow2_fg ammo" 1 {max 2}{value 15}}						
 	;{item "tow_missile tow2d ammo" 1 {max 2}{value 10}}					
-    {item "jav_rock ammo" 1 {max 2}{value 30}}		
-	{item "agm-114 k ammo" 1 {max 4}{value 10}}
-;	{item "agm-114 l ammo" 1 {max 2}{value 10}}
-	;{item "agm-114 n ammo" 1 {max 2}{value 10}}
+    {item "jav_rock f ammo" 1 {max 2} {value 30}}		
+	{item "agm-114 k ammo" 4 {max 4}{value 10}}
+	{item "agm-114 l ammo" 1 {max 2}{value 75}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
 	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
 	{item "mistral_missile ammo" 2 {max 4}{value 15}}
-	{item "starstreak_ammo ammo" 3 {max 3}{value 30}}
     {item "spike-er2 spike-er ammo" 1 {max 4}{value 61}}			
 )
 (define "atgm_nato"
@@ -655,6 +658,7 @@
 	{item "agm-114 k ammo" 1 {max 4}{value 10}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 5}}
 	{item "xmim-115avt1 ammo" 2 {max 10}{value 20}}
+	{item "ammo starstreak_ammo" 3 {max 6}{value 30}}
 )
 (define "atgm_cn"
 	{item "hj73 hj73c" 1 {max 4}{value 4}}				
@@ -672,7 +676,8 @@
 	;{item "strela10 9m37 ammo" 1 {max 8}{value 9}}				
 	{item "strela10 9m333 ammo" 2 {max 8}{value 9}}				
 	{item "9m31 ammo" 1 {max 4}{value 9}}	
-    {item "9m338 ammo" 4 {max 16}{value 10}}	
+    {item "9m338 ammo" 4 {max 16}{value 10}}
+	{item "9m330 ammo" 2 {max 8}{value 20}}
 	;{item "9m38 buk ammo" 1 {max 4}{value 50}}				
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
@@ -680,12 +685,11 @@
     {item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
+	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}	
-	
-	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
+	{item "rvv-sd ammo" 1 {max 10}{value 5}}					
 )
 (define "sam_usa"
 	{item "patriot ammo" 2 {max 4}{value 25}}		;лимит 3000		
@@ -909,6 +913,7 @@
 			("122mm")
 			("125mm")
 			("152mm")
+			("203mm")
 			("105mm_idf")
 			("105mm_USA")
 			("105mm_NATO")
@@ -1313,6 +1318,7 @@
 		{resupply
 			("122mm")
 			("152mm")
+			("203mm")
 			("iskander")
 			("grad")
 			("smerch")

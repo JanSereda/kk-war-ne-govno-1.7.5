@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/toyota_hilux/rot"}
+	{blend none}
+}

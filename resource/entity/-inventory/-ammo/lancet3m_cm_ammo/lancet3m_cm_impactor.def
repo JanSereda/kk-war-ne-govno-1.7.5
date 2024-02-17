@@ -1,0 +1,37 @@
+{actor
+	(include "/properties/projectile_impactor.ext")
+	{Extension "lancet3m_cm_ammo.mdl"}
+	{props "projectile_impactor" "propfan" "cm_jet_small"}
+	{extender "stuff"
+		{item "lancet3m_cm_impactor"}
+	}
+	{volume "body"
+		{able {contact} {bullet} {blast} {contact_ground}}
+	}
+	;following record interrupts detonation, it must not be in _impactor, only in _impactor_link
+	;("targetable_impactor_small")	;low speed and high flight altitude
+	{Volume "elevator1"
+		{tags "body"}
+	}
+	{Volume "elevator2"
+		{tags "body"}
+	}
+	{Volume "elevator3"
+		{tags "body"}
+	}
+	{Volume "elevator4"
+		{tags "body"}
+	}
+	{Volume "wingl1"
+		{tags "part"}
+	}
+	{Volume "wingl2"
+		{tags "part"}
+	}
+	{Volume "wingr1"
+		{tags "part"}
+	}
+	{Volume "wingr2"
+		{tags "part"}
+	}
+}

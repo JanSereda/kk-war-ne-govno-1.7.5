@@ -15,15 +15,12 @@
 	{cursor "cannon_on"}
 	{cursorReloading "cannon_reload"}
 	
-;	{spreading
-;		{SpreadRadius 10}	;Чисто оценочно, т. к. кустарщина.
-;	}
 	{speed 120} 	;оставил, за 1.1с работы двигателя ракета пролетает 300м
 		("CW_acc_artillery" mils(6.6))
  ;см Б8Б20
 
 	{rechargeTime 50}
-	{gravity 9}
+	{gravity 7}
 	{speed 120}
 	{aimtype direct}
 	

@@ -1,0 +1,16 @@
+{from "pattern cm"
+	{tag "ammo" "shell" "itemin2hands" "cm" "cm_b" "no_ricochet" "cumulative" "size2" "-low_speed" "-fragmentary" "-antiinf" "bullet90_nato" "fx_90_110" "fx_cm"}
+	{inventory
+		{size 5 1}
+	}	
+	{mass 8.4}
+	{entity "shell_fr_m_heat_90mm"}
+	{view "cm_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}	
+	;M620A1 4.1кг 0,56 кг октола (ТЭ 1,54)
+	{damage blastwave {energy 1.2} {area 1.7 2}}
+	{damage cumulative {damage 250} {distance 3}}
+}

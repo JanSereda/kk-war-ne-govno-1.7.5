@@ -161,6 +161,8 @@
 	("spawn_proj_7" country(rus) type(other) weapon_tag(hj8e_target) decoytype(optic) decoyprob(0.3) min_alt(-100))
 	else stuff "hj8h ammo"				
 	("spawn_proj_7" country(rus) type(other) weapon_tag(hj8h_target) decoytype(optic) decoyprob(0.3) min_alt(-100))
+	else stuff "hj8f ammo"				
+	("spawn_proj_7" country(rus) type(other) weapon_tag(hj8f_target) decoytype(optic) decoyprob(0.3) min_alt(-100))
 	else stuff "hj9_missile ammo"				
 	("spawn_proj_7" country(rus) type(other) weapon_tag(hj9_missile_target) decoytype(optic) decoyprob(0.3) min_alt(-100))
 	else stuff "hj-10 hj-10b ammo"				
@@ -216,13 +218,14 @@
 	else stuff "aim7m_air ammo"			
 	("spawn_proj_9" country(usa) type(active) weapon_tag(aim7m_target) decoytype(chaff) decoyprob(0.22) min_alt(15))
 	else stuff "9m38 ammo"			
-	("spawn_proj_1" country(rus) type(active) weapon_tag(9m38_target) decoytype(chaff) decoyprob(0.21) min_alt(15))
+	("spawn_proj_1" country(rus) type(active) weapon_tag(9m38_target) decoytype(chaff) decoyprob(0.21) min_alt(10))
 	else stuff "9m317 ammo"			
-	("spawn_proj_1" country(rus) type(active) weapon_tag(9m317_target) decoytype(chaff) decoyprob(0.15) min_alt(15))
+	("spawn_proj_1" country(rus) type(active) weapon_tag(9m317_target) decoytype(chaff) decoyprob(0.15) min_alt(10))
 	else stuff "9m33 ammo"			
 	("spawn_proj_1" country(rus) type(active) weapon_tag(9m33_target) decoytype(chaff) decoyprob(0.21) min_alt(15))
 	else stuff "fpv_drone_ammo ammo"				
 	("spawn_proj_5" country(srbsk) type(other) weapon_tag(fpv_drone_ammo_target) decoytype(optic) decoyprob(0) min_alt(-100))	
+	else stuff "patriot ammo"		
 	("spawn_proj_5" country(usa) type(active) weapon_tag(patriot_target) decoytype(chaff) decoyprob(0.14) min_alt(15))
 	else stuff "xmim-115avt1 ammo"	
 	("spawn_proj_7" country(usa) type(active) weapon_tag(xmim-115avt1_target) decoytype(chaff) decoyprob(0.05) min_alt(10))

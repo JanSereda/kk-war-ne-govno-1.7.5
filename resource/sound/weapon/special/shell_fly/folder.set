@@ -1,0 +1,6 @@
+{sound
+	{tag effects}
+	{loudness "mortar_fly"}
+	{signal shot 40}
+	{volume 3.4}
+}

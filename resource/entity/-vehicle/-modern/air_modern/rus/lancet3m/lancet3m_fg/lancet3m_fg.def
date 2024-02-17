@@ -6,6 +6,7 @@
 	(include "/properties/car_crew.ext")
 	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "lancet3m" "smalluav_rus" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}	
 	;controller prop - "smalluav_rus_control"
+	{props "ecm_vulnerable_rus"}
 
 	{Extension "lancet3m_fg.mdl"}
 		("missile_aimpoint_custom" height(0) front(0) side(0))

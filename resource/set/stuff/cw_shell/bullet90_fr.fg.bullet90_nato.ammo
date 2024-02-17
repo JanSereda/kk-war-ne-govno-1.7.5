@@ -1,0 +1,17 @@
+{from "pattern fg"
+	{tag "big" "size2" "88to105" "bullet90_nato" "fx_90_110"}
+	{tag "fg_100_shell"} ; только для ammo.set
+	{mass 8.9}
+	{inventory
+		{size 5 1}
+	}	
+	{entity "shell_fr_he_90mm"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;NR 501A1 5,2кг, 0,8кг TNT (ТЭ 1), заявляется летальный радиус 15м.
+	{damage blastwave {energy 0.7} {area 4.8 5.5}}
+	{damage add blastwave {energy 1.2} {area 3.3 3.8}}
+}

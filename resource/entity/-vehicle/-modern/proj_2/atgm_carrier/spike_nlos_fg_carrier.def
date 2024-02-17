@@ -7,6 +7,7 @@
 	;такой большой калибр из-за большого размаха крыльев.
 	;("maneuvrability_cwps3" deg_per_s(20))
 	("maneuvrability_cwps3" deg_per_s(15))
+	{props "ecm_vulnerable_usa"}
 	{sensor
 		{Visor "add"
 			{vision "tank_gunner_optic_IR_3g"}	;https://www.youtube.com/watch?v=XdDOHgcLGRI

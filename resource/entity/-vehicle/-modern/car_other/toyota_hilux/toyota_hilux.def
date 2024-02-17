@@ -79,7 +79,7 @@
 			{LinkBone "mgun2"}
 			{LinkAnimation "off"}
 			{charger "gunner"}
-			("abm_mgun")
+			("CW_stab_no_stabiliser")
 
 		}
 	}

@@ -1,0 +1,20 @@
+{from "pattern cm"	
+	{tag "ammo shell itemin2hands cm hesh_type_dmg no_ricochet cumulative size2 -low_speed -fragmentary -antiinf bullet90_nato" "fx_90_110"}
+	{inventory
+		{size 5 1}
+	}
+;	("ap" args 1.1)
+	{mass 8.5}
+	{entity "shell_fr_m_hesh_90mm"}
+	{view "fg_fly"}
+	{trace
+		{view "/texture/fx/trace" {ScaleY 0.2}}
+		{length 2}
+	}
+	;M625A1 4.5кг - 1,2 кг ВВ Состав А3 - расчет взял кумулятивно-фугасный, т.к. безоболочечный очен слаб, а 3 кг снаряда никуда не денутся.
+{damage blastwave {energy 0.7} {area 4.8 5.6}}
+{damage add blastwave {energy 1.2} {area 3.4 3.9}}
+{damage add blastwave {energy 2.5} {area 0.6 0.7}}
+{damage add blastwave {energy 6.5} {area 0.2 0.3}}	;бонус
+{damage cumulative {damage 100} {distance 3}}
+}

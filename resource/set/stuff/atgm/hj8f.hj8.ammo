@@ -1,0 +1,12 @@
+{from "pattern proj_pointer"
+	{tag "hj8" "no_ricochet" "-ap" "big" "size3" "88to105" "laser_using_missile" "semiactive" "ground_other_rus" } 
+	{tag "atgm_cw" "atgm_ground"} ; только для ammo.set
+	 {mass 26}
+	
+	{entity "hj8f"}
+	{inventory
+		{weight 100}
+		{size 6 1}
+	}
+}
+ 

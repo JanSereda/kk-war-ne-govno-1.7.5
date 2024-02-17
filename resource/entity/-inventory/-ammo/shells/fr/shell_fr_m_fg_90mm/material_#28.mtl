@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "90mm_fg_m"}
+	{blend none}
+}

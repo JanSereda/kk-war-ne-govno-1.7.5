@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/zulfiqar-3/t_east_tank_zulfiqar_track_d"}
+	{blend test}
+}

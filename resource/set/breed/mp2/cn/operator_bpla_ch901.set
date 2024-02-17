@@ -1,0 +1,23 @@
+{breed
+	{skin "cw_cn_inf"}
+	{portrait "_new/cn/inf"}
+	{icon "soldier"}
+	{icon_priority 0}
+	{nationality cn}
+	{armors
+		{head "qgf03"}
+	}
+	(include "perks_generic.inc")
+	("traits_vehicle_supporter")
+	{inventory
+		{item "type06h_uav"}
+		{item "bandage" 5}
+		{item "smalluav_cn_control"}
+		{item "bandage" 5}
+		{item "58ammo 58ammo_basic ammo" 180}
+		{item "type86p grenade" 4}
+		{item "type87_smg" filling "58ammo 58ammo_basic ammo" 30}
+		{item "smoke_cn grenade"}
+		{in_hands 6}
+	}
+}

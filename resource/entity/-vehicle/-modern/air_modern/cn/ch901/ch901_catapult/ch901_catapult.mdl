@@ -1,0 +1,131 @@
+;Exported by: Timosh
+;Date:        Mon Jan 29 10:19:12 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\CH-901 Rainbow\ch901 catapult 5.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 1}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "support1"
+			{Position 1.63064	10.1582	0}
+		}
+		{bone "gunner"
+			{Position -6.90904	-8.58329	0}
+		}
+		{bone "emit1"
+			{Position -17.4711	-0.136991	0}
+		}
+		{bone "driver1"
+			{Position -0.073163	-4.24827	0}
+		}
+		{bone "support2"
+			{Position 1.8584	-10.2135	0}
+		}
+		{bone "support3"
+			{Position -11.111	0	0}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-2.9289	0	13.106
+			}
+			{VolumeView "body.ply"}
+			{bone "foresight1"
+				{Matrix34
+					0	-0.494097	0.869407
+					1	0	0
+					0	0.869407	0.494097
+					0	-6.25406	7.59016
+				}
+			}
+			{bone revolute "handle"
+				{Matrix34
+					0	0.46934	-0.883018
+					0	0.883018	0.46934
+					1	0	0
+					1.33337	-1.07785	-1.67578
+				}
+			}
+			{bone "stan2"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.918946	-0.348829	-0.184001
+					0.394298	0.802967	0.44696
+					-0.00816572	-0.483283	0.875426
+					-1.04519	-2.69007	-1.24697
+				}
+				{VolumeView "stan2.ply"}
+			}
+			{bone "stan1"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.933185	0.310531	0.180934
+					-0.359261	0.819873	0.445802
+					-0.0099075	-0.481018	0.876655
+					0.999574	-2.69007	-1.24698
+				}
+				{VolumeView "stan1.ply"}
+			}
+			{bone "stan3"
+				{parameters "ID=body;"}
+				{Position 0	4.84657	-11.644}
+				{VolumeView "stan3.ply"}
+			}
+			{bone "ammo"
+				{Matrix34
+					0	-0.510288	0.860004
+					1	0	0
+					0	0.860004	0.510288
+					0	-1.8886	-0.260637
+				}
+				{VolumeView "ammo.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 4.15905 3.98588 21.7772}
+	{Bone "body"}
+	{Matrix34
+		0	-0.863871	-0.503712
+		1	0	0
+		0	-0.503712	0.863871
+		0	-0.652999	-2.25929
+	}
+}
+{Volume "select"
+	{Box 47.3049 23.6906 2.5935}
+	{Bone "basis"}
+	{Position 0	0	1.29675}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 24.246	-58.1078	21.831}
+			{lookat 1.8268	-6.28431	12.1787}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.65218	-7.99282	6.76946}
+			}
+			{"1"
+				{type directional}
+				{direction 0.375917	0.263804	-0.197722}
+			}
+			{"2"
+				{type point}
+				{position 3.31998	-9.39601	6.69718}
+			}
+		}
+	}
+}

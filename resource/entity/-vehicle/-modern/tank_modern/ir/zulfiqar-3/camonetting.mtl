@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/zulfiqar-3/camonet"}
+	{blend test}
+}

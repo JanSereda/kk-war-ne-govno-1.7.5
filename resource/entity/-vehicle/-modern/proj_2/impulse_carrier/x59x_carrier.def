@@ -13,7 +13,7 @@
 	("guidance_aj" country(rus) typeaj(antiship_aj) guidanceaj(long))
 	("impulse_allow_manual_control")
 	("impulse_missile_armor" thickness(3) durability(30))
-
+	{props "ecm_vulnerable_rus"}
 
 
 

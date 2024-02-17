@@ -64,8 +64,8 @@
 ;===============================USAF===========================================
 {"a-10c_support_light"            ("p" c(260) brig(usaf) t(additional aircraft nobot support_frontline) s(usa) n(1) g(a10)  sc(330) b(usaf_hqcar)   i(1) cw(0) cp(25))  {fore 0}}
 
-{"Apache"            ("v_cust" c(220) brig(usaf) t(all aircraft duel_heli nobot support_frontline) s(usa) n(2) crew(usa/vertpilot_apache) g(heli)  sc(220) b(usaf_hqcar) i(3) cw(0) cp(25))  {fore -0.5}}
-{"Apache_spike"            ("v_cust" c(1200) brig(usaf) t(all aircraft duel_heli nobot support_frontline) s(usa) n(2) crew(usa/vertpilot_apache) g(heli_spike)  sc(450) b(usaf_hqcar) i(4) cw(0) cp(25))  {fore 0}}
+{"Apache"            ("v_cust" c(220) brig(usaf) t(all aircraft duel_heli nobot support_frontline) s(usa) n(2) crew(usa/vertpilot_apache) g(heli)  sc(220) b(usaf_hqcar) i(3) cw(0) cp(15))  {fore -0.5}}
+{"Apache_spike"            ("v_cust" c(1200) brig(usaf) t(all aircraft duel_heli nobot support_frontline) s(usa) n(2) crew(usa/vertpilot_apache) g(heli_spike)  sc(450) b(usaf_hqcar) i(4) cw(0) cp(30))  {fore 0}}
 ;{"a-10c_bomber"            ("p" c(600) brig(usaf) t(all aircraft nobot support_frontline) s(usa) n(1) g(air_1s)  sc(450) b(usaf_hqcar) i(5) cw(0) cp(75))  {fore 0.0}}
 ;{"a-10c_AT"            ("p" c(500) brig(usaf) t(all aircraft nobot support_frontline) s(usa) n(1) g(air_1s)  sc(380) b(usaf_hqcar) i(6) cw(0) cp(30))  {fore -0.4}}
 {"a-10c_support"            ("p" c(500) brig(usaf) t(additional aircraft nobot support_frontline) s(usa) n(1) g(air_1s)  sc(300) b(usaf_hqcar)   i(7) cw(0) cp(30))  {fore -0.4}}
@@ -91,9 +91,9 @@
 
 
 
-{"patriot_launcher"        ("vpat" c(400) c1(patriot_truck) c2(patriot_launcher) brig(usa_aa) t(all art nobot support_frontline) s(usa) n(2) n1(vehicle_supporter:2) g(pvo45)  sc(100) a(2) b(usaaa_hqcar) i(4) cw(0) cp(25))  {fore -1.2}}
-{"patriot_radar"        ("vpat" c(400) c1(patriot_truck) c2(patriot_radar) brig(usa_aa) t(all art cannon heavy_art fixed nobot support_frontline) s(usa) n(2) n1(vehicle_supporter:2) g(pvo46)  sc(100) a(2) b(usaaa_hqcar) i(5) cw(0) cp(25))  {fore -1.2}}
-{"nasams_ii_launcher"        ("vradar" c1(nasams_ii_launcher) c2(hawk_cwar) c(240) brig(usa_aa) t(additional antiair aat support_frontline) s(usa) n(2) n1(vehicle_supporter:2) n2() g(pvo2)  sc(150) a(2) b(usaaa_hqcar) i(6) cw(0) cp(20))  {fore 0.0}}
+{"patriot_launcher"        ("vpat" c(400) c1(patriot_truck) c2(patriot_launcher) brig(usa_aa) t(all art nobot support_frontline) s(usa) n(2) n1(vehicle_supporter:2) g(pvo45)  sc(100) a(2) b(usaaa_hqcar) i(4) cw(0) cp(25))  {fore -1.35}}
+{"patriot_radar"        ("vpat" c(400) c1(patriot_truck) c2(patriot_radar) brig(usa_aa) t(all art cannon heavy_art fixed nobot support_frontline) s(usa) n(2) n1(vehicle_supporter:2) g(pvo46)  sc(100) a(2) b(usaaa_hqcar) i(5) cw(0) cp(25))  {fore -1.35}}
+{"nasams_ii_launcher"        ("vradar" c1(nasams_ii_launcher) c2(hawk_cwar) c(240) brig(usa_aa) t(additional antiair aat support_frontline) s(usa) n(2) n1(vehicle_supporter:2) n2() g(pvo2)  sc(150) a(2) b(usaaa_hqcar) i(6) cw(0) cp(25))  {fore 0.0}}
 {"hawk_rls"        ("vpat" c(300) c1(hmmwv_m998) c2(hawk_rls) brig(usa_aa) t(all art cannon heavy_art fixed nobot support_frontline) s(usa) n(2) n1(vehicle_supporter:2) g(radar1)  sc(50) a(2) b(usaaa_hqcar) i(7) cw(0) cp(5))  {fore 0.9}}
 {"m939_avia"	("vs" c(600) brig(usaf) t(all supply aircraft nobot support_frontline) s(usa) n(2) g(supply3) 	sc(100) b(usaaa_hqcar) i(8) cw(0) cp(2))  {fore 1}} 
 {"m939_art_pvo"	("vs" c(300) brig(usart) t(all supply nobot support_frontline) s(usa) n(2) g(supply4) 	sc(100) b(usaaa_hqcar) i(9) cw(0) cp(2))  {fore 1}}
@@ -110,12 +110,13 @@
 ("squad_with2types" name(miners) side(usa) c(240) g(eng) c1(antitank_miner:6) c2(antipersonel_miner:2) b(usart_hqcar) brig(usart) t(all nobot) cost(25) f(1) info(miners))
 ("squad_with1types" name(sappers) side(usa) c(240) g(eng) c1(saper:2) b(usart_hqcar) brig(usart) t(all nobot) cost(10) f(1) info(sappers))
 ("squad_with7types" side(usa) name(usaspot) c(300) g(spot) c1(navyseal_com_art:1) c2(navyseal_marksman_art:1) c3(navyseal_smg_art:1) b(usart_hqcar) brig(usart) t(all) cost(50) f(1) info(smgs))
+{"switchblade600_catapult"            ("v_kamikaze" c(450) brig(usart) t(all nobot) s(usa) n(1) g(kamikaze_600) sc(200) b(usart_hqcar) i(1) cw(0) cp(5))  {fore -1.0}}
 
 {"m119"		("vart" c(300) c1(hmmwv_m998_tent) c2(m119) brig(usart) t(all art nobot support_frontline) s(usa) n(2) n1(vehicle_supporter_usmc:2) g(how) sc(140) a(1) b(usart_hqcar) i(2) cw(5) cp(20))  {fore 0.0}} 
 
 {"m777a2"		("vart" c(360) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) brig(usart) t(all art nobot support_frontline) s(usa) n(4) n1(vehicle_supporter:4) g(how1) sc(200) a(1) b(usart_hqcar) i(6) cw(5) cp(20))  {fore -1.0}} 
 
-{"paladin" ("v" c(300) brig(usart) t(all art nobot support_frontline) s(usa) n(4) g(lart)  sc(300) b(usart_hqcar) i(7) cw(0) cp(30))   {fore -2.0}}
+{"paladin" ("v" c(300) brig(usart) t(all art nobot support_frontline) s(usa) n(4) g(lart)  sc(300) b(usart_hqcar) i(7) cw(0) cp(35))   {fore -2.0}}
 {"mrls" ("v" c(1800) brig(usart) t(all art nobot support_frontline) s(usa) n(2) g(rszo) sc(550) b(usart_hqcar) i(8) m(4) cw(0) cp(70))  {fore 0}}
 {"m142_himars" ("v" c(1800) brig(usart) t(all art nobot support_frontline) s(usa) n(2) g(rszo) sc(400) b(usart_hqcar) i(9) m(4) cw(0) cp(60))  {fore 0}}
 {"mrls_atacms" ("v" c(1800) brig(usart) t(all art nobot support_frontline) s(usa) n(2) g(otrk) sc(200) b(usart_hqcar) i(10) m(4) cw(0) cp(60))  {fore -0.1}}
@@ -133,37 +134,38 @@
 
 
 ("squad_with11types" side(usa) name(usara) c(120) g(inf)  c1(usara_com:1) c2(usara_smg:2) c3(usara_grenade:2) c4(usara_light_mgun:2) c5(usara_marksman:1) c6(usara_heavy_mgun:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(95) f(1.0) info(usara))
-{"m2a3_brat"		("v3" c(300) c1(m2a3_brat)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp1)  sc(160) b(usarmy_hqcar) i(1) cw(30) cp(25))  {fore 0.0}}
-{"m1126_jav"		("v3" c(300) c1(m1126_jav)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp2)  sc(160) b(usarmy_hqcar) i(2) cw(20) cp(25))  {fore -1.0}}
-{"m1126_mk19"		("v3" c(400) c1(m1126_mk19)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp3)  sc(145) b(usarmy_hqcar) i(3) cw(20) cp(30))  {fore -0.5}}
-;{"m1126"		("v3" c(140) c1(m1126)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp4)  sc(45) b(usarmy_hqcar) i(4) cw(30) cp(15))  {fore -1.0}}
-{"m1296"		    ("v3" c(300) c1(m1296)brig(usarmy) t(all inf_usa infantry) s(usa) n(2) n1(tankman:3) g(bmp5)  sc(145) b(usarmy_hqcar) i(5) cw(30) cp(25))  {fore 0.0}}
-
+("squad_with2types" name(us_army_sniper) side(usa) c(480) g(suppinf3) c1(us_army_sniper:1) c2(us_army_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(us_army_sniper))
+("squad_with2types" name(at_rifle) side(usa) c(240) g(suppinf3) c1(usara_at_rifle:1) c2(usara_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(at_rifle))
 {"m939i_usarmy"		("v3" c(120) c1(m939)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) 
   n1(vehicle_supporter:1) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:2) n5(usara_light_mgun:2) n6(usara_marksman:1) n7(usara_heavy_mgun:1) 
   g(first_inf1)  sc(100) b(usarmy_hqcar) i(0) cw(0) cp(15))  {fore 0.0}
 }
-{"m2a3_brati"		("v3" c(300) c1(m2a3_brat)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:1) n5(usara_light_mgun:1) n6(usara_heavy_mgun:1) n7(usara_marksman:1) g(bmp1)  sc(255) b(usarmy_hqcar) i(11) cw(0) cp(25))  {fore 0.0}}
-{"m1126jav"		("v3" c(300) c1(m1126_jav)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:2) n5(usara_light_mgun:2) n6(usara_marksman:1) n7(usara_heavy_mgun:1) g(bmp2)  sc(235) b(usarmy_hqcar) i(12) cw(0) cp(15))  {fore -1.0}}
-{"m1126i"		("v3" c(140) c1(m1126)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:2) n5(usara_light_mgun:2) n6(usara_marksman:1) n7(usara_heavy_mgun:1) g(bmp4)  sc(145) b(usarmy_hqcar) i(13) cw(0) cp(15))  {fore -1.0}}
-{"m1296i"		("v3" c(300) c1(m1296)brig(usarmy) t(all inf_usa infantry) s(usa) n(2) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:1) n5(usara_light_mgun:1) n6(usara_heavy_mgun:1) n7(usara_marksman:1) g(bmp5)  sc(240) b(usarmy_hqcar) i(14) cw(0) cp(25))  {fore 0.0}}
 
+{"m2a3"		("v3" c(300) c1(m2a3)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp0)  sc(90) b(usarmy_hqcar) i(1) cw(30) cp(25))  {fore 0.0}}
+{"m2a3_brat"		("v3" c(300) c1(m2a3_brat)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp1)  sc(115) b(usarmy_hqcar) i(2) cw(30) cp(25))  {fore 0.0}}
 
-("squad_with2types" name(us_army_sniper) side(usa) c(480) g(suppinf3) c1(us_army_sniper:1) c2(us_army_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(us_army_sniper))
-("squad_with2types" name(at_rifle) side(usa) c(240) g(suppinf3) c1(usara_at_rifle:1) c2(usara_spotter:1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(50) f(0.5) info(at_rifle))
-;("squad_with2types" side(usa) name(mgs) c1(usara_heavy_mgun:1) c2(usara_help_mgun:1) c(120) g(suppinf1) b(usarmy_hqcar) brig(usarmy) t(all infantry) cost(14) f(1) info(mguner))
+{"m1296"		    ("v3" c(300) c1(m1296)brig(usarmy) t(all inf_usa infantry) s(usa) n(2) n1(tankman:3) g(bmp5)  sc(145) b(usarmy_hqcar) i(3) cw(30) cp(25))  {fore 0.0}}
 
-{"m1128"            ("v_v" c(450) brig(usarmy) t(additional) s(usa) n(3) g(cartow)   sc(170) b(usarmy_hqcar) i(5) m(2) cw(0) cp(20))  {fore 0.0}}
-{"m-1129"            ("v" c(500) brig(usarmy) t(all art) s(usa) n(5) g(spat)   sc(215) b(usarmy_hqcar) i(6) m(2) cw(0) cp(20))  {fore 0}}
-{"m1134"        ("v" c(480) brig(usarmy) t(additional att) s(usa) n(3) g(stan2)   sc(90) b(usarmy_hqcar) i(71) m(2) cw(0) cp(20))  {fore 0.0}} 
+{"m2a3i"		("v3" c(300) c1(m2a3)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:1) n5(usara_light_mgun:1) n6(usara_heavy_mgun:1) n7(usara_marksman:1) g(bmp0)  sc(185) b(usarmy_hqcar) i(4) cw(0) cp(25))  {fore 0.0}}
+{"m2a3_brati"		("v3" c(300) c1(m2a3_brat)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:1) n5(usara_light_mgun:1) n6(usara_heavy_mgun:1) n7(usara_marksman:1) g(bmp1)  sc(210) b(usarmy_hqcar) i(5) cw(0) cp(25))  {fore 0.0}}
 
-{"m1a2tusk_2_m2_new"        ("v" c(450) brig(usarmy) t(additional tanks_only duel_tanks2000 tank_usa) s(usa) n(4) g(obt_army)   sc(290) b(usarmy_hqcar) i(9) m(2) cw(0) cp(60))  {fore 0.0}}
-{"m1a2_sep"       ("v" c(450) brig(usarmy) t(all tanks_only duel_tanks2000 tank_usa) s(usa) n(4) g(obt_army) sc(290) b(usarmy_hqcar) i(11) m(2) cw(0) cp(60))  {fore 0.0}}
-{"m1a2sep3"        ("v_v" c(450) brig(usarmy) t(all tanks_only duel_tanks2000 tank_usa) s(usa) n(4) g(obt_army)   sc(310) b(usarmy_hqcar) i(12) m(2) cw(0) cp(70))  {fore 0.0}}
+{"m1296i"		("v3" c(300) c1(m1296)brig(usarmy) t(all inf_usa infantry) s(usa) n(2) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:1) n5(usara_light_mgun:1) n6(usara_heavy_mgun:1) n7(usara_marksman:1) g(bmp5)  sc(240) b(usarmy_hqcar) i(6) cw(0) cp(25))  {fore 0.0}}
+{"m1126i"		("v3" c(140) c1(m1126)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:2) n5(usara_light_mgun:2) n6(usara_marksman:1) n7(usara_heavy_mgun:1) g(bmp4)  sc(145) b(usarmy_hqcar) i(7) cw(0) cp(15))  {fore -1.0}}
+{"m1126jav"		("v3" c(300) c1(m1126_jav)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usara_com:1) n3(usara_smg:2) n4(usara_grenade:2) n5(usara_light_mgun:2) n6(usara_marksman:1) n7(usara_heavy_mgun:1) g(bmp2)  sc(235) b(usarmy_hqcar) i(8) cw(0) cp(15))  {fore -1.0}}
+
+{"m1128"            ("v_v" c(450) brig(usarmy) t(additional) s(usa) n(3) g(cartow)   sc(170) b(usarmy_hqcar) i(9) m(2) cw(0) cp(20))  {fore 0.0}}
+{"m1126_mk19"		("v3" c(400) c1(m1126_mk19)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp3)  sc(145) b(usarmy_hqcar) i(10) cw(20) cp(30))  {fore -0.5}}
+{"m-1129"            ("v" c(500) brig(usarmy) t(all art) s(usa) n(5) g(spat)   sc(215) b(usarmy_hqcar) i(11) m(2) cw(0) cp(20))  {fore 0}}
+{"m1126_jav"		("v3" c(300) c1(m1126_jav)brig(usarmy) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp2)  sc(160) b(usarmy_hqcar) i(12) cw(20) cp(25))  {fore -1.0}}
+{"m1134"        ("v" c(480) brig(usarmy) t(additional att) s(usa) n(3) g(stan2)   sc(90) b(usarmy_hqcar) i(13) m(2) cw(0) cp(20))  {fore 0.0}} 
+
+{"m1a2tusk_2_m2_new"        ("v" c(450) brig(usarmy) t(additional tanks_only duel_tanks2000 tank_usa) s(usa) n(4) g(obt_army)   sc(290) b(usarmy_hqcar) i(15) m(2) cw(0) cp(60))  {fore 0.0}}
+{"m1a2_sep"       ("v" c(450) brig(usarmy) t(all tanks_only duel_tanks2000 tank_usa) s(usa) n(4) g(obt_army) sc(290) b(usarmy_hqcar) i(16) m(2) cw(0) cp(60))  {fore 0.0}}
+{"m1a2sep3"        ("v_v" c(450) brig(usarmy) t(all tanks_only duel_tanks2000 tank_usa) s(usa) n(4) g(obt_army)   sc(310) b(usarmy_hqcar) i(17) m(2) cw(0) cp(70))  {fore 0.0}}
 
 
 ("squad_with7types" side(usa) name(defend) c(600) g(extra10) c1(delta_com:1) c2(delta_smg:1) c3(delta_smg2:1) c4(delta_smg3:1) c5(delta_mgun:1) c6(delta_marksman:1) c7(delta_bazooker:3) b(extra) brig(usarmy) t(all specnaz infantry) cost(50) f(0) info(defend))
-{"shorad"        ("v" c(900) brig(usarmy) t(additional att) s(usa) n(4) g(extra11)   sc(250) b(extra) i(8) m(2) cw(0) cp(30))  {fore 0}} 
+{"shorad"        ("v" c(900) brig(usarmy) t(additional att) s(usa) n(4) g(extra11)   sc(300) b(extra) i(8) m(2) cw(0) cp(40))  {fore 0}} 
 {"m1a2tusk_2_new"        ("v" c(1200) brig(usarmy) t(additional tanks_only duel_tanks2000 tank_usa no_frontline) s(usa) n(4) g(extra12)   sc(300) b(extra) i(10) m(2) cw(0) cp(65))  {fore 0.0}}
 ;===========================Цахал==============================================
 
@@ -183,7 +185,7 @@
 ("squad_with11types_custom" name(idf_sniper) side(usa) crew_nation(idf) c(480) g(suppinf3) c1(idf_sniper:1) c2(idf_spotter:1) b(idf_hqcar) brig(idf) t(all) cost(50) f(0.5) info(idf_sniper))
 
 
-{"spike_stan_idf" ("vs_nation" c(800) brig(idf) t(all nobot) s(usa) crew_nation(idf) n(2) g(1) sc(210) b(idf_hqcar) i(3) cw(0) cp(35))  {fore 0.0}} 
+{"spike_stan_idf" ("vs_nation" c(800) brig(idf) t(all nobot) s(usa) crew_nation(idf) n(2) g(1) sc(210) b(idf_hqcar) i(3) cw(0) cp(30))  {fore 0.0}} 
 
 {"magach7"           ("v_nation" c(390) brig(idf) t(additional tanks_only) s(usa) n(4) crew_nation(idf) g(arm2)  sc(180) b(idf_hqcar)   i(5) m(2) cw(0) cp(40))  {fore 0}}
 
@@ -197,15 +199,15 @@
 
 
 ("squad_with11types" side(usa) name(usmc) c(120) g(inf) c1(usmc_com:1) c2(usmc_zamcom:5) c3(usmc_light_mgun:2) c4(usmc_smg:1) c5(usmc_marksman:1) c6(usmc_bazooker:1)b(usmc_hqcar) brig(usmc) t(all infantry) cost(105) f(1.0) info(usmc))
-{"aavp7"		("v3" c(300) c1(aavp7)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp1m)  sc(140) b(usmc_hqcar) i(2) cw(20) cp(45))  {fore -0.3}}
-{"lav25"		("v3" c(300) c1(lav25)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp2m)  sc(60) b(usmc_hqcar) i(3) cw(20) cp(25))  {fore 0.0}}
+{"aavp7"		("v3" c(300) c1(aavp7)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp1m)  sc(120) b(usmc_hqcar) i(2) cw(20) cp(45))  {fore -0.3}}
+{"lav25"		("v3" c(300) c1(lav25)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) g(bmp2m)  sc(50) b(usmc_hqcar) i(3) cw(20) cp(25))  {fore 0.0}}
 
 {"m939i_usmc"		("v3" c(120) c1(m939)brig(usmc) t(all inf_usa infantry) s(usa) n(3) 
   n1(vehicle_supporter:1) n2(usmc_com:1) n3(usmc_zamcom:5) n4(usmc_light_mgun:2) n5(usmc_smg:1) n6(usmc_marksman:1) n7(usmc_bazooker:1) 
   g(first_inf2)  sc(110) b(usmc_hqcar) i(1) cw(0) cp(15))  {fore 0.0}
 }
-{"aavp7i"		("v3" c(300) c1(aavp7)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usmc_com:1) n3(usmc_zamcom:6) n4(usmc_light_mgun:2) n5(usmc_smg:1) n6(usmc_marksman:1) n7(usmc_bazooker:1) g(bmp1m)  sc(245) b(usmc_hqcar) i(4) cw(0) cp(15))  {fore -0.3}}
-{"lav25i"		("v3" c(300) c1(lav25)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usmc_com:1) n3(usmc_light_mgun:1) n4(usmc_zamcom:1) n5(usmc_marksman:1) n6(usmc_bazooker:1) n7(usmc_smg2:1) g(bmp2m)  sc(120) b(usmc_hqcar) i(5) cw(0) cp(15))  {fore 0.0}}
+{"aavp7i"		("v3" c(300) c1(aavp7)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usmc_com:1) n3(usmc_zamcom:6) n4(usmc_light_mgun:2) n5(usmc_smg:1) n6(usmc_marksman:1) n7(usmc_bazooker:1) g(bmp1m)  sc(225) b(usmc_hqcar) i(4) cw(0) cp(15))  {fore -0.3}}
+{"lav25i"		("v3" c(300) c1(lav25)brig(usmc) t(all inf_usa infantry) s(usa) n(3) n1(tankman:3) n2(usmc_com:1) n3(usmc_light_mgun:1) n4(usmc_zamcom:1) n5(usmc_marksman:1) n6(usmc_bazooker:1) n7(usmc_smg2:1) g(bmp2m)  sc(110) b(usmc_hqcar) i(5) cw(0) cp(15))  {fore 0.0}}
 {"uh1y"            ("v3" c(500) c1(uh1y) brig(usmc) t(all inf_usa nobot) s(usa) n(2) n1(vertpilot:2) n2(usmc_com:1) n3(usmc_zamcom:3) n4(usmc_light_mgun:2) n5(usmc_smg2:1) n6(usmc_marksman:1) g(bmp)  sc(160) b(usmc_hqcar) i(13) cw(0) cp(5))  {fore 0.2}}
 
 

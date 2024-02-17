@@ -1,0 +1,33 @@
+{Game_entity
+	(include "/properties/projectile_ammo.ext")
+                           (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "lancet3m cm ammo"}
+	}
+	{Extension "lancet3m_cm_ammo.mdl"}
+	{Volume "elevator1"
+		{tags "body"}
+	}
+	{Volume "elevator2"
+		{tags "body"}
+	}
+	{Volume "elevator3"
+		{tags "body"}
+	}
+	{Volume "elevator4"
+		{tags "body"}
+	}
+	{Volume "wingl1"
+		{tags "part"}
+	}
+	{Volume "wingl2"
+		{tags "part"}
+	}
+	{Volume "wingr1"
+		{tags "part"}
+	}
+	{Volume "wingr2"
+		{tags "part"}
+	}
+}

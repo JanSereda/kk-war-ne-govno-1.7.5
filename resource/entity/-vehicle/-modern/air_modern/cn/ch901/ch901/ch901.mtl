@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/ch901/untitled_df"}
+	{bump "$/model/ch901/untitled_bp"}
+	{specular "$/model/ch901/untitled_sp"}
+	{color "204 204 204 118"}
+	{blend none}
+}

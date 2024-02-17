@@ -1,0 +1,18 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	{props "proj_restrictor"}
+	{Extension "proj_restrictor.mdl"}
+	;for 300-599 piercing, calculation value 450mm
+	{Volume "1m" {able clear {bullet}} {Thickness 45}}
+	{Volume "2m" {able clear {bullet}} {Thickness 27}}
+	{Volume "3m" {able clear {bullet}} {Thickness 15}}
+	{Volume "4m" {able clear {bullet}} {Thickness 12}}
+	{Volume "6m" {able clear {bullet}} {Thickness 2000}}
+
+	{props "steel" "-wood"}
+	{obstacleID "nothing"}
+	{collider "nothing"}
+	{extender "stuff"
+		{item "empty_stuff"}
+	}
+}

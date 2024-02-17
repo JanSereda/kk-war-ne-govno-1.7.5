@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/toyota_hilux/nurs_siria"}
+	{blend none}
+}

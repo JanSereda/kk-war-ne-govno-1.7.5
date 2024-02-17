@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "hj8f_diffuse_512"}
+	{blend none}
+}

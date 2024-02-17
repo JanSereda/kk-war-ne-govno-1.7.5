@@ -93,6 +93,7 @@
 			{basic}
 			{charger "gunner"}
 			{gunner "gunner"}
+			("CW_stab_no_stabiliser")
 		}
 	}
 	{Chassis
@@ -101,7 +102,7 @@
 			Turnradius(7)
 			Power(75)
 			Realspeed(100)
-			Gamespeed(69) 
+			Gamespeed(55) 
 			Range(500)
 			Fuelvolume(78)
 		)

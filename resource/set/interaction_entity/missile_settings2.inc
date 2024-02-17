@@ -137,7 +137,11 @@
 			{if tagged "Foresight1" {with_effector {delay 0.03 {spawn "hj8h_carrier" "Foresight1" x} } {with_effector}}
 			else tagged "Foresight2" {with_effector {delay 0.03 {spawn "hj8h_carrier" "Foresight2" x} } {with_effector}}
 			}
-	       else stuff "milan_rock ammo"
+	       else stuff "hj8f ammo"
+			{if tagged "Foresight1" {with_effector {delay 0.03 {spawn "hj8f_carrier" "Foresight1" x} } {with_effector}}
+			else tagged "Foresight2" {with_effector {delay 0.03 {spawn "hj8f_carrier" "Foresight2" x} } {with_effector}}
+			}
+			else stuff "milan_rock ammo"
 			{if tagged "Foresight6" {with_effector {delay 0.03 {spawn "milan_rock_carrier" "Foresight6" x} } {with_effector}}
 			else tagged "foresight1" {with_effector {delay 0.03 {spawn "milan_rock_carrier" "foresight1" x} } {with_effector}}
 			else tagged "foresight1_spawn" {with_effector {delay 0.03 {spawn "milan_rock_carrier" "foresight1_spawn" x} } {with_effector}}
@@ -565,13 +569,13 @@
     }
 }
 
-{("CWPS_proj" missilename(9k14m) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
-{("CWPS_proj" missilename(hj73c) rotation(1) rand_move(0) smoke_vulnerable(1)  decoyprob(0.3) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
-{("CWPS_proj" missilename(9k31) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.8) range(17) tail(proj_jet_sam) eng_time(3))("speed_normal" coeff(0.88))}
-{("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(osa_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.51) range(22) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9m33_missile) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.41) range(33) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(3m9_kub) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.23) range(33) tail(proj_jet_sam) eng_time(3)) ("antislip")}
+{("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
+{("CWPS_proj" missilename(9k14m) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
+{("CWPS_proj" missilename(hj73c) rotation(1) rand_move(0) smoke_vulnerable(1)  decoyprob(0.3) range(27) tail(proj_jet_atgm) eng_time(1))("tracer" tracer(tracer_malutka) bone(tail))}
+{("CWPS_proj" missilename(9k31) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.8) range(17) tail(proj_jet_sam) eng_time(3))("speed_normal" coeff(0.88))}
 {("CWPS_proj" missilename(9k37) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.20) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k333) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.4) range(18) tail(proj_jet_sam) eng_time(3))}
 {("CWPS_proj" missilename(9k111) rotation(1) rand_move(0) smoke_vulnerable(1) decoyprob(0.3) range(15) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.81))("tracer" tracer(tracer_konkurs) bone(tail))}
@@ -595,6 +599,7 @@
 {("CWPS_proj" missilename(tow2_fg) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.1) range(23) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))("tracer" tracer(tracer_tow) bone(tail))}
 {("CWPS_proj" missilename(hj8e) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.3) range(28)  tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.33))("tracer" tracer(tracer_konkurs) bone(tail))}
 {("CWPS_proj" missilename(hj8h) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.3)  range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.33))("tracer" tracer(tracer_konkurs) bone(tail))}
+{("CWPS_proj" missilename(hj8f) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.3)  range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.33))("tracer" tracer(tracer_konkurs) bone(tail))}
 {("CWPS_proj" missilename(hj9_missile) rotation(0) rand_move(0) smoke_vulnerable(1) decoyprob(0.3) range(26) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))("tracer" tracer(tracer_konkurs) bone(tail))}
 {("CWPS_proj" missilename(9m117) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(27) tail(proj_jet_small) eng_time(1))("speed_normal" coeff(1.09))}
 {("CWPS_proj" missilename(9m117m) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(26) tail(proj_jet_small) eng_time(1))("speed_normal" coeff(1.09))}
@@ -662,6 +667,11 @@
 	}
 };ручное управление
 {("CWPS_proj" missilename(switchblade600) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(21) tail(none) eng_time(1))("speed_slow" coeff(0.8))
+	{on "link_effects" overload
+		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
+	}
+};ручное управление
+{("CWPS_proj" missilename(ch901) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(21) tail(none) eng_time(1))("speed_slow" coeff(0.8))
 	{on "link_effects" overload
 		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
 	}

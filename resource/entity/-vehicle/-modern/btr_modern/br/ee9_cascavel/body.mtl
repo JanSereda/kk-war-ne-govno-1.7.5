@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/ee9_cascavel/t_west_apc_ee9cascavel_body_d_forest"}
+	{bump "$/model/ee9_cascavel/t_west_apc_ee9cascavel_body_n"}
+	{specular "$/model/ee9_cascavel/t_west_apc_ee9cascavel_body_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

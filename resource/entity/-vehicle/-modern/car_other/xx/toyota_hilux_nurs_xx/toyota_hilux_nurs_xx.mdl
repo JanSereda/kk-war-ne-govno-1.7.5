@@ -1,0 +1,235 @@
+;Exported by: Cagyar
+;Date:        Fri Mar 21 03:54:56 2014
+;File:        C:\Documents and Settings\Cagyar\Мои документы\3dsmax\Пикап глебки\краши\Копия pickup1-ammo_x.max
+{Skeleton
+	{bone revolute "basis" {limits -0 0}
+		{parameters "Wheelradius=0.44;SteerMax=35;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone revolute "part3"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-36.4145	-17.4479	8.46304
+			}
+			{VolumeView "part3.ply"}
+		}
+		{bone revolute "part5"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-36.5868	17.0675	8.40125
+			}
+			{VolumeView "part5.ply"}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"}}
+			}
+			{Position -7.5487	0.0828604	22.6802}
+			{VolumeView "body.ply"}
+			{bone "part16"
+				{parameters "ID=body;"}
+				{Position 24.6176	17.0336	1.82426}
+				{VolumeView "part16.ply"}
+			}
+			{bone "part15"
+				{parameters "ID=body;"}
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	1
+					24.8858	-17.0226	1.89696
+				}
+				{VolumeView "part15.ply"}
+			}
+			{bone "detail1"
+				{Position 8.18701	-0.00788779	-10.9538}
+				{VolumeView "detail1.ply"}
+			}
+			{bone "detail3"
+				{Position 51.177	0.117855	-5.56876}
+				{VolumeView "detail3.ply"}
+			}
+		}
+		{bone revolute "part10"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				29.6736	17.4209	8.41893
+			}
+			{VolumeView "part10.ply"}
+		}
+		{bone revolute "part7"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				29.8459	-17.0945	8.48071
+			}
+			{VolumeView "part7.ply"}
+		}
+	}
+}
+{Volume "body10"
+	{Polyhedron "body10.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-10.4635	4.45905	-4.82067
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		7.54093	-0.083149	-9.84054
+	}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-3.0372	-15.186	2.43937
+	}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-31.1284	16.0914	-4.82067
+	}
+}
+{Volume "body5"
+	{Polyhedron "body5.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-31.1284	-16.5979	-4.82067
+	}
+}
+{Volume "body6"
+	{Polyhedron "body6.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-51.0581	-5.03757	-4.82067
+	}
+}
+{Volume "body7"
+	{Polyhedron "body7.vol"}
+	{Bone "body"}
+	{Position -30.8161	-0.283428	-8.00267}
+}
+{Volume "body8"
+	{Polyhedron "body8.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-3.0372	14.7909	2.43937
+	}
+}
+{Volume "body9"
+	{Polyhedron "body9.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		4.99977	11.7293	13.7597
+	}
+}
+{Volume "engine"
+	{Polyhedron "engine.vol"}
+	{Bone "body"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		37.9923	-0.404356	-10.474
+	}
+}
+{Volume "part15"
+	{Polyhedron "part15.vol"}
+	{Bone "part15"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	1	0
+		-10.6426	-0.0394459	-4.7274
+	}
+}
+{Volume "part16"
+	{Polyhedron "part16.vol"}
+	{Bone "part16"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		-10.7906	-0.100471	-4.6547
+	}
+}
+{Volume "part1"
+	{Polyhedron "part1.vol"}
+	{Bone "part10"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.0171986	-0.0116682	2.59296
+	}
+}
+{Volume "part3"
+	{Polyhedron "part3.vol"}
+	{Bone "part3"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.183315	0.0324373	3.02094
+	}
+}
+{Volume "part5"
+	{Polyhedron "part5.vol"}
+	{Bone "part5"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.0110588	-0.0293446	2.94636
+	}
+}
+{Volume "part7"
+	{Polyhedron "part7.vol"}
+	{Bone "part7"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.155127	0.0501137	2.66755
+	}
+}

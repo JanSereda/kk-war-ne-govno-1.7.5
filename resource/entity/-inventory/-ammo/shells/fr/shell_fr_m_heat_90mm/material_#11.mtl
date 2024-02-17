@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ee9_cascavel/90mm"}
+	{blend none}
+}

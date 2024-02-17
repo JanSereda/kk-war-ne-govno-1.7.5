@@ -72,7 +72,6 @@
 		{box
 			{Size 7 7}
 			{weight 500}
-			{item "ammo goliath" 1}
 			{item "ammo Hcb_ammo" 400}
 			)
 		}	
@@ -84,22 +83,16 @@
 			{basic}
 			{charger "gunner"}
 			{gunner "gunner"}
-		}
-		{place "babah"
-			{weapon "weapon goliath" filling "ammo goliath" 1}
-			{foresight "foresight1"}
-			{basic}
-			{charger "gunner"}
-			{gunner "gunner"}
+			("CW_stab_no_stabiliser")
 		}
 	}
 	{Chassis
 		("CW_wheels"
 			Mass(1.5)
 			Turnradius(7)
-			Power(80)
+			Power(75)
 			Realspeed(100)
-			Gamespeed(69) 
+			Gamespeed(55) 
 			Range(500)
 			Fuelvolume(78)
 		)

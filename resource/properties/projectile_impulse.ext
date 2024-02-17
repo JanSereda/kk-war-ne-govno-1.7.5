@@ -83,7 +83,7 @@
 )
 (define "impulse_allow_manual_control"
 	{able "select"}
-	{props "vehicle"}
+	{props "vehicle" "allow_manual_control"}
 )
 (define "guidance_double"
 	{Weaponry

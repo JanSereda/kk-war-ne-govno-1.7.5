@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/t72_b3_gorod/mgun"}
-	{bump "$/model/t72_b3_gorod/mgun_bp"}
-	{specular "$/model/t72_b3_gorod/mgun_sp"}
-	{color "255 255 255 25"}
-	{blend none}
-}

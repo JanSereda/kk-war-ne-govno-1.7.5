@@ -1,0 +1,146 @@
+{Entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.4))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "medium_M" "turret_rotator" "vision_lev06" "has_autoloader" "6_barrels_smoke"}
+	{targetSelector "tank"}
+
+	{extender "enumerator"}
+    ("armor_heavy" turret(335 40 200 30) body(358 50 180 20))   ; ВЛД 89г - 529БПС/583КС.
+	("comp_armor_increment" turret(84) body(72 72 36 36))
+	("shield_t-64a_1981")
+	{extender "shield"
+		{on}
+	}
+ {component "shieldl1" {tags "shield"}} 
+ {component "shieldr1" {tags "shield"}} 
+ {component "shieldr2" {tags "shield"}} 
+ {component "shieldl3" {tags "shield"}} 
+ {component "shieldr3" {tags "shield"}} 
+ {component "shieldl4" {tags "shield"}} 
+ {component "shieldr4" {tags "shield"}} 
+ {component "shieldl5" {tags "shield"}} 
+ {component "shieldr5" {tags "shield"}} 
+	("shield" args 7)
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open2"}}
+			{reverse 	{end	"emit_tank_2_hold"}{base "open2" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+(define "crew_human"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{visor "%visor"}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%anm"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_human" place(driver)		door(emit0) anm(driver) visor(driver))
+	("crew_human" place(gunner)		door(emit1) anm(left) visor(main))
+	("crew_human" place(commander)		door(emit2) anm(right) visor(charger))
+
+	{sensor		
+		{visor "driver"
+			{bone "Visor2"}
+		}
+		{visor "main"
+			{vision "tank_gunner_optic_IR_3g"}
+			{bone "Visor1"}
+		}
+		{visor "charger"				
+			{vision "vehicle_top_mgun"}
+			{bone "Visor3"}
+		}
+	}
+	{extender "inventory"
+		{box     ; БК 47 выстрелов предположительно.
+			{item "ammo Hcb_ammo" 600}
+			{item "ammo bullet125_RUS_m apcr" 15}
+			{item "ammo bullet125_RUS_a cm" 5}
+			{item "ammo bullet125_RUS fg" 20}
+			{item "ammo bullet125_rus rok" 6}	
+			;{item "ammo smoke_shtora" 12}
+		; штатное БК - 50% ОФС, 35% БПС, 15% КС/ТУР - 6 ТУР в любом случае.
+		}
+	}	
+	
+	{Weaponry		
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "125mm_2A46M" filling "ammo bullet125_RUS_m apcr" 1}
+			{gunner "gunner"}
+			{charger "gunner"}			
+			("CW_stab_abm" abm(0.37))
+			("CW_stab_ld_suo")
+		}
+		{place "mgun"	
+			{type "mgun_aa"}
+			{weapon "dshk_m_double" filled}
+			{foresight "foresight3"}
+			{gunner "commander"}
+			{charger "commander"}
+			{shooter "shooter_"}
+			{barrels 2}
+			{basic}
+			("CW_stab_abm" abm(0.77))
+			("CW_stab_ld_suo")
+		}
+
+		{place "mgun20"			;дым гранатометы
+		    {RestoreIKAfterAim}
+			{type "mgun_right"}
+			{weapon "6xshtora" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight20"}
+			{barrels 6}
+			;{basic}
+		}
+		{place "mgun21"			;дым гранатометы
+		    {RestoreIKAfterAim}
+			{type "mgun_left"}
+			{weapon "6xshtora" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight21"}
+			{barrels 6}
+			;{basic}
+		}
+	}
+	{mass 50000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.4))
+		("CW_tracks"
+			Mass(50.0)
+			Width(3.6)
+			Power(780)
+			Realspeed(48)
+			Gamespeed(33) 
+			Range(450)
+			Fuelvolume(1150)
+		)
+	}
+	{props "cwfs_fuel_1000"}
+
+	("two_headlights")
+	{Extension "zulfiqar-3.mdl"}
+	("cwts_buksir")
+        ("recoil_side_common")
+	("CW_turr_speed" deg_per_s(24))	;если это 2Э42-2, как у Т-72Б
+
+	
+}

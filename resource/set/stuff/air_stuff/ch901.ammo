@@ -1,0 +1,11 @@
+{bullet
+	{entity "ch901_loaded"}
+	{tag "smallitemin1hand keepentity dropboxed"}
+    {inventory
+		{weight 100}
+		{size 6 2}
+		{fsm "belt"}
+	}
+	{mass 9}
+	{tag "no_ricochet"} 
+}

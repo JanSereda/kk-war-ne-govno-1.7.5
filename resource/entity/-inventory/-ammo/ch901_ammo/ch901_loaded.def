@@ -1,0 +1,9 @@
+{game_entity
+	(include "/properties/projectile_ammo.ext")
+                           (include "/properties/shadow/round.inc")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ch901 ammo"}
+	}
+	{Extension "ch901_ammo.mdl"}
+}

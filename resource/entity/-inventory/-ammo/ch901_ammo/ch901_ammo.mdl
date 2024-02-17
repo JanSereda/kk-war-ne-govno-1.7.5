@@ -1,0 +1,75 @@
+;Exported by: Timosh
+;Date:        Mon Jan 29 10:23:49 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\CH-901 Rainbow\ch901 item.max
+{Skeleton
+	{animation
+		{sequence "move" {speed 0.6}}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "kolpak"
+			{parameters "ID=body;"}
+			{Matrix34
+				1	0	0.000690937
+				0	1	0
+				-0.000690937	0	1
+				-11.0557	0	0.115263
+			}
+			{VolumeView "kolpak.ply"}
+			{bone "propeller_work1"
+				{Matrix34
+					0	-0.520844	0.853652
+					0	-0.853652	-0.520844
+					1	0	0
+					0.0448084	-0.000299808	0.0497027
+				}
+				{visibility 0}
+				{VolumeView "propeller_work1.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		-10.7908	0	0.153749
+	}
+}
+{Volume "select"
+	{Box 19.8719 25.4072 4.48306}
+	{Bone "body"}
+	{Position -0.87794	-0.0596237	1.097}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 47.1027	-91.7563	15.2978}
+			{lookat 1.33385	-4.0601	1.88165}
+			{fov 16.5929}
+			{horizon 2.83048}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 4.23843	-5.67377	11.8156}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0793779	0.377597	-0.317993}
+			}
+			{"2"
+				{type point}
+				{position -4.39621	-4.88662	9.04809}
+			}
+		}
+	}
+}

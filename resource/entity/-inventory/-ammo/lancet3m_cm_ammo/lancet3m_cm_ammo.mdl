@@ -1,0 +1,276 @@
+;Exported by: Timosh
+;Date:        Mon May  8 17:09:16 2023
+;File:        G:\?????? ? Pheonix\??????????????\??????\????????\??????-3?\LANCET 3M item.max
+{Skeleton
+	{animation
+		{sequence "move" {speed 0.6}}
+	}
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "foresight_spawn"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				8.22116	0.0849449	0
+			}
+		}
+		{bone "wingl2"
+			{parameters "ID=WingL2;"}
+			{Matrix34
+				1	0	0
+				0	0.5	0.866026
+				0	-0.866026	0.5
+				3.22472	1.56675	1.75719
+			}
+			{VolumeView "wingl2.ply"}
+		}
+		{bone "wingl1"
+			{parameters "ID=WingL1;"}
+			{Matrix34
+				1	0	0
+				0	-0.5	0.866025
+				0	-0.866025	-0.5
+				3.22472	-1.53816	1.75719
+			}
+			{VolumeView "wingl1.ply"}
+		}
+		{bone "wingr1"
+			{parameters "ID=WingR1;"}
+			{Matrix34
+				1	0	0
+				0	-0.5	-0.866025
+				0	0.866025	-0.5
+				3.22472	-1.53816	-2.24635
+			}
+			{VolumeView "wingr1.ply"}
+		}
+		{bone "wingr2"
+			{parameters "ID=WingR2;"}
+			{Matrix34
+				1	0	0
+				0	0.5	-0.866025
+				0	0.866025	0.5
+				3.22472	1.56675	-2.24635
+			}
+			{VolumeView "wingr2.ply"}
+		}
+		{bone revolute "aileron4"
+			{limits -15 15}
+			{speed 0.27}
+			{Matrix34
+				1	0	0
+				0	0.866025	-0.5
+				0	0.5	0.866025
+				-9.12314	-1.39666	-1.68326
+			}
+			{bone revolute "elevator4"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					0	0	0
+				}
+				{VolumeView "elevator4.ply"}
+			}
+		}
+		{bone revolute "aileron3"
+			{limits -15 15}
+			{speed 0.27}
+			{Matrix34
+				1	0	0
+				0	-0.866025	-0.5
+				0	0.5	-0.866025
+				-9.12315	-1.44589	1.43056
+			}
+			{bone revolute "elevator3"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Position 0	0	0}
+				{VolumeView "elevator3.ply"}
+			}
+		}
+		{bone revolute "aileron2"
+			{limits -15 15}
+			{speed 0.27}
+			{Matrix34
+				1	0	0
+				0	0.866025	0.5
+				0	-0.5	0.866025
+				-9.12315	1.36226	-1.69672
+			}
+			{bone revolute "elevator2"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Matrix34
+					1	0	0
+					0	-1	0
+					0	0	-1
+					0	0	0
+				}
+				{VolumeView "elevator2.ply"}
+			}
+		}
+		{bone revolute "aileron1"
+			{limits -15 15}
+			{speed 0.27}
+			{Matrix34
+				1	0	0
+				0	-0.866025	0.5
+				0	-0.5	-0.866025
+				-9.12315	1.41626	1.44249
+			}
+			{bone revolute "elevator1"
+				{parameters "ID=body;"}
+				{limits -15 15}
+				{speed 0.27}
+				{Position 0	0	0}
+				{VolumeView "elevator1.ply"}
+			}
+		}
+		{bone "propeller"
+			{parameters "ID=body;"}
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-15.378	0.0280954	-0.15648
+			}
+			{VolumeView "propeller.ply"}
+		}
+		{bone "propeller_work1"
+			{Matrix34
+				0	-0.853652	-0.520844
+				0	0.520844	-0.853652
+				1	0	0
+				-15.0744	0.0280954	-0.15648
+			}
+			{visibility 0}
+			{VolumeView "propeller_work1.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-13.1535	0	-0.177975
+	}
+}
+{Volume "elevator1"
+	{Box 2.77996 7.06037 0.19685}
+	{Bone "elevator1"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.614538	0.00744812	-2.92983
+	}
+}
+{Volume "elevator2"
+	{Box 2.77996 7.06037 0.19685}
+	{Bone "elevator2"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.61454	0.00744802	3.03783
+	}
+}
+{Volume "elevator3"
+	{Box 2.77996 7.06037 0.19685}
+	{Bone "elevator3"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.614536	0.00744754	-2.92983
+	}
+}
+{Volume "elevator4"
+	{Box 2.77996 7.06037 0.19685}
+	{Bone "elevator4"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.614536	0.00744717	3.03783
+	}
+}
+{Volume "select"
+	{Box 56.2001 48.9735 10.2095}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0355206	-5.10476	-0.187947
+	}
+}
+{Volume "wingl1"
+	{Box 3.71085 19.6126 0.19685}
+	{Bone "wingl1"}
+	{Position -1.22643	8.66064	0.176561}
+}
+{Volume "wingl2"
+	{Box 3.71084 19.6358 0.19685}
+	{Bone "wingl2"}
+	{Position -1.22643	8.64914	0.166499}
+}
+{Volume "wingr1"
+	{Box 3.71084 20.2363 0.19685}
+	{Bone "wingr1"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-1.22642	8.86267	0.0935418
+	}
+}
+{Volume "wingr2"
+	{Box 3.71084 20.2521 0.19685}
+	{Bone "wingr2"}
+	{Matrix34
+		1	0	0
+		0	-1	0
+		0	0	-1
+		-1.22642	8.85477	0.100372
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 27.0704	24.4988	-192.32}
+			{lookat 2.63636	-1.09385	-5.20649}
+			{fov 16.5929}
+			{horizon -45.3457}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.18264	8.84014	-8.19434}
+			}
+			{"1"
+				{type directional}
+				{direction -0.151558	-0.317993	0.354839}
+			}
+			{"2"
+				{type point}
+				{position 7.80422	6.07259	-2.59691}
+			}
+		}
+	}
+}

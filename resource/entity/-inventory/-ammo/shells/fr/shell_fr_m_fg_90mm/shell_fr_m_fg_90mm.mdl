@@ -1,0 +1,66 @@
+;Exported by: Timosh
+;Date:        Wed Jan 17 19:40:27 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\??????? ?????????\EE-9 Cascavel\??????????\90mm model cw\90mm modern shells 1.max
+{Skeleton
+	{bone "90mm_he"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "90mm_he.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	-1	0
+				0	0	1
+				-6.53525	0.107973	-0.00628319
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 11.5735 1.95596 1.95596}
+	{Bone "90mm_he"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		-0.282104	-0.0322314	0.00422853
+	}
+}
+{Volume "select"
+	{Box 18.2349 4.40677 3.14046}
+	{Bone "90mm_he"}
+	{Matrix34
+		-1	0	0
+		0	-1	0
+		0	0	1
+		0.409134	0.00258056	0.0031662
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.875312	-34.9965	0.469733}
+			{lookat 0.869331	-17.2666	0.45568}
+			{fov 21.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457983	0.455609	-0.200806}
+			}
+			{"1"
+				{type point}
+				{position -20.6271	-8.73947	8.99374}
+			}
+			{"2"
+				{type point}
+				{position 20.4392	-17.1499	-7.0716}
+			}
+		}
+	}
+}
+

@@ -6,6 +6,7 @@
 	(include "/properties/car_crew.ext")
 	{props "airborne_M" "fighter" "vision_lev_small_UAV" "small_UAV" "loitering_uav" "shahed136" "-smalluav_irn" "altmax_40m" "-radar_spo" "-IR_spo" "cw_autotakeoff"}	
 	;controller prop - "smalluav_irn_control"
+	{props "ecm_vulnerable_rus"}
 	{Extension "shahed136.mdl"}
 		("missile_aimpoint_custom" height(0) front(0) side(0))
 	{collider "particle.big"}

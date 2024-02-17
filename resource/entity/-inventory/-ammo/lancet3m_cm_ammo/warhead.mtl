@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "warhead_heat"}
+	{blend none}
+}

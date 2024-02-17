@@ -1,0 +1,65 @@
+;Exported by: Timosh
+;Date:        Wed Jan 24 17:31:01 2024
+;File:        G:\?????? ? Pheonix\??????????????\??????\?????????\HJ-8\HJ8 ?????????\HJ8 Rocket Ammo\HJ8F\HJ8F Missile.max
+{Skeleton
+	{bone "body"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "body.ply"}
+		{bone "tail"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-11.9651	0.0947033	0.0749684
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 23.7072 2.82789 2.96255}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0	-0.0030601	0
+	}
+}
+{Volume "select"
+	{Box 34.1383 9.69564 6.73306}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0	0	0
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 0.00372721	-50.3586	0.460975}
+			{lookat -0.0116485	-4.62055	0.424847}
+			{fov 31.7555}
+			{horizon -0.170174}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0457979	0.45561	-0.200804}
+			}
+			{"1"
+				{type point}
+				{position -15.5248	1.12692	7.12268}
+			}
+			{"2"
+				{type point}
+				{position 12.1526	-4.54145	-3.70485}
+			}
+		}
+	}
+}

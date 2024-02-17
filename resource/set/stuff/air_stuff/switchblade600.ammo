@@ -1,5 +1,5 @@
 {bullet
-	{entity "switchblade300_loaded"}
+	{entity "switchblade600_loaded"}
 	{tag "smallitemin1hand keepentity dropboxed"}
     {inventory
 		{weight 100}

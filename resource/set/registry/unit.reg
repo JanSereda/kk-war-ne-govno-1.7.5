@@ -1,6 +1,12 @@
 ;SDL
 {units
-
+	{"ee9_cascavel"			{structure "cwds_apc6"}}
+	{"zulfiqar-3"		{structure "cwds_tank2"}}
+	{"toyota_hilux_nurs"	{structure "cwds_armcar"}}
+	{"toyota_hilux_kornet"	{structure "cwds_armcar"}}
+	{"bmp3_2022_sh1"	{structure "cwds_ifv"}}
+	{"bmp3_2022_sh2"	{structure "cwds_ifv"}}
+	{"bmp3_3_dz"		{structure "cwds_ifv"}}
 {"ztq-15"			{structure "cwds_tank2"}}
 {"2s7m_malka"			{structure "cwds_tank2"}}
 

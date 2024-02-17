@@ -1,5 +1,5 @@
 {game_entity
-	(include "/properties/Projectile_ammo.ext")
+	(include "/properties/projectile_ammo.ext")
                            (include "/properties/shadow/round.inc")
 	{collider "ammo"}
 	{extender "stuff"

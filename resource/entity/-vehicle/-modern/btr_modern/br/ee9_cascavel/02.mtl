@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/ee9_cascavel/t_west_apc_ee9cascavel_interior_d"}
+	{blend none}
+}
