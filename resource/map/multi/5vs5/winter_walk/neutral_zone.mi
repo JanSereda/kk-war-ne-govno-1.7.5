@@ -1492,7 +1492,7 @@
 	{Tags "invisible_wall_mp_nz" 0x8049}
 	{Tags "invisible_wall_mp_nz" 0x804a}
 	{Tags "invisible_wall_mp_nz" 0xf000}
-	{Environment "multi/desert_hills/desert_hills_day"}
+	{Environment "single/1/4-moscow"}
 	{Helpers
 		{zone "poly"
 			{position 567.655 -8762.01 171.282}
@@ -15870,66 +15870,60 @@
 						{time 0.1}
 					}
 					{"environment"
-						{name "m10/krimea_0600"}
+						{name "single/1/4-moscow"}
 						{time -1}
 						{apply}
 					}
 					{"delay"
-						{time 140}
+						{time 5}
 					}
 					{"environment"
 						{name "m10/krimea_1300"}
-						{time 150}
+						{time 5}
 						{apply}
 					}
 					{"delay"
-						{time 300}
-					}
-					{"delay"
-						{time 140}
+						{time 5}
 					}
 					{"environment"
-						{name "skirmish/rus-iskra_b"}
-						{time 450}
+						{name "single/1/4-moscow"}
+						{time 5}
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 5}
 					}
 					{"environment"
-						{name "m14/m14_18_00"}
-						{time 150}
+						{name "single/1/4-moscow"}
+						{time 5}
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 5}
 					}
 					{"environment"
-						{name "single/4-snake_head/snake_head_03_00"}
-						{time 150}
+						{name "single/1/4-moscow"}
+						{time 5}
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 5}
 					}
 					{"environment"
-						{name "m10/krimea_0600"}
-						{time 150}
+						{name "single/1/4-moscow"}
+						{time 5}
 						{apply}
 					}
 					{"delay"
-						{time 160}
+						{time 5}
 					}
 					{"environment"
-						{name "single/3-poltava/poltava_24_00"}
-						{time 160}
+						{name "single/1/4-moscow"}
+						{time 5}
 						{apply}
 					}
 					{"delay"
-						{time 160}
-					}
-					{"trigger"
-						{name "single/3-poltava/poltava_24_00"}
+						{time 5}
 					}
 				}
 			}

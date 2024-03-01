@@ -144,10 +144,10 @@
 		{position 0 0}
 		{condition "single vehicle"}
 	}
-	{leave_unit1
-		{position 1 2}
-		{condition "single vehicle"}
-	}	
+	;{leave_unit1
+	;	{position 1 2}
+	;	{condition "single vehicle"}
+	;}	
 	{barricade
 		{condition "human"}
 	}
