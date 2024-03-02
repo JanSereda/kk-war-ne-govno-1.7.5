@@ -1,5 +1,0 @@
-{material simple
-	{diffuse "$/model/bmp-1(2)/bmp2_interier"}
-	{emitsheat}
-{blend none}
-}

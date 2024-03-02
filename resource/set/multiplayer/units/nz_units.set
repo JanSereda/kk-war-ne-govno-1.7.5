@@ -111,6 +111,8 @@
  {"bmp1_kliver" {fore 1} ("p" c(900) sc(50) g(extrabmpklrtg) b(extra) brig(srbs_vdv) s(srbsk)  i(6) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
  {"brdm_zu" {fore 1} ("p" c(900) sc(25) g(extrabmpklrtg2) b(extra) brig(srbs_vdv) s(srbsk)  i(5) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(3)               ) }
  ;{"su-25sm_support" {fore 0} ("p" c(600) sc(200) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(15) t(all_nz aircraft   ) n(1)               ) }
+ {"brdm2_shmel" {fore 0.5} ("p" c(300) sc(50) g(air2) b(extra) brig(srbs_vdv) s(srbsk)  i(69) m(1) cw(0) cp(45) t(all_nz aircraft   ) n(3)               ) }
+ 
  {"9k72" {fore 0} ("p" c(1000) sc(300) g(9K72434) b(extra)  brig(srbs_vdv) s(srbsk) i(69) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(6)               ) }
  
 
