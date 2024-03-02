@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/uh1h/body_lit"}
-	{blend none}
-}

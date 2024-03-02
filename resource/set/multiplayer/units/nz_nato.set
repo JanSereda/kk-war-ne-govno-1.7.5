@@ -17,12 +17,12 @@
 
 {"gepard" ("v_nation" c(800) brig(nato_aa) t(all_nz antiair aat) s(nato) n(3) crew_nation(frg) g(extra4) sc(50) b(extra) i(10) cw(0) cp(20))  {fore 0.3}}
 {"e-2c_hawkeye_france"            ("air_nation" c(300) brig(nato_aa) t(all_nz aircraft aat nobot support_frontline) s(nato) n(5) crew_nation(brit) g(extra5)  sc(50) b(extra) i(3) cw(0) cp(20))  {fore 0.4}}
-{"f-35b_stealthaa_british"             ("air_nation" c(400) brig(nato_aa)t(all_nz aircraft aat nobot support_frontline)  s(nato) n(1) crew_nation(brit) g(extra6)   sc(150) b(extra) i(2) cw(0) cp(40))  {fore -1.4}}
+;{"f-35b_stealthaa_british"             ("air_nation" c(400) brig(nato_aa)t(all_nz aircraft aat nobot support_frontline)  s(nato) n(1) crew_nation(brit) g(extra6)   sc(150) b(extra) i(2) cw(0) cp(40))  {fore -1.4}}
 
 ;{"mq9_nato_recon"            ("h" c(600) brig(abn) t(all_nz aircraft nobot support_frontline) s(nato) n(0) g(extra7)  sc(50) b(extra) i(9) cw(0) cp(5))  {fore 0.0}}
 
 {"m2_adats" {fore 0 } ("v_nation" c(669) sc(150) g(pvo3) b(extra) brig(usart) s(nato) crew_nation(brit)  i(69) cw(0) cp(50) t(all_nz art aat support_frontline  ) n(3)               ) }
-{"apache_brit" ("v_nation" c(600) brig(abn) t(all_nz art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(extra8) sc(100) b(extra) i(6) cw(0) cp(40))   {fore -0.5}}
+;{"apache_brit" ("v_nation" c(600) brig(abn) t(all_nz art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(extra8) sc(100) b(extra) i(6) cw(0) cp(40))   {fore -0.5}}
 {"dana_152mm" ("v_nation" c(360) brig(abn) t(all_nz art nobot) s(nato) n(5) crew_nation(frg) g(extra9)   sc(100) b(extra) i(5) cw(0) cp(30))   {fore -1.0}}
 
 
@@ -35,12 +35,23 @@
 {"exactor_mk2"	("vartgbex" c(1500) c1(land_rover_exactor) c2(exactor_mk2) brig(gb) t(all_nz art nobot) s(nato) n(4) n1(vehicle_supporter:4) g(extra15) sc(200) a(1) b(extra) i(12) cw(5) cp(60))  {fore 0.0}} 
 
 
-("squad_with11types_custom" side(nato) crew_nation(fr) name(fr_squad_elite) c(460) g(extra16) c1(1er_rpima_fr_com:1) c2(1er_rpima_fr_zamcom:3) c3(1er_rpima_fr_marksman:1) c4(1er_rpima_fr_heavy_mgun:2) c5(1er_rpima_fr_bazooker:1) c6(1er_rpima_fr_smg:1) c7(1er_rpima_fr_smg3:1) b(extra) brig(fra) t(all_nz specnaz nobot) cost(50) f(0) info(infelite))
+;("squad_with11types_custom" side(nato) crew_nation(fr) name(fr_squad_elite) c(460) g(extra16) c1(1er_rpima_fr_com:1) c2(1er_rpima_fr_zamcom:3) c3(1er_rpima_fr_marksman:1) c4(1er_rpima_fr_heavy_mgun:2) c5(1er_rpima_fr_bazooker:1) c6(1er_rpima_fr_smg:1) c7(1er_rpima_fr_smg3:1) b(extra) brig(fra) t(all_nz specnaz nobot) cost(50) f(0) info(infelite))
 {"vbl_mistral" ("v_nation" c(400) brig(fra) t(all_nz att) s(nato) n(3) crew_nation(fr) g(extra17)  sc(50) b(extra) i(3) cw(0) cp(10))  {fore 0.0}}
 {"leclerc_azur"           ("v_nation" c(1200) brig(fra) t(all_nz additional tanks_only tank_nato) s(nato) n(3) crew_nation(fr) g(extra18)  sc(150) b(extra)   i(10) m(2) cw(0) cp(65))  {fore 0.0}}
 
                         
-;===============================Common===========================================                                   
+;===============================Common=========================================== 
+
+
+
+
+
+
+
+
+
+
+                                  
  {"fennek" {fore 1} ("vs_nation" c(500) sc(35) g(reco) b(common) brig(common) s(nato) crew_nation(frg) i(1) cw(40) cp(10) t(all_nz    ) n(3)               ) }
                                    
  {"tatra_t810i" {fore 1} ("v3cz" c(180) sc(55) g(inf1) b(common) brig(common) s(nato)  i(2) cw(0) cp(2) t(all_nz inf_nato infantry  ) n(1) c1(tatra_t810) n1(vehicle_supporter:2) n2(cz_com:1) n3(cz_mgun:1) n4(cz_mgunhelper:1) n5(cz_bazooker2:1) n6(cz_smg:1) n7(cz_sniper:1)       ) }
@@ -82,7 +93,7 @@
 {"leopard_2a4"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(7) cw(0) cp(2))  {fore 1}}
 {"pt-91"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(9) cw(0) cp(2))  {fore 1}}
 {"t72m4cz"           ("v" c(600) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(100) b(supl) i(10) cw(0) cp(2))  {fore 1}}
-{"fv107scimitar_mk2"           ("v" c(400) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(50) b(supl) i(69) cw(0) cp(2))  {fore 1}}
+;{"fv107scimitar_mk2"           ("v" c(400) brig(common) t(all_nz nobot ) s(nato) n(0) g(reserv)  sc(50) b(supl) i(69) cw(0) cp(2))  {fore 1}}
 
                              
 ;===============================NATO AIR==NATO Response Force==NRF=======================================                                   
@@ -103,10 +114,10 @@
 ;===============================NATO_ARTILERY===========================================                                   
 ("squad_with11types_custom" name(brit_scouts) f(0)  c(300) cost(40) g(spc) b(abn_hqcar) brig(abn) side(nato) crew_nation(brit)    t(all_nz infantry support_frontline  ) info(gb_scouts) c1(sas_scout_com:1) c2(sas_scout_rifleman:1) c3(sas_scout_bazooker:1)            ) 
                                    
- {"l118" {fore 0.75} ("vartgb" c(500) sc(100) g(art) b(abn_hqcar) brig(abn) s(nato)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(pinzgauer_710m) c2(l118) n1(vehicle_supporter:2) n2(vehicle_supporter:2)           ) }
+ {"l118" {fore 0.75} ("vartgb" c(500) sc(90) g(art) b(abn_hqcar) brig(abn) s(nato)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(pinzgauer_710m) c2(l118) n1(vehicle_supporter:2) n2(vehicle_supporter:2)           ) }
  {"fh-70" {fore 0.5} ("vartg" c(600) sc(200) g(art) b(abn_hqcar) brig(abn) s(nato)  i(3) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(man_passenjer) c2(fh-70) n1(vehicle_supporter:2) n2(vehicle_supporter:2)           ) }
  
- {"as_90" ("v_nation" c(300) brig(abn) t(all_nz art nobot) s(nato) n(5) crew_nation(frg) g(extra9)   sc(250) b(abn_hqcar) i(55) cw(0) cp(30))   {fore -2.0}}                           
+ {"as_90" ("v_nation" c(300) brig(abn) t(all_nz art nobot) s(nato) n(5) crew_nation(frg) g(extra9)   sc(300) b(abn_hqcar) i(55) cw(0) cp(30))   {fore -2.0}}                           
  {"pzh2000" {fore 0.45} ("v_nation" c(1500) sc(480) g(art2) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(5) cw(0) cp(45) t(all_nz art   ) n(5)               ) }
  {"lars2" {fore 0.1} ("v_nation" c(900) sc(240) g(helina222) b(abn_hqcar) brig(abn) s(nato) crew(frg) i(333) cw(0) cp(40) t(all_nz heli   ) n(2)               ) }
          
@@ -114,8 +125,8 @@
  {"mrls_atacms_nato" {fore 0} ("v_nation" c(1330) sc(300) g(otrk) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(8) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
                                    
  {"roland" {fore 0.6} ("vs_nation" c(430) sc(160) g(pvo2) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(9) cw(0) cp(30) t(all_nz aat support_frontline  ) n(4)               ) }
- {"sampt_arabel" {fore 0} ("vs_nation" c(500) sc(140) g(pvo45) b(abn_hqcar) brig(abn) s(nato) crew_nation(fr) i(10) cw(0) cp(20) t(all_nz art support_frontline  ) n(4)               ) }
- {"sampt_mamba" {fore 0} ("vs_nation" c(500) sc(160) g(pvo46) b(abn_hqcar) brig(abn) s(nato) crew_nation(fr) i(11) cw(0) cp(20) t(all_nz art cannon heavy_art support_frontline  ) n(2)               ) }
+ {"sampt_arabel" {fore 0} ("vs_nation" c(700) sc(300) g(pvo45) b(abn_hqcar) brig(abn) s(nato) crew_nation(fr) i(10) cw(0) cp(20) t(all_nz art support_frontline  ) n(4)               ) }
+ {"sampt_mamba" {fore 0} ("vs_nation" c(700) sc(350) g(pvo46) b(abn_hqcar) brig(abn) s(nato) crew_nation(fr) i(11) cw(0) cp(20) t(all_nz art cannon heavy_art support_frontline  ) n(2)               ) }
  {"hawk_rls_nato" {fore 1} ("vpat_nation" c(300) sc(40) g(radar1) b(abn_hqcar) brig(abn) s(nato) crew_nation(brit) i(12) cw(0) cp(5) t(all_nz  support_frontline  ) n(2) c1(pinzgauer_710m) c2(hawk_rls)             ) }
                                    
  {"man_art" {fore 1} ("vs_nation" c(300) sc(100) g(supply4) b(abn_hqcar) brig(abn) s(nato) crew_nation(frg) i(13) cw(0) cp(2) t(all_nz supply support_frontline  ) n(2)               ) }
@@ -187,7 +198,8 @@
  {"vab_mephisto" {fore 0.8} ("v_nation" c(400) sc(90) g(btr3) b(fra_hqcar) brig(fra) s(nato) crew_nation(fr) i(10) cw(0) cp(10) t(all_nz att   ) n(3)               ) }
                                    
  {"mortarfr" {fore 0} ("vartf" c(300) sc(100) g(min) b(fra_hqcar) brig(fra) s(nato)  i(11) cw(5) cp(15) t(all_nz art   ) n(2) c1(vab_reco) c2(mortarfr)  n1(vehicle_supporter:2)           ) }
-                                   
+ 
+                                  
 ;===============================Не захватывает территорию===========================================                                   
  {"nh90_sas" {fore 1} ("v3b" c(300) sc(20) g(nzt) b(nzt) brig(nzt) s(nato)  i(0) cw(0) cp(20) t(nzt    ) n(4) n1(pilot:2) c1(nh90)             ) }
  {"aladin" {fore 1} ("v3b" c(300) sc(20) g(nzt) b(nzt) brig(nzt) s(nato)  i(0) cw(0) cp(20) t(nzt    ) n(4) n1(pilot:2) c1(nh90)             ) }

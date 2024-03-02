@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/uh-1/small_prop"}
-	{blend blend}
-}
