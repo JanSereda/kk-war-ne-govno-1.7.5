@@ -99,7 +99,7 @@
 ;===============================US artillery===========================================                                   
 ("squad_with7types" name(usaspot) f(0)  c(300) cost(40) g(spot) b(usart_hqcar) brig(usart) side(usa)     t(all_nz    ) info(smgs) c1(navyseal_com_art:1) c2(navyseal_marksman_art:1) c3(navyseal_smg_art:1)            ) 
                                    
- {"m119" {fore 0.75} ("vart" c(400) sc(90) g(how) b(usart_hqcar) brig(usart) s(usa)  i(2) cw(5) cp(3020) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m119) n1(vehicle_supporter_usmc:2)            ) }
+ {"m119" {fore 0.75} ("vart" c(400) sc(90) g(how) b(usart_hqcar) brig(usart) s(usa)  i(2) cw(5) cp(20) t(all_nz art support_frontline  ) n(2) c1(hmmwv_m998_tent) c2(m119) n1(vehicle_supporter_usmc:2)            ) }
  {"m777a2" {fore 0} ("vart" c(500) sc(150) g(how) b(usart_hqcar) brig(usart) s(usa) m(5)  i(5) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) n1(vehicle_supporter_usmc:2)            ) }                                  
  
  {"paladin" {fore 0} ("v" c(669) sc(500) g(lart) b(usart_hqcar) brig(usart) s(usa)  i(333) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
