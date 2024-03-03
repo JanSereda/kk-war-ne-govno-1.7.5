@@ -16052,11 +16052,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
+						{time 160}
 						{title "ЧЁ НАХУЙ"}
 					}
 					{"delay"
-						{time 210}
+						{time 160}
 					}
 					{"timer"
 						{hide}

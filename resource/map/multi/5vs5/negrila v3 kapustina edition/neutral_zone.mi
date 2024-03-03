@@ -16376,11 +16376,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 210}
+						{time 120}
 						{title "ЧЁ НАХУЙ"}
 					}
 					{"delay"
-						{time 210}
+						{time 120}
 					}
 					{"timer"
 						{hide}
