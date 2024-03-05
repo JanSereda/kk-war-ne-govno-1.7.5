@@ -63,19 +63,18 @@
 		{Box
 			{Size 6 6}
 			{weight 700}
-			{item "ammo 9m133 cm_e" 2}
-			{item "ammo 9m133 fg" 1}
+			{item "ammo 9m133 cm_e" 6}
+			{item "ammo 9m133 fg" 6}
 		}
 	}
 	{Weaponry
 		{place "gun"
-			{weapon "weapon 32_57_pickup" filling "ammo 5 fg cm_e" 1}
+			{weapon "9m133x1_base" filling "ammo 9m133 cm_e" 1}
 			{foresight "foresight1"}
 			{barrels 1}
 			{gunner "gunner"}
 			{charger "gunner"}
 			{basic}
-			("CW_stab_no_stabiliser")
 		}
 	}
 	{Chassis
@@ -84,7 +83,7 @@
 			Turnradius(7)
 			Power(75)
 			Realspeed(100)
-			Gamespeed(55) 
+			Gamespeed(69) 
 			Range(500)
 			Fuelvolume(78)
 		)

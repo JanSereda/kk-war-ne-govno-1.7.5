@@ -6,6 +6,8 @@
 
 
 
+{"btr-4e1_isis"								"<c(FFFFFF)e(shadow)>БТР-4Е</c>"}
+{"toyota_hilux_kornet"								"<c(FFFFFF)e(shadow)>Toyota Hilux с ПТРК Корнет</c>"}
 {"ztq-15"								"<c(FFFFFF)e(shadow)>ZTQ-15</c>"}
 {"2s7m_malka"								"<c(FFFFFF)e(shadow)>2C7М 'Малка'</c>"}
 

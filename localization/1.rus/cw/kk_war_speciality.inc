@@ -5,6 +5,9 @@
 ;rev 04.07.2022
 
 
+{"btr-4e1_isis"								"<c(FFFF00)>Бронетранспортёр</c>"} 
+{"toyota_hilux_nurs"								"<c(FFFF00)>Автомобиль</c>"} 
+{"toyota_hilux_kornet"								"<c(FFFF00)>Автомобиль</c>"} 
 {"ztq-15"								"<c(FFFF00)>Лёгкий танк</c>"} 
 {"2s7m_malka"								"<c(FFFF00)>Самоходная пушка</c>"} 
 

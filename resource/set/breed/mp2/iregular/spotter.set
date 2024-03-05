@@ -59,14 +59,14 @@
 		}
 	}
 	{inventory
-		{item "binocular"}
+		
 		{item "bandage" 5}
-		{item "m61 grenade" 4}
-		{item "imtv_smg_no_g"}
+		
 		{item "rq11_control"}
-		{item "fpv_drone" 4}
+		{item "fpv_drone" 3}
+		{item "fpv_drone120" 3}
 		{item "g36e" filling "556natomb ammo" 30}
-		{item "556nato ammo" 150}
+		{item "556nato ammo" 100}
 		{in_hands 5}
 	}
 }

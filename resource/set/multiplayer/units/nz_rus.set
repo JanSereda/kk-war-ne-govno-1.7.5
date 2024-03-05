@@ -97,19 +97,19 @@
  
 
  
- {"mstasm2" {fore 0} ("v" c(669) sc(500) g(art1) b(artbr_hqcar) brig(artbr) s(rus)  i(6) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
+ {"mstasm2" {fore 0} ("v" c(669) sc(400) g(art1) b(artbr_hqcar) brig(artbr) s(rus)  i(6) cw(0) cp(60) t(all_nz art support_frontline  ) n(4)               ) }
  
- {"ural-4320_tornado_g" {fore 0} ("vs" c(600) sc(450) g(rszo) b(artbr_hqcar) brig(artbr) s(rus)  i(8) cw(0) cp(70) t(all_nz art support_frontline  ) n(2)               ) }
+ {"ural-4320_tornado_g" {fore 0} ("vs" c(600) sc(450) g(rszo) b(artbr_hqcar) brig(artbr) s(rus)  i(8) cw(0) cp(60) t(all_nz art support_frontline  ) n(2)               ) }
  
  
- {"bm-30_tornado_s" {fore 0.0} ("vs" c(1100) sc(470) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(10) cw(0) cp(50) t(all_nz art support_frontline  ) n(4)               ) }
+ {"bm-30_tornado_s" {fore 0.0} ("vs" c(1100) sc(470) g(rszo1) b(artbr_hqcar) brig(artbr) s(rus)  i(10) cw(0) cp(70) t(all_nz art support_frontline  ) n(4)               ) }
  
- {"iskander" {fore 0} ("vs" c(1330) sc(500) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(12) cw(0) cp(65) t(all_nz art support_frontline  ) n(3)               ) }
- {"pantsir_s1" {fore 0} ("v" c(900) sc(250) g(pvo1_extra) b(artbr_hqcar) brig(artbr) s(rus)  i(3) cw(0)   cp(40) t(all_nz art aat support_frontline  ) n(3)               ) }                                
+ {"iskander" {fore 0} ("vs" c(1330) sc(500) g(otrk) b(artbr_hqcar) brig(artbr) s(rus)  i(12) cw(0) cp(100) t(all_nz art support_frontline  ) n(3)               ) }
+ {"pantsir_s1" {fore 0} ("v" c(900) sc(250) g(pvo1_extra) b(artbr_hqcar) brig(artbr) s(rus)  i(3) cw(0)   cp(50) t(all_nz art aat support_frontline  ) n(3)               ) }                                
                                  
- {"tor_m2" {fore 0.0} ("v" c(269) sc(200) g(pvo) b(artbr_hqcar) brig(artbr) s(rus)  i(13) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(4)               ) }
+ {"tor_m2" {fore 0.0} ("v" c(269) sc(200) g(pvo) b(artbr_hqcar) brig(artbr) s(rus)  i(13) cw(0) cp(35) t(all_nz art aat support_frontline  ) n(4)               ) }
  
- {"buk_m2" {fore 0.0} ("v" c(1000) sc(300) g(pvo1) b(artbr_hqcar) brig(artbr) s(rus)  i(15) cw(0) cp(35) t(all_nz art aat support_frontline  ) n(4)               ) }
+ {"buk_m2" {fore 0.0} ("v" c(1000) sc(300) g(pvo1) b(artbr_hqcar) brig(artbr) s(rus)  i(15) cw(0) cp(45) t(all_nz art aat support_frontline  ) n(4)               ) }
  {"9s18_kupol" {fore 0.07} ("v" c(1000) sc(469) g(pvor) b(artbr_hqcar) brig(artbr) s(rus)  i(16) cw(0) cp(35) t(all_nz art support_frontline  ) n(4)               ) }
  {"p-37" {fore 1} ("vs" c(300) sc(90) g(radar) b(artbr_hqcar) brig(artbr) s(rus)  i(17) cw(0) cp(5) t(all_nz antiair support_frontline  ) n(4)               ) }
                         

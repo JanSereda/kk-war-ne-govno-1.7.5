@@ -7,7 +7,7 @@
 			{world -2658.01 -11733.8 2581.91 4683.11}
 			{camera -2658.01 -11653.9 2586.45 4724.8}
 			{pather -2631.26 -11480.6 2525.79 4761.55}
-			{distance 200 2000}
+			{distance 0 5000}
 			{viewAngle 32 60}
 		}
 	}
@@ -18767,7 +18767,7 @@
 		}
 	}
 	{Entity "fence_stone_destr3" 0x608a
-		{Position -2013.02 -665.14 5.74}
+		{Position -2013.02 -665.14}
 		{xform zl 82.29 scale 0.7}
 	}
 	{Entity "fence_stone3b_n" 0x609b
@@ -18815,7 +18815,7 @@
 		}
 	}
 	{Entity "fence_stone_destr3" 0x60a6
-		{Position -2060.23 -742.08 6.81}
+		{Position -2060.23 -742.08}
 		{xform zl 173.73 scale 0.7}
 	}
 	{Entity "fence_stone3b_n" 0x60a7
@@ -19077,7 +19077,7 @@
 		{xform zl -170.77 scale 0.8}
 	}
 	{Entity "cobble1" 0x41d0
-		{Position -2107.14 -692.63 8}
+		{Position -2107.14 -692.63}
 		{xform zl -99.2 scale 0.8}
 	}
 	{Entity "cobble1" 0x41d1
@@ -23322,7 +23322,7 @@
 		{xform zl 67.6 scale 0.8}
 	}
 	{Entity "cobble1" 0x61a2
-		{Position 1668.54 -1833.61 7.07}
+		{Position 1668.54 -1833.61}
 		{xform zl -146.27}
 	}
 	{Entity "cobble1" 0x61a3
@@ -23334,7 +23334,7 @@
 		{xform zl 51.01 scale 0.8}
 	}
 	{Entity "cobble1" 0x61a6
-		{Position 1677.78 -1805.44 5.02}
+		{Position 1677.78 -1805.44}
 		{xform zl 51.01}
 	}
 	{Entity "crash_brick4" 0x61a7
@@ -24085,19 +24085,19 @@
 		{xform zl 14.57}
 	}
 	{Entity "cobble1" 0x4211
-		{Position 1070.37 -2296.63 10.71}
+		{Position 1070.37 -2296.63}
 		{xform zl 143.61}
 	}
 	{Entity "cobble1" 0x4212
-		{Position 1016.96 -2314.01 0.58}
+		{Position 1016.96 -2314.01}
 		{xform zl 47.35 y 8.87 zw -107.91}
 	}
 	{Entity "cobble1" 0x4213
-		{Position 1079.14 -2383.95 0.63}
+		{Position 1079.14 -2383.95}
 		{xform zl 47.3 y 15.06 zw -106.3}
 	}
 	{Entity "cobble1" 0x4214
-		{Position 1090.3 -2333.62 12.55}
+		{Position 1090.3 -2333.62}
 		{xform zl 21.43 y 20.38 zw -175.28}
 	}
 	{Entity "crash_brick4" 0xa66
@@ -35829,7 +35829,7 @@
 		}
 	}
 	{Entity "fence2000_3" 0x48d7
-		{Position -1162.38 627.09 1.38}
+		{Position -1162.38 627.09}
 		{xform zl -0.48}
 		{SkeletonSrc "fence2000_3_x"}
 		{TexMod "win1"}
@@ -37488,7 +37488,7 @@
 		{xform zl 123.18 y 7.4 zw -162.75}
 	}
 	{Entity "burn_grass1" 0x7127
-		{Position 1230.89 32.34 0.54}
+		{Position 1230.89 32.34}
 		{xform zl 123.18 y 7.4 zw -162.75}
 	}
 	{Entity "fence-wood4" 0x7130
@@ -107385,7 +107385,7 @@
 		{xform zl 117.43 y 9.47 zw 117.62 scale 1.55}
 	}
 	{Entity "cobble1" 0x43f2
-		{Position -2066.92 3807.49 47.26}
+		{Position -2066.92 3807.49}
 		{xform zl 117.43 y 9.47 zw 88.03 scale 1.55}
 	}
 	{Entity "cobble1" 0x43f3
@@ -109121,7 +109121,7 @@
 		{Color 0xffa8a8a8}
 	}
 	{Entity "topol02" 0x2408
-		{Position -124.6 1367.07 3}
+		{Position -124.6 1367.07}
 		{xform zl -50.77 y 87.88 zw 37.1}
 		{TexMod "bare"}
 	}
@@ -109637,7 +109637,7 @@
 		}
 	}
 	{Entity "road_aero" 0x681b
-		{Position 1236.7 984.89 2.96}
+		{Position 1236.7 984.89}
 		{xform zl -50.7}
 		{DecalOrder 2}
 	}
@@ -121954,7 +121954,7 @@
 		{xform zl -28.34}
 	}
 	{Entity "house_floormarble1a" 0x11ee
-		{Position -2020.57 3849.18 46.46}
+		{Position -2020.57 3849.18}
 		{xform zl -28.34}
 	}
 	{Entity "house_floormarble1a" 0x50a8

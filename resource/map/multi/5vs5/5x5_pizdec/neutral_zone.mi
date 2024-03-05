@@ -15719,11 +15719,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 240}
-						{title " "}
+						{time 160}
+						{title "& "}
 					}
 					{"delay"
-						{time 240}
+						{time 160}
 					}
 					{"timer"
 						{hide}

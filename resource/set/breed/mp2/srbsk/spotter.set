@@ -48,7 +48,7 @@
 	}
 	{inventory
 		{item "bandage" 15}
-		{item "binocular"}
+	
 		{item "m16a4full" filling "556natos ammo" 30}
 		{item "556nato ammo" 200}
 		{item "rq11_control"}
