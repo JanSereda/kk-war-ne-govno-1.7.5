@@ -147,6 +147,14 @@
 		{"ptr" {volume "body"}}
 		{"bullet" {volume "body"}}	
 	}
+	{fpv_kamikaze
+		
+		{"zenite" }
+		{"hmgun" }
+		{"hrifle" }
+		{"ptr" }
+		{"bullet" }	
+	}
 	{medium_UAV_kamikaze
 		{"rad_aa_passive" {volume "body"}}
 		{"rad_aa" {volume "body"}}

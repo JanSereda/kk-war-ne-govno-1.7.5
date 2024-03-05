@@ -15651,7 +15651,7 @@
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 150}
 					}
 					{"environment"
 						{name "single/1/4-moscow"}
@@ -15659,7 +15659,7 @@
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 150}
 					}
 					{"environment"
 						{name "single/4-snake_head/snake_head_03_00"}
@@ -15667,15 +15667,15 @@
 						{apply}
 					}
 					{"delay"
-						{time 300}
+						{time 150}
 					}
 					{"environment"
 						{name "multi/borovaya/borovaya_night"}
-						{time 150}
+						{time 100}
 						{apply}
 					}
 					{"delay"
-						{time 160}
+						{time 100}
 					}
 					{"trigger"
 						{name "service/mp_weather/normal"}
@@ -15690,11 +15690,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 110}
+						{time 105}
 						{title "卍\t"}
 					}
 					{"delay"
-						{time 110}
+						{time 105}
 					}
 					{"timer"
 						{hide}
