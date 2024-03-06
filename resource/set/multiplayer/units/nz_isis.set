@@ -73,7 +73,7 @@
 {"type63_rocket2i" {fore 0.75} ("vart" c(250) sc(100) g(art6) b(iart_hqcar) brig(iart) s(iregular)  i(7) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(type63_rocket2) n1(vehicle_supporter:2)            ) }
 {"zu23-2i" {fore 1} ("vart" c(200) sc(69) g(art7) b(iart_hqcar) brig(iart) s(iregular)  i(8) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(mtlb_new) c2(zu23-2) n1(vehicle_supporter:2)            ) }
 {"2c3_akaciya_irg" {fore 0} ("v3" c(500) sc(210) g(cacatiya)  b(iart_hqcar) brig(iart) s(iregular)  i(9) cw(0) cp(7) t(all_nz   ) c1(2c3_akaciya) n(1) n1(tankman:4)      ) }
-{"9k35_strela_nurs" {fore 0} ("v" c(787) sc(91) g(art9) b(iart_hqcar) brig(iart) s(iregular)  i(10) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
+{"9k35_strela_nurs" {fore 0} ("v" c(787) sc(131) g(art9) b(iart_hqcar) brig(iart) s(iregular)  i(10) cw(0) cp(25) t(all_nz art  support_frontline) n(3)               ) }
 {"brdm2_atgm" {fore 0} ("v" c(333) sc(100) g(art10) b(iart_hqcar) brig(iart) s(iregular)  i(11) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
 
 ;===================================== Тяжёлая бригада =====================================================
@@ -92,13 +92,19 @@
  
 {"t72av" {fore 0} ("v" c(600) sc(180) g(tonk1) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(8) cw(0) cp(35) t(all_nz    ) n(3)               ) }
 
-{"btr-4e1_isis" {fore 1} ("v" c(300) sc(120) g(BTR4) b(iregular_mot_hqcar) brig(iregular_mot) s(iregular)  i(88) cw(0) cp(15) t(all_nz    ) n(3)               ) }
 
 
 
 
 ;=========================================Средняя бригада=============================================
-
+ ("squad_with11types" side(iregular) name(churki) c(700) g(inf_spec) 
+	c1(spec_com:1) c2(spec_mg:1) c3(spec_saper:2) c4(spec_smg1:2) c5(spec_smg2:2) c6(spec_smg3:2) c7(spec_sniper:1) 
+	b(iregular_specbr_hqcar) brig(iregular_specbr) t(all_nz infantry) cost(190) f(1) 
+ )
+ ("squad_with11types" side(iregular) name(sbr) c(700) g(inf_spec) 
+	c1(reserv6:1) c2(reserv5:2) c3(reserv2:2) c4(reserv3:1) c5(reserv4:1) c6(reserv1:1) 
+	b(iregular_specbr_hqcar) brig(iregular_specbr) t(all_nz infantry) cost(190) f(1) 
+ )
 
 {"toyota_hilux_t69" {fore 1} ("v" c(500) sc(60) g(no_uut) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(12) cw(0) cp(5) t(all_nz art  support_frontline) n(4)               ) }
 {"toyota_hilux_tow" {fore 1} ("v" c(200) sc(40) g(no_art22) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(22) cw(0) cp(5) t(all_nz art  support_frontline) n(4)               ) }
@@ -116,13 +122,16 @@
 
 ;========= СПЕЦ ОЧКИ
 
- {"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(250) g(air_tac) b(extra) brig(iregular_specbr) s(iregular)  m(1)  i(1) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
+ ;"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(250) g(air_tac) b(extra) brig(iregular_specbr) s(iregular)  m(1)  i(1) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
+ 
+ {"btr-4e1_isis" {fore 1} ("v" c(300) sc(50) g(BTR4) b(extra) brig(iregular_mot) s(iregular)  i(88) cw(0) cp(15) t(all_nz    ) n(3)               ) }
  {"t80ybars" {fore 0} ("p" c(960) sc(200) g(air) b(extra) brig(iregular_specbr) s(iregular)   i(2) m(3) cw(0) cp(40) t(all_nz aircraft   ) n(3)               ) }
  {"9k72" {fore 0} ("p" c(1000) sc(300) g(air_strike) b(extra)  brig(iregular_specbr) s(iregular) i(3) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(6)               ) }
  
  {"shahed136_truck" {fore 0} ("p" c(800) sc(150) g(air_st222rike) b(extra)  brig(iregular_specbr) s(iregular) i(4) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(3)               ) }
  {"kornet_base_stan_isis" {fore 0} ("p" c(200) sc(50) g(air_st222rike) b(extra)  brig(iregular_specbr) s(iregular) i(5) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(2)               ) }
  {"sso_irg" {fore 1} ("v3" c(900) sc(100) g(sso)  b(extra) brig(iregular_specbr) s(iregular)  i(25) m(2) cw(0) cp(45) t(all_nz  support_frontline  ) n(2) c1(mi17_unarmed) n1(pilot:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)       ) }
-	
+
+
 
 
