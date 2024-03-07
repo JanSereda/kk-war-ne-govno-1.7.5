@@ -6,6 +6,7 @@
 
 
 
+{"mi24vbomb"								"<c(FFFFFF)e(shadow)>МИ-25</c>"}
 {"btr-4e1_isis"								"<c(FFFFFF)e(shadow)>БТР-4Е</c>"}
 {"toyota_hilux_kornet"								"<c(FFFFFF)e(shadow)>Toyota Hilux с ПТРК Корнет</c>"}
 {"ztq-15"								"<c(FFFFFF)e(shadow)>ZTQ-15</c>"}

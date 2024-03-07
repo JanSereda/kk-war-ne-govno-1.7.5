@@ -15643,31 +15643,31 @@
 						{apply}
 					}
 					{"delay"
-						{time 140}
+						{time 120}
 					}
 					{"environment"
 						{name "single/1/4-moscow"}
-						{time 150}
+						{time 120}
 						{apply}
 					}
 					{"delay"
-						{time 150}
+						{time 120}
 					}
 					{"environment"
 						{name "single/1/4-moscow"}
-						{time 150}
+						{time 120}
 						{apply}
 					}
 					{"delay"
-						{time 150}
+						{time 120}
 					}
 					{"environment"
 						{name "single/4-snake_head/snake_head_03_00"}
-						{time 150}
+						{time 120}
 						{apply}
 					}
 					{"delay"
-						{time 150}
+						{time 120}
 					}
 					{"environment"
 						{name "multi/borovaya/borovaya_night"}
@@ -15690,7 +15690,7 @@
 						{time 1}
 					}
 					{"timer"
-						{time 105}
+						{time 85}
 						{title "卍\t"}
 					}
 					{"delay"

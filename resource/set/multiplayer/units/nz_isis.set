@@ -63,7 +63,6 @@
 
 {"ptur_tow_isis" {fore 1} ("v" c(200) sc(30) g(no_art1) b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(5) t(all_nz art  support_frontline) n(2)               ) }
 {"milan_stan_2" {fore 0.5} ("v" c(300) sc(30) g(no_art2) b(iart_hqcar) brig(iart) s(iregular)  i(12) cw(0) cp(5) t(all_nz art  support_frontline) n(1)               ) }
-{"spike_lr_stan_isis" {fore 0.} ("vart" c(300) sc(150) g(art_heavy) b(iart_hqcar) brig(iart) s(iregular)  i(555) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(spike_lr_stan) n1(vehicle_supporter:2)           ) }
 
 
 {"ags17" {fore 1} ("v" c(300) sc(69) g(art3) b(iart_hqcar) brig(iart) s(iregular)  i(4) cw(0) cp(25) t(all_nz art  support_frontline) n(2)               ) }
@@ -101,24 +100,31 @@
 	c1(spec_com:1) c2(spec_mg:1) c3(spec_saper:2) c4(spec_smg1:2) c5(spec_smg2:2) c6(spec_smg3:2) c7(spec_sniper:1) 
 	b(iregular_specbr_hqcar) brig(iregular_specbr) t(all_nz infantry) cost(190) f(1) 
  )
- ("squad_with11types" side(iregular) name(sbr) c(700) g(inf_spec) 
-	c1(reserv6:1) c2(reserv5:2) c3(reserv2:2) c4(reserv3:1) c5(reserv4:1) c6(reserv1:1) 
-	b(iregular_specbr_hqcar) brig(iregular_specbr) t(all_nz infantry) cost(190) f(1) 
- )
+
 
 {"toyota_hilux_t69" {fore 1} ("v" c(500) sc(60) g(no_uut) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(12) cw(0) cp(5) t(all_nz art  support_frontline) n(4)               ) }
 {"toyota_hilux_tow" {fore 1} ("v" c(200) sc(40) g(no_art22) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(22) cw(0) cp(5) t(all_nz art  support_frontline) n(4)               ) }
 {"bmp2_new_irg" {fore 1} ("v3" c(220) sc(69) g(heavy_peha)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(1) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(bmp2_new) n(1) n1(tankman:3)   ) }       
-{"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)  i(2) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
 {"m113a_irg" {fore 1} ("v3" c(220) sc(110) g(heavy_peha2)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(3) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(m113a) n(1) n1(tankman:2) n2(army_com:1) n3(army_mgun:1) n4(army_smg:1) n5(army_smg2:2) n6(army_rpg:2) n7(army_rpghelp:1)    ) }     
 {"btr80_2_newi" {fore 1} ("v3" c(669) sc(150) g(specnaz)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(4) cw(0) cp(15) t(all_nz inf_irg infantry ) c1(btr80_2_new) n(1) n1(tankman:2) n2(spec_com:1) n3(spec_mg:1) n4(spec_saper:2) n5(spec_smg1:2) n6(spec_smg2:2) n7(spec_smg3:1) n8(spec_sniper:1)     ) }     
 {"saper_squad" {fore 0} ("v3" c(180) sc(100) g(sapres)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(5) cw(0) cp(10) t(all_nz inf_irg infantry ) c1(toyota_hilux_transport) n(1) n1(tankman:1) n2(saper:5)     ) }     
 
- ;{"2k12_kubi" {fore 0.75} ("vart" c(600) sc(170) g(a213rt)  b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular)   i(5) cw(5) cp(15) t(all_nz art support_frontline  )   c1(2k12_kub) c2(1s91_kub_radar) n1(tankman:4) n2(vehicle_supporter:4)          ) }
- {"9k33_osa_akm_isis" {fore 0.0} ("v" c(600) sc(110) g(pvo1222) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular) i(15) cw(0) cp(40) t(all_nz art aat support_frontline  ) n(3)               ) }
+{"9k33_osa_akm_isis" {fore 0.0} ("v" c(600) sc(110) g(pvo1222) b(iregular_specbr_hqcar) brig(iregular_specbr) s(iregular) i(15) cw(0) cp(40) t(all_nz art aat support_frontline  ) n(3)               ) }
 
 
-;========== 
+
+
+
+;==========  ВВС ЕБАТЬ isis_vvs isis_vvs_hqcar
+ ("squad_with11types" side(iregular) name(sbr) c(700) g(inf_spec) 
+	c1(reserv6:1) c2(reserv5:2) c3(reserv2:2) c4(reserv3:1) c5(reserv4:1) c6(reserv1:1) 
+	b(isis_vvs_hqcar) brig(isis_vvs) t(all_nz infantry) cost(190) f(1) 
+ )
+{"bmd1pi" {fore 1} ("v3" c(369) sc(120) g(inf_bmd1) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(2) cw(0) cp(10) t(all_nz infantry  ) n(1) c1(bmd1p) n1(tankman:3) n2(reserv6:1) n3(reserv5:1) n4(reserv2:1) n5(reserv3:1) n6(reserv4:1) n8(reserv1:1)        ) }
+{"spike_lr_stan_isis" {fore 0.} ("vart" c(300) sc(150) g(art_heavy) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(555) cw(5) cp(35) t(all_nz art support_frontline  ) n(2) c1(spike_lr_stan) n1(vehicle_supporter:2)           ) }
+
+{"mi24vbomb" {fore 0.4} ("p" c(900) sc(150) g(mi24) b(isis_vvs_hqcar) brig(isis_vvs) s(iregular)  i(6) cw(0) cp(25) t(all_nz aircraft   ) n(2)               ) }
+ 
 
 ;========= СПЕЦ ОЧКИ
 

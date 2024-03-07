@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 
 
+{"mi24vbomb"								"<c(FFFF00)>Многоцелевой ударный вертолет</c>"} 
 {"btr-4e1_isis"								"<c(FFFF00)>Бронетранспортёр</c>"} 
 {"toyota_hilux_nurs"								"<c(FFFF00)>Автомобиль</c>"} 
 {"toyota_hilux_kornet"								"<c(FFFF00)>Автомобиль</c>"} 

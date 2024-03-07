@@ -1,6 +1,7 @@
 ;SDL
 {units
 
+	{"mi24vbomb"			{structure "cwds_heli_attack"}}
 	{"btr-4e1_isis"			{structure "cwds_apc6"}}
 	{"ee9_cascavel"			{structure "cwds_apc6"}}
 	{"zulfiqar-3"		{structure "cwds_tank2"}}
