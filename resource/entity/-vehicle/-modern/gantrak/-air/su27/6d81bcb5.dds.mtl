@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "$/model/su27/rocket"}
+	{blend none}
+}

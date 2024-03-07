@@ -1,0 +1,4 @@
+{material bump
+	{diffuse "$/model/mig23/fonar"}
+	{blend none}
+}

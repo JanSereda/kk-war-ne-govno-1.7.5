@@ -31,7 +31,6 @@
 {"ural-4320_long_tent_h" {fore 1} ("v" c(100) sc(69) g(ural_heavy) b(supl) brig(common) s(srbsk)  i(2) cw(0) cp(5) t(all_nz   ) n(2)               ) } 
 {"ural-4320_fuel_serb" {fore 0} ("v3" c(300) sc(96) g(fuel)   b(supl) brig(common)s(srbsk)  i(17) cw(0) cp(15) t(all_nz   ) c1(ural-4320_fuel) n(1) n1(tankman:1)      ) }
 
- {"mtlb_zu" {fore 0.0} ("v" c(240) sc(130) g(pvo_kringe) b(supl) brig(common) s(srbsk)  i(21) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(5)               ) }
  {"Shilka_SERB" {fore 0} ("v3" c(300) sc(150) g(pvo2)  b(supl) brig(common) s(srbsk)  i(15) cw(0) cp(15) t(all_nz   ) c1(Shilka) n(1) n1(vehicle_supporter:4)      ) }
  {"yaz_patrior_zu23_2" {fore 1} ("v" c(100) sc(69) g(uaz25) b(supl) brig(common) s(srbsk)  i(4) cw(0) cp(10) t(all_nz   ) n(3)             ) }
 	
