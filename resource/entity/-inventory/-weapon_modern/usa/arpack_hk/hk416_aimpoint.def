@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "hk416_aimpoint.mdl"}
+	{extender "stuff"
+		{item "hk416_aimpoint"}
+	}
+	{nogroupmesh 1}
+}

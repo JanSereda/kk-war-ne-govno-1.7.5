@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{extender "stuff"
+		{item "m203_m4a1_acog_sand"}
+	}
+	{texmod "sand"}
+	{Extension "m203_m4a1_acog.mdl"}
+}

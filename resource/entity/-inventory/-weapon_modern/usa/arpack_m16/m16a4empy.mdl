@@ -1,0 +1,84 @@
+;Exported by: andre
+;Date:        Thu Jan 11 15:29:14 2024
+;File:        C:\?????? ? ???\??????\?? ????? ?????\?16?2 ????????? ??????????.max
+{Skeleton
+	{bone "m16a4"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m16a4.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.11385	1.96215	0.490683
+			}
+		}
+		{bone "foresight3"
+			{Position 13.4974	1.92614	0.031405}
+		}
+		{bone "m4_ironsight"
+			{Position 0.124939	0.107075	0.0484122}
+			{VolumeView "m4_ironsight.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "m16a4"}
+	{Position 4.22017	0.849385	0.12323}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "m16a4"}
+	{Position 4.10623	0.842238	0.179413}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 4.40012	-4.21913	20.0507}
+			{lookat 4.14519	-3.17932	13.7143}
+			{fov 45}
+			{horizon 166.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.2306	-4.33256	5.48625}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -0.983088	-3.72631	3.91691}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.49056	-4.02757	19.4609}
+			{lookat 4.2598	-3.0863	13.7249}
+			{fov 45.3478}
+			{horizon 166.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.2306	-4.33256	5.48625}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -0.983088	-3.72631	3.91691}
+			}
+		}
+	}
+}

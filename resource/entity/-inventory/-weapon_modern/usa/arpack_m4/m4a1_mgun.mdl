@@ -1,0 +1,116 @@
+;Exported by: andre
+;Date:        Sun Jan 21 19:59:13 2024
+;File:        C:\?????? ? ???\??????\?? ????? ?????\?16?4????????? ??????????.max
+{Skeleton
+	{bone "m4_lmg"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m4_lmg.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.11385	1.96215	0.490683
+			}
+		}
+		{bone "foresight3"
+			{Position 13.4974	1.92614	0.031405}
+		}
+		{bone "foregrip"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				6.49958	0.565552	0.0769253
+			}
+			{VolumeView "foregrip.ply"}
+		}
+		{bone "mgun_mag"
+			{Matrix34
+				0	-1	0
+				0	0	-1
+				1	0	0
+				4.37771	0.124017	-0.0248645
+			}
+			{VolumeView "mgun_mag.ply"}
+		}
+		{bone "mepro"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				3.12094	2.97325	0.0524742
+			}
+			{VolumeView "mepro.ply"}
+		}
+		{bone "flashlight"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				7.49837	0.798218	-0.329678
+			}
+			{VolumeView "flashlight.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "m4_lmg"}
+	{Position 2.76929	0.849385	0.12323}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "m4_lmg"}
+	{Position 2.86219	0.842238	0.179413}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 4.40012	-4.21913	20.0507}
+			{lookat 4.14519	-3.17932	13.7143}
+			{fov 45}
+			{horizon 166.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.2306	-4.33256	5.48625}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -0.983088	-3.72631	3.91691}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 4.49056	-4.02757	19.4609}
+			{lookat 4.2598	-3.0863	13.7249}
+			{fov 45.3478}
+			{horizon 166.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.2306	-4.33256	5.48625}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -0.983088	-3.72631	3.91691}
+			}
+		}
+	}
+}

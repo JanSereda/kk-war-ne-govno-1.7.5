@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "mi17_unarmed_xx.mdl"}
+	{mass 11000}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+
+}

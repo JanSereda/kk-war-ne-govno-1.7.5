@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/arpack/arpack"}
+	{blend none}
+}

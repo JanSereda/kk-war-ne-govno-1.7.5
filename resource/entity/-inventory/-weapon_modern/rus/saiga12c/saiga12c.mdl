@@ -1,0 +1,95 @@
+;Exported by: andre
+;Date:        Fri Oct  6 16:04:35 2023
+;File:        C:\?????? ? ???\????????? ??????? ??? ???\Trafaret_AK74.max
+{Skeleton
+	{bone "saiga12c"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "saiga12c.ply"}
+		{bone "foresight3"
+			{Matrix34
+				1	0	0
+				0	1	0
+				0	0	1
+				12.5003	1.95466	0.00267912
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.53516	2.23978	0.141417
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "saiga12c"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		4.51355	0.180621	0.137563
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "saiga12c"}
+	{Matrix34
+		1	0	0
+		0	1	0
+		0	0	1
+		4.5134	0.180621	0.137563
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.79512	-4.67997	23.0691}
+			{lookat 4.36985	-2.9452	12.4975}
+			{fov 45}
+			{horizon 167.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.465	-5.32016	4.94817}
+			}
+			{"1"
+				{type directional}
+				{direction -0.079274	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 0.286266	-4.78164	3.55416}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.79886	-3.85297	21.7548}
+			{lookat 4.43029	-2.34951	12.5928}
+			{fov 45}
+			{horizon 168.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.465	-5.32016	4.94817}
+			}
+			{"1"
+				{type directional}
+				{direction -0.079274	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position 0.286266	-4.78164	3.55416}
+			}
+		}
+	}
+}

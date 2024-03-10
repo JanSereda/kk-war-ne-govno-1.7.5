@@ -643,6 +643,39 @@
 ("soldier"   breed(elite2_sniper)	side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(3)	tags())
 ("soldier"   breed(elite2_zamcom)	side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(3)	tags())
 )
+(define "iran_squad"
+("soldier"   breed(iran_mostrelok_com)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(5)	c(5)	tags())
+("soldier"   breed(iran_mostrelok_mgun)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_mostrelok_mgunhelp)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_mostrelok_rpg)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_mostrelok_rpghelp)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_mostrelok_smg)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_mostrelok_smg2)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_bazooker_at)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+("soldier"   breed(iran_bazooker_at_help)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(2)	c(5)	tags())
+)
+
+(define "iran_squad_elite"
+("soldier"   breed(iran_com)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_mgun)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_mgunhelp)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_smg)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_smg2)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_bazooker2)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_bazooker2_help)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_sniper)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+)
+(define "iran_crew"
+	("soldier"   breed(iran_vehicle_supporter)	side(%side) brig(%brig)	sc(2)	cp(0)	cw(1)	c(0)	tags(crew))
+	("soldier"   breed(tankman)		side(%side) brig(%brig)	sc(2)	cp(-1)	cw(0)	c(0)	tags(crew))
+	("soldier"   breed(tankman2)		side(%side) brig(%brig)	sc(2)	cp(-1)	cw(0)	c(0)	tags(crew))
+	("soldier"   breed(tankman3)		side(%side) brig(%brig)	sc(2)	cp(-1)	cw(0)	c(0)	tags(crew))
+("soldier"   breed(iran_pilot)		side(%side) brig(%brig)	sc(10)	cp(-3)	cw(0)	c(0)	tags(pilot))
+)
+(define "iran_shipers"
+("soldier"   breed(iran_heavy_sniper)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+("soldier"   breed(iran_spotter)		side(%side) brig(%brig)	sc(10)	cp(5)	cw(1)	c(5)	tags())
+)
 ;=========Russia==========
 
 ("common_troops" side(rus) brig(common))
@@ -775,4 +808,8 @@
 ("army_specnaz2" side(cn) brig(cnmed))
 ("elite2_cn" side(cn) brig(cnmed))
 
-;ØÎÑ
+;Èðàí
+("iran_squad" side(odkb) brig(iran))
+("iran_squad_elite" side(odkb) brig(iran))
+("iran_crew" side(odkb) brig(iran))
+("iran_shipers" side(odkb) brig(iran))

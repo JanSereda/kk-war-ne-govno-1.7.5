@@ -1,0 +1,6 @@
+{actor
+	(include "mp_flag.inc")
+	 {texmod "iran"}
+	(include "/set/resupply_generic.inc")
+	("land_troops_flag_cn")	
+}

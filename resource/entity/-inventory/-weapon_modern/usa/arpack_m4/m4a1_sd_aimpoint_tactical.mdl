@@ -1,0 +1,115 @@
+;Exported by: andre
+;Date:        Tue Jan  9 01:57:59 2024
+;File:        C:\?????? ? ???\??????\?? ????? ?????\m4 ??????? ???????? ???? ??????????.max
+{Skeleton
+	{bone "m4"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m4_spec.ply"}
+		{bone "foresight3"
+			{Position 14.0098	1.81907	-0.0170071}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.98891	1.85507	0.442271
+			}
+		}
+		{bone "anpeq"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				6.78833	2.4686	-0.00990433
+			}
+			{VolumeView "anpeq.ply"}
+		}
+		{bone "silencer"
+			{Position 10.4696	11.127	2.95521}
+			{VolumeView "silencer.ply"}
+		}
+		{bone "afg_grip"
+			{Position 6.18493	0.848272	0.00243534}
+			{VolumeView "afg_grip.ply"}
+		}
+		{bone "flashlight"
+			{Matrix34
+				1	0	0
+				0	-1	0
+				0	0	-1
+				4.75403	0.691143	-0.37809
+			}
+			{VolumeView "flashlight.ply"}
+		}
+		{bone "aimpoint"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.14185	3.03341	0.648181
+			}
+			{VolumeView "aimpoint.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "m4"}
+	{Position 3.51792	0.577736	0.0748177}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "m4"}
+	{Position 3.74514	0.549275	0.131}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.36562	-3.92049	19.4125}
+			{lookat 4.13486	-2.97923	13.6765}
+			{fov 45.3478}
+			{horizon 166.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.1056	-4.22549	5.43784}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -1.10803	-3.61924	3.8685}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.27518	-4.11205	20.0023}
+			{lookat 4.02025	-3.07225	13.6659}
+			{fov 45}
+			{horizon 166.956}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 17.1056	-4.22549	5.43784}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -1.10803	-3.61924	3.8685}
+			}
+		}
+	}
+}

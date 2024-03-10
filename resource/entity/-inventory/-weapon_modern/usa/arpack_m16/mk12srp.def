@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "mk12srp.mdl"}
+	{extender "stuff"
+		{item "mk12srp"}
+	}
+	{nogroupmesh 1}
+}

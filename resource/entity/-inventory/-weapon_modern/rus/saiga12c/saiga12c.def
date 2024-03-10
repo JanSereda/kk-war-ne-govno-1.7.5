@@ -1,0 +1,12 @@
+{game_entity
+	(include "/properties/stuff_weapon.ext")
+	{extender "stuff"
+		{item "saiga12c"}
+	}
+	{nogroupmesh 1}
+	{Extension "saiga12c.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

@@ -98,13 +98,13 @@
 {"pl-96"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-96) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art1) sc(150) a(1) b(cnart_hqcar) i(6) cw(5) cp(20))  {fore 0.0}}
 {"pl-66"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-66) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art2) sc(180) a(1) b(cnart_hqcar) i(7) cw(5) cp(20))  {fore -0.7}}
 
-{"plz-05"	("v" c(300) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(lart)  sc(300) b(cnart_hqcar) i(8) cw(0) cp(40))   {fore -2.0}}
+{"plz-05"	("v" c(300) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(lart)  sc(300) b(cnart_hqcar) i(8) cw(0) cp(65))   {fore -2.0}}
 
-{"phl_81" ("vs" c(600) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) g(rszo) sc(350) b(cnart_hqcar) i(10) m(4) cw(0) cp(40))   {fore -0.5}}
+{"phl_81" ("vs" c(600) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) g(rszo) sc(350) b(cnart_hqcar) i(10) m(4) cw(0) cp(50))   {fore -0.5}}
 
-{"plz-07a"	("v" c(360) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(extra7)  sc(150) b(extra) i(7) cw(0) cp(30))  {fore -1.0}}
+{"plz-07a"	("v" c(360) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(extra7)  sc(150) b(extra) i(7) cw(0) cp(55))  {fore -1.0}}
 {"dong_feng_15b" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(3) g(extra8)  sc(200) b(extra) i(8) cw(0) cp(25))  {fore -0.1}}
-{"phl-03" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(4) g(extra9) sc(350) b(extra) i(9) m(4) cw(0) cp(50))  {fore -0.1}}
+{"phl-03" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(4) g(extra9) sc(350) b(extra) i(9) m(4) cw(0) cp(75))  {fore -0.1}}
 ;===============================Тяжелая бригада===========================================
 
 ;У Китая есть 2 вида сквадов мотопехоты: замком, пулеметная пара, РПГ пара, снайпер или автоматчик. 
@@ -171,9 +171,42 @@
 {"type63_rocket2"	("vart" c(500)  c1(lyt2021) c2(type63_rocket2) brig(cnmed) t(all nobot) s(cn) n1(vehicle_supporter:2) g(extra14) sc(100) b(extra) i(7) cw(0) cp(25))  {fore 0}}
 {"pll-05"		("v" c(600) brig(cnmed) t(all art) s(cn) n(4) g(extra15)   sc(200) b(extra) i(13) cw(0) cp(30))  {fore -0.2}}
 
-;===============================Бригада ШОС===========================================
+;===============================Бригада Ирана===========================================
 ;
 
+("squad_with11types_custom" side(cn) crew_nation(odkb) name(iran_mot) c(120) g(inf) c1(iran_mostrelok_com:1) c2(iran_mostrelok_mgun:1) c3(iran_mostrelok_mgunhelp:1) c4(iran_mostrelok_rpg:1) c5(iran_mostrelok_rpghelp:1) c6(iran_mostrelok_smg:2) c7(iran_mostrelok_smg2:1) b(iran_hqcar) brig(iran) t(all infantry) cost(75) f(1.0) info(mot)
+)
+
+{"ee9_cascavel"			("v_cust" c(270) brig(iran) t(all recon) s(cn) crew(odkb/iran_tankman) n(3) g(recon_tank)   sc(55) b(iran_hqcar) i(2) cw(1) cp(10))  {fore 0.0}}
+
+{"toyota_hilux_transporti"		("v3iran" c(110) c1(toyota_hilux_transport)brig(iran) t(all inf_cn infantry) s(cn) n(2) 
+  n1(iran_vehicle_supporter:1) n2(iran_mostrelok_com:1) n3(iran_mostrelok_mgun:1) n4(iran_mostrelok_mgunhelp:1) n5(iran_mostrelok_rpg:1) n6(iran_mostrelok_rpghelp:1) n7(iran_mostrelok_smg:1) n8(iran_mostrelok_sniper:1) 
+  g(first_inf1)  sc(75) b(iran_hqcar) i(3) cw(0) cp(15))  {fore 0.0}
+}
+{"toyota_hilux_transporti2"		("v3iran" c(110) c1(toyota_hilux_transport)brig(iran) t(all inf_cn infantry) s(cn) n(2) 
+  n1(iran_vehicle_supporter:1) n2(iran_bazooker_at:2) n3(iran_bazooker_at_help:2)
+  g(first_inf1)  sc(100) b(iran_hqcar) i(4) cw(0) cp(15))  {fore 0.0}
+}
+{"bmp2_iran"		  ("v_cust" c(300) brig(iran) t(all inf_cn infantry) s(cn) crew(odkb/iran_tankman) n(3) crew_nation(odkb) g(bmp1)  sc(65) b(iran_hqcar) i(5) cw(20) cp(20))  {fore 0.0}}
+{"bmp2_irani"		("v3iran" c(300) c1(bmp2_iran)brig(iran) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(iran_mostrelok_com:1) n3(iran_mostrelok_mgun:1) n4(iran_mostrelok_mgunhelp:1) n5(iran_mostrelok_rpg:1) n6(iran_mostrelok_rpghelp:1) n7(iran_mostrelok_smg:1) n8(iran_mostrelok_smg2:1) g(bmp1)  sc(110) b(iran_hqcar) i(6) cw(0) cp(15))  {fore 0.0}}
+
+{"toyota_hilux_kornet"	("v_cust" c(600) c1(toyota_hilux_kornet) brig(iran) t(all att) s(cn) n(4) crew(odkb/iran_vehicle_supporter) g(s_atgm)   sc(160) b(iran_hqcar) i(7) cw(0) cp(20))  {fore 0.3}}
+{"toyota_hilux_nurs"	("v_cust" c(600) c1(toyota_hilux_nurs) brig(iran) t(all att) s(cn) n(3) crew(odkb/iran_vehicle_supporter) g(s_atgm)   sc(120) b(iran_hqcar) i(8) cw(0) cp(20))  {fore 0}}
+
+{"t72m1_iran"     ("v_cust" c(400) brig(iran) t(all tanks_only duel_tanks90 tank_cn) s(cn) crew(odkb/iran_tankman) n(3) crew_nation(odkb) g(extra15)   sc(210) b(iran_hqcar) i(9) cw(0) cp(45))  {fore 0.0}}
+{"zulfiqar-3"     ("v_cust" c(450) brig(iran) t(all tanks_only duel_tanks90 tank_cn) s(cn) crew(odkb/iran_tankman) n(3) crew_nation(odkb) g(extra15)   sc(280) b(iran_hqcar) i(10) cw(0) cp(50))  {fore 0.0}}
+
+{"toyota_hilux_ammo_mp"	("v_cust" c(600) brig(iran) t(all supply nobot) s(cn) n(2) crew(odkb/iran_vehicle_supporter) g(supply_add) 	sc(30) b(iran_hqcar) i(11) cw(0) cp(2))  {fore 0.9}} 
+
+
+
+
+
+
+
+{"mi17_iran"		("v3iran" c(480) c1(mi17_iran) brig(iran) t(all specnaz infantry nobot) s(cn) n(2) n1(iran_pilot:2) n2(iran_com:1) n3(iran_mgun:1) n4(iran_mgunhelp:1) n5(iran_smg:1) n6(iran_smg2:1) n7(iran_bazooker2:1) n8(iran_bazooker2_help:1) n9(iran_sniper:1) g(advinf3)  sc(50) b(extra) i(26) cw(0) cp(5))  {fore 0.0}}
+("squad_with11types_custom" side(cn) crew_nation(odkb) name(iran_snipers) c(300) g(inf) c1(iran_heavy_sniper:1) c2(iran_sniper:1) c3(iran_smg2:2) b(extra) brig(iran) t(all infantry) cost(25) f(0) info(iran_snipers))
+{"shahed136_truck"	("v_cust" c(1500) c1(shahed136_truck) brig(iran) t(all supply nobot) s(cn) n(2) crew(odkb/iran_vehicle_supporter) g(shahed) 	sc(300) b(extra) i(28) cw(0) cp(60))  {fore 0}} 
 
 ;===============================Не захватывает территорию===========================================
 {"mi17_china"	("h" c(900) brig(nzt) t(nzt nobot) s(cn) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(0) cp(5))  {fore 0}}
@@ -184,7 +217,6 @@
 ;{"zbd86a"		("h" c(900) brig(cnheavy) t(nzt nobot) s(cn) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(20) cp(20))  {fore 0}}
 ;{"zsl-92b"		("h" c(900) brig(cnmed) t(nzt nobot) s(cn) n(2) g(nzt)  sc(5) b(nzt) i(0) cw(20) cp(20)) {cost 260} {fore 0}}
 ;{"zbd04a"		("h" c(900) brig(cnheavy) t(nzt nobot) s(cn) n(2) g(nzt)  sc(260) b(nzt) i(0) cw(20) cp(30))  {fore 0}}
-
 
 
 

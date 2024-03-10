@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{extender "stuff"
+		{item "m4a1_ag36_acog"}
+	}
+	{Extension "m4a1_ag36_acog.mdl"}
+}

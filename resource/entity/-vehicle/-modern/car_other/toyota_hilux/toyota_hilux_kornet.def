@@ -63,8 +63,8 @@
 		{Box
 			{Size 6 6}
 			{weight 700}
-			{item "ammo 9m133 cm_e" 6}
-			{item "ammo 9m133 fg" 6}
+			{item "ammo 9m133 cm_e" 2}
+			{item "ammo 9m133 fg" 1}
 		}
 	}
 	{Weaponry
@@ -83,7 +83,7 @@
 			Turnradius(7)
 			Power(75)
 			Realspeed(100)
-			Gamespeed(69) 
+			Gamespeed(55) 
 			Range(500)
 			Fuelvolume(78)
 		)

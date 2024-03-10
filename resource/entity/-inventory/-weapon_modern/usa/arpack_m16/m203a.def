@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "m203a.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

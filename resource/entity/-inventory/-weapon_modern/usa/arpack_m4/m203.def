@@ -1,0 +1,9 @@
+{actor
+	
+	(include "/properties/stuff_weapon.ext")
+	{Extension "m203.mdl"}
+	{extender "stuff"
+		{item "m203"}
+	}
+	{nogroupmesh 1}
+}

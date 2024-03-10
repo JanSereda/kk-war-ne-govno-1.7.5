@@ -1,0 +1,20 @@
+{game_entity
+	{Extension "t72a_m_xx.mdl"}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 300}   
+	}
+	{Volume "gun"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+		{tags "body"}
+		{component "body"}
+		{thickness 400}   
+	}
+	{mass 40000}
+}

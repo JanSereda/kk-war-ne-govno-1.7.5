@@ -2,11 +2,11 @@
 	(include "/properties/tank.ext")
 	(include "/properties/shadow/tank.inc"  scale(1.4))
 	(include "/properties/selection/vehicle.inc"  scale(1.2))
-	{props "medium_M" "turret_rotator" "vision_lev05" "has_autoloader" "cw_panorama" "shtora" "laser_spo" "remote_mgun1" "remote_mgun2" "cw_blow_panels" "autotrack_suo" "6_barrels_smoke"}
+	{props "light_M" "turret_rotator" "vision_lev05" "has_autoloader" "cw_panorama" "shtora" "laser_spo" "remote_mgun1" "remote_mgun2" "cw_blow_panels" "autotrack_suo" "6_barrels_smoke"}
 	{targetSelector "tank"}
 	{extender "enumerator" {digit_folder "pla"}}
 
-	("armor_medium" turret(40 25 15 10) body(50 25 15 10))
+	("armor_IFV" turret(40 25 15 10) body(50 25 15 10))
 	("shield_t-64a_1981")
 	{component "shieldl1" {tags "shield"}} 
  	{component "shieldr1" {tags "shield"}} 

@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{extender "stuff"
+		{item "m4a1_sd_aimpoint_tactical"}
+	}
+	{Extension "m4a1_sd_aimpoint_tactical.mdl"}
+}

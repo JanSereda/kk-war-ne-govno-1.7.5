@@ -1,4 +1,4 @@
 {material simple
 	{diffuse "$/model/ee9_cascavel/decal_logo"}
-	{blend none}
+	{blend test}
 }

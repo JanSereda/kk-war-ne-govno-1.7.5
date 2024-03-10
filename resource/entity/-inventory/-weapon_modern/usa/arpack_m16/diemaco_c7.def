@@ -1,0 +1,11 @@
+
+{actor
+	
+	(include "/properties/stuff_small.ext")
+	{Extension "diemaco_c7.mdl"}
+	{extender "stuff"
+		{item "diemaco_c7"}
+	}
+	{nogroupmesh 1}
+	{texmod "diemaco"}
+}

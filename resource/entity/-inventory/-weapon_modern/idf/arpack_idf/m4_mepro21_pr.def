@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "m4_mepro21_pr.mdl"}
+	{extender "stuff"
+		{item "m4_mepro21_pr"}
+	}
+	{nogroupmesh 1}
+}
