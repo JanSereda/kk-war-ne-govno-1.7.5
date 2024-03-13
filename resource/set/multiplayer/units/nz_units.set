@@ -98,7 +98,7 @@
  {"2c23" {fore 0} ("v" c(540) sc(170) g(nonasvk) b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(15) cw(0) cp(20) t(all_nz art   ) n(2)               ) }
  
  
- ;{"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
+ {"tochka_y" {fore 0.0} ("v" c(1330) sc(350) g(otrk)  b(srbs_art_hqcar) brig(srbs_art) s(srbsk)  i(7) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 
 ;==================Иностранные челиксы ====
 

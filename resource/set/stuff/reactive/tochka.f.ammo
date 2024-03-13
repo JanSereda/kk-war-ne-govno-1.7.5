@@ -7,8 +7,8 @@
 	}	
 	{mass 5000}
 	{entity "tochka_ya"}
-	{view "tochka_ya"
-		{tail "rocket_smokebig_short_detwarh_tochka" "tail"}
+	{view "iskander_ammo"
+		{tail "rocket_smokebig_short" "tail"}
 	}
 	{detonationThickness 2}
 	{applyProjectile}

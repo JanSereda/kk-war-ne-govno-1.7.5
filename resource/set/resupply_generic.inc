@@ -122,9 +122,12 @@
 	{item "pkm_ammo ammo" 100 		{max 600}	{value 4}}
 )
 (define "fpv"
-	{item "fpv_drone" 1 {max 2}{value 20}}
-	{item "fpv_drone120" 1 {max 2}{value 20}}
+	{item "fpv_drone" 1 {max 3}{value 20}}
+	{item "fpv_drone120" 1 {max 3}{value 20}}
 
+)
+(define "tochka"
+	{item "tochka f ammo" 1 {max 1}{value 200}}
 )
 (define "smallarms_usa"
 	{item "nato_pg cm ammo" 1 {max 8}{value 1}}
@@ -1584,6 +1587,17 @@
 			("152mm")
 			("smokes")
 			("rpg_rus")
+			("105mm_NATO")			
+			("105mm_idf")
+			("105mm_ger")
+			("105mm_fr_short")
+			("120mm_UK")
+			("120mm_GER")
+			("125mm_nato")
+			("120mm_FR")
+			("120mm_IDF")
+			("120mm_NATO_mine")
+			("155mm_NATO")
 			
 			("manpads_rus")
 			("smallarms_west")
@@ -1616,6 +1630,7 @@
 			("smallarms_rus")
 			("fpv")
 			("hmgun_rus")
+			("tochka")
 			("ags30")
 			("mortar_rus")
 			("UAV_rus")
@@ -1626,6 +1641,18 @@
 			("122mm")
 			("125mm")
 			("152mm")
+			("105mm_NATO")			
+			("105mm_idf")
+			("105mm_ger")
+			("105mm_fr_short")
+			("120mm_UK")
+			("120mm_GER")
+			("125mm_nato")
+			("120mm_FR")
+			("120mm_IDF")
+			("120mm_NATO_mine")
+			("155mm_NATO")
+			
 			("smokes")
 			("rpg_rus")
 			("atgm_rus")
