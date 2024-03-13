@@ -148,7 +148,7 @@
 		{"bullet" {volume "body"}}	
 	}
 	{fpv_kamikaze
-		
+		{"bullet" {ready_for_shot}}	
 	}
 	{medium_UAV_kamikaze
 		{"rad_aa_passive" {volume "body"}}
