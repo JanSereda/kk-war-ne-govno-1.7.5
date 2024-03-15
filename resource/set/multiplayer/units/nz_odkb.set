@@ -70,7 +70,7 @@
 	{"buk_m1" {fore 0.0} ("v" c(1330) sc(300) g(buk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(96) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 	
 	{"kupolodkb" {fore 0.75} ("vart" c(600) sc(110) g(kupol) b(art_odkb_hqcar) brig(art_odkb) s(odkb) i(55) cw(5) cp(15) t(all_nz art support_frontline  ) n(2) c1(9s18_kupol) n1(vehicle_supporter:5)            ) }
-
+	{"tochka_y_wagner" {fore 0.0} ("v" c(1330) sc(350) g(otrk) b(art_odkb_hqcar) brig(art_odkb) s(odkb)  i(555) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(3)               ) }
 
 	
                    
