@@ -117,60 +117,48 @@
 	{Entity "trench_cw_mg_dot_wood" 0x400c
 		{Position 17581.9 -1598.66 -20.94}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mortar_wood" 0x401b
 		{Position 16971.4 -1858.04 -19.99}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x401c
 		{Position 17260.9 -3286.63 33.95}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x401d
 		{Position 17236.7 -3493.03 -2.96}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x401e
 		{Position 17257.6 -3666.07 16.2}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x401f
 		{Position 17048.9 -3491.45 34.71}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4020
 		{Position 16837.3 -3493.91 52.08}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x4021
 		{Position 16625.1 -3491.42 14.19}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4022
 		{Position 16605.5 -3688.74 34.17}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4023
 		{Position 16615.5 -3274.93 51.92}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_blintage2_wood" 0x6008
 		{Position 16886 -1601.44 -19.99}
 		{xform zl -91.37}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_t-72" 0x600b
 		{Position 16510.9 -1987.94 -20.05}
-		{AreaDisable "cut"}
 	}
 	{Entity "poplar_white3a" 0x517c
 		{Position 25061.5 -2727.92 -99.92}
@@ -965,9 +953,6 @@
 	{Entity "angar_army" 0x4030
 		{Position -24576.1 -796.01 190.97}
 		{xform zl -90}
-	}
-	{Entity "grozniy" 0x403d
-		{Position 20957.7 -2501.07 -86.33}
 	}
 	{Entity "angar2" 0x4043
 		{Position 19778.9 -2323.45 -100.11}
@@ -2521,30 +2506,24 @@
 	{Entity "trench_cw_big_trench_wood" 0x3c3b
 		{Position 7767.9 -1006.68 172.81}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mg_dot_wood" 0x3c3c
 		{Position 7805.61 -1241.49 131.38}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c43
 		{Position 7115.8 -1029.35 191.7}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mortar_wood" 0x3c49
 		{Position 7195.11 -1500.87 131.92}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_blintage2_wood" 0x3c4a
 		{Position 7109.7 -1244.27 147.97}
 		{xform zl -91.37}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_t-72" 0x3c4c
 		{Position 6777.71 -1548.92 133.91}
-		{AreaDisable "cut"}
 	}
 	{Entity "bush9b" 0x3c55
 		{Position 7624.11 -1476.52}
@@ -10051,7 +10030,6 @@
 	}
 	{Entity "cwps3_proj_point" 0x53b3
 		{Position -19727.7 872.27}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10055}
 		{Component "rus_active"
@@ -10095,12 +10073,18 @@
 		}
 	}
 	{Entity "factory_wall_01" 0x94
+		{Volume "detail1"
+			{disabled}
+		}
 		{Volume "detail2"
 			{disabled}
 		}
 	}
 	{Entity "factory_wall_01" 0x96
 		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail2"
 			{disabled}
 		}
 	}
@@ -11016,185 +11000,148 @@
 	{Entity "trench_cw_big_trench_wood" 0x4000
 		{Position 17522.4 138 -19.93}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4001
 		{Position 17523.7 -87.07 -1.7}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4002
 		{Position 17529.9 -310 -1.7}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4003
 		{Position 17535.6 -535.74 16.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x4004
 		{Position 17511.4 -742.14 -20.05}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4005
 		{Position 17532.3 -915.18 -1.7}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4006
 		{Position 17538 -1140.92 16.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4007
 		{Position 17544.2 -1363.85 16.24}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mg_dot_wood" 0x400e
 		{Position 17573.8 1023.43 -20.08}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4010
 		{Position 17323.6 -740.56 16.2}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4011
 		{Position 17112 -743.02 34.53}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x4012
 		{Position 16902.9 -736.36 -2.96}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4013
 		{Position 16880.2 -937.85 16.2}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4014
 		{Position 16885.9 -1163.59 34.53}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4015
 		{Position 16892.1 -1386.52 33.81}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4016
 		{Position 16872.6 150.37 -1.7}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4017
 		{Position 16878.3 -75.37 16.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4018
 		{Position 16884.5 -298.3 16.24}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x4019
 		{Position 16890.2 -524.04 33.95}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mortar_wood" 0x401a
 		{Position 16971.4 1011.95 -20.1}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6000
 		{Position 17448.8 2998.02 171.53}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x6001
 		{Position 17424.6 2791.62 134.19}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6002
 		{Position 17445.5 2618.58 154.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6003
 		{Position 17236.8 2793.2 172.7}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6004
 		{Position 17025.2 2790.74 189.92}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x6005
 		{Position 16813 2793.23 151.51}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6006
 		{Position 16793.4 2595.91 171.89}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6007
 		{Position 16803.4 3009.72 70}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_t-72" 0x600a
 		{Position 16600.5 1167.95 -20.06}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x600d
 		{Position 17532.4 779.86 33.95}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x600e
 		{Position 17508.2 573.46 -2.96}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x600f
 		{Position 17519.8 365.22 16.2}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6010
 		{Position 17320.4 575.04 34.71}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6011
 		{Position 17108.8 572.58 52.08}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x6012
 		{Position 16896.6 575.07 14.19}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6013
 		{Position 16877 377.75 34.17}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x6014
 		{Position 16877.9 787.68 51.92}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "poplar_evr" 0x5000
 		{Position 23033.6 -1452.65 -99.94}
@@ -13457,7 +13404,6 @@
 	}
 	{Entity "bonfire" 0x416c
 		{Position 22790 -1542.24 -99.97}
-		{AreaDisable "cut"}
 	}
 	{Entity "admin_house" 0x3077
 		{Position 5149.26 -585.41}
@@ -15979,7 +15925,7 @@
 	}
 	{Entity "gaz_24" 0x7182
 		{Position 5871.2 -72.01 119}
-		{xform zl 60.16 zw -29.01}
+		{xform zl 60.2 zw -29.05}
 		{TexMod "old"}
 		{Placer
 			{State "cwps_proj_point" {Unlinked}}
@@ -16037,135 +15983,108 @@
 	{Entity "trench_cw_big_trench_wood" 0x3c34
 		{Position 7746.11 495.17 137.82}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c35
 		{Position 7747.4 270.1 156.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c36
 		{Position 7753.61 47.17 156.24}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c37
 		{Position 7759.31 -178.57 173.95}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x3c38
 		{Position 7735.11 -384.97 137.04}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c39
 		{Position 7756.01 -558.01 156.2}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c3a
 		{Position 7761.71 -783.75 174.53}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mg_dot_wood" 0x3c3d
 		{Position 7797.51 1380.6 137.92}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c3e
 		{Position 7547.31 -383.39 174.71}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c3f
 		{Position 7335.71 -385.85 192.08}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x3c40
 		{Position 7126.6 -379.19 154.72}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c41
 		{Position 7103.9 -580.68 174.17}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c42
 		{Position 7109.6 -806.42 191.85}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c44
 		{Position 7096.3 507.54 156.3}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c45
 		{Position 7102.01 281.8 173.79}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c46
 		{Position 7108.2 58.87 174.17}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c47
 		{Position 7113.9 -166.87 191.92}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mortar_wood" 0x3c48
 		{Position 7195.11 1369.12 132.81}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_t-72" 0x3c4b
 		{Position 6867.73 840.68 133.94}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c4d
 		{Position 7756.11 1137.03 191.94}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x3c4e
 		{Position 7731.9 930.63 154.34}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c4f
 		{Position 7743.51 722.39 174.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c50
 		{Position 7544.11 932.21 192.71}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c51
 		{Position 7332.51 929.75 209.77}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x3c52
 		{Position 7120.3 932.24 171.7}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c53
 		{Position 7100.7 734.92 192.12}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x3c54
 		{Position 7101.6 1144.85 210.2}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "bush9b" 0x3c56
 		{Position 7896.4 26.38}
@@ -17840,13 +17759,11 @@
 		{Position -24600.6 308.3 190.97}
 		{xform zl -90}
 	}
-	{Entity "factory_wall_01" 0x117
-		{Volume "detail2"
-			{disabled}
-		}
-	}
 	{Entity "factory_wall_01" 0x124
 		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail2"
 			{disabled}
 		}
 	}
@@ -19211,30 +19128,24 @@
 	{Entity "trench_cw_big_trench_wood" 0x2022
 		{Position 679.51 -971.26 272.74}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mg_dot_wood" 0x2023
 		{Position 717.22 -1206.07 236.89}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x202d
 		{Position 27.41 -993.93 290.69}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mortar_wood" 0x202e
 		{Position 106.72 -1465.45 226.99}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_blintage2_wood" 0x202f
 		{Position 21.31 -1208.85 257.74}
 		{xform zl -91.37}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_t-72" 0x2033
 		{Position 1110.2 -1430.98 227.91}
-		{AreaDisable "cut"}
 	}
 	{Entity "bush9b" 0x2036
 		{Position 535.72 -1441.1}
@@ -19255,135 +19166,108 @@
 	{Entity "trench_cw_big_trench_wood" 0x205d
 		{Position 657.72 530.59 236.38}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x205e
 		{Position 659.01 305.52 254.82}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x205f
 		{Position 665.22 82.59 254.91}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2060
 		{Position 670.92 -143.15 272.82}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x2061
 		{Position 646.72 -349.55 235.54}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2062
 		{Position 667.62 -522.59 255.13}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2063
 		{Position 673.32 -748.33 273.48}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mg_dot_wood" 0x2064
 		{Position 709.12 1416.02 236.92}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2066
 		{Position 458.92 -347.97 273.59}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2067
 		{Position 247.32 -350.43 290.89}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x2068
 		{Position 38.21 -343.77 253.09}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2069
 		{Position 15.51 -545.26 273.05}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x206a
 		{Position 21.21 -771 290.68}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x206b
 		{Position 7.91 542.96 254.71}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x206c
 		{Position 13.62 317.22 272.54}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x206e
 		{Position 19.81 94.29 273.59}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x206f
 		{Position 25.51 -131.45 290.75}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_mortar_wood" 0x2071
 		{Position 106.72 1404.54 226.88}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_t-72" 0x2072
 		{Position -220.66 876.1 228.94}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2073
 		{Position 667.72 1172.45 290.31}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x2077
 		{Position 643.51 966.05 252.49}
 		{xform zl -90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x207a
 		{Position 655.12 757.81 273}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x207f
 		{Position 455.72 967.63 291.35}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2080
 		{Position 244.12 965.17 309.25}
 		{xform zl 180}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_small_fork_wood" 0x2081
 		{Position 31.91 967.66 269.72}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x2084
 		{Position 12.31 770.34 291.11}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_cw_big_trench_wood" 0x208b
 		{Position 13.21 1180.27 309.14}
 		{xform zl 90}
-		{AreaDisable "cut"}
 	}
 	{Entity "bush9b" 0x208d
 		{Position 808.01 61.8}
@@ -21760,18 +21644,8 @@
 		{Position -3154.21 1293.73 416}
 		{xform zl -87.78}
 	}
-	{Entity "factory_wall_01" 0x103
-		{Volume "detail1"
-			{disabled}
-		}
-	}
-	{Entity "factory_wall_01" 0x10b
-		{Volume "detail1"
-			{disabled}
-		}
-	}
 	{Entity "factory_wall_01" 0x10c
-		{Volume "detail2"
+		{Volume "detail1"
 			{disabled}
 		}
 	}
@@ -31927,6 +31801,7 @@
 	{Entity "cwps3_proj_point" 0x70dd
 		{Position -8427.15 -3506.33 120}
 		{xform zl -147.93}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10209}
 		{Component "rus_active"
@@ -31972,6 +31847,7 @@
 	{Entity "cwps3_proj_point" 0x70de
 		{Position -8427.15 -3506.33 120}
 		{xform zl -147.93}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10210}
 		{Component "rus_active"
@@ -32017,6 +31893,7 @@
 	{Entity "cwps3_proj_point" 0x70df
 		{Position -8427.15 -3506.33 120}
 		{xform zl -147.93}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10211}
 		{Component "rus_active"
@@ -32062,6 +31939,7 @@
 	{Entity "cwps3_proj_point" 0x70e0
 		{Position -8427.15 -3506.33 120}
 		{xform zl -147.93}
+		{SpawnedInFog}
 		{Player 255}
 		{MID 10212}
 		{Component "rus_active"
@@ -34603,7 +34481,6 @@
 	{Entity "cwps3_proj_point" 0x71c3
 		{Position -16798.7 -3521.58 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10253}
 		{Component "rus_active"
@@ -34649,7 +34526,6 @@
 	{Entity "cwps3_proj_point" 0x71c4
 		{Position -16798.7 -3521.58 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10254}
 		{Component "rus_active"
@@ -34695,7 +34571,6 @@
 	{Entity "cwps3_proj_point" 0x71c5
 		{Position -16798.7 -3521.58 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10255}
 		{Component "rus_active"
@@ -34741,7 +34616,6 @@
 	{Entity "cwps3_proj_point" 0x71c6
 		{Position -16798.7 -3521.58 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10256}
 		{Component "rus_active"
@@ -34811,7 +34685,6 @@
 	{Entity "cwps3_proj_point" 0x71e3
 		{Position -18578.9 -3624.69 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10257}
 		{Component "rus_active"
@@ -34857,7 +34730,6 @@
 	{Entity "cwps3_proj_point" 0x71e4
 		{Position -18578.9 -3624.69 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10258}
 		{Component "rus_active"
@@ -34903,7 +34775,6 @@
 	{Entity "cwps3_proj_point" 0x71e5
 		{Position -18578.9 -3624.69 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10259}
 		{Component "rus_active"
@@ -34949,7 +34820,6 @@
 	{Entity "cwps3_proj_point" 0x71e6
 		{Position -18578.9 -3624.69 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10260}
 		{Component "rus_active"
@@ -35067,7 +34937,6 @@
 	{Entity "cwps3_proj_point" 0x71f9
 		{Position -17647.9 -3576.95 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10261}
 		{Component "rus_active"
@@ -35113,7 +34982,6 @@
 	{Entity "cwps3_proj_point" 0x71fa
 		{Position -17647.9 -3576.95 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10262}
 		{Component "rus_active"
@@ -35159,7 +35027,6 @@
 	{Entity "cwps3_proj_point" 0x71fb
 		{Position -17647.9 -3576.95 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10263}
 		{Component "rus_active"
@@ -35205,7 +35072,6 @@
 	{Entity "cwps3_proj_point" 0x71fc
 		{Position -17647.9 -3576.95 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10264}
 		{Component "rus_active"
@@ -35291,7 +35157,6 @@
 	{Entity "cwps3_proj_point" 0x7207
 		{Position -17262.1 -3421.71 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10265}
 		{Component "rus_active"
@@ -35337,7 +35202,6 @@
 	{Entity "cwps3_proj_point" 0x7208
 		{Position -17262.1 -3421.71 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10266}
 		{Component "rus_active"
@@ -35383,7 +35247,6 @@
 	{Entity "cwps3_proj_point" 0x7209
 		{Position -17262.1 -3421.71 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10267}
 		{Component "rus_active"
@@ -35429,7 +35292,6 @@
 	{Entity "cwps3_proj_point" 0x720a
 		{Position -17262.1 -3421.71 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10268}
 		{Component "rus_active"
@@ -35555,7 +35417,6 @@
 	{Entity "cwps3_proj_point" 0x7225
 		{Position -20118.2 -3567.37 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10269}
 		{Component "rus_active"
@@ -35601,7 +35462,6 @@
 	{Entity "cwps3_proj_point" 0x7226
 		{Position -20118.2 -3567.37 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10270}
 		{Component "rus_active"
@@ -35647,7 +35507,6 @@
 	{Entity "cwps3_proj_point" 0x7227
 		{Position -20118.2 -3567.37 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10271}
 		{Component "rus_active"
@@ -35693,7 +35552,6 @@
 	{Entity "cwps3_proj_point" 0x7228
 		{Position -20118.2 -3567.37 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10272}
 		{Component "rus_active"
@@ -35859,7 +35717,6 @@
 	{Entity "cwps3_proj_point" 0x1c1d
 		{Position -18391.1 -1819.76 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10273}
 		{Component "rus_active"
@@ -35905,7 +35762,6 @@
 	{Entity "cwps3_proj_point" 0x1c1e
 		{Position -18391.1 -1819.76 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10274}
 		{Component "rus_active"
@@ -35951,7 +35807,6 @@
 	{Entity "cwps3_proj_point" 0x1c1f
 		{Position -18391.1 -1819.76 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10275}
 		{Component "rus_active"
@@ -35997,7 +35852,6 @@
 	{Entity "cwps3_proj_point" 0x1c20
 		{Position -18391.1 -1819.76 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10276}
 		{Component "rus_active"
@@ -36091,7 +35945,6 @@
 	{Entity "cwps3_proj_point" 0x1c2d
 		{Position -17460.1 -1772.02 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10277}
 		{Component "rus_active"
@@ -36137,7 +35990,6 @@
 	{Entity "cwps3_proj_point" 0x1c2e
 		{Position -17460.1 -1772.02 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10278}
 		{Component "rus_active"
@@ -36183,7 +36035,6 @@
 	{Entity "cwps3_proj_point" 0x1c2f
 		{Position -17460.1 -1772.02 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10279}
 		{Component "rus_active"
@@ -36229,7 +36080,6 @@
 	{Entity "cwps3_proj_point" 0x1c30
 		{Position -17460.1 -1772.02 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10280}
 		{Component "rus_active"
@@ -36275,7 +36125,6 @@
 	{Entity "cwps3_proj_point" 0x1c31
 		{Position -17074.3 -1616.78 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10281}
 		{Component "rus_active"
@@ -36321,7 +36170,6 @@
 	{Entity "cwps3_proj_point" 0x1c32
 		{Position -17074.3 -1616.78 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10282}
 		{Component "rus_active"
@@ -36367,7 +36215,6 @@
 	{Entity "cwps3_proj_point" 0x1c33
 		{Position -17074.3 -1616.78 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10283}
 		{Component "rus_active"
@@ -36413,7 +36260,6 @@
 	{Entity "cwps3_proj_point" 0x1c34
 		{Position -17074.3 -1616.78 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10284}
 		{Component "rus_active"
@@ -36527,7 +36373,6 @@
 	{Entity "cwps3_proj_point" 0x1c46
 		{Position -19930.4 -1762.44 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10285}
 		{Component "rus_active"
@@ -36573,7 +36418,6 @@
 	{Entity "cwps3_proj_point" 0x1c47
 		{Position -19930.4 -1762.44 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10286}
 		{Component "rus_active"
@@ -36619,7 +36463,6 @@
 	{Entity "cwps3_proj_point" 0x1c48
 		{Position -19930.4 -1762.44 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10287}
 		{Component "rus_active"
@@ -36665,7 +36508,6 @@
 	{Entity "cwps3_proj_point" 0x1c49
 		{Position -19930.4 -1762.44 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10288}
 		{Component "rus_active"
@@ -36831,7 +36673,6 @@
 	{Entity "cwps3_proj_point" 0x1c68
 		{Position -18307.6 -1018.81 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10289}
 		{Component "rus_active"
@@ -36877,7 +36718,6 @@
 	{Entity "cwps3_proj_point" 0x1c69
 		{Position -18307.6 -1018.81 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10290}
 		{Component "rus_active"
@@ -36923,7 +36763,6 @@
 	{Entity "cwps3_proj_point" 0x1c6a
 		{Position -18307.6 -1018.81 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10291}
 		{Component "rus_active"
@@ -36969,7 +36808,6 @@
 	{Entity "cwps3_proj_point" 0x1c6b
 		{Position -18307.6 -1018.81 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10292}
 		{Component "rus_active"
@@ -37063,7 +36901,6 @@
 	{Entity "cwps3_proj_point" 0x1c78
 		{Position -17376.6 -971.07 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10293}
 		{Component "rus_active"
@@ -37109,7 +36946,6 @@
 	{Entity "cwps3_proj_point" 0x1c79
 		{Position -17376.6 -971.07 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10294}
 		{Component "rus_active"
@@ -37155,7 +36991,6 @@
 	{Entity "cwps3_proj_point" 0x1c7a
 		{Position -17376.6 -971.07 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10295}
 		{Component "rus_active"
@@ -37201,7 +37036,6 @@
 	{Entity "cwps3_proj_point" 0x1c7b
 		{Position -17376.6 -971.07 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10296}
 		{Component "rus_active"
@@ -37247,7 +37081,6 @@
 	{Entity "cwps3_proj_point" 0x1c7c
 		{Position -16990.8 -815.83 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10297}
 		{Component "rus_active"
@@ -37293,7 +37126,6 @@
 	{Entity "cwps3_proj_point" 0x1c7d
 		{Position -16990.8 -815.83 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10298}
 		{Component "rus_active"
@@ -37339,7 +37171,6 @@
 	{Entity "cwps3_proj_point" 0x1c7e
 		{Position -16990.8 -815.83 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10299}
 		{Component "rus_active"
@@ -37385,7 +37216,6 @@
 	{Entity "cwps3_proj_point" 0x1c7f
 		{Position -16990.8 -815.83 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10300}
 		{Component "rus_active"
@@ -37499,7 +37329,6 @@
 	{Entity "cwps3_proj_point" 0x1c91
 		{Position -19846.9 -961.49 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10301}
 		{Component "rus_active"
@@ -37545,7 +37374,6 @@
 	{Entity "cwps3_proj_point" 0x1c92
 		{Position -19846.9 -961.49 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10302}
 		{Component "rus_active"
@@ -37591,7 +37419,6 @@
 	{Entity "cwps3_proj_point" 0x1c93
 		{Position -19846.9 -961.49 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10303}
 		{Component "rus_active"
@@ -37637,7 +37464,6 @@
 	{Entity "cwps3_proj_point" 0x1c94
 		{Position -19846.9 -961.49 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10304}
 		{Component "rus_active"
@@ -37803,7 +37629,6 @@
 	{Entity "cwps3_proj_point" 0x1cb3
 		{Position -18125.8 -111.87 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10305}
 		{Component "rus_active"
@@ -37849,7 +37674,6 @@
 	{Entity "cwps3_proj_point" 0x1cb4
 		{Position -18125.8 -111.87 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10306}
 		{Component "rus_active"
@@ -37895,7 +37719,6 @@
 	{Entity "cwps3_proj_point" 0x1cb5
 		{Position -18125.8 -111.87 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10307}
 		{Component "rus_active"
@@ -37941,7 +37764,6 @@
 	{Entity "cwps3_proj_point" 0x1cb6
 		{Position -18125.8 -111.87 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10308}
 		{Component "rus_active"
@@ -38035,7 +37857,6 @@
 	{Entity "cwps3_proj_point" 0x1cc3
 		{Position -17194.8 -64.13 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10309}
 		{Component "rus_active"
@@ -38081,7 +37902,6 @@
 	{Entity "cwps3_proj_point" 0x1cc4
 		{Position -17194.8 -64.13 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10310}
 		{Component "rus_active"
@@ -38127,7 +37947,6 @@
 	{Entity "cwps3_proj_point" 0x1cc5
 		{Position -17194.8 -64.13 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10311}
 		{Component "rus_active"
@@ -38173,7 +37992,6 @@
 	{Entity "cwps3_proj_point" 0x1cc6
 		{Position -17194.8 -64.13 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10312}
 		{Component "rus_active"
@@ -38219,7 +38037,6 @@
 	{Entity "cwps3_proj_point" 0x1cc7
 		{Position -16809 91.11 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10313}
 		{Component "rus_active"
@@ -38265,7 +38082,6 @@
 	{Entity "cwps3_proj_point" 0x1cc8
 		{Position -16809 91.11 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10314}
 		{Component "rus_active"
@@ -38311,7 +38127,6 @@
 	{Entity "cwps3_proj_point" 0x1cc9
 		{Position -16809 91.11 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10315}
 		{Component "rus_active"
@@ -38357,7 +38172,6 @@
 	{Entity "cwps3_proj_point" 0x1cca
 		{Position -16809 91.11 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10316}
 		{Component "rus_active"
@@ -38471,7 +38285,6 @@
 	{Entity "cwps3_proj_point" 0x1cdc
 		{Position -19665.1 -54.55 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10317}
 		{Component "rus_active"
@@ -38517,7 +38330,6 @@
 	{Entity "cwps3_proj_point" 0x1cdd
 		{Position -19665.1 -54.55 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10318}
 		{Component "rus_active"
@@ -38563,7 +38375,6 @@
 	{Entity "cwps3_proj_point" 0x1cde
 		{Position -19665.1 -54.55 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10319}
 		{Component "rus_active"
@@ -38609,7 +38420,6 @@
 	{Entity "cwps3_proj_point" 0x1cdf
 		{Position -19665.1 -54.55 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10320}
 		{Component "rus_active"
@@ -38775,7 +38585,6 @@
 	{Entity "cwps3_proj_point" 0x1cfe
 		{Position -20664.1 3097.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10321}
 		{Component "rus_active"
@@ -38821,7 +38630,6 @@
 	{Entity "cwps3_proj_point" 0x1cff
 		{Position -20664.1 3097.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10322}
 		{Component "rus_active"
@@ -38867,7 +38675,6 @@
 	{Entity "cwps3_proj_point" 0x1d00
 		{Position -20664.1 3097.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10323}
 		{Component "rus_active"
@@ -38913,7 +38720,6 @@
 	{Entity "cwps3_proj_point" 0x1d01
 		{Position -20664.1 3097.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10324}
 		{Component "rus_active"
@@ -39007,7 +38813,6 @@
 	{Entity "cwps3_proj_point" 0x1d0e
 		{Position -19733.1 3145.57 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10325}
 		{Component "rus_active"
@@ -39053,7 +38858,6 @@
 	{Entity "cwps3_proj_point" 0x1d0f
 		{Position -19733.1 3145.57 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10326}
 		{Component "rus_active"
@@ -39099,7 +38903,6 @@
 	{Entity "cwps3_proj_point" 0x1d10
 		{Position -19733.1 3145.57 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10327}
 		{Component "rus_active"
@@ -39145,7 +38948,6 @@
 	{Entity "cwps3_proj_point" 0x1d11
 		{Position -19733.1 3145.57 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10328}
 		{Component "rus_active"
@@ -39191,7 +38993,6 @@
 	{Entity "cwps3_proj_point" 0x1d12
 		{Position -19347.3 3300.81 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10329}
 		{Component "rus_active"
@@ -39237,7 +39038,6 @@
 	{Entity "cwps3_proj_point" 0x1d13
 		{Position -19347.3 3300.81 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10330}
 		{Component "rus_active"
@@ -39283,7 +39083,6 @@
 	{Entity "cwps3_proj_point" 0x1d14
 		{Position -19347.3 3300.81 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10331}
 		{Component "rus_active"
@@ -39329,7 +39128,6 @@
 	{Entity "cwps3_proj_point" 0x1d15
 		{Position -19347.3 3300.81 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10332}
 		{Component "rus_active"
@@ -39443,7 +39241,6 @@
 	{Entity "cwps3_proj_point" 0x1d27
 		{Position -22203.4 3155.15 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10333}
 		{Component "rus_active"
@@ -39489,7 +39286,6 @@
 	{Entity "cwps3_proj_point" 0x1d28
 		{Position -22203.4 3155.15 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10334}
 		{Component "rus_active"
@@ -39535,7 +39331,6 @@
 	{Entity "cwps3_proj_point" 0x1d29
 		{Position -22203.4 3155.15 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10335}
 		{Component "rus_active"
@@ -39581,7 +39376,6 @@
 	{Entity "cwps3_proj_point" 0x1d2a
 		{Position -22203.4 3155.15 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10336}
 		{Component "rus_active"
@@ -39747,7 +39541,6 @@
 	{Entity "cwps3_proj_point" 0x1d49
 		{Position -17520.7 3095.42 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10337}
 		{Component "rus_active"
@@ -39793,7 +39586,6 @@
 	{Entity "cwps3_proj_point" 0x1d4a
 		{Position -17520.7 3095.42 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10338}
 		{Component "rus_active"
@@ -39839,7 +39631,6 @@
 	{Entity "cwps3_proj_point" 0x1d4b
 		{Position -17520.7 3095.42 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10339}
 		{Component "rus_active"
@@ -39885,7 +39676,6 @@
 	{Entity "cwps3_proj_point" 0x1d4c
 		{Position -17520.7 3095.42 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10340}
 		{Component "rus_active"
@@ -39979,7 +39769,6 @@
 	{Entity "cwps3_proj_point" 0x1d59
 		{Position -16589.7 3143.16 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10341}
 		{Component "rus_active"
@@ -40025,7 +39814,6 @@
 	{Entity "cwps3_proj_point" 0x1d5a
 		{Position -16589.7 3143.16 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10342}
 		{Component "rus_active"
@@ -40071,7 +39859,6 @@
 	{Entity "cwps3_proj_point" 0x1d5b
 		{Position -16589.7 3143.16 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10343}
 		{Component "rus_active"
@@ -40117,7 +39904,6 @@
 	{Entity "cwps3_proj_point" 0x1d5c
 		{Position -16589.7 3143.16 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10344}
 		{Component "rus_active"
@@ -40163,7 +39949,6 @@
 	{Entity "cwps3_proj_point" 0x1d5d
 		{Position -16203.9 3298.4 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10345}
 		{Component "rus_active"
@@ -40209,7 +39994,6 @@
 	{Entity "cwps3_proj_point" 0x1d5e
 		{Position -16203.9 3298.4 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10346}
 		{Component "rus_active"
@@ -40255,7 +40039,6 @@
 	{Entity "cwps3_proj_point" 0x1d5f
 		{Position -16203.9 3298.4 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10347}
 		{Component "rus_active"
@@ -40301,7 +40084,6 @@
 	{Entity "cwps3_proj_point" 0x1d60
 		{Position -16203.9 3298.4 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10348}
 		{Component "rus_active"
@@ -40415,7 +40197,6 @@
 	{Entity "cwps3_proj_point" 0x1d72
 		{Position -19060 3152.74 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10349}
 		{Component "rus_active"
@@ -40461,7 +40242,6 @@
 	{Entity "cwps3_proj_point" 0x1d73
 		{Position -19060 3152.74 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10350}
 		{Component "rus_active"
@@ -40507,7 +40287,6 @@
 	{Entity "cwps3_proj_point" 0x1d74
 		{Position -19060 3152.74 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10351}
 		{Component "rus_active"
@@ -40553,7 +40332,6 @@
 	{Entity "cwps3_proj_point" 0x1d75
 		{Position -19060 3152.74 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10352}
 		{Component "rus_active"
@@ -40719,7 +40497,6 @@
 	{Entity "cwps3_proj_point" 0x1d94
 		{Position -17450.5 3303.84 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10353}
 		{Component "rus_active"
@@ -40765,7 +40542,6 @@
 	{Entity "cwps3_proj_point" 0x1d95
 		{Position -17450.5 3303.84 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10354}
 		{Component "rus_active"
@@ -40811,7 +40587,6 @@
 	{Entity "cwps3_proj_point" 0x1d96
 		{Position -17450.5 3303.84 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10355}
 		{Component "rus_active"
@@ -40857,7 +40632,6 @@
 	{Entity "cwps3_proj_point" 0x1d97
 		{Position -17450.5 3303.84 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10356}
 		{Component "rus_active"
@@ -40951,7 +40725,6 @@
 	{Entity "cwps3_proj_point" 0x1da4
 		{Position -18371.1 3157.28 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10357}
 		{Component "rus_active"
@@ -40997,7 +40770,6 @@
 	{Entity "cwps3_proj_point" 0x1da5
 		{Position -18371.1 3157.28 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10358}
 		{Component "rus_active"
@@ -41043,7 +40815,6 @@
 	{Entity "cwps3_proj_point" 0x1da6
 		{Position -18371.1 3157.28 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10359}
 		{Component "rus_active"
@@ -41089,7 +40860,6 @@
 	{Entity "cwps3_proj_point" 0x1da7
 		{Position -18371.1 3157.28 120}
 		{xform zl 46.33}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10360}
 		{Component "rus_active"
@@ -41135,7 +40905,6 @@
 	{Entity "cwps3_proj_point" 0x1da8
 		{Position -18738.2 2961.86 120}
 		{xform zl 15.15}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10361}
 		{Component "rus_active"
@@ -41181,7 +40950,6 @@
 	{Entity "cwps3_proj_point" 0x1da9
 		{Position -18738.2 2961.86 120}
 		{xform zl 15.15}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10362}
 		{Component "rus_active"
@@ -41227,7 +40995,6 @@
 	{Entity "cwps3_proj_point" 0x1daa
 		{Position -18738.2 2961.86 120}
 		{xform zl 15.15}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10363}
 		{Component "rus_active"
@@ -41273,7 +41040,6 @@
 	{Entity "cwps3_proj_point" 0x1dab
 		{Position -18738.2 2961.86 120}
 		{xform zl 15.15}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10364}
 		{Component "rus_active"
@@ -41387,7 +41153,6 @@
 	{Entity "cwps3_proj_point" 0x1dbd
 		{Position -15913.8 3410.68 120}
 		{xform zl 41.75}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10365}
 		{Component "rus_active"
@@ -41433,7 +41198,6 @@
 	{Entity "cwps3_proj_point" 0x1dbe
 		{Position -15913.8 3410.68 120}
 		{xform zl 41.75}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10366}
 		{Component "rus_active"
@@ -41479,7 +41243,6 @@
 	{Entity "cwps3_proj_point" 0x1dbf
 		{Position -15913.8 3410.68 120}
 		{xform zl 41.75}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10367}
 		{Component "rus_active"
@@ -41525,7 +41288,6 @@
 	{Entity "cwps3_proj_point" 0x1dc0
 		{Position -15913.8 3410.68 120}
 		{xform zl 41.75}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10368}
 		{Component "rus_active"
@@ -41691,7 +41453,6 @@
 	{Entity "cwps3_proj_point" 0x1ddf
 		{Position -18777.8 600.09 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10369}
 		{Component "rus_active"
@@ -41737,7 +41498,6 @@
 	{Entity "cwps3_proj_point" 0x1de0
 		{Position -18777.8 600.09 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10370}
 		{Component "rus_active"
@@ -41783,7 +41543,6 @@
 	{Entity "cwps3_proj_point" 0x1de1
 		{Position -18777.8 600.09 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10371}
 		{Component "rus_active"
@@ -41829,7 +41588,6 @@
 	{Entity "cwps3_proj_point" 0x1de2
 		{Position -18777.8 600.09 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10372}
 		{Component "rus_active"
@@ -41923,7 +41681,6 @@
 	{Entity "cwps3_proj_point" 0x1def
 		{Position -17846.8 647.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10373}
 		{Component "rus_active"
@@ -41969,7 +41726,6 @@
 	{Entity "cwps3_proj_point" 0x1df0
 		{Position -17846.8 647.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10374}
 		{Component "rus_active"
@@ -42015,7 +41771,6 @@
 	{Entity "cwps3_proj_point" 0x1df1
 		{Position -17846.8 647.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10375}
 		{Component "rus_active"
@@ -42061,7 +41816,6 @@
 	{Entity "cwps3_proj_point" 0x1df2
 		{Position -17846.8 647.83 120}
 		{xform zl -139.78}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10376}
 		{Component "rus_active"
@@ -42107,7 +41861,6 @@
 	{Entity "cwps3_proj_point" 0x1df3
 		{Position -17461 803.07 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10377}
 		{Component "rus_active"
@@ -42153,7 +41906,6 @@
 	{Entity "cwps3_proj_point" 0x1df4
 		{Position -17461 803.07 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10378}
 		{Component "rus_active"
@@ -42199,7 +41951,6 @@
 	{Entity "cwps3_proj_point" 0x1df5
 		{Position -17461 803.07 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10379}
 		{Component "rus_active"
@@ -42245,7 +41996,6 @@
 	{Entity "cwps3_proj_point" 0x1df6
 		{Position -17461 803.07 120}
 		{xform zl -170.96}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10380}
 		{Component "rus_active"
@@ -42331,7 +42081,6 @@
 	{Entity "cwps3_proj_point" 0x1e08
 		{Position -20317.1 657.41 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10381}
 		{Component "rus_active"
@@ -42377,7 +42126,6 @@
 	{Entity "cwps3_proj_point" 0x1e09
 		{Position -20317.1 657.41 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10382}
 		{Component "rus_active"
@@ -42423,7 +42171,6 @@
 	{Entity "cwps3_proj_point" 0x1e0a
 		{Position -20317.1 657.41 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10383}
 		{Component "rus_active"
@@ -42469,7 +42216,6 @@
 	{Entity "cwps3_proj_point" 0x1e0b
 		{Position -20317.1 657.41 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10384}
 		{Component "rus_active"
@@ -42595,7 +42341,6 @@
 	{Entity "cwps3_proj_point" 0x1e3a
 		{Position -20765.5 1477.44 120}
 		{xform zl -56.34}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10389}
 		{Component "rus_active"
@@ -42641,7 +42386,6 @@
 	{Entity "cwps3_proj_point" 0x1e3b
 		{Position -20765.5 1477.44 120}
 		{xform zl -56.34}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10390}
 		{Component "rus_active"
@@ -42687,7 +42431,6 @@
 	{Entity "cwps3_proj_point" 0x1e3c
 		{Position -20765.5 1477.44 120}
 		{xform zl -56.34}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10391}
 		{Component "rus_active"
@@ -42733,7 +42476,6 @@
 	{Entity "cwps3_proj_point" 0x1e3d
 		{Position -20765.5 1477.44 120}
 		{xform zl -56.34}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10392}
 		{Component "rus_active"
@@ -42779,7 +42521,6 @@
 	{Entity "cwps3_proj_point" 0x1e3e
 		{Position -20875.6 1878.45 120}
 		{xform zl -87.52}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10393}
 		{Component "rus_active"
@@ -42825,7 +42566,6 @@
 	{Entity "cwps3_proj_point" 0x1e3f
 		{Position -20875.6 1878.45 120}
 		{xform zl -87.52}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10394}
 		{Component "rus_active"
@@ -42871,7 +42611,6 @@
 	{Entity "cwps3_proj_point" 0x1e40
 		{Position -20875.6 1878.45 120}
 		{xform zl -87.52}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10395}
 		{Component "rus_active"
@@ -42917,7 +42656,6 @@
 	{Entity "cwps3_proj_point" 0x1e41
 		{Position -20875.6 1878.45 120}
 		{xform zl -87.52}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10396}
 		{Component "rus_active"
@@ -43031,7 +42769,6 @@
 	{Entity "cwps3_proj_point" 0x1e53
 		{Position -21057.4 -975.58 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10397}
 		{Component "rus_active"
@@ -43077,7 +42814,6 @@
 	{Entity "cwps3_proj_point" 0x1e54
 		{Position -21057.4 -975.58 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10398}
 		{Component "rus_active"
@@ -43123,7 +42859,6 @@
 	{Entity "cwps3_proj_point" 0x1e55
 		{Position -21057.4 -975.58 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10399}
 		{Component "rus_active"
@@ -43169,7 +42904,6 @@
 	{Entity "cwps3_proj_point" 0x1e56
 		{Position -21057.4 -975.58 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10400}
 		{Component "rus_active"
@@ -43294,7 +43028,6 @@
 	}
 	{Entity "cwps3_proj_point" 0x1e6b
 		{Position -19897 1729.76}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10401}
 		{Component "rus_active"
@@ -43372,7 +43105,6 @@
 	{Entity "cwps3_proj_point" 0x1e79
 		{Position -20486.4 1514.9 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10402}
 		{Component "rus_active"
@@ -43418,7 +43150,6 @@
 	{Entity "cwps3_proj_point" 0x1e7a
 		{Position -20486.4 1514.9 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10403}
 		{Component "rus_active"
@@ -43464,7 +43195,6 @@
 	{Entity "cwps3_proj_point" 0x1e7b
 		{Position -20486.4 1514.9 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10404}
 		{Component "rus_active"
@@ -43510,7 +43240,6 @@
 	{Entity "cwps3_proj_point" 0x1e7c
 		{Position -20486.4 1514.9 120}
 		{xform zl -144.36}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10405}
 		{Component "rus_active"
@@ -43888,7 +43617,6 @@
 	{Entity "cwps3_proj_point" 0x5852
 		{Position -22611.6 1184.15 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10418}
 		{Component "rus_active"
@@ -43934,7 +43662,6 @@
 	{Entity "cwps3_proj_point" 0x5853
 		{Position -22611.6 1184.15 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10419}
 		{Component "rus_active"
@@ -43980,7 +43707,6 @@
 	{Entity "cwps3_proj_point" 0x5854
 		{Position -22611.6 1184.15 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10420}
 		{Component "rus_active"
@@ -44026,7 +43752,6 @@
 	{Entity "cwps3_proj_point" 0x5855
 		{Position -22611.6 1184.15 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10421}
 		{Component "rus_active"
@@ -44176,7 +43901,6 @@
 	{Entity "cwps3_proj_point" 0x5870
 		{Position -22606.5 -501.65 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10422}
 		{Component "rus_active"
@@ -44222,7 +43946,6 @@
 	{Entity "cwps3_proj_point" 0x5871
 		{Position -22606.5 -501.65 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10423}
 		{Component "rus_active"
@@ -44268,7 +43991,6 @@
 	{Entity "cwps3_proj_point" 0x5872
 		{Position -22606.5 -501.65 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10424}
 		{Component "rus_active"
@@ -44314,7 +44036,6 @@
 	{Entity "cwps3_proj_point" 0x5873
 		{Position -22606.5 -501.65 120}
 		{xform zl 19.62}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10425}
 		{Component "rus_active"
@@ -44428,7 +44149,6 @@
 	{Entity "cwps3_proj_point" 0x5886
 		{Position -22088.4 -535.66 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10426}
 		{Component "rus_active"
@@ -44474,7 +44194,6 @@
 	{Entity "cwps3_proj_point" 0x5887
 		{Position -22088.4 -535.66 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10427}
 		{Component "rus_active"
@@ -44520,7 +44239,6 @@
 	{Entity "cwps3_proj_point" 0x5888
 		{Position -22088.4 -535.66 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10428}
 		{Component "rus_active"
@@ -44566,7 +44284,6 @@
 	{Entity "cwps3_proj_point" 0x5889
 		{Position -22088.4 -535.66 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10429}
 		{Component "rus_active"
@@ -44660,7 +44377,6 @@
 	{Entity "cwps3_proj_point" 0x5896
 		{Position -22401.9 -1413.59 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10430}
 		{Component "rus_active"
@@ -44706,7 +44422,6 @@
 	{Entity "cwps3_proj_point" 0x5897
 		{Position -22401.9 -1413.59 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10431}
 		{Component "rus_active"
@@ -44752,7 +44467,6 @@
 	{Entity "cwps3_proj_point" 0x5898
 		{Position -22401.9 -1413.59 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10432}
 		{Component "rus_active"
@@ -44798,7 +44512,6 @@
 	{Entity "cwps3_proj_point" 0x5899
 		{Position -22401.9 -1413.59 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10433}
 		{Component "rus_active"
@@ -44980,7 +44693,6 @@
 	{Entity "cwps3_proj_point" 0x58da
 		{Position -22162.3 -1406.57 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10438}
 		{Component "rus_active"
@@ -45026,7 +44738,6 @@
 	{Entity "cwps3_proj_point" 0x58db
 		{Position -22162.3 -1406.57 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10439}
 		{Component "rus_active"
@@ -45072,7 +44783,6 @@
 	{Entity "cwps3_proj_point" 0x58dc
 		{Position -22162.3 -1406.57 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10440}
 		{Component "rus_active"
@@ -45118,7 +44828,6 @@
 	{Entity "cwps3_proj_point" 0x58dd
 		{Position -22162.3 -1406.57 120}
 		{xform zl 107.64}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10441}
 		{Component "rus_active"
@@ -45308,7 +45017,6 @@
 	{Entity "cwps3_proj_point" 0x381a
 		{Position -21262.9 595.51 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10385}
 		{Component "rus_active"
@@ -45354,7 +45062,6 @@
 	{Entity "cwps3_proj_point" 0x381b
 		{Position -21262.9 595.51 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10386}
 		{Component "rus_active"
@@ -45400,7 +45107,6 @@
 	{Entity "cwps3_proj_point" 0x381c
 		{Position -21262.9 595.51 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10387}
 		{Component "rus_active"
@@ -45446,7 +45152,6 @@
 	{Entity "cwps3_proj_point" 0x381d
 		{Position -21262.9 595.51 120}
 		{xform zl -60.92}
-		{SpawnedInFog}
 		{Player 255}
 		{MID 10388}
 		{Component "rus_active"
@@ -49877,11 +49582,6 @@
 		{xform zl -47.85}
 		{TexMod "win"}
 	}
-	{Entity "factory_wall_01" 0x101
-		{Volume "detail2"
-			{disabled}
-		}
-	}
 	{Entity "powerpole_metal" 0x4c0
 		{Position -9679.77 -1514.55}
 		{xform zl 95.53}
@@ -52080,9 +51780,6 @@
 		{Volume "detail1"
 			{disabled}
 		}
-		{Volume "detail2"
-			{disabled}
-		}
 	}
 	{Entity "dot2_v" 0x62f
 		{Position 17683.3 1319.87 -27.07}
@@ -52101,24 +51798,16 @@
 		{xform zl 1.25}
 	}
 	{Entity "factory_wall_01" 0xf9
-		{Volume "detail2"
+		{Volume "detail1"
 			{disabled}
 		}
 	}
 	{Entity "factory_wall_01" 0xfb
-		{Volume "detail1"
-			{disabled}
-		}
-	}
-	{Entity "factory_wall_01" 0xfc
-		{Volume "detail1"
-			{disabled}
-		}
 		{Volume "detail2"
 			{disabled}
 		}
 	}
-	{Entity "factory_wall_01" 0xfd
+	{Entity "factory_wall_01" 0xfc
 		{Volume "detail1"
 			{disabled}
 		}
@@ -52129,9 +51818,6 @@
 		}
 	}
 	{Entity "factory_wall_01" 0x105
-		{Volume "detail1"
-			{disabled}
-		}
 		{Volume "detail2"
 			{disabled}
 		}
@@ -52142,22 +51828,6 @@
 		}
 	}
 	{Entity "factory_wall_01" 0xf7
-		{Volume "detail1"
-			{disabled}
-		}
-	}
-	{Entity "factory_wall_01" 0xf8
-		{Volume "detail1"
-			{disabled}
-		}
-		{Volume "detail2"
-			{disabled}
-		}
-	}
-	{Entity "factory_wall_01" 0x109
-		{Volume "detail1"
-			{disabled}
-		}
 		{Volume "detail2"
 			{disabled}
 		}
@@ -52171,16 +51841,8 @@
 		{Volume "detail1"
 			{disabled}
 		}
-		{Volume "detail2"
-			{disabled}
-		}
 	}
 	{Entity "factory_wall_01" 0xf3
-		{Volume "detail2"
-			{disabled}
-		}
-	}
-	{Entity "factory_wall_01" 0xf4
 		{Volume "detail1"
 			{disabled}
 		}
@@ -52189,15 +51851,7 @@
 		}
 	}
 	{Entity "factory_wall_01" 0x106
-		{Volume "detail2"
-			{disabled}
-		}
-	}
-	{Entity "factory_wall_01" 0x10e
 		{Volume "detail1"
-			{disabled}
-		}
-		{Volume "detail2"
 			{disabled}
 		}
 	}
@@ -52207,28 +51861,27 @@
 		}
 	}
 	{Entity "factory_wall_01" 0x116
-		{Volume "detail1"
+		{Volume "detail2"
 			{disabled}
 		}
 	}
 	{Entity "factory_wall_01" 0x118
+		{Volume "detail1"
+			{disabled}
+		}
 		{Volume "detail2"
 			{disabled}
 		}
 	}
 	{Entity "factory_wall_01" 0x125
-		{Volume "detail1"
-			{disabled}
-		}
 		{Volume "detail2"
 			{disabled}
 		}
 	}
-	{Entity "angar2d_r5" 0x2d
-	}
-	{Entity "wooden_hut_c1" 0xf1
-	}
 	{Entity "factory_wall_01" 0xf5
+		{Volume "detail1"
+			{disabled}
+		}
 		{Volume "detail2"
 			{disabled}
 		}
@@ -52237,11 +51890,11 @@
 		{Volume "detail1"
 			{disabled}
 		}
-	}
-	{Entity "factory_wall_01" 0xff
-		{Volume "detail1"
+		{Volume "detail2"
 			{disabled}
 		}
+	}
+	{Entity "factory_wall_01" 0xff
 		{Volume "detail2"
 			{disabled}
 		}
@@ -52250,14 +51903,17 @@
 		{Volume "detail1"
 			{disabled}
 		}
-	}
-	{Entity "factory_wall_01" 0x107
 		{Volume "detail2"
 			{disabled}
 		}
 	}
+	{Entity "factory_wall_01" 0x107
+		{Volume "detail1"
+			{disabled}
+		}
+	}
 	{Entity "factory_wall_01" 0x10d
-		{Volume "detail2"
+		{Volume "detail1"
 			{disabled}
 		}
 	}
@@ -52275,7 +51931,7 @@
 		}
 	}
 	{Entity "factory_wall_01" 0x114
-		{Volume "detail1"
+		{Volume "detail2"
 			{disabled}
 		}
 	}
@@ -52289,7 +51945,65 @@
 			{disabled}
 		}
 	}
-	{Link 0x2d {0x4043 "r5"}}
+	{Entity "factory_wall_01" 0xf6
+		{Volume "detail1"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0xfe
+		{Volume "detail1"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x10a
+		{Volume "detail1"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x112
+		{Volume "detail1"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x113
+		{Volume "detail2"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x119
+		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail2"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x11b
+		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail2"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x11d
+		{Volume "detail2"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x122
+		{Volume "detail2"
+			{disabled}
+		}
+	}
+	{Entity "factory_wall_01" 0x127
+		{Volume "detail1"
+			{disabled}
+		}
+		{Volume "detail2"
+			{disabled}
+		}
+	}
 	{Link 0x1f5 {0x3b3 "dummy_cnt"}}
 	{Link 0x3036 {0x304a "3"}}
 	{Link 0x3037 {0x304a "2"}}
@@ -52395,49 +52109,49 @@
 	{Link 0x207e {0x20df "04"}}
 	{Link 0x53b5 {0x53b6 "cwps_proj_point"}}
 	{Link 0x53b9 {0x53ba "cwps_proj_point"}}
-	{Link 0xf1 {0x6017 "wooden_hut_c1"}}
-	{Link 0x103 {0x2a "1"}}
 	{Link 0xf5 {0x2a "2"}}
 	{Link 0xf9 {0x2a "3"}}
-	{Link 0x101 {0x2a "4"}}
 	{Link 0xf3 {0x2a "5"}}
 	{Link 0xfb {0x2a "6"}}
 	{Link 0xfc {0x2a "7"}}
-	{Link 0xf4 {0x2a "9"}}
-	{Link 0x117 {0x2a "10"}}
+	{Link 0xf6 {0x2a "8"}}
 	{Link 0xfa {0x2a "11"}}
 	{Link 0xf7 {0x2a "12"}}
-	{Link 0xf8 {0x2a "13"}}
-	{Link 0xfd {0x2a "14"}}
 	{Link 0x94 {0x2a "15"}}
+	{Link 0xfe {0x2a "16"}}
 	{Link 0x96 {0x2a "17"}}
 	{Link 0xff {0x2a "18"}}
-	{Link 0x10b {0x51 "1"}}
 	{Link 0x10c {0x51 "2"}}
 	{Link 0x102 {0x51 "3"}}
 	{Link 0x105 {0x51 "4"}}
 	{Link 0x104 {0x51 "5"}}
 	{Link 0x107 {0x51 "6"}}
 	{Link 0x10d {0x51 "7"}}
-	{Link 0x109 {0x51 "8"}}
 	{Link 0x10f {0x51 "10"}}
 	{Link 0x110 {0x51 "11"}}
 	{Link 0x106 {0x51 "12"}}
-	{Link 0x10e {0x51 "14"}}
+	{Link 0x10a {0x51 "13"}}
+	{Link 0x112 {0x51 "15"}}
+	{Link 0x113 {0x51 "16"}}
 	{Link 0x114 {0x51 "17"}}
 	{Link 0x111 {0x51 "18"}}
 	{Link 0x11a {0x65 "1"}}
+	{Link 0x119 {0x65 "2"}}
+	{Link 0x11b {0x65 "3"}}
 	{Link 0x11c {0x65 "4"}}
+	{Link 0x11d {0x65 "5"}}
 	{Link 0x116 {0x65 "6"}}
 	{Link 0x120 {0x65 "7"}}
 	{Link 0x118 {0x65 "8"}}
 	{Link 0x11f {0x65 "9"}}
+	{Link 0x122 {0x65 "11"}}
 	{Link 0x124 {0x65 "12"}}
 	{Link 0x121 {0x65 "13"}}
 	{Link 0x123 {0x65 "14"}}
 	{Link 0x126 {0x65 "15"}}
 	{Link 0x125 {0x65 "16"}}
 	{Link 0x128 {0x65 "17"}}
+	{Link 0x127 {0x65 "18"}}
 	{Link 0x40ff {0x409d "72"}}
 	{Link 0x227 {0x3077 "c14"}}
 	{Link 0x22c {0x3077 "c19"}}
