@@ -121,6 +121,14 @@
 	
 	{item "pkm_ammo ammo" 100 		{max 600}	{value 4}}
 )
+(define "fpv"
+	{item "fpv_drone" 1 {max 3}{value 20}}
+	{item "fpv_drone120" 1 {max 3}{value 20}}
+
+)
+(define "tochka"
+	{item "tochka f ammo" 1 {max 1}{value 200}}
+)
 (define "smallarms_usa"
 	{item "nato_pg cm ammo" 1 {max 8}{value 1}}
 ;	{item "40x46_natopg fg ammo" 1 {max 4}{value 1}}
@@ -505,6 +513,8 @@
     {item "bullet152_RUS_r fg ammo" 1 {max 40}{value 15}}	
 ;	{item "bullet152_RUS sm ammo" 1 {max 2}{value 15}}				
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}				
+	{item "3vof34 ammo" 1 {max 20}{value 35}}
+	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 	{item "bullet152_RUS_korr2 fg bullet152_RUS ammo" 1 {max 30}{value 15}}				
 	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
@@ -565,6 +575,8 @@
     {item "phl03 bre3 fg ammo" 4 {max 12}{value 160}}
 )
 (define "grad"
+	{item "shahed136 base ammo" 1 {max 5}{value 30}}	
+	{item "ammo r17" 1 {max 1} {value 300}}	
 	{item "grad rok ammo" 8 {max 40}{value 100}}
     {item "tos1a fg ammo" 2 {max 24}{value 30}}	
 ;	{item "grad cl ammo" 10 {max 40}{value 50}}				
@@ -592,9 +604,6 @@
 (define "m270_nato"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}		
 	;{item "m270 cl ammo" 6 {max 12}{value 20}}		
-)
-(define "shahed136"
-	{item "shahed136 base ammo" 1 {max 5}{value 70}}
 )
 
 
@@ -679,6 +688,7 @@
     {item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
+	{item "9m33_rocket ammo" 2 {max 12}{value 9}}	
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
 	{item "rvv-ae ammo" 1 {max 4}{value 5}}				
 	{item "rvv-md ammo" 1 {max 2}{value 5}}				
@@ -1264,13 +1274,6 @@
 			("rpg_cn")
 			("atgm_cn")
 			("manpads_cn")
-			;for Iran
-			("smallarms_rus")
-			("hmgun_rus")
-			("autocannons_rus")
-			("c5")
-			("rpg_rus")
-			("atgm_rus")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
@@ -1522,58 +1525,11 @@
 			("manpads_cn")
 			("152mm")
 			("155mm_cn")
-			;for Iran
-			("shahed136")
-			("smallarms_rus")
-			("hmgun_rus")
-			("autocannons_rus")
-			("c5")
-			("rpg_rus")
-			("atgm_rus")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
 		{regenerationPeriod 4.4}
 		{limit 				200}
-	}
-	("supply_decal")
-)
-(define "mp_cwr_cn_common_medium"
-	{extender "supply_zone"
-		{resupply
-			("smallarms_cn")
-			("hmgun_cn")
-			("ags_cn")
-			("mortar_cn")
-			("type63_cn")
-			("autocannons_cn")
-			("100mm_bmp3")
-			("100mm_rapira")
-			("105mm_cn")
-			("120mm_cn_mine")
-			("122mm")
-			("125mm_cn")
-			("125mm")
-			("smokes")
-			("rpg_cn")
-			("atgm_cn")
-			("manpads_cn")
-			("152mm")
-			("155mm_cn")
-			("shahed136")
-			;for Iran
-			("shahed136")
-			("smallarms_rus")
-			("hmgun_rus")
-			("autocannons_rus")
-			("c5")
-			("rpg_rus")
-			("atgm_rus")
-		}
-		{radius 			10}
-		{resupplyPeriod 	8}
-		{regenerationPeriod 4.4}
-		{limit 				130}
 	}
 	("supply_decal")
 )
@@ -1610,6 +1566,125 @@
 		{resupplyPeriod 	5}
 		{regenerationPeriod 2.4}
 		{limit 				900}
+	}
+	("supply_decal")
+)
+(define "mp_cwr_irg_osnv_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("fpv")
+			("hmgun_rus")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("smokes")
+			("rpg_rus")
+			("105mm_NATO")			
+			("105mm_idf")
+			("105mm_ger")
+			("105mm_fr_short")
+			("120mm_UK")
+			("120mm_GER")
+			("125mm_nato")
+			("120mm_FR")
+			("120mm_IDF")
+			("120mm_NATO_mine")
+			("155mm_NATO")
+			
+			("manpads_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("c5")
+			("120mm_USA")
+			
+		
+			("c8")
+			("c13")
+		}
+		{radius 			10}
+		{resupplyPeriod 	4}
+		{regenerationPeriod 2.3}
+		{limit 				500}
+	}
+	("supply_decal")
+)
+(define "mp_cwr_irg_heavy_boep"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_rus")
+			("fpv")
+			("hmgun_rus")
+			("tochka")
+			("ags30")
+			("mortar_rus")
+			("UAV_rus")
+			("autocannons_rus")
+			("100mm")
+			("100mm_rapira")
+			("115mm")
+			("122mm")
+			("125mm")
+			("152mm")
+			("105mm_NATO")			
+			("105mm_idf")
+			("105mm_ger")
+			("105mm_fr_short")
+			("120mm_UK")
+			("120mm_GER")
+			("125mm_nato")
+			("120mm_FR")
+			("120mm_IDF")
+			("120mm_NATO_mine")
+			("155mm_NATO")
+			
+			("smokes")
+			("rpg_rus")
+			("atgm_rus")
+			("manpads_rus")
+			("smallarms_west")
+			("smallarms_usa")
+			("rpg_usa")
+			("manpads_usa")
+			("manpads_cn")
+			("grad")
+			("mortar_cn")
+			("type63_cn")
+			("105mm_idf")
+			("105mm_usa")
+			("155mm_USA")
+			("c5")
+			("120mm_USA")
+			
+			("iskander")
+		
+			("c8")
+			("c13")
+			("air_stuff_rus")
+			("manpads_rus")
+			("atgm_rus")
+			("sam_rus")
+			("air_stuff_usa")
+		}
+		{radius 			22}
+		{resupplyPeriod 	5}
+		{regenerationPeriod 7.8}
+		{limit 				2000}
 	}
 	("supply_decal")
 )
