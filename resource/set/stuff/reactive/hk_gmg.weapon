@@ -1,18 +1,18 @@
 ﻿{weapon_bullet
 	{tag "gun cannot_lie nokeep"}
-	{filling "35x32ammo" 30}
-             	
-	{foresight "Foresight1"}
-	{fireSound "reactive\qlz_shot"}
+	{filling "40x53ammo" 30}
+	{entity "hk_gmg"}
+	{foresight "Foresight3"}
+	{fireSound "reactive\gmg_fire"}
 	{reloadSound "ags_reload"}
-	{cursor "cannon_on"}
+	;{cursor "cannon_on"}
 	{inventory
 		{size 6 2 }
 		{link_bone "gun_back"}
 		{weight 100}
 	}
 
-	{Spreading 2	
+	{Spreading 2
 		{BurstRecoveryTime 1.0}
 	}
 	{burst
@@ -20,25 +20,23 @@
 		{long 2 1}
 	}
 	{Automatic}
-
-        	 {maxRange 115}	;https://modernfirearms.net/ru/granatomety/kitaj-granatomety/qlz-04/
-	 {aimRange 115}
-
-	 ("CW_acc_grlaunch" mils(3))	
-	 ("CW_acc_grlaunch_95" mils(3))	
+	
+        	 {maxRange 125}
+	 {aimRange 125}
 	 {recoveryTime 0.16}
 	 {rechargeTime 25}
-	 
-	 {speed 45}
-	 {gravity 1.1}
-	{Spreading
+	 {speed 55}	;	;примерно, но больше АГС-30
+	{gravity 1.3}
+	 ("CW_acc_grlaunch" mils(2.25))	
+	 ("CW_acc_grlaunch_105" mils(2.25))	
+	{Spreading	
 		{SpreadXYRatio	2.5}
 		{BurstAccuracy 75 50 45 40 35}
 	}
 
 	{cursor "cannon_on_fg_3"}
 	{cursorReloading "cannon_reload_fg"}
-    {parameters "cm"     
+             {parameters "cm"     
 		;{cursor "cannon_on_heat_3"}
 		{cursor "cannon_on_heat_6"}
 		{cursorReloading "cannon_reload_heat"}
