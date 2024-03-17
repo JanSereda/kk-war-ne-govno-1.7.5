@@ -3,25 +3,29 @@
 ;Проверено Bizon и zkv2000
 ;Перепроверено и переделано за Bizon и zkv2000
 ;rev 04.07.2022
+{"btr3e_whth_pt"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
+{"btr3e"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
+
+
+{"btr4e1_ptur"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
+{"btr4e1"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
+{"btr4e1i"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
+{"btr4e"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
+{"btr4e_i"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
+{"btr4e1_whth_pt"								"<c(FFFFFF)e(shadow)>БТР-4Е</c>"}
 
 
 
 {"mi24vbomb"								"<c(FFFFFF)e(shadow)>МИ-25</c>"}
-{"btr-4e1_isis"								"<c(FFFFFF)e(shadow)>БТР-4Е</c>"}
 {"toyota_hilux_kornet"								"<c(FFFFFF)e(shadow)>Toyota Hilux с ПТРК Корнет</c>"}
 {"ztq-15"								"<c(FFFFFF)e(shadow)>ZTQ-15</c>"}
 {"2s7m_malka"								"<c(FFFFFF)e(shadow)>2C7М 'Малка'</c>"}
-
 {"uaz469_spg9"								"<c(FFFFFF)e(shadow)>УАЗ-469 с СПГ-9</c>"}
 {"uaz469_ub32"								"<c(FFFFFF)e(shadow)>УАЗ-469 с УБ-32</c>"}
-
 {"1s91_kub_radar"								"<c(FFFFFF)e(shadow)>СУРН 1с91</c>"}
 {"2k12_kub"								"<c(FFFFFF)e(shadow)>2П25 КУБ</c>"}
-
 {"milan_stan_2"								"<c(FFFFFF)e(shadow)>MILAN-ER</c>"}
-
 {"t64-55"								"<c(FFFFFF)e(shadow)>Т-64-55</c>"}
-
 {"dozor-b_1"								"<c(FFFFFF)e(shadow)>Дозор-Б</c>"}
 {"brdm2grom"								"<c(FFFFFF)e(shadow)>БРДМ-2 С 2А28</c>"}
 {"brdm_zu"								"<c(FFFFFF)e(shadow)>БРДМ-2 С ЗУ-23</c>"}
@@ -89,8 +93,7 @@
 {"mtlb_zu"					"<c(FFFFFF)e(shadow)>МТЛБ с ЗУ-23-2</c>"}
 {"grad_p"					"<c(FFFFFF)e(shadow)>9П132 Град-П («Партизан»)</c>"}
 {"m777"					"<c(FFFFFF)e(shadow)>155-мм гаубица M777</c>"}
-{"btr-4e"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
-{"btr-3e_no_pt"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
+
 {"tos-1a_solntsepek_odkb"					"<c(FFFFFF)e(shadow)>ТОС-1А Солнцепек</c>"}
 {"t72b3_blr"						"<c(FFFFFF)e(shadow)>T-72Б3 обр.2011</c>"}
 {"t72a_ser"						"<c(FFFFFF)e(shadow)>T-72А обр.1983</c>"}

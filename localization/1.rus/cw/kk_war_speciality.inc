@@ -5,8 +5,20 @@
 ;rev 04.07.2022
 
 
+
+{"btr4e1_ptur"								"<c(FFFF00)>Бронетранспортёр</c>"} 
+{"btr4e1"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+{"btr4e1i"								"<c(FFFF00)>Бронетранспортёр</c>"} 
+{"btr4e"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+{"btr4e_i"								"<c(FFFF00)>Бронетранспортёр</c>"} 
+{"btr4e1_whth_pt"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+
+{"btr3e_whth_pt"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+{"btr3e"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
+
+
+
 {"mi24vbomb"								"<c(FFFF00)>Многоцелевой ударный вертолет</c>"} 
-{"btr-4e1_isis"								"<c(FFFF00)>Бронетранспортёр</c>"} 
 {"toyota_hilux_nurs"								"<c(FFFF00)>Автомобиль</c>"} 
 {"toyota_hilux_kornet"								"<c(FFFF00)>Автомобиль</c>"} 
 {"ztq-15"								"<c(FFFF00)>Лёгкий танк</c>"} 
@@ -67,8 +79,6 @@
 {"t72_rogatka"						"<c(FFFF00)e(shadow)>Основной боевой танк</c>"}
 {"mt12_with_mtlb"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
 {"2c4_tulpan"						"<c(FFFF00)e(shadow)>Самоходный миномёт</c>"}
-{"btr-4e"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
-{"btr-3e_no_pt"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}
 {"maz-537"						"<c(FFFF00)e(shadow)>Грузовой автомобиль</c>"}
 {"kamaz_zu"						"<c(FFFF00)e(shadow)>Грузовой автомобиль</c>"}
 {"brdm2kz"						"<c(FFFF00)e(shadow)>Бронетранспортёр</c>"}

@@ -110,13 +110,213 @@
 	
 }
 
-{"btr-4"	
-	("atgm_multi_launcher"
+{"stugna-p"		
+	{on fire "gun2" 			
+		{spawn "proj_probe" "Foresight1" x {tags add "Foresight1"}}		
+	}		
+	{on "cut_parts" overload			
+		{add_view "smoke_dead_norm" "deathfx" "FXfire1"}			
+		{view start "deathfx"}			
+			(define "cut_part"				
+				{tear "piece_medium_steel" bone %0					
+					{impulse up 1 1 dir 5 2 cx 5 2 cy 5 2 rnd_dir 5 no_position}					
+					{call "check_delete_part"}				
+				}			
+			)			
+		("cut_part" args "part1")			
+		("cut_part" args "part2")			
+		("cut_part" args "part3")			
+		("cut_part" args "part5")			
+		("cut_part" args "gun")			
+		("cut_part" args "turret")			
+		{delay 14 {view stop "deathfx"}}		
+	}		
+}
+
+
+{"btr4e"
+	{on spawn			
+		{add_view "smoke_zenit" 	"zenite_smoke" "foresight1"}					
+ 	}
+	{on fire "gun" 	      	    	 
+		{spawn "BMP2_canon_fire" "Foresight1" x}								
+		{view start "flashbarrel_gun"}						
+		{view start "smoke_add"}			
+		{delay 0.16 "shell_off"			
+			{view start "zenite_smoke"}
+		}		
+		{view pause "smoke_add"}			
+		{view pause "flashbarrel_gun"}
+			
+		{delay 5			
+			{view pause "zenite_smoke"}		
+		}	
+		{spawn "gilza_30mm" "fx_invers"
+	        	{add_view "smoke_zenit" "smoke_shell" "fx_invers"}
+			{view start "smoke_shell"}
+			{impulse up 0.1 0.1 dir 4 0  cz 0.3 0.3 com }
+			{delay 5
+				{view pause "smoke_shell"}
+                        		}
+			{delay 7
+				{hide 7}
+			}
+		}
+	}
+}
+(define "btr-4e_sound"
+	{on "add_movement_sound" overload
+		{link_sound "move"		"vehicle/wheels/Truck_loop_3"}
+		{link_sound "engine"		"vehicle/engine/Brdm_engine_1"}
+		{link_sound "rotate_turret" 	"vehicle/bmp-1_ukr/turret_b1"}
+		{link_sound "exhaust"		"vehicle/engine/brdm_start"}
+		{link_sound "engine_end"	"vehicle/engine/brdm_shut_off"}
+	}
+)
+{"btr-4e"
+	("atgm_single_launcher" weapon(gun2) foresight(foresight6) tail(tailR_))
+
+
+
+
+}
+{"btr4e1"
+	{on spawn			
+		{add_view "smoke_zenit" 	"zenite_smoke" "foresight1"}					
+ 	}
+	{on fire "gun" 	      	    	 
+		{spawn "BMP2_canon_fire" "Foresight1" x}								
+		{view start "flashbarrel_gun"}						
+		{view start "smoke_add"}			
+		{delay 0.16 "shell_off"			
+			{view start "zenite_smoke"}
+		}		
+		{view pause "smoke_add"}			
+		{view pause "flashbarrel_gun"}
+			
+		{delay 5			
+			{view pause "zenite_smoke"}		
+		}	
+		{spawn "gilza_30mm" "fx_invers"
+	        	{add_view "smoke_zenit" "smoke_shell" "fx_invers"}
+			{view start "smoke_shell"}
+			{impulse up 0.1 0.1 dir 4 0  cz 0.3 0.3 com }
+			{delay 5
+				{view pause "smoke_shell"}
+                        		}
+			{delay 7
+				{hide 7}
+			}
+		}
+	}
+}
+(define "btr-4e_sound"
+	{on "add_movement_sound" overload
+		{link_sound "move"		"vehicle/wheels/Truck_loop_3"}
+		{link_sound "engine"		"vehicle/engine/Brdm_engine_1"}
+		{link_sound "rotate_turret" 	"vehicle/bmp-1_ukr/turret_b1"}
+		{link_sound "exhaust"		"vehicle/engine/brdm_start"}
+		{link_sound "engine_end"	"vehicle/engine/brdm_shut_off"}
+	}
+)
+{"btr4e1"
+	("atgm_single_launcher" weapon(gun2) foresight(foresight6) tail(tailR_))
+}
+{"btr4e1_ptur"
+	{on spawn			
+		{add_view "smoke_zenit" 	"zenite_smoke" "foresight1"}					
+ 	}
+	{on fire "gun" 	      	    	 
+		{spawn "BMP2_canon_fire" "Foresight1" x}								
+		{view start "flashbarrel_gun"}						
+		{view start "smoke_add"}			
+		{delay 0.16 "shell_off"			
+			{view start "zenite_smoke"}
+		}		
+		{view pause "smoke_add"}			
+		{view pause "flashbarrel_gun"}
+			
+		{delay 5			
+			{view pause "zenite_smoke"}		
+		}	
+		{spawn "gilza_30mm" "fx_invers"
+	        	{add_view "smoke_zenit" "smoke_shell" "fx_invers"}
+			{view start "smoke_shell"}
+			{impulse up 0.1 0.1 dir 4 0  cz 0.3 0.3 com }
+			{delay 5
+				{view pause "smoke_shell"}
+                        		}
+			{delay 7
+				{hide 7}
+			}
+		}
+	}
+}
+(define "btr4e_sound"
+	{on "add_movement_sound" overload
+		{link_sound "move"		"vehicle/wheels/Truck_loop_3"}
+		{link_sound "engine"		"vehicle/engine/Brdm_engine_1"}
+		{link_sound "rotate_turret" 	"vehicle/bmp-1_ukr/turret_b1"}
+		{link_sound "exhaust"		"vehicle/engine/brdm_start"}
+		{link_sound "engine_end"	"vehicle/engine/brdm_shut_off"}
+	}
+)
+{"btr-4e1_ptur"
+	("atgm_single_launcher" weapon(gun2) foresight(foresight6) tail(tailR_))
+}
+
+
+{"btr3e"	
+	("atgm_single_launcher"
 		weapon(gun2)
 		foresight(foresight6)
 		tail(foresight6)
 	)
 }
+
+
+{"btr-4e1_wtht_pt"
+	{on spawn			
+		{add_view "smoke_zenit" 	"zenite_smoke" "foresight1"}					
+ 	}
+	{on fire "gun" 	      	    	 
+		{spawn "BMP2_canon_fire" "Foresight1" x}								
+		{view start "flashbarrel_gun"}						
+		{view start "smoke_add"}			
+		{delay 0.16 "shell_off"			
+			{view start "zenite_smoke"}
+		}		
+		{view pause "smoke_add"}			
+		{view pause "flashbarrel_gun"}
+			
+		{delay 5			
+			{view pause "zenite_smoke"}		
+		}	
+		{spawn "gilza_30mm" "fx_invers"
+	        	{add_view "smoke_zenit" "smoke_shell" "fx_invers"}
+			{view start "smoke_shell"}
+			{impulse up 0.1 0.1 dir 4 0  cz 0.3 0.3 com }
+			{delay 5
+				{view pause "smoke_shell"}
+                        		}
+			{delay 7
+				{hide 7}
+			}
+		}
+	}
+}
+(define "btr-4e_sound"
+	{on "add_movement_sound" overload
+		{link_sound "move"		"vehicle/wheels/Truck_loop_3"}
+		{link_sound "engine"		"vehicle/engine/Brdm_engine_1"}
+		{link_sound "rotate_turret" 	"vehicle/bmp-1_ukr/turret_b1"}
+		{link_sound "exhaust"		"vehicle/engine/brdm_start"}
+		{link_sound "engine_end"	"vehicle/engine/brdm_shut_off"}
+	}
+)
+
+
+
 {"ptur_konkurs_2"	
 	("atgm_single_launcher"
 		weapon(gun)

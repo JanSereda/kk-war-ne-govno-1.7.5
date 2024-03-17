@@ -3,7 +3,7 @@
 	(include "/properties/shadow/tank.inc"  scale(1.0))
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{collider "truck"}
-	{props "vehicle" "car" "truck" "wheeled" "vision_lev03" "Kamaz"}
+	{props "vehicle" "car" "truck" "wheeled" "vision_lev03" "Kamaz" "cw_artillery"}
 	{able "emit_on_attack"}
 	("armor_medium" args 1.0)
 

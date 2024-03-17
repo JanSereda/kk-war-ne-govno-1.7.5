@@ -1,15 +1,24 @@
 ;SDL
 {units
 
-	{"mi24vbomb"			{structure "cwds_heli_attack"}}
-	{"btr-4e1_isis"			{structure "cwds_apc6"}}
-	{"ee9_cascavel"			{structure "cwds_apc6"}}
-	{"zulfiqar-3"		{structure "cwds_tank2"}}
-	{"toyota_hilux_nurs"	{structure "cwds_armcar"}}
-	{"toyota_hilux_kornet"	{structure "cwds_armcar"}}
-	{"bmp3_2022_sh1"	{structure "cwds_ifv"}}
-	{"bmp3_2022_sh2"	{structure "cwds_ifv"}}
-	{"bmp3_3_dz"		{structure "cwds_ifv"}}
+{"btr4e_i"		{structure "cwds_apc8"}}
+{"btr4e1i"		{structure "cwds_apc8"}}
+{"btr4e1"		{structure "cwds_apc8"}}
+{"btr4e1_whth_pt"		{structure "cwds_apc8"}}
+{"btr4e1_ptur"		{structure "cwds_apc8"}}
+{"btr4e"		{structure "cwds_apc8"}}
+{"btr3e_whth_pt"		{structure "cwds_apc8"}}
+{"btr3e"		{structure "cwds_apc8"}}
+
+
+{"mi24vbomb"			{structure "cwds_heli_attack"}}
+{"ee9_cascavel"			{structure "cwds_apc6"}}
+{"zulfiqar-3"		{structure "cwds_tank2"}}
+{"toyota_hilux_nurs"	{structure "cwds_armcar"}}
+{"toyota_hilux_kornet"	{structure "cwds_armcar"}}
+{"bmp3_2022_sh1"	{structure "cwds_ifv"}}
+{"bmp3_2022_sh2"	{structure "cwds_ifv"}}
+{"bmp3_3_dz"		{structure "cwds_ifv"}}
 {"ztq-15"			{structure "cwds_tank2"}}
 {"2s7m_malka"			{structure "cwds_tank2"}}
 
@@ -84,8 +93,6 @@
 {"2c4_tulpan"					{structure "cwds_tank2"}}
 {"kamaz_grad"			{structure "cwds_mlrs6"}}
 {"gaz_tigr_dz"		{structure "cwds_armcar"}}
-{"btr-4e"		{structure "cwds_apc8"}}
-{"btr-3e_no_pt"		{structure "cwds_apc8"}}
 {"dshk_trenoga"		{structure "cwds_mgun"}}
 {"zil131_2s1"		{structure "cwds_truck6"}}
 {"t72a_ser"				{structure "cwds_tank"}}

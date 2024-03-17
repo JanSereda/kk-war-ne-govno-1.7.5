@@ -131,7 +131,7 @@
 
  ;"mig-21bis_pizdec" {fore 0} ("p" c(900) sc(250) g(air_tac) b(extra) brig(iregular_specbr) s(iregular)  m(1)  i(1) cw(0) cp(40) t(all_nz aircraft   ) n(1)               ) }
  
- {"btr-4e1_isis" {fore 1} ("v" c(300) sc(50) g(BTR4) b(extra) brig(iregular_mot) s(iregular)  i(88) cw(0) cp(15) t(all_nz    ) n(3)               ) }
+ {"btr4e1_whth_pt" {fore 1} ("v" c(300) sc(50) g(BTR4) b(extra) brig(iregular_mot) s(iregular)  i(88) cw(0) cp(15) t(all_nz    ) n(3)               ) }
  {"t80ybars" {fore 0} ("p" c(960) sc(200) g(air) b(extra) brig(iregular_specbr) s(iregular)   i(2) m(3) cw(0) cp(40) t(all_nz aircraft   ) n(3)               ) }
  {"9k72" {fore 0} ("p" c(1000) sc(300) g(air_strike) b(extra)  brig(iregular_specbr) s(iregular) i(3) m(2) cw(0) cp(25) t(all_nz aircraft support_frontline  ) n(6)               ) }
  

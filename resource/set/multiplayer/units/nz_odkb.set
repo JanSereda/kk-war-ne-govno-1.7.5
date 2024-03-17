@@ -81,26 +81,26 @@
  {"dozor-b_1" {fore 1} ("vs" c(240) sc(40) g(reco) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(1) cw(10) cp(10) t(all_nz recon   ) n(3)               ) }
 ("squad_with11types_custom" side(odkb) crew_nation(odkb) name(ukr_peha) c(240) g(ukr_odk5b1) 
   c1(ukr_com) c2(ukr_mgunhelp:1) c3(ukr_mgun:1) c4(ukr_rpg:2) c5(ukr_radio:1) c6(ukr_smg2:2) c7(ukr_smg:2)
-  b(ukr_odkb_hqcar) brig(ukr_odkb) t(all_nz inf_cn) cost(90) f(1.0) 
+  b(ukr_odkb_hqcar) brig(ukr_odkb) t(all_nz inf_cn) cost(70) f(1.0) 
 )
 
 
-{"mtlb_zu" {fore 0.0} ("v" c(240) sc(130) g(pvo_kringe) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(23431) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(5)               ) }
 
-{"btr-3e_no_pt" {fore 1} ("v3" c(220) sc(80) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(211) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr-3e_no_pt) n(1) n1(vehicle_supporter:3)      ) }
-{"btr-4e" {fore 1} ("v3" c(220) sc(100) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(202) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr-4e) n(1) n1(vehicle_supporter:3)     ) }
+{"btr3e" {fore 1} ("v3" c(220) sc(80) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(211) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr3e) n(1) n1(vehicle_supporter:3)      ) }
+{"btr4e" {fore 1} ("v3" c(220) sc(100) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(202) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr4e) n(1) n1(vehicle_supporter:3)     ) }
 	
  
 
 {"kamazi_ukr" {fore 1} ("v3" c(220) sc(80) g(inf_ukr1223) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(3) cw(0) cp(2) t(all_nz inf_odkb infantry  ) n(1) c1(kamaz) n1(vehicle_supporter:1) n2(ukr_com:1) n3(ukr_mgun:1) n4(ukr_mgunhelp:1) n5(ukr_rpg:1) n6(ukr_smg:2) n7(ukr_smg2:2)       ) }
 {"bmd2_inf" {fore 1} ("v3" c(220) sc(100) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(21) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(bmd2) n(1) n1(tankman:2) n2(ukr_com:1) n3(ukr_mgun:1) n4(ukr_mgunhelp:1) n5(ukr_rpg:1) n6(ukr_smg:1) n7(ukr_smg2:1) n8(ukr_radio:1)     ) }     
-{"btr-3e_no_pt_inf" {fore 1} ("v3" c(220) sc(120) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(21) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr-3e_no_pt) n(1) n1(vehicle_supporter:3) n2(ukr_com:1) n3(ukr_mgun:2) n4(ukr_mgunhelp:1) n5(ukr_rpg:2) n6(ukr_smg:3) n7(ukr_smg2:2) n8(ukr_radio:1)     ) }
-{"btr-4e_inf" {fore 1} ("v3" c(220) sc(150) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(20) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr-4e) n(1) n1(vehicle_supporter:3) n2(ukr_com:1) n3(ukr_mgun:1) n4(ukr_mgunhelp:1) n5(ukr_rpg:1) n6(ukr_smg2:3)     ) }
+{"btr-3e_sq" {fore 1} ("v3" c(220) sc(120) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(21) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr3e_whth_pt) n(1) n1(vehicle_supporter:3) n2(ukr_com:1) n3(ukr_mgun:2) n4(ukr_mgunhelp:1) n5(ukr_rpg:2) n6(ukr_smg:3) n7(ukr_smg2:2) n8(ukr_radio:1)     ) }
+{"btr-4e_sq" {fore 1} ("v3" c(220) sc(150) g(inf_ukr_odkb_1) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(20) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(btr4e1_ptur) n(1) n1(vehicle_supporter:3) n2(ukr_com:1) n3(ukr_mgun:1) n4(ukr_mgunhelp:1) n5(ukr_rpg:1) n6(ukr_smg2:3)     ) }
 
 	
  
 {"t-64bv"		("v" c(180) t(all_nz tank_cn) brig(ukr_odkb) s(odkb) n(3) g(armbr2)  sc(155) b(ukr_odkb_hqcar) i(16) cw(0) cp(50)) {cost 160} {fore 0.0}}
 {"t-64bm1"		("v" c(300) t(all_nz tank_cn) brig(ukr_odkb) s(odkb) n(3) g(armbr3)  sc(165) b(ukr_odkb_hqcar) i(17) cw(0) cp(55)) {cost 170} {fore 0.0}}
+{"mtlb_zu" {fore 0.0} ("v" c(240) sc(130) g(pvo_kringe) b(ukr_odkb_hqcar) brig(ukr_odkb) s(odkb)  i(23431) cw(0) cp(25) t(all_nz art aat support_frontline  ) n(5)               ) }
 
 
 
@@ -108,27 +108,29 @@
 
 ("squad_with11types_custom" side(odkb) crew_nation(odkb) name(odkb_peha) c(240) g(inf_odkb_non_car) 
   c1(bel_com:1) c2(bel_mgunhelp:1) c3(bel_mgun:2) c4(bel_rpg:2) c5(bel_smg2:2)
-  b(bel_odkb_hqcar) brig(bel_odkb) t(all_nz inf_cn) cost(80) f(1.0) 
+  b(bel_odkb_hqcar) brig(bel_odkb) t(all_nz inf_cn) cost(70) f(1.0) 
 )
 ("squad_with11types_custom" side(odkb) crew_nation(odkb) name(bel_rezerv) c(240) g(inf_odkb_non_car2) 
   c1(a_bel_res_com:1) c2(a_bel_res_smg:2) c3(a_bel_res_mgun:1) c4(a_bel_res_rpg:2) c5(a_bel_res_smg2:2)
-  b(bel_odkb_hqcar) brig(bel_odkb) t(all_nz inf_cn) cost(80) f(1.0) 
+  b(bel_odkb_hqcar) brig(bel_odkb) t(all_nz inf_cn) cost(60) f(1.0) 
 )	
- {"t72b" {fore 1} ("v"  c(300) sc(150) g(obt_blr) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
- {"t72b3_blr" {fore 0} ("v" c(500) sc(179) g(obt_blr1) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(2) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
 
- 
- {"mtlbm_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(5) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mtlb_6mb) n(1) n1(vehicle_supporter:3) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
- {"btr_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(6) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr82a) n(1) n1(vehicle_supporter:2) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
  {"BLR_reservist" {fore 1} ("v3" c(290) sc(70) g(inf_reserv) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(7) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(kamaz) n(1) n1(a_bel_res_smg:1) n2(a_bel_res_com:1) n3(a_bel_res_mgun:1) n4(a_bel_res_smg:5) n5(a_bel_res_rpg:2) n6(a_bel_res_smg2:2)       ) }	
  {"BLR_motopehota" {fore 1} ("v3" c(320) sc(100) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(8) cw(0) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(kamaz) n(1) n1(bel_smg:1) n2(bel_com:1) n3(bel_mgunhelp:1) n4(bel_mgun:1) n5(bel_rpg:1) n6(bel_smg2:2) n7(bel_smg:2)     ) }	
+ {"mtlbm_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(5) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(mtlb_6mb) n(1) n1(vehicle_supporter:3) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
+ {"btr_odkb" {fore 1} ("v3" c(278) sc(110) g(inf_odkb_bel) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(6) cw(2) cp(15) t(all_nz inf_cn infantry ) c1(btr82a) n(1) n1(vehicle_supporter:2) n2(bel_com:1) n3(bel_mgun:2) n4(bel_mgunhelp:1) n5(bel_rpg:1) n6(bel_rpghelp:1) n7(bel_smg2:3)      ) }
+ 
+ {"t72b" {fore 1} ("v"  c(300) sc(150) g(obt_blr) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(1) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
+ {"t72b3_blr" {fore 0} ("v" c(500) sc(179) g(obt_blr1) b(bel_odkb_hqcar) brig(bel_odkb) s(odkb)  i(2) cw(0) cp(50) t(all_nz tank_cn   ) n(3)               ) }
 
 ;================= КАЗАХИ
 ("squad_with11types_custom" side(odkb) crew_nation(odkb) name(kz_peh) c(240) g(inf_odkb_non_ca2r2) 
   c1(kz_com:1) c2(kz_mgun:2) c3(kz_mgunhelp:1) c4(kz_smg2:3) c5(kz_smg:2) c6(kz_radio:1) 
-  b(bel_odkb_hqcar) brig(bel_odkb) t(all_nz inf_cn) cost(80) f(1.0) 
+  b(kz_odkb_hqcar) brig(kz_odkb) t(all_nz inf_cn) cost(70) f(1.0) 
 )	
 
+ {"kamaz_kz" {fore 1} ("v3" c(220) sc(90) g(inf_kz_odkb_kamaz) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(121) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(kamaz) n(1)	 n1(vehicle_supporter:1)	n2(kz_com:1) n3(kz_mgun:2) n4(kz_mgunhelp:1) n5(kz_smg2:2) n6(kz_smg:3) n7(kz_smg2:3) n8(kz_radio:1)     ) }        
+ 
  {"bmp1_new_2433" {fore 1} ("v3" c(220) sc(100) g(inf_kz_odkb) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(111) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(bmp1_new) n(1) n1(kz_tankman:3) n2(kz_com:1) n3(kz_mgun:2) n4(kz_mgunhelp:1) n5(kz_smg2:2) n6(kz_smg:3) n7(kz_smg2:3) n8(kz_radio:1)     ) }        
  {"bmp2_newii" {fore 1} ("v3" c(220) sc(120) g(inf_kz_odkb) b(kz_odkb_hqcar) brig(kz_odkb) s(odkb)  i(4) cw(0) cp(15) t(all_nz inf_cn infantry ) c1(bmp2_new) n(1) n1(kz_tankman:3) n2(kz_com:1) n3(kz_mgun:2) n4(kz_mgunhelp:1) n5(kz_smg2:2) n6(kz_smg:2) n7(kz_radio:1)     ) }        
  
