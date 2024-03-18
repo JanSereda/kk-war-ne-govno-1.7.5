@@ -5,6 +5,7 @@
 ;rev 04.07.2022
 {"btr3e_whth_pt"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
 {"btr3e"						"<c(FFFFFF)e(shadow)>БТР-3</c>"}
+{"mtlb_kamikadze"						"<c(FFFFFF)e(shadow)>МТ-ЛБ</c>"}
 
 
 {"btr4e1_ptur"						"<c(FFFFFF)e(shadow)>БТР-4 Буцефал</c>"}
