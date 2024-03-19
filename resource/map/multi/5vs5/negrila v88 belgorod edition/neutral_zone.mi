@@ -15973,11 +15973,11 @@
 						{time 1}
 					}
 					{"timer"
-						{time 160}
+						{time 185}
 						{title "& "}
 					}
 					{"delay"
-						{time 160}
+						{time 185}
 					}
 					{"timer"
 						{hide}

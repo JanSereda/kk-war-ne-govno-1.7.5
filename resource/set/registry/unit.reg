@@ -103,6 +103,7 @@
 {"tochka_y_wagner"				{structure "cwds_otrk8"}}
 {"mt12_with_mtlb"				{structure "cwds_ifv"}}
 {"mtlb_zu"				{structure "cwds_ifv"}}
+{"mtlb_kamikadze"				{structure "cwds_ifv"}}
 {"mtlb_c60"				{structure "cwds_ifv"}}
 {"mtlb_vmk_ogon"				{structure "cwds_ifv"}}
 {"mtlb_c5_vasilek"				{structure "cwds_ifv"}}
